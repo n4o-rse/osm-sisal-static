@@ -1,0 +1,140 @@
+# P102: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static 0.24.1; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/P102.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Number of an OSM version (qualifier)."@en,
+        "Nummer einer OSM-Version (Qualifier)."@de ;
+    dcterms:identifier "P102" ;
+    dcterms:isPartOf osscat:properties ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:P102 ;
+    dcterms:title "OSM version number"@en,
+        "OSM-Versionsnummer"@de ;
+    schema:about oss:P102 ;
+    dcat:distribution ossdist:P102-html,
+        ossdist:P102-json,
+        ossdist:P102-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/P102.html> .
+
+ossdist:P102-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P102, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/P102.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:P102-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P102, as archived from the Wikibase API"@en ;
+    dcat:byteSize "985"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/P102.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:P102-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P102, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:P102.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:P102
+    a wikibase:Property ;
+    schema:description "Number of an OSM version (qualifier)."@en,
+        "Nummer einer OSM-Version (Qualifier)."@de ;
+    schema:name "OSM version number"@en,
+        "OSM-Versionsnummer"@de ;
+    wikibase:claim ossp:P102 ;
+    wikibase:directClaim osst:P102 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue ossno:P102 ;
+    wikibase:propertyType wikibase:Quantity ;
+    wikibase:qualifier osspq:P102 ;
+    wikibase:qualifierValue osspqv:P102 ;
+    wikibase:reference osspr:P102 ;
+    wikibase:referenceValue ossprv:P102 ;
+    wikibase:statementProperty ossps:P102 ;
+    wikibase:statementValue osspsv:P102 ;
+    wikibase:statements "1"^^xsd:integer ;
+    rdfs:label "OSM version number"@en,
+        "OSM-Versionsnummer"@de ;
+    skos:prefLabel "OSM version number"@en,
+        "OSM-Versionsnummer"@de ;
+    ossp:P2 osss:P102-B1AEEB7E-2A32-57CE-AF1E-BDCED96B2C79 ;
+    osst:P2 oss:Q2 .
+
+osss:P102-B1AEEB7E-2A32-57CE-AF1E-BDCED96B2C79
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q2 .
+
+ossp:P102
+    a owl:ObjectProperty .
+
+osst:P102
+    a owl:DatatypeProperty .
+
+osspq:P102
+    a owl:DatatypeProperty .
+
+osspqv:P102
+    a owl:ObjectProperty .
+
+osspr:P102
+    a owl:DatatypeProperty .
+
+ossprv:P102
+    a owl:ObjectProperty .
+
+ossps:P102
+    a owl:DatatypeProperty .
+
+osspsv:P102
+    a owl:ObjectProperty .
+
+ossno:P102
+    a owl:Class ;
+    owl:complementOf _:8547c5ea738a15a0ab5f567ec3608e04 .
+
+_:8547c5ea738a15a0ab5f567ec3608e04
+    a owl:Restriction ;
+    owl:onProperty osst:P102 ;
+    owl:someValuesFrom owl:Thing .

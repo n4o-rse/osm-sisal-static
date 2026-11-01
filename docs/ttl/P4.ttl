@@ -1,0 +1,148 @@
+# P4: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static 0.24.1; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/P4.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Das Wikidata-Item oder die Wikidata-Property, die dieser Entität entspricht (zum Beispiel Q7397 oder P275)."@de,
+        "The Wikidata item or property that corresponds to this entity (for example Q7397 or P275)."@en ;
+    dcterms:identifier "P4" ;
+    dcterms:isPartOf osscat:properties ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:P4 ;
+    dcterms:title "Wikidata equivalent"@en,
+        "Wikidata-Entsprechung"@de ;
+    schema:about oss:P4 ;
+    dcat:distribution ossdist:P4-html,
+        ossdist:P4-json,
+        ossdist:P4-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/P4.html> .
+
+ossdist:P4-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P4, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/P4.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:P4-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P4, as archived from the Wikibase API"@en ;
+    dcat:byteSize "1507"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/P4.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:P4-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P4, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:P4.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:P4
+    a wikibase:Property ;
+    schema:description "Das Wikidata-Item oder die Wikidata-Property, die dieser Entität entspricht (zum Beispiel Q7397 oder P275)."@de,
+        "The Wikidata item or property that corresponds to this entity (for example Q7397 or P275)."@en ;
+    schema:name "Wikidata equivalent"@en,
+        "Wikidata-Entsprechung"@de ;
+    wikibase:claim ossp:P4 ;
+    wikibase:directClaim osst:P4 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue ossno:P4 ;
+    wikibase:propertyType wikibase:ExternalId ;
+    wikibase:qualifier osspq:P4 ;
+    wikibase:qualifierValue osspqv:P4 ;
+    wikibase:reference osspr:P4 ;
+    wikibase:referenceValue ossprv:P4 ;
+    wikibase:statementProperty ossps:P4 ;
+    wikibase:statementValue osspsv:P4 ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Wikidata equivalent"@en,
+        "Wikidata-Entsprechung"@de ;
+    skos:prefLabel "Wikidata equivalent"@en,
+        "Wikidata-Entsprechung"@de ;
+    ossp:P2 osss:P4-F93919BD-8A3D-51C7-8D85-DA5BE9C1B324 ;
+    ossp:P5 osss:P4-F6EE7DF8-7D04-56CB-A940-F28338F242E4 ;
+    osst:P2 oss:Q2 ;
+    osst:P5 "https://www.wikidata.org/entity/$1" .
+
+osss:P4-F6EE7DF8-7D04-56CB-A940-F28338F242E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P5 "https://www.wikidata.org/entity/$1" .
+
+osss:P4-F93919BD-8A3D-51C7-8D85-DA5BE9C1B324
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q2 .
+
+ossp:P4
+    a owl:ObjectProperty .
+
+osst:P4
+    a owl:DatatypeProperty .
+
+osspq:P4
+    a owl:DatatypeProperty .
+
+osspqv:P4
+    a owl:ObjectProperty .
+
+osspr:P4
+    a owl:DatatypeProperty .
+
+ossprv:P4
+    a owl:ObjectProperty .
+
+ossps:P4
+    a owl:DatatypeProperty .
+
+osspsv:P4
+    a owl:ObjectProperty .
+
+ossno:P4
+    a owl:Class ;
+    owl:complementOf _:92e0504b684a1aeafb21aedaace91359 .
+
+_:92e0504b684a1aeafb21aedaace91359
+    a owl:Restriction ;
+    owl:onProperty osst:P4 ;
+    owl:someValuesFrom owl:Thing .

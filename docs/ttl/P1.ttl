@@ -1,0 +1,170 @@
+# P1: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static 0.24.1; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/P1.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Diese Klasse ist eine speziellere Form der Wertklasse."@de,
+        "This class is a more specific form of the value class."@en ;
+    dcterms:identifier "P1" ;
+    dcterms:isPartOf osscat:properties ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:P1 ;
+    dcterms:title "Unterklasse von"@de,
+        "subclass of"@en ;
+    schema:about oss:P1 ;
+    dcat:distribution ossdist:P1-html,
+        ossdist:P1-json,
+        ossdist:P1-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/P1.html> .
+
+ossdist:P1-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P1, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/P1.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:P1-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P1, as archived from the Wikibase API"@en ;
+    dcat:byteSize "2352"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/P1.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:P1-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P1, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:P1.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:P1
+    a wikibase:Property ;
+    schema:description "Diese Klasse ist eine speziellere Form der Wertklasse."@de,
+        "This class is a more specific form of the value class."@en ;
+    schema:name "Unterklasse von"@de,
+        "subclass of"@en ;
+    wikibase:claim ossp:P1 ;
+    wikibase:directClaim osst:P1 ;
+    wikibase:identifiers "1"^^xsd:integer ;
+    wikibase:novalue ossno:P1 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier osspq:P1 ;
+    wikibase:qualifierValue osspqv:P1 ;
+    wikibase:reference osspr:P1 ;
+    wikibase:referenceValue ossprv:P1 ;
+    wikibase:statementProperty ossps:P1 ;
+    wikibase:statementValue osspsv:P1 ;
+    wikibase:statements "4"^^xsd:integer ;
+    rdfs:label "Unterklasse von"@de,
+        "subclass of"@en ;
+    skos:prefLabel "Unterklasse von"@de,
+        "subclass of"@en ;
+    ossp:P2 osss:P1-500A0FE6-2FAB-5683-9C2F-F042DEDEF63B ;
+    ossp:P4 osss:P1-29FBE991-E2CE-5588-B826-64C4F2D04BA8 ;
+    ossp:P9 osss:P1-BC31CB18-B260-507D-AB14-1437D8F4C5D2 ;
+    ossp:P10 osss:P1-084F6C46-FDC7-59BA-A28D-5F3A2C4EC5A5 ;
+    osst:P2 oss:Q2 ;
+    osst:P4 "P279" ;
+    osst:P9 oss:Q1 ;
+    osst:P10 oss:Q1 .
+
+osss:P1-29FBE991-E2CE-5588-B826-64C4F2D04BA8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P4 "P279" .
+
+osss:P1-084F6C46-FDC7-59BA-A28D-5F3A2C4EC5A5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P10 oss:Q1 .
+
+osss:P1-500A0FE6-2FAB-5683-9C2F-F042DEDEF63B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q2 .
+
+osss:P1-BC31CB18-B260-507D-AB14-1437D8F4C5D2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P9 oss:Q1 .
+
+ossp:P1
+    a owl:ObjectProperty .
+
+osst:P1
+    a owl:ObjectProperty .
+
+osspq:P1
+    a owl:ObjectProperty .
+
+osspqv:P1
+    a owl:ObjectProperty .
+
+osspr:P1
+    a owl:ObjectProperty .
+
+ossprv:P1
+    a owl:ObjectProperty .
+
+ossps:P1
+    a owl:ObjectProperty .
+
+osspsv:P1
+    a owl:ObjectProperty .
+
+ossno:P1
+    a owl:Class ;
+    owl:complementOf _:78a0cd887b0c33dc704d4b85a03ca233 .
+
+_:78a0cd887b0c33dc704d4b85a03ca233
+    a owl:Restriction ;
+    owl:onProperty osst:P1 ;
+    owl:someValuesFrom owl:Thing .
+
+# RDFS bridge of the kernel (wikibase-static): the direct properties P1 to P3 and the classes Q1 to Q3 tied to RDFS and OWL.
+# Not part of the Wikibase data model; written only when the kernel is part of the site.
+
+osst:P1
+    rdfs:subPropertyOf rdfs:subClassOf .

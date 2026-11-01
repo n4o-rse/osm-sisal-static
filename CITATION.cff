@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite them using the metadata below, and credit OpenStreetMap as described in the README."
+title: "osm-sisal-static: A static Wikibase of OpenStreetMap caves linked to SISAL sites, with version history, anchored in CIDOC CRM"
+abstract: >-
+  A static, read-only Wikibase on GitHub Pages for the OpenStreetMap cave entrances that belong to SISAL speleothem sites. Each OSM element is one item, its version history is kept as statements, and every item is anchored on a CIDOC CRM class. Built with wikibase-static.
+type: software
+authors:
+  - family-names: Thiery
+    given-names: Florian
+    # orcid: "https://orcid.org/..."  # TODO: insert ORCID
+license: MIT
+version: "0.1.0"
+repository-code: "https://github.com/n4o-rse/osm-sisal-static"
+# date-released: ""  # TODO: set when the first release is tagged
+# doi: ""            # TODO: add Zenodo DOI once minted
+keywords:
+  - OpenStreetMap
+  - SISAL
+  - speleothems
+  - caves
+  - Wikibase
+  - Linked Data
+  - CIDOC CRM
+  - static site
+  - GitHub Pages

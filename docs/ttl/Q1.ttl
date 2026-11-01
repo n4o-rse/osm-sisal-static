@@ -1,0 +1,111 @@
+# Q1: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static 0.24.1; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q1.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "A set of things of the same kind; the type of every class."@en,
+        "Eine Menge gleichartiger Dinge; der Typ jeder Klasse."@de ;
+    dcterms:identifier "Q1" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q1 ;
+    dcterms:title "Class"@en,
+        "Klasse"@de ;
+    schema:about oss:Q1 ;
+    dcat:distribution ossdist:Q1-html,
+        ossdist:Q1-json,
+        ossdist:Q1-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q1.html> .
+
+ossdist:Q1-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q1, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q1.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q1-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q1, as archived from the Wikibase API"@en ;
+    dcat:byteSize "1467"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q1.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q1-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q1, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q1.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q1
+    a wikibase:Item ;
+    schema:description "A set of things of the same kind; the type of every class."@en,
+        "Eine Menge gleichartiger Dinge; der Typ jeder Klasse."@de ;
+    schema:name "Class"@en,
+        "Klasse"@de ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "2"^^xsd:integer ;
+    rdfs:label "Class"@en,
+        "Klasse"@de ;
+    skos:prefLabel "Class"@en,
+        "Klasse"@de ;
+    ossp:P1 osss:Q1-CF9741BD-D637-5B3B-9FA9-19338518A331 ;
+    ossp:P2 osss:Q1-9ACB35EA-3925-5F5E-809E-54E5BF980A0D ;
+    osst:P1 oss:Q3 ;
+    osst:P2 oss:Q1 .
+
+osss:Q1-9ACB35EA-3925-5F5E-809E-54E5BF980A0D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q1 .
+
+osss:Q1-CF9741BD-D637-5B3B-9FA9-19338518A331
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P1 oss:Q3 .
+
+# RDFS bridge of the kernel (wikibase-static): the direct properties P1 to P3 and the classes Q1 to Q3 tied to RDFS and OWL.
+# Not part of the Wikibase data model; written only when the kernel is part of the site.
+
+oss:Q1
+    owl:equivalentClass rdfs:Class .
