@@ -36,3 +36,5 @@ Every page of the site carries that notice (`license` in `site.yaml`).
 
 The logo (`assets/logo.png`, a pen drawing of dripstone formations in a limestone cave) are by Florian Thiery, generated with ChatGPT and
 published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The licence of the code (MIT) does not cover them.
+
+The caves are linked to the SISAL speleothem sites by `sisal_link.py` (name similarity and distance, the pairs are in `data/seeds/sisal-matches.csv`); the property "SISAL site" points to the site in the graph of the EPICA-SISAL-FAIRification project.

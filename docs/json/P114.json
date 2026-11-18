@@ -1,0 +1,48 @@
+{
+  "aliases": {},
+  "claims": {
+    "P2": [
+      {
+        "id": "P114$5D1407FB-5E65-533C-BB14-2D0CEF3BC5A1",
+        "mainsnak": {
+          "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "entity-type": "item",
+              "id": "Q2",
+              "numeric-id": 2
+            }
+          },
+          "property": "P2",
+          "snaktype": "value"
+        },
+        "rank": "normal",
+        "type": "statement"
+      }
+    ]
+  },
+  "datatype": "url",
+  "descriptions": {
+    "de": {
+      "language": "de",
+      "value": "Der SISAL-Standort (Speleothem-Paläoklima), zu dem diese Höhle gehört, als IRI im geo-lod-Graphen des Projekts EPICA-SISAL-FAIRification."
+    },
+    "en": {
+      "language": "en",
+      "value": "The SISAL speleothem site (palaeoclimate record) that this cave belongs to, as its IRI in the geo-lod graph of the EPICA-SISAL-FAIRification project."
+    }
+  },
+  "id": "P114",
+  "labels": {
+    "de": {
+      "language": "de",
+      "value": "SISAL-Standort"
+    },
+    "en": {
+      "language": "en",
+      "value": "SISAL site"
+    }
+  },
+  "type": "property"
+}

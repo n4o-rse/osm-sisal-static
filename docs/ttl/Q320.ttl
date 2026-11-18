@@ -63,7 +63,7 @@ ossdist:Q320-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q320, as archived from the Wikibase API"@en ;
-    dcat:byteSize "8895"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "12036"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q320.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q320
     schema:name "Grotta Cesare Battisti"@de,
         "Grotta Cesare Battisti"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "8"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q320-88C03C40-F238-5D1A-B84A-C5600F55B660 ;
     geo:hasGeometry osss:Q320-88C03C40-F238-5D1A-B84A-C5600F55B660 ;
     rdfs:label "Grotta Cesare Battisti"@de,
@@ -98,6 +98,7 @@ oss:Q320
     ossp:P111 osss:Q320-88C03C40-F238-5D1A-B84A-C5600F55B660 ;
     ossp:P113 osss:Q320-2BBCB755-CDBA-50A2-9675-B98D9F100725,
         osss:Q320-7A6E3FB3-8A72-50BE-8A94-74DCBD65C0BF ;
+    ossp:P114 osss:Q320-202B19BF-450B-52E1-8034-56EE782CFBA3 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/9958994170> ;
     osst:P101 <https://www.openstreetmap.org/node/9958994170/history/1> ;
@@ -105,7 +106,8 @@ oss:Q320
     osst:P110 "Point(11.0482688 46.1470523)"^^geo:wktLiteral ;
     osst:P111 "POINT(11.0482688 46.1470523)" ;
     osst:P113 "name=Grotta Cesare Battisti",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0187> .
 
 osss:Q320-2BBCB755-CDBA-50A2-9675-B98D9F100725
     a wikibase:BestRank,
@@ -139,6 +141,23 @@ osss:Q320-88C03C40-F238-5D1A-B84A-C5600F55B660
     osspq:P103 "2022-08-17T10:48:53Z" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(11.0482688 46.1470523)" .
+
+osss:Q320-202B19BF-450B-52E1-8034-56EE782CFBA3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Cesare Battisti cave" ;
+    osspq:P116 "+435"^^xsd:decimal ;
+    osspq:P117 "+435"^^xsd:decimal ;
+    osspq:P118 "+2.361"^^xsd:decimal ;
+    osspq:P119 "+0.858"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:3af3fa689379323552193d086de6d697 ;
+    osspqv:P117 ossv:3af3fa689379323552193d086de6d697 ;
+    osspqv:P118 ossv:be55ac4b94a2e607689b2560fc2b4afc ;
+    osspqv:P119 ossv:8cd035ce2e7c31055402412abde9cafe ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0187> .
 
 osss:Q320-697BF49C-4B0C-57D6-826F-212E5D86F2FA
     a wikibase:BestRank,
@@ -176,9 +195,28 @@ ossref:26d27bbfe302fc84075cef3f38e274d9f8e09b85
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/9958994170/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:3af3fa689379323552193d086de6d697
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+435"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:8cd035ce2e7c31055402412abde9cafe
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.858"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:be55ac4b94a2e607689b2560fc2b4afc
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2.361"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:e7e16e6eb97d04b795de9a749b626617

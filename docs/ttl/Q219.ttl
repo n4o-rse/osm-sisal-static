@@ -63,7 +63,7 @@ ossdist:Q219-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q219, as archived from the Wikibase API"@en ;
-    dcat:byteSize "18177"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "21310"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q219.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q219
     schema:name "Liang Bua"@de,
         "Liang Bua"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "15"^^xsd:integer ;
+    wikibase:statements "16"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q219-8A8B8766-260F-51AC-BBE7-287D1A8F6FED ;
     geo:hasGeometry osss:Q219-8A8B8766-260F-51AC-BBE7-287D1A8F6FED,
         osss:Q219-E149E8AF-52A6-5BDC-A751-250020CF8D09 ;
@@ -106,6 +106,7 @@ oss:Q219
         osss:Q219-BD748B59-4BA7-51F4-878A-5914227CC2DE,
         osss:Q219-C4E93DD6-591C-574C-9F7F-F744097493D2,
         osss:Q219-DF5B9A74-A224-5715-ADCF-6A3890FBB4DD ;
+    ossp:P114 osss:Q219-D92A0BBC-2431-5292-B14B-ACC3343E974B ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4285191320> ;
     osst:P101 <https://www.openstreetmap.org/node/4285191320/history/3> ;
@@ -118,7 +119,8 @@ oss:Q219
         "name=Liang Bua",
         "natural=cave_entrance",
         "wikidata=Q1822737",
-        "wikipedia=en:Liang Bua" .
+        "wikipedia=en:Liang Bua" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0104> .
 
 osss:Q219-3CB37CC1-FA81-5275-B0A4-9723B68FF79A
     a wikibase:BestRank,
@@ -210,6 +212,23 @@ osss:Q219-C36A15BF-59B9-5597-A473-2D177FA1C18C
     ossps:P110 "Point(120.4435024 -8.5308192)"^^geo:wktLiteral ;
     osspsv:P110 ossv:6ab4c778f7d6a491710e240b38ea0912 .
 
+osss:Q219-D92A0BBC-2431-5292-B14B-ACC3343E974B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Liang Luar" ;
+    osspq:P116 "+2715"^^xsd:decimal ;
+    osspq:P117 "+2047"^^xsd:decimal ;
+    osspq:P118 "+1.488"^^xsd:decimal ;
+    osspq:P119 "+0.800"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:bbdf00fd76dc7dc0ab6f539cd2bcd13c ;
+    osspqv:P117 ossv:6ef2b512e5548d038d2e8345e913e71b ;
+    osspqv:P118 ossv:3815c4dc973da93cf8430323088917f9 ;
+    osspqv:P119 ossv:8db6fe3fddc3356f1102c8b7d42eb3e5 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0104> .
+
 osss:Q219-DF5B9A74-A224-5715-ADCF-6A3890FBB4DD
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -255,6 +274,10 @@ ossref:2756b99960b4d8206d3c8a7a1d89b6e72cab2ebf
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4285191320/history/3> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -267,9 +290,29 @@ ossv:6ab4c778f7d6a491710e240b38ea0912
     wikibase:geoLongitude "120.4435024"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:6ef2b512e5548d038d2e8345e913e71b
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2047"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:8db6fe3fddc3356f1102c8b7d42eb3e5
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.800"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3815c4dc973da93cf8430323088917f9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.488"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:bbdf00fd76dc7dc0ab6f539cd2bcd13c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2715"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea

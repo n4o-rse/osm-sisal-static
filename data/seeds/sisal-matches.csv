@@ -1,0 +1,170 @@
+site_id,site_name,osm_id,osm_name,distance_km,name_similarity,score,status,decision,used,n_d18o,n_d13c
+196,Karaca cave,4874702122,Karaca Mağarası,0.001,1.000,1.000,sure,,sure,309,309
+97,Bue Marino cave,308354506,Grotta del Bue marino,0.005,1.000,1.000,sure,,sure,295,295
+129,Grotta di Carburangeli,8422630011,Grotta di Carburangeli,0.011,1.000,0.999,sure,,sure,1223,1223
+200,Minnetonka cave,9858176658,Minnetonka Cave,0.020,1.000,0.999,sure,,sure,644,644
+255,Mitoho,3570423899,Mitoho,0.016,1.000,0.999,sure,,sure,1375,1375
+286,La Garma cave,418784261,Cueva de La Garma,0.013,1.000,0.999,sure,,sure,765,497
+8,Lancaster Hole,554858725,Lancaster Hole,0.019,1.000,0.999,sure,,sure,1123,1123
+86,Modric cave,7008567688,Špilja Modrič,0.011,1.000,0.999,sure,,sure,95,95
+236,Toca da Boa Vista,7318685910,Toca da Boa Vista,0.026,1.000,0.998,sure,,sure,791,61
+66,White Scar cave,6957595702,White Scar Cave,0.038,1.000,0.998,sure,,sure,160,160
+74,Cango cave,503858812,Cango Caves,0.038,1.000,0.998,sure,,sure,170,170
+80,Furong cave,4503846516,芙蓉洞,0.026,1.000,0.998,sure,,sure,669,299
+91,Ursilor cave,2634652214,Peștera Urșilor,0.027,1.000,0.998,sure,,sure,39,39
+264,Strašna peć cave,2375460063,Strašna peć,0.048,1.000,0.997,sure,,sure,258,258
+324,La Vallina,5949505815,La Vallina,0.067,1.000,0.996,sure,,sure,890,890
+266,Cueva Victoria,3905429443,Cueva Victoria,0.079,1.000,0.995,sure,,sure,1030,1030
+357,Yonderup cave,3658668205,Yonderup Cave,0.093,1.000,0.994,sure,,sure,183,183
+253,Hoq cave,9753722102,Hoq Cave,0.124,1.000,0.993,sure,,sure,1426,1426
+265,Coves de Campanet,5503469510,Coves de Campanet,0.120,1.000,0.993,sure,,sure,439,439
+53,Pippikin Pot cave,13028255810,Pippikin Pot,0.174,1.000,0.990,sure,,sure,483,483
+330,Meravelles cave,1961032052,Cova Meravelles,0.190,1.000,0.989,sure,,sure,250,250
+108,Clamouse cave,686817231,Grotte de Clamouse,0.213,1.000,0.987,sure,,sure,299,299
+84,Leány cave,1192434410,Leány-barlang,0.332,1.000,0.980,sure,,sure,189,189
+87,Pindal cave,558629070,Cueva el Pindal,0.359,1.000,0.978,sure,,sure,422,413
+222,Patate cave,440011392,Caverne Patate,0.399,1.000,0.976,sure,,sure,190,190
+177,Santo Tomas cave,2267151473,Caverna de Santo Tomás,0.409,1.000,0.975,sure,,sure,1771,1778
+277,Huagapo cave,286783901,Gruta de Huagapo,0.419,1.000,0.975,sure,,sure,1347,1347
+183,Dos Anas cave,4705261283,Dos Anas,0.476,1.000,0.971,sure,,sure,1823,1824
+271,Jersey cave,1074302540,Jersey Cave,0.476,1.000,0.971,sure,,sure,132,132
+14,Lehman caves,298946850,Lehman Caves,0.512,1.000,0.969,sure,,sure,208,208
+273,Crystal cave,696792182,Crystal Cave,0.556,1.000,0.967,sure,,sure,1054,0
+301,Cathedral cave,4153384278,Cathedral Cave,0.573,1.000,0.966,sure,,sure,575,575
+342,Sa balma des quartó cave,11687476904,cova de sa balma des cuartó,0.010,0.947,0.963,sure,,sure,1008,1008
+71,Baradla cave,981440188,Baradla-barlang bejárat,0.652,1.000,0.961,sure,,sure,559,559
+305,Cueva Rosa,13169167192,Cueva Rosa,0.689,1.000,0.959,sure,,sure,499,499
+79,Dim cave,715290197,Dim Mağarası,0.685,1.000,0.959,sure,,sure,1050,1050
+25,Palestina cave,7713740998,Cueva de Palestina,0.785,1.000,0.953,sure,,sure,434,435
+259,Cobre cave,7412451779,Cueva del Cobre,0.807,1.000,0.952,sure,,sure,225,225
+90,Trió cave,3440813505,Trió-barlang,0.902,1.000,0.946,sure,,sure,142,142
+272,Metro cave,4480576512,Metro Cave,1.031,1.000,0.938,sure,,sure,489,488
+98,Crag cave,475710521,Crag Cave,1.028,1.000,0.938,sure,,sure,145,145
+223,Wanxiang cave,8354378120,万象洞,1.207,1.000,0.928,sure,,sure,711,0
+298,Belum cave,4523782074,Belum Caves,1.276,1.000,0.923,sure,,sure,861,861
+4,Villars cave,2423303117,Grotte de Villars,1.457,1.000,0.913,sure,,sure,1126,1126
+94,Anjohibe,2510360072,Anjohibe,1.483,1.000,0.911,sure,,sure,2553,2553
+213,Tausoare cave,12184077155,Peştera Tăuşoare,1.599,1.000,0.904,sure,,sure,722,722
+321,Klang,7161046616,Tham Klang,1.929,1.000,0.884,sure,,sure,677,0
+187,Cesare Battisti cave,9958994170,Grotta Cesare Battisti,2.361,1.000,0.858,sure,,sure,435,435
+338,Coves del pirata,1325351976,Cova des Pirata,0.294,0.818,0.855,sure,,sure,90,90
+363,Lake Shasta cave,320120939,Lake Shasta Caverns,2.415,1.000,0.855,sure,,sure,1025,1025
+31,Abaliget cave,707254947,Abaligeti-cseppkőbarlang,0.377,0.824,0.854,sure,,sure,779,779
+334,Nova Grgosova cave,2729783661,Nova Grgosova špilja,0.008,0.788,0.851,sure,,sure,839,839
+234,Santana cave,903676829,Caverna Santana,2.499,1.000,0.850,sure,,sure,661,661
+359,Zoolithen cave,556748045,Zoolithenhöhle,0.021,0.783,0.847,sure,,sure,263,263
+320,Katalekhor,3096058666,غار کتله خور,1.565,0.909,0.842,sure,,sure,287,287
+58,Spannagel cave,1488744824,Spannagelhöhle,0.099,0.783,0.842,sure,,sure,8939,2484
+133,Buca della Renella,10905682924,Buca della Renella,2.676,1.000,0.839,sure,,sure,758,759
+207,Shatuca cave,7807817048,Cueva del Rio Shatuca,0.219,0.778,0.831,sure,,sure,2195,0
+134,Cave of the Bells,2824859401,Cave of the Bells,2.928,1.000,0.824,sure,,sure,1191,0
+280,Atta cave,194177073,Atta-Höhle,3.019,1.000,0.819,sure,,sure,384,384
+195,Harrison's cave,3887334792,Harrison's Cave,3.233,1.000,0.806,sure,,sure,344,344
+193,Frasassi cave system - Grotta Grande del Vento,4557134896,Grotta Grande del Vento,0.118,0.727,0.802,sure,,sure,537,539
+104,Liang Luar,4285191320,Liang Bua,1.488,0.842,0.800,sure,,sure,2715,2047
+313,Herbstlabyrinth cave,644792344,Herbstlabyrinth-Adventhöhle-System,0.051,0.714,0.797,sure,,sure,773,773
+360,Bigonda cave,4388840122,Grotta della Bigonda,0.018,0.700,0.789,sure,,sure,758,758
+144,Botuverá cave,2677612603,Grutas de Botuverá,0.082,0.696,0.782,sure,,sure,920,920
+103,Lapa Doce cave,4153268606,Entrada da Gruta Lapa Doce,0.074,0.692,0.780,sure,,sure,124,124
+226,Cueva del Diamante,7713840588,Cueva del Diamante,3.850,1.000,0.769,sure,,sure,1830,1833
+118,Clearwater cave,10084842668,Clearwater Resurgence,3.899,1.000,0.766,sure,,sure,228,0
+289,Gassel Tropfsteinhöhle,1389940709,Gasselhöhle,0.037,0.667,0.764,sure,,sure,3029,3029
+329,Matupi cave,8358838507,Matupi,4.184,1.000,0.749,sure,,sure,222,222
+282,Wadi Sannur cave,942519597,Sannur Cave,0.774,0.706,0.748,check,,,70,0
+141,Sofular cave,9249065418,Sofular Cave,4.221,1.000,0.747,sure,,sure,9265,3962
+345,Schratten cave,7315412515,Schrattenhöhle,1.720,0.783,0.745,check,,,584,584
+350,Toca da Barriguda,7318685910,Toca da Boa Vista,0.085,0.643,0.745,check,,,298,0
+237,Umajalanta cave,2264386190,Caverna Umajalanta,4.433,1.000,0.734,sure,,sure,242,0
+147,Fort Stanton cave,7885338123,Fort Stanton Cave,4.651,1.000,0.721,sure,,sure,359,359
+361,Kocain cave,1572294886,Kocain Mağarası,0.027,0.571,0.698,sure,,sure,369,369
+115,Hölloch im Mahdtal,923447187,Hölloch,0.032,0.560,0.690,sure,,sure,5530,5530
+267,Gruta do Casal da Lebre,4917192240,Gruta dos Bolhos - Gruta Casal da Lebre,1.305,0.667,0.688,check,,,55,55
+185,Beatus cave,745919883,St.Beatus-Höhlen,0.031,0.545,0.680,sure,,sure,3019,0
+163,Gardener's Gut,4771754221,Gardner's Gut,4.916,0.963,0.679,sure,,sure,208,208
+152,Hoti cave,4358968290,كهف الهوتة,0.466,0.500,0.622,check,,,1219,832
+65,Whiterock cave,10135300285,Whiterock Cave (Midnight Entrance),3.372,0.667,0.564,check,,,1142,189
+162,"Calcite cave (Mt Luxmore, Fiordland)",10773895664,Clifden Caves - Lower Entrance,0.174,0.390,0.563,check,,,51,51
+116,Bukit Assam cave,10135316701,Fruit Bat Cave,1.493,0.500,0.560,check,,,4827,862
+16,Han-sur-Lesse cave,3783268558,Chantoir de la Laide Fosse,2.752,0.606,0.559,check,,,953,953
+260,Crovassa Azzurra,8755803759,Grotta Santa Barbara,1.335,0.483,0.558,weak,,,707,707
+342,Sa balma des quartó cave,1325351976,Cova des Pirata,0.996,0.414,0.530,check,,,1008,1008
+82,Hollywood cave,1123061603,Hole in the Hill,0.605,0.375,0.526,check,,,856,856
+345,Schratten cave,13324454762,Bettenhöhle,1.809,0.400,0.471,weak,,,584,584
+67,Clearwater/Wind caves connection,10084842668,Clearwater Resurgence,3.896,0.556,0.455,check,,,385,385
+338,Coves del pirata,11687476904,cova de sa balma des cuartó,1.191,0.323,0.454,weak,,,90,90
+1,Bittoo cave,11300105382,Gorcha cave,0.052,0.222,0.452,check,,,4167,4167
+333,Neotektonik cave,13324454762,Bettenhöhle,1.809,0.364,0.446,weak,,,2285,2285
+254,PP29,3657259352,Pinnacle Point,0.177,0.222,0.445,check,,,157,158
+20,Secret cave,10135300283,Gua Metrik,1.530,0.333,0.442,weak,,,672,0
+103,Lapa Doce cave,6176987555,Gruta da Fumaça,0.864,0.267,0.435,check,,,124,124
+325,Larga cave,3269827185,Cueva del Arco,2.982,0.444,0.432,weak,,,2049,2032
+252,Andriamaniloke,3570423898,Malaza Manga,2.315,0.385,0.430,weak,,,106,106
+222,Patate cave,6632690571,La Grande Caverne,1.758,0.333,0.428,weak,,,190,190
+270,Gol-E-Zard cave,5894264165,غار گل زرد,0.312,0.200,0.421,check,,,259,259
+161,Aurora cave,495996579,Te Ana-au Glow-Worm Caves,2.234,0.364,0.420,weak,,,124,124
+132,Kleegruben cave,1488744824,Spannagelhöhle,0.099,0.167,0.411,check,,,1633,1633
+252,Andriamaniloke,3570423899,Mitoho,0.530,0.200,0.408,check,,,106,106
+11,Jeita cave,5382854703,Upper Grotto,0.796,0.200,0.392,check,,,1830,1830
+221,La Vierge cave,6632690571,La Grande Caverne,0.461,0.167,0.389,check,,,2666,2666
+8,Lancaster Hole,13028255810,Pippikin Pot,0.733,0.190,0.389,check,,,1123,1123
+53,Pippikin Pot cave,554858725,Lancaster Hole,0.807,0.190,0.385,check,,,483,483
+364,Naharon,6050984397,Cenote Monkey Dust,1.442,0.240,0.382,weak,,,419,419
+20,Secret cave,10084842668,Clearwater Resurgence,3.042,0.375,0.380,weak,,,672,0
+73,Bourgeois–Delaunay cave,5204252292,Grotte de Lavaud,1.577,0.250,0.380,weak,,,358,358
+299,Calabrez,13169167192,Cueva Rosa,0.741,0.167,0.372,check,,,42,42
+333,Neotektonik cave,7315412515,Schrattenhöhle,1.720,0.240,0.365,weak,,,2285,2285
+283,Babylon cave,1123061603,Hole in the Hill,0.605,0.143,0.364,check,,,219,219
+16,Han-sur-Lesse cave,5459800715,Grotte du Père Noël,0.816,0.160,0.363,check,,,953,953
+279,Staircase cave,3657259352,Pinnacle Point,0.081,0.087,0.356,check,,,252,252
+186,Bribin cave,4376800615,Goa Jomblang,2.445,0.286,0.353,weak,,,377,374
+199,Lynds cave,1201366333,King Solomons Cave,3.161,0.333,0.344,weak,,,53,53
+263,Bulgarian Orlova Chuka cave,1174578048,Орлова чука,0.053,0.061,0.339,check,,,763,763
+118,Clearwater cave,10135300283,Gua Metrik,2.291,0.250,0.338,weak,,,228,0
+49,McLean's cave,992092588,Moaning Cave,4.032,0.400,0.338,weak,,,900,900
+231,Pacupahuain cave,11478460514,Sima de Racas Marca,2.832,0.296,0.337,weak,,,1009,1010
+91,Ursilor cave,9007272454,Peștera Măgura,3.102,0.308,0.329,weak,,,39,39
+323,Kyok-Tash cave,5677995348,Кек-Таш,1.055,0.125,0.324,weak,,,818,818
+221,La Vierge cave,440011392,Caverne Patate,1.753,0.167,0.312,weak,,,2666,2666
+283,Babylon cave,4480576512,Metro Cave,1.758,0.167,0.311,weak,,,219,219
+62,Torrinha cave,4153268606,Entrada da Gruta Lapa Doce,1.736,0.160,0.308,weak,,,91,91
+237,Umajalanta cave,4086768866,Caverna ToroToro,1.232,0.111,0.304,weak,,,242,0
+139,Oregon caves national monument,3427512355,,0.015,0.000,0.299,sure,,sure,2680,2680
+112,Xinya cave,9006583904,,0.096,0.000,0.294,check,,,185,0
+292,Limnon cave,5097880046,Σπήλαιο Λιμνών,0.098,0.000,0.294,check,,,177,177
+82,Hollywood cave,4480576512,Metro Cave,1.758,0.143,0.294,weak,,,856,856
+310,Golgotha cave,370538351,Calgardup Cave,4.310,0.353,0.288,weak,,,101,101
+362,Labyrinth cave,2285744211,Moondyne Cave,2.966,0.235,0.287,weak,,,161,161
+225,Chiflonkhakha cave,4086768866,Caverna ToroToro,1.349,0.095,0.286,weak,,,683,371
+117,Bunker cave,2970889616,,0.261,0.000,0.284,check,,,6356,6356
+167,Waiau cave,10773895664,Clifden Caves - Lower Entrance,2.211,0.167,0.284,weak,,,26,26
+90,Trió cave,707254947,Abaligeti-cseppkőbarlang,3.932,0.308,0.279,weak,,,142,142
+42,Ifoulki cave,516610283,Wintindouine وينتيمدوين,3.475,0.267,0.278,weak,,,727,727
+62,Torrinha cave,6176987555,Gruta da Fumaça,2.087,0.143,0.275,weak,,,91,91
+31,Abaliget cave,3440813505,Trió-barlang,3.162,0.231,0.272,weak,,,779,779
+67,Clearwater/Wind caves connection,10135300283,Gua Metrik,2.655,0.188,0.272,weak,,,385,385
+255,Mitoho,3570423898,Malaza Manga,1.945,0.111,0.261,weak,,,1375,1375
+5,Yangkou cave,13566719139,,0.688,0.000,0.259,check,,,1634,1104
+277,Huagapo cave,11478460514,Sima de Racas Marca,2.752,0.174,0.257,weak,,,1347,1347
+40,Excentrica cave,7206231475,,0.719,0.000,0.257,check,,,32,32
+231,Pacupahuain cave,286783901,Gruta de Huagapo,4.812,0.333,0.245,weak,,,1009,1010
+316,Hüttenbläserschachthöhle,2970889616,,0.972,0.000,0.242,check,,,1346,1348
+225,Chiflonkhakha cave,2264386190,Caverna Umajalanta,4.071,0.261,0.238,weak,,,683,371
+164,Max's cave,4771754221,Gardner's Gut,4.934,0.333,0.237,weak,,,61,61
+235,Cueva del Tigre Perdido,7713923814,Cueva del Viento,3.549,0.211,0.234,weak,,,590,0
+9,Tonnel’naya cave,9186866184,пещера Вьюнок,2.363,0.083,0.217,weak,,,5880,5880
+118,Clearwater cave,10135300285,Whiterock Cave (Midnight Entrance),4.947,0.286,0.203,weak,,,228,0
+45,Kulishu cave,9927050233,泄水洞,1.666,0.000,0.200,weak,,,234,234
+69,Xinglong cave,2495014138,兴隆溶洞,1.721,0.000,0.197,weak,,,569,395
+189,Chen Ha cave,9693174633,Kabal Cave,3.747,0.167,0.192,weak,,,1573,1573
+20,Secret cave,10135300285,Whiterock Cave (Midnight Entrance),4.798,0.250,0.187,weak,,,672,0
+317,Jiangjun cave,11443521790,曼棍洞,1.892,0.000,0.186,weak,,,120,120
+137,Kinderlinskaya cave,2174721117,,2.119,0.000,0.173,weak,,,933,933
+312,Heifeng cave,13566719139,,2.194,0.000,0.168,weak,,,325,0
+318,Jinfo cave,13566719139,,2.341,0.000,0.160,weak,,,592,0
+347,Shizi cave,11876859066,果老寨遗址,2.454,0.000,0.153,weak,,,312,0
+272,Metro cave,1123061603,Hole in the Hill,2.500,0.000,0.150,weak,,,489,488
+332,Murada,13130638123,,2.569,0.000,0.146,weak,,,93,93
+56,Skala Marion cave,12521313377,,2.800,0.000,0.132,weak,,,209,209
+192,El Condor cave,7713923814,Cueva del Viento,4.957,0.167,0.119,weak,,,1047,742
+336,Pentadactylos,7327265062,,3.297,0.000,0.102,weak,,,685,684
+168,Wazpretti cave,11423443988,,3.501,0.000,0.090,weak,,,85,85

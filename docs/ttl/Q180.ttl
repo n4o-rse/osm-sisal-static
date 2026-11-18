@@ -63,7 +63,7 @@ ossdist:Q180-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q180, as archived from the Wikibase API"@en ;
-    dcat:byteSize "54312"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "57443"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q180.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q180
     schema:name "Peștera Urșilor"@de,
         "Peștera Urșilor"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "43"^^xsd:integer ;
+    wikibase:statements "44"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q180-E9E22AEE-D415-59D7-A6B1-F050EA24FDC5 ;
     geo:hasGeometry osss:Q180-E9E22AEE-D415-59D7-A6B1-F050EA24FDC5 ;
     rdfs:label "Peștera Urșilor"@de,
@@ -133,6 +133,7 @@ oss:Q180
         osss:Q180-F1B34763-308C-59BC-BD53-2C0AF2DDD13E,
         osss:Q180-F4B754E3-9B3C-58D4-B8F2-3FBABC86080C,
         osss:Q180-FC1C3089-D423-583B-BB89-765348A98423 ;
+    ossp:P114 osss:Q180-D0511987-3412-5E74-A556-472B4C01DA3A ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/2634652214> ;
     osst:P101 <https://www.openstreetmap.org/node/2634652214/history/13> ;
@@ -163,7 +164,8 @@ oss:Q180
         "tourism=attraction",
         "tourism_survey=20.09.2013 13:49:25",
         "wikidata=Q989608",
-        "wikipedia=ro:Peștera Urșilor" .
+        "wikipedia=ro:Peștera Urșilor" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0091> .
 
 osss:Q180-0C7CC4BD-16C0-58ED-86D0-C3D01EDD543C
     a wikibase:BestRank,
@@ -436,6 +438,23 @@ osss:Q180-D96FCFB0-ABD2-5427-8693-8AEA71C2485F
     prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
     ossps:P113 "name:it=Grotta degli Orsi" .
 
+osss:Q180-D0511987-3412-5E74-A556-472B4C01DA3A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Ursilor cave" ;
+    osspq:P116 "+39"^^xsd:decimal ;
+    osspq:P117 "+39"^^xsd:decimal ;
+    osspq:P118 "+0.027"^^xsd:decimal ;
+    osspq:P119 "+0.998"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:e1aa0a8aaf6291e666a6ac3342d5abc2 ;
+    osspqv:P117 ossv:e1aa0a8aaf6291e666a6ac3342d5abc2 ;
+    osspqv:P118 ossv:dec2bedd2ade2c38c2f5de4d0c72dc05 ;
+    osspqv:P119 ossv:63e4c52cbb868aa8a557a64752caad33 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0091> .
+
 osss:Q180-DA5D14E0-B0B2-5B87-8F4E-BAE32CBA42A6
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -531,6 +550,10 @@ ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/2634652214/history/13> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -571,6 +594,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:63e4c52cbb868aa8a557a64752caad33
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.998"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:63f6a2c5bd58360efaaf56114afbf952
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+11"^^xsd:decimal ;
@@ -601,4 +629,14 @@ ossv:c1b96b89e7ad5a2b212dd1696ed2fb6a
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:dec2bedd2ade2c38c2f5de4d0c72dc05
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.027"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e1aa0a8aaf6291e666a6ac3342d5abc2
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+39"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

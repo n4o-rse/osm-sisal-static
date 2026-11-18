@@ -63,7 +63,7 @@ ossdist:Q266-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q266, as archived from the Wikibase API"@en ;
-    dcat:byteSize "40698"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "43830"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q266.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q266
     schema:name "Crystal Cave"@de,
         "Crystal Cave"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "28"^^xsd:integer ;
+    wikibase:statements "29"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q266-7EF1C635-A63C-51BB-AEFE-84C82A09BA69 ;
     geo:hasGeometry osss:Q266-4FDBC37E-BEC9-5F4B-9600-D95324BDF685,
         osss:Q266-7EF1C635-A63C-51BB-AEFE-84C82A09BA69,
@@ -124,6 +124,7 @@ oss:Q266
         osss:Q266-CB277FF6-2755-52A8-B54A-3C7B2778842C,
         osss:Q266-E7F6A8CE-80DA-5032-B769-9316525D3FA6,
         osss:Q266-F55DB697-70B3-5DDE-B6F9-A89FCEBF3754 ;
+    ossp:P114 osss:Q266-998A206C-7551-5620-A973-560FFAED4562 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/696792182> ;
     osst:P101 <https://www.openstreetmap.org/node/696792182/history/9> ;
@@ -142,7 +143,8 @@ oss:Q266
         "reservation=required",
         "tourism=attraction",
         "website=https://www.nps.gov/seki/planyourvisit/crystal-cave.htm",
-        "wikidata=Q5191154" .
+        "wikidata=Q5191154" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0273> .
 
 osss:Q266-1D956F16-81BB-5970-A6B8-924BD05E31CA
     a wikibase:BestRank,
@@ -336,6 +338,23 @@ osss:Q266-707FD71C-A9A3-51E0-A22F-CD0E9B058FC5
     osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
     ossps:P111 "POINT(-118.8261966 36.5892068)" .
 
+osss:Q266-998A206C-7551-5620-A973-560FFAED4562
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Crystal cave" ;
+    osspq:P116 "+1054"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+0.556"^^xsd:decimal ;
+    osspq:P119 "+0.967"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:8f973560b4fdea9567dc2f3ecccaff0d ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:cb6174a7021617fc69cdb75100c867a3 ;
+    osspqv:P119 ossv:e8477abc7705704c5571f5752542b17f ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0273> .
+
 osss:Q266-1209E9B9-A074-5037-B9C1-11ED3E5BDF5A
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -431,6 +450,10 @@ ossref:cdc6260a789a71e3fd8df84d1480b70fef71a32d
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/696792182/history/7> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d992c962ac96d4bf0e8cf0628cccaf367c67a8b6
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/696792182/history/1> .
@@ -466,6 +489,11 @@ ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
     wikibase:quantityAmount "+6"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:8f973560b4fdea9567dc2f3ecccaff0d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1054"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+4"^^xsd:decimal ;
@@ -481,6 +509,11 @@ ossv:187a57b7a4159b90f1b51b12225fda5f
     wikibase:quantityAmount "+7"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -489,4 +522,14 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cb6174a7021617fc69cdb75100c867a3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.556"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e8477abc7705704c5571f5752542b17f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.967"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

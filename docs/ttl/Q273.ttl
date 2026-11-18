@@ -63,7 +63,7 @@ ossdist:Q273-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q273, as archived from the Wikibase API"@en ;
-    dcat:byteSize "79104"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "82235"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q273.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q273
     schema:name "Dim Mağarası"@de,
         "Dim Mağarası"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "49"^^xsd:integer ;
+    wikibase:statements "50"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q273-F758D77D-435F-56EC-A6A2-7B783E606825 ;
     geo:hasGeometry osss:Q273-1F301A31-B6B5-5D86-B3A4-13C12B68169B,
         osss:Q273-9A3785C7-8643-5C0F-AD20-7F2C400FDCC1,
@@ -143,6 +143,7 @@ oss:Q273
         osss:Q273-F236E59C-6E70-5D52-8421-6DDCA39CBB35,
         osss:Q273-F26530F6-6A72-51FE-8B15-33646DEEBD33,
         osss:Q273-FD791381-0D81-5BB3-BEA5-5AF0AC1E01A6 ;
+    ossp:P114 osss:Q273-6D949DAA-25C1-51CF-A00B-D5C2EAFC35AA ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/715290197> ;
     osst:P101 <https://www.openstreetmap.org/node/715290197/history/27> ;
@@ -165,7 +166,8 @@ oss:Q273
         "payment:coins=yes",
         "tourism=attraction",
         "wikidata=Q769148",
-        "wikipedia=tr:Dim Mağarası" .
+        "wikipedia=tr:Dim Mağarası" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0079> .
 
 osss:Q273-0AEAD7B3-289D-5E91-ABEB-1448C318C217
     a wikibase:BestRank,
@@ -259,6 +261,23 @@ osss:Q273-5E40EC80-0952-59A7-8D96-BD86806650F4
     osspq:P106 "9345453" ;
     osspqv:P102 ossv:63f6a2c5bd58360efaaf56114afbf952 ;
     ossps:P101 <https://www.openstreetmap.org/node/715290197/history/11> .
+
+osss:Q273-6D949DAA-25C1-51CF-A00B-D5C2EAFC35AA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Dim cave" ;
+    osspq:P116 "+1050"^^xsd:decimal ;
+    osspq:P117 "+1050"^^xsd:decimal ;
+    osspq:P118 "+0.685"^^xsd:decimal ;
+    osspq:P119 "+0.959"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:749a176b74b51a2a92fd3ce610d98044 ;
+    osspqv:P117 ossv:749a176b74b51a2a92fd3ce610d98044 ;
+    osspqv:P118 ossv:fd6d09bf8eaecf9bdf4ccd3622c3067f ;
+    osspqv:P119 ossv:d1f80d6eaded829dce2ebc1573dc4f98 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0079> .
 
 osss:Q273-6E4CFA35-81CC-508B-A2E3-D91BE0973BE0
     a wikibase:BestRank,
@@ -667,6 +686,10 @@ ossref:c5ad8af5178b2d3832945a0dc02299e4ef13063e
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/715290197/history/4> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -742,6 +765,11 @@ ossv:0293b78197a71f0692ec6fa9ce0db7d1
     wikibase:quantityAmount "+18"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:749a176b74b51a2a92fd3ce610d98044
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1050"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:1222a6e893a777cb0bd726afbebd2aff
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+16"^^xsd:decimal ;
@@ -804,7 +832,17 @@ ossv:c295f8f927aa4b01b5401a2788a068ea
     wikibase:quantityAmount "+2"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:d1f80d6eaded829dce2ebc1573dc4f98
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.959"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:e427e7ff9082b5fba9d7ef3b8794a3f6
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+14"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:fd6d09bf8eaecf9bdf4ccd3622c3067f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.685"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

@@ -63,7 +63,7 @@ ossdist:Q199-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q199, as archived from the Wikibase API"@en ;
-    dcat:byteSize "15451"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "18604"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q199.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q199
     schema:name "OSM node 3427512355"@en,
         "OSM-Node 3427512355"@de ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "11"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q199-DF8D7EC8-5FAC-5B94-A0C8-B3BA3CBBA0C6 ;
     geo:hasGeometry osss:Q199-0FCB6F82-AFDC-5E5B-B018-78589E272D04,
         osss:Q199-729F8FCE-C9DE-57BD-A6E1-D7FFAB1F77D7,
@@ -103,6 +103,7 @@ oss:Q199
         osss:Q199-729F8FCE-C9DE-57BD-A6E1-D7FFAB1F77D7,
         osss:Q199-DF8D7EC8-5FAC-5B94-A0C8-B3BA3CBBA0C6 ;
     ossp:P113 osss:Q199-9E116D53-7577-5ED4-99DB-C025DE157537 ;
+    ossp:P114 osss:Q199-05DCB5B2-7050-5781-8ABE-CCF00BAE9AD1 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/3427512355> ;
     osst:P101 <https://www.openstreetmap.org/node/3427512355/history/3> ;
@@ -111,7 +112,8 @@ oss:Q199
     osst:P111 "POINT(-123.4073635 42.0982598)",
         "POINT(-123.4073708 42.0981425)",
         "POINT(-123.4078225 42.098064)" ;
-    osst:P113 "natural=cave_entrance" .
+    osst:P113 "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0139> .
 
 osss:Q199-0FCB6F82-AFDC-5E5B-B018-78589E272D04
     a wikibase:BestRank,
@@ -130,6 +132,23 @@ osss:Q199-2AF5277E-4464-5E66-8B8A-4EB18F35AC5A
         wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
+
+osss:Q199-05DCB5B2-7050-5781-8ABE-CCF00BAE9AD1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Oregon caves national monument" ;
+    osspq:P116 "+2680"^^xsd:decimal ;
+    osspq:P117 "+2680"^^xsd:decimal ;
+    osspq:P118 "+0.015"^^xsd:decimal ;
+    osspq:P119 "+0.299"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:fb3aff06c33ff704c60986906cfce711 ;
+    osspqv:P117 ossv:fb3aff06c33ff704c60986906cfce711 ;
+    osspqv:P118 ossv:a5b165a59e30a765cd67bd859e139723 ;
+    osspqv:P119 ossv:a7ee5b594e8235a7e57068a13187417d ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0139> .
 
 osss:Q199-8EB096D4-DB19-5D03-A3CC-7070AC7BF95A
     a wikibase:Statement ;
@@ -221,6 +240,10 @@ ossref:8afc134e871dc6c83694aa7223ce227089d7e824
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3427512355/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:ec696e0b01445c26dfdfa4555d2bb041cfff53a3
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3427512355/history/3> .
@@ -232,6 +255,16 @@ ossref:fecc0e0358a63171c290c69e1c359786ea645ac8
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a5b165a59e30a765cd67bd859e139723
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.015"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a7ee5b594e8235a7e57068a13187417d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.299"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
@@ -249,4 +282,9 @@ ossv:b914696dcd73530a583e0f8eb1ccf170
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:fb3aff06c33ff704c60986906cfce711
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2680"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

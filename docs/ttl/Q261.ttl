@@ -63,7 +63,7 @@ ossdist:Q261-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q261, as archived from the Wikibase API"@en ;
-    dcat:byteSize "69915"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "73056"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q261.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q261
     schema:name "Herbstlabyrinth-Adventhöhle-System"@de,
         "Herbstlabyrinth-Adventhöhle-System"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "57"^^xsd:integer ;
+    wikibase:statements "58"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q261-D349234C-049E-53A6-98ED-472F591C9785 ;
     geo:hasGeometry osss:Q261-D349234C-049E-53A6-98ED-472F591C9785,
         osss:Q261-EC30A63C-17D6-5243-91E0-59D33EE26AE6 ;
@@ -148,6 +148,7 @@ oss:Q261
         osss:Q261-F5FD1FB7-DD7C-552E-A4B1-A2C811B60776,
         osss:Q261-F6115CC1-3870-5C7A-8197-11723F432A63,
         osss:Q261-FFE31CB7-F803-51C7-97F5-516E998353F0 ;
+    ossp:P114 osss:Q261-24877D51-0CC1-5345-8F79-31AEEE34D168 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/644792344> ;
     osst:P101 <https://www.openstreetmap.org/node/644792344/history/15> ;
@@ -190,7 +191,8 @@ oss:Q261
         "website:booking=https://www.proticket.de/veranstalter/gemeinde-breitscheid",
         "website=https://schauhöhle-breitscheid.de/",
         "wikidata=Q1609531",
-        "wikipedia=de:Herbstlabyrinth-Adventhöhle-System" .
+        "wikipedia=de:Herbstlabyrinth-Adventhöhle-System" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0313> .
 
 osss:Q261-2D017DED-7FB2-5E98-8183-C115DE2FE050
     a wikibase:BestRank,
@@ -411,6 +413,23 @@ osss:Q261-16281F77-456F-5665-9256-11A7A5E479A9
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
     ossps:P113 "payment:prepaid_ticket=yes" .
+
+osss:Q261-24877D51-0CC1-5345-8F79-31AEEE34D168
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Herbstlabyrinth cave" ;
+    osspq:P116 "+773"^^xsd:decimal ;
+    osspq:P117 "+773"^^xsd:decimal ;
+    osspq:P118 "+0.051"^^xsd:decimal ;
+    osspq:P119 "+0.797"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:12b93ecf522874a231d34ff32938850d ;
+    osspqv:P117 ossv:12b93ecf522874a231d34ff32938850d ;
+    osspqv:P118 ossv:5e97ac6aeaa080a3b6eb36636366fbc3 ;
+    osspqv:P119 ossv:e06d2efca1d1e9c877d685049d48817d ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0313> .
 
 osss:Q261-89793DEA-2921-5FC0-8B34-63A6CE08FBBD
     a wikibase:Statement ;
@@ -669,6 +688,10 @@ ossref:8646430ddca1b8a65bdf7ac88a33046888d54611
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/644792344/history/15> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:fa0c56be0a7e3e9c1a203eae8146b48b0daea885
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/644792344/history/1> .
@@ -693,6 +716,11 @@ ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
     wikibase:quantityAmount "+6"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:5e97ac6aeaa080a3b6eb36636366fbc3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.051"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:6d2190f7063132ea68f5418b57ca7521
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+13"^^xsd:decimal ;
@@ -706,6 +734,11 @@ ossv:08c6ec7603fef9d88b86557630fead4e
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:12b93ecf522874a231d34ff32938850d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+773"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:30e603cac620241526fa9f81268ba25c
@@ -748,6 +781,11 @@ ossv:bf325a3ce9397c3661d9e4902cd641ca
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e06d2efca1d1e9c877d685049d48817d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.797"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:e427e7ff9082b5fba9d7ef3b8794a3f6

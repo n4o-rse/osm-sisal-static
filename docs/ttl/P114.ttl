@@ -1,0 +1,140 @@
+# P114: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/P114.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Der SISAL-Standort (Speleothem-Paläoklima), zu dem diese Höhle gehört, als IRI im geo-lod-Graphen des Projekts EPICA-SISAL-FAIRification."@de,
+        "The SISAL speleothem site (palaeoclimate record) that this cave belongs to, as its IRI in the geo-lod graph of the EPICA-SISAL-FAIRification project."@en ;
+    dcterms:identifier "P114" ;
+    dcterms:isPartOf osscat:properties ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:P114 ;
+    dcterms:title "SISAL site"@en,
+        "SISAL-Standort"@de ;
+    schema:about oss:P114 ;
+    dcat:distribution ossdist:P114-html,
+        ossdist:P114-json,
+        ossdist:P114-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/P114.html> .
+
+ossdist:P114-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P114, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/P114.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:P114-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P114, as archived from the Wikibase API"@en ;
+    dcat:byteSize "1183"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/P114.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:P114-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "P114, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:P114.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:P114
+    a wikibase:Property ;
+    schema:description "Der SISAL-Standort (Speleothem-Paläoklima), zu dem diese Höhle gehört, als IRI im geo-lod-Graphen des Projekts EPICA-SISAL-FAIRification."@de,
+        "The SISAL speleothem site (palaeoclimate record) that this cave belongs to, as its IRI in the geo-lod graph of the EPICA-SISAL-FAIRification project."@en ;
+    schema:name "SISAL site"@en,
+        "SISAL-Standort"@de ;
+    wikibase:claim ossp:P114 ;
+    wikibase:directClaim osst:P114 ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:novalue ossno:P114 ;
+    wikibase:propertyType wikibase:Url ;
+    wikibase:qualifier osspq:P114 ;
+    wikibase:qualifierValue osspqv:P114 ;
+    wikibase:reference osspr:P114 ;
+    wikibase:referenceValue ossprv:P114 ;
+    wikibase:statementProperty ossps:P114 ;
+    wikibase:statementValue osspsv:P114 ;
+    wikibase:statements "1"^^xsd:integer ;
+    rdfs:label "SISAL site"@en,
+        "SISAL-Standort"@de ;
+    skos:prefLabel "SISAL site"@en,
+        "SISAL-Standort"@de ;
+    ossp:P2 osss:P114-5D1407FB-5E65-533C-BB14-2D0CEF3BC5A1 ;
+    osst:P2 oss:Q2 .
+
+osss:P114-5D1407FB-5E65-533C-BB14-2D0CEF3BC5A1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q2 .
+
+ossp:P114
+    a owl:ObjectProperty .
+
+osst:P114
+    a owl:ObjectProperty .
+
+osspq:P114
+    a owl:ObjectProperty .
+
+osspqv:P114
+    a owl:ObjectProperty .
+
+osspr:P114
+    a owl:ObjectProperty .
+
+ossprv:P114
+    a owl:ObjectProperty .
+
+ossps:P114
+    a owl:ObjectProperty .
+
+osspsv:P114
+    a owl:ObjectProperty .
+
+ossno:P114
+    a owl:Class ;
+    owl:complementOf _:42ac48ebec5f0629626705af8131fe13 .
+
+_:42ac48ebec5f0629626705af8131fe13
+    a owl:Restriction ;
+    owl:onProperty osst:P114 ;
+    owl:someValuesFrom owl:Thing .

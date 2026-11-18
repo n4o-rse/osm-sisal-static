@@ -63,7 +63,7 @@ ossdist:Q101-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q101, as archived from the Wikibase API"@en ;
-    dcat:byteSize "11900"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "15034"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q101.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q101
     schema:name "Clearwater Resurgence"@de,
         "Clearwater Resurgence"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "10"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q101-8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7 ;
     geo:hasGeometry osss:Q101-8EB6BF1E-A7DB-5444-A5E7-D3A9AC73B3F7 ;
     rdfs:label "Clearwater Resurgence"@de,
@@ -100,6 +100,7 @@ oss:Q101
     ossp:P113 osss:Q101-1CC6E499-BEAF-5270-ACC5-83AB1C535DA4,
         osss:Q101-65D7475A-4EFF-547C-8DDE-326A21FBC8AD,
         osss:Q101-E693ADA5-54E3-5D47-A198-4D505077F00F ;
+    ossp:P114 osss:Q101-2E4B2AB3-B90E-5557-B577-91D4F524B0A0 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/10084842668> ;
     osst:P101 <https://www.openstreetmap.org/node/10084842668/history/2> ;
@@ -108,7 +109,8 @@ oss:Q101
     osst:P111 "POINT(114.8313868 4.064987)" ;
     osst:P113 "description=Main exit for underground Clearwater River",
         "name=Clearwater Resurgence",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0118> .
 
 osss:Q101-1CC6E499-BEAF-5270-ACC5-83AB1C535DA4
     a wikibase:BestRank,
@@ -116,6 +118,23 @@ osss:Q101-1CC6E499-BEAF-5270-ACC5-83AB1C535DA4
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:4f2df5076590a46f5f80b708930aff7af9ec95f1 ;
     ossps:P113 "description=Main exit for underground Clearwater River" .
+
+osss:Q101-2E4B2AB3-B90E-5557-B577-91D4F524B0A0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Clearwater cave" ;
+    osspq:P116 "+228"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+3.899"^^xsd:decimal ;
+    osspq:P119 "+0.766"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:a211298f8be93ea1a9a193dfa04e5faa ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:62338fd5cfe0d4eb5f056521b713a432 ;
+    osspqv:P119 ossv:2e1d020e847f4a213778867e6c85744e ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0118> .
 
 osss:Q101-07A372F5-2E9F-5447-A90A-37F4B9B3C28F
     a wikibase:BestRank,
@@ -200,6 +219,30 @@ ossref:4f2df5076590a46f5f80b708930aff7af9ec95f1
 ossref:8f7096117331be23a1cbb5bc9e57fec8dec04e1c
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/10084842668/history/1> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:2e1d020e847f4a213778867e6c85744e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.766"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:62338fd5cfe0d4eb5f056521b713a432
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3.899"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a211298f8be93ea1a9a193dfa04e5faa
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+228"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;

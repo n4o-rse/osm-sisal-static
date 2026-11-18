@@ -63,7 +63,7 @@ ossdist:Q191-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q191, as archived from the Wikibase API"@en ;
-    dcat:byteSize "24416"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "27552"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q191.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q191
     schema:name "Grotta del Bue marino"@de,
         "Grotta del Bue marino"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "20"^^xsd:integer ;
+    wikibase:statements "21"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q191-F42593DC-DF9A-50F3-84E3-4F010431DDE4 ;
     geo:hasGeometry osss:Q191-F42593DC-DF9A-50F3-84E3-4F010431DDE4 ;
     rdfs:label "Grotta del Bue marino"@de,
@@ -110,6 +110,7 @@ oss:Q191
         osss:Q191-BFB28FB2-1DFC-58D0-B810-0B99B0F8DE0E,
         osss:Q191-DC9EE650-863E-50E1-B14D-9ADDCC022503,
         osss:Q191-FC882B99-073A-5CC8-8560-BAE577A60A9D ;
+    ossp:P114 osss:Q191-CB135A14-F5BF-5A8E-BC10-824A17E201FB ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/308354506> ;
     osst:P101 <https://www.openstreetmap.org/node/308354506/history/5> ;
@@ -125,7 +126,8 @@ oss:Q191
         "payment:cash=yes",
         "tourism=attraction",
         "wikidata=Q1225474",
-        "wikipedia=it:Grotte del Bue Marino" .
+        "wikipedia=it:Grotte del Bue Marino" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0097> .
 
 osss:Q191-0A8F1918-9DBA-5329-8613-EB4D52D51187
     a wikibase:BestRank,
@@ -260,6 +262,23 @@ osss:Q191-BFB28FB2-1DFC-58D0-B810-0B99B0F8DE0E
     prov:wasDerivedFrom ossref:fa4605e4cac27fd80149d9f5f78540d55ab66121 ;
     ossps:P113 "tourism=attraction" .
 
+osss:Q191-CB135A14-F5BF-5A8E-BC10-824A17E201FB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Bue Marino cave" ;
+    osspq:P116 "+295"^^xsd:decimal ;
+    osspq:P117 "+295"^^xsd:decimal ;
+    osspq:P118 "+0.005"^^xsd:decimal ;
+    osspq:P119 "+1.000"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:f523d3798bf019c0581a8a3bd659059a ;
+    osspqv:P117 ossv:f523d3798bf019c0581a8a3bd659059a ;
+    osspqv:P118 ossv:315af5fe9fc7e7df4df9bbafe6ee7745 ;
+    osspqv:P119 ossv:d917055be720f935e950c06d0f66072f ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0097> .
+
 osss:Q191-DC9EE650-863E-50E1-B14D-9ADDCC022503
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -296,6 +315,10 @@ ossref:86ddc0699639993e91d2ad6113262c1a0a705006
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/308354506/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:fa4605e4cac27fd80149d9f5f78540d55ab66121
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/308354506/history/5> .
@@ -315,6 +338,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:315af5fe9fc7e7df4df9bbafe6ee7745
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.005"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -330,4 +358,14 @@ ossv:af1f4728cad13336ee81414ca0e52fae
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d917055be720f935e950c06d0f66072f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.000"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f523d3798bf019c0581a8a3bd659059a
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+295"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

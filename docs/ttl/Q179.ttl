@@ -63,7 +63,7 @@ ossdist:Q179-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q179, as archived from the Wikibase API"@en ;
-    dcat:byteSize "8850"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "11981"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q179.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q179
     schema:name "Anjohibe"@de,
         "Anjohibe"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "8"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q179-15588701-F691-5525-A66C-048C83F5A928 ;
     geo:hasGeometry osss:Q179-15588701-F691-5525-A66C-048C83F5A928 ;
     rdfs:label "Anjohibe"@de,
@@ -98,6 +98,7 @@ oss:Q179
     ossp:P111 osss:Q179-15588701-F691-5525-A66C-048C83F5A928 ;
     ossp:P113 osss:Q179-84977AE6-FD0C-590A-980B-3517D7D473D2,
         osss:Q179-A2F1775A-4F04-5D7E-8B7F-7A81965A293B ;
+    ossp:P114 osss:Q179-92F0FA0D-C539-5176-8D20-90A2F8A1F07A ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/2510360072> ;
     osst:P101 <https://www.openstreetmap.org/node/2510360072/history/1> ;
@@ -105,7 +106,8 @@ oss:Q179
     osst:P110 "Point(46.8853815 -15.5422892)"^^geo:wktLiteral ;
     osst:P111 "POINT(46.8853815 -15.5422892)" ;
     osst:P113 "name=Anjohibe",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0094> .
 
 osss:Q179-7F2FF77B-F8BE-5705-865B-3A94500E2356
     a wikibase:BestRank,
@@ -118,6 +120,23 @@ osss:Q179-7F2FF77B-F8BE-5705-865B-3A94500E2356
     osspq:P106 "45284" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P101 <https://www.openstreetmap.org/node/2510360072/history/1> .
+
+osss:Q179-92F0FA0D-C539-5176-8D20-90A2F8A1F07A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Anjohibe" ;
+    osspq:P116 "+2553"^^xsd:decimal ;
+    osspq:P117 "+2553"^^xsd:decimal ;
+    osspq:P118 "+1.483"^^xsd:decimal ;
+    osspq:P119 "+0.911"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:717949872f7221a11a531b8e7d95ce50 ;
+    osspqv:P117 ossv:717949872f7221a11a531b8e7d95ce50 ;
+    osspqv:P118 ossv:ca5b631eb91ae831512734247f02007d ;
+    osspqv:P119 ossv:53e1d10ca4008dd7b5a4b4d53b542a75 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0094> .
 
 osss:Q179-218E972C-B811-5953-AE2D-2F67E88F95C8
     a wikibase:BestRank,
@@ -176,6 +195,10 @@ ossref:36c7f3da089e75208e77b5a736b81ceac53abdce
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/2510360072/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0c3b307b9319af3b6500bd4bd97252e9
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
@@ -183,7 +206,22 @@ ossv:0c3b307b9319af3b6500bd4bd97252e9
     wikibase:geoLongitude "46.8853815"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:53e1d10ca4008dd7b5a4b4d53b542a75
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.911"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:717949872f7221a11a531b8e7d95ce50
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2553"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ca5b631eb91ae831512734247f02007d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.483"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

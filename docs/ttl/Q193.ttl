@@ -63,7 +63,7 @@ ossdist:Q193-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q193, as archived from the Wikibase API"@en ;
-    dcat:byteSize "16729"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "19868"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q193.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q193
     schema:name "Lake Shasta Caverns"@de,
         "Lake Shasta Caverns"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "12"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q193-6E9DD3B7-BD29-54A3-84DD-5E19E3C68FA6 ;
     geo:hasGeometry osss:Q193-6E9DD3B7-BD29-54A3-84DD-5E19E3C68FA6,
         osss:Q193-57E9283D-C658-5196-ADC9-5EB683C312A8 ;
@@ -103,6 +103,7 @@ oss:Q193
         osss:Q193-57E9283D-C658-5196-ADC9-5EB683C312A8 ;
     ossp:P113 osss:Q193-3F452626-E82D-5EC3-8D3B-F7CB72DBAD0A,
         osss:Q193-E6283682-8B4C-59F1-A736-FB1061739E75 ;
+    ossp:P114 osss:Q193-DEAA22A3-705D-532F-A8AE-3F70660A8018 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/320120939> ;
     osst:P101 <https://www.openstreetmap.org/node/320120939/history/4> ;
@@ -111,7 +112,8 @@ oss:Q193
     osst:P111 "POINT(-122.2764089 40.797376)",
         "POINT(-122.2766711 40.7973795)" ;
     osst:P113 "name=Lake Shasta Caverns",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0363> .
 
 osss:Q193-3F452626-E82D-5EC3-8D3B-F7CB72DBAD0A
     a wikibase:BestRank,
@@ -216,6 +218,23 @@ osss:Q193-DB84927F-A938-5AEE-9985-8EF2AD23327E
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
 
+osss:Q193-DEAA22A3-705D-532F-A8AE-3F70660A8018
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Lake Shasta cave" ;
+    osspq:P116 "+1025"^^xsd:decimal ;
+    osspq:P117 "+1025"^^xsd:decimal ;
+    osspq:P118 "+2.415"^^xsd:decimal ;
+    osspq:P119 "+0.855"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:707c11ac0660c5f35cbcba8d8e4ceb7f ;
+    osspqv:P117 ossv:707c11ac0660c5f35cbcba8d8e4ceb7f ;
+    osspqv:P118 ossv:a8510f6fa8d012f5ca00b67bb08dc882 ;
+    osspqv:P119 ossv:cc2ac4b94ad4f3bc414bfd682601b694 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0363> .
+
 osss:Q193-E6283682-8B4C-59F1-A736-FB1061739E75
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -230,6 +249,10 @@ ossref:985dd1fbe12c9223f82354cc99611a26f96527e3
 ossref:c59a27e4cbf2aec68da7220bc65777f39fff9012
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/320120939/history/1> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossref:e8065f47acbd1ab852821f3f715f7be4406c5e53
     a wikibase:Reference ;
@@ -252,6 +275,16 @@ ossv:49f25f56f978bad5d76719ddf5d0c795
     wikibase:geoLongitude "-122.2766711"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:707c11ac0660c5f35cbcba8d8e4ceb7f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1025"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a8510f6fa8d012f5ca00b67bb08dc882
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2.415"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -260,4 +293,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cc2ac4b94ad4f3bc414bfd682601b694
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.855"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

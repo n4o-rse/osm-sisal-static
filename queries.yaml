@@ -145,6 +145,43 @@ queries:
       ORDER BY ?label ?item
       LIMIT 200
 
+  - id: osm-sisal-sites
+    title: {en: "Caves with their SISAL site", de: "Höhlen mit ihrem SISAL-Standort"}
+    intro:
+      en: >-
+        The caves that are linked to a SISAL speleothem site (property P114), with the name of the site, the number of its δ18O samples and the
+        distance between site and OSM node in kilometres. The site IRI is the one of the EPICA-SISAL-FAIRification project.
+      de: >-
+        Die Höhlen, die mit einem SISAL-Speleothem-Standort verknüpft sind (Property P114), mit dem Namen des Standorts, der Zahl seiner
+        δ18O-Proben und dem Abstand zwischen Standort und OSM-Node in Kilometern. Die Standort-IRI ist die des Projekts EPICA-SISAL-FAIRification.
+    sparql: |
+      SELECT ?item ?label ?site ?siteName ?samples ?km WHERE {
+        ?item ossp:P114 ?statement ;
+              rdfs:label ?label .
+        ?statement ossps:P114 ?site ;
+                   osspq:P115 ?siteName ;
+                   osspq:P116 ?samples ;
+                   osspq:P118 ?km .
+        FILTER(LANG(?label) = "@@lang@@")
+      }
+      ORDER BY DESC(?samples) ?label ?item
+      LIMIT 200
+
+  - id: osm-sisal-without-site
+    title: {en: "Caves without a SISAL site", de: "Höhlen ohne SISAL-Standort"}
+    intro:
+      en: "The caves of this site that have no SISAL site (yet), because no pair in `data/seeds/sisal-matches.csv` was sure or accepted."
+      de: "Die Höhlen dieser Site ohne SISAL-Standort (bisher), weil kein Paar in `data/seeds/sisal-matches.csv` sicher oder bestätigt war."
+    sparql: |
+      SELECT ?item ?label WHERE {
+        ?item rdfs:label ?label ;
+              ossp:P100 ?element .
+        FILTER(LANG(?label) = "@@lang@@")
+        FILTER NOT EXISTS { ?item ossp:P114 ?site }
+      }
+      ORDER BY ?label ?item
+      LIMIT 300
+
   - id: items
     title: {en: "Items with label and description", de: "Items mit Bezeichnung und Beschreibung"}
     intro:

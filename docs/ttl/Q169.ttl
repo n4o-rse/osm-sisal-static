@@ -63,7 +63,7 @@ ossdist:Q169-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q169, as archived from the Wikibase API"@en ;
-    dcat:byteSize "16136"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "19270"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q169.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q169
     schema:name "Caverna Umajalanta"@de,
         "Caverna Umajalanta"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "14"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q169-2D348EC0-E48F-57B8-B839-3DECC9D1C74A ;
     geo:hasGeometry osss:Q169-2D348EC0-E48F-57B8-B839-3DECC9D1C74A,
         osss:Q169-270CDC56-64BE-591B-B8D6-81EC33364D9C ;
@@ -105,6 +105,7 @@ oss:Q169
         osss:Q169-CA71620E-004A-51EE-A993-68B050FAEC1F,
         osss:Q169-DA188940-D7B5-5B0A-A2D6-FD70C9E76AD5,
         osss:Q169-FBD8195C-0C66-5BF1-8F1B-DD15C191AA7A ;
+    ossp:P114 osss:Q169-12A9E6D5-35BD-5835-8437-443BE48C8B52 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/2264386190> ;
     osst:P101 <https://www.openstreetmap.org/node/2264386190/history/2> ;
@@ -117,7 +118,8 @@ oss:Q169
         "fee=yes",
         "name=Caverna Umajalanta",
         "natural=cave_entrance",
-        "tourism=attraction" .
+        "tourism=attraction" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0237> .
 
 osss:Q169-2C6FD3CB-6AA6-5FFB-B617-F8A774169B85
     a wikibase:BestRank,
@@ -162,6 +164,23 @@ osss:Q169-9F8CBE29-19A5-54B1-9301-5273095261E9
         wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
+
+osss:Q169-12A9E6D5-35BD-5835-8437-443BE48C8B52
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Umajalanta cave" ;
+    osspq:P116 "+242"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+4.433"^^xsd:decimal ;
+    osspq:P119 "+0.734"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:e4ee0faddfc549d6fa0d04a39cd772a2 ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:80c16f170669b24f5c9e4d5f9e4d2dce ;
+    osspqv:P119 ossv:fae0aa2bce803d36ffd7d6bdd12f62c7 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0237> .
 
 osss:Q169-63F7A6D0-9E8E-5F8D-AF5B-0FE0FBE4F55A
     a wikibase:BestRank,
@@ -239,9 +258,23 @@ ossref:73ba00a4318d30dff9e187385209da6c6ceaa9e4
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/2264386190/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:eb22828d65744e346f6cf5e2f79007d31d6ec57b
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/2264386190/history/1> .
+
+ossv:80c16f170669b24f5c9e4d5f9e4d2dce
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4.433"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
@@ -259,3 +292,13 @@ ossv:c05153f12d373af173f82085ce7bb171
     wikibase:geoLatitude "-18.1143342"^^xsd:double ;
     wikibase:geoLongitude "-65.8115243"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:e4ee0faddfc549d6fa0d04a39cd772a2
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+242"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:fae0aa2bce803d36ffd7d6bdd12f62c7
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.734"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

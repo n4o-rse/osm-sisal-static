@@ -63,7 +63,7 @@ ossdist:Q274-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q274, as archived from the Wikibase API"@en ;
-    dcat:byteSize "17748"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "20872"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q274.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q274
     schema:name "Tham Klang"@de,
         "Tham Klang"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "14"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q274-5FF9E0EB-1056-579B-AB50-DC4F8C4155A1 ;
     geo:hasGeometry osss:Q274-5FF9E0EB-1056-579B-AB50-DC4F8C4155A1 ;
     rdfs:label "Tham Klang"@de,
@@ -104,6 +104,7 @@ oss:Q274
         osss:Q274-41771D20-C545-5414-BF07-BE9C856B964D,
         osss:Q274-C1DD4980-DAAA-5A0B-97D8-3A7943ABA426,
         osss:Q274-F5493CAC-343C-5AF7-A42E-AD3659B50985 ;
+    ossp:P114 osss:Q274-E9830BED-A6D8-5F86-A42E-A30849DC0337 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/7161046616> ;
     osst:P101 <https://www.openstreetmap.org/node/7161046616/history/4> ;
@@ -114,7 +115,8 @@ oss:Q274
         "name=Tham Klang",
         "natural=cave_entrance",
         "tourism=attraction",
-        "wikidata=Q136768099" .
+        "wikidata=Q136768099" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0321> .
 
 osss:Q274-3D3642E0-420B-52DC-AA71-494B8173E443
     a wikibase:BestRank,
@@ -220,6 +222,23 @@ osss:Q274-DB298C0D-CB8A-57DE-A94E-E14E206104CE
     osspq:P109 "sisal" ;
     ossps:P107 <https://www.openstreetmap.org/node/7161046616/history/1> .
 
+osss:Q274-E9830BED-A6D8-5F86-A42E-A30849DC0337
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Klang" ;
+    osspq:P116 "+677"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+1.929"^^xsd:decimal ;
+    osspq:P119 "+0.884"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:e0c589e25875aa4f78e89d88be03d6e1 ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:057f0fa5e73feca2c6e0004f9d12d51d ;
+    osspqv:P119 ossv:3eb0e5eb61993f5469e231373ce7d5eb ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0321> .
+
 osss:Q274-F5493CAC-343C-5AF7-A42E-AD3659B50985
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -239,6 +258,10 @@ ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7161046616/history/4> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:e6dd44efa40ee1acfb6bab2a6f960fae7795e620
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7161046616/history/1> .
@@ -246,6 +269,11 @@ ossref:e6dd44efa40ee1acfb6bab2a6f960fae7795e620
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3eb0e5eb61993f5469e231373ce7d5eb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.884"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:04ec57dccd033133ec76841c453de1df
@@ -260,6 +288,16 @@ ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     wikibase:quantityAmount "+4"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:057f0fa5e73feca2c6e0004f9d12d51d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.929"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -268,4 +306,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e0c589e25875aa4f78e89d88be03d6e1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+677"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

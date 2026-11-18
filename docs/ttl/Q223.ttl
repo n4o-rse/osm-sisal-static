@@ -63,7 +63,7 @@ ossdist:Q223-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q223, as archived from the Wikibase API"@en ;
-    dcat:byteSize "14818"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "17951"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q223.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q223
     schema:name "Grotta della Bigonda"@de,
         "Grotta della Bigonda"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "12"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q223-C61564F1-C864-54F4-98EB-E25230F1287E ;
     geo:hasGeometry osss:Q223-C61564F1-C864-54F4-98EB-E25230F1287E ;
     rdfs:label "Grotta della Bigonda"@de,
@@ -102,6 +102,7 @@ oss:Q223
         osss:Q223-76F59446-1B9B-5479-B209-C4453B135E53,
         osss:Q223-94A2FC51-2589-5885-8396-D209494C9543,
         osss:Q223-246F1084-09BD-5567-B1AC-6ECD61F82D46 ;
+    ossp:P114 osss:Q223-FFB001D1-72B3-5E8C-8E6B-41F58FE2751E ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4388840122> ;
     osst:P101 <https://www.openstreetmap.org/node/4388840122/history/3> ;
@@ -111,7 +112,8 @@ oss:Q223
     osst:P113 "name=Grotta della Bigonda",
         "natural=cave_entrance",
         "wikidata=Q3777045",
-        "wikipedia=it:Grotta della Bigonda" .
+        "wikipedia=it:Grotta della Bigonda" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0360> .
 
 osss:Q223-1AB01C0F-EAA4-5D5F-A00E-ABB5F011D23F
     a wikibase:BestRank,
@@ -214,9 +216,30 @@ osss:Q223-FCB462C0-0A2F-5110-BC84-0747CC92FA49
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P101 <https://www.openstreetmap.org/node/4388840122/history/1> .
 
+osss:Q223-FFB001D1-72B3-5E8C-8E6B-41F58FE2751E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Bigonda cave" ;
+    osspq:P116 "+758"^^xsd:decimal ;
+    osspq:P117 "+758"^^xsd:decimal ;
+    osspq:P118 "+0.018"^^xsd:decimal ;
+    osspq:P119 "+0.789"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:14ab2abee11f3c9700f31909f97347a1 ;
+    osspqv:P117 ossv:14ab2abee11f3c9700f31909f97347a1 ;
+    osspqv:P118 ossv:40ef7b107bbc3ec652c72b60a1487c9f ;
+    osspqv:P119 ossv:e5b768bf50164344d318d572df8ba4b4 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0360> .
+
 ossref:30645f08099d6c0443b9d5dff0b26a369ec16cb7
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4388840122/history/1> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossref:e3fb5596c9f52167d0ef494052f4de61d41ea57b
     a wikibase:Reference ;
@@ -225,6 +248,16 @@ ossref:e3fb5596c9f52167d0ef494052f4de61d41ea57b
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:14ab2abee11f3c9700f31909f97347a1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+758"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:40ef7b107bbc3ec652c72b60a1487c9f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.018"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:84380b10f390de679653dcac8efd0b42
@@ -242,4 +275,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e5b768bf50164344d318d572df8ba4b4
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.789"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

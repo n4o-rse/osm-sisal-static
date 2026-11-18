@@ -63,7 +63,7 @@ ossdist:Q301-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q301, as archived from the Wikibase API"@en ;
-    dcat:byteSize "17743"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "20876"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q301.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q301
     schema:name "Caverna Santana"@de,
         "Caverna Santana"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "14"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q301-91FB7FA1-CA16-5068-8CA1-D633E11DE898 ;
     geo:hasGeometry osss:Q301-91FB7FA1-CA16-5068-8CA1-D633E11DE898 ;
     rdfs:label "Caverna Santana"@de,
@@ -104,6 +104,7 @@ oss:Q301
         osss:Q301-D9182771-E520-54EB-95E9-F389CDCF1379,
         osss:Q301-E650724F-8B1F-5A97-A372-443D16C5ABB2,
         osss:Q301-F383E423-AAB7-577A-AB1E-26BDE632A720 ;
+    ossp:P114 osss:Q301-93B5CDD8-B55B-50D2-9CC3-A1F5444C4E68 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/903676829> ;
     osst:P101 <https://www.openstreetmap.org/node/903676829/history/4> ;
@@ -114,7 +115,8 @@ oss:Q301
         "natural=cave_entrance",
         "tourism=attraction",
         "wikidata=Q5055052",
-        "wikipedia=pt:Caverna Santana" .
+        "wikipedia=pt:Caverna Santana" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0234> .
 
 osss:Q301-0A0C9AA1-1C67-56F4-9353-E4F2FEF87DBA
     a wikibase:Statement ;
@@ -182,6 +184,23 @@ osss:Q301-91FB7FA1-CA16-5068-8CA1-D633E11DE898
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(-48.7022212 -24.5338246)" .
 
+osss:Q301-93B5CDD8-B55B-50D2-9CC3-A1F5444C4E68
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Santana cave" ;
+    osspq:P116 "+661"^^xsd:decimal ;
+    osspq:P117 "+661"^^xsd:decimal ;
+    osspq:P118 "+2.499"^^xsd:decimal ;
+    osspq:P119 "+0.850"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:5153491a56b958f4a0e3a5fd7d18b6dd ;
+    osspqv:P117 ossv:5153491a56b958f4a0e3a5fd7d18b6dd ;
+    osspqv:P118 ossv:c050cfc9e0c110d52f08a82d8b2d29c6 ;
+    osspqv:P119 ossv:e8ae6b8b7b214b1c72c30b4211cff65d ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0234> .
+
 osss:Q301-700DBAC1-7877-509B-A9E5-951846CD64D5
     a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
@@ -243,6 +262,10 @@ ossref:c1307d2c2485b24251aa3fd1a59949704a5fd3cf
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/903676829/history/4> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -260,12 +283,27 @@ ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     wikibase:quantityAmount "+4"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:5153491a56b958f4a0e3a5fd7d18b6dd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+661"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:c050cfc9e0c110d52f08a82d8b2d29c6
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2.499"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e8ae6b8b7b214b1c72c30b4211cff65d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.850"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

@@ -63,7 +63,7 @@ ossdist:Q166-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q166, as archived from the Wikibase API"@en ;
-    dcat:byteSize "19701"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "22837"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q166.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q166
     schema:name "Cova Meravelles"@de,
         "Cova Meravelles"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "14"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q166-A95A1E28-AE24-5A9E-8915-5223336EA233 ;
     geo:hasGeometry osss:Q166-1FBB42A0-B56D-5DE0-94AB-088844560782,
         osss:Q166-A95A1E28-AE24-5A9E-8915-5223336EA233 ;
@@ -105,6 +105,7 @@ oss:Q166
     ossp:P113 osss:Q166-66C4568D-7721-59B8-A780-239744D4615B,
         osss:Q166-377D30FA-AB5E-5481-BEE8-AD72337C38F4,
         osss:Q166-A0B658B5-EEB5-5FF7-BFE9-5B27860A4DBD ;
+    ossp:P114 osss:Q166-4E91F553-8176-5CFE-8CBD-1324371279BE ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/1961032052> ;
     osst:P101 <https://www.openstreetmap.org/node/1961032052/history/5> ;
@@ -114,7 +115,8 @@ oss:Q166
         "POINT(0.5128491 40.9489505)" ;
     osst:P113 "name:ca=Cova Meravelles",
         "name=Cova Meravelles",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0330> .
 
 osss:Q166-1FBB42A0-B56D-5DE0-94AB-088844560782
     a wikibase:BestRank,
@@ -127,6 +129,23 @@ osss:Q166-1FBB42A0-B56D-5DE0-94AB-088844560782
     osspq:P103 "2012-10-12T17:50:51Z" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(0.5128491 40.9489505)" .
+
+osss:Q166-4E91F553-8176-5CFE-8CBD-1324371279BE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Meravelles cave" ;
+    osspq:P116 "+250"^^xsd:decimal ;
+    osspq:P117 "+250"^^xsd:decimal ;
+    osspq:P118 "+0.190"^^xsd:decimal ;
+    osspq:P119 "+0.989"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:b130a891dfe9b56d75788dd33475fd9d ;
+    osspqv:P117 ossv:b130a891dfe9b56d75788dd33475fd9d ;
+    osspqv:P118 ossv:95c3b098555a7b0ac52bb8c5cb859685 ;
+    osspqv:P119 ossv:53d3ee3abe6bf2d887cdf8406f86f6df ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0330> .
 
 osss:Q166-05E130D2-B1F6-5542-AA5C-2DE300E40CC4
     a wikibase:BestRank,
@@ -256,6 +275,10 @@ ossref:bdc779fec669d173d362aa4e58045c4078e6f9bf
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1961032052/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -271,6 +294,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:53d3ee3abe6bf2d887cdf8406f86f6df
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.989"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:75e7f96bc1bd2300c4dcbb3ce13f55e2
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
@@ -278,9 +306,19 @@ ossv:75e7f96bc1bd2300c4dcbb3ce13f55e2
     wikibase:geoLongitude "0.5110749"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:95c3b098555a7b0ac52bb8c5cb859685
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.190"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b130a891dfe9b56d75788dd33475fd9d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+250"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea

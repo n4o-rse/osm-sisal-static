@@ -63,7 +63,7 @@ ossdist:Q217-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q217, as archived from the Wikibase API"@en ;
-    dcat:byteSize "20285"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "23419"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q217.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q217
     schema:name "Cueva de La Garma"@de,
         "Cueva de La Garma"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "18"^^xsd:integer ;
+    wikibase:statements "19"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q217-1199E474-08C3-53E0-88D2-29B2C28F53B0 ;
     geo:hasGeometry osss:Q217-1199E474-08C3-53E0-88D2-29B2C28F53B0 ;
     rdfs:label "Cueva de La Garma"@de,
@@ -108,6 +108,7 @@ oss:Q217
         osss:Q217-AEBA8211-0E5D-5287-BF7B-74A24DFFAF38,
         osss:Q217-C4411747-D8FE-51C7-A156-1ADD64210022,
         osss:Q217-E8B8EF7D-6C84-556A-AA5F-5D75E097DA5D ;
+    ossp:P114 osss:Q217-52AF3F90-0AE5-57B2-B18C-4286FAEC3F7D ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/418784261> ;
     osst:P101 <https://www.openstreetmap.org/node/418784261/history/3> ;
@@ -123,7 +124,8 @@ oss:Q217
         "natural=cave_entrance",
         "website=https://turismodecantabria.com/disfrutala/que-visitar/26-cueva-de-la-garma/buscador-aWRab25hPTgmaWRNdW5pY2lwaW89Nzcm",
         "wikidata=Q8348804",
-        "wikipedia=es:Complejo kárstico del monte de La Garma" .
+        "wikipedia=es:Complejo kárstico del monte de La Garma" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0286> .
 
 osss:Q217-1D4204F2-FD56-59F4-A9F4-D2203648E1B2
     a wikibase:BestRank,
@@ -145,6 +147,23 @@ osss:Q217-29CA864E-C833-58C4-942B-3129DC11D4EA
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:975d1fee480a0d36d600297840d38c5d4a48d1a5 ;
     ossps:P113 "historic:period=stone-age" .
+
+osss:Q217-52AF3F90-0AE5-57B2-B18C-4286FAEC3F7D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "La Garma cave" ;
+    osspq:P116 "+765"^^xsd:decimal ;
+    osspq:P117 "+497"^^xsd:decimal ;
+    osspq:P118 "+0.013"^^xsd:decimal ;
+    osspq:P119 "+0.999"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:22e2cf6d3d9458bcb0b086316c5fdf95 ;
+    osspqv:P117 ossv:312ae251d2a7ab9674f2def269c7ffb9 ;
+    osspqv:P118 ossv:f246396796caa75f67c466bcb95a418a ;
+    osspqv:P119 ossv:a44bab8da74580851dcf2a1bb05201bd ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0286> .
 
 osss:Q217-052FCB85-4DDA-542A-87FA-060DDF9A7B27
     a wikibase:BestRank,
@@ -276,6 +295,10 @@ ossref:79759a53e591f587ca3dcd28f6b1eb8f340247a6
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/418784261/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -288,6 +311,21 @@ ossv:4c79d5693b70ce527e2b4c3ae5022c65
     wikibase:geoLongitude "-3.6659247"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:22e2cf6d3d9458bcb0b086316c5fdf95
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+765"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:312ae251d2a7ab9674f2def269c7ffb9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+497"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a44bab8da74580851dcf2a1bb05201bd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.999"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -296,4 +334,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f246396796caa75f67c466bcb95a418a
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.013"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

@@ -63,7 +63,7 @@ ossdist:Q204-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q204, as archived from the Wikibase API"@en ;
-    dcat:byteSize "8845"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "11974"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q204.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q204
     schema:name "Mitoho"@de,
         "Mitoho"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "8"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q204-A6D94597-12A5-5B4D-B21F-C2FB48CA06E0 ;
     geo:hasGeometry osss:Q204-A6D94597-12A5-5B4D-B21F-C2FB48CA06E0 ;
     rdfs:label "Mitoho"@de,
@@ -98,6 +98,7 @@ oss:Q204
     ossp:P111 osss:Q204-A6D94597-12A5-5B4D-B21F-C2FB48CA06E0 ;
     ossp:P113 osss:Q204-07B2934E-2864-5373-ACB9-36C592B9A3DB,
         osss:Q204-9557BD0F-EA4A-5EEC-806C-7AB5A0621CEC ;
+    ossp:P114 osss:Q204-9210FE7C-D10B-5D58-8AE0-B79DAEDE49A1 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/3570423899> ;
     osst:P101 <https://www.openstreetmap.org/node/3570423899/history/1> ;
@@ -105,7 +106,8 @@ oss:Q204
     osst:P110 "Point(43.7531438 -24.0476935)"^^geo:wktLiteral ;
     osst:P111 "POINT(43.7531438 -24.0476935)" ;
     osst:P113 "name=Mitoho",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0255> .
 
 osss:Q204-07B2934E-2864-5373-ACB9-36C592B9A3DB
     a wikibase:BestRank,
@@ -113,6 +115,23 @@ osss:Q204-07B2934E-2864-5373-ACB9-36C592B9A3DB
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:113a0e3e8c4f32d609759360b0dbb11d5dd72099 ;
     ossps:P113 "name=Mitoho" .
+
+osss:Q204-9210FE7C-D10B-5D58-8AE0-B79DAEDE49A1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Mitoho" ;
+    osspq:P116 "+1375"^^xsd:decimal ;
+    osspq:P117 "+1375"^^xsd:decimal ;
+    osspq:P118 "+0.016"^^xsd:decimal ;
+    osspq:P119 "+0.999"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:e6fa89dbde5b171fc9422e0268ce32a3 ;
+    osspqv:P117 ossv:e6fa89dbde5b171fc9422e0268ce32a3 ;
+    osspqv:P118 ossv:af571c8328e8e68dd067295f62735ff6 ;
+    osspqv:P119 ossv:a44bab8da74580851dcf2a1bb05201bd ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0255> .
 
 osss:Q204-9557BD0F-EA4A-5EEC-806C-7AB5A0621CEC
     a wikibase:BestRank,
@@ -176,9 +195,23 @@ ossref:113a0e3e8c4f32d609759360b0dbb11d5dd72099
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3570423899/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:a44bab8da74580851dcf2a1bb05201bd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.999"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:af571c8328e8e68dd067295f62735ff6
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.016"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:dc556a7e43fbbaea4dfb93ffa1dc3f79
@@ -187,3 +220,8 @@ ossv:dc556a7e43fbbaea4dfb93ffa1dc3f79
     wikibase:geoLatitude "-24.0476935"^^xsd:double ;
     wikibase:geoLongitude "43.7531438"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:e6fa89dbde5b171fc9422e0268ce32a3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1375"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

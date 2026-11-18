@@ -63,7 +63,7 @@ ossdist:Q227-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q227, as archived from the Wikibase API"@en ;
-    dcat:byteSize "16838"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "19969"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q227.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q227
     schema:name "Belum Caves"@de,
         "Belum Caves"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "13"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q227-C1305B3C-25E5-5145-A125-0C7522A3660E ;
     geo:hasGeometry osss:Q227-C1305B3C-25E5-5145-A125-0C7522A3660E ;
     rdfs:label "Belum Caves"@de,
@@ -103,6 +103,7 @@ oss:Q227
         osss:Q227-6DB896CC-0DA5-581B-8149-0074598F1559,
         osss:Q227-424195F4-0479-575A-86C6-BCB4D35E7736,
         osss:Q227-D3E2EE81-8C6B-564A-AB68-8309096E927B ;
+    ossp:P114 osss:Q227-911310EC-2D44-5EDB-9027-81E5D14DB1E8 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4523782074> ;
     osst:P101 <https://www.openstreetmap.org/node/4523782074/history/4> ;
@@ -112,7 +113,8 @@ oss:Q227
     osst:P113 "name=Belum Caves",
         "natural=cave_entrance",
         "wikidata=Q723862",
-        "wikipedia=en:Belum Caves" .
+        "wikipedia=en:Belum Caves" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0298> .
 
 osss:Q227-2C7D304E-D6E9-5DC3-A5A5-BC707733BA86
     a wikibase:BestRank,
@@ -175,6 +177,23 @@ osss:Q227-424195F4-0479-575A-86C6-BCB4D35E7736
     prov:wasDerivedFrom ossref:640537c44758f83b9cdc8f656feb4d8dec290132 ;
     ossps:P113 "wikipedia=en:Belum Caves" .
 
+osss:Q227-911310EC-2D44-5EDB-9027-81E5D14DB1E8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Belum cave" ;
+    osspq:P116 "+861"^^xsd:decimal ;
+    osspq:P117 "+861"^^xsd:decimal ;
+    osspq:P118 "+1.276"^^xsd:decimal ;
+    osspq:P119 "+0.923"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:ff391612768fcda202b8412057b8243c ;
+    osspqv:P117 ossv:ff391612768fcda202b8412057b8243c ;
+    osspqv:P118 ossv:feef9fe79ae3b98e275e9da5ce21379c ;
+    osspqv:P119 ossv:f2da3e9239a37f3b5b53652ed37c4c13 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0298> .
+
 osss:Q227-A812EF7C-E908-55B9-A625-B468A00CEC8A
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -234,6 +253,10 @@ ossref:640537c44758f83b9cdc8f656feb4d8dec290132
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4523782074/history/4> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -259,4 +282,19 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f2da3e9239a37f3b5b53652ed37c4c13
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.923"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:feef9fe79ae3b98e275e9da5ce21379c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.276"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ff391612768fcda202b8412057b8243c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+861"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

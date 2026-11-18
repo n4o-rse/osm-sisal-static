@@ -63,7 +63,7 @@ ossdist:Q165-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q165, as archived from the Wikibase API"@en ;
-    dcat:byteSize "42809"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "45939"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q165.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q165
     schema:name "Atta-Höhle"@de,
         "Atta-Höhle"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "29"^^xsd:integer ;
+    wikibase:statements "30"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q165-46CE7CA1-7FA2-5979-97FB-691A98291F39 ;
     geo:hasGeometry osss:Q165-46CE7CA1-7FA2-5979-97FB-691A98291F39,
         osss:Q165-1467ECF3-2C0D-571C-A8AB-3D798A4DE4BA,
@@ -122,6 +122,7 @@ oss:Q165
         osss:Q165-B5444DEC-EABB-5E0E-ACAF-81EA95C2645B,
         osss:Q165-BB253CEC-142A-5D60-8809-0BC7B807F148,
         osss:Q165-C52EA645-B262-51D0-9C08-7560BF220BD7 ;
+    ossp:P114 osss:Q165-C2A40DD1-BAD2-50C1-931F-23C2C256B0C7 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/194177073> ;
     osst:P101 <https://www.openstreetmap.org/node/194177073/history/12> ;
@@ -139,7 +140,8 @@ oss:Q165
         "website=https://www.atta-hoehle.de/",
         "wheelchair=no",
         "wikidata=Q11400",
-        "wikipedia=de:Atta-Höhle" .
+        "wikipedia=de:Atta-Höhle" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0280> .
 
 osss:Q165-0B54A6AD-5D26-50D4-BB06-838F5348A19D
     a wikibase:BestRank,
@@ -360,6 +362,23 @@ osss:Q165-BB253CEC-142A-5D60-8809-0BC7B807F148
     prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
     ossps:P113 "short_name=Attahöhle" .
 
+osss:Q165-C2A40DD1-BAD2-50C1-931F-23C2C256B0C7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Atta cave" ;
+    osspq:P116 "+384"^^xsd:decimal ;
+    osspq:P117 "+384"^^xsd:decimal ;
+    osspq:P118 "+3.019"^^xsd:decimal ;
+    osspq:P119 "+0.819"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:0f223c2947bce350ef2b3488a4894bfd ;
+    osspqv:P117 ossv:0f223c2947bce350ef2b3488a4894bfd ;
+    osspqv:P118 ossv:3884bac3ed94faa45abf317af710d046 ;
+    osspqv:P119 ossv:9d073ab9f1152a8c47d418a72b6d5e14 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0280> .
+
 osss:Q165-C52EA645-B262-51D0-9C08-7560BF220BD7
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -432,9 +451,18 @@ ossref:516fe57a96d1791f55b3fec35b2bb84b930cfc1b
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/194177073/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0f223c2947bce350ef2b3488a4894bfd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+384"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:0fcaa891e5e94500c686c63fa72a9d72
@@ -455,6 +483,11 @@ ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
 ossv:08c6ec7603fef9d88b86557630fead4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9d073ab9f1152a8c47d418a72b6d5e14
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.819"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
@@ -480,6 +513,11 @@ ossv:187a57b7a4159b90f1b51b12225fda5f
 ossv:273d314d307f834d9b3ee29183ae71c0
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+12"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3884bac3ed94faa45abf317af710d046
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3.019"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:48595ddba78fba9dfa8804c4cccc2a78

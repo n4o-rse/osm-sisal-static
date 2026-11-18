@@ -63,7 +63,7 @@ ossdist:Q163-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q163, as archived from the Wikibase API"@en ;
-    dcat:byteSize "21308"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "24440"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q163.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q163
     schema:name "Kocain Mağarası"@de,
         "Kocain Mağarası"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "18"^^xsd:integer ;
+    wikibase:statements "19"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q163-34C18E7C-FB17-5A88-A09D-80FC912E42F2 ;
     geo:hasGeometry osss:Q163-34C18E7C-FB17-5A88-A09D-80FC912E42F2 ;
     rdfs:label "Kocain Mağarası"@de,
@@ -108,6 +108,7 @@ oss:Q163
         osss:Q163-A8E837D6-D71C-5B04-BCB1-2469B4CDB06E,
         osss:Q163-B42A8CBC-FB2C-5489-9940-452228A097F8,
         osss:Q163-E72BF474-F6D7-5D99-A97A-879C306625C6 ;
+    ossp:P114 osss:Q163-C0C710FE-11DB-52D4-8E5C-9C6165F9B654 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/1572294886> ;
     osst:P101 <https://www.openstreetmap.org/node/1572294886/history/4> ;
@@ -122,7 +123,8 @@ oss:Q163
         "tourism=attraction",
         "wikidata=Q30589415",
         "wikipedia=en:Kocain Cave",
-        "wpt_symbol=Skull and Crossbones" .
+        "wpt_symbol=Skull and Crossbones" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0361> .
 
 osss:Q163-2E5072F9-84DE-5E47-9546-9A4EA77B7656
     a wikibase:BestRank,
@@ -256,6 +258,23 @@ osss:Q163-BE3909EE-69E9-5710-81CC-A16202B9C13D
     wikibase:rank wikibase:NormalRank ;
     ossps:P100 <https://www.openstreetmap.org/node/1572294886> .
 
+osss:Q163-C0C710FE-11DB-52D4-8E5C-9C6165F9B654
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Kocain cave" ;
+    osspq:P116 "+369"^^xsd:decimal ;
+    osspq:P117 "+369"^^xsd:decimal ;
+    osspq:P118 "+0.027"^^xsd:decimal ;
+    osspq:P119 "+0.698"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:f530912fee3854d5c3483ceedbba5aa8 ;
+    osspqv:P117 ossv:f530912fee3854d5c3483ceedbba5aa8 ;
+    osspqv:P118 ossv:dec2bedd2ade2c38c2f5de4d0c72dc05 ;
+    osspqv:P119 ossv:def9348432b24b6a35e9b34d79ef71f9 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0361> .
+
 osss:Q163-E0BA7DBF-83D5-5290-80E4-F4C71431148D
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -274,6 +293,10 @@ osss:Q163-E72BF474-F6D7-5D99-A97A-879C306625C6
 ossref:b57bd4f1ac79b9afec01169ff3a4915740933feb
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1572294886/history/4> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossref:ddb8261abb22a003bf91ce49ab527fe4ef84eb70
     a wikibase:Reference ;
@@ -297,6 +320,21 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:dec2bedd2ade2c38c2f5de4d0c72dc05
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.027"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:def9348432b24b6a35e9b34d79ef71f9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.698"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f530912fee3854d5c3483ceedbba5aa8
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+369"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:f898072756d1fe62f6d44857341239f1

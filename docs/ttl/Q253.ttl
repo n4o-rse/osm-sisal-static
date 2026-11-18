@@ -63,7 +63,7 @@ ossdist:Q253-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q253, as archived from the Wikibase API"@en ;
-    dcat:byteSize "22454"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "25586"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q253.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q253
     schema:name "Cueva el Pindal"@de,
         "Cueva el Pindal"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "18"^^xsd:integer ;
+    wikibase:statements "19"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q253-5A1DA221-D110-5148-9B6F-4788197254D3 ;
     geo:hasGeometry osss:Q253-5A1DA221-D110-5148-9B6F-4788197254D3 ;
     rdfs:label "Cueva el Pindal"@de,
@@ -108,6 +108,7 @@ oss:Q253
         osss:Q253-A922EABC-1B03-5CAA-9A85-8003B430A5C2,
         osss:Q253-ADF3B9B0-0119-594C-A2A7-85CB00482F58,
         osss:Q253-DFE093A7-1B83-5744-B856-374DA5CB6E67 ;
+    ossp:P114 osss:Q253-44F3A2C4-8C4C-5B92-A24D-B3BBA1BA8676 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/558629070> ;
     osst:P101 <https://www.openstreetmap.org/node/558629070/history/5> ;
@@ -121,7 +122,8 @@ oss:Q253
         "natural=cave_entrance",
         "tourism=attraction",
         "wikidata=Q555011",
-        "wikipedia=es:Cueva del Pindal" .
+        "wikipedia=es:Cueva del Pindal" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0087> .
 
 osss:Q253-1B9FE483-3064-59B6-A01C-2D30D006C696
     a wikibase:BestRank,
@@ -198,6 +200,23 @@ osss:Q253-042D81B8-0B2E-544D-A802-A3D164B5B387
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
     ossps:P113 "geological=palaeontological_site" .
+
+osss:Q253-44F3A2C4-8C4C-5B92-A24D-B3BBA1BA8676
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Pindal cave" ;
+    osspq:P116 "+422"^^xsd:decimal ;
+    osspq:P117 "+413"^^xsd:decimal ;
+    osspq:P118 "+0.359"^^xsd:decimal ;
+    osspq:P119 "+0.978"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:79122477b225ce20f3da0f9fe70fa142 ;
+    osspqv:P117 ossv:a524a5a0dc9a2927d15063b202c45de7 ;
+    osspqv:P118 ossv:6397842009c464565237bb223df14c20 ;
+    osspqv:P119 ossv:e353aec774219f103e7a10fd7b3652b8 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0087> .
 
 osss:Q253-071DF8ED-A817-5EB6-9ADD-D57E26593DF6
     a wikibase:Statement ;
@@ -282,6 +301,10 @@ ossref:125092406e22706e94a9642df3c662e733561ccf
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/558629070/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -297,12 +320,27 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:79122477b225ce20f3da0f9fe70fa142
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+422"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:6397842009c464565237bb223df14c20
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.359"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:a8a0a9ac367eb357c09aa366e82ed21a
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
     wikibase:geoLatitude "43.3975847"^^xsd:double ;
     wikibase:geoLongitude "-4.5329511"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:a524a5a0dc9a2927d15063b202c45de7
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+413"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
@@ -312,4 +350,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e353aec774219f103e7a10fd7b3652b8
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.978"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

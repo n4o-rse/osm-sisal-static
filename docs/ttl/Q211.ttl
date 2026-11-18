@@ -63,7 +63,7 @@ ossdist:Q211-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q211, as archived from the Wikibase API"@en ;
-    dcat:byteSize "24022"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "27159"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q211.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q211
     schema:name "Cueva Victoria"@de,
         "Cueva Victoria"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "21"^^xsd:integer ;
+    wikibase:statements "22"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q211-600C0511-0126-57CA-BDF2-E1BB1835A8D1 ;
     geo:hasGeometry osss:Q211-600C0511-0126-57CA-BDF2-E1BB1835A8D1 ;
     rdfs:label "Cueva Victoria"@de,
@@ -111,6 +111,7 @@ oss:Q211
         osss:Q211-A0C76920-49D7-5031-9FEB-C3ABECD4C87D,
         osss:Q211-AF8907E8-BE95-5268-9B12-CDC1FABA16C1,
         osss:Q211-C1104A6B-B72A-51A5-8AD8-6264D646D6A9 ;
+    ossp:P114 osss:Q211-DDE042D5-6812-5C38-9964-D3C5B60213A6 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/3905429443> ;
     osst:P101 <https://www.openstreetmap.org/node/3905429443/history/4> ;
@@ -128,7 +129,8 @@ oss:Q211
         "tourism=attraction",
         "website=http://www.cuevavictoria.com/",
         "wikidata=Q5794122",
-        "wikipedia=es:Cueva Victoria" .
+        "wikipedia=es:Cueva Victoria" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0266> .
 
 osss:Q211-0F2B1BAD-5919-5D11-BBED-47B2EAC57B80
     a wikibase:BestRank,
@@ -298,6 +300,23 @@ osss:Q211-C1104A6B-B72A-51A5-8AD8-6264D646D6A9
     prov:wasDerivedFrom ossref:93b46b4d9fd0692165bdf7cf99f436f9edf24633 ;
     ossps:P113 "tourism=attraction" .
 
+osss:Q211-DDE042D5-6812-5C38-9964-D3C5B60213A6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Cueva Victoria" ;
+    osspq:P116 "+1030"^^xsd:decimal ;
+    osspq:P117 "+1030"^^xsd:decimal ;
+    osspq:P118 "+0.079"^^xsd:decimal ;
+    osspq:P119 "+0.995"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:627e8ddd23b7e328461f346104e3e0e4 ;
+    osspqv:P117 ossv:627e8ddd23b7e328461f346104e3e0e4 ;
+    osspqv:P118 ossv:24f9ee390c036e958e1a2cfc2036ffd3 ;
+    osspqv:P119 ossv:a71fbded296c5695494ac54dd63c4aeb ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0266> .
+
 ossref:9c900bd189d3d6944a49c1b20c108643b180e0eb
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3905429443/history/1> .
@@ -305,6 +324,10 @@ ossref:9c900bd189d3d6944a49c1b20c108643b180e0eb
 ossref:93b46b4d9fd0692165bdf7cf99f436f9edf24633
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3905429443/history/4> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
@@ -321,6 +344,21 @@ ossv:6d9ebac40a69ecc595fb6e50ebddded9
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:24f9ee390c036e958e1a2cfc2036ffd3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.079"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:627e8ddd23b7e328461f346104e3e0e4
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1030"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a71fbded296c5695494ac54dd63c4aeb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.995"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e

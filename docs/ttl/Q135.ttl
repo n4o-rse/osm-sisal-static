@@ -63,7 +63,7 @@ ossdist:Q135-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q135, as archived from the Wikibase API"@en ;
-    dcat:byteSize "44303"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "47435"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q135.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q135
     schema:name "Leány-barlang"@de,
         "Leány-barlang"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "34"^^xsd:integer ;
+    wikibase:statements "35"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q135-881B49CD-2576-5976-A686-794DC904B227 ;
     geo:hasGeometry osss:Q135-8B70C759-AF5B-5413-A9E8-EFB09C68C488,
         osss:Q135-154F5234-0580-5672-BF2D-59FB391855B0,
@@ -126,6 +126,7 @@ oss:Q135
         osss:Q135-DADFABA7-2FFC-5190-8A3C-27EC55C3597F,
         osss:Q135-E45CACAE-EEE5-5C36-9FE9-410FF5C41B36,
         osss:Q135-EF35211F-1D0C-53BA-A8F9-49082D49611E ;
+    ossp:P114 osss:Q135-D72626C1-F62F-5AE5-9088-47AC9592E6E6 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/1192434410> ;
     osst:P101 <https://www.openstreetmap.org/node/1192434410/history/10> ;
@@ -150,7 +151,8 @@ oss:Q135
         "protection_object=cave",
         "protection_title:en=strictly protected",
         "protection_title=fokozottan védett",
-        "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4840-1" .
+        "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4840-1" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0084> .
 
 osss:Q135-1C08294F-27E0-5E54-8F20-A5220F28CFE6
     a wikibase:BestRank,
@@ -424,6 +426,23 @@ osss:Q135-CBFF0ED5-7EA0-518D-A2FB-0D690F3C25D1
     prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
     ossps:P113 "protection_title:en=strictly protected" .
 
+osss:Q135-D72626C1-F62F-5AE5-9088-47AC9592E6E6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Leány cave" ;
+    osspq:P116 "+189"^^xsd:decimal ;
+    osspq:P117 "+189"^^xsd:decimal ;
+    osspq:P118 "+0.332"^^xsd:decimal ;
+    osspq:P119 "+0.980"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:3725c662ebd74f8ac5ddb8fbc5b7df9c ;
+    osspqv:P117 ossv:3725c662ebd74f8ac5ddb8fbc5b7df9c ;
+    osspqv:P118 ossv:45e22b2a747f61c6d432e25d9a00fe22 ;
+    osspqv:P119 ossv:d92d518f10492ff179b36222ac17e040 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0084> .
+
 osss:Q135-DADFABA7-2FFC-5190-8A3C-27EC55C3597F
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -456,6 +475,10 @@ ossref:24212862d3029d73be1c32fbdbe2feebb267554d
 ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1192434410/history/10> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossref:d551bc05dcb211062d42197a0fe1ccd19b69f253
     a wikibase:Reference ;
@@ -496,6 +519,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:45e22b2a747f61c6d432e25d9a00fe22
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.332"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:187a57b7a4159b90f1b51b12225fda5f
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+7"^^xsd:decimal ;
@@ -508,6 +536,11 @@ ossv:251e70808cef2565eda86ffd5b4f5e6d
     wikibase:geoLongitude "18.8444428"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:3725c662ebd74f8ac5ddb8fbc5b7df9c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+189"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -516,4 +549,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d92d518f10492ff179b36222ac17e040
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.980"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

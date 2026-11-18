@@ -63,7 +63,7 @@ ossdist:Q314-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q314, as archived from the Wikibase API"@en ;
-    dcat:byteSize "15779"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "18915"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q314.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q314
     schema:name "Minnetonka Cave"@de,
         "Minnetonka Cave"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "13"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A ;
     geo:hasGeometry osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A ;
     rdfs:label "Minnetonka Cave"@de,
@@ -103,6 +103,7 @@ oss:Q314
         osss:Q314-203C044D-C42B-55FA-A590-4B6AB4B27076,
         osss:Q314-965E2C40-6535-58C5-A05F-0B6E9072FA4A,
         osss:Q314-CA0A96FC-C839-5C3B-AEBE-5F185B204BD1 ;
+    ossp:P114 osss:Q314-D74D50D9-0D41-5323-9A69-E208FE0A6870 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/9858176658> ;
     osst:P101 <https://www.openstreetmap.org/node/9858176658/history/3> ;
@@ -113,7 +114,8 @@ oss:Q314
         "description=A large limestone cave through which guided tours are offered. Lighting, walkways, and many stairs have been installed in the cave.",
         "fee=yes",
         "name=Minnetonka Cave",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0200> .
 
 osss:Q314-0FD32159-5FB1-50EC-AFD4-74C6AC6B44CE
     a wikibase:BestRank,
@@ -211,6 +213,23 @@ osss:Q314-D6D5C6B5-FC57-591F-871D-530F6C53CF46
     osspq:P109 "sisal" ;
     ossps:P107 <https://www.openstreetmap.org/node/9858176658/history/1> .
 
+osss:Q314-D74D50D9-0D41-5323-9A69-E208FE0A6870
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Minnetonka cave" ;
+    osspq:P116 "+644"^^xsd:decimal ;
+    osspq:P117 "+644"^^xsd:decimal ;
+    osspq:P118 "+0.020"^^xsd:decimal ;
+    osspq:P119 "+0.999"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:5da1b514f3eb85466504dd0905f849ab ;
+    osspqv:P117 ossv:5da1b514f3eb85466504dd0905f849ab ;
+    osspqv:P118 ossv:f928c975afa67462bd1cfc695c0cfb70 ;
+    osspqv:P119 ossv:a44bab8da74580851dcf2a1bb05201bd ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0200> .
+
 osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A
     a wikibase:BestRank,
         wikibase:Statement,
@@ -227,6 +246,10 @@ ossref:603be57bf3759450465b85d71bf19491ef2e8421
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/9858176658/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d43233102b14da98f10aa2c475134600e4129522
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/9858176658/history/3> .
@@ -236,12 +259,22 @@ ossv:0bbe1280560b495eac2a68b29e4b1c4e
     wikibase:quantityAmount "+3"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:5da1b514f3eb85466504dd0905f849ab
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+644"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:32effde7374bedd5f5743155ff2476f8
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
     wikibase:geoLatitude "42.0874057"^^xsd:double ;
     wikibase:geoLongitude "-111.5187995"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:a44bab8da74580851dcf2a1bb05201bd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.999"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
@@ -251,4 +284,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f928c975afa67462bd1cfc695c0cfb70
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.020"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

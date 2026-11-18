@@ -63,7 +63,7 @@ ossdist:Q265-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q265, as archived from the Wikibase API"@en ;
-    dcat:byteSize "14662"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "17798"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q265.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q265
     schema:name "White Scar Cave"@de,
         "White Scar Cave"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "11"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q265-73A9CF52-E684-51D8-96E4-0B16FA050C0C ;
     geo:hasGeometry osss:Q265-73A9CF52-E684-51D8-96E4-0B16FA050C0C,
         osss:Q265-BDA8C308-D3D1-503B-8083-24BEB619DD96 ;
@@ -102,6 +102,7 @@ oss:Q265
         osss:Q265-BDA8C308-D3D1-503B-8083-24BEB619DD96 ;
     ossp:P113 osss:Q265-D7435633-1EE2-56B1-B514-E60C11FFBEBB,
         osss:Q265-EEFADEF2-2E79-54AE-B10B-8F74F182D9C0 ;
+    ossp:P114 osss:Q265-7422CEF2-BFD8-57B8-8093-11838D685852 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/6957595702> ;
     osst:P101 <https://www.openstreetmap.org/node/6957595702/history/3> ;
@@ -110,7 +111,8 @@ oss:Q265
     osst:P111 "POINT(-2.4400793 54.1666102)",
         "POINT(-2.4413268 54.1656583)" ;
     osst:P113 "name=White Scar Cave",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0066> .
 
 osss:Q265-9B36DDF3-2AFA-5851-B056-71AC4C29002E
     a wikibase:BestRank,
@@ -159,6 +161,23 @@ osss:Q265-808C8DBE-6076-5CBF-BC8C-F5B5C010B07E
     osspq:P106 "8775772" ;
     osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
     ossps:P101 <https://www.openstreetmap.org/node/6957595702/history/2> .
+
+osss:Q265-7422CEF2-BFD8-57B8-8093-11838D685852
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "White Scar cave" ;
+    osspq:P116 "+160"^^xsd:decimal ;
+    osspq:P117 "+160"^^xsd:decimal ;
+    osspq:P118 "+0.038"^^xsd:decimal ;
+    osspq:P119 "+0.998"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:ca71790ae8d2c15285f23c298dae6bb8 ;
+    osspqv:P117 ossv:ca71790ae8d2c15285f23c298dae6bb8 ;
+    osspqv:P118 ossv:df8a9c71357573e1219510ab54bc698e ;
+    osspqv:P119 ossv:63e4c52cbb868aa8a557a64752caad33 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0066> .
 
 osss:Q265-64318B19-8D77-532E-AAE1-3FA151CFC177
     a wikibase:BestRank,
@@ -215,6 +234,10 @@ ossref:aa8f5c3a655972859b611ffd4068609438d91fa9
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/6957595702/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:e85e8fc0cc748133fe7eb21ceb97f30f768ff748
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/6957595702/history/3> .
@@ -222,6 +245,11 @@ ossref:e85e8fc0cc748133fe7eb21ceb97f30f768ff748
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63e4c52cbb868aa8a557a64752caad33
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.998"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:37434494fa659f2d99bdbecb5e8d4e56
@@ -239,4 +267,14 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ca71790ae8d2c15285f23c298dae6bb8
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+160"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:df8a9c71357573e1219510ab54bc698e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.038"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

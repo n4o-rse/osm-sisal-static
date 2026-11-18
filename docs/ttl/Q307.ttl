@@ -63,7 +63,7 @@ ossdist:Q307-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q307, as archived from the Wikibase API"@en ;
-    dcat:byteSize "14777"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "17912"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q307.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q307
     schema:name "Sofular Cave"@de,
         "Sofular Cave"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "12"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q307-E2703E3E-532E-5715-97F3-7F6D5F0A2D94 ;
     geo:hasGeometry osss:Q307-E2703E3E-532E-5715-97F3-7F6D5F0A2D94 ;
     rdfs:label "Sofular Cave"@de,
@@ -102,6 +102,7 @@ oss:Q307
         osss:Q307-7DAF8518-25A7-5885-8E97-FF0E8FCB421B,
         osss:Q307-D38F37CC-3AF3-5BCE-BCD1-8558B71ABB30,
         osss:Q307-F2869F43-E337-5D1B-AF90-015CC7BD79C9 ;
+    ossp:P114 osss:Q307-2E11ED16-4B70-5D73-8A5E-A3A5DF2C01B4 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/9249065418> ;
     osst:P101 <https://www.openstreetmap.org/node/9249065418/history/3> ;
@@ -111,7 +112,8 @@ oss:Q307
     osst:P113 "name=Sofular Cave",
         "natural=cave_entrance",
         "wikidata=Q24915648",
-        "wikipedia=en:Sofular Cave" .
+        "wikipedia=en:Sofular Cave" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0141> .
 
 osss:Q307-1FF0F228-8CDD-5E6F-BAA0-6B5706C69E54
     a wikibase:BestRank,
@@ -124,6 +126,23 @@ osss:Q307-1FF0F228-8CDD-5E6F-BAA0-6B5706C69E54
     osspq:P106 "12500589" ;
     osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
     ossps:P101 <https://www.openstreetmap.org/node/9249065418/history/3> .
+
+osss:Q307-2E11ED16-4B70-5D73-8A5E-A3A5DF2C01B4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Sofular cave" ;
+    osspq:P116 "+9265"^^xsd:decimal ;
+    osspq:P117 "+3962"^^xsd:decimal ;
+    osspq:P118 "+4.221"^^xsd:decimal ;
+    osspq:P119 "+0.747"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:d5963e797964b1fc7609d977f55f93de ;
+    osspqv:P117 ossv:5632d4ea47e1be8eb39dbd2ab0cc6335 ;
+    osspqv:P118 ossv:e57a06f45d21f163461552a185211dc1 ;
+    osspqv:P119 ossv:2211cceb36a99140b8538f78e2f8faf4 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0141> .
 
 osss:Q307-4A906C9D-0C80-5182-8AD5-2100F3CA1513
     a wikibase:BestRank,
@@ -218,6 +237,10 @@ ossref:934d4818111264af5219f0eff071b7d43f498088
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/9249065418/history/3> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:da054b1ee5d33af7dbc432122052f6ff87ef0915
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/9249065418/history/1> .
@@ -234,6 +257,16 @@ ossv:4a136900a1c9e77835b50519aa7d7caf
     wikibase:geoLongitude "31.9640002"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:2211cceb36a99140b8538f78e2f8faf4
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.747"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:5632d4ea47e1be8eb39dbd2ab0cc6335
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3962"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -242,4 +275,14 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d5963e797964b1fc7609d977f55f93de
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9265"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e57a06f45d21f163461552a185211dc1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4.221"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

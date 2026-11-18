@@ -63,7 +63,7 @@ ossdist:Q305-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q305, as archived from the Wikibase API"@en ;
-    dcat:byteSize "22306"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "25448"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q305.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q305
     schema:name "Hölloch"@de,
         "Hölloch"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "17"^^xsd:integer ;
+    wikibase:statements "18"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q305-C57DB735-7181-50B5-9670-5D42FE578838 ;
     geo:hasGeometry osss:Q305-9A098881-8C85-5B03-8788-2950CA409373,
         osss:Q305-C57DB735-7181-50B5-9670-5D42FE578838 ;
@@ -108,6 +108,7 @@ oss:Q305
         osss:Q305-281591DE-3CF4-5457-9CCA-233250F0BDC1,
         osss:Q305-466692BC-F8E8-5F9E-9C6E-01EAAA5B89E9,
         osss:Q305-BC3C8CA6-D912-5DDC-8024-2F43F4CCBF29 ;
+    ossp:P114 osss:Q305-7E8F90F2-8EAC-5652-A806-4AEE19E9B84A ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/923447187> ;
     osst:P101 <https://www.openstreetmap.org/node/923447187/history/5> ;
@@ -120,7 +121,8 @@ oss:Q305
         "name=Hölloch",
         "natural=cave_entrance",
         "wikidata=Q1485840",
-        "wikipedia=de:Hölloch (Deutschland)" .
+        "wikipedia=de:Hölloch (Deutschland)" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0115> .
 
 osss:Q305-4AEA714B-C766-5EAF-A2AA-778E8653EF50
     a wikibase:BestRank,
@@ -145,6 +147,23 @@ osss:Q305-6A82932D-B51E-5DD5-BFD2-BD6E4C74A2D9
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
     ossps:P113 "name=Hölloch" .
+
+osss:Q305-7E8F90F2-8EAC-5652-A806-4AEE19E9B84A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Hölloch im Mahdtal" ;
+    osspq:P116 "+5530"^^xsd:decimal ;
+    osspq:P117 "+5530"^^xsd:decimal ;
+    osspq:P118 "+0.032"^^xsd:decimal ;
+    osspq:P119 "+0.690"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:2b73927cf2956716233e2954341480e2 ;
+    osspqv:P117 ossv:2b73927cf2956716233e2954341480e2 ;
+    osspqv:P118 ossv:8953dc10f1d272ec866c6249295475e3 ;
+    osspqv:P119 ossv:d306c0288b64378d05849f051f359cea ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0115> .
 
 osss:Q305-9A098881-8C85-5B03-8788-2950CA409373
     a wikibase:BestRank,
@@ -283,9 +302,18 @@ ossref:8b2fbf94fbc62928a68e681aca78b3bccb624d6e
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/923447187/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:2b73927cf2956716233e2954341480e2
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5530"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:2cedb024e6ce5089ae79cc0b194925f4
@@ -305,6 +333,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:8953dc10f1d272ec866c6249295475e3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.032"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -313,4 +346,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d306c0288b64378d05849f051f359cea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.690"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

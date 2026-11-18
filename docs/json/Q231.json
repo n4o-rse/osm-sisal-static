@@ -426,6 +426,130 @@
         "type": "statement"
       }
     ],
+    "P114": [
+      {
+        "id": "Q231$124543E5-6A59-5EBF-A694-B87D760C7B98",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://w3id.org/geo-lod/Cave_site_0163"
+          },
+          "property": "P114",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P115": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Gardener's Gut"
+              },
+              "property": "P115",
+              "snaktype": "value"
+            }
+          ],
+          "P116": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+208",
+                  "unit": "1"
+                }
+              },
+              "property": "P116",
+              "snaktype": "value"
+            }
+          ],
+          "P117": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+208",
+                  "unit": "1"
+                }
+              },
+              "property": "P117",
+              "snaktype": "value"
+            }
+          ],
+          "P118": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+4.916",
+                  "unit": "1"
+                }
+              },
+              "property": "P118",
+              "snaktype": "value"
+            }
+          ],
+          "P119": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+0.679",
+                  "unit": "1"
+                }
+              },
+              "property": "P119",
+              "snaktype": "value"
+            }
+          ],
+          "P120": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "sure"
+              },
+              "property": "P120",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P115",
+          "P116",
+          "P117",
+          "P118",
+          "P119",
+          "P120"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
     "P2": [
       {
         "id": "Q231$EC2D972A-FC5D-5E62-87C6-4EDCBAFD0E41",

@@ -1,0 +1,16 @@
+PREFIX ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/>
+PREFIX osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/>
+PREFIX ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?label ?site ?siteName ?samples ?km WHERE {
+  ?item ossp:P114 ?statement ;
+        rdfs:label ?label .
+  ?statement ossps:P114 ?site ;
+             osspq:P115 ?siteName ;
+             osspq:P116 ?samples ;
+             osspq:P118 ?km .
+  FILTER(LANG(?label) = "en")
+}
+ORDER BY DESC(?samples) ?label ?item
+LIMIT 200

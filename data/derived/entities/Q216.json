@@ -494,6 +494,130 @@
         "type": "statement"
       }
     ],
+    "P114": [
+      {
+        "id": "Q216$1D41877B-C976-568D-A4D7-5D7256C12BBA",
+        "mainsnak": {
+          "datatype": "url",
+          "datavalue": {
+            "type": "string",
+            "value": "http://w3id.org/geo-lod/Cave_site_0301"
+          },
+          "property": "P114",
+          "snaktype": "value"
+        },
+        "qualifiers": {
+          "P115": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "Cathedral cave"
+              },
+              "property": "P115",
+              "snaktype": "value"
+            }
+          ],
+          "P116": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+575",
+                  "unit": "1"
+                }
+              },
+              "property": "P116",
+              "snaktype": "value"
+            }
+          ],
+          "P117": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+575",
+                  "unit": "1"
+                }
+              },
+              "property": "P117",
+              "snaktype": "value"
+            }
+          ],
+          "P118": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+0.573",
+                  "unit": "1"
+                }
+              },
+              "property": "P118",
+              "snaktype": "value"
+            }
+          ],
+          "P119": [
+            {
+              "datatype": "quantity",
+              "datavalue": {
+                "type": "quantity",
+                "value": {
+                  "amount": "+0.966",
+                  "unit": "1"
+                }
+              },
+              "property": "P119",
+              "snaktype": "value"
+            }
+          ],
+          "P120": [
+            {
+              "datatype": "string",
+              "datavalue": {
+                "type": "string",
+                "value": "sure"
+              },
+              "property": "P120",
+              "snaktype": "value"
+            }
+          ]
+        },
+        "qualifiers-order": [
+          "P115",
+          "P116",
+          "P117",
+          "P118",
+          "P119",
+          "P120"
+        ],
+        "rank": "normal",
+        "references": [
+          {
+            "snaks": {
+              "P6": [
+                {
+                  "datatype": "url",
+                  "datavalue": {
+                    "type": "string",
+                    "value": "https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/"
+                  },
+                  "property": "P6",
+                  "snaktype": "value"
+                }
+              ]
+            },
+            "snaks-order": [
+              "P6"
+            ]
+          }
+        ],
+        "type": "statement"
+      }
+    ],
     "P2": [
       {
         "id": "Q216$D8514F35-510F-5728-ACF1-AA7C342D50BD",

@@ -63,7 +63,7 @@ ossdist:Q200-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q200, as archived from the Wikibase API"@en ;
-    dcat:byteSize "36501"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "39632"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q200.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q200
     schema:name "Trió-barlang"@de,
         "Trió-barlang"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "30"^^xsd:integer ;
+    wikibase:statements "31"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q200-00B6F07D-1674-5A8B-A53F-95B4BC1E0D4C ;
     geo:hasGeometry osss:Q200-00B6F07D-1674-5A8B-A53F-95B4BC1E0D4C,
         osss:Q200-6CC12F89-56CF-51B0-8E54-93DC7216B2B8 ;
@@ -121,6 +121,7 @@ oss:Q200
         osss:Q200-EADE8A84-83DD-57F3-9E36-2CE8B5CC01C5,
         osss:Q200-ED20B150-2988-5AC6-9F1C-47BD557C6460,
         osss:Q200-FCCA5A14-4588-554F-8069-FA83E823EDBF ;
+    ossp:P114 osss:Q200-DC56BCBF-9C1B-5563-8CA0-EB42C8AE9866 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/3440813505> ;
     osst:P101 <https://www.openstreetmap.org/node/3440813505/history/7> ;
@@ -144,7 +145,8 @@ oss:Q200
         "protection_title:en=exceptionally protected",
         "protection_title=megkülönböztetetten védett",
         "url=https://orfu.hu/zold-ritmusban/kalandos-barlangturak/",
-        "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-71" .
+        "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-71" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0090> .
 
 osss:Q200-00B6F07D-1674-5A8B-A53F-95B4BC1E0D4C
     a wikibase:BestRank,
@@ -352,6 +354,23 @@ osss:Q200-DC50C690-70CE-5B0B-BE28-D98F0EAFAFE9
     osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
     ossps:P101 <https://www.openstreetmap.org/node/3440813505/history/2> .
 
+osss:Q200-DC56BCBF-9C1B-5563-8CA0-EB42C8AE9866
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Trió cave" ;
+    osspq:P116 "+142"^^xsd:decimal ;
+    osspq:P117 "+142"^^xsd:decimal ;
+    osspq:P118 "+0.902"^^xsd:decimal ;
+    osspq:P119 "+0.946"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:c9a5e830e03418d4d431bdd0df48e950 ;
+    osspqv:P117 ossv:c9a5e830e03418d4d431bdd0df48e950 ;
+    osspqv:P118 ossv:a5727c1646587b595672d2c1eba583eb ;
+    osspqv:P119 ossv:d381ddb3fcaba3421d1a36ac2f586c96 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0090> .
+
 osss:Q200-DDB8ACEA-CF6F-5055-8E62-EBCC07114051
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -402,6 +421,10 @@ ossref:9624fecccbba1375b1bd64c3076e190c574372c2
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3440813505/history/7> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d551e054d9256a0e9343d4f8a7f3a2abb5ff01c4
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3440813505/history/1> .
@@ -438,12 +461,27 @@ ossv:187a57b7a4159b90f1b51b12225fda5f
     wikibase:quantityAmount "+7"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:a5727c1646587b595672d2c1eba583eb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.902"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:c9a5e830e03418d4d431bdd0df48e950
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+142"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d381ddb3fcaba3421d1a36ac2f586c96
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.946"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

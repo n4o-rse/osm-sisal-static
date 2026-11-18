@@ -63,7 +63,7 @@ ossdist:Q294-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q294, as archived from the Wikibase API"@en ;
-    dcat:byteSize "9721"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "12853"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q294.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q294
     schema:name "Matupi"@de,
         "Matupi"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "9"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q294-770D89D2-AC43-52BA-9CE6-BFD5F0A61CE5 ;
     geo:hasGeometry osss:Q294-770D89D2-AC43-52BA-9CE6-BFD5F0A61CE5 ;
     rdfs:label "Matupi"@de,
@@ -99,6 +99,7 @@ oss:Q294
     ossp:P113 osss:Q294-02956380-E677-51A8-8293-813CB25CC519,
         osss:Q294-AF5F2340-9A54-5E18-83BF-D2A1332E0C50,
         osss:Q294-D8E79767-1036-5C9D-ADE2-2718BA8A4EBE ;
+    ossp:P114 osss:Q294-887D5705-385F-56BA-9E3B-A5B7BEE4E6E1 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/8358838507> ;
     osst:P101 <https://www.openstreetmap.org/node/8358838507/history/1> ;
@@ -107,7 +108,8 @@ oss:Q294
     osst:P111 "POINT(29.840818 1.2813451)" ;
     osst:P113 "ele=1200",
         "name=Matupi",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0329> .
 
 osss:Q294-13F416E1-3F6E-5F80-93EA-35C76EF49B0A
     a wikibase:BestRank,
@@ -148,6 +150,23 @@ osss:Q294-770D89D2-AC43-52BA-9CE6-BFD5F0A61CE5
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(29.840818 1.2813451)" .
 
+osss:Q294-887D5705-385F-56BA-9E3B-A5B7BEE4E6E1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Matupi cave" ;
+    osspq:P116 "+222"^^xsd:decimal ;
+    osspq:P117 "+222"^^xsd:decimal ;
+    osspq:P118 "+4.184"^^xsd:decimal ;
+    osspq:P119 "+0.749"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:f7ac278c8b155a0298dbc7796bba7014 ;
+    osspqv:P117 ossv:f7ac278c8b155a0298dbc7796bba7014 ;
+    osspqv:P118 ossv:8ee39b01baa45f24cf34d8b75eb8c489 ;
+    osspqv:P119 ossv:645bd2174016e5da118da68e5eb5f7ae ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0329> .
+
 osss:Q294-02956380-E677-51A8-8293-813CB25CC519
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -181,6 +200,10 @@ osss:Q294-F4B2EAA3-90ED-5D7D-91B5-012502CC4ABA
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d45f1e058277fc7e4fc19fe1a39e3ba10c10fbe9
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/8358838507/history/1> .
@@ -192,7 +215,22 @@ ossv:0c83f8e0a132660c6a5133c0e2eb49cb
     wikibase:geoLongitude "29.840818"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:8ee39b01baa45f24cf34d8b75eb8c489
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4.184"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:645bd2174016e5da118da68e5eb5f7ae
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.749"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f7ac278c8b155a0298dbc7796bba7014
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+222"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

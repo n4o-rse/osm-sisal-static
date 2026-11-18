@@ -63,7 +63,7 @@ ossdist:Q282-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q282, as archived from the Wikibase API"@en ;
-    dcat:byteSize "30964"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "34095"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q282.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q282
     schema:name "St.Beatus-Höhlen"@de,
         "St.Beatus-Höhlen"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "24"^^xsd:integer ;
+    wikibase:statements "25"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q282-A78CF08B-93E2-55A6-A84C-FA82B5A76A48 ;
     geo:hasGeometry osss:Q282-A78CF08B-93E2-55A6-A84C-FA82B5A76A48,
         osss:Q282-AFD338CF-9A3E-500E-A2F9-FACFF0FBA53D ;
@@ -115,6 +115,7 @@ oss:Q282
         osss:Q282-A3B98BE6-1B43-5484-8D49-22C1CC7B2D02,
         osss:Q282-BB30E6B9-120F-5943-A856-8812C0714529,
         osss:Q282-F197BD48-11A5-5C93-9F48-BCB13B6FC85B ;
+    ossp:P114 osss:Q282-BFAB4D44-6578-5F1F-8874-7096FE8024E5 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/745919883> ;
     osst:P101 <https://www.openstreetmap.org/node/745919883/history/7> ;
@@ -132,7 +133,8 @@ oss:Q282
         "opening_hours=Mar-Oct Mo-Su 09:30-17:00",
         "wheelchair=no",
         "wikidata=Q664463",
-        "wikipedia=de:St. Beatus-Höhlen" .
+        "wikipedia=de:St. Beatus-Höhlen" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0185> .
 
 osss:Q282-0D681B0F-D4E0-529D-BD82-1E0A5937BA21
     a wikibase:BestRank,
@@ -289,6 +291,23 @@ osss:Q282-BB30E6B9-120F-5943-A856-8812C0714529
     prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
     ossps:P113 "addr:postcode=3800" .
 
+osss:Q282-BFAB4D44-6578-5F1F-8874-7096FE8024E5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Beatus cave" ;
+    osspq:P116 "+3019"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+0.031"^^xsd:decimal ;
+    osspq:P119 "+0.680"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:b750d580946fdbfaa0c50c3585d2a6ed ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:cacc0473b6643f616d226c99dc3b240d ;
+    osspqv:P119 ossv:b9e9789db47f6433814ca42e6e7e5a95 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0185> .
+
 osss:Q282-D5EF452D-8F01-51EC-A194-AC34EBB8F9E3
     a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
@@ -352,6 +371,10 @@ ossref:c8b4190a3cde63afe04c0de012ef665bfd750813
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/745919883/history/3> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -377,14 +400,34 @@ ossv:187a57b7a4159b90f1b51b12225fda5f
     wikibase:quantityAmount "+7"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:b9e9789db47f6433814ca42e6e7e5a95
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.680"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b750d580946fdbfaa0c50c3585d2a6ed
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3019"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cacc0473b6643f616d226c99dc3b240d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.031"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:da0be4dc404b53647f3d65f247b4308f

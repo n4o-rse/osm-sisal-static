@@ -41,7 +41,7 @@ html[data-lang="de"] .l:not([lang="de"]) { display: none; }
   <p class="description"><span class="l" lang="en">The data of this site is a Turtle file in the RDF model of Wikibase. The first queries use the OpenStreetMap version history (one statement per version, with number, time, changeset and user); the others fit every Wikibase. Edit a query and press Run.</span><span class="l" lang="de">Die Daten dieser Seite liegen als Turtle-Datei im RDF-Modell von Wikibase vor. Die ersten Abfragen nutzen den Versionsverlauf aus OpenStreetMap (ein Statement je Version, mit Nummer, Zeit, Changeset und Benutzer); die übrigen passen zu jeder Wikibase. Abfrage ändern, dann auf Ausführen klicken.</span></p>
   <p class="data-line">
     <strong><span class="l" lang="en">The data</span><span class="l" lang="de">Die Daten</span></strong>
-    <span class="l" lang="en">A Turtle file in the RDF model of Wikibase with 39779 triples:</span><span class="l" lang="de">Eine Turtle-Datei im RDF-Modell von Wikibase mit 39779 Tripeln:</span>
+    <span class="l" lang="en">A Turtle file in the RDF model of Wikibase with 42334 triples:</span><span class="l" lang="de">Eine Turtle-Datei im RDF-Modell von Wikibase mit 42334 Tripeln:</span>
     <a href="downloads/n4o-rse.github.io-osm-sisal-static.ttl">n4o-rse.github.io-osm-sisal-static.ttl</a> &middot; <a href="downloads/wikibase-ontology.ttl"><span class="l" lang="en">Wikibase ontology</span><span class="l" lang="de">Wikibase-Ontologie</span></a>  </p>
   <p class="muted"><strong><span class="l" lang="en">Every record on its own:</span><span class="l" lang="de">Jeder Datensatz einzeln:</span></strong> <span class="l" lang="en">each page has a Turtle file in ttl/ and the archived JSON in json/; the catalogue (DCAT) lists them.</span><span class="l" lang="de">zu jeder Seite gibt es eine Turtle-Datei in ttl/ und das archivierte JSON in json/; der Katalog (DCAT) verzeichnet sie.</span></p>
   <p id="wbs-sparql-status" class="status" role="status" aria-live="polite"><span class="l" lang="en">Press Run to start. The first run takes a few seconds.</span><span class="l" lang="de">Auf „Ausführen“ klicken, um zu starten. Der erste Lauf dauert einige Sekunden.</span></p>
@@ -227,6 +227,47 @@ LIMIT 200</textarea>
       <button type="button" class="run"><span class="l" lang="en">Run</span><span class="l" lang="de">Ausführen</span></button>
       <button type="button" class="reset"><span class="l" lang="en">Reset</span><span class="l" lang="de">Zurücksetzen</span></button>
       <a href="downloads/queries/osm-tag.rq" download><span class="l" lang="en">Download as .rq</span><span class="l" lang="de">Als .rq laden</span></a>
+      <a href="query.html" class="to-editor"><span class="l" lang="en">Open in the query editor</span><span class="l" lang="de">Im Abfrage-Editor öffnen</span></a>
+      <span class="query-stats" aria-live="polite"></span>
+    </div>
+    <div class="query-result"></div>
+  </section>
+  <section class="query" id="osm-sisal-sites">
+    <h2><span class="l" lang="en">Caves with their SISAL site</span><span class="l" lang="de">Höhlen mit ihrem SISAL-Standort</span></h2>
+<p><span class="l" lang="en">The caves that are linked to a SISAL speleothem site (property P114), with the name of the site, the number of its δ18O samples and the distance between site and OSM node in kilometres. The site IRI is the one of the EPICA-SISAL-FAIRification project.</span><span class="l" lang="de">Die Höhlen, die mit einem SISAL-Speleothem-Standort verknüpft sind (Property P114), mit dem Namen des Standorts, der Zahl seiner δ18O-Proben und dem Abstand zwischen Standort und OSM-Node in Kilometern. Die Standort-IRI ist die des Projekts EPICA-SISAL-FAIRification.</span></p>    <textarea spellcheck="false" aria-label="Caves with their SISAL site" rows="12">SELECT ?item ?label ?site ?siteName ?samples ?km WHERE {
+  ?item ossp:P114 ?statement ;
+        rdfs:label ?label .
+  ?statement ossps:P114 ?site ;
+             osspq:P115 ?siteName ;
+             osspq:P116 ?samples ;
+             osspq:P118 ?km .
+  FILTER(LANG(?label) = &#34;en&#34;)
+}
+ORDER BY DESC(?samples) ?label ?item
+LIMIT 200</textarea>
+    <div class="query-actions">
+      <button type="button" class="run"><span class="l" lang="en">Run</span><span class="l" lang="de">Ausführen</span></button>
+      <button type="button" class="reset"><span class="l" lang="en">Reset</span><span class="l" lang="de">Zurücksetzen</span></button>
+      <a href="downloads/queries/osm-sisal-sites.rq" download><span class="l" lang="en">Download as .rq</span><span class="l" lang="de">Als .rq laden</span></a>
+      <a href="query.html" class="to-editor"><span class="l" lang="en">Open in the query editor</span><span class="l" lang="de">Im Abfrage-Editor öffnen</span></a>
+      <span class="query-stats" aria-live="polite"></span>
+    </div>
+    <div class="query-result"></div>
+  </section>
+  <section class="query" id="osm-sisal-without-site">
+    <h2><span class="l" lang="en">Caves without a SISAL site</span><span class="l" lang="de">Höhlen ohne SISAL-Standort</span></h2>
+<p><span class="l" lang="en">The caves of this site that have no SISAL site (yet), because no pair in `data/seeds/sisal-matches.csv` was sure or accepted.</span><span class="l" lang="de">Die Höhlen dieser Site ohne SISAL-Standort (bisher), weil kein Paar in `data/seeds/sisal-matches.csv` sicher oder bestätigt war.</span></p>    <textarea spellcheck="false" aria-label="Caves without a SISAL site" rows="9">SELECT ?item ?label WHERE {
+  ?item rdfs:label ?label ;
+        ossp:P100 ?element .
+  FILTER(LANG(?label) = &#34;en&#34;)
+  FILTER NOT EXISTS { ?item ossp:P114 ?site }
+}
+ORDER BY ?label ?item
+LIMIT 300</textarea>
+    <div class="query-actions">
+      <button type="button" class="run"><span class="l" lang="en">Run</span><span class="l" lang="de">Ausführen</span></button>
+      <button type="button" class="reset"><span class="l" lang="en">Reset</span><span class="l" lang="de">Zurücksetzen</span></button>
+      <a href="downloads/queries/osm-sisal-without-site.rq" download><span class="l" lang="en">Download as .rq</span><span class="l" lang="de">Als .rq laden</span></a>
       <a href="query.html" class="to-editor"><span class="l" lang="en">Open in the query editor</span><span class="l" lang="de">Im Abfrage-Editor öffnen</span></a>
       <span class="query-stats" aria-live="polite"></span>
     </div>

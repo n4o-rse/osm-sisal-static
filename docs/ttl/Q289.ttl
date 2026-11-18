@@ -63,7 +63,7 @@ ossdist:Q289-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q289, as archived from the Wikibase API"@en ;
-    dcat:byteSize "8888"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "12020"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q289.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q289
     schema:name "Cueva del Rio Shatuca"@de,
         "Cueva del Rio Shatuca"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "8"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861 ;
     geo:hasGeometry osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861 ;
     rdfs:label "Cueva del Rio Shatuca"@de,
@@ -98,6 +98,7 @@ oss:Q289
     ossp:P111 osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861 ;
     ossp:P113 osss:Q289-294B5C09-3BA5-5AA8-889C-5689B71BF602,
         osss:Q289-D560D92C-4833-58A3-B157-EC4261E694B2 ;
+    ossp:P114 osss:Q289-69D1C5BE-BFE0-5AD9-9B5F-ABF68CA93DA6 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/7807817048> ;
     osst:P101 <https://www.openstreetmap.org/node/7807817048/history/1> ;
@@ -105,7 +106,8 @@ oss:Q289
     osst:P110 "Point(-77.9012966 -5.701484)"^^geo:wktLiteral ;
     osst:P111 "POINT(-77.9012966 -5.701484)" ;
     osst:P113 "name=Cueva del Rio Shatuca",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0207> .
 
 osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861
     a wikibase:BestRank,
@@ -118,6 +120,23 @@ osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861
     osspq:P103 "2020-08-12T21:09:37Z" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(-77.9012966 -5.701484)" .
+
+osss:Q289-69D1C5BE-BFE0-5AD9-9B5F-ABF68CA93DA6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Shatuca cave" ;
+    osspq:P116 "+2195"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+0.219"^^xsd:decimal ;
+    osspq:P119 "+0.831"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:8bd3353c9368d32acacb33fcfd774b69 ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:a6f11c2c5d7a21dc76d5b59d97f428e6 ;
+    osspqv:P119 ossv:51b68b7ad4ecfe6de523a0c699718444 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0207> .
 
 osss:Q289-294B5C09-3BA5-5AA8-889C-5689B71BF602
     a wikibase:BestRank,
@@ -176,12 +195,36 @@ ossref:86f605b06078adefce8a585272d3a985581646f4
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7807817048/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:8bd3353c9368d32acacb33fcfd774b69
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2195"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:51b68b7ad4ecfe6de523a0c699718444
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.831"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:563473dfc2ef0eb06430a03a1d25d79e
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
     wikibase:geoLatitude "-5.701484"^^xsd:double ;
     wikibase:geoLongitude "-77.9012966"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a6f11c2c5d7a21dc76d5b59d97f428e6
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.219"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;

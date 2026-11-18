@@ -63,7 +63,7 @@ ossdist:Q231-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q231, as archived from the Wikibase API"@en ;
-    dcat:byteSize "11820"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "14955"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q231.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q231
     schema:name "Gardner's Gut"@de,
         "Gardner's Gut"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "10"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q231-7B5C73B1-794B-53A4-8CD5-77D56D8CCB96 ;
     geo:hasGeometry osss:Q231-7B5C73B1-794B-53A4-8CD5-77D56D8CCB96 ;
     rdfs:label "Gardner's Gut"@de,
@@ -100,6 +100,7 @@ oss:Q231
     ossp:P113 osss:Q231-2C93FA4B-F927-5183-B8C2-BEC369DA6EBD,
         osss:Q231-7890C893-45FB-5315-AAC3-6D285FCA509A,
         osss:Q231-A1BA4B64-3D65-56B0-A789-1F1359F6897B ;
+    ossp:P114 osss:Q231-124543E5-6A59-5EBF-A694-B87D760C7B98 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4771754221> ;
     osst:P101 <https://www.openstreetmap.org/node/4771754221/history/2> ;
@@ -108,7 +109,8 @@ oss:Q231
     osst:P111 "POINT(175.073152 -38.2645727)" ;
     osst:P113 "name=Gardner's Gut",
         "natural=cave_entrance",
-        "wikidata=Q5522564" .
+        "wikidata=Q5522564" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0163> .
 
 osss:Q231-2B28AC5A-DD11-53D9-9FFF-FF5BE844ABD6
     a wikibase:BestRank,
@@ -180,6 +182,23 @@ osss:Q231-7890C893-45FB-5315-AAC3-6D285FCA509A
     prov:wasDerivedFrom ossref:d912006b5909ffc4fdef1613770e4cc313780270 ;
     ossps:P113 "name=Gardner's Gut" .
 
+osss:Q231-124543E5-6A59-5EBF-A694-B87D760C7B98
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Gardener's Gut" ;
+    osspq:P116 "+208"^^xsd:decimal ;
+    osspq:P117 "+208"^^xsd:decimal ;
+    osspq:P118 "+4.916"^^xsd:decimal ;
+    osspq:P119 "+0.679"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:de625b4d181f87163d688a7aebc9c5db ;
+    osspqv:P117 ossv:de625b4d181f87163d688a7aebc9c5db ;
+    osspqv:P118 ossv:cdd0f03857a5eb32f9e86d3666a5eb48 ;
+    osspqv:P119 ossv:da31b53f42fbe08259076186f90b179b ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0163> .
+
 osss:Q231-A1BA4B64-3D65-56B0-A789-1F1359F6897B
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -192,6 +211,10 @@ osss:Q231-EC2D972A-FC5D-5E62-87C6-4EDCBAFD0E41
         wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossref:d912006b5909ffc4fdef1613770e4cc313780270
     a wikibase:Reference ;
@@ -216,4 +239,19 @@ ossv:b2330d3c6ecd0fe13277b0a808ca1d61
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cdd0f03857a5eb32f9e86d3666a5eb48
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4.916"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:da31b53f42fbe08259076186f90b179b
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.679"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:de625b4d181f87163d688a7aebc9c5db
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+208"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

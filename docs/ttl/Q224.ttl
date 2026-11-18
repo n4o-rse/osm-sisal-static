@@ -63,7 +63,7 @@ ossdist:Q224-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q224, as archived from the Wikibase API"@en ;
-    dcat:byteSize "13476"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "16608"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q224.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q224
     schema:name "Caverne Patate"@de,
         "Caverne Patate"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "11"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q224-92A933AC-0182-5FBF-8B49-96D0DC89681E ;
     geo:hasGeometry osss:Q224-92A933AC-0182-5FBF-8B49-96D0DC89681E,
         osss:Q224-66413EBF-807D-5E19-8CF3-BD00F2310DDB ;
@@ -102,6 +102,7 @@ oss:Q224
     ossp:P113 osss:Q224-2BDF55FA-C9EB-5008-A0E7-2282AE169300,
         osss:Q224-6BF2BA1A-5AFF-5EC0-854D-3F12FDB47C4C,
         osss:Q224-E029CB07-DD32-5B03-9082-D1B26695A048 ;
+    ossp:P114 osss:Q224-AA1875A3-4430-5E92-8DEA-9DC1D9ECCD86 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/440011392> ;
     osst:P101 <https://www.openstreetmap.org/node/440011392/history/2> ;
@@ -111,7 +112,8 @@ oss:Q224
         "POINT(63.3868419 -19.754733)" ;
     osst:P113 "name=Caverne Patate",
         "natural=cave_entrance",
-        "tourism=attraction" .
+        "tourism=attraction" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0222> .
 
 osss:Q224-2BDF55FA-C9EB-5008-A0E7-2282AE169300
     a wikibase:BestRank,
@@ -201,6 +203,23 @@ osss:Q224-A6BD456E-5425-5DD1-8EE9-51D2BDE5868F
     osspq:P109 "sisal" ;
     ossps:P107 <https://www.openstreetmap.org/node/440011392/history/2> .
 
+osss:Q224-AA1875A3-4430-5E92-8DEA-9DC1D9ECCD86
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Patate cave" ;
+    osspq:P116 "+190"^^xsd:decimal ;
+    osspq:P117 "+190"^^xsd:decimal ;
+    osspq:P118 "+0.399"^^xsd:decimal ;
+    osspq:P119 "+0.976"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:aa504e508ea6028d4de5d586bf449acd ;
+    osspqv:P117 ossv:aa504e508ea6028d4de5d586bf449acd ;
+    osspqv:P118 ossv:0bfcc2f5799c6c6c8cfafe070e207e0a ;
+    osspqv:P119 ossv:bdea7ff5b3c57ab334fa35f256c94509 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0222> .
+
 osss:Q224-E029CB07-DD32-5B03-9082-D1B26695A048
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -216,6 +235,15 @@ ossref:c04ed840f84ffc452818b30004631c0dd3393948
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/440011392/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:0bfcc2f5799c6c6c8cfafe070e207e0a
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.399"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:984bbe87ef03f29a506c5d7edbe53b0e
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
@@ -226,6 +254,16 @@ ossv:984bbe87ef03f29a506c5d7edbe53b0e
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa504e508ea6028d4de5d586bf449acd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+190"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:bdea7ff5b3c57ab334fa35f256c94509
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.976"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea

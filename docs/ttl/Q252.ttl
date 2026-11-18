@@ -63,7 +63,7 @@ ossdist:Q252-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q252, as archived from the Wikibase API"@en ;
-    dcat:byteSize "40591"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "43726"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q252.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q252
     schema:name "Zoolithenhöhle"@de,
         "Zoolithenhöhle"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "30"^^xsd:integer ;
+    wikibase:statements "31"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q252-597C9E59-2FE8-579D-81E4-C088B138A82C ;
     geo:hasGeometry osss:Q252-3B68838F-684E-531F-A214-A017D1CB67C8,
         osss:Q252-597C9E59-2FE8-579D-81E4-C088B138A82C,
@@ -122,6 +122,7 @@ oss:Q252
         osss:Q252-BB1917EE-EF5E-522B-84B5-6645C47457B8,
         osss:Q252-F2C23095-E961-526D-9DBD-E0134A62782C,
         osss:Q252-F722E446-9878-5824-802C-0AF4A6D79AFF ;
+    ossp:P114 osss:Q252-7ECC27F8-822E-5388-8816-5E15EC762F19 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/556748045> ;
     osst:P101 <https://www.openstreetmap.org/node/556748045/history/10> ;
@@ -142,7 +143,8 @@ oss:Q252
         "website=https://www.fhkf.de/hoehlen/zoolithenhoehle/",
         "wheelchair=no",
         "wikidata=Q15062161",
-        "wikipedia=de:Zoolithenhöhle" .
+        "wikipedia=de:Zoolithenhöhle" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0359> .
 
 osss:Q252-0FF39D17-B258-5F79-8FF2-395827CF5A3B
     a wikibase:Statement ;
@@ -190,6 +192,23 @@ osss:Q252-6F7774A0-F31C-5FD3-8DFD-6FE97D9CE53B
         wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     ossps:P100 <https://www.openstreetmap.org/node/556748045> .
+
+osss:Q252-7ECC27F8-822E-5388-8816-5E15EC762F19
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Zoolithen cave" ;
+    osspq:P116 "+263"^^xsd:decimal ;
+    osspq:P117 "+263"^^xsd:decimal ;
+    osspq:P118 "+0.021"^^xsd:decimal ;
+    osspq:P119 "+0.847"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:38cc170d6a4c66a2a8b0e8ba9f11de50 ;
+    osspqv:P117 ossv:38cc170d6a4c66a2a8b0e8ba9f11de50 ;
+    osspqv:P118 ossv:1d438d8305c5c72559d23313cfd6bf5b ;
+    osspqv:P119 ossv:b1f6b97f4c3dc9bff1e328f9f42d3c7d ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0359> .
 
 osss:Q252-08CCBE93-3CEA-5D8C-8F96-9478ADD2128B
     a wikibase:BestRank,
@@ -421,6 +440,10 @@ ossref:341aea6148cd8e2d7f628b2d8daebcaf44d11237
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/556748045/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:ff7772e97048593589dce71f23a408a91e3fcd7a
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/556748045/history/10> .
@@ -433,6 +456,11 @@ ossv:0bbe1280560b495eac2a68b29e4b1c4e
 ossv:0fcaa891e5e94500c686c63fa72a9d72
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:1d438d8305c5c72559d23313cfd6bf5b
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.021"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
@@ -460,6 +488,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:38cc170d6a4c66a2a8b0e8ba9f11de50
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+263"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:187a57b7a4159b90f1b51b12225fda5f
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+7"^^xsd:decimal ;
@@ -468,6 +501,11 @@ ossv:187a57b7a4159b90f1b51b12225fda5f
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b1f6b97f4c3dc9bff1e328f9f42d3c7d
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.847"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea

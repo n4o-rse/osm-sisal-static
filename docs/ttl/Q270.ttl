@@ -63,7 +63,7 @@ ossdist:Q270-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q270, as archived from the Wikibase API"@en ;
-    dcat:byteSize "30572"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "33702"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q270.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q270
     schema:name "Špilja Modrič"@de,
         "Špilja Modrič"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "27"^^xsd:integer ;
+    wikibase:statements "28"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q270-D661A65A-78BA-598F-B4B4-C3C05D14A8B2 ;
     geo:hasGeometry osss:Q270-D661A65A-78BA-598F-B4B4-C3C05D14A8B2 ;
     rdfs:label "Špilja Modrič"@de,
@@ -117,6 +117,7 @@ oss:Q270
         osss:Q270-B1830832-8521-5F4B-87D9-7EEE406143CE,
         osss:Q270-C859A7E7-43B8-57F5-82B4-FA01C3B5EE17,
         osss:Q270-E7195847-C610-53E1-AF8D-F0C6907E2D25 ;
+    ossp:P114 osss:Q270-A7E69687-8835-5A67-84C0-A815EACC8670 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/7008567688> ;
     osst:P101 <https://www.openstreetmap.org/node/7008567688/history/5> ;
@@ -139,7 +140,8 @@ oss:Q270
         "tourism=attraction",
         "url=https://natura-jadera.com/prirodne-vrijednosti/spomenici-prirode/spilja-modric/",
         "website=https://modric-cave.com",
-        "wikidata=Q113980107" .
+        "wikidata=Q113980107" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0086> .
 
 osss:Q270-0DB028B2-5FC2-57DB-BDB5-C374D9745F3E
     a wikibase:BestRank,
@@ -285,6 +287,23 @@ osss:Q270-773361A3-CB21-5F77-A97A-9612507D1A07
     prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
     ossps:P113 "website=https://modric-cave.com" .
 
+osss:Q270-A7E69687-8835-5A67-84C0-A815EACC8670
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Modric cave" ;
+    osspq:P116 "+95"^^xsd:decimal ;
+    osspq:P117 "+95"^^xsd:decimal ;
+    osspq:P118 "+0.011"^^xsd:decimal ;
+    osspq:P119 "+0.999"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:19ad96af70ffd776fe1d0d50dffe06bd ;
+    osspqv:P117 ossv:19ad96af70ffd776fe1d0d50dffe06bd ;
+    osspqv:P118 ossv:1a99a3ff6e91e97cc2287d027d1ab9e9 ;
+    osspqv:P119 ossv:a44bab8da74580851dcf2a1bb05201bd ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0086> .
+
 osss:Q270-A9D1C52D-DD52-5898-8F6E-425F686B8903
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -363,14 +382,28 @@ ossref:095052f7061a28556fef5fde1b433f7b91145200
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7008567688/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:1a99a3ff6e91e97cc2287d027d1ab9e9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.011"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:19ad96af70ffd776fe1d0d50dffe06bd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+95"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:30e603cac620241526fa9f81268ba25c
@@ -384,6 +417,11 @@ ossv:131abce5ade1ddb8aad7118ebbc0e0fd
     wikibase:geoLatitude "44.2568399"^^xsd:double ;
     wikibase:geoLongitude "15.5373289"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:a44bab8da74580851dcf2a1bb05201bd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.999"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;

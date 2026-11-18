@@ -63,7 +63,7 @@ ossdist:Q239-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q239, as archived from the Wikibase API"@en ;
-    dcat:byteSize "42637"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "45768"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q239.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q239
     schema:name "Cango Caves"@de,
         "Cango Caves"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "31"^^xsd:integer ;
+    wikibase:statements "32"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q239-280FCD15-499B-52C2-A9C6-DAF2FF852D5D ;
     geo:hasGeometry osss:Q239-280FCD15-499B-52C2-A9C6-DAF2FF852D5D,
         osss:Q239-DD2EEAB1-E22B-5581-B7D4-03B596B9CFD2,
@@ -123,6 +123,7 @@ oss:Q239
         osss:Q239-E575E3F9-89A3-5C6D-A21E-F7C65ABC379D,
         osss:Q239-EF39A2C4-8257-5C3C-89F1-96D51825FB35,
         osss:Q239-FC2F663E-AAE6-502A-9236-494EC0C6F544 ;
+    ossp:P114 osss:Q239-E82D4035-F723-590B-8AD0-722CE3069F85 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/503858812> ;
     osst:P101 <https://www.openstreetmap.org/node/503858812/history/11> ;
@@ -143,7 +144,8 @@ oss:Q239
         "website=https://www.cango-caves.co.za/",
         "wheelchair=no",
         "wikidata=Q1033211",
-        "wikipedia=en:Cango Caves" .
+        "wikipedia=en:Cango Caves" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0074> .
 
 osss:Q239-03D2D76D-9063-5735-BE2F-08CE4B26E6F4
     a wikibase:BestRank,
@@ -359,6 +361,23 @@ osss:Q239-E58F8EC7-3E73-5C28-8DFF-B871FFACC2CF
     wikibase:rank wikibase:NormalRank ;
     ossps:P100 <https://www.openstreetmap.org/node/503858812> .
 
+osss:Q239-E82D4035-F723-590B-8AD0-722CE3069F85
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Cango cave" ;
+    osspq:P116 "+170"^^xsd:decimal ;
+    osspq:P117 "+170"^^xsd:decimal ;
+    osspq:P118 "+0.038"^^xsd:decimal ;
+    osspq:P119 "+0.998"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:5f65da57e5c3486db67520a0f6c21d20 ;
+    osspqv:P117 ossv:5f65da57e5c3486db67520a0f6c21d20 ;
+    osspqv:P118 ossv:df8a9c71357573e1219510ab54bc698e ;
+    osspqv:P119 ossv:63e4c52cbb868aa8a557a64752caad33 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0074> .
+
 osss:Q239-E575E3F9-89A3-5C6D-A21E-F7C65ABC379D
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -433,6 +452,10 @@ ossref:aa24a97c4ca9faad2c5f52965f8e1c361d1df591
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/503858812/history/6> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:eface59b0199fa58eb898b3f8aefbddd75397a9e
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/503858812/history/1> .
@@ -457,6 +480,11 @@ ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
     wikibase:quantityAmount "+6"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:5f65da57e5c3486db67520a0f6c21d20
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+170"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:08c6ec7603fef9d88b86557630fead4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+10"^^xsd:decimal ;
@@ -470,6 +498,11 @@ ossv:9eb0a11f783b50f51f04a9fc2aca89fb
 ossv:30e603cac620241526fa9f81268ba25c
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63e4c52cbb868aa8a557a64752caad33
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.998"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:63f6a2c5bd58360efaaf56114afbf952
@@ -497,4 +530,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:df8a9c71357573e1219510ab54bc698e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.038"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

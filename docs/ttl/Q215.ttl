@@ -63,7 +63,7 @@ ossdist:Q215-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q215, as archived from the Wikibase API"@en ;
-    dcat:byteSize "11866"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "15001"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q215.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q215
     schema:name "Entrada da Gruta Lapa Doce"@de,
         "Entrada da Gruta Lapa Doce"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "10"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q215-8FF76A74-2D62-5B07-9A61-BB7E06BA9D62 ;
     geo:hasGeometry osss:Q215-8FF76A74-2D62-5B07-9A61-BB7E06BA9D62 ;
     rdfs:label "Entrada da Gruta Lapa Doce"@de,
@@ -100,6 +100,7 @@ oss:Q215
     ossp:P113 osss:Q215-91D1C92C-2D08-529D-8D40-D968279629AC,
         osss:Q215-956262EA-D463-51C0-B54B-1EB2FB700DBC,
         osss:Q215-A79625EC-C7E1-5C69-98BC-4E34CDC92993 ;
+    ossp:P114 osss:Q215-D0123288-AB73-5533-9907-27E0B766030A ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4153268606> ;
     osst:P101 <https://www.openstreetmap.org/node/4153268606/history/2> ;
@@ -108,7 +109,8 @@ oss:Q215
     osst:P111 "POINT(-41.6047624 -12.3339123)" ;
     osst:P113 "name=Entrada da Gruta Lapa Doce",
         "natural=cave_entrance",
-        "tourism=attraction" .
+        "tourism=attraction" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0103> .
 
 osss:Q215-1FDBBD1F-6229-5973-A67C-D1956E564B67
     a wikibase:Statement ;
@@ -187,6 +189,23 @@ osss:Q215-A79625EC-C7E1-5C69-98BC-4E34CDC92993
     prov:wasDerivedFrom ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a ;
     ossps:P113 "name=Entrada da Gruta Lapa Doce" .
 
+osss:Q215-D0123288-AB73-5533-9907-27E0B766030A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Lapa Doce cave" ;
+    osspq:P116 "+124"^^xsd:decimal ;
+    osspq:P117 "+124"^^xsd:decimal ;
+    osspq:P118 "+0.074"^^xsd:decimal ;
+    osspq:P119 "+0.780"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:b8cb5ab0f95270db1ae8053da94176fc ;
+    osspqv:P117 ossv:b8cb5ab0f95270db1ae8053da94176fc ;
+    osspqv:P118 ossv:5e6fae1c846dcfbd58c8aa1be10d7bc7 ;
+    osspqv:P119 ossv:b92341a16f7b5a81854853c25c0a8bcd ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0103> .
+
 osss:Q215-F467977A-9841-550E-9809-C9B230453482
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -201,6 +220,10 @@ ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4153268606/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0b822835695ceb5a95932d5341d42992
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
@@ -208,9 +231,24 @@ ossv:0b822835695ceb5a95932d5341d42992
     wikibase:geoLongitude "-41.6047624"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:5e6fae1c846dcfbd58c8aa1be10d7bc7
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.074"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b8cb5ab0f95270db1ae8053da94176fc
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+124"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b92341a16f7b5a81854853c25c0a8bcd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.780"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea

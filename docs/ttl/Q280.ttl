@@ -63,7 +63,7 @@ ossdist:Q280-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q280, as archived from the Wikibase API"@en ;
-    dcat:byteSize "16468"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "19599"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q280.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q280
     schema:name "Cueva del Cobre"@de,
         "Cueva del Cobre"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "13"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q280-27A152D1-5E22-5D9A-BFDB-53326583E297 ;
     geo:hasGeometry osss:Q280-27A152D1-5E22-5D9A-BFDB-53326583E297,
         osss:Q280-CA672C5B-7486-57BB-B04F-1EF69E72FF0A ;
@@ -104,6 +104,7 @@ oss:Q280
         osss:Q280-17BA2902-67EB-54AE-90FC-402401BB4B8B,
         osss:Q280-2304EC79-A7EF-542E-B6C6-B7011A1C4646,
         osss:Q280-F2D3AFE1-606F-5AF8-A271-6D20AF666F87 ;
+    ossp:P114 osss:Q280-D75D41F0-C5B2-5D0B-907B-96F27F18A3E2 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/7412451779> ;
     osst:P101 <https://www.openstreetmap.org/node/7412451779/history/3> ;
@@ -114,7 +115,8 @@ oss:Q280
     osst:P113 "name=Cueva del Cobre",
         "natural=cave_entrance",
         "wikidata=Q5794252",
-        "wikipedia=es:Cueva del Cobre" .
+        "wikipedia=es:Cueva del Cobre" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0259> .
 
 osss:Q280-0C38CA00-237A-595C-8117-D012F5DC2892
     a wikibase:BestRank,
@@ -222,6 +224,23 @@ osss:Q280-CA672C5B-7486-57BB-B04F-1EF69E72FF0A
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(-4.3731377 42.9867975)" .
 
+osss:Q280-D75D41F0-C5B2-5D0B-907B-96F27F18A3E2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Cobre cave" ;
+    osspq:P116 "+225"^^xsd:decimal ;
+    osspq:P117 "+225"^^xsd:decimal ;
+    osspq:P118 "+0.807"^^xsd:decimal ;
+    osspq:P119 "+0.952"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:fffadc96e91b3e9e0506460647331068 ;
+    osspqv:P117 ossv:fffadc96e91b3e9e0506460647331068 ;
+    osspqv:P118 ossv:db78f524503546590942a116e8d65be0 ;
+    osspqv:P119 ossv:caa8ac745b7bfc5ff49008a6c9693313 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0259> .
+
 osss:Q280-F2D3AFE1-606F-5AF8-A271-6D20AF666F87
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -236,6 +255,10 @@ ossref:5c937058c8f159f8a954329eb887e7f15fb0d404
 ossref:2611d51b7ffc6148fa20c60177dfd1df2fa1c55f
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7412451779/history/1> .
+
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
 
 ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195
     a wikibase:Reference ;
@@ -261,4 +284,19 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:caa8ac745b7bfc5ff49008a6c9693313
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.952"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:db78f524503546590942a116e8d65be0
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.807"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:fffadc96e91b3e9e0506460647331068
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+225"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

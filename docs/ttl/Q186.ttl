@@ -63,7 +63,7 @@ ossdist:Q186-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q186, as archived from the Wikibase API"@en ;
-    dcat:byteSize "20590"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "23725"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q186.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q186
     schema:name "Gruta de Huagapo"@de,
         "Gruta de Huagapo"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "15"^^xsd:integer ;
+    wikibase:statements "16"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q186-D9F0AB43-6A1D-57E6-9331-DBA2D86DCDAA ;
     geo:hasGeometry osss:Q186-D9F0AB43-6A1D-57E6-9331-DBA2D86DCDAA,
         osss:Q186-E1640963-ECFB-5B32-B22D-C920769E6C01 ;
@@ -106,6 +106,7 @@ oss:Q186
         osss:Q186-1D4248C5-D10E-59F7-9189-0B954A561338,
         osss:Q186-8FF28638-84D9-5E2E-9EA0-2D035F7F131E,
         osss:Q186-C1B34157-68BA-5541-8882-163AE9751E28 ;
+    ossp:P114 osss:Q186-AD08217F-F4C6-56D5-939F-537FD3D824BA ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/286783901> ;
     osst:P101 <https://www.openstreetmap.org/node/286783901/history/5> ;
@@ -116,7 +117,8 @@ oss:Q186
     osst:P113 "name=Gruta de Huagapo",
         "natural=cave_entrance",
         "wikidata=Q21733380",
-        "wikipedia=es:Gruta de Huagapo" .
+        "wikipedia=es:Gruta de Huagapo" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0277> .
 
 osss:Q186-0A0A8DF6-050F-5B78-8372-5516A74CADF4
     a wikibase:BestRank,
@@ -172,6 +174,23 @@ osss:Q186-663996B5-8545-52A1-AE13-5806C5B50899
     osspq:P106 "12500589" ;
     osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
     ossps:P101 <https://www.openstreetmap.org/node/286783901/history/5> .
+
+osss:Q186-AD08217F-F4C6-56D5-939F-537FD3D824BA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Huagapo cave" ;
+    osspq:P116 "+1347"^^xsd:decimal ;
+    osspq:P117 "+1347"^^xsd:decimal ;
+    osspq:P118 "+0.419"^^xsd:decimal ;
+    osspq:P119 "+0.975"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:a3951365dd197c8050e901b0201ff521 ;
+    osspqv:P117 ossv:a3951365dd197c8050e901b0201ff521 ;
+    osspqv:P118 ossv:19ec6447256879377db888e22602cb69 ;
+    osspqv:P119 ossv:5f5a480c07b480dbdb5aa92adf385a64 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0277> .
 
 osss:Q186-B1168F57-AA4C-5490-BBD5-A5BAE4139CF0
     a wikibase:Statement ;
@@ -265,14 +284,28 @@ ossref:386a5ce9b91ef4a218f098ea93a89a446689c4e3
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/286783901/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:5f5a480c07b480dbdb5aa92adf385a64
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.975"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:19ec6447256879377db888e22602cb69
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.419"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:30e603cac620241526fa9f81268ba25c
@@ -286,6 +319,11 @@ ossv:71039ccc8980875b27a85f602f4a5d22
     wikibase:geoLatitude "-11.2682671"^^xsd:double ;
     wikibase:geoLongitude "-75.7865844"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:a3951365dd197c8050e901b0201ff521
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1347"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;

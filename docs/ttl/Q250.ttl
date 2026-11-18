@@ -63,7 +63,7 @@ ossdist:Q250-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q250, as archived from the Wikibase API"@en ;
-    dcat:byteSize "28131"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "31269"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q250.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q250
     schema:name "Coves de Campanet"@de,
         "Coves de Campanet"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "23"^^xsd:integer ;
+    wikibase:statements "24"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9 ;
     geo:hasGeometry osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9 ;
     rdfs:label "Coves de Campanet"@de,
@@ -113,6 +113,7 @@ oss:Q250
         osss:Q250-D04A1D0A-DBD7-561E-BF37-DD99F2740F7E,
         osss:Q250-EDFEC7D0-04FD-56CF-AF61-D6B3F4FAE18A,
         osss:Q250-FCE583B1-32C8-5181-BB4F-1939FC7FC092 ;
+    ossp:P114 osss:Q250-044B90DD-8C71-5D04-BAFC-E90A25ED0605 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/5503469510> ;
     osst:P101 <https://www.openstreetmap.org/node/5503469510/history/6> ;
@@ -130,7 +131,8 @@ oss:Q250
         "payment:credit_cards=yes",
         "website=https://covesdecampanet.com/",
         "wikidata=Q508889",
-        "wikipedia=ca:Coves de Campanet" .
+        "wikipedia=ca:Coves de Campanet" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0265> .
 
 osss:Q250-0FC0182A-344A-5CE4-8FE1-D56AB0BAD999
     a wikibase:BestRank,
@@ -186,6 +188,23 @@ osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9
     osspq:P103 "2018-03-25T17:07:04Z" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P111 "POINT(2.9683618 39.7926183)" .
+
+osss:Q250-044B90DD-8C71-5D04-BAFC-E90A25ED0605
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Coves de Campanet" ;
+    osspq:P116 "+439"^^xsd:decimal ;
+    osspq:P117 "+439"^^xsd:decimal ;
+    osspq:P118 "+0.120"^^xsd:decimal ;
+    osspq:P119 "+0.993"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:6ea3b1891b944163fccaa11f9e8c60a5 ;
+    osspqv:P117 ossv:6ea3b1891b944163fccaa11f9e8c60a5 ;
+    osspqv:P118 ossv:a83669fc0aa80c64f6104631c34bc653 ;
+    osspqv:P119 ossv:0c79b1f307b9e7dc3a6d7361a055a695 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0265> .
 
 osss:Q250-74B52771-1BB4-5977-9FDD-AFD1C7EEB6C0
     a wikibase:Statement ;
@@ -326,6 +345,10 @@ ossref:8be39edfd1ff028b2df4eed3b104647732f17060
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/5503469510/history/6> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:fbc5cb455825bb84e73fa4368da20d96bab1a768
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/5503469510/history/1> .
@@ -335,9 +358,19 @@ ossv:0bbe1280560b495eac2a68b29e4b1c4e
     wikibase:quantityAmount "+3"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:0c79b1f307b9e7dc3a6d7361a055a695
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.993"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:6ea3b1891b944163fccaa11f9e8c60a5
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+439"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:8c17e29a511bbb3ac6cd3e73b7e5e7b0
@@ -355,6 +388,11 @@ ossv:9eb0a11f783b50f51f04a9fc2aca89fb
 ossv:30e603cac620241526fa9f81268ba25c
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a83669fc0aa80c64f6104631c34bc653
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.120"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e

@@ -63,7 +63,7 @@ ossdist:Q153-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q153, as archived from the Wikibase API"@en ;
-    dcat:byteSize "30191"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "33326"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q153.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q153
     schema:name "Cova des Pirata"@de,
         "Cova des Pirata"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "21"^^xsd:integer ;
+    wikibase:statements "22"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q153-524872BB-FC02-5DF2-B7F8-E7371C1C8819 ;
     geo:hasGeometry osss:Q153-9B633E55-757D-5E4E-B93C-8E9011EE66E8,
         osss:Q153-524872BB-FC02-5DF2-B7F8-E7371C1C8819,
@@ -113,6 +113,7 @@ oss:Q153
         osss:Q153-C1C947DF-63B3-54BB-A96F-12E4A1D2C009,
         osss:Q153-F49E43F3-9558-5BD8-B51F-1B8A951C1658,
         osss:Q153-FB326983-8336-53C5-BC4E-F161E48171C0 ;
+    ossp:P114 osss:Q153-0A4EA94F-473C-578D-8FC1-910D675479FF ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/1325351976> ;
     osst:P101 <https://www.openstreetmap.org/node/1325351976/history/8> ;
@@ -126,7 +127,25 @@ oss:Q153
         "name:ca=Cova des Pirata",
         "name=Cova des Pirata",
         "natural=cave_entrance",
-        "wikidata=Q20639449" .
+        "wikidata=Q20639449" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0338> .
+
+osss:Q153-0A4EA94F-473C-578D-8FC1-910D675479FF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Coves del pirata" ;
+    osspq:P116 "+90"^^xsd:decimal ;
+    osspq:P117 "+90"^^xsd:decimal ;
+    osspq:P118 "+0.294"^^xsd:decimal ;
+    osspq:P119 "+0.855"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:fa22352eea0f5cb41d72bdfcd6a857de ;
+    osspqv:P117 ossv:fa22352eea0f5cb41d72bdfcd6a857de ;
+    osspqv:P118 ossv:bf30de62ab15ee6bd75da00a0333dee3 ;
+    osspqv:P119 ossv:cc2ac4b94ad4f3bc414bfd682601b694 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0338> .
 
 osss:Q153-1D14EE33-3AC7-56B8-90DA-C4D7DECD409B
     a wikibase:BestRank,
@@ -334,6 +353,10 @@ ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1325351976/history/8> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:cf2e1b5a78b10d6636e78812cccb9a24f2613db8
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1325351976/history/1> .
@@ -380,7 +403,22 @@ ossv:be089727f80da094e15ba8a46600a104
     wikibase:geoLongitude "3.2995185"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:bf30de62ab15ee6bd75da00a0333dee3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.294"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cc2ac4b94ad4f3bc414bfd682601b694
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.855"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:fa22352eea0f5cb41d72bdfcd6a857de
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+90"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

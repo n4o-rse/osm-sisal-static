@@ -63,7 +63,7 @@ ossdist:Q284-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q284, as archived from the Wikibase API"@en ;
-    dcat:byteSize "8879"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "12020"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q284.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q284
     schema:name "Cueva del Diamante"@de,
         "Cueva del Diamante"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "8"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q284-FE2A0BD9-451F-5DA2-B098-5E0F4A37BB35 ;
     geo:hasGeometry osss:Q284-FE2A0BD9-451F-5DA2-B098-5E0F4A37BB35 ;
     rdfs:label "Cueva del Diamante"@de,
@@ -98,6 +98,7 @@ oss:Q284
     ossp:P111 osss:Q284-FE2A0BD9-451F-5DA2-B098-5E0F4A37BB35 ;
     ossp:P113 osss:Q284-99D19156-B880-5440-A5D5-8BB40A3B2885,
         osss:Q284-E25DA2C7-9DB3-5012-AB50-5B796371B1A2 ;
+    ossp:P114 osss:Q284-FBC47B67-BD3C-5D53-9054-468F5F8FAEA6 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/7713840588> ;
     osst:P101 <https://www.openstreetmap.org/node/7713840588/history/1> ;
@@ -105,7 +106,8 @@ oss:Q284
     osst:P110 "Point(-77.525792 -5.7532406)"^^geo:wktLiteral ;
     osst:P111 "POINT(-77.525792 -5.7532406)" ;
     osst:P113 "name=Cueva del Diamante",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0226> .
 
 osss:Q284-3BF84EC4-090F-5855-8823-240A1037CAFA
     a wikibase:BestRank,
@@ -160,6 +162,23 @@ osss:Q284-F258101F-6877-523B-BACC-68A8BF0D828B
     osspq:P109 "sisal" ;
     ossps:P107 <https://www.openstreetmap.org/node/7713840588/history/1> .
 
+osss:Q284-FBC47B67-BD3C-5D53-9054-468F5F8FAEA6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Cueva del Diamante" ;
+    osspq:P116 "+1830"^^xsd:decimal ;
+    osspq:P117 "+1833"^^xsd:decimal ;
+    osspq:P118 "+3.850"^^xsd:decimal ;
+    osspq:P119 "+0.769"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:f32951ea2736fc53c2c3f5b343b0adb3 ;
+    osspqv:P117 ossv:64bf31a116f9409c277d4700ed2c0e45 ;
+    osspqv:P118 ossv:f836d79e03c8bae7be1ea3eb76690858 ;
+    osspqv:P119 ossv:6588fb66356e9378723d99203f2c3ec8 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0226> .
+
 osss:Q284-FE2A0BD9-451F-5DA2-B098-5E0F4A37BB35
     a wikibase:BestRank,
         wikibase:Statement,
@@ -176,6 +195,10 @@ ossref:770dfee1c985edafced09268d476b113baaf5644
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7713840588/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:7a31ff10a5822b57c0ceeb027c462338
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
@@ -183,7 +206,27 @@ ossv:7a31ff10a5822b57c0ceeb027c462338
     wikibase:geoLongitude "-77.525792"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:64bf31a116f9409c277d4700ed2c0e45
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1833"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:6588fb66356e9378723d99203f2c3ec8
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.769"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f836d79e03c8bae7be1ea3eb76690858
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3.850"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f32951ea2736fc53c2c3f5b343b0adb3
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1830"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

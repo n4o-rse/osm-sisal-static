@@ -63,7 +63,7 @@ ossdist:Q192-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q192, as archived from the Wikibase API"@en ;
-    dcat:byteSize "32817"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "35948"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q192.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q192
     schema:name "غار کتله خور"@de,
         "غار کتله خور"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "23"^^xsd:integer ;
+    wikibase:statements "24"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q192-4FB53D6D-2E6C-5440-8CAB-1A282AB638B3 ;
     geo:hasGeometry osss:Q192-4FB53D6D-2E6C-5440-8CAB-1A282AB638B3,
         osss:Q192-EF864DB6-5960-5C06-B291-A4B8F88C6C2A,
@@ -116,6 +116,7 @@ oss:Q192
         osss:Q192-6E32E8D4-4BAE-560E-BE6A-C8BCC9FD920F,
         osss:Q192-B0D931F8-E8AE-5496-89C3-F2B7B9792C78,
         osss:Q192-EFF8E1A6-CC9E-56EC-9209-98B0C966CD63 ;
+    ossp:P114 osss:Q192-7339BDF2-4530-5022-A9C7-755F075CCDAC ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/3096058666> ;
     osst:P101 <https://www.openstreetmap.org/node/3096058666/history/8> ;
@@ -131,7 +132,8 @@ oss:Q192
         "natural=cave_entrance",
         "tourism=attraction",
         "wikidata=Q6375049",
-        "wikipedia=fa:غار کتله‌خور" .
+        "wikipedia=fa:غار کتله‌خور" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0320> .
 
 osss:Q192-1CE7E1A3-BB6B-514A-A420-9A8EE176F09E
     a wikibase:BestRank,
@@ -255,6 +257,23 @@ osss:Q192-05262A5E-CF18-555F-872D-1913D3B4A0F0
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
 
+osss:Q192-7339BDF2-4530-5022-A9C7-755F075CCDAC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Katalekhor" ;
+    osspq:P116 "+287"^^xsd:decimal ;
+    osspq:P117 "+287"^^xsd:decimal ;
+    osspq:P118 "+1.565"^^xsd:decimal ;
+    osspq:P119 "+0.842"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:c0c7239e9b8bfe4fbd1e667468d46f5f ;
+    osspqv:P117 ossv:c0c7239e9b8bfe4fbd1e667468d46f5f ;
+    osspqv:P118 ossv:3723e320528bba7731cdfa565d9b8b82 ;
+    osspqv:P119 ossv:0245ec0c4844b693b66934261f980ba9 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0320> .
+
 osss:Q192-8256487F-EEB1-5D19-8F83-6080456F3D02
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -362,6 +381,10 @@ ossref:c5ccdc4b9d8fc837ff2637dc3bbb845b254e23a5
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/3096058666/history/5> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
@@ -392,6 +415,16 @@ ossv:187a57b7a4159b90f1b51b12225fda5f
     wikibase:quantityAmount "+7"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:0245ec0c4844b693b66934261f980ba9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.842"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3723e320528bba7731cdfa565d9b8b82
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.565"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -403,6 +436,11 @@ ossv:b640271726cad01c7acbe6ff8a010c1b
     wikibase:geoLatitude "35.8360367"^^xsd:double ;
     wikibase:geoLongitude "48.1621486"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c0c7239e9b8bfe4fbd1e667468d46f5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+287"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;

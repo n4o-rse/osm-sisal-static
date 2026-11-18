@@ -63,7 +63,7 @@ ossdist:Q225-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q225, as archived from the Wikibase API"@en ;
-    dcat:byteSize "13584"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "16715"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q225.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q225
     schema:name "Metro Cave"@de,
         "Metro Cave"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "12"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q225-D861A741-6CA0-5E46-BEB3-86AF66980EE8 ;
     geo:hasGeometry osss:Q225-D861A741-6CA0-5E46-BEB3-86AF66980EE8 ;
     rdfs:label "Metro Cave"@de,
@@ -102,6 +102,7 @@ oss:Q225
         osss:Q225-50C1B4AB-0CEE-5A4D-AFAB-2B1DA2217EDB,
         osss:Q225-704C50F4-4A69-58E9-BE0C-C58534E4BD77,
         osss:Q225-EA55AF64-9ADF-579D-874B-ED86188ADF87 ;
+    ossp:P114 osss:Q225-16252392-8C1E-5109-8A42-4414D2FEDA44 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4480576512> ;
     osst:P101 <https://www.openstreetmap.org/node/4480576512/history/2> ;
@@ -112,7 +113,8 @@ oss:Q225
         "fee=yes",
         "name=Metro Cave",
         "natural=cave_entrance",
-        "wikidata=Q15253265" .
+        "wikidata=Q15253265" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0272> .
 
 osss:Q225-8E515997-F955-5C65-8CBF-651D8733736E
     a wikibase:BestRank,
@@ -180,6 +182,23 @@ osss:Q225-3266867F-B136-585B-89F9-846F5038C918
     wikibase:rank wikibase:NormalRank ;
     ossps:P2 oss:Q100 .
 
+osss:Q225-16252392-8C1E-5109-8A42-4414D2FEDA44
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Metro cave" ;
+    osspq:P116 "+489"^^xsd:decimal ;
+    osspq:P117 "+488"^^xsd:decimal ;
+    osspq:P118 "+1.031"^^xsd:decimal ;
+    osspq:P119 "+0.938"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:68f901f5e2541e16b1cccec9a78a9959 ;
+    osspqv:P117 ossv:3782e099e430c928fb2197b6bfc0896e ;
+    osspqv:P118 ossv:74b2d409658208ab5a0513918438bbad ;
+    osspqv:P119 ossv:45f542fc25d7e6d0969e1594abc7072c ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0272> .
+
 osss:Q225-C30A4617-CD6F-5369-A95E-2B0E870B03DE
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -219,12 +238,36 @@ ossref:c207afd0144c5bbad6a03abb1b527b2c47520cfb
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4480576512/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:5dd647673592c306dff71d9d653ac90c
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
     wikibase:geoLatitude "-41.9358976"^^xsd:double ;
     wikibase:geoLongitude "171.4796209"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:45f542fc25d7e6d0969e1594abc7072c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.938"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:68f901f5e2541e16b1cccec9a78a9959
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+489"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:74b2d409658208ab5a0513918438bbad
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.031"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3782e099e430c928fb2197b6bfc0896e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+488"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;

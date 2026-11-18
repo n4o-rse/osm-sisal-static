@@ -63,7 +63,7 @@ ossdist:Q278-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q278, as archived from the Wikibase API"@en ;
-    dcat:byteSize "18529"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "21666"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q278.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q278
     schema:name "Toca da Boa Vista"@de,
         "Toca da Boa Vista"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "14"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q278-D048BB81-0EFD-5E04-871D-49AF5F1ABBD7 ;
     geo:hasGeometry osss:Q278-82FCC343-9F5B-57F8-8F7C-BAE4F1AD8A08,
         osss:Q278-D048BB81-0EFD-5E04-871D-49AF5F1ABBD7 ;
@@ -105,6 +105,7 @@ oss:Q278
         osss:Q278-153CDD26-E1FF-5FE2-8653-77EB47B4585C,
         osss:Q278-013152A7-2500-5BF6-B223-FFCC0B8AE66A,
         osss:Q278-92117BE8-C4EE-5705-8E38-576C73C479FF ;
+    ossp:P114 osss:Q278-8466A3F8-B3D3-5A6D-8358-4F1406D3C9BA ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/7318685910> ;
     osst:P101 <https://www.openstreetmap.org/node/7318685910/history/4> ;
@@ -115,7 +116,8 @@ oss:Q278
     osst:P113 "name=Toca da Boa Vista",
         "natural=cave_entrance",
         "wikidata=Q624844",
-        "wikipedia=pt:Toca da Boa Vista" .
+        "wikipedia=pt:Toca da Boa Vista" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0236> .
 
 osss:Q278-7ADCA307-039E-5551-B334-23E0A1F21E1C
     a wikibase:BestRank,
@@ -186,6 +188,23 @@ osss:Q278-355C0E9C-17EC-5ADE-A30F-2B51B36E5480
     osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
     ossps:P101 <https://www.openstreetmap.org/node/7318685910/history/4> .
 
+osss:Q278-8466A3F8-B3D3-5A6D-8358-4F1406D3C9BA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Toca da Boa Vista" ;
+    osspq:P116 "+791"^^xsd:decimal ;
+    osspq:P117 "+61"^^xsd:decimal ;
+    osspq:P118 "+0.026"^^xsd:decimal ;
+    osspq:P119 "+0.998"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:3f18de2a6169ace954ec707b57354882 ;
+    osspqv:P117 ossv:3ede2fcf59853019e84b2a56f9eb66b7 ;
+    osspqv:P118 ossv:8a001e8a7b2b882a66a94f7298bb9e92 ;
+    osspqv:P119 ossv:63e4c52cbb868aa8a557a64752caad33 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0236> .
+
 osss:Q278-013152A7-2500-5BF6-B223-FFCC0B8AE66A
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -245,6 +264,10 @@ ossref:3fec53a9b1a423ab36f9b9dc70efd8130295514b
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7318685910/history/4> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:ec20aace59090a51400a457c9c873583032da470
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/7318685910/history/1> .
@@ -252,6 +275,21 @@ ossref:ec20aace59090a51400a457c9c873583032da470
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3ede2fcf59853019e84b2a56f9eb66b7
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+61"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3f18de2a6169ace954ec707b57354882
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+791"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:8a001e8a7b2b882a66a94f7298bb9e92
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.026"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:9a67d73b04f354083502d139d43c6842
@@ -264,6 +302,11 @@ ossv:9a67d73b04f354083502d139d43c6842
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63e4c52cbb868aa8a557a64752caad33
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.998"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e

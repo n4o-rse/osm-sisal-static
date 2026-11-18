@@ -63,7 +63,7 @@ ossdist:Q272-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q272, as archived from the Wikibase API"@en ;
-    dcat:byteSize "49484"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "52618"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q272.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q272
     schema:name "Abaligeti-cseppkőbarlang"@de,
         "Abaligeti-cseppkőbarlang"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "38"^^xsd:integer ;
+    wikibase:statements "39"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q272-5E5C7F71-DBDA-5D06-9CAE-90F9981FBC82 ;
     geo:hasGeometry osss:Q272-5E5C7F71-DBDA-5D06-9CAE-90F9981FBC82,
         osss:Q272-AD6676BE-01FE-5E89-B197-69A3F343AD71 ;
@@ -129,6 +129,7 @@ oss:Q272
         osss:Q272-C495A8B8-FD5F-5526-A16C-063796B2AA6E,
         osss:Q272-E12E5ADF-BB5A-5D6D-8A31-927D167D1A63,
         osss:Q272-FF89B712-554B-5CC5-93C7-F2B5C1067862 ;
+    ossp:P114 osss:Q272-6F8C2827-045A-540F-AB13-CFB2192D33DC ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/707254947> ;
     osst:P101 <https://www.openstreetmap.org/node/707254947/history/12> ;
@@ -155,7 +156,8 @@ oss:Q272
         "protection_title=fokozottan védett",
         "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-1",
         "wikidata=Q305277",
-        "wikipedia=hu:Abaligeti-barlang" .
+        "wikipedia=hu:Abaligeti-barlang" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0031> .
 
 osss:Q272-0A8C6159-BBA6-5B2E-8F28-5DE1D295B208
     a wikibase:BestRank,
@@ -239,6 +241,23 @@ osss:Q272-6CFE2D59-4BBF-5207-80FF-228223C79FCD
     osspq:P106 "57628" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P101 <https://www.openstreetmap.org/node/707254947/history/1> .
+
+osss:Q272-6F8C2827-045A-540F-AB13-CFB2192D33DC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Abaliget cave" ;
+    osspq:P116 "+779"^^xsd:decimal ;
+    osspq:P117 "+779"^^xsd:decimal ;
+    osspq:P118 "+0.377"^^xsd:decimal ;
+    osspq:P119 "+0.854"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:7f46f9616d64819a6f9c9fea3f7cdd85 ;
+    osspqv:P117 ossv:7f46f9616d64819a6f9c9fea3f7cdd85 ;
+    osspqv:P118 ossv:b8ffe8e6e431146f742439aa1b926428 ;
+    osspqv:P119 ossv:7c633a66304105b007a9d2c8e029f3a7 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0031> .
 
 osss:Q272-7A37EBA6-EFA4-5C2A-BAC5-9EE88EB89AA3
     a wikibase:Statement ;
@@ -489,6 +508,10 @@ ossref:60277f53c052f5f84d6f48ef4d4b625feaf29c08
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/707254947/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d9ade556c84d25071df633819d9894eb3c3326c9
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/707254947/history/12> .
@@ -511,6 +534,16 @@ ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:7c633a66304105b007a9d2c8e029f3a7
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.854"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:7f46f9616d64819a6f9c9fea3f7cdd85
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+779"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:08c6ec7603fef9d88b86557630fead4e
@@ -546,6 +579,11 @@ ossv:273d314d307f834d9b3ee29183ae71c0
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b8ffe8e6e431146f742439aa1b926428
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.377"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea

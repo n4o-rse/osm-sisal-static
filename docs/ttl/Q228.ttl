@@ -63,7 +63,7 @@ ossdist:Q228-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q228, as archived from the Wikibase API"@en ;
-    dcat:byteSize "13504"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "16671"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q228.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q228
     schema:name "Grotta Grande del Vento"@de,
         "Grotta Grande del Vento"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "11"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q228-3CEEFB2A-42A1-5B6D-BBC2-378A62382D30 ;
     geo:hasGeometry osss:Q228-3CEEFB2A-42A1-5B6D-BBC2-378A62382D30,
         osss:Q228-C54951BC-033D-59F4-BFA8-8F4FEA78F63A ;
@@ -102,6 +102,7 @@ oss:Q228
     ossp:P113 osss:Q228-7A8686A2-106E-5218-85CD-319407A09C6A,
         osss:Q228-8733A1DF-04B4-5460-A202-F8C40B6A55B3,
         osss:Q228-A127A17A-6BD6-5C98-B39F-71D497A8051E ;
+    ossp:P114 osss:Q228-859B1D19-58B9-53B7-80DC-AED469F974A8 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4557134896> ;
     osst:P101 <https://www.openstreetmap.org/node/4557134896/history/2> ;
@@ -111,7 +112,8 @@ oss:Q228
         "POINT(12.9614999 43.3997795)" ;
     osst:P113 "ele=383",
         "name=Grotta Grande del Vento",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0193> .
 
 osss:Q228-0ACD5158-F30F-5A19-A994-B6B726CFA464
     a wikibase:BestRank,
@@ -151,6 +153,23 @@ osss:Q228-7D120DDA-2220-5D3D-871D-CCFCA4687EFA
     prov:wasDerivedFrom ossref:d65869e82201c39a3a31a5adb9b448350b53baa0 ;
     ossps:P110 "Point(12.9614999 43.3997795)"^^geo:wktLiteral ;
     osspsv:P110 ossv:f0ca35e593d92dc4f2454683a961bba5 .
+
+osss:Q228-859B1D19-58B9-53B7-80DC-AED469F974A8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Frasassi cave system - Grotta Grande del Vento" ;
+    osspq:P116 "+537"^^xsd:decimal ;
+    osspq:P117 "+539"^^xsd:decimal ;
+    osspq:P118 "+0.118"^^xsd:decimal ;
+    osspq:P119 "+0.802"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:a90d980e75df7826f2d843948b64e4c8 ;
+    osspqv:P117 ossv:41a3d44bcbe0902474001294f453f76a ;
+    osspqv:P118 ossv:92a128c299134898e956973fb7bf8aa4 ;
+    osspqv:P119 ossv:d5d7aa1c4c8b0d4c9da0b6deb4fa0e89 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0193> .
 
 osss:Q228-8733A1DF-04B4-5460-A202-F8C40B6A55B3
     a wikibase:BestRank,
@@ -208,6 +227,10 @@ osss:Q228-FF89AD91-DA8F-5507-B762-3C648E1EC097
     wikibase:rank wikibase:NormalRank ;
     ossps:P100 <https://www.openstreetmap.org/node/4557134896> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d65869e82201c39a3a31a5adb9b448350b53baa0
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4557134896/history/2> .
@@ -215,6 +238,21 @@ ossref:d65869e82201c39a3a31a5adb9b448350b53baa0
 ossref:e266147384320408b9baeddce8c07a28bfbf0b89
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4557134896/history/1> .
+
+ossv:41a3d44bcbe0902474001294f453f76a
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+539"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:92a128c299134898e956973fb7bf8aa4
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.118"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a90d980e75df7826f2d843948b64e4c8
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+537"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
@@ -224,6 +262,11 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d5d7aa1c4c8b0d4c9da0b6deb4fa0e89
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.802"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:f0ca35e593d92dc4f2454683a961bba5

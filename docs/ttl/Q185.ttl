@@ -63,7 +63,7 @@ ossdist:Q185-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q185, as archived from the Wikibase API"@en ;
-    dcat:byteSize "13618"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "16755"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q185.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q185
     schema:name "Cave of the Bells"@de,
         "Cave of the Bells"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "12"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q185-52C92F0A-07EA-58DF-B8F7-23C38037B408 ;
     geo:hasGeometry osss:Q185-52C92F0A-07EA-58DF-B8F7-23C38037B408 ;
     rdfs:label "Cave of the Bells"@de,
@@ -102,6 +102,7 @@ oss:Q185
         osss:Q185-6156CE6A-3AFD-579B-9D49-7A62762A396D,
         osss:Q185-AA897A57-22F0-5DAE-BAF1-CC1C3037DFB9,
         osss:Q185-F1884579-1292-58CB-BF57-15A196443006 ;
+    ossp:P114 osss:Q185-D90B3EA0-2CD0-54D5-BA75-C2C209CA7607 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/2824859401> ;
     osst:P101 <https://www.openstreetmap.org/node/2824859401/history/2> ;
@@ -112,7 +113,8 @@ oss:Q185
         "natural=cave_entrance",
         "source=USGS",
         "wikidata=Q5054957",
-        "wikipedia=en:Cave of the Bells" .
+        "wikipedia=en:Cave of the Bells" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0134> .
 
 osss:Q185-6F5D75DE-50F0-50D0-A312-FB061C07B163
     a wikibase:BestRank,
@@ -198,6 +200,23 @@ osss:Q185-AB4E5512-E6D5-5375-90CB-6CCCA12AF8EE
     osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
     ossps:P101 <https://www.openstreetmap.org/node/2824859401/history/2> .
 
+osss:Q185-D90B3EA0-2CD0-54D5-BA75-C2C209CA7607
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Cave of the Bells" ;
+    osspq:P116 "+1191"^^xsd:decimal ;
+    osspq:P117 "+0"^^xsd:decimal ;
+    osspq:P118 "+2.928"^^xsd:decimal ;
+    osspq:P119 "+0.824"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:c1d1ebd673a183243d4cd34935b43557 ;
+    osspqv:P117 ossv:3092538cf556ed2265cf53e19ae368cb ;
+    osspqv:P118 ossv:750b14b90b037ae089650a998aa4172e ;
+    osspqv:P119 ossv:cc1c2764ac16032afb656bbad0b17da9 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0134> .
+
 osss:Q185-E9EB9516-BE17-576A-9A2D-61B2B154DAD3
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -219,6 +238,15 @@ ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/2824859401/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:750b14b90b037ae089650a998aa4172e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2.928"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:8810c944c9e5e4caa99d6cb334304f90
     a wikibase:GlobecoordinateValue ;
     wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
@@ -226,12 +254,27 @@ ossv:8810c944c9e5e4caa99d6cb334304f90
     wikibase:geoLongitude "-110.7684871"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:3092538cf556ed2265cf53e19ae368cb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:c1d1ebd673a183243d4cd34935b43557
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1191"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cc1c2764ac16032afb656bbad0b17da9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.824"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

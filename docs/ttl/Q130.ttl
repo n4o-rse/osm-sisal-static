@@ -63,7 +63,7 @@ ossdist:Q130-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q130, as archived from the Wikibase API"@en ;
-    dcat:byteSize "8927"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "12075"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q130.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q130
     schema:name "cova de sa balma des cuartó"@de,
         "cova de sa balma des cuartó"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "8"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652 ;
     geo:hasGeometry osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652 ;
     rdfs:label "cova de sa balma des cuartó"@de,
@@ -98,6 +98,7 @@ oss:Q130
     ossp:P111 osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652 ;
     ossp:P113 osss:Q130-978FDF94-712E-5FDD-B47E-8ADE9C9DB480,
         osss:Q130-7192BA11-AC6D-530F-B93B-C89F1F5BDB20 ;
+    ossp:P114 osss:Q130-335EBA4B-E7F0-5788-8D26-4BDBDDDD385F ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/11687476904> ;
     osst:P101 <https://www.openstreetmap.org/node/11687476904/history/1> ;
@@ -105,7 +106,8 @@ oss:Q130
     osst:P110 "Point(3.3059456 39.5145813)"^^geo:wktLiteral ;
     osst:P111 "POINT(3.3059456 39.5145813)" ;
     osst:P113 "name=cova de sa balma des cuartó",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0342> .
 
 osss:Q130-4D185E17-C7DC-5D7D-8D7B-439F85008E26
     a wikibase:BestRank,
@@ -121,6 +123,23 @@ osss:Q130-284EC274-6B11-5A8F-9C12-7A80A2CE646E
     prov:wasDerivedFrom ossref:736eacc3b62894470e4e99d620e489b7e558b372 ;
     ossps:P110 "Point(3.3059456 39.5145813)"^^geo:wktLiteral ;
     osspsv:P110 ossv:d20fbe21c712e1db14f77a90f70d7fc8 .
+
+osss:Q130-335EBA4B-E7F0-5788-8D26-4BDBDDDD385F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Sa balma des quartó cave" ;
+    osspq:P116 "+1008"^^xsd:decimal ;
+    osspq:P117 "+1008"^^xsd:decimal ;
+    osspq:P118 "+0.010"^^xsd:decimal ;
+    osspq:P119 "+0.963"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:4f0617ac6f2a79cb867f139504f0e3ff ;
+    osspqv:P117 ossv:4f0617ac6f2a79cb867f139504f0e3ff ;
+    osspqv:P118 ossv:b93f6fd2bd9b178e1406133578bbbfd1 ;
+    osspqv:P119 ossv:d0f27ce4041f64746070af0e74c66481 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0342> .
 
 osss:Q130-978FDF94-712E-5FDD-B47E-8ADE9C9DB480
     a wikibase:BestRank,
@@ -176,9 +195,28 @@ ossref:736eacc3b62894470e4e99d620e489b7e558b372
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/11687476904/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
+ossv:4f0617ac6f2a79cb867f139504f0e3ff
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1008"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b93f6fd2bd9b178e1406133578bbbfd1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.010"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d0f27ce4041f64746070af0e74c66481
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.963"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:d20fbe21c712e1db14f77a90f70d7fc8

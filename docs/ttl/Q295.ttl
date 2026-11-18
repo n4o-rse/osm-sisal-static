@@ -63,7 +63,7 @@ ossdist:Q295-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q295, as archived from the Wikibase API"@en ;
-    dcat:byteSize "21228"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "24373"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q295.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q295
     schema:name "Grotta di Carburangeli"@de,
         "Grotta di Carburangeli"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "17"^^xsd:integer ;
+    wikibase:statements "18"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q295-995856B7-DC8E-509D-92D1-6D3E24652318 ;
     geo:hasGeometry osss:Q295-931033B6-9C6A-5072-BF76-8F07DFCD479F,
         osss:Q295-995856B7-DC8E-509D-92D1-6D3E24652318 ;
@@ -108,6 +108,7 @@ oss:Q295
         osss:Q295-9208483A-740C-5087-871C-C854B237F5B1,
         osss:Q295-20629922-91B4-5D94-94C6-EEF808348421,
         osss:Q295-A7BDE4E9-C2CB-5ACF-A3A2-6C6423BA536B ;
+    ossp:P114 osss:Q295-BC7E1060-FBC5-547B-AA66-7DD9DCE3E4E5 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/8422630011> ;
     osst:P101 <https://www.openstreetmap.org/node/8422630011/history/4> ;
@@ -121,7 +122,8 @@ oss:Q295
         "name=Grotta di Carburangeli",
         "natural=cave_entrance",
         "wikidata=Q33323877",
-        "wikipedia=it:Riserva naturale integrale Grotta di Carburangeli" .
+        "wikipedia=it:Riserva naturale integrale Grotta di Carburangeli" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0129> .
 
 osss:Q295-1F55DFB4-2C8F-5AB4-99DC-66BF7AE89D24
     a wikibase:Statement ;
@@ -245,6 +247,23 @@ osss:Q295-A7BDE4E9-C2CB-5ACF-A3A2-6C6423BA536B
     prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
     ossps:P113 "wikipedia=it:Riserva naturale integrale Grotta di Carburangeli" .
 
+osss:Q295-BC7E1060-FBC5-547B-AA66-7DD9DCE3E4E5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Grotta di Carburangeli" ;
+    osspq:P116 "+1223"^^xsd:decimal ;
+    osspq:P117 "+1223"^^xsd:decimal ;
+    osspq:P118 "+0.011"^^xsd:decimal ;
+    osspq:P119 "+0.999"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:c855e1611b19fcf5a6ad8ca1f7caf79c ;
+    osspqv:P117 ossv:c855e1611b19fcf5a6ad8ca1f7caf79c ;
+    osspqv:P118 ossv:1a99a3ff6e91e97cc2287d027d1ab9e9 ;
+    osspqv:P119 ossv:a44bab8da74580851dcf2a1bb05201bd ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0129> .
+
 osss:Q295-DBC7C7D4-F84B-5844-9424-4E018C18727F
     a wikibase:BestRank,
         wikibase:Statement ;
@@ -280,9 +299,18 @@ ossref:c937b87a9af5988213331ed90c07554b458b3fd9
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/8422630011/history/3> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:1a99a3ff6e91e97cc2287d027d1ab9e9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.011"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
@@ -297,6 +325,11 @@ ossv:39e2856190a1cc3769aa922603595f22
     wikibase:geoLongitude "13.1603094"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
 
+ossv:a44bab8da74580851dcf2a1bb05201bd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.999"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -305,4 +338,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c855e1611b19fcf5a6ad8ca1f7caf79c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1223"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

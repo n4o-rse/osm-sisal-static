@@ -63,7 +63,7 @@ ossdist:Q229-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q229, as archived from the Wikibase API"@en ;
-    dcat:byteSize "10628"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "13764"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q229.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q229
     schema:name "Dos Anas"@de,
         "Dos Anas"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "10"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q229-FADCD9D4-CFE8-5F0F-BABC-F541E46B88FE ;
     geo:hasGeometry osss:Q229-FADCD9D4-CFE8-5F0F-BABC-F541E46B88FE ;
     rdfs:label "Dos Anas"@de,
@@ -100,6 +100,7 @@ oss:Q229
         osss:Q229-5F9346BA-B2D4-5FA2-8DCF-1EA6E8E72AD9,
         osss:Q229-285D2409-4A63-5E91-A5CC-98AFEC49B447,
         osss:Q229-FF48A60F-3AD3-5B1C-8663-5533E7B7A77C ;
+    ossp:P114 osss:Q229-9C624F5D-2F13-59D6-BD31-EABD8FB6CD1A ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/4705261283> ;
     osst:P101 <https://www.openstreetmap.org/node/4705261283/history/1> ;
@@ -109,7 +110,8 @@ oss:Q229
     osst:P113 "fee=no",
         "name=Dos Anas",
         "natural=cave_entrance",
-        "phone=+12027491273" .
+        "phone=+12027491273" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0183> .
 
 osss:Q229-5B3C25F6-F3FE-5958-BAF8-63BB66E0DB4C
     a wikibase:BestRank,
@@ -124,6 +126,23 @@ osss:Q229-5F9346BA-B2D4-5FA2-8DCF-1EA6E8E72AD9
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:d8bad3f2be37ac16453fe95b251583a05c16103a ;
     ossps:P113 "name=Dos Anas" .
+
+osss:Q229-9C624F5D-2F13-59D6-BD31-EABD8FB6CD1A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Dos Anas cave" ;
+    osspq:P116 "+1823"^^xsd:decimal ;
+    osspq:P117 "+1824"^^xsd:decimal ;
+    osspq:P118 "+0.476"^^xsd:decimal ;
+    osspq:P119 "+0.971"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:2a664080a4695e761aea4fa5d9051181 ;
+    osspqv:P117 ossv:4cd1e090ceebb26282d4982583a57a9e ;
+    osspqv:P118 ossv:b4fa74c0c411570204a75aa027613ec1 ;
+    osspqv:P119 ossv:cc4439392d6371d0ad0b3b31ce864191 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0183> .
 
 osss:Q229-0169AC33-5A0A-5F66-9AC0-7B70824D20AD
     a wikibase:BestRank,
@@ -190,13 +209,37 @@ osss:Q229-FF48A60F-3AD3-5B1C-8663-5533E7B7A77C
     prov:wasDerivedFrom ossref:d8bad3f2be37ac16453fe95b251583a05c16103a ;
     ossps:P113 "phone=+12027491273" .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d8bad3f2be37ac16453fe95b251583a05c16103a
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/4705261283/history/1> .
 
+ossv:2a664080a4695e761aea4fa5d9051181
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1823"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4cd1e090ceebb26282d4982583a57a9e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1824"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b4fa74c0c411570204a75aa027613ec1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.476"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cc4439392d6371d0ad0b3b31ce864191
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.971"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:e078e3db222ef98a5fc60143d58172e6

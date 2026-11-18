@@ -63,7 +63,7 @@ ossdist:Q230-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q230, as archived from the Wikibase API"@en ;
-    dcat:byteSize "25879"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "29009"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q230.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q230
     schema:name "Crag Cave"@de,
         "Crag Cave"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "21"^^xsd:integer ;
+    wikibase:statements "22"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q230-66C55F96-4D42-5599-A7EB-CDF6B98B2FBD ;
     geo:hasGeometry osss:Q230-66C55F96-4D42-5599-A7EB-CDF6B98B2FBD,
         osss:Q230-DB4D2BBA-8670-5768-8A3B-3152DAA661E9 ;
@@ -112,6 +112,7 @@ oss:Q230
         osss:Q230-B7D4F1B8-73FD-5A47-BF2E-251880C8F5A2,
         osss:Q230-C76C377B-A1F1-55E1-ABE5-A48F14DE3306,
         osss:Q230-C406E36C-AE44-5F09-80AC-0CFCABC52934 ;
+    ossp:P114 osss:Q230-353BDECF-7D63-554B-B706-8F423505AE8C ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/475710521> ;
     osst:P101 <https://www.openstreetmap.org/node/475710521/history/5> ;
@@ -128,7 +129,8 @@ oss:Q230
         "natural=cave_entrance",
         "tourism=attraction",
         "website=https://www.cragcave.com/",
-        "wikidata=Q1138482" .
+        "wikidata=Q1138482" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0098> .
 
 osss:Q230-0BF3D937-2860-5588-9F62-782E62D48FB8
     a wikibase:Statement ;
@@ -212,6 +214,23 @@ osss:Q230-76EA84C6-6366-52CA-B013-C6BA6E4720A7
     wikibase:rank wikibase:NormalRank ;
     prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
     ossps:P113 "website=https://www.cragcave.com/" .
+
+osss:Q230-353BDECF-7D63-554B-B706-8F423505AE8C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Crag cave" ;
+    osspq:P116 "+145"^^xsd:decimal ;
+    osspq:P117 "+145"^^xsd:decimal ;
+    osspq:P118 "+1.028"^^xsd:decimal ;
+    osspq:P119 "+0.938"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:1cf88276ced2c14a8220b6e24c8cee67 ;
+    osspqv:P117 ossv:1cf88276ced2c14a8220b6e24c8cee67 ;
+    osspqv:P118 ossv:ff0c0051bafc3f6f709c20d5d6bdc375 ;
+    osspqv:P119 ossv:45f542fc25d7e6d0969e1594abc7072c ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0098> .
 
 osss:Q230-603BC4B4-DDD6-5E28-B010-13027DD961C5
     a wikibase:BestRank,
@@ -315,6 +334,10 @@ ossref:763c857fe2554531dba52b8f1929678dc5fc862b
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/475710521/history/5> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d140fff8bbeb46ac2cdc54d3af1f66cedfddbaf4
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/475710521/history/3> .
@@ -322,6 +345,11 @@ ossref:d140fff8bbeb46ac2cdc54d3af1f66cedfddbaf4
 ossv:0bbe1280560b495eac2a68b29e4b1c4e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:1cf88276ced2c14a8220b6e24c8cee67
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+145"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:9eb0a11f783b50f51f04a9fc2aca89fb
@@ -341,6 +369,11 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:45f542fc25d7e6d0969e1594abc7072c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.938"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
@@ -349,4 +382,9 @@ ossv:aa2e7afcc4dbda508bf34d1e83609f7e
 ossv:c295f8f927aa4b01b5401a2788a068ea
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ff0c0051bafc3f6f709c20d5d6bdc375
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1.028"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

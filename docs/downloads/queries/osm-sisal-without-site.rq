@@ -1,0 +1,11 @@
+PREFIX ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?label WHERE {
+  ?item rdfs:label ?label ;
+        ossp:P100 ?element .
+  FILTER(LANG(?label) = "en")
+  FILTER NOT EXISTS { ?item ossp:P114 ?site }
+}
+ORDER BY ?label ?item
+LIMIT 300

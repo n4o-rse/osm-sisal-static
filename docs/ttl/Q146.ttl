@@ -63,7 +63,7 @@ ossdist:Q146-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q146, as archived from the Wikibase API"@en ;
-    dcat:byteSize "12601"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "15739"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q146.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q146
     schema:name "Pippikin Pot"@de,
         "Pippikin Pot"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "10"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q146-17BE42D0-5B88-57DD-A308-82DAAF5B7A25 ;
     geo:hasGeometry osss:Q146-17BE42D0-5B88-57DD-A308-82DAAF5B7A25,
         osss:Q146-66A9EBFB-E202-50E9-B724-3B40989DA132 ;
@@ -101,6 +101,7 @@ oss:Q146
         osss:Q146-66A9EBFB-E202-50E9-B724-3B40989DA132 ;
     ossp:P113 osss:Q146-8482CD6E-B8C0-50D9-9081-F9CD0F44CB94,
         osss:Q146-C0BE48B7-A559-5E33-8AD4-0A7C39CAB64A ;
+    ossp:P114 osss:Q146-8D62DB68-DE7E-5EDE-820C-84239294BD70 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/13028255810> ;
     osst:P101 <https://www.openstreetmap.org/node/13028255810/history/2> ;
@@ -109,7 +110,8 @@ oss:Q146
     osst:P111 "POINT(-2.510461 54.2154161)",
         "POINT(-2.5104674 54.215445)" ;
     osst:P113 "name=Pippikin Pot",
-        "natural=cave_entrance" .
+        "natural=cave_entrance" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0053> .
 
 osss:Q146-4CC4CB43-1B1F-5FA9-A0C8-24CA34BF4F27
     a wikibase:BestRank,
@@ -122,6 +124,23 @@ osss:Q146-4CC4CB43-1B1F-5FA9-A0C8-24CA34BF4F27
     osspq:P106 "161022" ;
     osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
     ossps:P101 <https://www.openstreetmap.org/node/13028255810/history/2> .
+
+osss:Q146-8D62DB68-DE7E-5EDE-820C-84239294BD70
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Pippikin Pot cave" ;
+    osspq:P116 "+483"^^xsd:decimal ;
+    osspq:P117 "+483"^^xsd:decimal ;
+    osspq:P118 "+0.174"^^xsd:decimal ;
+    osspq:P119 "+0.990"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:750b714003c83e2a771cb8f20d21a48e ;
+    osspqv:P117 ossv:750b714003c83e2a771cb8f20d21a48e ;
+    osspqv:P118 ossv:27b44606d02af51b396cd5870ae68913 ;
+    osspqv:P119 ossv:30cd81a8bc20f9173b8c9c58a4cc23d9 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0053> .
 
 osss:Q146-17BE42D0-5B88-57DD-A308-82DAAF5B7A25
     a wikibase:BestRank,
@@ -203,9 +222,28 @@ ossref:448bc7a27283714457331118a0e8b4012ed25ac8
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/13028255810/history/2> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:d1ad50435462842dacbc973b1faf30d2f4fc1f59
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/13028255810/history/1> .
+
+ossv:27b44606d02af51b396cd5870ae68913
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.174"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30cd81a8bc20f9173b8c9c58a4cc23d9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.990"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:750b714003c83e2a771cb8f20d21a48e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+483"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:6784b104479775d3918b59685af4da37
     a wikibase:GlobecoordinateValue ;

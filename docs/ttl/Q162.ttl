@@ -63,7 +63,7 @@ ossdist:Q162-json
     dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
     dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
     dcterms:title "Q162, as archived from the Wikibase API"@en ;
-    dcat:byteSize "34531"^^xsd:nonNegativeInteger ;
+    dcat:byteSize "37668"^^xsd:nonNegativeInteger ;
     dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q162.json> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
 
@@ -83,7 +83,7 @@ oss:Q162
     schema:name "Spannagelhöhle"@de,
         "Spannagelhöhle"@en ;
     wikibase:identifiers "0"^^xsd:integer ;
-    wikibase:statements "25"^^xsd:integer ;
+    wikibase:statements "26"^^xsd:integer ;
     geo:hasDefaultGeometry osss:Q162-F5C59A84-FF21-5777-AC75-2B3F32AF0935 ;
     geo:hasGeometry osss:Q162-63018D01-7E30-559C-83A4-8A2AD828D601,
         osss:Q162-B5BC1A0C-59EA-56C2-8473-23D26C80AA2F,
@@ -118,6 +118,7 @@ oss:Q162
         osss:Q162-2740BFD9-8CD8-56E9-939A-F45439022C4A,
         osss:Q162-C0593CF7-93C2-59C7-B957-035C7AED899F,
         osss:Q162-D47DD4AD-4DB0-54A6-9D8F-FA8013F10EAD ;
+    ossp:P114 osss:Q162-97AAF2EC-DB4D-53FC-8673-CEE9D42D7833 ;
     osst:P2 oss:Q100 ;
     osst:P100 <https://www.openstreetmap.org/node/1488744824> ;
     osst:P101 <https://www.openstreetmap.org/node/1488744824/history/8> ;
@@ -135,7 +136,8 @@ oss:Q162
         "tourism=attraction",
         "website=https://www.spannagelhoehle.at",
         "wikidata=Q875718",
-        "wikipedia=de:Spannagelhöhle" .
+        "wikipedia=de:Spannagelhöhle" ;
+    osst:P114 <http://w3id.org/geo-lod/Cave_site_0058> .
 
 osss:Q162-5F49A6C9-8B30-503D-96DE-B25A34EE1774
     a wikibase:BestRank,
@@ -217,6 +219,23 @@ osss:Q162-93EE7FF6-974E-5158-A623-A974CA2AE561
     osspq:P106 "57158" ;
     osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
     ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/1> .
+
+osss:Q162-97AAF2EC-DB4D-53FC-8673-CEE9D42D7833
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7 ;
+    osspq:P115 "Spannagel cave" ;
+    osspq:P116 "+8939"^^xsd:decimal ;
+    osspq:P117 "+2484"^^xsd:decimal ;
+    osspq:P118 "+0.099"^^xsd:decimal ;
+    osspq:P119 "+0.842"^^xsd:decimal ;
+    osspq:P120 "sure" ;
+    osspqv:P116 ossv:67cb5e30f6ca6e989eb438ece55e7abd ;
+    osspqv:P117 ossv:fd6042d4845d887dcbd6e8624914ddcb ;
+    osspqv:P118 ossv:b569b0afd05e11c8b01778e167b078f9 ;
+    osspqv:P119 ossv:0245ec0c4844b693b66934261f980ba9 ;
+    ossps:P114 <http://w3id.org/geo-lod/Cave_site_0058> .
 
 osss:Q162-604CAB1A-1DE0-5578-A736-CC3E0EE03795
     a wikibase:Statement ;
@@ -376,6 +395,10 @@ ossref:a5d9593c3eb44b8588fc8037b85ce3e923f1baac
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1488744824/history/1> .
 
+ossref:ce5a02f9aae6e7359e7a8f1322a64c0b78ee7ed7
+    a wikibase:Reference ;
+    osspr:P6 <https://research-squirrel-engineers.github.io/GeoScience-FAIRification-LOD/> .
+
 ossref:dccdae654c659905a6fbeb17593d26a38b170061
     a wikibase:Reference ;
     osspr:P6 <https://www.openstreetmap.org/node/1488744824/history/8> .
@@ -405,14 +428,29 @@ ossv:30e603cac620241526fa9f81268ba25c
     wikibase:quantityAmount "+5"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:67cb5e30f6ca6e989eb438ece55e7abd
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8939"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:187a57b7a4159b90f1b51b12225fda5f
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+7"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
+ossv:0245ec0c4844b693b66934261f980ba9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.842"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
 ossv:aa2e7afcc4dbda508bf34d1e83609f7e
     a wikibase:QuantityValue ;
     wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b569b0afd05e11c8b01778e167b078f9
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+0.099"^^xsd:decimal ;
     wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
 
 ossv:c295f8f927aa4b01b5401a2788a068ea
@@ -426,3 +464,8 @@ ossv:ca4b01f9cc47f780424c63fbf213f09f
     wikibase:geoLatitude "47.0801529"^^xsd:double ;
     wikibase:geoLongitude "11.671292"^^xsd:double ;
     wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:fd6042d4845d887dcbd6e8624914ddcb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2484"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
