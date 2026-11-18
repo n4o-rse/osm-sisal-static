@@ -1,0 +1,306 @@
+# Q113: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q113.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 10905682924)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10905682924)"@de ;
+    dcterms:identifier "Q113" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q113 ;
+    dcterms:title "Buca della Renella"@de,
+        "Buca della Renella"@en ;
+    schema:about oss:Q113 ;
+    dcat:distribution ossdist:Q113-html,
+        ossdist:Q113-json,
+        ossdist:Q113-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q113.html> .
+
+ossdist:Q113-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q113, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q113.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q113-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q113, as archived from the Wikibase API"@en ;
+    dcat:byteSize "21723"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q113.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q113-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q113, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q113.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q113
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 10905682924)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10905682924)"@de ;
+    schema:name "Buca della Renella"@de,
+        "Buca della Renella"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q113-294A42B3-907B-596F-9B32-82614F8378AD ;
+    geo:hasGeometry osss:Q113-294A42B3-907B-596F-9B32-82614F8378AD ;
+    rdfs:label "Buca della Renella"@de,
+        "Buca della Renella"@en ;
+    skos:prefLabel "Buca della Renella"@de,
+        "Buca della Renella"@en ;
+    ossp:P2 osss:Q113-E5504893-DC29-57CE-831F-AD05B393D176 ;
+    ossp:P100 osss:Q113-7C0D45FD-C113-57DF-9543-DC74AF233AC2 ;
+    ossp:P101 osss:Q113-7B33C902-F53C-5B1D-A1D5-88CB014AC8BB,
+        osss:Q113-18404DC9-1C5A-54BA-A96F-67F5FAA54B1E,
+        osss:Q113-99906AB6-4511-516D-BC4F-584955738C30,
+        osss:Q113-227187F8-432E-5AFE-8CC1-C98439F08D28,
+        osss:Q113-E68C9924-4493-5A83-A9CC-C37F0C5FBABB ;
+    ossp:P107 osss:Q113-43AEDD87-9A09-54DE-8ED2-2C4B1909271A ;
+    ossp:P110 osss:Q113-C430B454-6F06-5DC1-BF91-00BEB61931B3 ;
+    ossp:P111 osss:Q113-294A42B3-907B-596F-9B32-82614F8378AD ;
+    ossp:P113 osss:Q113-1DEEE400-744F-5AD7-AC3E-C1BB08226B78,
+        osss:Q113-2E670C87-AB46-5517-BFEF-D758FAFD52B1,
+        osss:Q113-20B992AE-E215-5ACD-AD46-89D080C69A1B,
+        osss:Q113-20ED4E06-9C19-52B2-A92F-3670201E109C,
+        osss:Q113-4425A13D-EFCE-531A-91AF-10B7063E4897,
+        osss:Q113-521115D9-E66E-5DD5-847A-9553D5BD8168,
+        osss:Q113-DFC65538-FFD5-56F0-B552-F7B07F82F606 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/10905682924> ;
+    osst:P101 <https://www.openstreetmap.org/node/10905682924/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/10905682924/history/1> ;
+    osst:P110 "Point(10.182508 44.0937497)"^^geo:wktLiteral ;
+    osst:P111 "POINT(10.182508 44.0937497)" ;
+    osst:P113 "alt_name=Buca sopra a Forno",
+        "cave:ref:IT:FST=TO0272",
+        "name=Buca della Renella",
+        "natural=cave_entrance",
+        "plaque=yes",
+        "source:url=https://www.speleotoscana.it/scheda-catastale/?id=272",
+        "source=Catasto Grotte - Federazione Speleologica Toscana" .
+
+osss:Q113-1DEEE400-744F-5AD7-AC3E-C1BB08226B78
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "source=Catasto Grotte - Federazione Speleologica Toscana" .
+
+osss:Q113-2E670C87-AB46-5517-BFEF-D758FAFD52B1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "name=Buca della Renella" .
+
+osss:Q113-7B33C902-F53C-5B1D-A1D5-88CB014AC8BB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2025-10-23T15:49:21Z" ;
+    osspq:P104 "173681334" ;
+    osspq:P105 "simo_explorer" ;
+    osspq:P106 "18469761" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/10905682924/history/2> .
+
+osss:Q113-7C0D45FD-C113-57DF-9543-DC74AF233AC2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/10905682924> .
+
+osss:Q113-20B992AE-E215-5ACD-AD46-89D080C69A1B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q113-20ED4E06-9C19-52B2-A92F-3670201E109C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "plaque=yes" .
+
+osss:Q113-43AEDD87-9A09-54DE-8ED2-2C4B1909271A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/10905682924/history/1> .
+
+osss:Q113-294A42B3-907B-596F-9B32-82614F8378AD
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(10.182508 44.0937497)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:38be2e401e8d7d8e1386f5e1cdcec7919df1d118 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2023-05-17T17:35:26Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(10.182508 44.0937497)" .
+
+osss:Q113-4425A13D-EFCE-531A-91AF-10B7063E4897
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "cave:ref:IT:FST=TO0272" .
+
+osss:Q113-18404DC9-1C5A-54BA-A96F-67F5FAA54B1E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2026-04-02T15:00:10Z" ;
+    osspq:P104 "180772816" ;
+    osspq:P105 "simo_explorer" ;
+    osspq:P106 "18469761" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/10905682924/history/5> .
+
+osss:Q113-99906AB6-4511-516D-BC4F-584955738C30
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2025-11-03T13:20:27Z" ;
+    osspq:P104 "174147506" ;
+    osspq:P105 "simo_explorer" ;
+    osspq:P106 "18469761" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/10905682924/history/4> .
+
+osss:Q113-227187F8-432E-5AFE-8CC1-C98439F08D28
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2025-10-23T16:42:35Z" ;
+    osspq:P104 "173683668" ;
+    osspq:P105 "simo_explorer" ;
+    osspq:P106 "18469761" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/10905682924/history/3> .
+
+osss:Q113-521115D9-E66E-5DD5-847A-9553D5BD8168
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "alt_name=Buca sopra a Forno" .
+
+osss:Q113-C430B454-6F06-5DC1-BF91-00BEB61931B3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P110 "Point(10.182508 44.0937497)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:507530e2555aceeee9214dc89ff0a19a .
+
+osss:Q113-DFC65538-FFD5-56F0-B552-F7B07F82F606
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e7df6deb361b27e3884f66b42af806a0c7446492 ;
+    ossps:P113 "source:url=https://www.speleotoscana.it/scheda-catastale/?id=272" .
+
+osss:Q113-E68C9924-4493-5A83-A9CC-C37F0C5FBABB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2023-05-17T17:35:26Z" ;
+    osspq:P104 "136222721" ;
+    osspq:P105 "danispeleo" ;
+    osspq:P106 "19218724" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/10905682924/history/1> .
+
+osss:Q113-E5504893-DC29-57CE-831F-AD05B393D176
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:38be2e401e8d7d8e1386f5e1cdcec7919df1d118
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10905682924/history/1> .
+
+ossref:e7df6deb361b27e3884f66b42af806a0c7446492
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10905682924/history/5> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:507530e2555aceeee9214dc89ff0a19a
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "44.0937497"^^xsd:double ;
+    wikibase:geoLongitude "10.182508"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

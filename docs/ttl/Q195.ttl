@@ -1,0 +1,243 @@
+# Q195: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q195.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3292745497)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3292745497)"@de ;
+    dcterms:identifier "Q195" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q195 ;
+    dcterms:title "Barbers Cave"@de,
+        "Barbers Cave"@en ;
+    schema:about oss:Q195 ;
+    dcat:distribution ossdist:Q195-html,
+        ossdist:Q195-json,
+        ossdist:Q195-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q195.html> .
+
+ossdist:Q195-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q195, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q195.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q195-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q195, as archived from the Wikibase API"@en ;
+    dcat:byteSize "14410"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q195.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q195-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q195, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q195.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q195
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3292745497)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3292745497)"@de ;
+    schema:name "Barbers Cave"@de,
+        "Barbers Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q195-6DFBD431-E8D3-54B8-8D7C-8D1AE90F0CD9 ;
+    geo:hasGeometry osss:Q195-6A6EDF50-AAE0-5B57-A429-953DD3CE0531,
+        osss:Q195-6DFBD431-E8D3-54B8-8D7C-8D1AE90F0CD9 ;
+    rdfs:label "Barbers Cave"@de,
+        "Barbers Cave"@en ;
+    skos:prefLabel "Barbers Cave"@de,
+        "Barbers Cave"@en ;
+    ossp:P2 osss:Q195-7899B24D-3A44-58FB-9283-AAD9F62BAE05 ;
+    ossp:P100 osss:Q195-1A4513B2-FC05-59D2-BAC6-E271FB823F62 ;
+    ossp:P101 osss:Q195-2AAD7FA2-27A6-5A1B-9D17-DDD592619A38,
+        osss:Q195-5336D910-02CD-5761-86AB-4BCC487B6BE5 ;
+    ossp:P107 osss:Q195-0492CD5D-73A1-5F82-B82F-78E1D9A545CF ;
+    ossp:P110 osss:Q195-EBDD9840-EEB3-5763-8D3F-3BAB4C498C10 ;
+    ossp:P111 osss:Q195-6A6EDF50-AAE0-5B57-A429-953DD3CE0531,
+        osss:Q195-6DFBD431-E8D3-54B8-8D7C-8D1AE90F0CD9 ;
+    ossp:P113 osss:Q195-6CBA1EE7-0C72-564A-B197-0313309F0125,
+        osss:Q195-9819713E-EB82-5579-A6A0-A0A3937A3488,
+        osss:Q195-A69EF01C-4539-543E-8AAD-D2CC4C821D0A,
+        osss:Q195-B1F71BC6-C113-5493-8DD2-775462E82CAC ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3292745497> ;
+    osst:P101 <https://www.openstreetmap.org/node/3292745497/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/3292745497/history/1> ;
+    osst:P110 "Point(148.6944501 -35.6250572)"^^geo:wktLiteral ;
+    osst:P111 "POINT(148.6936642 -35.6249438)",
+        "POINT(148.6944501 -35.6250572)" ;
+    osst:P113 "alt_name=CP14",
+        "name=Barbers Cave",
+        "natural=cave_entrance",
+        "source_ref=http://helictite.caves.org.au/pdf4/06.02.Issue.Print.pdf" .
+
+osss:Q195-1A4513B2-FC05-59D2-BAC6-E271FB823F62
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3292745497> .
+
+osss:Q195-2AAD7FA2-27A6-5A1B-9D17-DDD592619A38
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-04-26T06:41:18Z" ;
+    osspq:P104 "58432059" ;
+    osspq:P105 "breno-au" ;
+    osspq:P106 "859676" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3292745497/history/2> .
+
+osss:Q195-6A6EDF50-AAE0-5B57-A429-953DD3CE0531
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(148.6936642 -35.6249438)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:b2ce5d944d6007b0528a3f7db974d09bd43a6bbe ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-01-16T17:07:29Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(148.6936642 -35.6249438)" .
+
+osss:Q195-6CBA1EE7-0C72-564A-B197-0313309F0125
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:afe294551a6f0acee437dd4270763f468ecdd7e0 ;
+    ossps:P113 "source_ref=http://helictite.caves.org.au/pdf4/06.02.Issue.Print.pdf" .
+
+osss:Q195-6DFBD431-E8D3-54B8-8D7C-8D1AE90F0CD9
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(148.6944501 -35.6250572)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:afe294551a6f0acee437dd4270763f468ecdd7e0 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-04-26T06:41:18Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(148.6944501 -35.6250572)" .
+
+osss:Q195-0492CD5D-73A1-5F82-B82F-78E1D9A545CF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3292745497/history/1> .
+
+osss:Q195-5336D910-02CD-5761-86AB-4BCC487B6BE5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-01-16T17:07:29Z" ;
+    osspq:P104 "28192070" ;
+    osspq:P105 "dhx1" ;
+    osspq:P106 "1187510" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3292745497/history/1> .
+
+osss:Q195-7899B24D-3A44-58FB-9283-AAD9F62BAE05
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q195-9819713E-EB82-5579-A6A0-A0A3937A3488
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:afe294551a6f0acee437dd4270763f468ecdd7e0 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q195-A69EF01C-4539-543E-8AAD-D2CC4C821D0A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:afe294551a6f0acee437dd4270763f468ecdd7e0 ;
+    ossps:P113 "alt_name=CP14" .
+
+osss:Q195-B1F71BC6-C113-5493-8DD2-775462E82CAC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:afe294551a6f0acee437dd4270763f468ecdd7e0 ;
+    ossps:P113 "name=Barbers Cave" .
+
+osss:Q195-EBDD9840-EEB3-5763-8D3F-3BAB4C498C10
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:afe294551a6f0acee437dd4270763f468ecdd7e0 ;
+    ossps:P110 "Point(148.6944501 -35.6250572)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:7c0ba1046d75762abbccae1dc93c384c .
+
+ossref:afe294551a6f0acee437dd4270763f468ecdd7e0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3292745497/history/2> .
+
+ossref:b2ce5d944d6007b0528a3f7db974d09bd43a6bbe
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3292745497/history/1> .
+
+ossv:7c0ba1046d75762abbccae1dc93c384c
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-35.6250572"^^xsd:double ;
+    wikibase:geoLongitude "148.6944501"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

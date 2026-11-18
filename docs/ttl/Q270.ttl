@@ -1,0 +1,396 @@
+# Q270: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q270.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 7008567688)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7008567688)"@de ;
+    dcterms:identifier "Q270" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q270 ;
+    dcterms:title "Špilja Modrič"@de,
+        "Špilja Modrič"@en ;
+    schema:about oss:Q270 ;
+    dcat:distribution ossdist:Q270-html,
+        ossdist:Q270-json,
+        ossdist:Q270-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q270.html> .
+
+ossdist:Q270-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q270, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q270.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q270-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q270, as archived from the Wikibase API"@en ;
+    dcat:byteSize "30572"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q270.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q270-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q270, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q270.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q270
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 7008567688)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7008567688)"@de ;
+    schema:name "Špilja Modrič"@de,
+        "Špilja Modrič"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "27"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q270-D661A65A-78BA-598F-B4B4-C3C05D14A8B2 ;
+    geo:hasGeometry osss:Q270-D661A65A-78BA-598F-B4B4-C3C05D14A8B2 ;
+    rdfs:label "Špilja Modrič"@de,
+        "Špilja Modrič"@en ;
+    skos:prefLabel "Špilja Modrič"@de,
+        "Špilja Modrič"@en ;
+    ossp:P2 osss:Q270-F38E8398-CE88-57CD-A4A1-325C886884E4 ;
+    ossp:P100 osss:Q270-C4D0EA37-7188-597D-9104-93226CA7B2F8 ;
+    ossp:P101 osss:Q270-8E2037EC-9295-51E5-8949-83B3E0EEA495,
+        osss:Q270-48E37BAE-892D-5CBE-A9D0-2337D1935FD8,
+        osss:Q270-96B20E6F-9623-5974-8BB0-A18308034CCD,
+        osss:Q270-226534C6-F0F5-51F5-A61E-23179360E768,
+        osss:Q270-D2A04BC7-F42A-58D6-88A5-FDE90DF92E9E ;
+    ossp:P107 osss:Q270-43CF1546-3712-5294-815B-5059714800EA ;
+    ossp:P110 osss:Q270-1D1CD468-D420-53E2-A67B-3F9C89139B26 ;
+    ossp:P111 osss:Q270-D661A65A-78BA-598F-B4B4-C3C05D14A8B2 ;
+    ossp:P113 osss:Q270-0DB028B2-5FC2-57DB-BDB5-C374D9745F3E,
+        osss:Q270-0F777662-EE9E-54A8-B281-D5EF69E80956,
+        osss:Q270-1D3A73AD-40B2-5164-BDB3-B34039CE7492,
+        osss:Q270-4EA7E4BA-1A85-5876-8724-4B5ECD5ACC06,
+        osss:Q270-5D416B19-7212-597E-B31C-BC3C313F10C0,
+        osss:Q270-6DC0BC46-809C-5253-B09E-4BE1C95FEB5C,
+        osss:Q270-7CB5FDE9-A54F-53FA-A398-C338B2AAA436,
+        osss:Q270-18C59162-FFC3-5FC1-81F1-B07A4377EEBD,
+        osss:Q270-224E3217-ABB9-5D45-AF55-EFB2366B067B,
+        osss:Q270-1682BB93-A250-5CE1-A546-91894B5AC359,
+        osss:Q270-5665BD6E-015C-5E80-A941-B29CC9139A48,
+        osss:Q270-773361A3-CB21-5F77-A97A-9612507D1A07,
+        osss:Q270-A9D1C52D-DD52-5898-8F6E-425F686B8903,
+        osss:Q270-A052CBD5-5F6B-5A5C-B553-12FE6F5FDF5E,
+        osss:Q270-B1830832-8521-5F4B-87D9-7EEE406143CE,
+        osss:Q270-C859A7E7-43B8-57F5-82B4-FA01C3B5EE17,
+        osss:Q270-E7195847-C610-53E1-AF8D-F0C6907E2D25 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/7008567688> ;
+    osst:P101 <https://www.openstreetmap.org/node/7008567688/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/7008567688/history/1> ;
+    osst:P110 "Point(15.5373289 44.2568399)"^^geo:wktLiteral ;
+    osst:P111 "POINT(15.5373289 44.2568399)" ;
+    osst:P113 "access=customers",
+        "ele=29",
+        "email=marijan@zara-adventure.hr",
+        "name:de=Höhle Modrič",
+        "name:en=Modrič Cave",
+        "name:fr=Grotte Modrič",
+        "name:hr=Špilja Modrič",
+        "name:it=Grotta Modrič",
+        "name=Špilja Modrič",
+        "natural=cave_entrance",
+        "operator=Zara Adventure Agency",
+        "phone=+38 598348437",
+        "reservation=required",
+        "tourism=attraction",
+        "url=https://natura-jadera.com/prirodne-vrijednosti/spomenici-prirode/spilja-modric/",
+        "website=https://modric-cave.com",
+        "wikidata=Q113980107" .
+
+osss:Q270-0DB028B2-5FC2-57DB-BDB5-C374D9745F3E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "name:fr=Grotte Modrič" .
+
+osss:Q270-0F777662-EE9E-54A8-B281-D5EF69E80956
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q270-1D1CD468-D420-53E2-A67B-3F9C89139B26
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P110 "Point(15.5373289 44.2568399)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:131abce5ade1ddb8aad7118ebbc0e0fd .
+
+osss:Q270-1D3A73AD-40B2-5164-BDB3-B34039CE7492
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "name:de=Höhle Modrič" .
+
+osss:Q270-4EA7E4BA-1A85-5876-8724-4B5ECD5ACC06
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "name=Špilja Modrič" .
+
+osss:Q270-5D416B19-7212-597E-B31C-BC3C313F10C0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "name:it=Grotta Modrič" .
+
+osss:Q270-6DC0BC46-809C-5253-B09E-4BE1C95FEB5C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q270-7CB5FDE9-A54F-53FA-A398-C338B2AAA436
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "wikidata=Q113980107" .
+
+osss:Q270-8E2037EC-9295-51E5-8949-83B3E0EEA495
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2020-08-24T13:22:16Z" ;
+    osspq:P104 "89860821" ;
+    osspq:P105 "debeli75" ;
+    osspq:P106 "730886" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/7008567688/history/2> .
+
+osss:Q270-18C59162-FFC3-5FC1-81F1-B07A4377EEBD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "email=marijan@zara-adventure.hr" .
+
+osss:Q270-43CF1546-3712-5294-815B-5059714800EA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/7008567688/history/1> .
+
+osss:Q270-48E37BAE-892D-5CBE-A9D0-2337D1935FD8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2026-05-15T18:43:19Z" ;
+    osspq:P104 "182713670" ;
+    osspq:P105 "Elijahh" ;
+    osspq:P106 "19541528" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/7008567688/history/5> .
+
+osss:Q270-96B20E6F-9623-5974-8BB0-A18308034CCD
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2019-11-25T15:02:22Z" ;
+    osspq:P104 "77530818" ;
+    osspq:P105 "a_2019" ;
+    osspq:P106 "10303321" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7008567688/history/1> .
+
+osss:Q270-224E3217-ABB9-5D45-AF55-EFB2366B067B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "phone=+38 598348437" .
+
+osss:Q270-1682BB93-A250-5CE1-A546-91894B5AC359
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "name:en=Modrič Cave" .
+
+osss:Q270-5665BD6E-015C-5E80-A941-B29CC9139A48
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "reservation=required" .
+
+osss:Q270-226534C6-F0F5-51F5-A61E-23179360E768
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-09-29T14:28:26Z" ;
+    osspq:P104 "111870429" ;
+    osspq:P105 "debeli75" ;
+    osspq:P106 "730886" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7008567688/history/3> .
+
+osss:Q270-773361A3-CB21-5F77-A97A-9612507D1A07
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "website=https://modric-cave.com" .
+
+osss:Q270-A9D1C52D-DD52-5898-8F6E-425F686B8903
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "ele=29" .
+
+osss:Q270-A052CBD5-5F6B-5A5C-B553-12FE6F5FDF5E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "url=https://natura-jadera.com/prirodne-vrijednosti/spomenici-prirode/spilja-modric/" .
+
+osss:Q270-B1830832-8521-5F4B-87D9-7EEE406143CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "access=customers" .
+
+osss:Q270-C4D0EA37-7188-597D-9104-93226CA7B2F8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/7008567688> .
+
+osss:Q270-C859A7E7-43B8-57F5-82B4-FA01C3B5EE17
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "name:hr=Špilja Modrič" .
+
+osss:Q270-D2A04BC7-F42A-58D6-88A5-FDE90DF92E9E
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2022-09-14T22:50:05Z" ;
+    osspq:P104 "126199966" ;
+    osspq:P105 "ivanbranco" ;
+    osspq:P106 "11220113" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/7008567688/history/4> .
+
+osss:Q270-D661A65A-78BA-598F-B4B4-C3C05D14A8B2
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(15.5373289 44.2568399)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:095052f7061a28556fef5fde1b433f7b91145200 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2019-11-25T15:02:22Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(15.5373289 44.2568399)" .
+
+osss:Q270-E7195847-C610-53E1-AF8D-F0C6907E2D25
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9470a676431b45eb9690a984a29a958c0c286a17 ;
+    ossps:P113 "operator=Zara Adventure Agency" .
+
+osss:Q270-F38E8398-CE88-57CD-A4A1-325C886884E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:9470a676431b45eb9690a984a29a958c0c286a17
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7008567688/history/5> .
+
+ossref:095052f7061a28556fef5fde1b433f7b91145200
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7008567688/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:131abce5ade1ddb8aad7118ebbc0e0fd
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "44.2568399"^^xsd:double ;
+    wikibase:geoLongitude "15.5373289"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

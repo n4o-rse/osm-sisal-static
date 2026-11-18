@@ -1,0 +1,289 @@
+# Q221: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q221.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4358968290)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4358968290)"@de ;
+    dcterms:identifier "Q221" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q221 ;
+    dcterms:title "كهف الهوتة"@de,
+        "كهف الهوتة"@en ;
+    schema:about oss:Q221 ;
+    dcat:distribution ossdist:Q221-html,
+        ossdist:Q221-json,
+        ossdist:Q221-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q221.html> .
+
+ossdist:Q221-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q221, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q221.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q221-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q221, as archived from the Wikibase API"@en ;
+    dcat:byteSize "19545"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q221.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q221-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q221, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q221.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q221
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4358968290)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4358968290)"@de ;
+    schema:name "كهف الهوتة"@de,
+        "كهف الهوتة"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "16"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q221-3DDB2F01-A590-55C6-A07D-0F56BB2678FB ;
+    geo:hasGeometry osss:Q221-3DDB2F01-A590-55C6-A07D-0F56BB2678FB ;
+    rdfs:label "كهف الهوتة"@de,
+        "كهف الهوتة"@en ;
+    skos:prefLabel "كهف الهوتة"@de,
+        "كهف الهوتة"@en ;
+    ossp:P2 osss:Q221-1DDEEC2B-4995-5F54-8383-B75F97752537 ;
+    ossp:P100 osss:Q221-9871FC06-6210-539B-BBEA-48A31E14968F ;
+    ossp:P101 osss:Q221-2A6E50DD-C9D0-5955-8E3B-8927F898F514,
+        osss:Q221-20FB6426-96C3-5BB0-9171-7ED35667A042,
+        osss:Q221-AA733086-7F47-50C0-993C-D7E937E49459,
+        osss:Q221-E5DFE374-966A-5A19-96BA-7E4C31C1D348 ;
+    ossp:P107 osss:Q221-8BDD7A5E-2D7E-5DCA-B9FF-FF29477F6A5F ;
+    ossp:P110 osss:Q221-5EBEEC99-A9EF-5A6B-B470-07B4DA3D6B86 ;
+    ossp:P111 osss:Q221-3DDB2F01-A590-55C6-A07D-0F56BB2678FB ;
+    ossp:P113 osss:Q221-0D5F268D-4518-54AA-93A6-8112BED4B975,
+        osss:Q221-3C6E41E4-2780-506C-AA91-BF1C86315705,
+        osss:Q221-4EB2116F-DB19-5A0D-A067-9BAB97ABBA4F,
+        osss:Q221-86F9C4DE-3C65-55BB-A3AF-35AC317B366F,
+        osss:Q221-91525235-B9A0-53D2-B624-57BBAC368F61,
+        osss:Q221-B998E391-C4AF-5B61-95E3-CF8F032345D7,
+        osss:Q221-F3FE76F0-A8CB-5A05-AD34-BE4E34085ED2 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4358968290> ;
+    osst:P101 <https://www.openstreetmap.org/node/4358968290/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/4358968290/history/1> ;
+    osst:P110 "Point(57.3543586 23.0820677)"^^geo:wktLiteral ;
+    osst:P111 "POINT(57.3543586 23.0820677)" ;
+    osst:P113 "int_name=Al Hoota Cave",
+        "name:ar=كهف الهوتة",
+        "name:en=Al Hoota Cave",
+        "name=كهف الهوتة",
+        "natural=cave_entrance",
+        "wikidata=Q2636101",
+        "wikipedia=en:Al Hoota Cave" .
+
+osss:Q221-0D5F268D-4518-54AA-93A6-8112BED4B975
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "name:en=Al Hoota Cave" .
+
+osss:Q221-1DDEEC2B-4995-5F54-8383-B75F97752537
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q221-2A6E50DD-C9D0-5955-8E3B-8927F898F514
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2025-12-30T07:28:14Z" ;
+    osspq:P104 "176613413" ;
+    osspq:P105 "CRCulver" ;
+    osspq:P106 "340741" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/4358968290/history/4> .
+
+osss:Q221-3C6E41E4-2780-506C-AA91-BF1C86315705
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "int_name=Al Hoota Cave" .
+
+osss:Q221-3DDB2F01-A590-55C6-A07D-0F56BB2678FB
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(57.3543586 23.0820677)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:a8954d599f75e9ae3ee89a3bab43723faee39d19 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-08-20T13:44:10Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(57.3543586 23.0820677)" .
+
+osss:Q221-4EB2116F-DB19-5A0D-A067-9BAB97ABBA4F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "name=كهف الهوتة" .
+
+osss:Q221-5EBEEC99-A9EF-5A6B-B470-07B4DA3D6B86
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P110 "Point(57.3543586 23.0820677)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:8cc53faf62527f1b70108f2640bc0346 .
+
+osss:Q221-8BDD7A5E-2D7E-5DCA-B9FF-FF29477F6A5F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4358968290/history/1> .
+
+osss:Q221-20FB6426-96C3-5BB0-9171-7ED35667A042
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-08-20T13:44:10Z" ;
+    osspq:P104 "41576501" ;
+    osspq:P105 "Sal73x" ;
+    osspq:P106 "1293386" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4358968290/history/1> .
+
+osss:Q221-86F9C4DE-3C65-55BB-A3AF-35AC317B366F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "name:ar=كهف الهوتة" .
+
+osss:Q221-9871FC06-6210-539B-BBEA-48A31E14968F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4358968290> .
+
+osss:Q221-91525235-B9A0-53D2-B624-57BBAC368F61
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "wikidata=Q2636101" .
+
+osss:Q221-AA733086-7F47-50C0-993C-D7E937E49459
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2023-11-29T10:21:05Z" ;
+    osspq:P104 "144581950" ;
+    osspq:P105 "tg4567" ;
+    osspq:P106 "12500589" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4358968290/history/3> .
+
+osss:Q221-B998E391-C4AF-5B61-95E3-CF8F032345D7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "wikipedia=en:Al Hoota Cave" .
+
+osss:Q221-E5DFE374-966A-5A19-96BA-7E4C31C1D348
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2020-12-24T12:56:34Z" ;
+    osspq:P104 "96386864" ;
+    osspq:P105 "pizzaiolo" ;
+    osspq:P106 "1772368" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4358968290/history/2> .
+
+osss:Q221-F3FE76F0-A8CB-5A05-AD34-BE4E34085ED2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:416da635e82303d5fb544021e620949301eaf166 ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:416da635e82303d5fb544021e620949301eaf166
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4358968290/history/4> .
+
+ossref:a8954d599f75e9ae3ee89a3bab43723faee39d19
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4358968290/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:8cc53faf62527f1b70108f2640bc0346
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "23.0820677"^^xsd:double ;
+    wikibase:geoLongitude "57.3543586"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

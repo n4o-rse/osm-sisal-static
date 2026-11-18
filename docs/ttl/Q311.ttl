@@ -1,0 +1,207 @@
+# Q311: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q311.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 977664869)"@en,
+        "Höhenmarke (OpenStreetMap-Node 977664869)"@de ;
+    dcterms:identifier "Q311" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q311 ;
+    dcterms:title "Unteres Wetterloch"@de,
+        "Unteres Wetterloch"@en ;
+    schema:about oss:Q311 ;
+    dcat:distribution ossdist:Q311-html,
+        ossdist:Q311-json,
+        ossdist:Q311-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q311.html> .
+
+ossdist:Q311-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q311, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q311.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q311-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q311, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10636"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q311.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q311-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q311, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q311.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q311
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 977664869)"@en,
+        "Höhenmarke (OpenStreetMap-Node 977664869)"@de ;
+    schema:name "Unteres Wetterloch"@de,
+        "Unteres Wetterloch"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q311-CD4B56F6-B1F4-5F1E-AB8D-6F13321A0592 ;
+    geo:hasGeometry osss:Q311-CD4B56F6-B1F4-5F1E-AB8D-6F13321A0592 ;
+    rdfs:label "Unteres Wetterloch"@de,
+        "Unteres Wetterloch"@en ;
+    skos:prefLabel "Unteres Wetterloch"@de,
+        "Unteres Wetterloch"@en ;
+    ossp:P2 osss:Q311-B2BB695D-C895-5CC7-97C8-AAA7BF849917 ;
+    ossp:P100 osss:Q311-5EDF9067-3D6C-578C-AF99-F795EE0DA526 ;
+    ossp:P101 osss:Q311-6531E06A-6A72-5E97-983E-EFA6E519E33E ;
+    ossp:P107 osss:Q311-F850E097-4DC5-5229-9D28-7BC3DDCA4C7B ;
+    ossp:P110 osss:Q311-9E5A9E6C-1842-5A1C-8006-55CC357A24B1 ;
+    ossp:P111 osss:Q311-CD4B56F6-B1F4-5F1E-AB8D-6F13321A0592 ;
+    ossp:P113 osss:Q311-5AE97116-2C95-579A-A795-D091627602DD,
+        osss:Q311-293A80A6-A9BC-5779-BE27-344BEAC855DB,
+        osss:Q311-94886524-2069-5004-8AED-A2B1BFC7390B,
+        osss:Q311-B3EF07D5-C1C6-5FC1-A6AF-94044D0FF098 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/977664869> ;
+    osst:P101 <https://www.openstreetmap.org/node/977664869/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/977664869/history/1> ;
+    osst:P110 "Point(12.0166049 47.7076733)"^^geo:wktLiteral ;
+    osst:P111 "POINT(12.0166049 47.7076733)" ;
+    osst:P113 "ele=1440",
+        "name=Unteres Wetterloch",
+        "natural=cave_entrance",
+        "source=survey" .
+
+osss:Q311-5AE97116-2C95-579A-A795-D091627602DD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8962f991368c0234800806667db55394e1147704 ;
+    ossps:P113 "ele=1440" .
+
+osss:Q311-5EDF9067-3D6C-578C-AF99-F795EE0DA526
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/977664869> .
+
+osss:Q311-9E5A9E6C-1842-5A1C-8006-55CC357A24B1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8962f991368c0234800806667db55394e1147704 ;
+    ossps:P110 "Point(12.0166049 47.7076733)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:e33d4833a0d0640bf96b4b17804e6a81 .
+
+osss:Q311-293A80A6-A9BC-5779-BE27-344BEAC855DB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8962f991368c0234800806667db55394e1147704 ;
+    ossps:P113 "source=survey" .
+
+osss:Q311-6531E06A-6A72-5E97-983E-EFA6E519E33E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-11-05T18:29:58Z" ;
+    osspq:P104 "6297170" ;
+    osspq:P105 "Andreas Binder" ;
+    osspq:P106 "268988" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/977664869/history/1> .
+
+osss:Q311-94886524-2069-5004-8AED-A2B1BFC7390B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8962f991368c0234800806667db55394e1147704 ;
+    ossps:P113 "name=Unteres Wetterloch" .
+
+osss:Q311-B2BB695D-C895-5CC7-97C8-AAA7BF849917
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q311-B3EF07D5-C1C6-5FC1-A6AF-94044D0FF098
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8962f991368c0234800806667db55394e1147704 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q311-CD4B56F6-B1F4-5F1E-AB8D-6F13321A0592
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(12.0166049 47.7076733)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:8962f991368c0234800806667db55394e1147704 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-11-05T18:29:58Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(12.0166049 47.7076733)" .
+
+osss:Q311-F850E097-4DC5-5229-9D28-7BC3DDCA4C7B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/977664869/history/1> .
+
+ossref:8962f991368c0234800806667db55394e1147704
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/977664869/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e33d4833a0d0640bf96b4b17804e6a81
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "47.7076733"^^xsd:double ;
+    wikibase:geoLongitude "12.0166049"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

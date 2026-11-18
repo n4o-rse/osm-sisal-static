@@ -1,0 +1,189 @@
+# Q128: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q128.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 11478460514)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11478460514)"@de ;
+    dcterms:identifier "Q128" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q128 ;
+    dcterms:title "Sima de Racas Marca"@de,
+        "Sima de Racas Marca"@en ;
+    schema:about oss:Q128 ;
+    dcat:distribution ossdist:Q128-html,
+        ossdist:Q128-json,
+        ossdist:Q128-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q128.html> .
+
+ossdist:Q128-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q128, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q128.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q128-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q128, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8894"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q128.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q128-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q128, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q128.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q128
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 11478460514)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11478460514)"@de ;
+    schema:name "Sima de Racas Marca"@de,
+        "Sima de Racas Marca"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q128-99283F0B-6088-5E37-AA5B-BED8F8CC16F8 ;
+    geo:hasGeometry osss:Q128-99283F0B-6088-5E37-AA5B-BED8F8CC16F8 ;
+    rdfs:label "Sima de Racas Marca"@de,
+        "Sima de Racas Marca"@en ;
+    skos:prefLabel "Sima de Racas Marca"@de,
+        "Sima de Racas Marca"@en ;
+    ossp:P2 osss:Q128-264F36DC-46DC-5420-B27C-50C48733B34C ;
+    ossp:P100 osss:Q128-CA3FEC28-9C15-57D3-A216-619E055F8EB7 ;
+    ossp:P101 osss:Q128-EA8C2313-A264-593C-B3B5-4D8ADBF110FC ;
+    ossp:P107 osss:Q128-64998016-713A-52FA-975D-6787CDF24838 ;
+    ossp:P110 osss:Q128-2EC9BD2B-30F2-5DBF-ACB8-355DFC0F8D54 ;
+    ossp:P111 osss:Q128-99283F0B-6088-5E37-AA5B-BED8F8CC16F8 ;
+    ossp:P113 osss:Q128-5AED461D-AE7D-5343-899B-66A4B2D64650,
+        osss:Q128-F8F6C26A-AFD7-5417-AFB8-7A18BA83B9F7 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/11478460514> ;
+    osst:P101 <https://www.openstreetmap.org/node/11478460514/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/11478460514/history/1> ;
+    osst:P110 "Point(-75.794683 -11.2456762)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-75.794683 -11.2456762)" ;
+    osst:P113 "name=Sima de Racas Marca",
+        "natural=cave_entrance" .
+
+osss:Q128-2EC9BD2B-30F2-5DBF-ACB8-355DFC0F8D54
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:23325228d32b504512d48e6719d56c86d461a90e ;
+    ossps:P110 "Point(-75.794683 -11.2456762)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:822cdc81cb65c378cc20f1329f435ede .
+
+osss:Q128-5AED461D-AE7D-5343-899B-66A4B2D64650
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:23325228d32b504512d48e6719d56c86d461a90e ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q128-264F36DC-46DC-5420-B27C-50C48733B34C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q128-99283F0B-6088-5E37-AA5B-BED8F8CC16F8
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-75.794683 -11.2456762)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:23325228d32b504512d48e6719d56c86d461a90e ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2024-01-02T10:00:49Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-75.794683 -11.2456762)" .
+
+osss:Q128-64998016-713A-52FA-975D-6787CDF24838
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/11478460514/history/1> .
+
+osss:Q128-CA3FEC28-9C15-57D3-A216-619E055F8EB7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/11478460514> .
+
+osss:Q128-EA8C2313-A264-593C-B3B5-4D8ADBF110FC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2024-01-02T10:00:49Z" ;
+    osspq:P104 "145791007" ;
+    osspq:P105 "devot" ;
+    osspq:P106 "2889303" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/11478460514/history/1> .
+
+osss:Q128-F8F6C26A-AFD7-5417-AFB8-7A18BA83B9F7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:23325228d32b504512d48e6719d56c86d461a90e ;
+    ossps:P113 "name=Sima de Racas Marca" .
+
+ossref:23325228d32b504512d48e6719d56c86d461a90e
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/11478460514/history/1> .
+
+ossv:822cdc81cb65c378cc20f1329f435ede
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-11.2456762"^^xsd:double ;
+    wikibase:geoLongitude "-75.794683"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

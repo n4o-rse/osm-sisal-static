@@ -1,0 +1,243 @@
+# Q234: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q234.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4917192240)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4917192240)"@de ;
+    dcterms:identifier "Q234" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q234 ;
+    dcterms:title "Gruta dos Bolhos - Gruta Casal da Lebre"@de,
+        "Gruta dos Bolhos - Gruta Casal da Lebre"@en ;
+    schema:about oss:Q234 ;
+    dcat:distribution ossdist:Q234-html,
+        ossdist:Q234-json,
+        ossdist:Q234-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q234.html> .
+
+ossdist:Q234-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q234, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q234.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q234-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q234, as archived from the Wikibase API"@en ;
+    dcat:byteSize "14494"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q234.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q234-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q234, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q234.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q234
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4917192240)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4917192240)"@de ;
+    schema:name "Gruta dos Bolhos - Gruta Casal da Lebre"@de,
+        "Gruta dos Bolhos - Gruta Casal da Lebre"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q234-734D7EB5-9A83-5206-8A8F-546D00C1E74F ;
+    geo:hasGeometry osss:Q234-734D7EB5-9A83-5206-8A8F-546D00C1E74F,
+        osss:Q234-64501933-B68F-572A-9491-5C60EF7A3B32 ;
+    rdfs:label "Gruta dos Bolhos - Gruta Casal da Lebre"@de,
+        "Gruta dos Bolhos - Gruta Casal da Lebre"@en ;
+    skos:prefLabel "Gruta dos Bolhos - Gruta Casal da Lebre"@de,
+        "Gruta dos Bolhos - Gruta Casal da Lebre"@en ;
+    ossp:P2 osss:Q234-E3A63DC3-EEF1-5A81-856A-E6EFAD27E5E3 ;
+    ossp:P100 osss:Q234-5096B4C9-C109-5494-8F85-71433AB38CC0 ;
+    ossp:P101 osss:Q234-2A5FC732-A6E2-52B3-97DD-5DAE82DE4959,
+        osss:Q234-365E234F-B1AE-5833-A516-F036B57680EC ;
+    ossp:P107 osss:Q234-0DEEA265-E20D-577C-B998-7A8E2C1D1EDD ;
+    ossp:P110 osss:Q234-87E141FA-56F1-5411-94C8-B6FA36B80EC9 ;
+    ossp:P111 osss:Q234-734D7EB5-9A83-5206-8A8F-546D00C1E74F,
+        osss:Q234-64501933-B68F-572A-9491-5C60EF7A3B32 ;
+    ossp:P113 osss:Q234-05B981EE-49F6-599C-8B17-DCE4BDCEE633,
+        osss:Q234-205A7AEE-838E-5E56-8E18-9CA180629B08,
+        osss:Q234-B18564F7-B3CA-5AE9-8BC3-C654EF0BB166,
+        osss:Q234-C34F2A6B-92E8-5C33-8479-3E6D4065ED14 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4917192240> ;
+    osst:P101 <https://www.openstreetmap.org/node/4917192240/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/4917192240/history/1> ;
+    osst:P110 "Point(-9.2768932 39.3086933)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-9.2768932 39.3086933)",
+        "POINT(-9.2779502 39.3045976)" ;
+    osst:P113 "historic=archaeological_site",
+        "name=Gruta dos Bolhos - Gruta Casal da Lebre",
+        "natural=cave_entrance",
+        "note=Precise location needs confirmation" .
+
+osss:Q234-0DEEA265-E20D-577C-B998-7A8E2C1D1EDD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4917192240/history/1> .
+
+osss:Q234-2A5FC732-A6E2-52B3-97DD-5DAE82DE4959
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-07-03T10:43:44Z" ;
+    osspq:P104 "123146393" ;
+    osspq:P105 "Sérgio Pinheiro" ;
+    osspq:P106 "11433045" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4917192240/history/2> .
+
+osss:Q234-05B981EE-49F6-599C-8B17-DCE4BDCEE633
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b0aa697f5b861482d99a02c3faf631e111789950 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q234-87E141FA-56F1-5411-94C8-B6FA36B80EC9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b0aa697f5b861482d99a02c3faf631e111789950 ;
+    ossps:P110 "Point(-9.2768932 39.3086933)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:6cccaa93081bd9b3753ea356963c2780 .
+
+osss:Q234-205A7AEE-838E-5E56-8E18-9CA180629B08
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b0aa697f5b861482d99a02c3faf631e111789950 ;
+    ossps:P113 "note=Precise location needs confirmation" .
+
+osss:Q234-365E234F-B1AE-5833-A516-F036B57680EC
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-06-15T16:01:54Z" ;
+    osspq:P104 "49567718" ;
+    osspq:P105 "Reino Baptista" ;
+    osspq:P106 "2820801" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4917192240/history/1> .
+
+osss:Q234-734D7EB5-9A83-5206-8A8F-546D00C1E74F
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-9.2768932 39.3086933)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:b0aa697f5b861482d99a02c3faf631e111789950 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-07-03T10:43:44Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(-9.2768932 39.3086933)" .
+
+osss:Q234-5096B4C9-C109-5494-8F85-71433AB38CC0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4917192240> .
+
+osss:Q234-64501933-B68F-572A-9491-5C60EF7A3B32
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-9.2779502 39.3045976)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:940f0750429d8655522774be3fd031abea219232 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-06-15T16:01:54Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-9.2779502 39.3045976)" .
+
+osss:Q234-B18564F7-B3CA-5AE9-8BC3-C654EF0BB166
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b0aa697f5b861482d99a02c3faf631e111789950 ;
+    ossps:P113 "name=Gruta dos Bolhos - Gruta Casal da Lebre" .
+
+osss:Q234-C34F2A6B-92E8-5C33-8479-3E6D4065ED14
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b0aa697f5b861482d99a02c3faf631e111789950 ;
+    ossps:P113 "historic=archaeological_site" .
+
+osss:Q234-E3A63DC3-EEF1-5A81-856A-E6EFAD27E5E3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:940f0750429d8655522774be3fd031abea219232
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4917192240/history/1> .
+
+ossref:b0aa697f5b861482d99a02c3faf631e111789950
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4917192240/history/2> .
+
+ossv:6cccaa93081bd9b3753ea356963c2780
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.3086933"^^xsd:double ;
+    wikibase:geoLongitude "-9.2768932"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

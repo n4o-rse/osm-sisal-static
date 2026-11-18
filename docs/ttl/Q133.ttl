@@ -1,0 +1,189 @@
+# Q133: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q133.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 11876346537)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11876346537)"@de ;
+    dcterms:identifier "Q133" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q133 ;
+    dcterms:title "Schaktgrottan"@de,
+        "Schaktgrottan"@en ;
+    schema:about oss:Q133 ;
+    dcat:distribution ossdist:Q133-html,
+        ossdist:Q133-json,
+        ossdist:Q133-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q133.html> .
+
+ossdist:Q133-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q133, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q133.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q133-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q133, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8886"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q133.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q133-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q133, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q133.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q133
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 11876346537)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11876346537)"@de ;
+    schema:name "Schaktgrottan"@de,
+        "Schaktgrottan"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q133-09D8CC63-6196-5401-939D-F28ED782D01D ;
+    geo:hasGeometry osss:Q133-09D8CC63-6196-5401-939D-F28ED782D01D ;
+    rdfs:label "Schaktgrottan"@de,
+        "Schaktgrottan"@en ;
+    skos:prefLabel "Schaktgrottan"@de,
+        "Schaktgrottan"@en ;
+    ossp:P2 osss:Q133-B3008459-3F5F-52AF-AD1E-637536562580 ;
+    ossp:P100 osss:Q133-7B4DB4BE-F60F-5751-B264-869E863FE6DC ;
+    ossp:P101 osss:Q133-77E9F18D-3E8C-5E8E-A8FC-3252B3DF1E03 ;
+    ossp:P107 osss:Q133-08414923-F109-50BC-A2BE-E2D136EB93D9 ;
+    ossp:P110 osss:Q133-52DCA8BF-1BB1-5048-A14A-0224016B61CE ;
+    ossp:P111 osss:Q133-09D8CC63-6196-5401-939D-F28ED782D01D ;
+    ossp:P113 osss:Q133-07E22434-B6AB-5313-B0FC-B802160F8AF2,
+        osss:Q133-D78B33D5-6D93-59B9-A356-F5AC78785CC8 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/11876346537> ;
+    osst:P101 <https://www.openstreetmap.org/node/11876346537/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/11876346537/history/1> ;
+    osst:P110 "Point(14.6601841 65.8959048)"^^geo:wktLiteral ;
+    osst:P111 "POINT(14.6601841 65.8959048)" ;
+    osst:P113 "name=Schaktgrottan",
+        "natural=cave_entrance" .
+
+osss:Q133-7B4DB4BE-F60F-5751-B264-869E863FE6DC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/11876346537> .
+
+osss:Q133-07E22434-B6AB-5313-B0FC-B802160F8AF2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ded4513c3ee57bbc70a8ad0901ece992fdeac9e8 ;
+    ossps:P113 "name=Schaktgrottan" .
+
+osss:Q133-09D8CC63-6196-5401-939D-F28ED782D01D
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(14.6601841 65.8959048)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:ded4513c3ee57bbc70a8ad0901ece992fdeac9e8 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2024-05-03T12:05:57Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(14.6601841 65.8959048)" .
+
+osss:Q133-52DCA8BF-1BB1-5048-A14A-0224016B61CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ded4513c3ee57bbc70a8ad0901ece992fdeac9e8 ;
+    ossps:P110 "Point(14.6601841 65.8959048)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:a641d6b99d0c2c3e0b14298c0fd77105 .
+
+osss:Q133-77E9F18D-3E8C-5E8E-A8FC-3252B3DF1E03
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2024-05-03T12:05:57Z" ;
+    osspq:P104 "150834083" ;
+    osspq:P105 "Sörbäckens FVO" ;
+    osspq:P106 "12466827" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/11876346537/history/1> .
+
+osss:Q133-08414923-F109-50BC-A2BE-E2D136EB93D9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/11876346537/history/1> .
+
+osss:Q133-B3008459-3F5F-52AF-AD1E-637536562580
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q133-D78B33D5-6D93-59B9-A356-F5AC78785CC8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ded4513c3ee57bbc70a8ad0901ece992fdeac9e8 ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:ded4513c3ee57bbc70a8ad0901ece992fdeac9e8
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/11876346537/history/1> .
+
+ossv:a641d6b99d0c2c3e0b14298c0fd77105
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "65.8959048"^^xsd:double ;
+    wikibase:geoLongitude "14.6601841"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

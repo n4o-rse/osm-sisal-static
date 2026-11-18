@@ -1,0 +1,210 @@
+# Q178: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q178.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2509040859)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2509040859)"@de ;
+    dcterms:identifier "Q178" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q178 ;
+    dcterms:title "Zhongdong cave"@de,
+        "Zhongdong cave"@en ;
+    schema:about oss:Q178 ;
+    dcat:distribution ossdist:Q178-html,
+        ossdist:Q178-json,
+        ossdist:Q178-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q178.html> .
+
+ossdist:Q178-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q178, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q178.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q178-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q178, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10938"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q178.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q178-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q178, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q178.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q178
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2509040859)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2509040859)"@de ;
+    schema:name "Zhongdong cave"@de,
+        "Zhongdong cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q178-FDCB02E2-9BB6-5C54-96B9-12693491A435 ;
+    geo:hasGeometry osss:Q178-FDCB02E2-9BB6-5C54-96B9-12693491A435 ;
+    rdfs:label "Zhongdong cave"@de,
+        "Zhongdong cave"@en ;
+    skos:prefLabel "Zhongdong cave"@de,
+        "Zhongdong cave"@en ;
+    ossp:P2 osss:Q178-A88F76D1-EE03-56B2-B468-0A5D1B05F199 ;
+    ossp:P100 osss:Q178-2A7AD7E8-7441-54C4-8FBC-EA6C1A460C19 ;
+    ossp:P101 osss:Q178-29ADE887-F746-5E41-A36F-25A38EDE7E93,
+        osss:Q178-B2C29044-41D2-5B6B-B102-F8CC14959A43 ;
+    ossp:P107 osss:Q178-2B934A4F-FBD1-5967-92AA-59B5AA4ED394 ;
+    ossp:P110 osss:Q178-3C33EB27-486A-591D-9768-7A384D171EAB ;
+    ossp:P111 osss:Q178-FDCB02E2-9BB6-5C54-96B9-12693491A435 ;
+    ossp:P113 osss:Q178-5E875E7B-1BB7-5D9D-A1A6-C36D5845893F,
+        osss:Q178-BED5F49E-87E1-56FC-BE26-43EF248E00DA ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2509040859> ;
+    osst:P101 <https://www.openstreetmap.org/node/2509040859/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/2509040859/history/2> ;
+    osst:P110 "Point(106.1600037 25.4099998)"^^geo:wktLiteral ;
+    osst:P111 "POINT(106.1600037 25.4099998)" ;
+    osst:P113 "name=Zhongdong cave",
+        "natural=cave_entrance" .
+
+osss:Q178-2A7AD7E8-7441-54C4-8FBC-EA6C1A460C19
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2509040859> .
+
+osss:Q178-2B934A4F-FBD1-5967-92AA-59B5AA4ED394
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2509040859/history/2> .
+
+osss:Q178-3C33EB27-486A-591D-9768-7A384D171EAB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f8d644e745e4a0734643c84b754ec61ed94f418a ;
+    ossps:P110 "Point(106.1600037 25.4099998)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:01946752426386c8dbd24f8cc4ddbd88 .
+
+osss:Q178-5E875E7B-1BB7-5D9D-A1A6-C36D5845893F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f8d644e745e4a0734643c84b754ec61ed94f418a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q178-29ADE887-F746-5E41-A36F-25A38EDE7E93
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-10-26T04:51:25Z" ;
+    osspq:P104 "18546567" ;
+    osspq:P105 "proxodimec" ;
+    osspq:P106 "1786339" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2509040859/history/1> .
+
+osss:Q178-A88F76D1-EE03-56B2-B468-0A5D1B05F199
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q178-B2C29044-41D2-5B6B-B102-F8CC14959A43
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2017-11-12T20:11:30Z" ;
+    osspq:P104 "53722656" ;
+    osspq:P105 "ff5722" ;
+    osspq:P106 "3450290" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2509040859/history/2> .
+
+osss:Q178-BED5F49E-87E1-56FC-BE26-43EF248E00DA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f8d644e745e4a0734643c84b754ec61ed94f418a ;
+    ossps:P113 "name=Zhongdong cave" .
+
+osss:Q178-FDCB02E2-9BB6-5C54-96B9-12693491A435
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(106.1600037 25.4099998)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:229517c505ac2ede9cf718c6055492eaac4520a2 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-10-26T04:51:25Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(106.1600037 25.4099998)" .
+
+ossref:229517c505ac2ede9cf718c6055492eaac4520a2
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2509040859/history/1> .
+
+ossref:f8d644e745e4a0734643c84b754ec61ed94f418a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2509040859/history/2> .
+
+ossv:01946752426386c8dbd24f8cc4ddbd88
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "25.4099998"^^xsd:double ;
+    wikibase:geoLongitude "106.1600037"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

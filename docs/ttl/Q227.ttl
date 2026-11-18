@@ -1,0 +1,262 @@
+# Q227: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q227.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4523782074)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4523782074)"@de ;
+    dcterms:identifier "Q227" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q227 ;
+    dcterms:title "Belum Caves"@de,
+        "Belum Caves"@en ;
+    schema:about oss:Q227 ;
+    dcat:distribution ossdist:Q227-html,
+        ossdist:Q227-json,
+        ossdist:Q227-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q227.html> .
+
+ossdist:Q227-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q227, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q227.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q227-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q227, as archived from the Wikibase API"@en ;
+    dcat:byteSize "16838"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q227.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q227-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q227, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q227.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q227
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4523782074)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4523782074)"@de ;
+    schema:name "Belum Caves"@de,
+        "Belum Caves"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q227-C1305B3C-25E5-5145-A125-0C7522A3660E ;
+    geo:hasGeometry osss:Q227-C1305B3C-25E5-5145-A125-0C7522A3660E ;
+    rdfs:label "Belum Caves"@de,
+        "Belum Caves"@en ;
+    skos:prefLabel "Belum Caves"@de,
+        "Belum Caves"@en ;
+    ossp:P2 osss:Q227-94A79C58-B2F3-5CDF-8099-2053F6CB01BA ;
+    ossp:P100 osss:Q227-F5871170-EF55-58C2-B3E4-2AB7EC749C4D ;
+    ossp:P101 osss:Q227-2C7D304E-D6E9-5DC3-A5A5-BC707733BA86,
+        osss:Q227-88B28AA5-A89D-5259-9E83-835133368C71,
+        osss:Q227-202FFE82-0043-5BCF-B281-3622E766FC30,
+        osss:Q227-C7DFCC23-9E03-51F2-848A-C1C3DF8CDBBF ;
+    ossp:P107 osss:Q227-A812EF7C-E908-55B9-A625-B468A00CEC8A ;
+    ossp:P110 osss:Q227-D2DFC113-2AD0-57AD-94F5-26B306F5C1D2 ;
+    ossp:P111 osss:Q227-C1305B3C-25E5-5145-A125-0C7522A3660E ;
+    ossp:P113 osss:Q227-2EB8B7B0-9AF5-51CC-84E8-4D9ED3C039F9,
+        osss:Q227-6DB896CC-0DA5-581B-8149-0074598F1559,
+        osss:Q227-424195F4-0479-575A-86C6-BCB4D35E7736,
+        osss:Q227-D3E2EE81-8C6B-564A-AB68-8309096E927B ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4523782074> ;
+    osst:P101 <https://www.openstreetmap.org/node/4523782074/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/4523782074/history/1> ;
+    osst:P110 "Point(78.1116692 15.102175)"^^geo:wktLiteral ;
+    osst:P111 "POINT(78.1116692 15.102175)" ;
+    osst:P113 "name=Belum Caves",
+        "natural=cave_entrance",
+        "wikidata=Q723862",
+        "wikipedia=en:Belum Caves" .
+
+osss:Q227-2C7D304E-D6E9-5DC3-A5A5-BC707733BA86
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2023-12-19T15:22:58Z" ;
+    osspq:P104 "145296414" ;
+    osspq:P105 "tg4567" ;
+    osspq:P106 "12500589" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/4523782074/history/4> .
+
+osss:Q227-2EB8B7B0-9AF5-51CC-84E8-4D9ED3C039F9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:640537c44758f83b9cdc8f656feb4d8dec290132 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q227-6DB896CC-0DA5-581B-8149-0074598F1559
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:640537c44758f83b9cdc8f656feb4d8dec290132 ;
+    ossps:P113 "wikidata=Q723862" .
+
+osss:Q227-88B28AA5-A89D-5259-9E83-835133368C71
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-11-26T19:32:03Z" ;
+    osspq:P104 "43970048" ;
+    osspq:P105 "Papayaved" ;
+    osspq:P106 "406299" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4523782074/history/1> .
+
+osss:Q227-94A79C58-B2F3-5CDF-8099-2053F6CB01BA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q227-202FFE82-0043-5BCF-B281-3622E766FC30
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2018-01-03T07:54:18Z" ;
+    osspq:P104 "55121652" ;
+    osspq:P105 "adivik2000" ;
+    osspq:P106 "250196" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4523782074/history/3> .
+
+osss:Q227-424195F4-0479-575A-86C6-BCB4D35E7736
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:640537c44758f83b9cdc8f656feb4d8dec290132 ;
+    ossps:P113 "wikipedia=en:Belum Caves" .
+
+osss:Q227-A812EF7C-E908-55B9-A625-B468A00CEC8A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4523782074/history/1> .
+
+osss:Q227-C7DFCC23-9E03-51F2-848A-C1C3DF8CDBBF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2016-11-26T19:33:02Z" ;
+    osspq:P104 "43970048" ;
+    osspq:P105 "Papayaved" ;
+    osspq:P106 "406299" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4523782074/history/2> .
+
+osss:Q227-C1305B3C-25E5-5145-A125-0C7522A3660E
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(78.1116692 15.102175)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:3bfd2013fdefac17dbe179958af5730435693d97 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-11-26T19:32:03Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(78.1116692 15.102175)" .
+
+osss:Q227-D2DFC113-2AD0-57AD-94F5-26B306F5C1D2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:640537c44758f83b9cdc8f656feb4d8dec290132 ;
+    ossps:P110 "Point(78.1116692 15.102175)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:5183bad96ef881c33a69fb1b6170e51b .
+
+osss:Q227-D3E2EE81-8C6B-564A-AB68-8309096E927B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:640537c44758f83b9cdc8f656feb4d8dec290132 ;
+    ossps:P113 "name=Belum Caves" .
+
+osss:Q227-F5871170-EF55-58C2-B3E4-2AB7EC749C4D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4523782074> .
+
+ossref:3bfd2013fdefac17dbe179958af5730435693d97
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4523782074/history/1> .
+
+ossref:640537c44758f83b9cdc8f656feb4d8dec290132
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4523782074/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:5183bad96ef881c33a69fb1b6170e51b
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "15.102175"^^xsd:double ;
+    wikibase:geoLongitude "78.1116692"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

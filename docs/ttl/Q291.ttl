@@ -1,0 +1,189 @@
+# Q291: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q291.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 8177727382)"@en,
+        "Höhenmarke (OpenStreetMap-Node 8177727382)"@de ;
+    dcterms:identifier "Q291" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q291 ;
+    dcterms:title "Pintwater Cave"@de,
+        "Pintwater Cave"@en ;
+    schema:about oss:Q291 ;
+    dcat:distribution ossdist:Q291-html,
+        ossdist:Q291-json,
+        ossdist:Q291-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q291.html> .
+
+ossdist:Q291-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q291, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q291.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q291-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q291, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8876"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q291.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q291-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q291, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q291.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q291
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 8177727382)"@en,
+        "Höhenmarke (OpenStreetMap-Node 8177727382)"@de ;
+    schema:name "Pintwater Cave"@de,
+        "Pintwater Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q291-86BE36D2-3ED0-533D-9175-193616E57C43 ;
+    geo:hasGeometry osss:Q291-86BE36D2-3ED0-533D-9175-193616E57C43 ;
+    rdfs:label "Pintwater Cave"@de,
+        "Pintwater Cave"@en ;
+    skos:prefLabel "Pintwater Cave"@de,
+        "Pintwater Cave"@en ;
+    ossp:P2 osss:Q291-5ABAA616-E60C-5C63-AC56-AA9CA4C0E779 ;
+    ossp:P100 osss:Q291-3F0B9427-49D4-5794-824F-9BEE7875E01D ;
+    ossp:P101 osss:Q291-3AB9B4F9-8427-520C-A63A-180AE0545315 ;
+    ossp:P107 osss:Q291-C86805FC-5FE4-5BDB-8F02-5D18C271663F ;
+    ossp:P110 osss:Q291-F4FD3122-2C51-5035-A92F-F04E93EEBB97 ;
+    ossp:P111 osss:Q291-86BE36D2-3ED0-533D-9175-193616E57C43 ;
+    ossp:P113 osss:Q291-49DCF1E8-8A87-54BC-B2C4-FFB76A6D4083,
+        osss:Q291-EE0D29F0-1252-59BA-8DC5-1769D9B1D386 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/8177727382> ;
+    osst:P101 <https://www.openstreetmap.org/node/8177727382/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/8177727382/history/1> ;
+    osst:P110 "Point(-115.5693588 36.7942258)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-115.5693588 36.7942258)" ;
+    osst:P113 "name=Pintwater Cave",
+        "natural=cave_entrance" .
+
+osss:Q291-3AB9B4F9-8427-520C-A63A-180AE0545315
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-11-30T00:05:39Z" ;
+    osspq:P104 "95005800" ;
+    osspq:P105 "lizzyd710" ;
+    osspq:P106 "11896050" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/8177727382/history/1> .
+
+osss:Q291-3F0B9427-49D4-5794-824F-9BEE7875E01D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/8177727382> .
+
+osss:Q291-5ABAA616-E60C-5C63-AC56-AA9CA4C0E779
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q291-49DCF1E8-8A87-54BC-B2C4-FFB76A6D4083
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:86195f3f79f3b05a18552a82efdac1a16178ce9c ;
+    ossps:P113 "name=Pintwater Cave" .
+
+osss:Q291-86BE36D2-3ED0-533D-9175-193616E57C43
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-115.5693588 36.7942258)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:86195f3f79f3b05a18552a82efdac1a16178ce9c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-11-30T00:05:39Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-115.5693588 36.7942258)" .
+
+osss:Q291-C86805FC-5FE4-5BDB-8F02-5D18C271663F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/8177727382/history/1> .
+
+osss:Q291-EE0D29F0-1252-59BA-8DC5-1769D9B1D386
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:86195f3f79f3b05a18552a82efdac1a16178ce9c ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q291-F4FD3122-2C51-5035-A92F-F04E93EEBB97
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:86195f3f79f3b05a18552a82efdac1a16178ce9c ;
+    ossps:P110 "Point(-115.5693588 36.7942258)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:d12f842ff9f1ad6732709680e7c74d48 .
+
+ossref:86195f3f79f3b05a18552a82efdac1a16178ce9c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/8177727382/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d12f842ff9f1ad6732709680e7c74d48
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "36.7942258"^^xsd:double ;
+    wikibase:geoLongitude "-115.5693588"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

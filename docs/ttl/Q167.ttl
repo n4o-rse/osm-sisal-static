@@ -1,0 +1,242 @@
+# Q167: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q167.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2163196165)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2163196165)"@de ;
+    dcterms:identifier "Q167" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q167 ;
+    dcterms:title "Cueva Quintín Rivera"@de,
+        "Cueva Quintín Rivera"@en ;
+    schema:about oss:Q167 ;
+    dcat:distribution ossdist:Q167-html,
+        ossdist:Q167-json,
+        ossdist:Q167-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q167.html> .
+
+ossdist:Q167-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q167, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q167.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q167-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q167, as archived from the Wikibase API"@en ;
+    dcat:byteSize "14686"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q167.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q167-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q167, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q167.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q167
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2163196165)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2163196165)"@de ;
+    schema:name "Cueva Quintín Rivera"@de,
+        "Cueva Quintín Rivera"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q167-A47E44B0-7FA0-5601-BC9C-1EB482D352AB ;
+    geo:hasGeometry osss:Q167-A47E44B0-7FA0-5601-BC9C-1EB482D352AB,
+        osss:Q167-CDB1909A-DAFB-562F-A86C-C0443F7759F3 ;
+    rdfs:label "Cueva Quintín Rivera"@de,
+        "Cueva Quintín Rivera"@en ;
+    skos:prefLabel "Cueva Quintín Rivera"@de,
+        "Cueva Quintín Rivera"@en ;
+    ossp:P2 osss:Q167-1CA5249F-3026-552C-A447-59A9E51A9C76 ;
+    ossp:P100 osss:Q167-62D6566E-2BF2-598B-895F-3BB48E0E6A4C ;
+    ossp:P101 osss:Q167-3F355A3D-6D86-5BDC-8F01-EFC72A767230,
+        osss:Q167-ECE66600-30C9-5736-8538-8215827CA1B5,
+        osss:Q167-EE713CA5-1C11-562C-9EAC-35AA554DBC79 ;
+    ossp:P107 osss:Q167-D22964B3-1585-5BF1-B8D8-55F4C29D4DC6 ;
+    ossp:P110 osss:Q167-D7B85E26-F64E-5FED-AAF5-C346E2BDC7D9 ;
+    ossp:P111 osss:Q167-A47E44B0-7FA0-5601-BC9C-1EB482D352AB,
+        osss:Q167-CDB1909A-DAFB-562F-A86C-C0443F7759F3 ;
+    ossp:P113 osss:Q167-9FF35C39-134B-59F7-87ED-7E81F7E85103,
+        osss:Q167-B29562D0-688F-5B67-8D0D-CC30D20E97CE ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2163196165> ;
+    osst:P101 <https://www.openstreetmap.org/node/2163196165/history/3> ;
+    osst:P107 <https://www.openstreetmap.org/node/2163196165/history/2> ;
+    osst:P110 "Point(-66.9809228 18.4081874)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-66.981154 18.4081159)",
+        "POINT(-66.9809228 18.4081874)" ;
+    osst:P113 "name=Cueva Quintín Rivera",
+        "natural=cave_entrance" .
+
+osss:Q167-1CA5249F-3026-552C-A447-59A9E51A9C76
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q167-3F355A3D-6D86-5BDC-8F01-EFC72A767230
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-02-19T20:18:21Z" ;
+    osspq:P104 "15094428" ;
+    osspq:P105 "Lutze64" ;
+    osspq:P106 "358948" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2163196165/history/1> .
+
+osss:Q167-9FF35C39-134B-59F7-87ED-7E81F7E85103
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:296f7f2465774a41ad0248a4f8a2d95342a43e55 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q167-62D6566E-2BF2-598B-895F-3BB48E0E6A4C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2163196165> .
+
+osss:Q167-A47E44B0-7FA0-5601-BC9C-1EB482D352AB
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-66.9809228 18.4081874)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:296f7f2465774a41ad0248a4f8a2d95342a43e55 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2026-04-07T00:30:31Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(-66.9809228 18.4081874)" .
+
+osss:Q167-B29562D0-688F-5B67-8D0D-CC30D20E97CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:296f7f2465774a41ad0248a4f8a2d95342a43e55 ;
+    ossps:P113 "name=Cueva Quintín Rivera" .
+
+osss:Q167-CDB1909A-DAFB-562F-A86C-C0443F7759F3
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-66.981154 18.4081159)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:8d74287c2eaa94cca5efaf1be3755e0b2a882e6c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-02-19T20:18:21Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-66.981154 18.4081159)" .
+
+osss:Q167-D7B85E26-F64E-5FED-AAF5-C346E2BDC7D9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:296f7f2465774a41ad0248a4f8a2d95342a43e55 ;
+    ossps:P110 "Point(-66.9809228 18.4081874)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:263259da163aa1e4ee7120a02e8dc23c .
+
+osss:Q167-D22964B3-1585-5BF1-B8D8-55F4C29D4DC6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2163196165/history/2> .
+
+osss:Q167-ECE66600-30C9-5736-8538-8215827CA1B5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2026-04-07T00:30:31Z" ;
+    osspq:P104 "180973611" ;
+    osspq:P105 "jensen2112" ;
+    osspq:P106 "2351267" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2163196165/history/3> .
+
+osss:Q167-EE713CA5-1C11-562C-9EAC-35AA554DBC79
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2014-02-13T18:05:18Z" ;
+    osspq:P104 "20545543" ;
+    osspq:P105 "geoscoutpr" ;
+    osspq:P106 "621792" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2163196165/history/2> .
+
+ossref:8d74287c2eaa94cca5efaf1be3755e0b2a882e6c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2163196165/history/1> .
+
+ossref:296f7f2465774a41ad0248a4f8a2d95342a43e55
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2163196165/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:263259da163aa1e4ee7120a02e8dc23c
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "18.4081874"^^xsd:double ;
+    wikibase:geoLongitude "-66.9809228"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

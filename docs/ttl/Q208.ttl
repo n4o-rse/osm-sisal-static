@@ -1,0 +1,272 @@
+# Q208: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q208.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3783268558)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3783268558)"@de ;
+    dcterms:identifier "Q208" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q208 ;
+    dcterms:title "Chantoir de la Laide Fosse"@de,
+        "Chantoir de la Laide Fosse"@en ;
+    schema:about oss:Q208 ;
+    dcat:distribution ossdist:Q208-html,
+        ossdist:Q208-json,
+        ossdist:Q208-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q208.html> .
+
+ossdist:Q208-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q208, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q208.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q208-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q208, as archived from the Wikibase API"@en ;
+    dcat:byteSize "17526"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q208.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q208-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q208, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q208.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q208
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3783268558)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3783268558)"@de ;
+    schema:name "Chantoir de la Laide Fosse"@de,
+        "Chantoir de la Laide Fosse"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q208-C50E3F30-3BD8-5E77-8664-14FCEB213243 ;
+    geo:hasGeometry osss:Q208-C50E3F30-3BD8-5E77-8664-14FCEB213243 ;
+    rdfs:label "Chantoir de la Laide Fosse"@de,
+        "Chantoir de la Laide Fosse"@en ;
+    skos:prefLabel "Chantoir de la Laide Fosse"@de,
+        "Chantoir de la Laide Fosse"@en ;
+    ossp:P2 osss:Q208-E6A35C80-519A-5C6A-BA80-DEEBDF59B383 ;
+    ossp:P100 osss:Q208-0BEF27C6-0DF1-53DD-8A76-67A6FD959693 ;
+    ossp:P101 osss:Q208-3EA5BE4F-0678-5AF5-B7FD-AB676C52022F,
+        osss:Q208-6EEA16B8-D737-5E10-BABE-71795DC8EBF9,
+        osss:Q208-9B264A3D-F12E-5727-BEE8-59345B9A1079 ;
+    ossp:P107 osss:Q208-66A600C3-8F38-5EC4-9904-5A9B59E02FB5 ;
+    ossp:P110 osss:Q208-EF344B58-969D-5D86-945D-F262CFBCF445 ;
+    ossp:P111 osss:Q208-C50E3F30-3BD8-5E77-8664-14FCEB213243 ;
+    ossp:P113 osss:Q208-1E3EF1FA-29BC-56CB-ACB2-8AD0A5F1E772,
+        osss:Q208-44B41B99-5C99-5557-B4F8-4B5C6B6C8823,
+        osss:Q208-0971266E-3751-58CB-AAED-1FA51768927C,
+        osss:Q208-AD75490C-0C56-5DAC-B1EB-2416DDFCFA1C,
+        osss:Q208-B4AAAB85-F9AA-5CE8-81EC-298A832D2849,
+        osss:Q208-B43B725F-7468-5496-8784-894652A83A41,
+        osss:Q208-E7511778-E905-56D9-9685-BD8704DDD513 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3783268558> ;
+    osst:P101 <https://www.openstreetmap.org/node/3783268558/history/3> ;
+    osst:P107 <https://www.openstreetmap.org/node/3783268558/history/1> ;
+    osst:P110 "Point(5.2028759 50.139343)"^^geo:wktLiteral ;
+    osst:P111 "POINT(5.2028759 50.139343)" ;
+    osst:P113 "access=private",
+        "barrier=gate",
+        "cave:ref=592-035z",
+        "ele=267",
+        "name=Chantoir de la Laide Fosse",
+        "natural=cave_entrance",
+        "source=http://carto1.wallonie.be/fiches/?ctx=karst&srv=id&value=592-035z" .
+
+osss:Q208-0BEF27C6-0DF1-53DD-8A76-67A6FD959693
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3783268558> .
+
+osss:Q208-1E3EF1FA-29BC-56CB-ACB2-8AD0A5F1E772
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "name=Chantoir de la Laide Fosse" .
+
+osss:Q208-3EA5BE4F-0678-5AF5-B7FD-AB676C52022F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2018-02-13T07:07:44Z" ;
+    osspq:P104 "56314970" ;
+    osspq:P105 "Jean-Louis Stanus" ;
+    osspq:P106 "116840" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3783268558/history/3> .
+
+osss:Q208-6EEA16B8-D737-5E10-BABE-71795DC8EBF9
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-02-12T21:07:50Z" ;
+    osspq:P104 "56305858" ;
+    osspq:P105 "Jean-Louis Stanus" ;
+    osspq:P106 "116840" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3783268558/history/2> .
+
+osss:Q208-9B264A3D-F12E-5727-BEE8-59345B9A1079
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-10-12T12:58:14Z" ;
+    osspq:P104 "34589776" ;
+    osspq:P105 "Caveman-Peer" ;
+    osspq:P106 "1211401" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3783268558/history/1> .
+
+osss:Q208-44B41B99-5C99-5557-B4F8-4B5C6B6C8823
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "source=http://carto1.wallonie.be/fiches/?ctx=karst&srv=id&value=592-035z" .
+
+osss:Q208-66A600C3-8F38-5EC4-9904-5A9B59E02FB5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3783268558/history/1> .
+
+osss:Q208-0971266E-3751-58CB-AAED-1FA51768927C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "access=private" .
+
+osss:Q208-AD75490C-0C56-5DAC-B1EB-2416DDFCFA1C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q208-B4AAAB85-F9AA-5CE8-81EC-298A832D2849
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "barrier=gate" .
+
+osss:Q208-B43B725F-7468-5496-8784-894652A83A41
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "cave:ref=592-035z" .
+
+osss:Q208-C50E3F30-3BD8-5E77-8664-14FCEB213243
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(5.2028759 50.139343)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:159fca7914f0e55e78b6441c7a7ec25a15d4c4a7 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-10-12T12:58:14Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(5.2028759 50.139343)" .
+
+osss:Q208-E6A35C80-519A-5C6A-BA80-DEEBDF59B383
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q208-E7511778-E905-56D9-9685-BD8704DDD513
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P113 "ele=267" .
+
+osss:Q208-EF344B58-969D-5D86-945D-F262CFBCF445
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c ;
+    ossps:P110 "Point(5.2028759 50.139343)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:3b32961b0920f4488454f6c1376e3b58 .
+
+ossref:159fca7914f0e55e78b6441c7a7ec25a15d4c4a7
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3783268558/history/1> .
+
+ossref:af21c1eaae0bf966aefa887f1d1c6478692ebe7c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3783268558/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b32961b0920f4488454f6c1376e3b58
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "50.139343"^^xsd:double ;
+    wikibase:geoLongitude "5.2028759"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

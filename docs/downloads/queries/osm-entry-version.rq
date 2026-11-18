@@ -1,0 +1,18 @@
+PREFIX ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/>
+PREFIX osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/>
+PREFIX ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?label ?entryVersion ?since ?selection WHERE {
+  ?item ossp:P107 ?entry ;
+        ossp:P101 ?version ;
+        rdfs:label ?label .
+  ?entry ossps:P107 ?url ;
+         osspq:P109 ?selection .
+  ?version ossps:P101 ?url ;
+           osspq:P102 ?entryVersion ;
+           osspq:P103 ?since .
+  FILTER(LANG(?label) = "en")
+}
+ORDER BY DESC(?entryVersion) ?since ?label
+LIMIT 200

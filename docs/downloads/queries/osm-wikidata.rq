@@ -1,0 +1,14 @@
+PREFIX ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/>
+PREFIX ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?item ?label ?wikidata WHERE {
+  ?item ossp:P113 ?statement ;
+        rdfs:label ?label .
+  ?statement ossps:P113 ?tag .
+  FILTER(LANG(?label) = "en")
+  FILTER(STRSTARTS(?tag, "wikidata="))
+  BIND(IRI(CONCAT("http://www.wikidata.org/entity/", STRAFTER(?tag, "wikidata="))) AS ?wikidata)
+}
+ORDER BY ?label ?item
+LIMIT 500

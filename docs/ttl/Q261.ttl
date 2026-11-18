@@ -1,0 +1,756 @@
+# Q261: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q261.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 644792344)"@en,
+        "Höhenmarke (OpenStreetMap-Node 644792344)"@de ;
+    dcterms:identifier "Q261" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q261 ;
+    dcterms:title "Herbstlabyrinth-Adventhöhle-System"@de,
+        "Herbstlabyrinth-Adventhöhle-System"@en ;
+    schema:about oss:Q261 ;
+    dcat:distribution ossdist:Q261-html,
+        ossdist:Q261-json,
+        ossdist:Q261-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q261.html> .
+
+ossdist:Q261-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q261, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q261.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q261-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q261, as archived from the Wikibase API"@en ;
+    dcat:byteSize "69915"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q261.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q261-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q261, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q261.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q261
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 644792344)"@en,
+        "Höhenmarke (OpenStreetMap-Node 644792344)"@de ;
+    schema:name "Herbstlabyrinth-Adventhöhle-System"@de,
+        "Herbstlabyrinth-Adventhöhle-System"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "57"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q261-D349234C-049E-53A6-98ED-472F591C9785 ;
+    geo:hasGeometry osss:Q261-D349234C-049E-53A6-98ED-472F591C9785,
+        osss:Q261-EC30A63C-17D6-5243-91E0-59D33EE26AE6 ;
+    rdfs:label "Herbstlabyrinth-Adventhöhle-System"@de,
+        "Herbstlabyrinth-Adventhöhle-System"@en ;
+    skos:prefLabel "Herbstlabyrinth-Adventhöhle-System"@de,
+        "Herbstlabyrinth-Adventhöhle-System"@en ;
+    ossp:P2 osss:Q261-549C64D6-3ACD-5CE5-881E-2B0F67D9DD84 ;
+    ossp:P100 osss:Q261-D1C4E3D2-15D3-5FF4-AC89-20DAB68E952C ;
+    ossp:P101 osss:Q261-4FB83BFA-E9D4-55D5-81C1-B9BE0CE43816,
+        osss:Q261-7C1BA882-3FF3-5F9E-97FD-4045AC554EFE,
+        osss:Q261-9E86D444-8BBD-5A2C-B1A1-DCCA05624B8D,
+        osss:Q261-0337A6F7-C73C-5EFA-82C1-9FD10D1C5F4A,
+        osss:Q261-3499A518-9E9B-53A7-A316-AE9FBAFC046D,
+        osss:Q261-8368B8D0-F8EE-5B4A-B977-A1475CA8C07F,
+        osss:Q261-89793DEA-2921-5FC0-8B34-63A6CE08FBBD,
+        osss:Q261-73698880-00C3-514B-986A-74C54B804437,
+        osss:Q261-AB6056B1-F2F6-5FD8-AB58-A754FD1C2D51,
+        osss:Q261-AF859FD6-AA5A-54A8-83CF-88AAA8C8F1CB,
+        osss:Q261-B0181DF5-EBD8-5BD4-883D-B9EB763A9B23,
+        osss:Q261-C3AFD703-7FB9-5F6C-B358-1C3999FF8023,
+        osss:Q261-CAE98A49-BDA2-5062-A7E8-0B6747BA34A6,
+        osss:Q261-ECCE84D0-5596-5333-8299-C86FE7F967F5,
+        osss:Q261-F891B25E-A695-58E7-8A8A-EE884B288916 ;
+    ossp:P107 osss:Q261-D4E7659F-321E-5255-B4DC-59527D8D624B ;
+    ossp:P110 osss:Q261-C3A76B3F-D8D0-573C-8741-D36F03E40565 ;
+    ossp:P111 osss:Q261-D349234C-049E-53A6-98ED-472F591C9785,
+        osss:Q261-EC30A63C-17D6-5243-91E0-59D33EE26AE6 ;
+    ossp:P113 osss:Q261-2D017DED-7FB2-5E98-8183-C115DE2FE050,
+        osss:Q261-3A9F838C-3A4C-5AE6-A23F-9DF165AFBC0F,
+        osss:Q261-4B8C27F4-1D4E-5B74-9A93-A2036C78035F,
+        osss:Q261-5B01C604-B8E7-5BA3-BCAD-F2505681E61C,
+        osss:Q261-7E8F86F3-A3DE-5B12-92A0-DA05DE7AFEE6,
+        osss:Q261-8A677646-73E2-5281-A226-2DA53468DA46,
+        osss:Q261-30D65131-E43F-5218-9EF9-4C8AA4F70080,
+        osss:Q261-044D9671-E175-5EC2-B9EE-A906045ED570,
+        osss:Q261-63C0F344-14B4-59CD-97DD-E718D1A96A21,
+        osss:Q261-73ED7331-F3E8-5322-B0E1-32CCAF59AD71,
+        osss:Q261-073F7C1F-F3B2-56D1-A408-3B31B5435129,
+        osss:Q261-78D71ED9-5C23-5496-AB79-1E5C33B406C0,
+        osss:Q261-202E574D-8335-59D7-B824-D73E5B5C3B7A,
+        osss:Q261-207A10FA-6120-5F55-AB2B-4B26F893EBAD,
+        osss:Q261-414FBA8B-0313-5237-9E77-9BEFC1E3A34A,
+        osss:Q261-724DDBAD-927E-5F1B-AC09-90EE85E93684,
+        osss:Q261-764B68FE-DB05-5EFB-B6A7-435D20F6EE5A,
+        osss:Q261-06245AAA-38C1-5CDE-99D5-53C8C0C10119,
+        osss:Q261-6599A8F4-6167-5516-A787-A8B06748A0A8,
+        osss:Q261-7470DB93-B177-507E-9727-DB09512DC453,
+        osss:Q261-16281F77-456F-5665-9256-11A7A5E479A9,
+        osss:Q261-959699C2-7F0E-57F9-AE36-3057F9038135,
+        osss:Q261-A3E17B69-520C-545B-853E-C252E3285E37,
+        osss:Q261-A6ADE9BF-11B9-5842-9FAF-1DC3A6389A55,
+        osss:Q261-A29DE7A3-FD15-5163-8412-DCD048A8D5FF,
+        osss:Q261-A629CD6D-706B-5704-B782-93FD79ED58A5,
+        osss:Q261-ADB8C3C2-2D55-5AF8-8F86-29E1C8FB2EA3,
+        osss:Q261-C6BD75D1-6FB2-5B0F-97F2-D62842ACE307,
+        osss:Q261-C88E1D67-4EE6-5E92-820B-12B27FCB1C1B,
+        osss:Q261-D430B3DD-EC6A-5DF7-A2E5-69DA079DFDAD,
+        osss:Q261-E421C69C-4D8A-596E-8FC9-BC5A33EA20C6,
+        osss:Q261-EA79E2A8-4AF7-5295-85E9-6B5194B12764,
+        osss:Q261-F3D027C0-0BDD-5593-BD48-6194C85C2F5D,
+        osss:Q261-F5FD1FB7-DD7C-552E-A4B1-A2C811B60776,
+        osss:Q261-F6115CC1-3870-5C7A-8197-11723F432A63,
+        osss:Q261-FFE31CB7-F803-51C7-97F5-516E998353F0 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/644792344> ;
+    osst:P101 <https://www.openstreetmap.org/node/644792344/history/15> ;
+    osst:P107 <https://www.openstreetmap.org/node/644792344/history/1> ;
+    osst:P110 "Point(8.2063777 50.6877814)"^^geo:wktLiteral ;
+    osst:P111 "POINT(8.2060145 50.6877208)",
+        "POINT(8.2063777 50.6877814)" ;
+    osst:P113 "access=customers",
+        "addr:city=Breitscheid",
+        "addr:postcode=35767",
+        "barrier=door",
+        "charge=11 EUR",
+        "fee=yes",
+        "internet_access:description=4 MBit pro Nutzer",
+        "internet_access:fee=no",
+        "internet_access:ssid=Hessen-WLAN Breitscheid",
+        "internet_access=wlan",
+        "name=Herbstlabyrinth-Adventhöhle-System",
+        "natural=cave_entrance",
+        "opening_hours=Sa-Su, PH 11:00-18:00",
+        "payment:account_cards=yes",
+        "payment:app=yes",
+        "payment:apple_pay=yes",
+        "payment:cash=yes",
+        "payment:contactless=yes",
+        "payment:credit_cards=yes",
+        "payment:debit_cards=yes",
+        "payment:girocard=yes",
+        "payment:google_pay=yes",
+        "payment:maestro=yes",
+        "payment:mastercard=yes",
+        "payment:mastercard_contactless=yes",
+        "payment:prepaid_ticket=yes",
+        "payment:v_pay=yes",
+        "payment:visa=yes",
+        "payment:visa_debit=yes",
+        "phone=+492777913321",
+        "start_date=2009",
+        "tourism=attraction",
+        "website:booking=https://www.proticket.de/veranstalter/gemeinde-breitscheid",
+        "website=https://schauhöhle-breitscheid.de/",
+        "wikidata=Q1609531",
+        "wikipedia=de:Herbstlabyrinth-Adventhöhle-System" .
+
+osss:Q261-2D017DED-7FB2-5E98-8183-C115DE2FE050
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "charge=11 EUR" .
+
+osss:Q261-3A9F838C-3A4C-5AE6-A23F-9DF165AFBC0F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "name=Herbstlabyrinth-Adventhöhle-System" .
+
+osss:Q261-4B8C27F4-1D4E-5B74-9A93-A2036C78035F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:apple_pay=yes" .
+
+osss:Q261-4FB83BFA-E9D4-55D5-81C1-B9BE0CE43816
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+13"^^xsd:decimal ;
+    osspq:P103 "2026-11-15T10:43:59Z" ;
+    osspq:P104 "191977182" ;
+    osspq:P105 "ML03de" ;
+    osspq:P106 "24767376" ;
+    osspqv:P102 ossv:6d2190f7063132ea68f5418b57ca7521 ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/13> .
+
+osss:Q261-5B01C604-B8E7-5BA3-BCAD-F2505681E61C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:cash=yes" .
+
+osss:Q261-7C1BA882-3FF3-5F9E-97FD-4045AC554EFE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+15"^^xsd:decimal ;
+    osspq:P103 "2026-11-16T07:18:00Z" ;
+    osspq:P104 "192016323" ;
+    osspq:P105 "ML03de" ;
+    osspq:P106 "24767376" ;
+    osspqv:P102 ossv:64ee47d27a9e9f6c2c3a9fcb92283a5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/15> .
+
+osss:Q261-7E8F86F3-A3DE-5B12-92A0-DA05DE7AFEE6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:visa_debit=yes" .
+
+osss:Q261-8A677646-73E2-5281-A226-2DA53468DA46
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "addr:postcode=35767" .
+
+osss:Q261-9E86D444-8BBD-5A2C-B1A1-DCCA05624B8D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-02-18T13:48:57Z" ;
+    osspq:P104 "3909008" ;
+    osspq:P105 "gormo" ;
+    osspq:P106 "34411" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/1> .
+
+osss:Q261-30D65131-E43F-5218-9EF9-4C8AA4F70080
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "opening_hours=Sa-Su, PH 11:00-18:00" .
+
+osss:Q261-044D9671-E175-5EC2-B9EE-A906045ED570
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:girocard=yes" .
+
+osss:Q261-63C0F344-14B4-59CD-97DD-E718D1A96A21
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "addr:city=Breitscheid" .
+
+osss:Q261-73ED7331-F3E8-5322-B0E1-32CCAF59AD71
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "access=customers" .
+
+osss:Q261-073F7C1F-F3B2-56D1-A408-3B31B5435129
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "internet_access:ssid=Hessen-WLAN Breitscheid" .
+
+osss:Q261-78D71ED9-5C23-5496-AB79-1E5C33B406C0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:visa=yes" .
+
+osss:Q261-202E574D-8335-59D7-B824-D73E5B5C3B7A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:google_pay=yes" .
+
+osss:Q261-207A10FA-6120-5F55-AB2B-4B26F893EBAD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "internet_access:fee=no" .
+
+osss:Q261-0337A6F7-C73C-5EFA-82C1-9FD10D1C5F4A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2015-02-03T10:10:19Z" ;
+    osspq:P104 "28585582" ;
+    osspq:P105 "gormo" ;
+    osspq:P106 "34411" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/5> .
+
+osss:Q261-414FBA8B-0313-5237-9E77-9BEFC1E3A34A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:credit_cards=yes" .
+
+osss:Q261-549C64D6-3ACD-5CE5-881E-2B0F67D9DD84
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q261-724DDBAD-927E-5F1B-AC09-90EE85E93684
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q261-764B68FE-DB05-5EFB-B6A7-435D20F6EE5A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:account_cards=yes" .
+
+osss:Q261-3499A518-9E9B-53A7-A316-AE9FBAFC046D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2023-12-04T06:50:27Z" ;
+    osspq:P104 "144742133" ;
+    osspq:P105 "Herwescheluc" ;
+    osspq:P106 "493884" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/8> .
+
+osss:Q261-06245AAA-38C1-5CDE-99D5-53C8C0C10119
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:debit_cards=yes" .
+
+osss:Q261-6599A8F4-6167-5516-A787-A8B06748A0A8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "start_date=2009" .
+
+osss:Q261-7470DB93-B177-507E-9727-DB09512DC453
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:contactless=yes" .
+
+osss:Q261-8368B8D0-F8EE-5B4A-B977-A1475CA8C07F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2024-11-03T14:30:17Z" ;
+    osspq:P104 "158701845" ;
+    osspq:P105 "CaptainCarte" ;
+    osspq:P106 "17360977" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/10> .
+
+osss:Q261-16281F77-456F-5665-9256-11A7A5E479A9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:prepaid_ticket=yes" .
+
+osss:Q261-89793DEA-2921-5FC0-8B34-63A6CE08FBBD
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+14"^^xsd:decimal ;
+    osspq:P103 "2026-11-15T10:49:54Z" ;
+    osspq:P104 "191977394" ;
+    osspq:P105 "ML03de" ;
+    osspq:P106 "24767376" ;
+    osspqv:P102 ossv:e427e7ff9082b5fba9d7ef3b8794a3f6 ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/14> .
+
+osss:Q261-959699C2-7F0E-57F9-AE36-3057F9038135
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:mastercard_contactless=yes" .
+
+osss:Q261-73698880-00C3-514B-986A-74C54B804437
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2024-08-24T15:55:33Z" ;
+    osspq:P104 "155703471" ;
+    osspq:P105 "Herwescheluc" ;
+    osspq:P106 "493884" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/9> .
+
+osss:Q261-A3E17B69-520C-545B-853E-C252E3285E37
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "internet_access=wlan" .
+
+osss:Q261-A6ADE9BF-11B9-5842-9FAF-1DC3A6389A55
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:v_pay=yes" .
+
+osss:Q261-A29DE7A3-FD15-5163-8412-DCD048A8D5FF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "barrier=door" .
+
+osss:Q261-A629CD6D-706B-5704-B782-93FD79ED58A5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q261-AB6056B1-F2F6-5FD8-AB58-A754FD1C2D51
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2016-09-07T11:53:17Z" ;
+    osspq:P104 "41977471" ;
+    osspq:P105 "gormo" ;
+    osspq:P106 "34411" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/6> .
+
+osss:Q261-ADB8C3C2-2D55-5AF8-8F86-29E1C8FB2EA3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q261-AF859FD6-AA5A-54A8-83CF-88AAA8C8F1CB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+11"^^xsd:decimal ;
+    osspq:P103 "2024-11-05T07:29:40Z" ;
+    osspq:P104 "158767422" ;
+    osspq:P105 "Herwescheluc" ;
+    osspq:P106 "493884" ;
+    osspqv:P102 ossv:63f6a2c5bd58360efaaf56114afbf952 ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/11> .
+
+osss:Q261-B0181DF5-EBD8-5BD4-883D-B9EB763A9B23
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2011-09-12T18:45:54Z" ;
+    osspq:P104 "9282877" ;
+    osspq:P105 "madie_73" ;
+    osspq:P106 "493843" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/3> .
+
+osss:Q261-C3A76B3F-D8D0-573C-8741-D36F03E40565
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P110 "Point(8.2063777 50.6877814)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:bf325a3ce9397c3661d9e4902cd641ca .
+
+osss:Q261-C3AFD703-7FB9-5F6C-B358-1C3999FF8023
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2011-08-06T18:23:23Z" ;
+    osspq:P104 "8940012" ;
+    osspq:P105 "madie_73" ;
+    osspq:P106 "493843" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/2> .
+
+osss:Q261-C6BD75D1-6FB2-5B0F-97F2-D62842ACE307
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "internet_access:description=4 MBit pro Nutzer" .
+
+osss:Q261-C88E1D67-4EE6-5E92-820B-12B27FCB1C1B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "wikidata=Q1609531" .
+
+osss:Q261-CAE98A49-BDA2-5062-A7E8-0B6747BA34A6
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2019-07-28T11:29:23Z" ;
+    osspq:P104 "72735681" ;
+    osspq:P105 "Isolator" ;
+    osspq:P106 "1062850" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/7> .
+
+osss:Q261-D1C4E3D2-15D3-5FF4-AC89-20DAB68E952C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/644792344> .
+
+osss:Q261-D4E7659F-321E-5255-B4DC-59527D8D624B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/644792344/history/1> .
+
+osss:Q261-D430B3DD-EC6A-5DF7-A2E5-69DA079DFDAD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:app=yes" .
+
+osss:Q261-D349234C-049E-53A6-98ED-472F591C9785
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(8.2063777 50.6877814)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:955fd1a6b1f26ee3430686037a9283f11df42a7d ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2013-01-03T00:00:08Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(8.2063777 50.6877814)" .
+
+osss:Q261-E421C69C-4D8A-596E-8FC9-BC5A33EA20C6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "website=https://schauhöhle-breitscheid.de/" .
+
+osss:Q261-EA79E2A8-4AF7-5295-85E9-6B5194B12764
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:maestro=yes" .
+
+osss:Q261-EC30A63C-17D6-5243-91E0-59D33EE26AE6
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(8.2060145 50.6877208)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:fa0c56be0a7e3e9c1a203eae8146b48b0daea885 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-02-18T13:48:57Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(8.2060145 50.6877208)" .
+
+osss:Q261-ECCE84D0-5596-5333-8299-C86FE7F967F5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+12"^^xsd:decimal ;
+    osspq:P103 "2025-12-13T15:30:40Z" ;
+    osspq:P104 "175888091" ;
+    osspq:P105 "GeoAndi" ;
+    osspq:P106 "16771983" ;
+    osspqv:P102 ossv:273d314d307f834d9b3ee29183ae71c0 ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/12> .
+
+osss:Q261-F3D027C0-0BDD-5593-BD48-6194C85C2F5D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "website:booking=https://www.proticket.de/veranstalter/gemeinde-breitscheid" .
+
+osss:Q261-F5FD1FB7-DD7C-552E-A4B1-A2C811B60776
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "payment:mastercard=yes" .
+
+osss:Q261-F891B25E-A695-58E7-8A8A-EE884B288916
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2013-01-03T00:00:08Z" ;
+    osspq:P104 "14507161" ;
+    osspq:P105 "RealAndi" ;
+    osspq:P106 "421259" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/644792344/history/4> .
+
+osss:Q261-F6115CC1-3870-5C7A-8197-11723F432A63
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "phone=+492777913321" .
+
+osss:Q261-FFE31CB7-F803-51C7-97F5-516E998353F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8646430ddca1b8a65bdf7ac88a33046888d54611 ;
+    ossps:P113 "wikipedia=de:Herbstlabyrinth-Adventhöhle-System" .
+
+ossref:955fd1a6b1f26ee3430686037a9283f11df42a7d
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/644792344/history/4> .
+
+ossref:8646430ddca1b8a65bdf7ac88a33046888d54611
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/644792344/history/15> .
+
+ossref:fa0c56be0a7e3e9c1a203eae8146b48b0daea885
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/644792344/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:6d2190f7063132ea68f5418b57ca7521
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+13"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63f6a2c5bd58360efaaf56114afbf952
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+11"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:64ee47d27a9e9f6c2c3a9fcb92283a5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+15"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:273d314d307f834d9b3ee29183ae71c0
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+12"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:bf325a3ce9397c3661d9e4902cd641ca
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "50.6877814"^^xsd:double ;
+    wikibase:geoLongitude "8.2063777"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e427e7ff9082b5fba9d7ef3b8794a3f6
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+14"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

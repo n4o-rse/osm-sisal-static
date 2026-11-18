@@ -1,0 +1,415 @@
+# Q198: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q198.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3420452460)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3420452460)"@de ;
+    dcterms:identifier "Q198" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q198 ;
+    dcterms:title "Grotte di Montevicoli"@de,
+        "Grotte di Montevicoli"@en ;
+    schema:about oss:Q198 ;
+    dcat:distribution ossdist:Q198-html,
+        ossdist:Q198-json,
+        ossdist:Q198-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q198.html> .
+
+ossdist:Q198-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q198, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q198.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q198-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q198, as archived from the Wikibase API"@en ;
+    dcat:byteSize "32650"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q198.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q198-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q198, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q198.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q198
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3420452460)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3420452460)"@de ;
+    schema:name "Grotte di Montevicoli"@de,
+        "Grotte di Montevicoli"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "22"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q198-44447B6D-6817-5FB2-A261-452E229AF1C8 ;
+    geo:hasGeometry osss:Q198-5BCC2608-C807-5367-9356-87713464C4F7,
+        osss:Q198-26D108A9-9131-52AE-897D-1F5C6C60495F,
+        osss:Q198-44447B6D-6817-5FB2-A261-452E229AF1C8,
+        osss:Q198-AD509F82-C803-58FE-9D0A-DD4400EBD3FE,
+        osss:Q198-CEA8E8E7-8E12-5098-9370-F56FCF4E6A1C ;
+    rdfs:label "Grotte di Montevicoli"@de,
+        "Grotte di Montevicoli"@en ;
+    skos:prefLabel "Grotte di Montevicoli"@de,
+        "Grotte di Montevicoli"@en ;
+    ossp:P2 osss:Q198-675F8F2D-2A06-5306-A646-DD1CD8F5038D ;
+    ossp:P100 osss:Q198-EF021E91-715F-5813-8164-24FCD61A70C3 ;
+    ossp:P101 osss:Q198-50B6ACDA-0A58-54EE-8E6F-E2E8F969E85B,
+        osss:Q198-4528ECB9-1E6E-5766-8427-C2833D65605C,
+        osss:Q198-596610D5-2756-5585-BE41-BA8B4EF32C31,
+        osss:Q198-A20E2B8F-19FC-540C-B322-528D458A3B5A,
+        osss:Q198-C024DFB7-F71E-5D3C-A4C6-62D08297C3B4,
+        osss:Q198-E42E1600-3E40-5BA9-B9E8-B950269B5999,
+        osss:Q198-EBB37C47-CB38-59CB-B255-461CBDF69AD1,
+        osss:Q198-F0123FB1-DD06-54F7-A0CE-5F98C7BDAF42 ;
+    ossp:P107 osss:Q198-1D569DB8-659F-58C2-853E-14D0884CECCF ;
+    ossp:P110 osss:Q198-98D2865F-C90A-5F8B-99CE-B2FC9C162332 ;
+    ossp:P111 osss:Q198-5BCC2608-C807-5367-9356-87713464C4F7,
+        osss:Q198-26D108A9-9131-52AE-897D-1F5C6C60495F,
+        osss:Q198-44447B6D-6817-5FB2-A261-452E229AF1C8,
+        osss:Q198-AD509F82-C803-58FE-9D0A-DD4400EBD3FE,
+        osss:Q198-CEA8E8E7-8E12-5098-9370-F56FCF4E6A1C ;
+    ossp:P113 osss:Q198-76376AEB-FEEA-5138-A9F1-41BB4E9DE818,
+        osss:Q198-936444BC-7D6F-5B3D-8D8F-95B686A267DC,
+        osss:Q198-BD87D103-EF3C-5FC0-8B46-9E95C6ADC883,
+        osss:Q198-C90E8956-2DF5-5642-880B-C5578D5B6BAE,
+        osss:Q198-F9026B96-1368-5E8B-8E41-CFB46C3D2648 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3420452460> ;
+    osst:P101 <https://www.openstreetmap.org/node/3420452460/history/8> ;
+    osst:P107 <https://www.openstreetmap.org/node/3420452460/history/1> ;
+    osst:P110 "Point(17.5020335 40.6399198)"^^geo:wktLiteral ;
+    osst:P111 "POINT(17.5017081 40.6399626)",
+        "POINT(17.5018143 40.639976)",
+        "POINT(17.5019926 40.6399221)",
+        "POINT(17.5020335 40.6399198)",
+        "POINT(17.5020521 40.6400261)" ;
+    osst:P113 "fee=yes",
+        "name=Grotte di Montevicoli",
+        "natural=cave_entrance",
+        "wikidata=Q3777125",
+        "wikipedia=it:Grotte di Montevicoli" .
+
+osss:Q198-1D569DB8-659F-58C2-853E-14D0884CECCF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3420452460/history/1> .
+
+osss:Q198-5BCC2608-C807-5367-9356-87713464C4F7
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(17.5020521 40.6400261)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:da753df9b1518a9e2102867e627a16a9b37040f1 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-03-26T21:43:57Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(17.5020521 40.6400261)" .
+
+osss:Q198-26D108A9-9131-52AE-897D-1F5C6C60495F
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(17.5019926 40.6399221)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:0f4c82748db790fd9e32b463f68e3b18bd2fd9c6 ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2015-12-18T12:59:18Z" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P111 "POINT(17.5019926 40.6399221)" .
+
+osss:Q198-50B6ACDA-0A58-54EE-8E6F-E2E8F969E85B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2017-03-06T07:26:11Z" ;
+    osspq:P104 "46615121" ;
+    osspq:P105 "agnostico" ;
+    osspq:P106 "3084054" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/8> .
+
+osss:Q198-98D2865F-C90A-5F8B-99CE-B2FC9C162332
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a4db496e4ab33a23abfcc973c29119250793ef8f ;
+    ossps:P110 "Point(17.5020335 40.6399198)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:55a79d6f32b852ba9b0b4992c7982229 .
+
+osss:Q198-675F8F2D-2A06-5306-A646-DD1CD8F5038D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q198-4528ECB9-1E6E-5766-8427-C2833D65605C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2015-12-18T12:59:18Z" ;
+    osspq:P104 "36027257" ;
+    osspq:P105 "Mfran22" ;
+    osspq:P106 "2783442" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/6> .
+
+osss:Q198-44447B6D-6817-5FB2-A261-452E229AF1C8
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(17.5020335 40.6399198)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:00c386659b68aba9f689ec4f38837aa509f47786 ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2016-02-11T14:38:21Z" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P111 "POINT(17.5020335 40.6399198)" .
+
+osss:Q198-76376AEB-FEEA-5138-A9F1-41BB4E9DE818
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a4db496e4ab33a23abfcc973c29119250793ef8f ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q198-596610D5-2756-5585-BE41-BA8B4EF32C31
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2015-04-24T18:52:32Z" ;
+    osspq:P104 "30460542" ;
+    osspq:P105 "Mfran22" ;
+    osspq:P106 "2783442" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/4> .
+
+osss:Q198-936444BC-7D6F-5B3D-8D8F-95B686A267DC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a4db496e4ab33a23abfcc973c29119250793ef8f ;
+    ossps:P113 "wikipedia=it:Grotte di Montevicoli" .
+
+osss:Q198-A20E2B8F-19FC-540C-B322-528D458A3B5A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2015-04-18T15:26:55Z" ;
+    osspq:P104 "30309588" ;
+    osspq:P105 "Mfran22" ;
+    osspq:P106 "2783442" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/2> .
+
+osss:Q198-AD509F82-C803-58FE-9D0A-DD4400EBD3FE
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(17.5018143 40.639976)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:91054b20dd24227b948b26856de81d1862997d04 ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2015-04-24T18:52:32Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(17.5018143 40.639976)" .
+
+osss:Q198-BD87D103-EF3C-5FC0-8B46-9E95C6ADC883
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a4db496e4ab33a23abfcc973c29119250793ef8f ;
+    ossps:P113 "fee=yes" .
+
+osss:Q198-C024DFB7-F71E-5D3C-A4C6-62D08297C3B4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-03-26T21:43:57Z" ;
+    osspq:P104 "29764986" ;
+    osspq:P105 "Mfran22" ;
+    osspq:P106 "2783442" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/1> .
+
+osss:Q198-C90E8956-2DF5-5642-880B-C5578D5B6BAE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a4db496e4ab33a23abfcc973c29119250793ef8f ;
+    ossps:P113 "name=Grotte di Montevicoli" .
+
+osss:Q198-CEA8E8E7-8E12-5098-9370-F56FCF4E6A1C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(17.5017081 40.6399626)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:3289f24ae9ded42b0d0965062a3fe629fc9cc0c7 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2015-04-24T18:52:21Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(17.5017081 40.6399626)" .
+
+osss:Q198-E42E1600-3E40-5BA9-B9E8-B950269B5999
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2015-04-30T18:33:29Z" ;
+    osspq:P104 "30668462" ;
+    osspq:P105 "Marco_T" ;
+    osspq:P106 "1227619" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/5> .
+
+osss:Q198-EBB37C47-CB38-59CB-B255-461CBDF69AD1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2015-04-24T18:52:21Z" ;
+    osspq:P104 "30460536" ;
+    osspq:P105 "Mfran22" ;
+    osspq:P106 "2783442" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/3> .
+
+osss:Q198-EF021E91-715F-5813-8164-24FCD61A70C3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3420452460> .
+
+osss:Q198-F0123FB1-DD06-54F7-A0CE-5F98C7BDAF42
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2016-02-11T14:38:21Z" ;
+    osspq:P104 "37147142" ;
+    osspq:P105 "Mfran22" ;
+    osspq:P106 "2783442" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/3420452460/history/7> .
+
+osss:Q198-F9026B96-1368-5E8B-8E41-CFB46C3D2648
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a4db496e4ab33a23abfcc973c29119250793ef8f ;
+    ossps:P113 "wikidata=Q3777125" .
+
+ossref:00c386659b68aba9f689ec4f38837aa509f47786
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3420452460/history/7> .
+
+ossref:0f4c82748db790fd9e32b463f68e3b18bd2fd9c6
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3420452460/history/6> .
+
+ossref:3289f24ae9ded42b0d0965062a3fe629fc9cc0c7
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3420452460/history/3> .
+
+ossref:91054b20dd24227b948b26856de81d1862997d04
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3420452460/history/4> .
+
+ossref:a4db496e4ab33a23abfcc973c29119250793ef8f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3420452460/history/8> .
+
+ossref:da753df9b1518a9e2102867e627a16a9b37040f1
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3420452460/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:55a79d6f32b852ba9b0b4992c7982229
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.6399198"^^xsd:double ;
+    wikibase:geoLongitude "17.5020335"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

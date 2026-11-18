@@ -1,0 +1,368 @@
+# Q250: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q250.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 5503469510)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5503469510)"@de ;
+    dcterms:identifier "Q250" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q250 ;
+    dcterms:title "Coves de Campanet"@de,
+        "Coves de Campanet"@en ;
+    schema:about oss:Q250 ;
+    dcat:distribution ossdist:Q250-html,
+        ossdist:Q250-json,
+        ossdist:Q250-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q250.html> .
+
+ossdist:Q250-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q250, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q250.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q250-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q250, as archived from the Wikibase API"@en ;
+    dcat:byteSize "28131"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q250.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q250-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q250, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q250.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q250
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 5503469510)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5503469510)"@de ;
+    schema:name "Coves de Campanet"@de,
+        "Coves de Campanet"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "23"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9 ;
+    geo:hasGeometry osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9 ;
+    rdfs:label "Coves de Campanet"@de,
+        "Coves de Campanet"@en ;
+    skos:prefLabel "Coves de Campanet"@de,
+        "Coves de Campanet"@en ;
+    ossp:P2 osss:Q250-B5D852F6-FF16-5E8E-AC41-6873EA3257D0 ;
+    ossp:P100 osss:Q250-0FC0182A-344A-5CE4-8FE1-D56AB0BAD999 ;
+    ossp:P101 osss:Q250-1DCB52AE-2E9A-5800-AC63-E5673260C950,
+        osss:Q250-8C98A775-9503-57C3-A0D8-651951F604B4,
+        osss:Q250-74B52771-1BB4-5977-9FDD-AFD1C7EEB6C0,
+        osss:Q250-372C6895-A268-5487-9919-A62B0C8327CB,
+        osss:Q250-881F2BF0-B146-5760-BACB-115E49E22221,
+        osss:Q250-D2160FAB-A1F2-5C0E-AB3C-065518D585A1 ;
+    ossp:P107 osss:Q250-86E35846-8700-5A18-8341-8CE2CCC38AB7 ;
+    ossp:P110 osss:Q250-F0D3A3BF-0AB2-5943-918D-A8DF8F4E01EB ;
+    ossp:P111 osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9 ;
+    ossp:P113 osss:Q250-5A5BF70F-AD20-5918-A62D-4B6EC0F48F47,
+        osss:Q250-7ADA3B95-9825-515D-A904-87DE8CEDB8B5,
+        osss:Q250-292D0BEB-EE2E-5845-84D8-186581F44DB6,
+        osss:Q250-382CE70F-F534-51AE-A12F-D675CD733E27,
+        osss:Q250-633E2E06-8492-5061-887B-6409DF8D090B,
+        osss:Q250-885FFF68-D5AF-57C6-B07E-084631770412,
+        osss:Q250-22853B0B-3A26-5B93-A788-31D66823927B,
+        osss:Q250-AA2345A2-BFCF-53EA-B535-B1A938252404,
+        osss:Q250-C3826F0F-434F-5155-AD13-5A075F1E21B6,
+        osss:Q250-D04A1D0A-DBD7-561E-BF37-DD99F2740F7E,
+        osss:Q250-EDFEC7D0-04FD-56CF-AF61-D6B3F4FAE18A,
+        osss:Q250-FCE583B1-32C8-5181-BB4F-1939FC7FC092 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/5503469510> ;
+    osst:P101 <https://www.openstreetmap.org/node/5503469510/history/6> ;
+    osst:P107 <https://www.openstreetmap.org/node/5503469510/history/1> ;
+    osst:P110 "Point(2.9683618 39.7926183)"^^geo:wktLiteral ;
+    osst:P111 "POINT(2.9683618 39.7926183)" ;
+    osst:P113 "access=yes",
+        "barrier=door",
+        "charge=17 € Adult, 9 € child (4-12 years)",
+        "fee=yes",
+        "name:ca=Coves de Campanet",
+        "name=Coves de Campanet",
+        "natural=cave_entrance",
+        "payment:cash=yes",
+        "payment:credit_cards=yes",
+        "website=https://covesdecampanet.com/",
+        "wikidata=Q508889",
+        "wikipedia=ca:Coves de Campanet" .
+
+osss:Q250-0FC0182A-344A-5CE4-8FE1-D56AB0BAD999
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/5503469510> .
+
+osss:Q250-1DCB52AE-2E9A-5800-AC63-E5673260C950
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2026-08-10T08:09:48Z" ;
+    osspq:P104 "187216432" ;
+    osspq:P105 "OSWM" ;
+    osspq:P106 "6384281" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/5503469510/history/6> .
+
+osss:Q250-5A5BF70F-AD20-5918-A62D-4B6EC0F48F47
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "name:ca=Coves de Campanet" .
+
+osss:Q250-7ADA3B95-9825-515D-A904-87DE8CEDB8B5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "website=https://covesdecampanet.com/" .
+
+osss:Q250-8C98A775-9503-57C3-A0D8-651951F604B4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2020-10-19T22:45:28Z" ;
+    osspq:P104 "92730696" ;
+    osspq:P105 "jmaspons" ;
+    osspq:P106 "11725140" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/5503469510/history/3> .
+
+osss:Q250-27CB66F7-1EA5-5188-8AEA-4B8BC426FEA9
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(2.9683618 39.7926183)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:fbc5cb455825bb84e73fa4368da20d96bab1a768 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-03-25T17:07:04Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(2.9683618 39.7926183)" .
+
+osss:Q250-74B52771-1BB4-5977-9FDD-AFD1C7EEB6C0
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2021-12-08T20:45:32Z" ;
+    osspq:P104 "114716554" ;
+    osspq:P105 "jmaspons" ;
+    osspq:P106 "11725140" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/5503469510/history/4> .
+
+osss:Q250-86E35846-8700-5A18-8341-8CE2CCC38AB7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/5503469510/history/1> .
+
+osss:Q250-292D0BEB-EE2E-5845-84D8-186581F44DB6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "wikipedia=ca:Coves de Campanet" .
+
+osss:Q250-372C6895-A268-5487-9919-A62B0C8327CB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-03-25T17:07:04Z" ;
+    osspq:P104 "57512863" ;
+    osspq:P105 "PoempelFox" ;
+    osspq:P106 "683632" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/5503469510/history/1> .
+
+osss:Q250-382CE70F-F534-51AE-A12F-D675CD733E27
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "barrier=door" .
+
+osss:Q250-633E2E06-8492-5061-887B-6409DF8D090B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "payment:cash=yes" .
+
+osss:Q250-881F2BF0-B146-5760-BACB-115E49E22221
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2024-10-30T10:26:03Z" ;
+    osspq:P104 "158534346" ;
+    osspq:P105 "J_Maps" ;
+    osspq:P106 "19832885" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/5503469510/history/5> .
+
+osss:Q250-885FFF68-D5AF-57C6-B07E-084631770412
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "payment:credit_cards=yes" .
+
+osss:Q250-22853B0B-3A26-5B93-A788-31D66823927B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "access=yes" .
+
+osss:Q250-AA2345A2-BFCF-53EA-B535-B1A938252404
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q250-B5D852F6-FF16-5E8E-AC41-6873EA3257D0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q250-C3826F0F-434F-5155-AD13-5A075F1E21B6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "charge=17 € Adult, 9 € child (4-12 years)" .
+
+osss:Q250-D04A1D0A-DBD7-561E-BF37-DD99F2740F7E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "name=Coves de Campanet" .
+
+osss:Q250-D2160FAB-A1F2-5C0E-AB3C-065518D585A1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-10-19T08:19:36Z" ;
+    osspq:P104 "63670485" ;
+    osspq:P105 "Jesús Gómez" ;
+    osspq:P106 "6389" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/5503469510/history/2> .
+
+osss:Q250-EDFEC7D0-04FD-56CF-AF61-D6B3F4FAE18A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "wikidata=Q508889" .
+
+osss:Q250-F0D3A3BF-0AB2-5943-918D-A8DF8F4E01EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P110 "Point(2.9683618 39.7926183)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:8c17e29a511bbb3ac6cd3e73b7e5e7b0 .
+
+osss:Q250-FCE583B1-32C8-5181-BB4F-1939FC7FC092
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8be39edfd1ff028b2df4eed3b104647732f17060 ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:8be39edfd1ff028b2df4eed3b104647732f17060
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/5503469510/history/6> .
+
+ossref:fbc5cb455825bb84e73fa4368da20d96bab1a768
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/5503469510/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:8c17e29a511bbb3ac6cd3e73b7e5e7b0
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.7926183"^^xsd:double ;
+    wikibase:geoLongitude "2.9683618"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

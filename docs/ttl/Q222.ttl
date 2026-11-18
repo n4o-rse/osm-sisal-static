@@ -1,0 +1,189 @@
+# Q222: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q222.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4376800615)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4376800615)"@de ;
+    dcterms:identifier "Q222" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q222 ;
+    dcterms:title "Goa Jomblang"@de,
+        "Goa Jomblang"@en ;
+    schema:about oss:Q222 ;
+    dcat:distribution ossdist:Q222-html,
+        ossdist:Q222-json,
+        ossdist:Q222-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q222.html> .
+
+ossdist:Q222-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q222, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q222.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q222-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q222, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8864"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q222.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q222-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q222, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q222.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q222
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4376800615)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4376800615)"@de ;
+    schema:name "Goa Jomblang"@de,
+        "Goa Jomblang"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q222-E653BAF7-4A6B-55CE-B0D4-926909D003FC ;
+    geo:hasGeometry osss:Q222-E653BAF7-4A6B-55CE-B0D4-926909D003FC ;
+    rdfs:label "Goa Jomblang"@de,
+        "Goa Jomblang"@en ;
+    skos:prefLabel "Goa Jomblang"@de,
+        "Goa Jomblang"@en ;
+    ossp:P2 osss:Q222-D6AF43E3-66D7-57D4-BC43-AB7C613C9407 ;
+    ossp:P100 osss:Q222-93BA86CD-2D31-5350-907C-C7C64A4B0E62 ;
+    ossp:P101 osss:Q222-5AFFAF94-6E54-5CF4-95A6-D3AD1810B98B ;
+    ossp:P107 osss:Q222-A1BB5E2D-F0DC-5C5D-992E-AE8A9701DA20 ;
+    ossp:P110 osss:Q222-B800B428-71C1-503A-82DA-479C226E1FF1 ;
+    ossp:P111 osss:Q222-E653BAF7-4A6B-55CE-B0D4-926909D003FC ;
+    ossp:P113 osss:Q222-8E2FDF6E-9B35-5FA1-9158-35BE3B314E46,
+        osss:Q222-AC589F62-7CB0-584A-8E38-590CE8E45385 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4376800615> ;
+    osst:P101 <https://www.openstreetmap.org/node/4376800615/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/4376800615/history/1> ;
+    osst:P110 "Point(110.6382419 -8.0286285)"^^geo:wktLiteral ;
+    osst:P111 "POINT(110.6382419 -8.0286285)" ;
+    osst:P113 "name=Goa Jomblang",
+        "natural=cave_entrance" .
+
+osss:Q222-5AFFAF94-6E54-5CF4-95A6-D3AD1810B98B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-08-31T06:07:16Z" ;
+    osspq:P104 "41818789" ;
+    osspq:P105 "MiMoHo" ;
+    osspq:P106 "4115745" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4376800615/history/1> .
+
+osss:Q222-8E2FDF6E-9B35-5FA1-9158-35BE3B314E46
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ba7df38537821281cf5f4fab986cf3b8bb60b11a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q222-93BA86CD-2D31-5350-907C-C7C64A4B0E62
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4376800615> .
+
+osss:Q222-A1BB5E2D-F0DC-5C5D-992E-AE8A9701DA20
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4376800615/history/1> .
+
+osss:Q222-AC589F62-7CB0-584A-8E38-590CE8E45385
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ba7df38537821281cf5f4fab986cf3b8bb60b11a ;
+    ossps:P113 "name=Goa Jomblang" .
+
+osss:Q222-B800B428-71C1-503A-82DA-479C226E1FF1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ba7df38537821281cf5f4fab986cf3b8bb60b11a ;
+    ossps:P110 "Point(110.6382419 -8.0286285)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:3d02c4e4cf520868e58f4c1327926e0c .
+
+osss:Q222-D6AF43E3-66D7-57D4-BC43-AB7C613C9407
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q222-E653BAF7-4A6B-55CE-B0D4-926909D003FC
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(110.6382419 -8.0286285)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:ba7df38537821281cf5f4fab986cf3b8bb60b11a ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-08-31T06:07:16Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(110.6382419 -8.0286285)" .
+
+ossref:ba7df38537821281cf5f4fab986cf3b8bb60b11a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4376800615/history/1> .
+
+ossv:3d02c4e4cf520868e58f4c1327926e0c
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-8.0286285"^^xsd:double ;
+    wikibase:geoLongitude "110.6382419"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

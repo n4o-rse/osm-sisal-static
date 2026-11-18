@@ -1,0 +1,254 @@
+# Q314: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q314.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 9858176658)"@en,
+        "Höhenmarke (OpenStreetMap-Node 9858176658)"@de ;
+    dcterms:identifier "Q314" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q314 ;
+    dcterms:title "Minnetonka Cave"@de,
+        "Minnetonka Cave"@en ;
+    schema:about oss:Q314 ;
+    dcat:distribution ossdist:Q314-html,
+        ossdist:Q314-json,
+        ossdist:Q314-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q314.html> .
+
+ossdist:Q314-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q314, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q314.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q314-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q314, as archived from the Wikibase API"@en ;
+    dcat:byteSize "15779"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q314.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q314-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q314, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q314.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q314
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 9858176658)"@en,
+        "Höhenmarke (OpenStreetMap-Node 9858176658)"@de ;
+    schema:name "Minnetonka Cave"@de,
+        "Minnetonka Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A ;
+    geo:hasGeometry osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A ;
+    rdfs:label "Minnetonka Cave"@de,
+        "Minnetonka Cave"@en ;
+    skos:prefLabel "Minnetonka Cave"@de,
+        "Minnetonka Cave"@en ;
+    ossp:P2 osss:Q314-B21485EF-5EA5-54FC-ACFD-42E039343AF5 ;
+    ossp:P100 osss:Q314-50EEF2CD-8EFB-5A92-A6AA-BA612667AB2A ;
+    ossp:P101 osss:Q314-0FD32159-5FB1-50EC-AFD4-74C6AC6B44CE,
+        osss:Q314-1775B92E-EB18-5F4C-835A-1F51F0ECF21D,
+        osss:Q314-CD63A3B1-764A-5835-A558-777A67A05036 ;
+    ossp:P107 osss:Q314-D6D5C6B5-FC57-591F-871D-530F6C53CF46 ;
+    ossp:P110 osss:Q314-1FB9251C-6637-5FFF-A46E-338864BD72BC ;
+    ossp:P111 osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A ;
+    ossp:P113 osss:Q314-18E7F952-A119-56A3-A593-922A11938F47,
+        osss:Q314-143A23CC-DE4F-5045-8BDF-5CAB7FE28D75,
+        osss:Q314-203C044D-C42B-55FA-A590-4B6AB4B27076,
+        osss:Q314-965E2C40-6535-58C5-A05F-0B6E9072FA4A,
+        osss:Q314-CA0A96FC-C839-5C3B-AEBE-5F185B204BD1 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/9858176658> ;
+    osst:P101 <https://www.openstreetmap.org/node/9858176658/history/3> ;
+    osst:P107 <https://www.openstreetmap.org/node/9858176658/history/1> ;
+    osst:P110 "Point(-111.5187995 42.0874057)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-111.5187995 42.0874057)" ;
+    osst:P113 "access=permit",
+        "description=A large limestone cave through which guided tours are offered. Lighting, walkways, and many stairs have been installed in the cave.",
+        "fee=yes",
+        "name=Minnetonka Cave",
+        "natural=cave_entrance" .
+
+osss:Q314-0FD32159-5FB1-50EC-AFD4-74C6AC6B44CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2026-01-15T14:26:08Z" ;
+    osspq:P104 "177261424" ;
+    osspq:P105 "Xvtn" ;
+    osspq:P106 "14249378" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/9858176658/history/3> .
+
+osss:Q314-1FB9251C-6637-5FFF-A46E-338864BD72BC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d43233102b14da98f10aa2c475134600e4129522 ;
+    ossps:P110 "Point(-111.5187995 42.0874057)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:32effde7374bedd5f5743155ff2476f8 .
+
+osss:Q314-18E7F952-A119-56A3-A593-922A11938F47
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d43233102b14da98f10aa2c475134600e4129522 ;
+    ossps:P113 "description=A large limestone cave through which guided tours are offered. Lighting, walkways, and many stairs have been installed in the cave." .
+
+osss:Q314-50EEF2CD-8EFB-5A92-A6AA-BA612667AB2A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/9858176658> .
+
+osss:Q314-143A23CC-DE4F-5045-8BDF-5CAB7FE28D75
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d43233102b14da98f10aa2c475134600e4129522 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q314-203C044D-C42B-55FA-A590-4B6AB4B27076
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d43233102b14da98f10aa2c475134600e4129522 ;
+    ossps:P113 "access=permit" .
+
+osss:Q314-965E2C40-6535-58C5-A05F-0B6E9072FA4A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d43233102b14da98f10aa2c475134600e4129522 ;
+    ossps:P113 "name=Minnetonka Cave" .
+
+osss:Q314-1775B92E-EB18-5F4C-835A-1F51F0ECF21D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-06-30T13:20:39Z" ;
+    osspq:P104 "123045422" ;
+    osspq:P105 "Jon Hanson" ;
+    osspq:P106 "36097" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/9858176658/history/1> .
+
+osss:Q314-B21485EF-5EA5-54FC-ACFD-42E039343AF5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q314-CA0A96FC-C839-5C3B-AEBE-5F185B204BD1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d43233102b14da98f10aa2c475134600e4129522 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q314-CD63A3B1-764A-5835-A558-777A67A05036
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2025-09-13T21:51:05Z" ;
+    osspq:P104 "171894896" ;
+    osspq:P105 "Xvtn" ;
+    osspq:P106 "14249378" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/9858176658/history/2> .
+
+osss:Q314-D6D5C6B5-FC57-591F-871D-530F6C53CF46
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/9858176658/history/1> .
+
+osss:Q314-F54667B5-25C8-57A8-B1C7-8B22FB21302A
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-111.5187995 42.0874057)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:603be57bf3759450465b85d71bf19491ef2e8421 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-06-30T13:20:39Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-111.5187995 42.0874057)" .
+
+ossref:603be57bf3759450465b85d71bf19491ef2e8421
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/9858176658/history/1> .
+
+ossref:d43233102b14da98f10aa2c475134600e4129522
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/9858176658/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:32effde7374bedd5f5743155ff2476f8
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "42.0874057"^^xsd:double ;
+    wikibase:geoLongitude "-111.5187995"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

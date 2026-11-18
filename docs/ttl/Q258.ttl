@@ -1,0 +1,207 @@
+# Q258: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q258.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 5949505815)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5949505815)"@de ;
+    dcterms:identifier "Q258" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q258 ;
+    dcterms:title "La Vallina"@de,
+        "La Vallina"@en ;
+    schema:about oss:Q258 ;
+    dcat:distribution ossdist:Q258-html,
+        ossdist:Q258-json,
+        ossdist:Q258-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q258.html> .
+
+ossdist:Q258-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q258, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q258.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q258-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q258, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10616"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q258.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q258-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q258, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q258.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q258
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 5949505815)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5949505815)"@de ;
+    schema:name "La Vallina"@de,
+        "La Vallina"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q258-DAF11BDD-838B-5A20-A097-545B296AD022 ;
+    geo:hasGeometry osss:Q258-DAF11BDD-838B-5A20-A097-545B296AD022 ;
+    rdfs:label "La Vallina"@de,
+        "La Vallina"@en ;
+    skos:prefLabel "La Vallina"@de,
+        "La Vallina"@en ;
+    ossp:P2 osss:Q258-5B2C38DA-8D27-58A0-866D-67D3CBEED524 ;
+    ossp:P100 osss:Q258-C2FCCB60-C2A0-5E2E-8A0B-D899AE6479E6 ;
+    ossp:P101 osss:Q258-D49BB384-AF83-5A87-B22A-B4AE202F747B ;
+    ossp:P107 osss:Q258-99C066DD-F571-5607-9506-6AFAEFDEABDE ;
+    ossp:P110 osss:Q258-0CAD0D25-6488-5CAB-B08D-B7E439091990 ;
+    ossp:P111 osss:Q258-DAF11BDD-838B-5A20-A097-545B296AD022 ;
+    ossp:P113 osss:Q258-1E7A0230-4CC1-5B16-B288-CE0B287277C6,
+        osss:Q258-95E24C0C-5139-5F64-BEFB-5EDBA019AB10,
+        osss:Q258-592D9CDF-22BD-53D7-896B-F23AEC82B04C,
+        osss:Q258-1673EEA8-F272-598F-9D68-C4C02FE34DFD ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/5949505815> ;
+    osst:P101 <https://www.openstreetmap.org/node/5949505815/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/5949505815/history/1> ;
+    osst:P110 "Point(-4.8061199 43.4104324)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-4.8061199 43.4104324)" ;
+    osst:P113 "access=yes",
+        "fee=no",
+        "name=La Vallina",
+        "natural=cave_entrance" .
+
+osss:Q258-0CAD0D25-6488-5CAB-B08D-B7E439091990
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f ;
+    ossps:P110 "Point(-4.8061199 43.4104324)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:ead4c02e76a95ca5cd9cbe9d22c6356f .
+
+osss:Q258-1E7A0230-4CC1-5B16-B288-CE0B287277C6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f ;
+    ossps:P113 "access=yes" .
+
+osss:Q258-5B2C38DA-8D27-58A0-866D-67D3CBEED524
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q258-95E24C0C-5139-5F64-BEFB-5EDBA019AB10
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f ;
+    ossps:P113 "name=La Vallina" .
+
+osss:Q258-99C066DD-F571-5607-9506-6AFAEFDEABDE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/5949505815/history/1> .
+
+osss:Q258-592D9CDF-22BD-53D7-896B-F23AEC82B04C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q258-1673EEA8-F272-598F-9D68-C4C02FE34DFD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f ;
+    ossps:P113 "fee=no" .
+
+osss:Q258-C2FCCB60-C2A0-5E2E-8A0B-D899AE6479E6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/5949505815> .
+
+osss:Q258-D49BB384-AF83-5A87-B22A-B4AE202F747B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-10-02T18:59:31Z" ;
+    osspq:P104 "63134550" ;
+    osspq:P105 "Egas Moniz" ;
+    osspq:P106 "3432157" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/5949505815/history/1> .
+
+osss:Q258-DAF11BDD-838B-5A20-A097-545B296AD022
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.8061199 43.4104324)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-10-02T18:59:31Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-4.8061199 43.4104324)" .
+
+ossref:517f620cbe41a361b41e92b2524d8dfa3a9ae67f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/5949505815/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ead4c02e76a95ca5cd9cbe9d22c6356f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "43.4104324"^^xsd:double ;
+    wikibase:geoLongitude "-4.8061199"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

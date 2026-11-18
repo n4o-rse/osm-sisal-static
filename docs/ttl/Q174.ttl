@@ -1,0 +1,394 @@
+# Q174: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q174.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2423303117)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2423303117)"@de ;
+    dcterms:identifier "Q174" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q174 ;
+    dcterms:title "Grotte de Villars"@de,
+        "Grotte de Villars"@en ;
+    schema:about oss:Q174 ;
+    dcat:distribution ossdist:Q174-html,
+        ossdist:Q174-json,
+        ossdist:Q174-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q174.html> .
+
+ossdist:Q174-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q174, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q174.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q174-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q174, as archived from the Wikibase API"@en ;
+    dcat:byteSize "31133"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q174.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q174-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q174, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q174.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q174
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2423303117)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2423303117)"@de ;
+    schema:name "Grotte de Villars"@de,
+        "Grotte de Villars"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "25"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q174-78C83FD6-3257-5238-9847-62906177C89D ;
+    geo:hasGeometry osss:Q174-78C83FD6-3257-5238-9847-62906177C89D ;
+    rdfs:label "Grotte de Villars"@de,
+        "Grotte de Villars"@en ;
+    skos:prefLabel "Grotte de Villars"@de,
+        "Grotte de Villars"@en ;
+    ossp:P2 osss:Q174-01B3EA4E-6354-5D2E-9273-626DF3FA3EEE ;
+    ossp:P100 osss:Q174-D8204DC6-F779-5C37-91F6-3267358459EA ;
+    ossp:P101 osss:Q174-00CF7E24-0629-5819-9B15-0AA2A830E753,
+        osss:Q174-59A531EA-E957-5214-94B1-4DF1F3E2A916,
+        osss:Q174-586F4C6B-A642-5FA1-A9A1-4115E61CAF40,
+        osss:Q174-99376661-4FDF-5656-8E0A-EF66F2547C23,
+        osss:Q174-B9807E0C-1437-5E77-8315-CED4FF8D5ECE,
+        osss:Q174-C1ACA437-D0AE-593D-888F-B9E651AE6B76,
+        osss:Q174-FEC5779D-5FA0-5F24-87FB-8C26F693CFF0 ;
+    ossp:P107 osss:Q174-720528B8-E40A-5067-8766-88A5F278A91A ;
+    ossp:P110 osss:Q174-BF454431-C91F-5328-A3C0-6FDFAEFB5399 ;
+    ossp:P111 osss:Q174-78C83FD6-3257-5238-9847-62906177C89D ;
+    ossp:P113 osss:Q174-2A57BE69-AC8C-5D8B-8066-D2D5B813EB36,
+        osss:Q174-4DEF5DFB-7783-5B3B-84E3-40B472C1B236,
+        osss:Q174-7DF7853A-433E-5645-AE11-36098CD992B5,
+        osss:Q174-9BF05BF8-0FF7-539C-BB57-DA529C78F55B,
+        osss:Q174-31A19942-FFA2-5C9A-9D9B-B07237B8701D,
+        osss:Q174-32B0C89C-8467-5BAD-9D39-BF88D7C9ED35,
+        osss:Q174-68B17243-5C63-53FC-8027-D439CA8DFB72,
+        osss:Q174-0823E5C1-EFBE-544C-8E83-16E1892AD0FC,
+        osss:Q174-58782509-AEC4-56A9-AF86-FD6C8DB72F08,
+        osss:Q174-AC200FE0-BB2E-5C7D-A332-AB72D7DC04E4,
+        osss:Q174-B9BC550D-9A64-5603-ADF3-C38C8432D10B,
+        osss:Q174-CE215A5E-E3C1-5623-8658-4F394ED371B8,
+        osss:Q174-F258A6A1-BE1C-5508-B067-ADDB1702B002 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2423303117> ;
+    osst:P101 <https://www.openstreetmap.org/node/2423303117/history/7> ;
+    osst:P107 <https://www.openstreetmap.org/node/2423303117/history/1> ;
+    osst:P110 "Point(0.785301 45.4425621)"^^geo:wktLiteral ;
+    osst:P111 "POINT(0.785301 45.4425621)" ;
+    osst:P113 "alt_name=Grotte Préhistorique du Cluzeau",
+        "fee=yes",
+        "heritage:operator=mhs",
+        "heritage=2",
+        "mhs:inscription_date=1958-12-09",
+        "name=Grotte de Villars",
+        "natural=cave_entrance",
+        "ref:mhs=PA00083067",
+        "source:heritage=data.gouv.fr, Ministère de la Culture - 2016",
+        "tourism=attraction",
+        "website=https://grotte-villars.com/",
+        "wikidata=Q177657",
+        "wikipedia=fr:Grotte de Villars" .
+
+osss:Q174-00CF7E24-0629-5819-9B15-0AA2A830E753
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2024-07-10T10:48:54Z" ;
+    osspq:P104 "153778320" ;
+    osspq:P105 "Coucouf" ;
+    osspq:P106 "62548" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/6> .
+
+osss:Q174-01B3EA4E-6354-5D2E-9273-626DF3FA3EEE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q174-2A57BE69-AC8C-5D8B-8066-D2D5B813EB36
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "source:heritage=data.gouv.fr, Ministère de la Culture - 2016" .
+
+osss:Q174-4DEF5DFB-7783-5B3B-84E3-40B472C1B236
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q174-7DF7853A-433E-5645-AE11-36098CD992B5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q174-9BF05BF8-0FF7-539C-BB57-DA529C78F55B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "name=Grotte de Villars" .
+
+osss:Q174-31A19942-FFA2-5C9A-9D9B-B07237B8701D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "ref:mhs=PA00083067" .
+
+osss:Q174-32B0C89C-8467-5BAD-9D39-BF88D7C9ED35
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "website=https://grotte-villars.com/" .
+
+osss:Q174-59A531EA-E957-5214-94B1-4DF1F3E2A916
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2018-07-27T11:26:13Z" ;
+    osspq:P104 "61117817" ;
+    osspq:P105 "Nicolas Bétheuil" ;
+    osspq:P106 "376055" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/4> .
+
+osss:Q174-68B17243-5C63-53FC-8027-D439CA8DFB72
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "alt_name=Grotte Préhistorique du Cluzeau" .
+
+osss:Q174-78C83FD6-3257-5238-9847-62906177C89D
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(0.785301 45.4425621)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:03f0cfd8912c5dfe93d79d3abf79a3faccf6198f ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-08-18T19:44:22Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(0.785301 45.4425621)" .
+
+osss:Q174-586F4C6B-A642-5FA1-A9A1-4115E61CAF40
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2018-08-19T09:47:33Z" ;
+    osspq:P104 "61788867" ;
+    osspq:P105 "clembeb" ;
+    osspq:P106 "1081391" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/5> .
+
+osss:Q174-0823E5C1-EFBE-544C-8E83-16E1892AD0FC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "heritage:operator=mhs" .
+
+osss:Q174-720528B8-E40A-5067-8766-88A5F278A91A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2423303117/history/1> .
+
+osss:Q174-58782509-AEC4-56A9-AF86-FD6C8DB72F08
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "heritage=2" .
+
+osss:Q174-99376661-4FDF-5656-8E0A-EF66F2547C23
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2018-06-03T10:52:24Z" ;
+    osspq:P104 "59505114" ;
+    osspq:P105 "JeaRRo" ;
+    osspq:P106 "187177" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/3> .
+
+osss:Q174-AC200FE0-BB2E-5C7D-A332-AB72D7DC04E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "wikipedia=fr:Grotte de Villars" .
+
+osss:Q174-B9BC550D-9A64-5603-ADF3-C38C8432D10B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "fee=yes" .
+
+osss:Q174-B9807E0C-1437-5E77-8315-CED4FF8D5ECE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-08-18T19:44:22Z" ;
+    osspq:P104 "17400789" ;
+    osspq:P105 "lichon" ;
+    osspq:P106 "631658" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/1> .
+
+osss:Q174-BF454431-C91F-5328-A3C0-6FDFAEFB5399
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P110 "Point(0.785301 45.4425621)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:0f315a10eb52936f59acee55c8a3866d .
+
+osss:Q174-C1ACA437-D0AE-593D-888F-B9E651AE6B76
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2026-05-16T06:47:27Z" ;
+    osspq:P104 "182727679" ;
+    osspq:P105 "b-jazz-bot" ;
+    osspq:P106 "9451067" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/7> .
+
+osss:Q174-CE215A5E-E3C1-5623-8658-4F394ED371B8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "mhs:inscription_date=1958-12-09" .
+
+osss:Q174-D8204DC6-F779-5C37-91F6-3267358459EA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2423303117> .
+
+osss:Q174-F258A6A1-BE1C-5508-B067-ADDB1702B002
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b69bba6017592ae11bada05edf9d8c74a474166a ;
+    ossps:P113 "wikidata=Q177657" .
+
+osss:Q174-FEC5779D-5FA0-5F24-87FB-8C26F693CFF0
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2014-06-29T10:50:48Z" ;
+    osspq:P104 "23267106" ;
+    osspq:P105 "Anakin1976" ;
+    osspq:P106 "1701759" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2423303117/history/2> .
+
+ossref:03f0cfd8912c5dfe93d79d3abf79a3faccf6198f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2423303117/history/1> .
+
+ossref:b69bba6017592ae11bada05edf9d8c74a474166a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2423303117/history/7> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0f315a10eb52936f59acee55c8a3866d
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "45.4425621"^^xsd:double ;
+    wikibase:geoLongitude "0.785301"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

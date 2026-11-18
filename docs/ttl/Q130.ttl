@@ -1,0 +1,189 @@
+# Q130: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q130.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 11687476904)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11687476904)"@de ;
+    dcterms:identifier "Q130" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q130 ;
+    dcterms:title "cova de sa balma des cuartó"@de,
+        "cova de sa balma des cuartó"@en ;
+    schema:about oss:Q130 ;
+    dcat:distribution ossdist:Q130-html,
+        ossdist:Q130-json,
+        ossdist:Q130-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q130.html> .
+
+ossdist:Q130-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q130, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q130.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q130-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q130, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8927"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q130.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q130-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q130, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q130.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q130
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 11687476904)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11687476904)"@de ;
+    schema:name "cova de sa balma des cuartó"@de,
+        "cova de sa balma des cuartó"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652 ;
+    geo:hasGeometry osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652 ;
+    rdfs:label "cova de sa balma des cuartó"@de,
+        "cova de sa balma des cuartó"@en ;
+    skos:prefLabel "cova de sa balma des cuartó"@de,
+        "cova de sa balma des cuartó"@en ;
+    ossp:P2 osss:Q130-323729B4-0846-5383-AC1B-8EA3713C4DA9 ;
+    ossp:P100 osss:Q130-456903C9-9994-5D71-A885-9B218CC4BE9B ;
+    ossp:P101 osss:Q130-E7B7183A-0444-5167-B562-CCAFBC00FB34 ;
+    ossp:P107 osss:Q130-4D185E17-C7DC-5D7D-8D7B-439F85008E26 ;
+    ossp:P110 osss:Q130-284EC274-6B11-5A8F-9C12-7A80A2CE646E ;
+    ossp:P111 osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652 ;
+    ossp:P113 osss:Q130-978FDF94-712E-5FDD-B47E-8ADE9C9DB480,
+        osss:Q130-7192BA11-AC6D-530F-B93B-C89F1F5BDB20 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/11687476904> ;
+    osst:P101 <https://www.openstreetmap.org/node/11687476904/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/11687476904/history/1> ;
+    osst:P110 "Point(3.3059456 39.5145813)"^^geo:wktLiteral ;
+    osst:P111 "POINT(3.3059456 39.5145813)" ;
+    osst:P113 "name=cova de sa balma des cuartó",
+        "natural=cave_entrance" .
+
+osss:Q130-4D185E17-C7DC-5D7D-8D7B-439F85008E26
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/11687476904/history/1> .
+
+osss:Q130-284EC274-6B11-5A8F-9C12-7A80A2CE646E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:736eacc3b62894470e4e99d620e489b7e558b372 ;
+    ossps:P110 "Point(3.3059456 39.5145813)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:d20fbe21c712e1db14f77a90f70d7fc8 .
+
+osss:Q130-978FDF94-712E-5FDD-B47E-8ADE9C9DB480
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:736eacc3b62894470e4e99d620e489b7e558b372 ;
+    ossps:P113 "name=cova de sa balma des cuartó" .
+
+osss:Q130-7192BA11-AC6D-530F-B93B-C89F1F5BDB20
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:736eacc3b62894470e4e99d620e489b7e558b372 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q130-323729B4-0846-5383-AC1B-8EA3713C4DA9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q130-456903C9-9994-5D71-A885-9B218CC4BE9B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/11687476904> .
+
+osss:Q130-DE9113C7-CCD5-583B-A5B2-38E024C05652
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(3.3059456 39.5145813)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:736eacc3b62894470e4e99d620e489b7e558b372 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2024-03-03T10:31:18Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(3.3059456 39.5145813)" .
+
+osss:Q130-E7B7183A-0444-5167-B562-CCAFBC00FB34
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2024-03-03T10:31:18Z" ;
+    osspq:P104 "148159947" ;
+    osspq:P105 "RAMÓN ESPELEO" ;
+    osspq:P106 "21021623" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/11687476904/history/1> .
+
+ossref:736eacc3b62894470e4e99d620e489b7e558b372
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/11687476904/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d20fbe21c712e1db14f77a90f70d7fc8
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.5145813"^^xsd:double ;
+    wikibase:geoLongitude "3.3059456"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

@@ -1,0 +1,308 @@
+# Q295: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q295.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 8422630011)"@en,
+        "Höhenmarke (OpenStreetMap-Node 8422630011)"@de ;
+    dcterms:identifier "Q295" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q295 ;
+    dcterms:title "Grotta di Carburangeli"@de,
+        "Grotta di Carburangeli"@en ;
+    schema:about oss:Q295 ;
+    dcat:distribution ossdist:Q295-html,
+        ossdist:Q295-json,
+        ossdist:Q295-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q295.html> .
+
+ossdist:Q295-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q295, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q295.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q295-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q295, as archived from the Wikibase API"@en ;
+    dcat:byteSize "21228"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q295.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q295-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q295, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q295.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q295
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 8422630011)"@en,
+        "Höhenmarke (OpenStreetMap-Node 8422630011)"@de ;
+    schema:name "Grotta di Carburangeli"@de,
+        "Grotta di Carburangeli"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q295-995856B7-DC8E-509D-92D1-6D3E24652318 ;
+    geo:hasGeometry osss:Q295-931033B6-9C6A-5072-BF76-8F07DFCD479F,
+        osss:Q295-995856B7-DC8E-509D-92D1-6D3E24652318 ;
+    rdfs:label "Grotta di Carburangeli"@de,
+        "Grotta di Carburangeli"@en ;
+    skos:prefLabel "Grotta di Carburangeli"@de,
+        "Grotta di Carburangeli"@en ;
+    ossp:P2 osss:Q295-3E29302A-E921-59CC-B271-D2DC14DDEAE6 ;
+    ossp:P100 osss:Q295-70384C54-1700-5680-9941-B4DFA01AE07A ;
+    ossp:P101 osss:Q295-1F55DFB4-2C8F-5AB4-99DC-66BF7AE89D24,
+        osss:Q295-A2C76569-0C0A-5DF7-8485-D756529D9E11,
+        osss:Q295-DBC7C7D4-F84B-5844-9424-4E018C18727F,
+        osss:Q295-DFB2D841-0F97-5B34-BDA7-B26204EC7A68 ;
+    ossp:P107 osss:Q295-6B25D0B2-51E5-549A-A1C5-201D727651C6 ;
+    ossp:P110 osss:Q295-71526F0E-E335-5C16-B71D-5624D7711EFF ;
+    ossp:P111 osss:Q295-931033B6-9C6A-5072-BF76-8F07DFCD479F,
+        osss:Q295-995856B7-DC8E-509D-92D1-6D3E24652318 ;
+    ossp:P113 osss:Q295-5A96229B-27E3-5716-9167-1C3AC7A453B9,
+        osss:Q295-72D86A07-BBE7-567F-92A7-C0280BEFFBF4,
+        osss:Q295-865AA403-19BA-5623-BA31-14AC16B2F1E0,
+        osss:Q295-9685FD9E-B8F5-58CA-851D-4E3DDE57C004,
+        osss:Q295-9208483A-740C-5087-871C-C854B237F5B1,
+        osss:Q295-20629922-91B4-5D94-94C6-EEF808348421,
+        osss:Q295-A7BDE4E9-C2CB-5ACF-A3A2-6C6423BA536B ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/8422630011> ;
+    osst:P101 <https://www.openstreetmap.org/node/8422630011/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/8422630011/history/1> ;
+    osst:P110 "Point(13.1603094 38.1665995)"^^geo:wktLiteral ;
+    osst:P111 "POINT(13.1595933 38.1663401)",
+        "POINT(13.1603094 38.1665995)" ;
+    osst:P113 "access=permit",
+        "ele=23 slm",
+        "fee=no",
+        "name=Grotta di Carburangeli",
+        "natural=cave_entrance",
+        "wikidata=Q33323877",
+        "wikipedia=it:Riserva naturale integrale Grotta di Carburangeli" .
+
+osss:Q295-1F55DFB4-2C8F-5AB4-99DC-66BF7AE89D24
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-12-14T21:48:42Z" ;
+    osspq:P104 "114940765" ;
+    osspq:P105 "Ambrogio Conigliaro" ;
+    osspq:P106 "3298054" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/8422630011/history/3> .
+
+osss:Q295-3E29302A-E921-59CC-B271-D2DC14DDEAE6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q295-5A96229B-27E3-5716-9167-1C3AC7A453B9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "fee=no" .
+
+osss:Q295-6B25D0B2-51E5-549A-A1C5-201D727651C6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/8422630011/history/1> .
+
+osss:Q295-72D86A07-BBE7-567F-92A7-C0280BEFFBF4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "wikidata=Q33323877" .
+
+osss:Q295-865AA403-19BA-5623-BA31-14AC16B2F1E0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "ele=23 slm" .
+
+osss:Q295-9685FD9E-B8F5-58CA-851D-4E3DDE57C004
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q295-70384C54-1700-5680-9941-B4DFA01AE07A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/8422630011> .
+
+osss:Q295-71526F0E-E335-5C16-B71D-5624D7711EFF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P110 "Point(13.1603094 38.1665995)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:39e2856190a1cc3769aa922603595f22 .
+
+osss:Q295-931033B6-9C6A-5072-BF76-8F07DFCD479F
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(13.1595933 38.1663401)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:2827f934af58f92e54806ddb8d997ba74110b394 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2021-02-14T13:24:50Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(13.1595933 38.1663401)" .
+
+osss:Q295-995856B7-DC8E-509D-92D1-6D3E24652318
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(13.1603094 38.1665995)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c937b87a9af5988213331ed90c07554b458b3fd9 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-12-14T21:48:42Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(13.1603094 38.1665995)" .
+
+osss:Q295-9208483A-740C-5087-871C-C854B237F5B1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "name=Grotta di Carburangeli" .
+
+osss:Q295-20629922-91B4-5D94-94C6-EEF808348421
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "access=permit" .
+
+osss:Q295-A2C76569-0C0A-5DF7-8485-D756529D9E11
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-03-06T22:50:40Z" ;
+    osspq:P104 "100556378" ;
+    osspq:P105 "5R-MFT" ;
+    osspq:P106 "3417876" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/8422630011/history/2> .
+
+osss:Q295-A7BDE4E9-C2CB-5ACF-A3A2-6C6423BA536B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5 ;
+    ossps:P113 "wikipedia=it:Riserva naturale integrale Grotta di Carburangeli" .
+
+osss:Q295-DBC7C7D4-F84B-5844-9424-4E018C18727F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2025-02-06T17:42:01Z" ;
+    osspq:P104 "162217335" ;
+    osspq:P105 "kdkeller" ;
+    osspq:P106 "43207" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/8422630011/history/4> .
+
+osss:Q295-DFB2D841-0F97-5B34-BDA7-B26204EC7A68
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2021-02-14T13:24:50Z" ;
+    osspq:P104 "99249615" ;
+    osspq:P105 "rosario_bianco1" ;
+    osspq:P106 "10596406" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/8422630011/history/1> .
+
+ossref:766a917f3c19c9cda3ae786c5d2aef1242fd56c5
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/8422630011/history/4> .
+
+ossref:2827f934af58f92e54806ddb8d997ba74110b394
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/8422630011/history/1> .
+
+ossref:c937b87a9af5988213331ed90c07554b458b3fd9
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/8422630011/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:39e2856190a1cc3769aa922603595f22
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "38.1665995"^^xsd:double ;
+    wikibase:geoLongitude "13.1603094"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

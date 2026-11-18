@@ -1,0 +1,234 @@
+# Q175: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q175.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2483192759)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2483192759)"@de ;
+    dcterms:identifier "Q175" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q175 ;
+    dcterms:title "Heuscheuerle"@de,
+        "Heuscheuerle"@en ;
+    schema:about oss:Q175 ;
+    dcat:distribution ossdist:Q175-html,
+        ossdist:Q175-json,
+        ossdist:Q175-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q175.html> .
+
+ossdist:Q175-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q175, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q175.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q175-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q175, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13471"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q175.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q175-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q175, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q175.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q175
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2483192759)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2483192759)"@de ;
+    schema:name "Heuscheuerle"@de,
+        "Heuscheuerle"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q175-867AB1D8-43B6-58C6-84C4-11A002BCD656 ;
+    geo:hasGeometry osss:Q175-4C78735A-BACB-5226-A9D7-EFFA2DA59F95,
+        osss:Q175-867AB1D8-43B6-58C6-84C4-11A002BCD656 ;
+    rdfs:label "Heuscheuerle"@de,
+        "Heuscheuerle"@en ;
+    skos:prefLabel "Heuscheuerle"@de,
+        "Heuscheuerle"@en ;
+    ossp:P2 osss:Q175-37CD6B64-651E-57CF-9496-97814585F427 ;
+    ossp:P100 osss:Q175-5B83501A-2F16-5C21-BEE4-24D6D0291594 ;
+    ossp:P101 osss:Q175-7D859728-627F-5918-AED8-9C5386DEB9F4,
+        osss:Q175-7DFF2A2C-3D33-5C4D-9E77-529C402303AE ;
+    ossp:P107 osss:Q175-A3A1C863-42DC-5AFE-8F1F-9BA86CA3A155 ;
+    ossp:P110 osss:Q175-467AE24E-F04B-5B9B-A5FE-9B151C77AEE3 ;
+    ossp:P111 osss:Q175-4C78735A-BACB-5226-A9D7-EFFA2DA59F95,
+        osss:Q175-867AB1D8-43B6-58C6-84C4-11A002BCD656 ;
+    ossp:P113 osss:Q175-40742B8E-D2AD-526A-B2CA-5CCAC59F6437,
+        osss:Q175-D5116D04-8DDD-5486-947A-5E6875D3C0D6,
+        osss:Q175-ED246D1D-57EC-59AB-9027-06DB766786BA ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2483192759> ;
+    osst:P101 <https://www.openstreetmap.org/node/2483192759/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/2483192759/history/1> ;
+    osst:P110 "Point(9.5133712 48.2809519)"^^geo:wktLiteral ;
+    osst:P111 "POINT(9.5132472 48.2808192)",
+        "POINT(9.5133712 48.2809519)" ;
+    osst:P113 "name:de=Heuscheuerle",
+        "name=Heuscheuerle",
+        "natural=cave_entrance" .
+
+osss:Q175-4C78735A-BACB-5226-A9D7-EFFA2DA59F95
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(9.5132472 48.2808192)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:a1cfc251135a1479ac74f6022cd2bf4c80484f79 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-10-05T06:28:37Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(9.5132472 48.2808192)" .
+
+osss:Q175-5B83501A-2F16-5C21-BEE4-24D6D0291594
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2483192759> .
+
+osss:Q175-7D859728-627F-5918-AED8-9C5386DEB9F4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-08-22T11:47:23Z" ;
+    osspq:P104 "110057921" ;
+    osspq:P105 "seichter" ;
+    osspq:P106 "66497" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2483192759/history/2> .
+
+osss:Q175-7DFF2A2C-3D33-5C4D-9E77-529C402303AE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-10-05T06:28:37Z" ;
+    osspq:P104 "18189881" ;
+    osspq:P105 "cront" ;
+    osspq:P106 "655630" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2483192759/history/1> .
+
+osss:Q175-37CD6B64-651E-57CF-9496-97814585F427
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q175-467AE24E-F04B-5B9B-A5FE-9B151C77AEE3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:49ba1f0482670e73b872f0221588e6338bf5b198 ;
+    ossps:P110 "Point(9.5133712 48.2809519)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:6e62204617e869dd4dbea193548c57cf .
+
+osss:Q175-867AB1D8-43B6-58C6-84C4-11A002BCD656
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(9.5133712 48.2809519)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:49ba1f0482670e73b872f0221588e6338bf5b198 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-08-22T11:47:23Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(9.5133712 48.2809519)" .
+
+osss:Q175-40742B8E-D2AD-526A-B2CA-5CCAC59F6437
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:49ba1f0482670e73b872f0221588e6338bf5b198 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q175-A3A1C863-42DC-5AFE-8F1F-9BA86CA3A155
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2483192759/history/1> .
+
+osss:Q175-D5116D04-8DDD-5486-947A-5E6875D3C0D6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:49ba1f0482670e73b872f0221588e6338bf5b198 ;
+    ossps:P113 "name:de=Heuscheuerle" .
+
+osss:Q175-ED246D1D-57EC-59AB-9027-06DB766786BA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:49ba1f0482670e73b872f0221588e6338bf5b198 ;
+    ossps:P113 "name=Heuscheuerle" .
+
+ossref:49ba1f0482670e73b872f0221588e6338bf5b198
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2483192759/history/2> .
+
+ossref:a1cfc251135a1479ac74f6022cd2bf4c80484f79
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2483192759/history/1> .
+
+ossv:6e62204617e869dd4dbea193548c57cf
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "48.2809519"^^xsd:double ;
+    wikibase:geoLongitude "9.5133712"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

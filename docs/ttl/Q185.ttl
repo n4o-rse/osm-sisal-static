@@ -1,0 +1,237 @@
+# Q185: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q185.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2824859401)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2824859401)"@de ;
+    dcterms:identifier "Q185" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q185 ;
+    dcterms:title "Cave of the Bells"@de,
+        "Cave of the Bells"@en ;
+    schema:about oss:Q185 ;
+    dcat:distribution ossdist:Q185-html,
+        ossdist:Q185-json,
+        ossdist:Q185-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q185.html> .
+
+ossdist:Q185-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q185, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q185.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q185-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q185, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13618"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q185.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q185-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q185, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q185.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q185
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2824859401)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2824859401)"@de ;
+    schema:name "Cave of the Bells"@de,
+        "Cave of the Bells"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q185-52C92F0A-07EA-58DF-B8F7-23C38037B408 ;
+    geo:hasGeometry osss:Q185-52C92F0A-07EA-58DF-B8F7-23C38037B408 ;
+    rdfs:label "Cave of the Bells"@de,
+        "Cave of the Bells"@en ;
+    skos:prefLabel "Cave of the Bells"@de,
+        "Cave of the Bells"@en ;
+    ossp:P2 osss:Q185-E9EB9516-BE17-576A-9A2D-61B2B154DAD3 ;
+    ossp:P100 osss:Q185-407C40B3-811C-5D88-B621-F202796F1ABA ;
+    ossp:P101 osss:Q185-A9CE0311-C4D2-578E-AB89-2D9CF9825C57,
+        osss:Q185-AB4E5512-E6D5-5375-90CB-6CCCA12AF8EE ;
+    ossp:P107 osss:Q185-663924CC-946E-54EF-A36E-2993E98129BC ;
+    ossp:P110 osss:Q185-648AE0B6-C635-54B9-89E2-751D96A4B87F ;
+    ossp:P111 osss:Q185-52C92F0A-07EA-58DF-B8F7-23C38037B408 ;
+    ossp:P113 osss:Q185-6F5D75DE-50F0-50D0-A312-FB061C07B163,
+        osss:Q185-8F9E69E1-B44B-53CE-970F-4A3A8E622CD4,
+        osss:Q185-6156CE6A-3AFD-579B-9D49-7A62762A396D,
+        osss:Q185-AA897A57-22F0-5DAE-BAF1-CC1C3037DFB9,
+        osss:Q185-F1884579-1292-58CB-BF57-15A196443006 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2824859401> ;
+    osst:P101 <https://www.openstreetmap.org/node/2824859401/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/2824859401/history/1> ;
+    osst:P110 "Point(-110.7684871 31.7288758)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-110.7684871 31.7288758)" ;
+    osst:P113 "name=Cave of the Bells",
+        "natural=cave_entrance",
+        "source=USGS",
+        "wikidata=Q5054957",
+        "wikipedia=en:Cave of the Bells" .
+
+osss:Q185-6F5D75DE-50F0-50D0-A312-FB061C07B163
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98 ;
+    ossps:P113 "wikidata=Q5054957" .
+
+osss:Q185-8F9E69E1-B44B-53CE-970F-4A3A8E622CD4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98 ;
+    ossps:P113 "name=Cave of the Bells" .
+
+osss:Q185-52C92F0A-07EA-58DF-B8F7-23C38037B408
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-110.7684871 31.7288758)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:a3d2596d7ea43e91d4aaf380acd4347d35534e77 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2014-04-29T18:21:44Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-110.7684871 31.7288758)" .
+
+osss:Q185-407C40B3-811C-5D88-B621-F202796F1ABA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2824859401> .
+
+osss:Q185-648AE0B6-C635-54B9-89E2-751D96A4B87F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98 ;
+    ossps:P110 "Point(-110.7684871 31.7288758)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:8810c944c9e5e4caa99d6cb334304f90 .
+
+osss:Q185-6156CE6A-3AFD-579B-9D49-7A62762A396D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98 ;
+    ossps:P113 "source=USGS" .
+
+osss:Q185-663924CC-946E-54EF-A36E-2993E98129BC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2824859401/history/1> .
+
+osss:Q185-A9CE0311-C4D2-578E-AB89-2D9CF9825C57
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2014-04-29T18:21:44Z" ;
+    osspq:P104 "22028591" ;
+    osspq:P105 "jonathanpatt" ;
+    osspq:P106 "91347" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2824859401/history/1> .
+
+osss:Q185-AA897A57-22F0-5DAE-BAF1-CC1C3037DFB9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98 ;
+    ossps:P113 "wikipedia=en:Cave of the Bells" .
+
+osss:Q185-AB4E5512-E6D5-5375-90CB-6CCCA12AF8EE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2017-09-02T23:21:40Z" ;
+    osspq:P104 "51682115" ;
+    osspq:P105 "AJ Riley" ;
+    osspq:P106 "157922" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2824859401/history/2> .
+
+osss:Q185-E9EB9516-BE17-576A-9A2D-61B2B154DAD3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q185-F1884579-1292-58CB-BF57-15A196443006
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98 ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:a3d2596d7ea43e91d4aaf380acd4347d35534e77
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2824859401/history/1> .
+
+ossref:a54160596ef58da4c27ad4a17044d7b7b6f77e98
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2824859401/history/2> .
+
+ossv:8810c944c9e5e4caa99d6cb334304f90
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "31.7288758"^^xsd:double ;
+    wikibase:geoLongitude "-110.7684871"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

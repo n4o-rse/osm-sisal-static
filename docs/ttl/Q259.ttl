@@ -1,0 +1,219 @@
+# Q259: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q259.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 6050984397)"@en,
+        "Höhenmarke (OpenStreetMap-Node 6050984397)"@de ;
+    dcterms:identifier "Q259" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q259 ;
+    dcterms:title "Cenote Monkey Dust"@de,
+        "Cenote Monkey Dust"@en ;
+    schema:about oss:Q259 ;
+    dcat:distribution ossdist:Q259-html,
+        ossdist:Q259-json,
+        ossdist:Q259-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q259.html> .
+
+ossdist:Q259-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q259, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q259.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q259-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q259, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11837"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q259.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q259-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q259, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q259.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q259
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 6050984397)"@en,
+        "Höhenmarke (OpenStreetMap-Node 6050984397)"@de ;
+    schema:name "Cenote Monkey Dust"@de,
+        "Cenote Monkey Dust"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q259-B6B7BDC2-018C-564D-933E-59975B9184A4 ;
+    geo:hasGeometry osss:Q259-B6B7BDC2-018C-564D-933E-59975B9184A4 ;
+    rdfs:label "Cenote Monkey Dust"@de,
+        "Cenote Monkey Dust"@en ;
+    skos:prefLabel "Cenote Monkey Dust"@de,
+        "Cenote Monkey Dust"@en ;
+    ossp:P2 osss:Q259-AE93E078-8B84-5BD6-8761-B8A257B8E81E ;
+    ossp:P100 osss:Q259-8761C814-6E71-5094-9A25-DB29238DF4B2 ;
+    ossp:P101 osss:Q259-90DEC6AE-5372-5770-9E5B-630A129F7231,
+        osss:Q259-6706E200-8586-51C5-BC47-F1F132F20B90 ;
+    ossp:P107 osss:Q259-39E8CBC5-84E4-5DFC-89AA-CFBE74F87CDF ;
+    ossp:P110 osss:Q259-AD158EEB-AF4A-542E-8387-48C0731D9D35 ;
+    ossp:P111 osss:Q259-B6B7BDC2-018C-564D-933E-59975B9184A4 ;
+    ossp:P113 osss:Q259-1564B564-0A8F-5A7B-947A-3308FDB332E5,
+        osss:Q259-A2938892-33A1-5720-98B4-008D8D3C13CC,
+        osss:Q259-C33CFF5A-0478-59AD-8F2E-D9D2C3E7A419 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/6050984397> ;
+    osst:P101 <https://www.openstreetmap.org/node/6050984397/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/6050984397/history/2> ;
+    osst:P110 "Point(-87.550564 20.188353)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-87.550564 20.188353)" ;
+    osst:P113 "name:en=Cenote Monkey Dust",
+        "natural=cave_entrance",
+        "tourism=attraction" .
+
+osss:Q259-39E8CBC5-84E4-5DFC-89AA-CFBE74F87CDF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/6050984397/history/2> .
+
+osss:Q259-90DEC6AE-5372-5770-9E5B-630A129F7231
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2025-12-07T01:27:28Z" ;
+    osspq:P104 "175606792" ;
+    osspq:P105 "Kestas" ;
+    osspq:P106 "96673" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/6050984397/history/2> .
+
+osss:Q259-1564B564-0A8F-5A7B-947A-3308FDB332E5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:16bf742ca578c6ab71911f9ba05d8eb44b08437d ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q259-6706E200-8586-51C5-BC47-F1F132F20B90
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-11-10T13:28:04Z" ;
+    osspq:P104 "64351781" ;
+    osspq:P105 "Joana Vilar" ;
+    osspq:P106 "9074847" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/6050984397/history/1> .
+
+osss:Q259-8761C814-6E71-5094-9A25-DB29238DF4B2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/6050984397> .
+
+osss:Q259-A2938892-33A1-5720-98B4-008D8D3C13CC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:16bf742ca578c6ab71911f9ba05d8eb44b08437d ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q259-AD158EEB-AF4A-542E-8387-48C0731D9D35
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:16bf742ca578c6ab71911f9ba05d8eb44b08437d ;
+    ossps:P110 "Point(-87.550564 20.188353)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:b6663639de219e81aa1b11c30e718e80 .
+
+osss:Q259-AE93E078-8B84-5BD6-8761-B8A257B8E81E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q259-B6B7BDC2-018C-564D-933E-59975B9184A4
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-87.550564 20.188353)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:92739aee9d172b31d751f0b59963774c69380e2f ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-11-10T13:28:04Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-87.550564 20.188353)" .
+
+osss:Q259-C33CFF5A-0478-59AD-8F2E-D9D2C3E7A419
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:16bf742ca578c6ab71911f9ba05d8eb44b08437d ;
+    ossps:P113 "name:en=Cenote Monkey Dust" .
+
+ossref:16bf742ca578c6ab71911f9ba05d8eb44b08437d
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/6050984397/history/2> .
+
+ossref:92739aee9d172b31d751f0b59963774c69380e2f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/6050984397/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b6663639de219e81aa1b11c30e718e80
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "20.188353"^^xsd:double ;
+    wikibase:geoLongitude "-87.550564"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

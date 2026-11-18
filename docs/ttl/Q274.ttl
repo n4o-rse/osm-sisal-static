@@ -1,0 +1,271 @@
+# Q274: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q274.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 7161046616)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7161046616)"@de ;
+    dcterms:identifier "Q274" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q274 ;
+    dcterms:title "Tham Klang"@de,
+        "Tham Klang"@en ;
+    schema:about oss:Q274 ;
+    dcat:distribution ossdist:Q274-html,
+        ossdist:Q274-json,
+        ossdist:Q274-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q274.html> .
+
+ossdist:Q274-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q274, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q274.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q274-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q274, as archived from the Wikibase API"@en ;
+    dcat:byteSize "17748"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q274.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q274-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q274, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q274.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q274
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 7161046616)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7161046616)"@de ;
+    schema:name "Tham Klang"@de,
+        "Tham Klang"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q274-5FF9E0EB-1056-579B-AB50-DC4F8C4155A1 ;
+    geo:hasGeometry osss:Q274-5FF9E0EB-1056-579B-AB50-DC4F8C4155A1 ;
+    rdfs:label "Tham Klang"@de,
+        "Tham Klang"@en ;
+    skos:prefLabel "Tham Klang"@de,
+        "Tham Klang"@en ;
+    ossp:P2 osss:Q274-41D0F01A-6B7A-560A-A1A0-D4425372BD68 ;
+    ossp:P100 osss:Q274-83511893-B981-5825-8A15-0C2B6976AC24 ;
+    ossp:P101 osss:Q274-11A1CF8F-82CD-5710-B503-11C3A5C17458,
+        osss:Q274-962E9848-8608-510F-86F0-B071C88B6439,
+        osss:Q274-CE0E9099-631D-5458-BC59-CC7408ECFEF5,
+        osss:Q274-D35E21E8-465E-5139-90E6-30D265331884 ;
+    ossp:P107 osss:Q274-DB298C0D-CB8A-57DE-A94E-E14E206104CE ;
+    ossp:P110 osss:Q274-FAAE41B8-6756-5E2D-8826-B7E90609C886 ;
+    ossp:P111 osss:Q274-5FF9E0EB-1056-579B-AB50-DC4F8C4155A1 ;
+    ossp:P113 osss:Q274-3D3642E0-420B-52DC-AA71-494B8173E443,
+        osss:Q274-7AF59CEF-2380-561D-8C43-5ADA49793B05,
+        osss:Q274-41771D20-C545-5414-BF07-BE9C856B964D,
+        osss:Q274-C1DD4980-DAAA-5A0B-97D8-3A7943ABA426,
+        osss:Q274-F5493CAC-343C-5AF7-A42E-AD3659B50985 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/7161046616> ;
+    osst:P101 <https://www.openstreetmap.org/node/7161046616/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/7161046616/history/1> ;
+    osst:P110 "Point(98.7455986 8.3379285)"^^geo:wktLiteral ;
+    osst:P111 "POINT(98.7455986 8.3379285)" ;
+    osst:P113 "name:en=Klang cave",
+        "name=Tham Klang",
+        "natural=cave_entrance",
+        "tourism=attraction",
+        "wikidata=Q136768099" .
+
+osss:Q274-3D3642E0-420B-52DC-AA71-494B8173E443
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q274-5FF9E0EB-1056-579B-AB50-DC4F8C4155A1
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(98.7455986 8.3379285)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:e6dd44efa40ee1acfb6bab2a6f960fae7795e620 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-01-26T19:40:47Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(98.7455986 8.3379285)" .
+
+osss:Q274-7AF59CEF-2380-561D-8C43-5ADA49793B05
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad ;
+    ossps:P113 "name:en=Klang cave" .
+
+osss:Q274-11A1CF8F-82CD-5710-B503-11C3A5C17458
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-01-26T19:40:47Z" ;
+    osspq:P104 "80107114" ;
+    osspq:P105 "Bernhard Hiller" ;
+    osspq:P106 "326704" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7161046616/history/1> .
+
+osss:Q274-41D0F01A-6B7A-560A-A1A0-D4425372BD68
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q274-962E9848-8608-510F-86F0-B071C88B6439
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2025-11-12T15:21:16Z" ;
+    osspq:P104 "174564900" ;
+    osspq:P105 "DerFussi" ;
+    osspq:P106 "37252" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/7161046616/history/4> .
+
+osss:Q274-41771D20-C545-5414-BF07-BE9C856B964D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad ;
+    ossps:P113 "name=Tham Klang" .
+
+osss:Q274-83511893-B981-5825-8A15-0C2B6976AC24
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/7161046616> .
+
+osss:Q274-C1DD4980-DAAA-5A0B-97D8-3A7943ABA426
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q274-CE0E9099-631D-5458-BC59-CC7408ECFEF5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2023-11-03T16:36:12Z" ;
+    osspq:P104 "143582932" ;
+    osspq:P105 "pLoskutov" ;
+    osspq:P106 "17472737" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/7161046616/history/2> .
+
+osss:Q274-D35E21E8-465E-5139-90E6-30D265331884
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2024-02-07T13:04:23Z" ;
+    osspq:P104 "147175969" ;
+    osspq:P105 "StopConsuming_StartProducing" ;
+    osspq:P106 "5592573" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7161046616/history/3> .
+
+osss:Q274-DB298C0D-CB8A-57DE-A94E-E14E206104CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/7161046616/history/1> .
+
+osss:Q274-F5493CAC-343C-5AF7-A42E-AD3659B50985
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad ;
+    ossps:P113 "wikidata=Q136768099" .
+
+osss:Q274-FAAE41B8-6756-5E2D-8826-B7E90609C886
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad ;
+    ossps:P110 "Point(98.7455986 8.3379285)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:04ec57dccd033133ec76841c453de1df .
+
+ossref:2fdcb6712a530d5c8f9220b3dbf092f20a4b24ad
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7161046616/history/4> .
+
+ossref:e6dd44efa40ee1acfb6bab2a6f960fae7795e620
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7161046616/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:04ec57dccd033133ec76841c453de1df
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "8.3379285"^^xsd:double ;
+    wikibase:geoLongitude "98.7455986"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

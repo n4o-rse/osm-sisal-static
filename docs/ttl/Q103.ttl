@@ -1,0 +1,234 @@
+# Q103: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q103.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 10135300283)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10135300283)"@de ;
+    dcterms:identifier "Q103" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q103 ;
+    dcterms:title "Gua Metrik"@de,
+        "Gua Metrik"@en ;
+    schema:about oss:Q103 ;
+    dcat:distribution ossdist:Q103-html,
+        ossdist:Q103-json,
+        ossdist:Q103-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q103.html> .
+
+ossdist:Q103-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q103, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q103.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q103-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q103, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13494"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q103.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q103-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q103, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q103.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q103
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 10135300283)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10135300283)"@de ;
+    schema:name "Gua Metrik"@de,
+        "Gua Metrik"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q103-7FDD4E6B-FF40-5625-8B5B-DAD5E020C44C ;
+    geo:hasGeometry osss:Q103-7FDD4E6B-FF40-5625-8B5B-DAD5E020C44C,
+        osss:Q103-85672352-62D4-5E88-8286-F81E3A8D4C8C ;
+    rdfs:label "Gua Metrik"@de,
+        "Gua Metrik"@en ;
+    skos:prefLabel "Gua Metrik"@de,
+        "Gua Metrik"@en ;
+    ossp:P2 osss:Q103-54055322-9D86-5B37-A1AE-D6BEFA56FDEC ;
+    ossp:P100 osss:Q103-C8133615-A16D-5C74-9FA4-F14CEE5A4573 ;
+    ossp:P101 osss:Q103-45893AB4-3F6E-5163-AF51-CFAF22EA3228,
+        osss:Q103-FE053C91-0078-58B1-B961-B801990BB9E4 ;
+    ossp:P107 osss:Q103-3DAF913E-0D50-5362-8779-45711A92AF97 ;
+    ossp:P110 osss:Q103-FBCC8BA9-4D8F-59ED-8496-7C5EA24A929C ;
+    ossp:P111 osss:Q103-7FDD4E6B-FF40-5625-8B5B-DAD5E020C44C,
+        osss:Q103-85672352-62D4-5E88-8286-F81E3A8D4C8C ;
+    ossp:P113 osss:Q103-4B7F6488-F853-576A-990E-5BE597C81ACD,
+        osss:Q103-C71FD3CA-EC12-5B3F-A458-2A9ABAF5F990,
+        osss:Q103-EFB15A1B-1F0F-57C8-A3D8-1C06956A4B29 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/10135300283> ;
+    osst:P101 <https://www.openstreetmap.org/node/10135300283/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/10135300283/history/1> ;
+    osst:P110 "Point(114.8538637 4.0980925)"^^geo:wktLiteral ;
+    osst:P111 "POINT(114.8538637 4.0980925)",
+        "POINT(114.8552799 4.1007464)" ;
+    osst:P113 "name:en=Metric Cave",
+        "name=Gua Metrik",
+        "natural=cave_entrance" .
+
+osss:Q103-3DAF913E-0D50-5362-8779-45711A92AF97
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/10135300283/history/1> .
+
+osss:Q103-4B7F6488-F853-576A-990E-5BE597C81ACD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:22430aa3dd0581673d5b42079c431c0662a1826b ;
+    ossps:P113 "name:en=Metric Cave" .
+
+osss:Q103-7FDD4E6B-FF40-5625-8B5B-DAD5E020C44C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(114.8538637 4.0980925)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:22430aa3dd0581673d5b42079c431c0662a1826b ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T15:42:57Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(114.8538637 4.0980925)" .
+
+osss:Q103-45893AB4-3F6E-5163-AF51-CFAF22EA3228
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T11:46:44Z" ;
+    osspq:P104 "128171642" ;
+    osspq:P105 "mataharimau" ;
+    osspq:P106 "17227421" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/10135300283/history/1> .
+
+osss:Q103-54055322-9D86-5B37-A1AE-D6BEFA56FDEC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q103-85672352-62D4-5E88-8286-F81E3A8D4C8C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(114.8552799 4.1007464)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:e19ac592651764f6c259a74ddadb5c38db39167c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T11:46:44Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(114.8552799 4.1007464)" .
+
+osss:Q103-C71FD3CA-EC12-5B3F-A458-2A9ABAF5F990
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:22430aa3dd0581673d5b42079c431c0662a1826b ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q103-C8133615-A16D-5C74-9FA4-F14CEE5A4573
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/10135300283> .
+
+osss:Q103-EFB15A1B-1F0F-57C8-A3D8-1C06956A4B29
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:22430aa3dd0581673d5b42079c431c0662a1826b ;
+    ossps:P113 "name=Gua Metrik" .
+
+osss:Q103-FBCC8BA9-4D8F-59ED-8496-7C5EA24A929C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:22430aa3dd0581673d5b42079c431c0662a1826b ;
+    ossps:P110 "Point(114.8538637 4.0980925)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:6d6c0e76c0e2aae6212a9ea100224be7 .
+
+osss:Q103-FE053C91-0078-58B1-B961-B801990BB9E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T15:42:57Z" ;
+    osspq:P104 "128181038" ;
+    osspq:P105 "mataharimau" ;
+    osspq:P106 "17227421" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/10135300283/history/2> .
+
+ossref:22430aa3dd0581673d5b42079c431c0662a1826b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10135300283/history/2> .
+
+ossref:e19ac592651764f6c259a74ddadb5c38db39167c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10135300283/history/1> .
+
+ossv:6d6c0e76c0e2aae6212a9ea100224be7
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "4.0980925"^^xsd:double ;
+    wikibase:geoLongitude "114.8538637"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

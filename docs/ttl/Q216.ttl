@@ -1,0 +1,237 @@
+# Q216: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q216.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4153384278)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4153384278)"@de ;
+    dcterms:identifier "Q216" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q216 ;
+    dcterms:title "Cathedral Cave"@de,
+        "Cathedral Cave"@en ;
+    schema:about oss:Q216 ;
+    dcat:distribution ossdist:Q216-html,
+        ossdist:Q216-json,
+        ossdist:Q216-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q216.html> .
+
+ossdist:Q216-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q216, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q216.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q216-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q216, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13586"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q216.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q216-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q216, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q216.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q216
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4153384278)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4153384278)"@de ;
+    schema:name "Cathedral Cave"@de,
+        "Cathedral Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q216-43390AC2-AE44-5A29-B2AD-9B5345A91C67 ;
+    geo:hasGeometry osss:Q216-43390AC2-AE44-5A29-B2AD-9B5345A91C67 ;
+    rdfs:label "Cathedral Cave"@de,
+        "Cathedral Cave"@en ;
+    skos:prefLabel "Cathedral Cave"@de,
+        "Cathedral Cave"@en ;
+    ossp:P2 osss:Q216-D8514F35-510F-5728-ACF1-AA7C342D50BD ;
+    ossp:P100 osss:Q216-571CC6D3-43D1-55FA-A2B6-B1438D40733D ;
+    ossp:P101 osss:Q216-A021FB2B-C1F7-5E08-99F5-6233D031F177,
+        osss:Q216-B10CAC1B-877B-5B3F-9654-AA30DE1A91A4 ;
+    ossp:P107 osss:Q216-AFD38CCA-834F-5EB8-A570-252A29402DD7 ;
+    ossp:P110 osss:Q216-B16E09EB-E61A-56C2-899B-9044D2916D78 ;
+    ossp:P111 osss:Q216-43390AC2-AE44-5A29-B2AD-9B5345A91C67 ;
+    ossp:P113 osss:Q216-67C15F09-192C-514F-878F-C600FD0A9FC0,
+        osss:Q216-89EF6915-7CAF-5419-9CD5-2AB3B79FF4AB,
+        osss:Q216-937CF63F-6BF7-5924-B6F1-0DCE4A6C1F4E,
+        osss:Q216-CC81F489-0FB8-5EDF-BB07-AD875011943F,
+        osss:Q216-DD3DCF74-6CED-5ECC-A3DF-655B79BD2BA9 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4153384278> ;
+    osst:P101 <https://www.openstreetmap.org/node/4153384278/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/4153384278/history/1> ;
+    osst:P110 "Point(148.9396055 -32.6221459)"^^geo:wktLiteral ;
+    osst:P111 "POINT(148.9396055 -32.6221459)" ;
+    osst:P113 "access=private",
+        "barrier=gate",
+        "fee=yes",
+        "name=Cathedral Cave",
+        "natural=cave_entrance" .
+
+osss:Q216-67C15F09-192C-514F-878F-C600FD0A9FC0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc ;
+    ossps:P113 "barrier=gate" .
+
+osss:Q216-89EF6915-7CAF-5419-9CD5-2AB3B79FF4AB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q216-571CC6D3-43D1-55FA-A2B6-B1438D40733D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4153384278> .
+
+osss:Q216-937CF63F-6BF7-5924-B6F1-0DCE4A6C1F4E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc ;
+    ossps:P113 "fee=yes" .
+
+osss:Q216-43390AC2-AE44-5A29-B2AD-9B5345A91C67
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(148.9396055 -32.6221459)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:9f9b026cdf536c59c69620fa665fc8c1a2e51fd9 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-04-28T12:12:07Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(148.9396055 -32.6221459)" .
+
+osss:Q216-A021FB2B-C1F7-5E08-99F5-6233D031F177
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2019-08-30T13:54:30Z" ;
+    osspq:P104 "73924632" ;
+    osspq:P105 "mrpulley" ;
+    osspq:P106 "67896" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4153384278/history/2> .
+
+osss:Q216-AFD38CCA-834F-5EB8-A570-252A29402DD7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4153384278/history/1> .
+
+osss:Q216-B10CAC1B-877B-5B3F-9654-AA30DE1A91A4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-04-28T12:12:07Z" ;
+    osspq:P104 "38948831" ;
+    osspq:P105 "BalancingBean" ;
+    osspq:P106 "1466296" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4153384278/history/1> .
+
+osss:Q216-B16E09EB-E61A-56C2-899B-9044D2916D78
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc ;
+    ossps:P110 "Point(148.9396055 -32.6221459)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:8ae9043b1e3ff81f033ea8e653987ece .
+
+osss:Q216-CC81F489-0FB8-5EDF-BB07-AD875011943F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc ;
+    ossps:P113 "access=private" .
+
+osss:Q216-D8514F35-510F-5728-ACF1-AA7C342D50BD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q216-DD3DCF74-6CED-5ECC-A3DF-655B79BD2BA9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc ;
+    ossps:P113 "name=Cathedral Cave" .
+
+ossref:9f9b026cdf536c59c69620fa665fc8c1a2e51fd9
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4153384278/history/1> .
+
+ossref:6641a22c1f9c6fcb7c1a97ae51057376c8eb1cbc
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4153384278/history/2> .
+
+ossv:8ae9043b1e3ff81f033ea8e653987ece
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-32.6221459"^^xsd:double ;
+    wikibase:geoLongitude "148.9396055"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

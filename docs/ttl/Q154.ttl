@@ -1,0 +1,210 @@
+# Q154: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q154.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 13307603920)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13307603920)"@de ;
+    dcterms:identifier "Q154" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q154 ;
+    dcterms:title "Gruta do Janelão"@de,
+        "Gruta do Janelão"@en ;
+    schema:about oss:Q154 ;
+    dcat:distribution ossdist:Q154-html,
+        ossdist:Q154-json,
+        ossdist:Q154-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q154.html> .
+
+ossdist:Q154-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q154, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q154.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q154-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q154, as archived from the Wikibase API"@en ;
+    dcat:byteSize "10967"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q154.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q154-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q154, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q154.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q154
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 13307603920)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13307603920)"@de ;
+    schema:name "Gruta do Janelão"@de,
+        "Gruta do Janelão"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q154-C16B87C9-4A3D-55AA-9397-56358DC136A2 ;
+    geo:hasGeometry osss:Q154-C16B87C9-4A3D-55AA-9397-56358DC136A2 ;
+    rdfs:label "Gruta do Janelão"@de,
+        "Gruta do Janelão"@en ;
+    skos:prefLabel "Gruta do Janelão"@de,
+        "Gruta do Janelão"@en ;
+    ossp:P2 osss:Q154-AB8D3B3F-7E56-5970-A42C-BDB72E2B445D ;
+    ossp:P100 osss:Q154-2EF70E9B-1EB0-5C50-82C6-1CDB2DFE9653 ;
+    ossp:P101 osss:Q154-4CE55D13-42DA-5D04-A2A4-304F4F5409B6,
+        osss:Q154-20592176-3F50-5767-9DA5-6D3BA8085ADF ;
+    ossp:P107 osss:Q154-9C2B695A-D724-5073-87AD-37D53AD59FAC ;
+    ossp:P110 osss:Q154-1E371F61-EFDF-51B4-923C-717A9B565031 ;
+    ossp:P111 osss:Q154-C16B87C9-4A3D-55AA-9397-56358DC136A2 ;
+    ossp:P113 osss:Q154-33CE7C66-4D0C-5A97-A18C-734046593F6F,
+        osss:Q154-23145C98-5CC2-580E-BD97-A5BE8F48B304 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/13307603920> ;
+    osst:P101 <https://www.openstreetmap.org/node/13307603920/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/13307603920/history/1> ;
+    osst:P110 "Point(-44.2412366 -15.1164861)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-44.2412366 -15.1164861)" ;
+    osst:P113 "name=Gruta do Janelão",
+        "natural=cave_entrance" .
+
+osss:Q154-1E371F61-EFDF-51B4-923C-717A9B565031
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:fbfd2197af86da0db857d4e4d3617b40afce983f ;
+    ossps:P110 "Point(-44.2412366 -15.1164861)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:c83594f21583973850af5eaf6792304e .
+
+osss:Q154-2EF70E9B-1EB0-5C50-82C6-1CDB2DFE9653
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/13307603920> .
+
+osss:Q154-4CE55D13-42DA-5D04-A2A4-304F4F5409B6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2025-12-24T02:10:08Z" ;
+    osspq:P104 "176333169" ;
+    osspq:P105 "ElementoGEO" ;
+    osspq:P106 "1204081" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/13307603920/history/2> .
+
+osss:Q154-9C2B695A-D724-5073-87AD-37D53AD59FAC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/13307603920/history/1> .
+
+osss:Q154-33CE7C66-4D0C-5A97-A18C-734046593F6F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:fbfd2197af86da0db857d4e4d3617b40afce983f ;
+    ossps:P113 "name=Gruta do Janelão" .
+
+osss:Q154-23145C98-5CC2-580E-BD97-A5BE8F48B304
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:fbfd2197af86da0db857d4e4d3617b40afce983f ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q154-20592176-3F50-5767-9DA5-6D3BA8085ADF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2025-11-16T04:02:51Z" ;
+    osspq:P104 "174711927" ;
+    osspq:P105 "ElementoGEO" ;
+    osspq:P106 "1204081" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/13307603920/history/1> .
+
+osss:Q154-AB8D3B3F-7E56-5970-A42C-BDB72E2B445D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q154-C16B87C9-4A3D-55AA-9397-56358DC136A2
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-44.2412366 -15.1164861)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:350ed82234b358222db0f90bec6d8fba396b659c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2025-11-16T04:02:51Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-44.2412366 -15.1164861)" .
+
+ossref:350ed82234b358222db0f90bec6d8fba396b659c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/13307603920/history/1> .
+
+ossref:fbfd2197af86da0db857d4e4d3617b40afce983f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/13307603920/history/2> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c83594f21583973850af5eaf6792304e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-15.1164861"^^xsd:double ;
+    wikibase:geoLongitude "-44.2412366"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

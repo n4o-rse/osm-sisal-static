@@ -1,0 +1,271 @@
+# Q202: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q202.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 354842709)"@en,
+        "Höhenmarke (OpenStreetMap-Node 354842709)"@de ;
+    dcterms:identifier "Q202" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q202 ;
+    dcterms:title "Katerloch"@de,
+        "Katerloch"@en ;
+    schema:about oss:Q202 ;
+    dcat:distribution ossdist:Q202-html,
+        ossdist:Q202-json,
+        ossdist:Q202-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q202.html> .
+
+ossdist:Q202-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q202, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q202.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q202-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q202, as archived from the Wikibase API"@en ;
+    dcat:byteSize "17687"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q202.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q202-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q202, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q202.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q202
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 354842709)"@en,
+        "Höhenmarke (OpenStreetMap-Node 354842709)"@de ;
+    schema:name "Katerloch"@de,
+        "Katerloch"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q202-43CD896D-7332-5608-A6AA-E66B9F961A7C ;
+    geo:hasGeometry osss:Q202-43CD896D-7332-5608-A6AA-E66B9F961A7C ;
+    rdfs:label "Katerloch"@de,
+        "Katerloch"@en ;
+    skos:prefLabel "Katerloch"@de,
+        "Katerloch"@en ;
+    ossp:P2 osss:Q202-38739975-1A38-59A6-ABCC-D87E2D1F34E1 ;
+    ossp:P100 osss:Q202-73E75718-7A08-53EF-A190-97C29AAAFED1 ;
+    ossp:P101 osss:Q202-9165C98D-3E3F-57B4-A30F-3CD5CDC7D85A,
+        osss:Q202-AA828710-EB51-570D-870A-EDF590367963,
+        osss:Q202-DC268DED-C47D-56CE-A6ED-0B29CDDAD3CF,
+        osss:Q202-E40D9FAB-0461-561B-A754-20B193D5AA8D ;
+    ossp:P107 osss:Q202-AE7A86BA-B961-5E11-8825-0790FB57DDFF ;
+    ossp:P110 osss:Q202-80D90436-D803-5A8F-A646-4C0B6F5B7312 ;
+    ossp:P111 osss:Q202-43CD896D-7332-5608-A6AA-E66B9F961A7C ;
+    ossp:P113 osss:Q202-32A5400D-0C14-536B-8F3A-3CB30EC3DE90,
+        osss:Q202-8509F999-C4A4-5EDE-877D-4759A31013F9,
+        osss:Q202-06545268-2C8E-5652-92B4-9AC4769313FA,
+        osss:Q202-B8C2B672-5ADC-5D53-9C3F-A0017505F5F3,
+        osss:Q202-C6EBD30D-DCB5-5DE8-8A69-3D8FC7000102 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/354842709> ;
+    osst:P101 <https://www.openstreetmap.org/node/354842709/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/354842709/history/1> ;
+    osst:P110 "Point(15.54955 47.252753)"^^geo:wktLiteral ;
+    osst:P111 "POINT(15.54955 47.252753)" ;
+    osst:P113 "cave:ref=2833/59",
+        "name=Katerloch",
+        "natural=cave_entrance",
+        "wikidata=Q1735838",
+        "wikipedia=de:Katerloch" .
+
+osss:Q202-32A5400D-0C14-536B-8F3A-3CB30EC3DE90
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4 ;
+    ossps:P113 "wikidata=Q1735838" .
+
+osss:Q202-43CD896D-7332-5608-A6AA-E66B9F961A7C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(15.54955 47.252753)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:070887e20cb62cd26bf018eb395328c268a46dec ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-03-02T10:18:36Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(15.54955 47.252753)" .
+
+osss:Q202-73E75718-7A08-53EF-A190-97C29AAAFED1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/354842709> .
+
+osss:Q202-80D90436-D803-5A8F-A646-4C0B6F5B7312
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4 ;
+    ossps:P110 "Point(15.54955 47.252753)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:63a53fb3e09b8ef9e7826513ce2a4af1 .
+
+osss:Q202-8509F999-C4A4-5EDE-877D-4759A31013F9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q202-9165C98D-3E3F-57B4-A30F-3CD5CDC7D85A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2021-02-21T13:58:19Z" ;
+    osspq:P104 "99681344" ;
+    osspq:P105 "makiwolf" ;
+    osspq:P106 "11497792" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/354842709/history/4> .
+
+osss:Q202-06545268-2C8E-5652-92B4-9AC4769313FA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4 ;
+    ossps:P113 "cave:ref=2833/59" .
+
+osss:Q202-38739975-1A38-59A6-ABCC-D87E2D1F34E1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q202-AA828710-EB51-570D-870A-EDF590367963
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-03-02T10:18:36Z" ;
+    osspq:P104 "722071" ;
+    osspq:P105 "eriosw" ;
+    osspq:P106 "45347" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/354842709/history/1> .
+
+osss:Q202-AE7A86BA-B961-5E11-8825-0790FB57DDFF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/354842709/history/1> .
+
+osss:Q202-B8C2B672-5ADC-5D53-9C3F-A0017505F5F3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4 ;
+    ossps:P113 "wikipedia=de:Katerloch" .
+
+osss:Q202-C6EBD30D-DCB5-5DE8-8A69-3D8FC7000102
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4 ;
+    ossps:P113 "name=Katerloch" .
+
+osss:Q202-DC268DED-C47D-56CE-A6ED-0B29CDDAD3CF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2020-10-15T09:36:17Z" ;
+    osspq:P104 "92514163" ;
+    osspq:P105 "makiwolf" ;
+    osspq:P106 "11497792" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/354842709/history/3> .
+
+osss:Q202-E40D9FAB-0461-561B-A754-20B193D5AA8D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2012-02-23T12:46:36Z" ;
+    osspq:P104 "10767877" ;
+    osspq:P105 "fkv" ;
+    osspq:P106 "302363" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/354842709/history/2> .
+
+ossref:070887e20cb62cd26bf018eb395328c268a46dec
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/354842709/history/1> .
+
+ossref:b3beb43528c3de2b8d49e04bc70250ad639da9f4
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/354842709/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63a53fb3e09b8ef9e7826513ce2a4af1
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "47.252753"^^xsd:double ;
+    wikibase:geoLongitude "15.54955"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

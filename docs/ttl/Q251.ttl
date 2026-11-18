@@ -1,0 +1,237 @@
+# Q251: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q251.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 554858725)"@en,
+        "Höhenmarke (OpenStreetMap-Node 554858725)"@de ;
+    dcterms:identifier "Q251" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q251 ;
+    dcterms:title "Lancaster Hole"@de,
+        "Lancaster Hole"@en ;
+    schema:about oss:Q251 ;
+    dcat:distribution ossdist:Q251-html,
+        ossdist:Q251-json,
+        ossdist:Q251-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q251.html> .
+
+ossdist:Q251-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q251, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q251.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q251-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q251, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13557"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q251.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q251-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q251, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q251.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q251
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 554858725)"@en,
+        "Höhenmarke (OpenStreetMap-Node 554858725)"@de ;
+    schema:name "Lancaster Hole"@de,
+        "Lancaster Hole"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q251-D800ACD9-FBD8-5E2B-9EAF-6A60FC7ABAFE ;
+    geo:hasGeometry osss:Q251-D800ACD9-FBD8-5E2B-9EAF-6A60FC7ABAFE ;
+    rdfs:label "Lancaster Hole"@de,
+        "Lancaster Hole"@en ;
+    skos:prefLabel "Lancaster Hole"@de,
+        "Lancaster Hole"@en ;
+    ossp:P2 osss:Q251-58CB7B67-831D-50D4-963C-032AC8CF9034 ;
+    ossp:P100 osss:Q251-DC8932C1-C31E-5500-8AF1-E641629B6AB5 ;
+    ossp:P101 osss:Q251-9A568B3F-9C84-5DAB-933D-7A0F2C8937D4,
+        osss:Q251-DB970203-883F-5004-90A5-E2F496FFD347 ;
+    ossp:P107 osss:Q251-0DCB3601-3814-5E08-A8FB-C8E7CE2AEE93 ;
+    ossp:P110 osss:Q251-3438BCEE-30A3-5F15-9F32-E3ABEA9E3C7A ;
+    ossp:P111 osss:Q251-D800ACD9-FBD8-5E2B-9EAF-6A60FC7ABAFE ;
+    ossp:P113 osss:Q251-39F90E13-7164-5642-9729-375484F3506A,
+        osss:Q251-AC28D54B-49F1-5C93-954E-307B9122D720,
+        osss:Q251-C0CA4798-A38D-5D6E-84C3-07D5529C8198,
+        osss:Q251-DA33E460-E968-5D6A-B29C-936A23AE9FC4,
+        osss:Q251-DC1B709E-6C0D-51D2-AAFD-FE1B86F5D4FD ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/554858725> ;
+    osst:P101 <https://www.openstreetmap.org/node/554858725/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/554858725/history/1> ;
+    osst:P110 "Point(-2.516764 54.2210687)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-2.516764 54.2210687)" ;
+    osst:P113 "access=permit",
+        "fee=no",
+        "name=Lancaster Hole",
+        "natural=cave_entrance",
+        "source=survey" .
+
+osss:Q251-0DCB3601-3814-5E08-A8FB-C8E7CE2AEE93
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/554858725/history/1> .
+
+osss:Q251-9A568B3F-9C84-5DAB-933D-7A0F2C8937D4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-11-04T18:08:30Z" ;
+    osspq:P104 "3034825" ;
+    osspq:P105 "tms13" ;
+    osspq:P106 "91225" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/554858725/history/1> .
+
+osss:Q251-39F90E13-7164-5642-9729-375484F3506A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1c838ae95081f43161da175046b7ea85f325eea1 ;
+    ossps:P113 "source=survey" .
+
+osss:Q251-58CB7B67-831D-50D4-963C-032AC8CF9034
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q251-3438BCEE-30A3-5F15-9F32-E3ABEA9E3C7A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1c838ae95081f43161da175046b7ea85f325eea1 ;
+    ossps:P110 "Point(-2.516764 54.2210687)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:875442d39b6d80ae9dff072500e5f98c .
+
+osss:Q251-AC28D54B-49F1-5C93-954E-307B9122D720
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1c838ae95081f43161da175046b7ea85f325eea1 ;
+    ossps:P113 "fee=no" .
+
+osss:Q251-C0CA4798-A38D-5D6E-84C3-07D5529C8198
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1c838ae95081f43161da175046b7ea85f325eea1 ;
+    ossps:P113 "access=permit" .
+
+osss:Q251-D800ACD9-FBD8-5E2B-9EAF-6A60FC7ABAFE
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-2.516764 54.2210687)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:a53b2856a47da1e455c30797abb29af102d1b2d0 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-11-04T18:08:30Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-2.516764 54.2210687)" .
+
+osss:Q251-DA33E460-E968-5D6A-B29C-936A23AE9FC4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1c838ae95081f43161da175046b7ea85f325eea1 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q251-DB970203-883F-5004-90A5-E2F496FFD347
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-02-21T17:56:50Z" ;
+    osspq:P104 "117693612" ;
+    osspq:P105 "skifans" ;
+    osspq:P106 "2800603" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/554858725/history/2> .
+
+osss:Q251-DC1B709E-6C0D-51D2-AAFD-FE1B86F5D4FD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1c838ae95081f43161da175046b7ea85f325eea1 ;
+    ossps:P113 "name=Lancaster Hole" .
+
+osss:Q251-DC8932C1-C31E-5500-8AF1-E641629B6AB5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/554858725> .
+
+ossref:1c838ae95081f43161da175046b7ea85f325eea1
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/554858725/history/2> .
+
+ossref:a53b2856a47da1e455c30797abb29af102d1b2d0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/554858725/history/1> .
+
+ossv:875442d39b6d80ae9dff072500e5f98c
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "54.2210687"^^xsd:double ;
+    wikibase:geoLongitude "-2.516764"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

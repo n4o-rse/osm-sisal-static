@@ -1,0 +1,219 @@
+# Q215: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q215.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4153268606)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4153268606)"@de ;
+    dcterms:identifier "Q215" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q215 ;
+    dcterms:title "Entrada da Gruta Lapa Doce"@de,
+        "Entrada da Gruta Lapa Doce"@en ;
+    schema:about oss:Q215 ;
+    dcat:distribution ossdist:Q215-html,
+        ossdist:Q215-json,
+        ossdist:Q215-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q215.html> .
+
+ossdist:Q215-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q215, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q215.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q215-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q215, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11866"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q215.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q215-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q215, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q215.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q215
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4153268606)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4153268606)"@de ;
+    schema:name "Entrada da Gruta Lapa Doce"@de,
+        "Entrada da Gruta Lapa Doce"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q215-8FF76A74-2D62-5B07-9A61-BB7E06BA9D62 ;
+    geo:hasGeometry osss:Q215-8FF76A74-2D62-5B07-9A61-BB7E06BA9D62 ;
+    rdfs:label "Entrada da Gruta Lapa Doce"@de,
+        "Entrada da Gruta Lapa Doce"@en ;
+    skos:prefLabel "Entrada da Gruta Lapa Doce"@de,
+        "Entrada da Gruta Lapa Doce"@en ;
+    ossp:P2 osss:Q215-A04B7089-D772-5B2F-8540-26DB0D2E2DFA ;
+    ossp:P100 osss:Q215-F467977A-9841-550E-9809-C9B230453482 ;
+    ossp:P101 osss:Q215-1FDBBD1F-6229-5973-A67C-D1956E564B67,
+        osss:Q215-7396F65E-E183-5F97-8A1D-42BA7456191D ;
+    ossp:P107 osss:Q215-46823E50-7A14-52BA-853B-35A10ECE562A ;
+    ossp:P110 osss:Q215-776D35E5-B6D8-564A-AB8B-B687AF87F504 ;
+    ossp:P111 osss:Q215-8FF76A74-2D62-5B07-9A61-BB7E06BA9D62 ;
+    ossp:P113 osss:Q215-91D1C92C-2D08-529D-8D40-D968279629AC,
+        osss:Q215-956262EA-D463-51C0-B54B-1EB2FB700DBC,
+        osss:Q215-A79625EC-C7E1-5C69-98BC-4E34CDC92993 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4153268606> ;
+    osst:P101 <https://www.openstreetmap.org/node/4153268606/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/4153268606/history/1> ;
+    osst:P110 "Point(-41.6047624 -12.3339123)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-41.6047624 -12.3339123)" ;
+    osst:P113 "name=Entrada da Gruta Lapa Doce",
+        "natural=cave_entrance",
+        "tourism=attraction" .
+
+osss:Q215-1FDBBD1F-6229-5973-A67C-D1956E564B67
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-04-28T11:07:07Z" ;
+    osspq:P104 "38946898" ;
+    osspq:P105 "Dikig" ;
+    osspq:P106 "739812" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4153268606/history/1> .
+
+osss:Q215-8FF76A74-2D62-5B07-9A61-BB7E06BA9D62
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-41.6047624 -12.3339123)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:1530e8f72771b97817b00dd594b6b14d0aaebb22 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-04-28T11:07:07Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-41.6047624 -12.3339123)" .
+
+osss:Q215-91D1C92C-2D08-529D-8D40-D968279629AC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q215-776D35E5-B6D8-564A-AB8B-B687AF87F504
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a ;
+    ossps:P110 "Point(-41.6047624 -12.3339123)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:0b822835695ceb5a95932d5341d42992 .
+
+osss:Q215-7396F65E-E183-5F97-8A1D-42BA7456191D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2026-09-10T15:47:03Z" ;
+    osspq:P104 "188832287" ;
+    osspq:P105 "Lucas Marques" ;
+    osspq:P106 "1208664" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4153268606/history/2> .
+
+osss:Q215-46823E50-7A14-52BA-853B-35A10ECE562A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4153268606/history/1> .
+
+osss:Q215-956262EA-D463-51C0-B54B-1EB2FB700DBC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q215-A04B7089-D772-5B2F-8540-26DB0D2E2DFA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q215-A79625EC-C7E1-5C69-98BC-4E34CDC92993
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a ;
+    ossps:P113 "name=Entrada da Gruta Lapa Doce" .
+
+osss:Q215-F467977A-9841-550E-9809-C9B230453482
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4153268606> .
+
+ossref:1530e8f72771b97817b00dd594b6b14d0aaebb22
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4153268606/history/1> .
+
+ossref:a11edb1881d354e233e81dd87d4b0525e6728d2a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4153268606/history/2> .
+
+ossv:0b822835695ceb5a95932d5341d42992
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-12.3339123"^^xsd:double ;
+    wikibase:geoLongitude "-41.6047624"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

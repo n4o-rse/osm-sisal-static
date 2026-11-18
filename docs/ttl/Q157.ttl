@@ -1,0 +1,198 @@
+# Q157: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q157.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 13556252331)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13556252331)"@de ;
+    dcterms:identifier "Q157" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q157 ;
+    dcterms:title "Bestažovca"@de,
+        "Bestažovca"@en ;
+    schema:about oss:Q157 ;
+    dcat:distribution ossdist:Q157-html,
+        ossdist:Q157-json,
+        ossdist:Q157-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q157.html> .
+
+ossdist:Q157-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q157, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q157.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q157-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q157, as archived from the Wikibase API"@en ;
+    dcat:byteSize "9750"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q157.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q157-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q157, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q157.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q157
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 13556252331)"@en,
+        "Höhenmarke (OpenStreetMap-Node 13556252331)"@de ;
+    schema:name "Bestažovca"@de,
+        "Bestažovca"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q157-8BBFDA9A-BF57-5167-BCBB-7BE9B8AAE797 ;
+    geo:hasGeometry osss:Q157-8BBFDA9A-BF57-5167-BCBB-7BE9B8AAE797 ;
+    rdfs:label "Bestažovca"@de,
+        "Bestažovca"@en ;
+    skos:prefLabel "Bestažovca"@de,
+        "Bestažovca"@en ;
+    ossp:P2 osss:Q157-F8D5E872-2819-5A28-8AE9-1EC02DD9AA9B ;
+    ossp:P100 osss:Q157-83782C57-B430-599B-B461-A5E573C8712C ;
+    ossp:P101 osss:Q157-0CB5A28B-E9F6-5BC2-A968-B04E915518CB ;
+    ossp:P107 osss:Q157-4B966099-215F-59ED-B259-591A12CAFB40 ;
+    ossp:P110 osss:Q157-1FD7DBCD-0639-5D5D-8136-8DF44A17B38B ;
+    ossp:P111 osss:Q157-8BBFDA9A-BF57-5167-BCBB-7BE9B8AAE797 ;
+    ossp:P113 osss:Q157-8E5E8D02-E8F2-53DF-BA82-1AFBDFC4BDCC,
+        osss:Q157-44B24557-ACAE-50DC-8716-28448B01CF22,
+        osss:Q157-BFF388FD-F11F-5615-9DDA-1FBC14BF0D27 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/13556252331> ;
+    osst:P101 <https://www.openstreetmap.org/node/13556252331/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/13556252331/history/1> ;
+    osst:P110 "Point(13.8916797 45.6925918)"^^geo:wktLiteral ;
+    osst:P111 "POINT(13.8916797 45.6925918)" ;
+    osst:P113 "ele=480",
+        "name=Bestažovca",
+        "natural=cave_entrance" .
+
+osss:Q157-0CB5A28B-E9F6-5BC2-A968-B04E915518CB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2026-02-13T16:39:57Z" ;
+    osspq:P104 "178513221" ;
+    osspq:P105 "Paolo Zgn" ;
+    osspq:P106 "7550190" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/13556252331/history/1> .
+
+osss:Q157-1FD7DBCD-0639-5D5D-8136-8DF44A17B38B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a18f2d9381e5a2206fb7ba417a060e60dff738ae ;
+    ossps:P110 "Point(13.8916797 45.6925918)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:52f4e409c03318d2cd4d29435a11f833 .
+
+osss:Q157-4B966099-215F-59ED-B259-591A12CAFB40
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/13556252331/history/1> .
+
+osss:Q157-8BBFDA9A-BF57-5167-BCBB-7BE9B8AAE797
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(13.8916797 45.6925918)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:a18f2d9381e5a2206fb7ba417a060e60dff738ae ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2026-02-13T16:39:57Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(13.8916797 45.6925918)" .
+
+osss:Q157-8E5E8D02-E8F2-53DF-BA82-1AFBDFC4BDCC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a18f2d9381e5a2206fb7ba417a060e60dff738ae ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q157-44B24557-ACAE-50DC-8716-28448B01CF22
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a18f2d9381e5a2206fb7ba417a060e60dff738ae ;
+    ossps:P113 "name=Bestažovca" .
+
+osss:Q157-83782C57-B430-599B-B461-A5E573C8712C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/13556252331> .
+
+osss:Q157-BFF388FD-F11F-5615-9DDA-1FBC14BF0D27
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:a18f2d9381e5a2206fb7ba417a060e60dff738ae ;
+    ossps:P113 "ele=480" .
+
+osss:Q157-F8D5E872-2819-5A28-8AE9-1EC02DD9AA9B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:a18f2d9381e5a2206fb7ba417a060e60dff738ae
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/13556252331/history/1> .
+
+ossv:52f4e409c03318d2cd4d29435a11f833
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "45.6925918"^^xsd:double ;
+    wikibase:geoLongitude "13.8916797"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

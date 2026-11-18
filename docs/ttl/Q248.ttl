@@ -1,0 +1,225 @@
+# Q248: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q248.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 5459800715)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5459800715)"@de ;
+    dcterms:identifier "Q248" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q248 ;
+    dcterms:title "Grotte du Père Noël"@de,
+        "Grotte du Père Noël"@en ;
+    schema:about oss:Q248 ;
+    dcat:distribution ossdist:Q248-html,
+        ossdist:Q248-json,
+        ossdist:Q248-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q248.html> .
+
+ossdist:Q248-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q248, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q248.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q248-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q248, as archived from the Wikibase API"@en ;
+    dcat:byteSize "12436"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q248.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q248-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q248, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q248.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q248
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 5459800715)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5459800715)"@de ;
+    schema:name "Grotte du Père Noël"@de,
+        "Grotte du Père Noël"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q248-1597622A-94F6-58C3-A101-FC735E4DEE93 ;
+    geo:hasGeometry osss:Q248-1597622A-94F6-58C3-A101-FC735E4DEE93 ;
+    rdfs:label "Grotte du Père Noël"@de,
+        "Grotte du Père Noël"@en ;
+    skos:prefLabel "Grotte du Père Noël"@de,
+        "Grotte du Père Noël"@en ;
+    ossp:P2 osss:Q248-80B5ECF8-CB35-5CF0-93F0-C374B38F316E ;
+    ossp:P100 osss:Q248-38B28CE1-385C-5194-8F24-00430CA6D24B ;
+    ossp:P101 osss:Q248-F78B1EF8-BC15-53F4-92B4-ACC3FE3C4EDF ;
+    ossp:P107 osss:Q248-F7DDD83C-E732-534F-86A4-7062910E0CBD ;
+    ossp:P110 osss:Q248-E7C25357-7A5C-543C-BDE6-03490285044D ;
+    ossp:P111 osss:Q248-1597622A-94F6-58C3-A101-FC735E4DEE93 ;
+    ossp:P113 osss:Q248-8F7CB00A-F950-5144-925A-42A526D1804B,
+        osss:Q248-4581E3DD-1B60-5FB5-AD80-22D5CE780012,
+        osss:Q248-5090F138-7713-580B-AB2C-91760D176F6A,
+        osss:Q248-7143C2F6-813F-54FF-BBAC-4ACDD0435530,
+        osss:Q248-F5A0BB81-1678-5B00-977D-635A442C7F2B,
+        osss:Q248-F2636318-E759-5A43-9E0C-C17A42BE0AA9 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/5459800715> ;
+    osst:P101 <https://www.openstreetmap.org/node/5459800715/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/5459800715/history/1> ;
+    osst:P110 "Point(5.1966213 50.1113014)"^^geo:wktLiteral ;
+    osst:P111 "POINT(5.1966213 50.1113014)" ;
+    osst:P113 "access=private",
+        "barrier=gate",
+        "cave:length=2115",
+        "cave:ref=592-070a",
+        "name=Grotte du Père Noël",
+        "natural=cave_entrance" .
+
+osss:Q248-8F7CB00A-F950-5144-925A-42A526D1804B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P113 "barrier=gate" .
+
+osss:Q248-38B28CE1-385C-5194-8F24-00430CA6D24B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/5459800715> .
+
+osss:Q248-80B5ECF8-CB35-5CF0-93F0-C374B38F316E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q248-4581E3DD-1B60-5FB5-AD80-22D5CE780012
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P113 "cave:ref=592-070a" .
+
+osss:Q248-5090F138-7713-580B-AB2C-91760D176F6A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P113 "cave:length=2115" .
+
+osss:Q248-7143C2F6-813F-54FF-BBAC-4ACDD0435530
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q248-1597622A-94F6-58C3-A101-FC735E4DEE93
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(5.1966213 50.1113014)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-03-06T17:47:03Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(5.1966213 50.1113014)" .
+
+osss:Q248-E7C25357-7A5C-543C-BDE6-03490285044D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P110 "Point(5.1966213 50.1113014)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:917a3346b868e0a929265604d92cf34b .
+
+osss:Q248-F5A0BB81-1678-5B00-977D-635A442C7F2B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P113 "name=Grotte du Père Noël" .
+
+osss:Q248-F7DDD83C-E732-534F-86A4-7062910E0CBD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/5459800715/history/1> .
+
+osss:Q248-F78B1EF8-BC15-53F4-92B4-ACC3FE3C4EDF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-03-06T17:47:03Z" ;
+    osspq:P104 "56942707" ;
+    osspq:P105 "Jean-Louis Stanus" ;
+    osspq:P106 "116840" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/5459800715/history/1> .
+
+osss:Q248-F2636318-E759-5A43-9E0C-C17A42BE0AA9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:954945c6e6bc241deaae5652e6496210362745bb ;
+    ossps:P113 "access=private" .
+
+ossref:954945c6e6bc241deaae5652e6496210362745bb
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/5459800715/history/1> .
+
+ossv:917a3346b868e0a929265604d92cf34b
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "50.1113014"^^xsd:double ;
+    wikibase:geoLongitude "5.1966213"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

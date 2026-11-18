@@ -1,6 +1,6 @@
 # PRIMER — osm-sisal-static
 
-Arbeitsplan für `n4o-rse/osm-sisal-static` (Repo-Name: Vorschlag 2026-11-01). Wird zu Beginn jedes Chats hochgeladen (Bundle, siehe A5) und am Ende zurückgeschrieben. Stand: 2026-11-01 (S0: Festlegungen, Befunde; S1: Skeleton; S2: Modell aus `osm-benchmarks-static`).
+Arbeitsplan für `n4o-rse/osm-sisal-static` (Repo-Name: Vorschlag 2026-11-01). Wird zu Beginn jedes Chats hochgeladen (Bundle, siehe A5) und am Ende zurückgeschrieben. Stand: 2026-11-18 (S0 bis S2 eingespielt, S4 Rohdaten geerntet, S5 geprüft, S6 gebaut; S3 offen im Paket, S7 danach).
 
 Sprache: dieses Dokument ist deutsch, alles andere im Repo (Code, Kommentare, README) ist britisches Englisch.
 
@@ -31,6 +31,7 @@ Nicht neu zu bauen: das Modell (P100 bis P113), `import-osm`, Seiten, RDF, SPARQ
 6. **Paket v0.24.1, Grenzen** (im Quelltext geprüft, `step_import_osm.py`): der Auswahlname ist `benchmarks`, solange `--selection` fehlt (hier setzt `main.py` `--selection sisal` selbst, siehe unten); die Beschreibungswörter sind fest („Benchmark“/„Höhenmarke“ als Rückfall), Höhlen würden als „Benchmark (OpenStreetMap node …)“ beschrieben (S3); `crm:E26` fehlt in der Klassentabelle des Pakets (nur ein Eintrag ohne Oberklasse).
 7. **Umfang des Harvests.** 221 Anfragen nach 219 vorhandenen Elementen, mit 100 je Lauf mindestens 3 Läufe. Keine Ways, keine Stützpunkte. Overpass und die OSM-API sind aus der Sandbox dieses Chats nicht erreichbar (geprüft 2026-11-01); der Harvest läuft bei Flo.
 8. **Skeleton ohne Daten** (geprüft 2026-11-01 mit `wikibase-static` v0.24.1): `python main.py --strict` läuft mit den Modelldateien (4 Klassen: Q1 bis Q3 und Q100; 24 Properties, 60 Statements) zweimal mit Exit-Code 0 durch; nach dem Einchecken von `data/derived/`, `dist/` und `docs/` ist `git status` leer, auch nach einem dritten Lauf. `check-crm` meldet 0 Verstöße, `check_attribution.py` findet „OpenStreetMap contributors“ in 63 Dateien. Anders als bei den Benchmarks in S1 (ohne Modell: „nothing to do“) erzeugt der Lauf also schon Seiten für die Modell-Entitäten. Ohne `queries.yaml` scheitert `--strict` an der Standardabfrage `coordinates` (keine Zeilen, WARN): `requires: [globe-coordinate]` prüft den Datentyp der Property P110, nicht ob es Statements gibt. Deshalb liegt eine vorläufige `queries.yaml` (Standardsatz ohne `coordinates`) im Repo, die mit dem ersten Harvest gelöscht wird.
+8. **Erstharvest und Rohdaten (S4, geerntet 2026-11-18, bei Flo).** Overpass-Stand 2026-11-18: 220 Elemente (220 Nodes), 679 Version-Statements, 186 mit `name`, 64 mit `wikidata`. Zwei IDs der Liste (13581390702 und 13586189099) fehlten im Lauf vom März, sind aber inzwischen in der Antwort; dafür fehlt Node **4153268605**, der sehr wahrscheinlich seit März in OpenStreetMap gelöscht wurde (eine Abfrage `node(id)` liefert gelöschte Nodes nicht). Die ID-Liste (221) bleibt unverändert; die Antwort hat 220 Elemente. Alle tragen `natural=cave_entrance`. Bei 13 Elementen ist `wikimedia_commons` eine Kategorie statt einer Datei; der Importer meldet „not imported“, und der Tag geht dabei verloren (er wird weder als Bild noch als `tag` gespeichert). Die Rohdaten liegen committet unter `data/raw/osm/` (Commit 3708580); der Import in die Tabellen läuft offline (`python main.py import-osm --offline`, ersetzt alle Zeilen mit `origin=osm`) und wartet auf S3. Das zweite Mal `import-osm` stellt nur noch die Overpass-Anfrage.
 
 ---
 
@@ -57,7 +58,7 @@ Eine QID je OSM-Element, die Versionen als Statements daran; das Beispiel mit de
 Die Ergebnisse müssen diese Eigenschaften haben, jede ist prüfbar:
 
 1. Jedes Element hat genau eine QID; es gibt keine Versions-Items.
-2. Zahl der OSM-Version-Statements je Element = Zahl der Versionen in der API-History.
+2. Zahl der OSM-Version-Statements je Element = Zahl der Versionen in der API-History (Versionen ohne Position, also Löschungen, ausgenommen).
 3. Jede QID ist über `data/crm.csv` auf eine CRM-Klasse verankert; `check-crm` meldet keinen Verstoß.
 4. Das RDF enthält kein `owl:sameAs` auf OpenStreetMap; die Statement- und Wert-IRIs sind reine Bezeichner im eigenen Namensraum.
 5. Zweimal laufen lassen ändert nichts (`git status` leer); ein zweiter Harvest ohne Änderung bei OSM stellt nur die Overpass-Anfrage.
@@ -125,12 +126,12 @@ Alles `geplant`, bis die erste Veröffentlichung die Basis festlegt. Vorschlag: 
 | ID | Schritt | Repo | hängt ab von | Status |
 |---|---|---|---|---|
 | S0 | Festlegungen, Abfrage aus osm2lod, Befunde | osm-sisal-static | – | erledigt 2026-11-01 |
-| S1 | Skeleton: Layout, `main.py`, `site.yaml`, `requirements.txt`, Lizenz, Citation, Workflow-Aufrufer, `update.cmd`, Logo | osm-sisal-static | S0 | gebaut 2026-11-01 (Patch-ZIP; Einspielen offen) |
-| S2 | Modell: Klasse „Cave“, Properties P100 bis P113, `data/crm.csv`, Mapping-Datei, Seeds | osm-sisal-static | S1 | gebaut 2026-11-01 (Patch-ZIP; Einspielen offen) |
+| S1 | Skeleton: Layout, `main.py`, `site.yaml`, `requirements.txt`, Lizenz, Citation, Workflow-Aufrufer, `update.cmd`, Logo | osm-sisal-static | S0 | erledigt 2026-11-18 (Commit d4664c9) |
+| S2 | Modell: Klasse „Cave“, Properties P100 bis P113, `data/crm.csv`, Mapping-Datei, Seeds | osm-sisal-static | S1 | erledigt 2026-11-18 (Commit d4664c9) |
 | S3 | Paket 0.25.0: Beschreibungswörter je Klasse statt der festen Tabelle, `crm:E26` in der Klassentabelle (gemeinsam für alle drei neuen Site-Repos) | wikibase-static | S2 | offen |
-| S4 | Erstharvest: 221 Node-IDs, Overpass, Historien, Import, Seiten, RDF, `check-crm` | osm-sisal-static | S3 | offen |
+| S4 | Erstharvest: 221 Node-IDs, Overpass, Historien, Import, Seiten, RDF, `check-crm` | osm-sisal-static | S3 | Rohdaten erledigt 2026-11-18 (Commit 3708580); Import wartet auf S3 |
 | S5 | SISAL-Verknüpfung: Property „SISAL-Standort“ (ID, Name, Entfernung der Zuordnung) aus den Zuordnungsdateien; vorher klären, welche Zuordnung gilt (Befund 4) | osm-sisal-static | S4 | offen |
-| S6 | Standardabfragen (`queries.yaml`): Versionen je Element, Eintrittsversion, SISAL-Standorte ohne und mit Höhle, Wikidata | osm-sisal-static | S5 | offen |
+| S6 | Standardabfragen (`queries.yaml`): Versionen je Element, Eintrittsversion, SISAL-Standorte ohne und mit Höhle, Wikidata | osm-sisal-static | S5 | gebaut 2026-11-18 (Patch); SISAL-Standorte nach S5 |
 | S7 | Pages-Workflow scharf (`deploy` an, `check_attribution.py`), ODbL-Hinweis, CI mit `--strict` zweimal | osm-sisal-static | S4 | offen |
 
 S1 und S2 sind in einem Patch. S3 gilt gleichzeitig für `osm-holywells-static` und `osm-ogham-static`: der Paket-Chat macht alles in einem Zug. S4 braucht S3 nur für die Beschreibungen und `crm:E26`; der Harvest selbst läuft mit dem Paket 0.24.1, nur mit falschen Beschreibungen (nicht committen). S5 hängt an der Klärung der Zuordnung, nicht an Technik.
@@ -155,7 +156,9 @@ Gebaut: Dateien wie `osm-benchmarks-static` (`main.py`, `requirements.txt` auf v
 
 ### S3 — Paket 0.25.0
 
-Der Auftrag an das Paket steht ausführlich im PRIMER von `osm-holywells-static` (S3). Für dieses Repo zählen davon zwei Punkte: die Beschreibungswörter je Klasse („Cave“/„Höhle“ statt „Benchmark“/„Höhenmarke“) und `crm:E26` in der Klassentabelle. **Abnahme:** ein Probe-Element (ein Höhleneingang) bekommt die Beschreibung „Cave entrance (OpenStreetMap node …)“ bzw. „Höhleneingang (OpenStreetMap-Node …)“ (Wortlaut im Paket-Chat festlegen); `check-crm` ohne Verstoß mit `crm:E26`.
+Der Auftrag an das Paket steht ausführlich im PRIMER von `osm-holywells-static` (S3). Für dieses Repo zählen davon zwei Punkte: die Beschreibungswörter je Klasse („Cave“/„Höhle“ statt „Benchmark“/„Höhenmarke“) und `crm:E26` in der Klassentabelle. Aus dem Harvest 2026-11-18 kommen zwei Wünsche dazu: (c) `wikimedia_commons` mit einer Kategorie nicht verlieren (13 Elemente hier), (d) Löschversionen (Versionen ohne Position) benennen statt nur zu melden. Beides darf auch später kommen; die Rohdaten liegen committet, der Import läuft offline neu.
+
+**Abnahme:** ein Probe-Element (ein Höhleneingang) bekommt die Beschreibung „Cave entrance (OpenStreetMap node …)“ bzw. „Höhleneingang (OpenStreetMap-Node …)“ (Wortlaut im Paket-Chat festlegen); `check-crm` ohne Verstoß mit `crm:E26`.
 
 ### S4 — Erstharvest
 
@@ -165,12 +168,18 @@ Der Auftrag an das Paket steht ausführlich im PRIMER von `osm-holywells-static`
 
 Inhalt: `python main.py import-osm --probe --contact <Adresse>` zuerst; dann `python main.py import-osm --contact <Adresse>` (drei Läufe wegen `--limit 100`), danach `python main.py --strict` zweimal. Elemente, die Overpass nicht liefert (Befund 2), bleiben ohne Item; ihre IDs werden im PRIMER notiert.
 
-**Abnahme:** 219 Items (oder die Zahl der heutigen Overpass-Antwort), Zahl der Version-Statements je Element = Zahl der Versionen der API-History (Summe 649 am 2026-03-28, heute gleich oder höher), `check-crm` ohne Verstoß, zweiter Lauf ändert nichts.
+**Abnahme:** 219 Items (oder die Zahl der heutigen Overpass-Antwort), Zahl der Version-Statements je Element = Zahl der Versionen der API-History (Versionen ohne Position, also Löschungen, ausgenommen; der Importer meldet sie) (Summe 649 am 2026-03-28, heute gleich oder höher), `check-crm` ohne Verstoß, zweiter Lauf ändert nichts.
 
 ### S5 bis S7
 
 - **S5** Die SISAL-Verknüpfung braucht zuerst die Antwort auf die Frage in Teil D (welche Zuordnung gilt). Danach: eine Property „SISAL-Standort“ (ID, `external-id`; Formatter-URL offen) mit Qualifiern für den Namen des Standorts und die Entfernung in km, Quelle als Seed unter `data/seeds/`; Abnahme: jeder zugeordnete Standort steht an genau einem Item, ein Node mit mehreren Standorten (11 in `sisal_osm_matches.csv`) an mehreren Statements.
 - **S6** Abfragen und **S7** Veröffentlichung wie bei `osm-benchmarks-static` (dort S7 und S8): `deploy: false` entfernen und `&& python check_attribution.py` im Aufrufer ergänzen.
+
+### Erledigt 2026-11-18 (S4 Rohdaten, S5 Geometrie, S6 Abfragen)
+
+- **S4:** Rohdaten geerntet und committet (Commit 3708580), Befund 8. Der Import wartet auf S3.
+- **S5:** Hier nicht nötig (nur Nodes); die SISAL-Verknüpfung bleibt offen (Befund 4).
+- **S6:** `queries.yaml` ersetzt die vorläufige Datei: die Abfragen der Benchmarks mit dem Präfix `oss` und diese Abfragen für die Site: Versionen je Element, Eintrittsversion, Änderungen seit einem Datum, Benutzer mit den meisten Versionen, Position zu einem Zeitpunkt, Elemente mit Wikidata-Item, Elemente mit einem bestimmten Tag, dazu die allgemeinen Abfragen des Pakets. Jede Abfrage liefert mindestens eine Zeile (sonst bricht `--strict` ab); getestet mit `wikibase-static` v0.28.0. Die Abfragen zu den SISAL-Standorten (ohne und mit Höhle) fehlen, bis S5 geklärt ist; `osm-moved` fehlt, weil die Höhlen über die ganze Welt verteilt sind (der Faktor für die Länge eines Längengrads gilt nur für einen Breitengrad).
 
 ---
 
@@ -183,3 +192,11 @@ Inhalt: `python main.py import-osm --probe --contact <Adresse>` zuerst; dann `py
 - **Zwei fehlende IDs (Befund 2):** 13581390702 und 13586189099 liefern im Lauf 2026-03-28 nichts. Beim Erstharvest prüfen (gelöscht? noch nicht sichtbar?), dann in A1 nachtragen.
 - **Eintrittsregel:** `natural=cave_entrance` kann in einer frühen Version gefehlt haben; der Eintrittsmarker zeigt dann die spätere Version. Zu prüfen in S4.
 - **Netz:** `import-osm` ist hier noch nicht gelaufen; beim ersten Lauf `--contact` setzen und die Pause prüfen.
+
+**Dazugekommen 2026-11-18 (Harvest):**
+
+- **Commons-Kategorien:** 13 Elemente haben unter `wikimedia_commons` eine Kategorie; sie gehen heute verloren. Im Paket (S3 oder danach) als `tag` oder eigene Property erhalten?
+- **Löschversionen:** Versionen ohne Position (Löschungen) übergeht der Importer; die Zahl der Version-Statements ist dann kleiner als die der API-Versionen. Die Abnahmeregel von S4 nimmt sie aus; offen, ob sie ein eigenes Statement bekommen sollen (S3 oder danach).
+- **Gelöschter Node 4153268605:** nicht in der Overpass-Antwort; `python main.py import-osm --element node/4153268605` holt seine Historie einzeln. Der Importer kennt aber keinen Austritt für gelöschte Elemente; mit der Frage der Löschversionen klären.
+- **Zuordnung SISAL-Standort → OSM-Node** (Befund 4) bleibt offen und blockiert S5.
+- **Veröffentlichung (S7):** erst nach S3 und dem Rollout, weil die Beschreibungen sonst „Benchmark …“ lauten: in `.github/workflows/site.yml` `deploy: false` durch `deploy: true` ersetzen und `&& python check_attribution.py` an den Befehl hängen (siehe PATCH-README).

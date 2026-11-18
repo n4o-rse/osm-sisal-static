@@ -1,0 +1,271 @@
+# Q196: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q196.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3294134845)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3294134845)"@de ;
+    dcterms:identifier "Q196" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q196 ;
+    dcterms:title "Pha Tok Cave"@de,
+        "Pha Tok Cave"@en ;
+    schema:about oss:Q196 ;
+    dcat:distribution ossdist:Q196-html,
+        ossdist:Q196-json,
+        ossdist:Q196-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q196.html> .
+
+ossdist:Q196-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q196, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q196.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q196-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q196, as archived from the Wikibase API"@en ;
+    dcat:byteSize "17719"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q196.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q196-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q196, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q196.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q196
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3294134845)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3294134845)"@de ;
+    schema:name "Pha Tok Cave"@de,
+        "Pha Tok Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q196-46C95EFE-F192-5BF9-BC68-AD1909012D8F ;
+    geo:hasGeometry osss:Q196-46C95EFE-F192-5BF9-BC68-AD1909012D8F ;
+    rdfs:label "Pha Tok Cave"@de,
+        "Pha Tok Cave"@en ;
+    skos:prefLabel "Pha Tok Cave"@de,
+        "Pha Tok Cave"@en ;
+    ossp:P2 osss:Q196-DEC55108-4717-5AE2-A75B-4F2E35C1A0DC ;
+    ossp:P100 osss:Q196-ECE9111F-2373-5A0B-8E7A-8F1D74E765D4 ;
+    ossp:P101 osss:Q196-0FC9841F-F6D4-5F97-BFB7-179A529FAFB3,
+        osss:Q196-49A3B25F-2363-5AC4-B2F2-A08A6C376739,
+        osss:Q196-EBF3978E-3A73-5810-95BF-B99A1B4320CF,
+        osss:Q196-FFF4BB63-50CE-5D6C-B1FC-650A464DC5CF ;
+    ossp:P107 osss:Q196-2673A288-34E0-58F7-8188-1EE8B1E336B9 ;
+    ossp:P110 osss:Q196-C71F2544-5D88-5731-B71C-55E46A40306A ;
+    ossp:P111 osss:Q196-46C95EFE-F192-5BF9-BC68-AD1909012D8F ;
+    ossp:P113 osss:Q196-4D816E63-2C22-5368-9839-9381DB5F855E,
+        osss:Q196-49EA2FE5-7F9C-5107-BBAB-8CC97FEFC4AA,
+        osss:Q196-2545A9DE-7E78-54E6-8357-9C673BA29954,
+        osss:Q196-8355620D-A130-54D1-86FF-879E6033F20F,
+        osss:Q196-FA2750EB-01C3-5F89-9524-0C84F031E766 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3294134845> ;
+    osst:P101 <https://www.openstreetmap.org/node/3294134845/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/3294134845/history/1> ;
+    osst:P110 "Point(102.6295286 20.5531829)"^^geo:wktLiteral ;
+    osst:P111 "POINT(102.6295286 20.5531829)" ;
+    osst:P113 "alt_name=Tham Phatok",
+        "charge=20000 LAK",
+        "fee=yes",
+        "name=Pha Tok Cave",
+        "natural=cave_entrance" .
+
+osss:Q196-0FC9841F-F6D4-5F97-BFB7-179A529FAFB3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2018-04-21T15:14:37Z" ;
+    osspq:P104 "58292453" ;
+    osspq:P105 "mbethke" ;
+    osspq:P106 "248338" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3294134845/history/3> .
+
+osss:Q196-4D816E63-2C22-5368-9839-9381DB5F855E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d ;
+    ossps:P113 "name=Pha Tok Cave" .
+
+osss:Q196-46C95EFE-F192-5BF9-BC68-AD1909012D8F
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(102.6295286 20.5531829)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:4bb6a63564badcbc0bae482b95f337d0e138b158 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-01-17T08:59:39Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(102.6295286 20.5531829)" .
+
+osss:Q196-49A3B25F-2363-5AC4-B2F2-A08A6C376739
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-03-30T09:15:39Z" ;
+    osspq:P104 "57655444" ;
+    osspq:P105 "mbethke" ;
+    osspq:P106 "248338" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3294134845/history/2> .
+
+osss:Q196-49EA2FE5-7F9C-5107-BBAB-8CC97FEFC4AA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d ;
+    ossps:P113 "charge=20000 LAK" .
+
+osss:Q196-2545A9DE-7E78-54E6-8357-9C673BA29954
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q196-2673A288-34E0-58F7-8188-1EE8B1E336B9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3294134845/history/1> .
+
+osss:Q196-8355620D-A130-54D1-86FF-879E6033F20F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d ;
+    ossps:P113 "alt_name=Tham Phatok" .
+
+osss:Q196-C71F2544-5D88-5731-B71C-55E46A40306A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d ;
+    ossps:P110 "Point(102.6295286 20.5531829)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:d6d08243813c9ec38fe5e43e621cc40d .
+
+osss:Q196-DEC55108-4717-5AE2-A75B-4F2E35C1A0DC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q196-EBF3978E-3A73-5810-95BF-B99A1B4320CF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-01-17T08:59:39Z" ;
+    osspq:P104 "28203275" ;
+    osspq:P105 "danontour" ;
+    osspq:P106 "1669912" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3294134845/history/1> .
+
+osss:Q196-ECE9111F-2373-5A0B-8E7A-8F1D74E765D4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3294134845> .
+
+osss:Q196-FA2750EB-01C3-5F89-9524-0C84F031E766
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d ;
+    ossps:P113 "fee=yes" .
+
+osss:Q196-FFF4BB63-50CE-5D6C-B1FC-650A464DC5CF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2026-01-13T07:17:40Z" ;
+    osspq:P104 "177166107" ;
+    osspq:P105 "Gina Banyard" ;
+    osspq:P106 "7553380" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/3294134845/history/4> .
+
+ossref:4bb6a63564badcbc0bae482b95f337d0e138b158
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3294134845/history/1> .
+
+ossref:9201082a147dbb36e2e2c4dbed60e0405cd8351d
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3294134845/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d6d08243813c9ec38fe5e43e621cc40d
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "20.5531829"^^xsd:double ;
+    wikibase:geoLongitude "102.6295286"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

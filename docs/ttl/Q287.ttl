@@ -1,0 +1,280 @@
+# Q287: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q287.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 7746558018)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7746558018)"@de ;
+    dcterms:identifier "Q287" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q287 ;
+    dcterms:title "Peștera Lenuța"@de,
+        "Peștera Lenuța"@en ;
+    schema:about oss:Q287 ;
+    dcat:distribution ossdist:Q287-html,
+        ossdist:Q287-json,
+        ossdist:Q287-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q287.html> .
+
+ossdist:Q287-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q287, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q287.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q287-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q287, as archived from the Wikibase API"@en ;
+    dcat:byteSize "18825"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q287.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q287-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q287, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q287.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q287
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 7746558018)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7746558018)"@de ;
+    schema:name "Peștera Lenuța"@de,
+        "Peștera Lenuța"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q287-E8FBBD79-0021-5759-9157-74958F01F5A2 ;
+    geo:hasGeometry osss:Q287-4D221A1C-9705-5EC8-888C-14DC1F52E7F7,
+        osss:Q287-E8FBBD79-0021-5759-9157-74958F01F5A2 ;
+    rdfs:label "Peștera Lenuța"@de,
+        "Peștera Lenuța"@en ;
+    skos:prefLabel "Peștera Lenuța"@de,
+        "Peștera Lenuța"@en ;
+    ossp:P2 osss:Q287-D0D06B70-A3F5-551E-A5BF-29657E754453 ;
+    ossp:P100 osss:Q287-1ED61AC5-6153-5261-ACBB-E4E53F74047D ;
+    ossp:P101 osss:Q287-03BB6BA0-0CF0-5ED2-9A25-443C0F22C536,
+        osss:Q287-10DA7E15-4F8A-57BF-9503-B896D37D1086,
+        osss:Q287-26C3BD0E-6A76-5888-9339-A6BABA94A4BD,
+        osss:Q287-98EAB752-632A-5C1C-AFAB-21A186915092,
+        osss:Q287-B0DD8292-95D3-55C7-9C30-992D80355D1B ;
+    ossp:P107 osss:Q287-2B28C437-FB4C-500B-8EC6-28DEBF71E45F ;
+    ossp:P110 osss:Q287-5ED2E97E-DAEE-5EF6-B6E5-51313D788E6F ;
+    ossp:P111 osss:Q287-4D221A1C-9705-5EC8-888C-14DC1F52E7F7,
+        osss:Q287-E8FBBD79-0021-5759-9157-74958F01F5A2 ;
+    ossp:P113 osss:Q287-7AB7E793-372E-5530-ACD0-4858B48EB2EB,
+        osss:Q287-F53089BA-B640-5EFA-B54B-129A9E391B9A ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/7746558018> ;
+    osst:P101 <https://www.openstreetmap.org/node/7746558018/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/7746558018/history/1> ;
+    osst:P110 "Point(21.7748101 45.0241883)"^^geo:wktLiteral ;
+    osst:P111 "POINT(21.7748101 45.0241883)",
+        "POINT(21.7749764 45.0240455)" ;
+    osst:P113 "name=Peștera Lenuța",
+        "natural=cave_entrance" .
+
+osss:Q287-1ED61AC5-6153-5261-ACBB-E4E53F74047D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/7746558018> .
+
+osss:Q287-2B28C437-FB4C-500B-8EC6-28DEBF71E45F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/7746558018/history/1> .
+
+osss:Q287-03BB6BA0-0CF0-5ED2-9A25-443C0F22C536
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2025-11-07T10:23:03Z" ;
+    osspq:P104 "174326332" ;
+    osspq:P105 "baditaflorin" ;
+    osspq:P106 "398300" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/7746558018/history/4> .
+
+osss:Q287-4D221A1C-9705-5EC8-888C-14DC1F52E7F7
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(21.7749764 45.0240455)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:d74a172fbcbd8d9bcf74b91cbd5ba286e32600cd ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-07-25T12:47:19Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(21.7749764 45.0240455)" .
+
+osss:Q287-5ED2E97E-DAEE-5EF6-B6E5-51313D788E6F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:90eed3f6ffe57390390edeadc52e0ab3f2a045ab ;
+    ossps:P110 "Point(21.7748101 45.0241883)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:eea019e945c4c37c0bf127d37cd2cc5c .
+
+osss:Q287-7AB7E793-372E-5530-ACD0-4858B48EB2EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:90eed3f6ffe57390390edeadc52e0ab3f2a045ab ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q287-10DA7E15-4F8A-57BF-9503-B896D37D1086
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-07-25T12:47:19Z" ;
+    osspq:P104 "88494711" ;
+    osspq:P105 "ghitaiancu" ;
+    osspq:P106 "8885295" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7746558018/history/1> .
+
+osss:Q287-26C3BD0E-6A76-5888-9339-A6BABA94A4BD
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-09-06T08:23:38Z" ;
+    osspq:P104 "110786161" ;
+    osspq:P105 "ghitaiancu" ;
+    osspq:P106 "8885295" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/7746558018/history/2> .
+
+osss:Q287-98EAB752-632A-5C1C-AFAB-21A186915092
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2025-11-08T13:17:26Z" ;
+    osspq:P104 "174375844" ;
+    osspq:P105 "SomeoneElse_Revert" ;
+    osspq:P106 "1778799" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/7746558018/history/5> .
+
+osss:Q287-B0DD8292-95D3-55C7-9C30-992D80355D1B
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2023-11-27T13:17:16Z" ;
+    osspq:P104 "144507893" ;
+    osspq:P105 "lawrencebanks" ;
+    osspq:P106 "3829221" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7746558018/history/3> .
+
+osss:Q287-D0D06B70-A3F5-551E-A5BF-29657E754453
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q287-E8FBBD79-0021-5759-9157-74958F01F5A2
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(21.7748101 45.0241883)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:27677d79ae1ac48138b2a3353be3c7eea01da2ac ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-09-06T08:23:38Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(21.7748101 45.0241883)" .
+
+osss:Q287-F53089BA-B640-5EFA-B54B-129A9E391B9A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:90eed3f6ffe57390390edeadc52e0ab3f2a045ab ;
+    ossps:P113 "name=Peștera Lenuța" .
+
+ossref:90eed3f6ffe57390390edeadc52e0ab3f2a045ab
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7746558018/history/5> .
+
+ossref:27677d79ae1ac48138b2a3353be3c7eea01da2ac
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7746558018/history/2> .
+
+ossref:d74a172fbcbd8d9bcf74b91cbd5ba286e32600cd
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7746558018/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:eea019e945c4c37c0bf127d37cd2cc5c
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "45.0241883"^^xsd:double ;
+    wikibase:geoLongitude "21.7748101"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

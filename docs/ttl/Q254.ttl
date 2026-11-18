@@ -1,0 +1,189 @@
+# Q254: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q254.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 5677995348)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5677995348)"@de ;
+    dcterms:identifier "Q254" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q254 ;
+    dcterms:title "Кек-Таш"@de,
+        "Кек-Таш"@en ;
+    schema:about oss:Q254 ;
+    dcat:distribution ossdist:Q254-html,
+        ossdist:Q254-json,
+        ossdist:Q254-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q254.html> .
+
+ossdist:Q254-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q254, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q254.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q254-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q254, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8868"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q254.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q254-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q254, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q254.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q254
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 5677995348)"@en,
+        "Höhenmarke (OpenStreetMap-Node 5677995348)"@de ;
+    schema:name "Кек-Таш"@de,
+        "Кек-Таш"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q254-F4235919-041C-580C-8011-C295D0B05447 ;
+    geo:hasGeometry osss:Q254-F4235919-041C-580C-8011-C295D0B05447 ;
+    rdfs:label "Кек-Таш"@de,
+        "Кек-Таш"@en ;
+    skos:prefLabel "Кек-Таш"@de,
+        "Кек-Таш"@en ;
+    ossp:P2 osss:Q254-208C349D-736E-5489-A591-63EDA832F9CD ;
+    ossp:P100 osss:Q254-2D602FF7-D23D-53D2-BA6A-CEDFCCA29E7F ;
+    ossp:P101 osss:Q254-70516ED7-76DC-517B-A2C5-19D5FE91690E ;
+    ossp:P107 osss:Q254-23C7B5C3-AB9B-5DBE-A908-2828A3C75C90 ;
+    ossp:P110 osss:Q254-976D136C-1D4E-5584-83CE-F5069FD7DFA2 ;
+    ossp:P111 osss:Q254-F4235919-041C-580C-8011-C295D0B05447 ;
+    ossp:P113 osss:Q254-7A6FA63E-ACDB-58A3-BAD7-B0B27B16D8FF,
+        osss:Q254-70FF964D-55ED-51B2-886E-4B09DBA3CD37 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/5677995348> ;
+    osst:P101 <https://www.openstreetmap.org/node/5677995348/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/5677995348/history/1> ;
+    osst:P110 "Point(85.6504065 51.7201694)"^^geo:wktLiteral ;
+    osst:P111 "POINT(85.6504065 51.7201694)" ;
+    osst:P113 "name=Кек-Таш",
+        "natural=cave_entrance" .
+
+osss:Q254-2D602FF7-D23D-53D2-BA6A-CEDFCCA29E7F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/5677995348> .
+
+osss:Q254-7A6FA63E-ACDB-58A3-BAD7-B0B27B16D8FF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:eb227771b7addd658b29af6d7bf5ffe7e7ac14b4 ;
+    ossps:P113 "name=Кек-Таш" .
+
+osss:Q254-23C7B5C3-AB9B-5DBE-A908-2828A3C75C90
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/5677995348/history/1> .
+
+osss:Q254-70FF964D-55ED-51B2-886E-4B09DBA3CD37
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:eb227771b7addd658b29af6d7bf5ffe7e7ac14b4 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q254-208C349D-736E-5489-A591-63EDA832F9CD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q254-976D136C-1D4E-5584-83CE-F5069FD7DFA2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:eb227771b7addd658b29af6d7bf5ffe7e7ac14b4 ;
+    ossps:P110 "Point(85.6504065 51.7201694)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:2717cab0a270f635e010ded2bc1bf37b .
+
+osss:Q254-70516ED7-76DC-517B-A2C5-19D5FE91690E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-06-09T14:53:47Z" ;
+    osspq:P104 "59692771" ;
+    osspq:P105 "Moreorless" ;
+    osspq:P106 "289224" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/5677995348/history/1> .
+
+osss:Q254-F4235919-041C-580C-8011-C295D0B05447
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(85.6504065 51.7201694)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:eb227771b7addd658b29af6d7bf5ffe7e7ac14b4 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2018-06-09T14:53:47Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(85.6504065 51.7201694)" .
+
+ossref:eb227771b7addd658b29af6d7bf5ffe7e7ac14b4
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/5677995348/history/1> .
+
+ossv:2717cab0a270f635e010ded2bc1bf37b
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.7201694"^^xsd:double ;
+    wikibase:geoLongitude "85.6504065"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

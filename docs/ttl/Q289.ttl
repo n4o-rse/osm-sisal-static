@@ -1,0 +1,189 @@
+# Q289: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q289.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 7807817048)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7807817048)"@de ;
+    dcterms:identifier "Q289" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q289 ;
+    dcterms:title "Cueva del Rio Shatuca"@de,
+        "Cueva del Rio Shatuca"@en ;
+    schema:about oss:Q289 ;
+    dcat:distribution ossdist:Q289-html,
+        ossdist:Q289-json,
+        ossdist:Q289-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q289.html> .
+
+ossdist:Q289-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q289, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q289.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q289-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q289, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8888"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q289.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q289-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q289, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q289.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q289
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 7807817048)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7807817048)"@de ;
+    schema:name "Cueva del Rio Shatuca"@de,
+        "Cueva del Rio Shatuca"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861 ;
+    geo:hasGeometry osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861 ;
+    rdfs:label "Cueva del Rio Shatuca"@de,
+        "Cueva del Rio Shatuca"@en ;
+    skos:prefLabel "Cueva del Rio Shatuca"@de,
+        "Cueva del Rio Shatuca"@en ;
+    ossp:P2 osss:Q289-14937816-F48C-5509-AD7F-84EEC2C90476 ;
+    ossp:P100 osss:Q289-E1DB77F7-FEC8-54F2-AB5A-3C8E1BF21CF9 ;
+    ossp:P101 osss:Q289-CF11987A-D049-5F76-A661-64C422669D41 ;
+    ossp:P107 osss:Q289-8285F0C5-3A98-5C70-A923-63427C6D633D ;
+    ossp:P110 osss:Q289-EC645DAA-7587-5790-ABE2-0FC83008CCEA ;
+    ossp:P111 osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861 ;
+    ossp:P113 osss:Q289-294B5C09-3BA5-5AA8-889C-5689B71BF602,
+        osss:Q289-D560D92C-4833-58A3-B157-EC4261E694B2 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/7807817048> ;
+    osst:P101 <https://www.openstreetmap.org/node/7807817048/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/7807817048/history/1> ;
+    osst:P110 "Point(-77.9012966 -5.701484)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-77.9012966 -5.701484)" ;
+    osst:P113 "name=Cueva del Rio Shatuca",
+        "natural=cave_entrance" .
+
+osss:Q289-5B0C10A7-B98C-549E-B352-169F94DE5861
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-77.9012966 -5.701484)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:86f605b06078adefce8a585272d3a985581646f4 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-08-12T21:09:37Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-77.9012966 -5.701484)" .
+
+osss:Q289-294B5C09-3BA5-5AA8-889C-5689B71BF602
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:86f605b06078adefce8a585272d3a985581646f4 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q289-8285F0C5-3A98-5C70-A923-63427C6D633D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/7807817048/history/1> .
+
+osss:Q289-14937816-F48C-5509-AD7F-84EEC2C90476
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q289-CF11987A-D049-5F76-A661-64C422669D41
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-08-12T21:09:37Z" ;
+    osspq:P104 "89322572" ;
+    osspq:P105 "devot" ;
+    osspq:P106 "2889303" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7807817048/history/1> .
+
+osss:Q289-D560D92C-4833-58A3-B157-EC4261E694B2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:86f605b06078adefce8a585272d3a985581646f4 ;
+    ossps:P113 "name=Cueva del Rio Shatuca" .
+
+osss:Q289-E1DB77F7-FEC8-54F2-AB5A-3C8E1BF21CF9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/7807817048> .
+
+osss:Q289-EC645DAA-7587-5790-ABE2-0FC83008CCEA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:86f605b06078adefce8a585272d3a985581646f4 ;
+    ossps:P110 "Point(-77.9012966 -5.701484)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:563473dfc2ef0eb06430a03a1d25d79e .
+
+ossref:86f605b06078adefce8a585272d3a985581646f4
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7807817048/history/1> .
+
+ossv:563473dfc2ef0eb06430a03a1d25d79e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-5.701484"^^xsd:double ;
+    wikibase:geoLongitude "-77.9012966"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

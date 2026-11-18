@@ -1,0 +1,225 @@
+# Q237: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q237.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 496887249)"@en,
+        "Höhenmarke (OpenStreetMap-Node 496887249)"@de ;
+    dcterms:identifier "Q237" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q237 ;
+    dcterms:title "Bierkeller Theophil Roniger"@de,
+        "Bierkeller Theophil Roniger"@en ;
+    schema:about oss:Q237 ;
+    dcat:distribution ossdist:Q237-html,
+        ossdist:Q237-json,
+        ossdist:Q237-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q237.html> .
+
+ossdist:Q237-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q237, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q237.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q237-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q237, as archived from the Wikibase API"@en ;
+    dcat:byteSize "12611"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q237.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q237-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q237, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q237.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q237
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 496887249)"@en,
+        "Höhenmarke (OpenStreetMap-Node 496887249)"@de ;
+    schema:name "Bierkeller Theophil Roniger"@de,
+        "Bierkeller Theophil Roniger"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q237-F46B1D43-2E61-5171-9BCA-8B22616CBCE0 ;
+    geo:hasGeometry osss:Q237-E084AD20-AA7C-596B-A489-A77D1151799D,
+        osss:Q237-F46B1D43-2E61-5171-9BCA-8B22616CBCE0 ;
+    rdfs:label "Bierkeller Theophil Roniger"@de,
+        "Bierkeller Theophil Roniger"@en ;
+    skos:prefLabel "Bierkeller Theophil Roniger"@de,
+        "Bierkeller Theophil Roniger"@en ;
+    ossp:P2 osss:Q237-3C3F0417-AB86-5BB1-89C0-4D952D468F6D ;
+    ossp:P100 osss:Q237-0552F325-2DD8-5E5A-B6D1-D072E387B261 ;
+    ossp:P101 osss:Q237-78C52795-215D-534C-910B-B6F279A10ED6,
+        osss:Q237-FDDC6E29-782A-55A8-A162-6D00AADF47E3 ;
+    ossp:P107 osss:Q237-72AAE748-9D7B-5EA2-B8D9-F88C302F9FE6 ;
+    ossp:P110 osss:Q237-DB23A316-1ED2-5FA8-97AE-C5DD23C9841F ;
+    ossp:P111 osss:Q237-E084AD20-AA7C-596B-A489-A77D1151799D,
+        osss:Q237-F46B1D43-2E61-5171-9BCA-8B22616CBCE0 ;
+    ossp:P113 osss:Q237-8592B3F4-35CD-50F3-B6B1-ED49BCD42692,
+        osss:Q237-BE71BBD1-69FD-5670-8295-C852E70FE82A ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/496887249> ;
+    osst:P101 <https://www.openstreetmap.org/node/496887249/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/496887249/history/1> ;
+    osst:P110 "Point(7.8033875 47.5352604)"^^geo:wktLiteral ;
+    osst:P111 "POINT(7.8033875 47.5352604)",
+        "POINT(7.8034329 47.5352861)" ;
+    osst:P113 "name=Bierkeller Theophil Roniger",
+        "natural=cave_entrance" .
+
+osss:Q237-3C3F0417-AB86-5BB1-89C0-4D952D468F6D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q237-72AAE748-9D7B-5EA2-B8D9-F88C302F9FE6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/496887249/history/1> .
+
+osss:Q237-78C52795-215D-534C-910B-B6F279A10ED6
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-09-15T09:19:55Z" ;
+    osspq:P104 "2489686" ;
+    osspq:P105 "kuede" ;
+    osspq:P106 "8296" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/496887249/history/1> .
+
+osss:Q237-0552F325-2DD8-5E5A-B6D1-D072E387B261
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/496887249> .
+
+osss:Q237-8592B3F4-35CD-50F3-B6B1-ED49BCD42692
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:cf4340c18f4afd9d756e2c27ceabbdf4b2f2e3a5 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q237-BE71BBD1-69FD-5670-8295-C852E70FE82A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:cf4340c18f4afd9d756e2c27ceabbdf4b2f2e3a5 ;
+    ossps:P113 "name=Bierkeller Theophil Roniger" .
+
+osss:Q237-DB23A316-1ED2-5FA8-97AE-C5DD23C9841F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:cf4340c18f4afd9d756e2c27ceabbdf4b2f2e3a5 ;
+    ossps:P110 "Point(7.8033875 47.5352604)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:d602a9be95764d798ddf2555c9fadae0 .
+
+osss:Q237-E084AD20-AA7C-596B-A489-A77D1151799D
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.8034329 47.5352861)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:cae06b4b7ae0b19bcb20c8a8ad647c287fa72968 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-09-15T09:19:55Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(7.8034329 47.5352861)" .
+
+osss:Q237-F46B1D43-2E61-5171-9BCA-8B22616CBCE0
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.8033875 47.5352604)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:cf4340c18f4afd9d756e2c27ceabbdf4b2f2e3a5 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2010-04-18T14:10:19Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(7.8033875 47.5352604)" .
+
+osss:Q237-FDDC6E29-782A-55A8-A162-6D00AADF47E3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2010-04-18T14:10:19Z" ;
+    osspq:P104 "4458262" ;
+    osspq:P105 "woessmich" ;
+    osspq:P106 "86889" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/496887249/history/2> .
+
+ossref:cae06b4b7ae0b19bcb20c8a8ad647c287fa72968
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/496887249/history/1> .
+
+ossref:cf4340c18f4afd9d756e2c27ceabbdf4b2f2e3a5
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/496887249/history/2> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:d602a9be95764d798ddf2555c9fadae0
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "47.5352604"^^xsd:double ;
+    wikibase:geoLongitude "7.8033875"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

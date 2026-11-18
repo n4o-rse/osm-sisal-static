@@ -1,0 +1,10 @@
+PREFIX ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/>
+PREFIX osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/>
+
+SELECT ?user (COUNT(?version) AS ?versions) (COUNT(DISTINCT ?item) AS ?elements) WHERE {
+  ?item ossp:P101 ?version .
+  ?version osspq:P105 ?user .
+}
+GROUP BY ?user
+ORDER BY DESC(?versions) ?user
+LIMIT 20

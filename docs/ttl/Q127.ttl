@@ -1,0 +1,189 @@
+# Q127: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q127.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 11443521790)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11443521790)"@de ;
+    dcterms:identifier "Q127" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q127 ;
+    dcterms:title "曼棍洞"@de,
+        "曼棍洞"@en ;
+    schema:about oss:Q127 ;
+    dcat:distribution ossdist:Q127-html,
+        ossdist:Q127-json,
+        ossdist:Q127-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q127.html> .
+
+ossdist:Q127-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q127, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q127.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q127-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q127, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8871"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q127.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q127-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q127, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q127.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q127
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 11443521790)"@en,
+        "Höhenmarke (OpenStreetMap-Node 11443521790)"@de ;
+    schema:name "曼棍洞"@de,
+        "曼棍洞"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q127-7B3D52DB-D3FF-50A3-A30D-BAFA1A9E3591 ;
+    geo:hasGeometry osss:Q127-7B3D52DB-D3FF-50A3-A30D-BAFA1A9E3591 ;
+    rdfs:label "曼棍洞"@de,
+        "曼棍洞"@en ;
+    skos:prefLabel "曼棍洞"@de,
+        "曼棍洞"@en ;
+    ossp:P2 osss:Q127-47B05CA1-1BBC-5B2E-8B51-54DC7CE79E99 ;
+    ossp:P100 osss:Q127-3C4346FC-A0CB-5C5B-ABDB-9CEF6D63FC87 ;
+    ossp:P101 osss:Q127-2C281916-25EB-5397-BEFB-F9F0B7F6412F ;
+    ossp:P107 osss:Q127-B79E506D-DE15-5ACF-8347-C55768E2DE2D ;
+    ossp:P110 osss:Q127-ABE32EFB-25DF-5A21-B7BF-AB010D5E439C ;
+    ossp:P111 osss:Q127-7B3D52DB-D3FF-50A3-A30D-BAFA1A9E3591 ;
+    ossp:P113 osss:Q127-99CE2350-BDC4-5FC1-B431-2EDEDAAECAC3,
+        osss:Q127-369B8EA9-8653-5D97-8B5E-EA8588D3AB5F ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/11443521790> ;
+    osst:P101 <https://www.openstreetmap.org/node/11443521790/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/11443521790/history/1> ;
+    osst:P110 "Point(104.8117351 22.966387)"^^geo:wktLiteral ;
+    osst:P111 "POINT(104.8117351 22.966387)" ;
+    osst:P113 "name=曼棍洞",
+        "natural=cave_entrance" .
+
+osss:Q127-2C281916-25EB-5397-BEFB-F9F0B7F6412F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2023-12-22T14:34:11Z" ;
+    osspq:P104 "145409123" ;
+    osspq:P105 "user_20663487" ;
+    osspq:P106 "20663487" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/11443521790/history/1> .
+
+osss:Q127-3C4346FC-A0CB-5C5B-ABDB-9CEF6D63FC87
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/11443521790> .
+
+osss:Q127-7B3D52DB-D3FF-50A3-A30D-BAFA1A9E3591
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(104.8117351 22.966387)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:bd21b843b2c730e65eb8f1731809f86011cc2374 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2023-12-22T14:34:11Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(104.8117351 22.966387)" .
+
+osss:Q127-47B05CA1-1BBC-5B2E-8B51-54DC7CE79E99
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q127-99CE2350-BDC4-5FC1-B431-2EDEDAAECAC3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:bd21b843b2c730e65eb8f1731809f86011cc2374 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q127-369B8EA9-8653-5D97-8B5E-EA8588D3AB5F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:bd21b843b2c730e65eb8f1731809f86011cc2374 ;
+    ossps:P113 "name=曼棍洞" .
+
+osss:Q127-ABE32EFB-25DF-5A21-B7BF-AB010D5E439C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:bd21b843b2c730e65eb8f1731809f86011cc2374 ;
+    ossps:P110 "Point(104.8117351 22.966387)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:4555401502eef22d17d023fbdf696d35 .
+
+osss:Q127-B79E506D-DE15-5ACF-8347-C55768E2DE2D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/11443521790/history/1> .
+
+ossref:bd21b843b2c730e65eb8f1731809f86011cc2374
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/11443521790/history/1> .
+
+ossv:4555401502eef22d17d023fbdf696d35
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "22.966387"^^xsd:double ;
+    wikibase:geoLongitude "104.8117351"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

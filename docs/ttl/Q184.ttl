@@ -1,0 +1,291 @@
+# Q184: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q184.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 278574320)"@en,
+        "Höhenmarke (OpenStreetMap-Node 278574320)"@de ;
+    dcterms:identifier "Q184" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q184 ;
+    dcterms:title "La Grotte Dagobert"@de,
+        "La Grotte Dagobert"@en ;
+    schema:about oss:Q184 ;
+    dcat:distribution ossdist:Q184-html,
+        ossdist:Q184-json,
+        ossdist:Q184-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q184.html> .
+
+ossdist:Q184-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q184, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q184.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q184-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q184, as archived from the Wikibase API"@en ;
+    dcat:byteSize "19263"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q184.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q184-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q184, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q184.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q184
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 278574320)"@en,
+        "Höhenmarke (OpenStreetMap-Node 278574320)"@de ;
+    schema:name "La Grotte Dagobert"@de,
+        "La Grotte Dagobert"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q184-37BCB282-7404-59B9-97BE-F93D5D6C94F8 ;
+    geo:hasGeometry osss:Q184-6E413C37-D3E9-56CD-B360-BBC8F4AA0088,
+        osss:Q184-7C507F35-A731-5342-8B54-C120048AB1E5,
+        osss:Q184-37BCB282-7404-59B9-97BE-F93D5D6C94F8 ;
+    rdfs:label "La Grotte Dagobert"@de,
+        "La Grotte Dagobert"@en ;
+    skos:prefLabel "La Grotte Dagobert"@de,
+        "La Grotte Dagobert"@en ;
+    ossp:P2 osss:Q184-D2ED25E2-46D9-50B8-AEF7-E3901BEBD909 ;
+    ossp:P100 osss:Q184-C452D4F0-FBFB-5107-A53C-39FE92F317EF ;
+    ossp:P101 osss:Q184-1E421A35-ED0D-59A4-8A72-E89EA1270E09,
+        osss:Q184-3B2E30CC-D8E2-5588-9C63-867B39E75D69,
+        osss:Q184-91615E27-AB0C-519D-BD2E-B68091C81AA7,
+        osss:Q184-C39CE884-9288-592F-A5BB-8F179E07737F ;
+    ossp:P107 osss:Q184-063F9F57-9149-5031-9EAF-57BA3CAD6B50 ;
+    ossp:P110 osss:Q184-5B3FDA17-9360-5586-BD47-07C484A4A4F4 ;
+    ossp:P111 osss:Q184-6E413C37-D3E9-56CD-B360-BBC8F4AA0088,
+        osss:Q184-7C507F35-A731-5342-8B54-C120048AB1E5,
+        osss:Q184-37BCB282-7404-59B9-97BE-F93D5D6C94F8 ;
+    ossp:P113 osss:Q184-2A23C7AC-34E6-5D35-96A1-3B468ABCF1A5,
+        osss:Q184-6E194617-F4EB-528F-ACE3-1586A70C517D,
+        osss:Q184-CC04DFCE-D82F-57DB-87CD-4A353332DD99 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/278574320> ;
+    osst:P101 <https://www.openstreetmap.org/node/278574320/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/278574320/history/3> ;
+    osst:P110 "Point(7.0207942 48.0405133)"^^geo:wktLiteral ;
+    osst:P111 "POINT(7.020074 48.04098)",
+        "POINT(7.0200867 48.0409864)",
+        "POINT(7.0207942 48.0405133)" ;
+    osst:P113 "ele=1128",
+        "name=La Grotte Dagobert",
+        "natural=cave_entrance" .
+
+osss:Q184-1E421A35-ED0D-59A4-8A72-E89EA1270E09
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2011-04-27T18:11:46Z" ;
+    osspq:P104 "7987644" ;
+    osspq:P105 "Fischerhaeusle" ;
+    osspq:P106 "71205" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/278574320/history/3> .
+
+osss:Q184-2A23C7AC-34E6-5D35-96A1-3B468ABCF1A5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0b83c0e980a0f47405f770a338da1e53946a2a4a ;
+    ossps:P113 "name=La Grotte Dagobert" .
+
+osss:Q184-3B2E30CC-D8E2-5588-9C63-867B39E75D69
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-07-14T21:56:27Z" ;
+    osspq:P104 "490849" ;
+    osspq:P105 "Catsware" ;
+    osspq:P106 "35094" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/278574320/history/1> .
+
+osss:Q184-5B3FDA17-9360-5586-BD47-07C484A4A4F4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0b83c0e980a0f47405f770a338da1e53946a2a4a ;
+    ossps:P110 "Point(7.0207942 48.0405133)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:a27e8fd5a8ad980d7deefeb210b19303 .
+
+osss:Q184-6E413C37-D3E9-56CD-B360-BBC8F4AA0088
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.020074 48.04098)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:f99e6337d3d33eca185b83d79a73abd8bf2d60d2 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-07-14T21:56:27Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(7.020074 48.04098)" .
+
+osss:Q184-6E194617-F4EB-528F-ACE3-1586A70C517D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0b83c0e980a0f47405f770a338da1e53946a2a4a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q184-7C507F35-A731-5342-8B54-C120048AB1E5
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.0200867 48.0409864)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:57e4d095b4b31e22dd917298cd0c44c494f0d023 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2011-04-24T20:38:15Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(7.0200867 48.0409864)" .
+
+osss:Q184-37BCB282-7404-59B9-97BE-F93D5D6C94F8
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.0207942 48.0405133)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:ae0662f18866b243794cec57facdfccf3f714d6d ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2011-04-27T18:11:46Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(7.0207942 48.0405133)" .
+
+osss:Q184-063F9F57-9149-5031-9EAF-57BA3CAD6B50
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/278574320/history/3> .
+
+osss:Q184-91615E27-AB0C-519D-BD2E-B68091C81AA7
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2011-04-24T20:38:15Z" ;
+    osspq:P104 "7956871" ;
+    osspq:P105 "Fischerhaeusle" ;
+    osspq:P106 "71205" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/278574320/history/2> .
+
+osss:Q184-C39CE884-9288-592F-A5BB-8F179E07737F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2016-08-30T20:55:58Z" ;
+    osspq:P104 "41812734" ;
+    osspq:P105 "UnLieuUnInstant" ;
+    osspq:P106 "2114531" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/278574320/history/4> .
+
+osss:Q184-C452D4F0-FBFB-5107-A53C-39FE92F317EF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/278574320> .
+
+osss:Q184-CC04DFCE-D82F-57DB-87CD-4A353332DD99
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0b83c0e980a0f47405f770a338da1e53946a2a4a ;
+    ossps:P113 "ele=1128" .
+
+osss:Q184-D2ED25E2-46D9-50B8-AEF7-E3901BEBD909
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:0b83c0e980a0f47405f770a338da1e53946a2a4a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/278574320/history/4> .
+
+ossref:57e4d095b4b31e22dd917298cd0c44c494f0d023
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/278574320/history/2> .
+
+ossref:ae0662f18866b243794cec57facdfccf3f714d6d
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/278574320/history/3> .
+
+ossref:f99e6337d3d33eca185b83d79a73abd8bf2d60d2
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/278574320/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a27e8fd5a8ad980d7deefeb210b19303
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "48.0405133"^^xsd:double ;
+    wikibase:geoLongitude "7.0207942"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

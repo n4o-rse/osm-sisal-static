@@ -1,0 +1,352 @@
+# Q230: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q230.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 475710521)"@en,
+        "Höhenmarke (OpenStreetMap-Node 475710521)"@de ;
+    dcterms:identifier "Q230" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q230 ;
+    dcterms:title "Crag Cave"@de,
+        "Crag Cave"@en ;
+    schema:about oss:Q230 ;
+    dcat:distribution ossdist:Q230-html,
+        ossdist:Q230-json,
+        ossdist:Q230-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q230.html> .
+
+ossdist:Q230-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q230, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q230.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q230-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q230, as archived from the Wikibase API"@en ;
+    dcat:byteSize "25879"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q230.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q230-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q230, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q230.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q230
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 475710521)"@en,
+        "Höhenmarke (OpenStreetMap-Node 475710521)"@de ;
+    schema:name "Crag Cave"@de,
+        "Crag Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "21"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q230-66C55F96-4D42-5599-A7EB-CDF6B98B2FBD ;
+    geo:hasGeometry osss:Q230-66C55F96-4D42-5599-A7EB-CDF6B98B2FBD,
+        osss:Q230-DB4D2BBA-8670-5768-8A3B-3152DAA661E9 ;
+    rdfs:label "Crag Cave"@de,
+        "Crag Cave"@en ;
+    skos:prefLabel "Crag Cave"@de,
+        "Crag Cave"@en ;
+    ossp:P2 osss:Q230-9E91DCB1-9C34-5E3E-AD42-B0C87DC8C807 ;
+    ossp:P100 osss:Q230-D7C59394-A47B-5937-A7A0-C74CDB89A8F1 ;
+    ossp:P101 osss:Q230-0BF3D937-2860-5588-9F62-782E62D48FB8,
+        osss:Q230-30C2AE47-9387-57EB-9440-285A936255F1,
+        osss:Q230-11154B20-DE65-5037-B18A-1F62DEE6F8EB,
+        osss:Q230-ACF3F05F-03FA-5868-9FB7-4BCBA9FB55A4,
+        osss:Q230-EA854AF6-BCAC-56EF-AAF8-3FBBD6C4C3B5 ;
+    ossp:P107 osss:Q230-73DBDFD3-6D17-563D-889B-3611347AB93A ;
+    ossp:P110 osss:Q230-6A0FF495-0527-5991-B81A-2D43C65FED33 ;
+    ossp:P111 osss:Q230-66C55F96-4D42-5599-A7EB-CDF6B98B2FBD,
+        osss:Q230-DB4D2BBA-8670-5768-8A3B-3152DAA661E9 ;
+    ossp:P113 osss:Q230-4A9595B1-6935-521A-A039-41E1C359CF69,
+        osss:Q230-22D53D17-D4BC-5424-9828-115E9CC778CF,
+        osss:Q230-56FD0F91-8CE2-5F2B-B739-CAB7F52DAD81,
+        osss:Q230-76EA84C6-6366-52CA-B013-C6BA6E4720A7,
+        osss:Q230-603BC4B4-DDD6-5E28-B010-13027DD961C5,
+        osss:Q230-09489F04-BB2F-5E86-8B08-5434A97781BD,
+        osss:Q230-AC6BBD7C-9F07-5F71-B8F1-8AEDFAB4A54B,
+        osss:Q230-B7D4F1B8-73FD-5A47-BF2E-251880C8F5A2,
+        osss:Q230-C76C377B-A1F1-55E1-ABE5-A48F14DE3306,
+        osss:Q230-C406E36C-AE44-5F09-80AC-0CFCABC52934 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/475710521> ;
+    osst:P101 <https://www.openstreetmap.org/node/475710521/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/475710521/history/1> ;
+    osst:P110 "Point(-9.4443544 52.2471229)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-9.4443544 52.2471229)",
+        "POINT(-9.4444068 52.247221)" ;
+    osst:P113 "access=customers",
+        "fee=yes",
+        "internet_access:fee=no",
+        "internet_access:ssid=cave",
+        "internet_access=wlan",
+        "name=Crag Cave",
+        "natural=cave_entrance",
+        "tourism=attraction",
+        "website=https://www.cragcave.com/",
+        "wikidata=Q1138482" .
+
+osss:Q230-0BF3D937-2860-5588-9F62-782E62D48FB8
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-10-18T11:52:25Z" ;
+    osspq:P104 "112649751" ;
+    osspq:P105 "LateNightTone" ;
+    osspq:P106 "4003485" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/475710521/history/3> .
+
+osss:Q230-4A9595B1-6935-521A-A039-41E1C359CF69
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "internet_access=wlan" .
+
+osss:Q230-6A0FF495-0527-5991-B81A-2D43C65FED33
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P110 "Point(-9.4443544 52.2471229)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:30dd9bb7a7992e1832a4574789dacbbd .
+
+osss:Q230-9E91DCB1-9C34-5E3E-AD42-B0C87DC8C807
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q230-22D53D17-D4BC-5424-9828-115E9CC778CF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q230-30C2AE47-9387-57EB-9440-285A936255F1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-08-28T14:06:53Z" ;
+    osspq:P104 "2289962" ;
+    osspq:P105 "ocotillo" ;
+    osspq:P106 "78871" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/475710521/history/1> .
+
+osss:Q230-56FD0F91-8CE2-5F2B-B739-CAB7F52DAD81
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "name=Crag Cave" .
+
+osss:Q230-66C55F96-4D42-5599-A7EB-CDF6B98B2FBD
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-9.4443544 52.2471229)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:d140fff8bbeb46ac2cdc54d3af1f66cedfddbaf4 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-10-18T11:52:25Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(-9.4443544 52.2471229)" .
+
+osss:Q230-73DBDFD3-6D17-563D-889B-3611347AB93A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/475710521/history/1> .
+
+osss:Q230-76EA84C6-6366-52CA-B013-C6BA6E4720A7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "website=https://www.cragcave.com/" .
+
+osss:Q230-603BC4B4-DDD6-5E28-B010-13027DD961C5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "wikidata=Q1138482" .
+
+osss:Q230-09489F04-BB2F-5E86-8B08-5434A97781BD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "internet_access:fee=no" .
+
+osss:Q230-11154B20-DE65-5037-B18A-1F62DEE6F8EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2026-01-15T23:33:01Z" ;
+    osspq:P104 "177278393" ;
+    osspq:P105 "Brían" ;
+    osspq:P106 "21918366" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/475710521/history/5> .
+
+osss:Q230-AC6BBD7C-9F07-5F71-B8F1-8AEDFAB4A54B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q230-ACF3F05F-03FA-5868-9FB7-4BCBA9FB55A4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2016-03-15T09:14:09Z" ;
+    osspq:P104 "37838347" ;
+    osspq:P105 "Wikidata" ;
+    osspq:P106 "3537321" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/475710521/history/2> .
+
+osss:Q230-B7D4F1B8-73FD-5A47-BF2E-251880C8F5A2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "internet_access:ssid=cave" .
+
+osss:Q230-C76C377B-A1F1-55E1-ABE5-A48F14DE3306
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "access=customers" .
+
+osss:Q230-C406E36C-AE44-5F09-80AC-0CFCABC52934
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:763c857fe2554531dba52b8f1929678dc5fc862b ;
+    ossps:P113 "fee=yes" .
+
+osss:Q230-D7C59394-A47B-5937-A7A0-C74CDB89A8F1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/475710521> .
+
+osss:Q230-DB4D2BBA-8670-5768-8A3B-3152DAA661E9
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-9.4444068 52.247221)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:7adb8cfa97525b729e7d08747a1392e258a8a90e ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-08-28T14:06:53Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-9.4444068 52.247221)" .
+
+osss:Q230-EA854AF6-BCAC-56EF-AAF8-3FBBD6C4C3B5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2023-11-17T02:24:07Z" ;
+    osspq:P104 "144119487" ;
+    osspq:P105 "b-jazz-bot" ;
+    osspq:P106 "9451067" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/475710521/history/4> .
+
+ossref:7adb8cfa97525b729e7d08747a1392e258a8a90e
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/475710521/history/1> .
+
+ossref:763c857fe2554531dba52b8f1929678dc5fc862b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/475710521/history/5> .
+
+ossref:d140fff8bbeb46ac2cdc54d3af1f66cedfddbaf4
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/475710521/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30dd9bb7a7992e1832a4574789dacbbd
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "52.2471229"^^xsd:double ;
+    wikibase:geoLongitude "-9.4443544"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

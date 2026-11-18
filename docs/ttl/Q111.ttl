@@ -1,0 +1,282 @@
+# Q111: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q111.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 10773895664)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10773895664)"@de ;
+    dcterms:identifier "Q111" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q111 ;
+    dcterms:title "Clifden Caves - Lower Entrance"@de,
+        "Clifden Caves - Lower Entrance"@en ;
+    schema:about oss:Q111 ;
+    dcat:distribution ossdist:Q111-html,
+        ossdist:Q111-json,
+        ossdist:Q111-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q111.html> .
+
+ossdist:Q111-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q111, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q111.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q111-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q111, as archived from the Wikibase API"@en ;
+    dcat:byteSize "18226"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q111.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q111-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q111, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q111.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q111
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 10773895664)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10773895664)"@de ;
+    schema:name "Clifden Caves - Lower Entrance"@de,
+        "Clifden Caves - Lower Entrance"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q111-EB631E0F-743A-5185-AE1A-33F542B95209 ;
+    geo:hasGeometry osss:Q111-EB631E0F-743A-5185-AE1A-33F542B95209 ;
+    rdfs:label "Clifden Caves - Lower Entrance"@de,
+        "Clifden Caves - Lower Entrance"@en ;
+    skos:prefLabel "Clifden Caves - Lower Entrance"@de,
+        "Clifden Caves - Lower Entrance"@en ;
+    ossp:P2 osss:Q111-1F1CACB3-6C58-55CC-A42D-533684E0401E ;
+    ossp:P100 osss:Q111-ED1A0331-E16F-5858-B685-2B2A178A227E ;
+    ossp:P101 osss:Q111-14AB38DA-E264-5C9E-9AB3-37484E10EA31,
+        osss:Q111-C06819E0-EB50-5D2E-9D4C-0936FFAA6084 ;
+    ossp:P107 osss:Q111-A80D65B1-7B43-5022-85B7-DFEED7C43B8F ;
+    ossp:P110 osss:Q111-F95F00CC-E807-5042-99B1-F2ABB65A685D ;
+    ossp:P111 osss:Q111-EB631E0F-743A-5185-AE1A-33F542B95209 ;
+    ossp:P113 osss:Q111-56C65973-152B-565A-9667-CE8D7D10A387,
+        osss:Q111-1479AE6D-0DBE-51A8-BA0D-67E2F2D84C3F,
+        osss:Q111-1223131E-7E6E-5BF8-997D-B6812D07EBB6,
+        osss:Q111-C99F37D8-B0BD-5158-A7D7-5CDB299C6B3D,
+        osss:Q111-D4B05AA0-804A-5366-ACFE-469247DF9380,
+        osss:Q111-D515F725-337A-50CF-A284-B1BC796193DE,
+        osss:Q111-E454BF83-0A02-5C53-8535-CFAFF8D175EA,
+        osss:Q111-E016281B-79B9-5B87-BA01-52D6DFFD4F9D,
+        osss:Q111-FDCFDB79-C8CC-58B1-AB26-C9B9E352E16C,
+        osss:Q111-FF386A22-E5F6-5B95-9956-5CD4D0EF18B9 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/10773895664> ;
+    osst:P101 <https://www.openstreetmap.org/node/10773895664/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/10773895664/history/1> ;
+    osst:P110 "Point(167.7405524 -46.0184811)"^^geo:wktLiteral ;
+    osst:P111 "POINT(167.7405524 -46.0184811)" ;
+    osst:P113 "access=yes",
+        "alt_name=Clifden Caves",
+        "fee=no",
+        "name=Clifden Caves - Lower Entrance",
+        "natural=cave_entrance",
+        "operator=Department of Conservation",
+        "tourism=attraction",
+        "website=https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/clifden-area/?tab-id=Caving",
+        "wikidata=Q5132503",
+        "wikipedia=en:Clifden Limestone Caves" .
+
+osss:Q111-1F1CACB3-6C58-55CC-A42D-533684E0401E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q111-14AB38DA-E264-5C9E-9AB3-37484E10EA31
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2023-03-30T18:12:23Z" ;
+    osspq:P104 "134315492" ;
+    osspq:P105 "DunbarLoop" ;
+    osspq:P106 "2032374" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/10773895664/history/2> .
+
+osss:Q111-56C65973-152B-565A-9667-CE8D7D10A387
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "operator=Department of Conservation" .
+
+osss:Q111-1479AE6D-0DBE-51A8-BA0D-67E2F2D84C3F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q111-1223131E-7E6E-5BF8-997D-B6812D07EBB6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "wikidata=Q5132503" .
+
+osss:Q111-A80D65B1-7B43-5022-85B7-DFEED7C43B8F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/10773895664/history/1> .
+
+osss:Q111-C99F37D8-B0BD-5158-A7D7-5CDB299C6B3D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "website=https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/clifden-area/?tab-id=Caving" .
+
+osss:Q111-C06819E0-EB50-5D2E-9D4C-0936FFAA6084
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2023-03-30T18:10:11Z" ;
+    osspq:P104 "134315405" ;
+    osspq:P105 "DunbarLoop" ;
+    osspq:P106 "2032374" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/10773895664/history/1> .
+
+osss:Q111-D4B05AA0-804A-5366-ACFE-469247DF9380
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "wikipedia=en:Clifden Limestone Caves" .
+
+osss:Q111-D515F725-337A-50CF-A284-B1BC796193DE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "access=yes" .
+
+osss:Q111-E454BF83-0A02-5C53-8535-CFAFF8D175EA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q111-E016281B-79B9-5B87-BA01-52D6DFFD4F9D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "fee=no" .
+
+osss:Q111-EB631E0F-743A-5185-AE1A-33F542B95209
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(167.7405524 -46.0184811)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:52ac3fdd43e4c4c6af73ec4c0bac3bd15d2966f7 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2023-03-30T18:10:11Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(167.7405524 -46.0184811)" .
+
+osss:Q111-ED1A0331-E16F-5858-B685-2B2A178A227E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/10773895664> .
+
+osss:Q111-F95F00CC-E807-5042-99B1-F2ABB65A685D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P110 "Point(167.7405524 -46.0184811)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:9c62b116d5a77a3110691cc0f5837f7f .
+
+osss:Q111-FDCFDB79-C8CC-58B1-AB26-C9B9E352E16C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "name=Clifden Caves - Lower Entrance" .
+
+osss:Q111-FF386A22-E5F6-5B95-9956-5CD4D0EF18B9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:be7a9c64c9904009980dfce8345bfea2c32263c2 ;
+    ossps:P113 "alt_name=Clifden Caves" .
+
+ossref:52ac3fdd43e4c4c6af73ec4c0bac3bd15d2966f7
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10773895664/history/1> .
+
+ossref:be7a9c64c9904009980dfce8345bfea2c32263c2
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10773895664/history/2> .
+
+ossv:9c62b116d5a77a3110691cc0f5837f7f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-46.0184811"^^xsd:double ;
+    wikibase:geoLongitude "167.7405524"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

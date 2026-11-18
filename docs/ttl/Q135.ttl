@@ -1,0 +1,519 @@
+# Q135: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q135.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 1192434410)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1192434410)"@de ;
+    dcterms:identifier "Q135" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q135 ;
+    dcterms:title "Leány-barlang"@de,
+        "Leány-barlang"@en ;
+    schema:about oss:Q135 ;
+    dcat:distribution ossdist:Q135-html,
+        ossdist:Q135-json,
+        ossdist:Q135-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q135.html> .
+
+ossdist:Q135-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q135, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q135.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q135-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q135, as archived from the Wikibase API"@en ;
+    dcat:byteSize "44303"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q135.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q135-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q135, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q135.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q135
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 1192434410)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1192434410)"@de ;
+    schema:name "Leány-barlang"@de,
+        "Leány-barlang"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "34"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q135-881B49CD-2576-5976-A686-794DC904B227 ;
+    geo:hasGeometry osss:Q135-8B70C759-AF5B-5413-A9E8-EFB09C68C488,
+        osss:Q135-154F5234-0580-5672-BF2D-59FB391855B0,
+        osss:Q135-881B49CD-2576-5976-A686-794DC904B227 ;
+    rdfs:label "Leány-barlang"@de,
+        "Leány-barlang"@en ;
+    skos:prefLabel "Leány-barlang"@de,
+        "Leány-barlang"@en ;
+    ossp:P2 osss:Q135-998B66DB-80F9-5EEA-8820-04D4C6FFA5F0 ;
+    ossp:P100 osss:Q135-BD9543A4-7FFD-51BE-89D0-4A643738ECE2 ;
+    ossp:P101 osss:Q135-2B783806-3599-5D82-8742-8D0A7B4EDB93,
+        osss:Q135-8A7941C3-AB8C-5A5E-98C6-1F2CA4CC6056,
+        osss:Q135-9D7F52B9-C47C-5236-9032-C501DA7611ED,
+        osss:Q135-40DA662C-E6F5-5F5B-8423-80F0C09FDAE0,
+        osss:Q135-87C189E9-04DD-5C34-AD4E-C2F0937FABD2,
+        osss:Q135-732B420B-AB81-59A6-AC7E-7DEF0BCBE847,
+        osss:Q135-993CE46C-6F20-53B8-B5B7-4BD58378120B,
+        osss:Q135-8313D6E1-FC0A-5288-8648-F0126F90ED6A,
+        osss:Q135-3321456A-128A-5D40-91E0-470E72A5496F,
+        osss:Q135-86714333-DF9B-51C4-9B78-B5B67C4D7C9C ;
+    ossp:P107 osss:Q135-6C2C04A3-A541-5441-B2B9-1F0F4887915D ;
+    ossp:P110 osss:Q135-B36BE151-DF84-50FC-9953-66BC68C06E18 ;
+    ossp:P111 osss:Q135-8B70C759-AF5B-5413-A9E8-EFB09C68C488,
+        osss:Q135-154F5234-0580-5672-BF2D-59FB391855B0,
+        osss:Q135-881B49CD-2576-5976-A686-794DC904B227 ;
+    ossp:P113 osss:Q135-1C08294F-27E0-5E54-8F20-A5220F28CFE6,
+        osss:Q135-4F67A410-5F15-5FEF-9FC2-85AB4A840382,
+        osss:Q135-8A1BAC67-396C-5A6B-8F4E-16CEEB76E48C,
+        osss:Q135-012A54E2-EE81-5FFD-B616-E9CA9540D647,
+        osss:Q135-84DE8B16-1519-5664-8F78-27590B712E63,
+        osss:Q135-3930D41F-A650-5AE7-B1C9-88E3C701B299,
+        osss:Q135-12258C5C-ACCA-5B27-AC31-0B2EF926B5D1,
+        osss:Q135-3779770E-C4EB-5BD7-8A24-B5A28A66797E,
+        osss:Q135-A0D9BFAF-E44A-5092-A792-2096A66D2059,
+        osss:Q135-A50C54CF-E5A5-5A36-87D9-9F9AD80F4DF7,
+        osss:Q135-A009967A-DB8C-529D-B9EE-8724A10D1E06,
+        osss:Q135-B413EED6-A1C9-5ECC-96E2-36AE75361D32,
+        osss:Q135-C30DFF67-7377-5627-8D51-790D3DE32A8A,
+        osss:Q135-CBFF0ED5-7EA0-518D-A2FB-0D690F3C25D1,
+        osss:Q135-DADFABA7-2FFC-5190-8A3C-27EC55C3597F,
+        osss:Q135-E45CACAE-EEE5-5C36-9FE9-410FF5C41B36,
+        osss:Q135-EF35211F-1D0C-53BA-A8F9-49082D49611E ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/1192434410> ;
+    osst:P101 <https://www.openstreetmap.org/node/1192434410/history/10> ;
+    osst:P107 <https://www.openstreetmap.org/node/1192434410/history/4> ;
+    osst:P110 "Point(18.8444428 47.699993)"^^geo:wktLiteral ;
+    osst:P111 "POINT(18.8437952 47.7001663)",
+        "POINT(18.8442504 47.7000006)",
+        "POINT(18.8444428 47.699993)" ;
+    osst:P113 "access=permit",
+        "barrier=door",
+        "cave:ref=4840-1",
+        "depth=139.6",
+        "ele=460",
+        "height=206.1",
+        "locked=yes",
+        "name=Leány-barlang",
+        "natural=cave_entrance",
+        "note:en=accessible with the permission of the National Park Directorate",
+        "note:hu=NPI hozzájárulásával látogatható",
+        "official_name=Ariadne-barlangrendszer",
+        "protect_class=3",
+        "protection_object=cave",
+        "protection_title:en=strictly protected",
+        "protection_title=fokozottan védett",
+        "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4840-1" .
+
+osss:Q135-1C08294F-27E0-5E54-8F20-A5220F28CFE6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "official_name=Ariadne-barlangrendszer" .
+
+osss:Q135-2B783806-3599-5D82-8742-8D0A7B4EDB93
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2016-10-23T18:57:32Z" ;
+    osspq:P104 "43106906" ;
+    osspq:P105 "mgpx" ;
+    osspq:P106 "850621" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/4> .
+
+osss:Q135-4F67A410-5F15-5FEF-9FC2-85AB4A840382
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "protection_title=fokozottan védett" .
+
+osss:Q135-6C2C04A3-A541-5441-B2B9-1F0F4887915D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/1192434410/history/4> .
+
+osss:Q135-8A1BAC67-396C-5A6B-8F4E-16CEEB76E48C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "access=permit" .
+
+osss:Q135-8A7941C3-AB8C-5A5E-98C6-1F2CA4CC6056
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2021-11-05T12:43:07Z" ;
+    osspq:P104 "113407776" ;
+    osspq:P105 "zsolt d" ;
+    osspq:P106 "2077889" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/8> .
+
+osss:Q135-8B70C759-AF5B-5413-A9E8-EFB09C68C488
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(18.8442504 47.7000006)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:6e46bc908659eda4dbc1ac55ee281764b69600a6 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2015-01-25T19:35:05Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(18.8442504 47.7000006)" .
+
+osss:Q135-9D7F52B9-C47C-5236-9032-C501DA7611ED
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2015-01-25T19:35:05Z" ;
+    osspq:P104 "28403462" ;
+    osspq:P105 "Bryan_Hun" ;
+    osspq:P106 "2100996" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/2> .
+
+osss:Q135-012A54E2-EE81-5FFD-B616-E9CA9540D647
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "depth=139.6" .
+
+osss:Q135-40DA662C-E6F5-5F5B-8423-80F0C09FDAE0
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2021-03-09T09:18:26Z" ;
+    osspq:P104 "100695891" ;
+    osspq:P105 "itineris" ;
+    osspq:P106 "622084" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/5> .
+
+osss:Q135-84DE8B16-1519-5664-8F78-27590B712E63
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "note:en=accessible with the permission of the National Park Directorate" .
+
+osss:Q135-87C189E9-04DD-5C34-AD4E-C2F0937FABD2
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2021-04-08T09:10:00Z" ;
+    osspq:P104 "102546684" ;
+    osspq:P105 "ITineris_bulk" ;
+    osspq:P106 "7187009" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/6> .
+
+osss:Q135-154F5234-0580-5672-BF2D-59FB391855B0
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(18.8437952 47.7001663)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:24212862d3029d73be1c32fbdbe2feebb267554d ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2011-03-08T09:50:47Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(18.8437952 47.7001663)" .
+
+osss:Q135-732B420B-AB81-59A6-AC7E-7DEF0BCBE847
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2025-09-14T18:36:12Z" ;
+    osspq:P104 "171930238" ;
+    osspq:P105 "itineris" ;
+    osspq:P106 "622084" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/10> .
+
+osss:Q135-881B49CD-2576-5976-A686-794DC904B227
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(18.8444428 47.699993)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:d551bc05dcb211062d42197a0fe1ccd19b69f253 ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2016-10-23T18:57:32Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(18.8444428 47.699993)" .
+
+osss:Q135-993CE46C-6F20-53B8-B5B7-4BD58378120B
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2021-09-30T12:29:41Z" ;
+    osspq:P104 "111915475" ;
+    osspq:P105 "ITineris_bulk" ;
+    osspq:P106 "7187009" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/7> .
+
+osss:Q135-998B66DB-80F9-5EEA-8820-04D4C6FFA5F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q135-3930D41F-A650-5AE7-B1C9-88E3C701B299
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "ele=460" .
+
+osss:Q135-8313D6E1-FC0A-5288-8648-F0126F90ED6A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2025-09-14T17:02:40Z" ;
+    osspq:P104 "171928343" ;
+    osspq:P105 "itineris" ;
+    osspq:P106 "622084" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/9> .
+
+osss:Q135-12258C5C-ACCA-5B27-AC31-0B2EF926B5D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "protect_class=3" .
+
+osss:Q135-3321456A-128A-5D40-91E0-470E72A5496F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2016-03-15T08:43:31Z" ;
+    osspq:P104 "37837768" ;
+    osspq:P105 "Tamas54_hu" ;
+    osspq:P106 "493704" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/3> .
+
+osss:Q135-3779770E-C4EB-5BD7-8A24-B5A28A66797E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4840-1" .
+
+osss:Q135-86714333-DF9B-51C4-9B78-B5B67C4D7C9C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2011-03-08T09:50:47Z" ;
+    osspq:P104 "7492244" ;
+    osspq:P105 "BáthoryPéter" ;
+    osspq:P106 "408450" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1192434410/history/1> .
+
+osss:Q135-A0D9BFAF-E44A-5092-A792-2096A66D2059
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "cave:ref=4840-1" .
+
+osss:Q135-A50C54CF-E5A5-5A36-87D9-9F9AD80F4DF7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "name=Leány-barlang" .
+
+osss:Q135-A009967A-DB8C-529D-B9EE-8724A10D1E06
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "height=206.1" .
+
+osss:Q135-B36BE151-DF84-50FC-9953-66BC68C06E18
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P110 "Point(18.8444428 47.699993)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:251e70808cef2565eda86ffd5b4f5e6d .
+
+osss:Q135-B413EED6-A1C9-5ECC-96E2-36AE75361D32
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q135-BD9543A4-7FFD-51BE-89D0-4A643738ECE2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/1192434410> .
+
+osss:Q135-C30DFF67-7377-5627-8D51-790D3DE32A8A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "barrier=door" .
+
+osss:Q135-CBFF0ED5-7EA0-518D-A2FB-0D690F3C25D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "protection_title:en=strictly protected" .
+
+osss:Q135-DADFABA7-2FFC-5190-8A3C-27EC55C3597F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "protection_object=cave" .
+
+osss:Q135-E45CACAE-EEE5-5C36-9FE9-410FF5C41B36
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "locked=yes" .
+
+osss:Q135-EF35211F-1D0C-53BA-A8F9-49082D49611E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d ;
+    ossps:P113 "note:hu=NPI hozzájárulásával látogatható" .
+
+ossref:6e46bc908659eda4dbc1ac55ee281764b69600a6
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1192434410/history/2> .
+
+ossref:24212862d3029d73be1c32fbdbe2feebb267554d
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1192434410/history/1> .
+
+ossref:b3386f74b1e1f4f4405a6f8b5f942b620107998d
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1192434410/history/10> .
+
+ossref:d551bc05dcb211062d42197a0fe1ccd19b69f253
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1192434410/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:251e70808cef2565eda86ffd5b4f5e6d
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "47.699993"^^xsd:double ;
+    wikibase:geoLongitude "18.8444428"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

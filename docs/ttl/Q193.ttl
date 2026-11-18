@@ -1,0 +1,263 @@
+# Q193: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q193.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 320120939)"@en,
+        "Höhenmarke (OpenStreetMap-Node 320120939)"@de ;
+    dcterms:identifier "Q193" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q193 ;
+    dcterms:title "Lake Shasta Caverns"@de,
+        "Lake Shasta Caverns"@en ;
+    schema:about oss:Q193 ;
+    dcat:distribution ossdist:Q193-html,
+        ossdist:Q193-json,
+        ossdist:Q193-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q193.html> .
+
+ossdist:Q193-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q193, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q193.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q193-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q193, as archived from the Wikibase API"@en ;
+    dcat:byteSize "16729"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q193.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q193-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q193, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q193.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q193
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 320120939)"@en,
+        "Höhenmarke (OpenStreetMap-Node 320120939)"@de ;
+    schema:name "Lake Shasta Caverns"@de,
+        "Lake Shasta Caverns"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q193-6E9DD3B7-BD29-54A3-84DD-5E19E3C68FA6 ;
+    geo:hasGeometry osss:Q193-6E9DD3B7-BD29-54A3-84DD-5E19E3C68FA6,
+        osss:Q193-57E9283D-C658-5196-ADC9-5EB683C312A8 ;
+    rdfs:label "Lake Shasta Caverns"@de,
+        "Lake Shasta Caverns"@en ;
+    skos:prefLabel "Lake Shasta Caverns"@de,
+        "Lake Shasta Caverns"@en ;
+    ossp:P2 osss:Q193-DB84927F-A938-5AEE-9985-8EF2AD23327E ;
+    ossp:P100 osss:Q193-873D302D-C43A-56F3-A898-C05C0195C3C2 ;
+    ossp:P101 osss:Q193-4E8A52CD-52A4-5509-9429-F484F7FEA974,
+        osss:Q193-7C8EA3B9-7B0C-5EFB-AFBA-BBBEEBB8DF3D,
+        osss:Q193-481587D3-0543-5E90-9C5A-C94A539EEC2F,
+        osss:Q193-B4D6CC0F-4F13-5D8B-9567-BC031422601D ;
+    ossp:P107 osss:Q193-92099353-6EF8-512B-8117-73D79839123A ;
+    ossp:P110 osss:Q193-8EF6D5D0-D38F-5C24-9089-AC9878296456 ;
+    ossp:P111 osss:Q193-6E9DD3B7-BD29-54A3-84DD-5E19E3C68FA6,
+        osss:Q193-57E9283D-C658-5196-ADC9-5EB683C312A8 ;
+    ossp:P113 osss:Q193-3F452626-E82D-5EC3-8D3B-F7CB72DBAD0A,
+        osss:Q193-E6283682-8B4C-59F1-A736-FB1061739E75 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/320120939> ;
+    osst:P101 <https://www.openstreetmap.org/node/320120939/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/320120939/history/1> ;
+    osst:P110 "Point(-122.2766711 40.7973795)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-122.2764089 40.797376)",
+        "POINT(-122.2766711 40.7973795)" ;
+    osst:P113 "name=Lake Shasta Caverns",
+        "natural=cave_entrance" .
+
+osss:Q193-3F452626-E82D-5EC3-8D3B-F7CB72DBAD0A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e8065f47acbd1ab852821f3f715f7be4406c5e53 ;
+    ossps:P113 "name=Lake Shasta Caverns" .
+
+osss:Q193-4E8A52CD-52A4-5509-9429-F484F7FEA974
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2025-06-18T00:52:36Z" ;
+    osspq:P104 "167760530" ;
+    osspq:P105 "JessAk71" ;
+    osspq:P106 "381909" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/320120939/history/4> .
+
+osss:Q193-6E9DD3B7-BD29-54A3-84DD-5E19E3C68FA6
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-122.2766711 40.7973795)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:985dd1fbe12c9223f82354cc99611a26f96527e3 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2019-04-06T01:53:08Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(-122.2766711 40.7973795)" .
+
+osss:Q193-7C8EA3B9-7B0C-5EFB-AFBA-BBBEEBB8DF3D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-12-20T08:55:06Z" ;
+    osspq:P104 "499675" ;
+    osspq:P105 "beej71" ;
+    osspq:P106 "11154" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/320120939/history/1> .
+
+osss:Q193-8EF6D5D0-D38F-5C24-9089-AC9878296456
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e8065f47acbd1ab852821f3f715f7be4406c5e53 ;
+    ossps:P110 "Point(-122.2766711 40.7973795)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:49f25f56f978bad5d76719ddf5d0c795 .
+
+osss:Q193-57E9283D-C658-5196-ADC9-5EB683C312A8
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-122.2764089 40.797376)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c59a27e4cbf2aec68da7220bc65777f39fff9012 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-12-20T08:55:06Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-122.2764089 40.797376)" .
+
+osss:Q193-873D302D-C43A-56F3-A898-C05C0195C3C2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/320120939> .
+
+osss:Q193-481587D3-0543-5E90-9C5A-C94A539EEC2F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2012-04-08T03:59:18Z" ;
+    osspq:P104 "11220616" ;
+    osspq:P105 "Brip" ;
+    osspq:P106 "619589" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/320120939/history/2> .
+
+osss:Q193-92099353-6EF8-512B-8117-73D79839123A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/320120939/history/1> .
+
+osss:Q193-B4D6CC0F-4F13-5D8B-9567-BC031422601D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2019-04-06T01:53:08Z" ;
+    osspq:P104 "68941599" ;
+    osspq:P105 "ohnowhyamihere" ;
+    osspq:P106 "9537761" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/320120939/history/3> .
+
+osss:Q193-DB84927F-A938-5AEE-9985-8EF2AD23327E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q193-E6283682-8B4C-59F1-A736-FB1061739E75
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e8065f47acbd1ab852821f3f715f7be4406c5e53 ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:985dd1fbe12c9223f82354cc99611a26f96527e3
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/320120939/history/3> .
+
+ossref:c59a27e4cbf2aec68da7220bc65777f39fff9012
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/320120939/history/1> .
+
+ossref:e8065f47acbd1ab852821f3f715f7be4406c5e53
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/320120939/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:49f25f56f978bad5d76719ddf5d0c795
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.7973795"^^xsd:double ;
+    wikibase:geoLongitude "-122.2766711"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

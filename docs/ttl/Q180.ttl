@@ -1,0 +1,604 @@
+# Q180: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q180.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2634652214)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2634652214)"@de ;
+    dcterms:identifier "Q180" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q180 ;
+    dcterms:title "Peștera Urșilor"@de,
+        "Peștera Urșilor"@en ;
+    schema:about oss:Q180 ;
+    dcat:distribution ossdist:Q180-html,
+        ossdist:Q180-json,
+        ossdist:Q180-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q180.html> .
+
+ossdist:Q180-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q180, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q180.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q180-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q180, as archived from the Wikibase API"@en ;
+    dcat:byteSize "54312"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q180.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q180-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q180, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q180.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q180
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2634652214)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2634652214)"@de ;
+    schema:name "Peștera Urșilor"@de,
+        "Peștera Urșilor"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "43"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q180-E9E22AEE-D415-59D7-A6B1-F050EA24FDC5 ;
+    geo:hasGeometry osss:Q180-E9E22AEE-D415-59D7-A6B1-F050EA24FDC5 ;
+    rdfs:label "Peștera Urșilor"@de,
+        "Peștera Urșilor"@en ;
+    skos:prefLabel "Peștera Urșilor"@de,
+        "Peștera Urșilor"@en ;
+    ossp:P2 osss:Q180-333D2F7D-BBF6-5221-9775-69307D616CB0 ;
+    ossp:P100 osss:Q180-00553273-6AA0-5B54-B1F5-59B2FCBB06D5 ;
+    ossp:P101 osss:Q180-0C7CC4BD-16C0-58ED-86D0-C3D01EDD543C,
+        osss:Q180-0D36813E-760C-5053-9B50-D621DF82CDCE,
+        osss:Q180-1AAC1EA6-EE1A-54F0-86C6-C861765F4C2A,
+        osss:Q180-5A26BE0F-117A-5BE5-8929-FB3F6CF03D55,
+        osss:Q180-36B7BB80-5FDE-5474-A1B8-02B820FAEB2D,
+        osss:Q180-989CEDC3-40B0-507F-8ED3-E7EBF432E406,
+        osss:Q180-25133041-B2F7-5301-B81F-A2C66A7452CB,
+        osss:Q180-A5F6D005-4689-5FF2-9318-5825BB6F5425,
+        osss:Q180-A7413547-9FFB-5DD6-99FE-988DDBAD5DBD,
+        osss:Q180-C37C4827-CDF5-57BD-8351-780B970AE102,
+        osss:Q180-F5E4E88C-754B-5F42-AA7D-FFF18315AFF3,
+        osss:Q180-F8894B74-0AA9-5D76-9C03-4AA147E8221E,
+        osss:Q180-FBD23820-2311-54B3-99CB-7B73AEBA8749 ;
+    ossp:P107 osss:Q180-AA776E7B-8C25-5C05-8296-953B23C8F21C ;
+    ossp:P110 osss:Q180-3685BB37-A730-5A7E-9257-7589E7521F70 ;
+    ossp:P111 osss:Q180-E9E22AEE-D415-59D7-A6B1-F050EA24FDC5 ;
+    ossp:P113 osss:Q180-1CE52E78-3C6D-5340-876C-C066B2B4474F,
+        osss:Q180-3E966105-A380-5BF4-AB4D-AF5B7FB9C253,
+        osss:Q180-8E5090A5-BF9E-5BA6-B720-62467D4F0169,
+        osss:Q180-8EB9015B-8B99-5415-959B-577D64FA9165,
+        osss:Q180-09CDBAF2-C7A3-5467-B27D-EA47028652E7,
+        osss:Q180-11F83266-90D0-534D-92D3-CD57887DFDB3,
+        osss:Q180-23C9C396-88C5-5B36-92A3-55103864A8F7,
+        osss:Q180-24C44D5C-4973-5F13-8413-CE20E7FDDFBD,
+        osss:Q180-51AF505D-0C33-585F-8794-C546F332DE7B,
+        osss:Q180-452D815C-D3D1-5DE4-A579-73B616F9806D,
+        osss:Q180-682DA97F-71D7-515C-94D6-D4AB3865E409,
+        osss:Q180-7364692D-0C6F-5EF7-B11D-6C7626649C7C,
+        osss:Q180-16945118-5339-51DC-A3C6-30030CE58179,
+        osss:Q180-B35C8C2F-7C0B-5BA0-8C6E-F84984557590,
+        osss:Q180-B7360EAF-3460-5331-B8BD-61990A1C2D63,
+        osss:Q180-C84A4EBC-5DF6-548A-9936-3D570410165D,
+        osss:Q180-CB5E0818-CBC4-57D2-916C-8E8A022D0A31,
+        osss:Q180-D46AE05B-6D4E-53AE-9263-BB3E4D773D7E,
+        osss:Q180-D96FCFB0-ABD2-5427-8693-8AEA71C2485F,
+        osss:Q180-DA5D14E0-B0B2-5B87-8F4E-BAE32CBA42A6,
+        osss:Q180-DDEDA59C-F00B-59B1-84C7-4F136FE4F337,
+        osss:Q180-EE9B7FBF-149B-5960-A25B-79EC042E95D2,
+        osss:Q180-F1B34763-308C-59BC-BD53-2C0AF2DDD13E,
+        osss:Q180-F4B754E3-9B3C-58D4-B8F2-3FBABC86080C,
+        osss:Q180-FC1C3089-D423-583B-BB89-765348A98423 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2634652214> ;
+    osst:P101 <https://www.openstreetmap.org/node/2634652214/history/13> ;
+    osst:P107 <https://www.openstreetmap.org/node/2634652214/history/1> ;
+    osst:P110 "Point(22.569324 46.553915)"^^geo:wktLiteral ;
+    osst:P111 "POINT(22.569324 46.553915)" ;
+    osst:P113 "SIRUTA:code=30354",
+        "addr:city=Chișcău",
+        "addr:postcode=417366",
+        "charge=40 RON",
+        "codul_entității_muzeale=7108300.0",
+        "duration=45",
+        "interval=60",
+        "level=2",
+        "museum_type=Natural Sciences - Caves",
+        "name:en=Bears' Cave",
+        "name:hu=Medve-barlang",
+        "name:it=Grotta degli Orsi",
+        "name=Peștera Urșilor",
+        "natural=cave_entrance",
+        "opening_hours=Tu-Su 09:00-17:00",
+        "photography:inside=no",
+        "photography:note=Officially prohibited, the guide may allow personal pictures.",
+        "source:link=http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+        "source=INP",
+        "start_date=1980",
+        "temperature=10 degrees Celsius",
+        "tourism=attraction",
+        "tourism_survey=20.09.2013 13:49:25",
+        "wikidata=Q989608",
+        "wikipedia=ro:Peștera Urșilor" .
+
+osss:Q180-0C7CC4BD-16C0-58ED-86D0-C3D01EDD543C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+13"^^xsd:decimal ;
+    osspq:P103 "2026-11-02T18:24:11Z" ;
+    osspq:P104 "191382280" ;
+    osspq:P105 "Tommizanot" ;
+    osspq:P106 "23396370" ;
+    osspqv:P102 ossv:6d2190f7063132ea68f5418b57ca7521 ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/13> .
+
+osss:Q180-0D36813E-760C-5053-9B50-D621DF82CDCE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2016-07-05T10:57:03Z" ;
+    osspq:P104 "40496906" ;
+    osspq:P105 "Wikidata" ;
+    osspq:P106 "3537321" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/7> .
+
+osss:Q180-1AAC1EA6-EE1A-54F0-86C6-C861765F4C2A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2014-08-08T17:44:56Z" ;
+    osspq:P104 "24620493" ;
+    osspq:P105 "ibz" ;
+    osspq:P106 "155698" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/4> .
+
+osss:Q180-1CE52E78-3C6D-5340-876C-C066B2B4474F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "opening_hours=Tu-Su 09:00-17:00" .
+
+osss:Q180-3E966105-A380-5BF4-AB4D-AF5B7FB9C253
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "photography:inside=no" .
+
+osss:Q180-5A26BE0F-117A-5BE5-8929-FB3F6CF03D55
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2014-12-17T14:41:57Z" ;
+    osspq:P104 "27531804" ;
+    osspq:P105 "ibz" ;
+    osspq:P106 "155698" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/5> .
+
+osss:Q180-8E5090A5-BF9E-5BA6-B720-62467D4F0169
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "SIRUTA:code=30354" .
+
+osss:Q180-8EB9015B-8B99-5415-959B-577D64FA9165
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "charge=40 RON" .
+
+osss:Q180-09CDBAF2-C7A3-5467-B27D-EA47028652E7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "interval=60" .
+
+osss:Q180-11F83266-90D0-534D-92D3-CD57887DFDB3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "source=INP" .
+
+osss:Q180-23C9C396-88C5-5B36-92A3-55103864A8F7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "photography:note=Officially prohibited, the guide may allow personal pictures." .
+
+osss:Q180-24C44D5C-4973-5F13-8413-CE20E7FDDFBD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "wikidata=Q989608" .
+
+osss:Q180-36B7BB80-5FDE-5474-A1B8-02B820FAEB2D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2014-02-21T21:13:46Z" ;
+    osspq:P104 "20702128" ;
+    osspq:P105 "Michael_H" ;
+    osspq:P106 "323389" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/2> .
+
+osss:Q180-51AF505D-0C33-585F-8794-C546F332DE7B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "wikipedia=ro:Peștera Urșilor" .
+
+osss:Q180-333D2F7D-BBF6-5221-9775-69307D616CB0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q180-452D815C-D3D1-5DE4-A579-73B616F9806D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q180-682DA97F-71D7-515C-94D6-D4AB3865E409
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "addr:city=Chișcău" .
+
+osss:Q180-989CEDC3-40B0-507F-8ED3-E7EBF432E406
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2014-01-24T02:46:36Z" ;
+    osspq:P104 "20170723" ;
+    osspq:P105 "baditaflorin" ;
+    osspq:P106 "398300" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/1> .
+
+osss:Q180-3685BB37-A730-5A7E-9257-7589E7521F70
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P110 "Point(22.569324 46.553915)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:c1b96b89e7ad5a2b212dd1696ed2fb6a .
+
+osss:Q180-00553273-6AA0-5B54-B1F5-59B2FCBB06D5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2634652214> .
+
+osss:Q180-7364692D-0C6F-5EF7-B11D-6C7626649C7C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "level=2" .
+
+osss:Q180-16945118-5339-51DC-A3C6-30030CE58179
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "start_date=1980" .
+
+osss:Q180-25133041-B2F7-5301-B81F-A2C66A7452CB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+12"^^xsd:decimal ;
+    osspq:P103 "2026-09-22T11:32:26Z" ;
+    osspq:P104 "189394368" ;
+    osspq:P105 "Senihtu" ;
+    osspq:P106 "18511019" ;
+    osspqv:P102 ossv:273d314d307f834d9b3ee29183ae71c0 ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/12> .
+
+osss:Q180-A5F6D005-4689-5FF2-9318-5825BB6F5425
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2015-07-30T23:09:36Z" ;
+    osspq:P104 "32996255" ;
+    osspq:P105 "BáthoryPéter" ;
+    osspq:P106 "408450" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/6> .
+
+osss:Q180-A7413547-9FFB-5DD6-99FE-988DDBAD5DBD
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2025-11-07T10:19:09Z" ;
+    osspq:P104 "174326332" ;
+    osspq:P105 "baditaflorin" ;
+    osspq:P106 "398300" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/10> .
+
+osss:Q180-AA776E7B-8C25-5C05-8296-953B23C8F21C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2634652214/history/1> .
+
+osss:Q180-B35C8C2F-7C0B-5BA0-8C6E-F84984557590
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "addr:postcode=417366" .
+
+osss:Q180-B7360EAF-3460-5331-B8BD-61990A1C2D63
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "name:en=Bears' Cave" .
+
+osss:Q180-C37C4827-CDF5-57BD-8351-780B970AE102
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2023-09-13T22:02:02Z" ;
+    osspq:P104 "141231532" ;
+    osspq:P105 "Elian D" ;
+    osspq:P106 "15316457" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/8> .
+
+osss:Q180-C84A4EBC-5DF6-548A-9936-3D570410165D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q180-CB5E0818-CBC4-57D2-916C-8E8A022D0A31
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "temperature=10 degrees Celsius" .
+
+osss:Q180-D46AE05B-6D4E-53AE-9263-BB3E4D773D7E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "name:hu=Medve-barlang" .
+
+osss:Q180-D96FCFB0-ABD2-5427-8693-8AEA71C2485F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "name:it=Grotta degli Orsi" .
+
+osss:Q180-DA5D14E0-B0B2-5B87-8F4E-BAE32CBA42A6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "museum_type=Natural Sciences - Caves" .
+
+osss:Q180-DDEDA59C-F00B-59B1-84C7-4F136FE4F337
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "source:link=http://date.gov.ro/dataset/ghidul-muzeelor-din-romania" .
+
+osss:Q180-E9E22AEE-D415-59D7-A6B1-F050EA24FDC5
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(22.569324 46.553915)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:2edfb3c22875dc65a0f92e0d942913c9c38b50fe ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2014-01-24T02:46:36Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(22.569324 46.553915)" .
+
+osss:Q180-EE9B7FBF-149B-5960-A25B-79EC042E95D2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "name=Peștera Urșilor" .
+
+osss:Q180-F1B34763-308C-59BC-BD53-2C0AF2DDD13E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "duration=45" .
+
+osss:Q180-F4B754E3-9B3C-58D4-B8F2-3FBABC86080C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "tourism_survey=20.09.2013 13:49:25" .
+
+osss:Q180-F5E4E88C-754B-5F42-AA7D-FFF18315AFF3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+11"^^xsd:decimal ;
+    osspq:P103 "2025-11-08T13:22:40Z" ;
+    osspq:P104 "174376101" ;
+    osspq:P105 "SomeoneElse_Revert" ;
+    osspq:P106 "1778799" ;
+    osspqv:P102 ossv:63f6a2c5bd58360efaaf56114afbf952 ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/11> .
+
+osss:Q180-F8894B74-0AA9-5D76-9C03-4AA147E8221E
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2023-09-20T21:04:36Z" ;
+    osspq:P104 "141531982" ;
+    osspq:P105 "Elian D" ;
+    osspq:P106 "15316457" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/9> .
+
+osss:Q180-FBD23820-2311-54B3-99CB-7B73AEBA8749
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2014-03-14T19:54:20Z" ;
+    osspq:P104 "21105583" ;
+    osspq:P105 "Michael_H" ;
+    osspq:P106 "323389" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2634652214/history/3> .
+
+osss:Q180-FC1C3089-D423-583B-BB89-765348A98423
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b ;
+    ossps:P113 "codul_entității_muzeale=7108300.0" .
+
+ossref:2edfb3c22875dc65a0f92e0d942913c9c38b50fe
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2634652214/history/1> .
+
+ossref:3889c2ab745c3fe6aa37cdcb9c7552e644d4930b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2634652214/history/13> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:6d2190f7063132ea68f5418b57ca7521
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+13"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63f6a2c5bd58360efaaf56114afbf952
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+11"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:273d314d307f834d9b3ee29183ae71c0
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+12"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c1b96b89e7ad5a2b212dd1696ed2fb6a
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "46.553915"^^xsd:double ;
+    wikibase:geoLongitude "22.569324"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

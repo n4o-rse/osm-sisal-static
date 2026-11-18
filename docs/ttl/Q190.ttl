@@ -1,0 +1,340 @@
+# Q190: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q190.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 298946850)"@en,
+        "Höhenmarke (OpenStreetMap-Node 298946850)"@de ;
+    dcterms:identifier "Q190" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q190 ;
+    dcterms:title "Lehman Caves"@de,
+        "Lehman Caves"@en ;
+    schema:about oss:Q190 ;
+    dcat:distribution ossdist:Q190-html,
+        ossdist:Q190-json,
+        ossdist:Q190-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q190.html> .
+
+ossdist:Q190-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q190, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q190.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q190-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q190, as archived from the Wikibase API"@en ;
+    dcat:byteSize "25045"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q190.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q190-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q190, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q190.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q190
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 298946850)"@en,
+        "Höhenmarke (OpenStreetMap-Node 298946850)"@de ;
+    schema:name "Lehman Caves"@de,
+        "Lehman Caves"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q190-6D1C4D45-07D6-58DC-90A3-FB9339DE50EE ;
+    geo:hasGeometry osss:Q190-1BE95770-9770-597D-913F-5A44076812D6,
+        osss:Q190-6D1C4D45-07D6-58DC-90A3-FB9339DE50EE,
+        osss:Q190-D4D5B380-FD84-5B74-A9DA-ACB177B0103D,
+        osss:Q190-DAB17AAD-D0E0-5CF3-98A1-61830B5F6D0E ;
+    rdfs:label "Lehman Caves"@de,
+        "Lehman Caves"@en ;
+    skos:prefLabel "Lehman Caves"@de,
+        "Lehman Caves"@en ;
+    ossp:P2 osss:Q190-FCA661D6-0FBD-5FB4-B1C7-9027B429B9EE ;
+    ossp:P100 osss:Q190-777CAC37-4C6F-561E-89E6-EF788CC7E0C1 ;
+    ossp:P101 osss:Q190-0A3AD35E-0337-5476-A6D3-DD26668CFD4E,
+        osss:Q190-7DE47C79-846C-5D0C-BD5F-54C1E1683F45,
+        osss:Q190-846F9328-5F16-58F0-B794-85E8DEF6EECB,
+        osss:Q190-B84D3512-D015-5382-BB96-0203984B35DE,
+        osss:Q190-BF1734FD-F9D5-526E-AAFF-7FE72BE1365D,
+        osss:Q190-D1EE63F6-0F90-51B5-B0F7-53E3FF6ABC07 ;
+    ossp:P107 osss:Q190-D096187F-3E62-5C55-888B-2CE2EF09C4D5 ;
+    ossp:P110 osss:Q190-15032F0C-A4F5-58B9-975A-DABC9187DAFE ;
+    ossp:P111 osss:Q190-1BE95770-9770-597D-913F-5A44076812D6,
+        osss:Q190-6D1C4D45-07D6-58DC-90A3-FB9339DE50EE,
+        osss:Q190-D4D5B380-FD84-5B74-A9DA-ACB177B0103D,
+        osss:Q190-DAB17AAD-D0E0-5CF3-98A1-61830B5F6D0E ;
+    ossp:P113 osss:Q190-34FF868C-1947-522B-A4F3-7C9BA12DAF16,
+        osss:Q190-0884EEAC-5EE0-58E3-9E36-A7EDCAE70C04,
+        osss:Q190-D803DEDA-E6DB-5587-937B-6E9871D27DF7 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/298946850> ;
+    osst:P101 <https://www.openstreetmap.org/node/298946850/history/6> ;
+    osst:P107 <https://www.openstreetmap.org/node/298946850/history/1> ;
+    osst:P110 "Point(-114.2206413 39.0054197)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-114.2200942 39.0053151)",
+        "POINT(-114.2202034 39.0057351)",
+        "POINT(-114.2206413 39.0054197)",
+        "POINT(-114.2206718 39.0054225)" ;
+    osst:P113 "name=Lehman Caves",
+        "natural=cave_entrance",
+        "wikidata=Q25416611" .
+
+osss:Q190-0A3AD35E-0337-5476-A6D3-DD26668CFD4E
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-09-22T07:24:27Z" ;
+    osspq:P104 "682715" ;
+    osspq:P105 "MissingCSAA" ;
+    osspq:P106 "63936" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/298946850/history/1> .
+
+osss:Q190-1BE95770-9770-597D-913F-5A44076812D6
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-114.2206718 39.0054225)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c49d47fc272877a874aeba4edcda38d4a1d92479 ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2013-04-19T23:36:26Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(-114.2206718 39.0054225)" .
+
+osss:Q190-6D1C4D45-07D6-58DC-90A3-FB9339DE50EE
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-114.2206413 39.0054197)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:0ad5e4e8ef2eb7643324793eb9aa7e04b4ed468a ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2026-09-08T20:38:58Z" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P111 "POINT(-114.2206413 39.0054197)" .
+
+osss:Q190-7DE47C79-846C-5D0C-BD5F-54C1E1683F45
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2026-09-08T20:38:58Z" ;
+    osspq:P104 "188742991" ;
+    osspq:P105 "tjasz" ;
+    osspq:P106 "19139722" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/298946850/history/6> .
+
+osss:Q190-34FF868C-1947-522B-A4F3-7C9BA12DAF16
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0ad5e4e8ef2eb7643324793eb9aa7e04b4ed468a ;
+    ossps:P113 "wikidata=Q25416611" .
+
+osss:Q190-777CAC37-4C6F-561E-89E6-EF788CC7E0C1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/298946850> .
+
+osss:Q190-846F9328-5F16-58F0-B794-85E8DEF6EECB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2013-02-20T14:59:27Z" ;
+    osspq:P104 "15100953" ;
+    osspq:P105 "afdreher" ;
+    osspq:P106 "1110270" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/298946850/history/3> .
+
+osss:Q190-0884EEAC-5EE0-58E3-9E36-A7EDCAE70C04
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0ad5e4e8ef2eb7643324793eb9aa7e04b4ed468a ;
+    ossps:P113 "name=Lehman Caves" .
+
+osss:Q190-15032F0C-A4F5-58B9-975A-DABC9187DAFE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0ad5e4e8ef2eb7643324793eb9aa7e04b4ed468a ;
+    ossps:P110 "Point(-114.2206413 39.0054197)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:f9298ca83a00238264e62d4cccc80ca5 .
+
+osss:Q190-B84D3512-D015-5382-BB96-0203984B35DE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2008-09-30T01:32:00Z" ;
+    osspq:P104 "719995" ;
+    osspq:P105 "MissingCSAA" ;
+    osspq:P106 "63936" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/298946850/history/2> .
+
+osss:Q190-BF1734FD-F9D5-526E-AAFF-7FE72BE1365D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2013-04-19T23:36:26Z" ;
+    osspq:P104 "15791707" ;
+    osspq:P105 "MissingCSAA" ;
+    osspq:P106 "63936" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/298946850/history/4> .
+
+osss:Q190-D1EE63F6-0F90-51B5-B0F7-53E3FF6ABC07
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2020-12-30T17:43:06Z" ;
+    osspq:P104 "96683883" ;
+    osspq:P105 "hofoen" ;
+    osspq:P106 "52797" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/298946850/history/5> .
+
+osss:Q190-D4D5B380-FD84-5B74-A9DA-ACB177B0103D
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-114.2200942 39.0053151)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c4ef6397a3f8dbca1b54a441246be860a0f00976 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-09-22T07:24:27Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-114.2200942 39.0053151)" .
+
+osss:Q190-D803DEDA-E6DB-5587-937B-6E9871D27DF7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0ad5e4e8ef2eb7643324793eb9aa7e04b4ed468a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q190-D096187F-3E62-5C55-888B-2CE2EF09C4D5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/298946850/history/1> .
+
+osss:Q190-DAB17AAD-D0E0-5CF3-98A1-61830B5F6D0E
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-114.2202034 39.0057351)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:50f19e1daedfbcbf45b434b241b8228576fa60a5 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2013-02-20T14:59:27Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(-114.2202034 39.0057351)" .
+
+osss:Q190-FCA661D6-0FBD-5FB4-B1C7-9027B429B9EE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:0ad5e4e8ef2eb7643324793eb9aa7e04b4ed468a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/298946850/history/6> .
+
+ossref:50f19e1daedfbcbf45b434b241b8228576fa60a5
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/298946850/history/3> .
+
+ossref:c4ef6397a3f8dbca1b54a441246be860a0f00976
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/298946850/history/1> .
+
+ossref:c49d47fc272877a874aeba4edcda38d4a1d92479
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/298946850/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f9298ca83a00238264e62d4cccc80ca5
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.0054197"^^xsd:double ;
+    wikibase:geoLongitude "-114.2206413"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

@@ -1,5 +1,2913 @@
 sid,subject,property,value,rank,origin
 ,Q100,P1,Q3,,
+,Q101,P2,Q100,,osm
+Q101-P100-1,Q101,P100,https://www.openstreetmap.org/node/10084842668,,osm
+Q101-P101-1,Q101,P101,https://www.openstreetmap.org/node/10084842668/history/1,,osm
+Q101-P101-2,Q101,P101,https://www.openstreetmap.org/node/10084842668/history/2,preferred,osm
+Q101-P107-1,Q101,P107,https://www.openstreetmap.org/node/10084842668/history/1,,osm
+Q101-P110-1,Q101,P110,"4.064987,114.8313868",,osm
+Q101-P111-1,Q101,P111,POINT(114.8313868 4.064987),,osm
+Q101-P113-1,Q101,P113,description=Main exit for underground Clearwater River,,osm
+Q101-P113-2,Q101,P113,name=Clearwater Resurgence,,osm
+Q101-P113-3,Q101,P113,natural=cave_entrance,,osm
+,Q102,P2,Q100,,osm
+Q102-P100-1,Q102,P100,https://www.openstreetmap.org/node/10110882090,,osm
+Q102-P101-1,Q102,P101,https://www.openstreetmap.org/node/10110882090/history/1,,osm
+Q102-P101-2,Q102,P101,https://www.openstreetmap.org/node/10110882090/history/2,preferred,osm
+Q102-P107-1,Q102,P107,https://www.openstreetmap.org/node/10110882090/history/1,,osm
+Q102-P110-1,Q102,P110,"34.8230554,-86.069563",,osm
+Q102-P111-1,Q102,P111,POINT(-86.069563 34.8230554),,osm
+Q102-P113-1,Q102,P113,access=permit,,osm
+Q102-P113-2,Q102,P113,fee=no,,osm
+Q102-P113-3,Q102,P113,name=Tumbling Rock Cave,,osm
+Q102-P113-4,Q102,P113,natural=cave_entrance,,osm
+Q102-P113-5,Q102,P113,website=https://www.saveyourcaves.org/preserve?rowid=tumbling-rock-cave-preserve,,osm
+,Q103,P2,Q100,,osm
+Q103-P100-1,Q103,P100,https://www.openstreetmap.org/node/10135300283,,osm
+Q103-P101-1,Q103,P101,https://www.openstreetmap.org/node/10135300283/history/1,,osm
+Q103-P101-2,Q103,P101,https://www.openstreetmap.org/node/10135300283/history/2,preferred,osm
+Q103-P107-1,Q103,P107,https://www.openstreetmap.org/node/10135300283/history/1,,osm
+Q103-P110-1,Q103,P110,"4.0980925,114.8538637",,osm
+Q103-P111-1,Q103,P111,POINT(114.8552799 4.1007464),,osm
+Q103-P111-2,Q103,P111,POINT(114.8538637 4.0980925),,osm
+Q103-P113-1,Q103,P113,name=Gua Metrik,,osm
+Q103-P113-2,Q103,P113,name:en=Metric Cave,,osm
+Q103-P113-3,Q103,P113,natural=cave_entrance,,osm
+,Q104,P2,Q100,,osm
+Q104-P100-1,Q104,P100,https://www.openstreetmap.org/node/10135300285,,osm
+Q104-P101-1,Q104,P101,https://www.openstreetmap.org/node/10135300285/history/1,,osm
+Q104-P101-2,Q104,P101,https://www.openstreetmap.org/node/10135300285/history/2,preferred,osm
+Q104-P107-1,Q104,P107,https://www.openstreetmap.org/node/10135300285/history/1,,osm
+Q104-P110-1,Q104,P110,"4.1221328,114.8719954",,osm
+Q104-P111-1,Q104,P111,POINT(114.8773384 4.1252308),,osm
+Q104-P111-2,Q104,P111,POINT(114.8719954 4.1221328),,osm
+Q104-P113-1,Q104,P113,description=Middle level entrance to Whiterock Cave system,,osm
+Q104-P113-2,Q104,P113,name=Whiterock Cave (Midnight Entrance),,osm
+Q104-P113-3,Q104,P113,natural=cave_entrance,,osm
+,Q105,P2,Q100,,osm
+Q105-P100-1,Q105,P100,https://www.openstreetmap.org/node/10135316701,,osm
+Q105-P101-1,Q105,P101,https://www.openstreetmap.org/node/10135316701/history/1,,osm
+Q105-P101-2,Q105,P101,https://www.openstreetmap.org/node/10135316701/history/2,preferred,osm
+Q105-P107-1,Q105,P107,https://www.openstreetmap.org/node/10135316701/history/1,,osm
+Q105-P110-1,Q105,P110,"4.0193263,114.8081589",,osm
+Q105-P111-1,Q105,P111,POINT(114.8081589 4.0193263),,osm
+Q105-P113-1,Q105,P113,name=Fruit Bat Cave,,osm
+Q105-P113-2,Q105,P113,natural=cave_entrance,,osm
+,Q106,P2,Q100,,osm
+Q106-P100-1,Q106,P100,https://www.openstreetmap.org/node/1017924795,,osm
+Q106-P101-1,Q106,P101,https://www.openstreetmap.org/node/1017924795/history/1,,osm
+Q106-P101-2,Q106,P101,https://www.openstreetmap.org/node/1017924795/history/2,,osm
+Q106-P101-3,Q106,P101,https://www.openstreetmap.org/node/1017924795/history/3,,osm
+Q106-P101-4,Q106,P101,https://www.openstreetmap.org/node/1017924795/history/4,preferred,osm
+Q106-P107-1,Q106,P107,https://www.openstreetmap.org/node/1017924795/history/1,,osm
+Q106-P110-1,Q106,P110,"47.2796888,13.0846577",,osm
+Q106-P111-1,Q106,P111,POINT(13.0847537 47.2794582),,osm
+Q106-P111-3,Q106,P111,POINT(13.0846577 47.2796888),,osm
+Q106-P113-1,Q106,P113,cave:ref=2595/2,,osm
+Q106-P113-2,Q106,P113,name=Entrische Kirche,,osm
+Q106-P113-3,Q106,P113,natural=cave_entrance,,osm
+Q106-P113-4,Q106,P113,wikidata=Q1345167,,osm
+Q106-P113-5,Q106,P113,wikipedia=de:Entrische Kirche,,osm
+,Q107,P2,Q100,,osm
+Q107-P100-1,Q107,P100,https://www.openstreetmap.org/node/10302261247,,osm
+Q107-P101-1,Q107,P101,https://www.openstreetmap.org/node/10302261247/history/1,preferred,osm
+Q107-P107-1,Q107,P107,https://www.openstreetmap.org/node/10302261247/history/1,,osm
+Q107-P110-1,Q107,P110,"-17.4309075,125.0004888",,osm
+Q107-P111-1,Q107,P111,POINT(125.0004888 -17.4309075),,osm
+Q107-P113-1,Q107,P113,alt_name=Tangalma Cave,,osm
+Q107-P113-2,Q107,P113,name=Carpenter's Gap 1,,osm
+Q107-P113-3,Q107,P113,natural=cave_entrance,,osm
+,Q108,P2,Q100,,osm
+Q108-P100-1,Q108,P100,https://www.openstreetmap.org/node/10676966439,,osm
+Q108-P101-1,Q108,P101,https://www.openstreetmap.org/node/10676966439/history/1,,osm
+Q108-P101-2,Q108,P101,https://www.openstreetmap.org/node/10676966439/history/2,preferred,osm
+Q108-P107-1,Q108,P107,https://www.openstreetmap.org/node/10676966439/history/1,,osm
+Q108-P110-1,Q108,P110,"30.6083068,-9.4794747",,osm
+Q108-P111-1,Q108,P111,POINT(-9.4794329 30.6083013),,osm
+Q108-P111-2,Q108,P111,POINT(-9.4794747 30.6083068),,osm
+Q108-P113-1,Q108,P113,natural=cave_entrance,,osm
+,Q109,P2,Q100,,osm
+Q109-P100-1,Q109,P100,https://www.openstreetmap.org/node/1074302540,,osm
+Q109-P101-1,Q109,P101,https://www.openstreetmap.org/node/1074302540/history/1,,osm
+Q109-P101-2,Q109,P101,https://www.openstreetmap.org/node/1074302540/history/2,preferred,osm
+Q109-P107-1,Q109,P107,https://www.openstreetmap.org/node/1074302540/history/1,,osm
+Q109-P110-1,Q109,P110,"-35.7235272,148.4870203",,osm
+Q109-P111-1,Q109,P111,POINT(148.4870203 -35.7235272),,osm
+Q109-P113-1,Q109,P113,access=customers,,osm
+Q109-P113-2,Q109,P113,barrier=gate,,osm
+Q109-P113-3,Q109,P113,fee=yes,,osm
+Q109-P113-4,Q109,P113,lit=yes,,osm
+Q109-P113-5,Q109,P113,name=Jersey Cave,,osm
+Q109-P113-6,Q109,P113,natural=cave_entrance,,osm
+,Q110,P2,Q100,,osm
+Q110-P100-1,Q110,P100,https://www.openstreetmap.org/node/10768872262,,osm
+Q110-P101-1,Q110,P101,https://www.openstreetmap.org/node/10768872262/history/1,preferred,osm
+Q110-P107-1,Q110,P107,https://www.openstreetmap.org/node/10768872262/history/1,,osm
+Q110-P110-1,Q110,P110,"35.7269317,9.6847701",,osm
+Q110-P111-1,Q110,P111,POINT(9.6847701 35.7269317),,osm
+Q110-P113-1,Q110,P113,natural=cave_entrance,,osm
+,Q111,P2,Q100,,osm
+Q111-P100-1,Q111,P100,https://www.openstreetmap.org/node/10773895664,,osm
+Q111-P101-1,Q111,P101,https://www.openstreetmap.org/node/10773895664/history/1,,osm
+Q111-P101-2,Q111,P101,https://www.openstreetmap.org/node/10773895664/history/2,preferred,osm
+Q111-P107-1,Q111,P107,https://www.openstreetmap.org/node/10773895664/history/1,,osm
+Q111-P110-1,Q111,P110,"-46.0184811,167.7405524",,osm
+Q111-P111-1,Q111,P111,POINT(167.7405524 -46.0184811),,osm
+Q111-P113-1,Q111,P113,access=yes,,osm
+Q111-P113-2,Q111,P113,alt_name=Clifden Caves,,osm
+Q111-P113-3,Q111,P113,fee=no,,osm
+Q111-P113-4,Q111,P113,name=Clifden Caves - Lower Entrance,,osm
+Q111-P113-5,Q111,P113,natural=cave_entrance,,osm
+Q111-P113-6,Q111,P113,operator=Department of Conservation,,osm
+Q111-P113-7,Q111,P113,tourism=attraction,,osm
+Q111-P113-8,Q111,P113,website=https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/clifden-area/?tab-id=Caving,,osm
+Q111-P113-9,Q111,P113,wikidata=Q5132503,,osm
+Q111-P113-10,Q111,P113,wikipedia=en:Clifden Limestone Caves,,osm
+,Q112,P2,Q100,,osm
+Q112-P100-1,Q112,P100,https://www.openstreetmap.org/node/10903529963,,osm
+Q112-P101-1,Q112,P101,https://www.openstreetmap.org/node/10903529963/history/1,preferred,osm
+Q112-P107-1,Q112,P107,https://www.openstreetmap.org/node/10903529963/history/1,,osm
+Q112-P110-1,Q112,P110,"42.947621,-5.118764",,osm
+Q112-P111-1,Q112,P111,POINT(-5.118764 42.947621),,osm
+Q112-P113-1,Q112,P113,name=Cueva de la Cabrera,,osm
+Q112-P113-2,Q112,P113,natural=cave_entrance,,osm
+,Q113,P2,Q100,,osm
+Q113-P100-1,Q113,P100,https://www.openstreetmap.org/node/10905682924,,osm
+Q113-P101-1,Q113,P101,https://www.openstreetmap.org/node/10905682924/history/1,,osm
+Q113-P101-2,Q113,P101,https://www.openstreetmap.org/node/10905682924/history/2,,osm
+Q113-P101-3,Q113,P101,https://www.openstreetmap.org/node/10905682924/history/3,,osm
+Q113-P101-4,Q113,P101,https://www.openstreetmap.org/node/10905682924/history/4,,osm
+Q113-P101-5,Q113,P101,https://www.openstreetmap.org/node/10905682924/history/5,preferred,osm
+Q113-P107-1,Q113,P107,https://www.openstreetmap.org/node/10905682924/history/1,,osm
+Q113-P110-1,Q113,P110,"44.0937497,10.182508",,osm
+Q113-P111-1,Q113,P111,POINT(10.182508 44.0937497),,osm
+Q113-P113-1,Q113,P113,alt_name=Buca sopra a Forno,,osm
+Q113-P113-2,Q113,P113,cave:ref:IT:FST=TO0272,,osm
+Q113-P113-3,Q113,P113,name=Buca della Renella,,osm
+Q113-P113-4,Q113,P113,natural=cave_entrance,,osm
+Q113-P113-5,Q113,P113,plaque=yes,,osm
+Q113-P113-6,Q113,P113,source=Catasto Grotte - Federazione Speleologica Toscana,,osm
+Q113-P113-7,Q113,P113,source:url=https://www.speleotoscana.it/scheda-catastale/?id=272,,osm
+,Q114,P2,Q100,,osm
+Q114-P100-1,Q114,P100,https://www.openstreetmap.org/node/10926006942,,osm
+Q114-P101-1,Q114,P101,https://www.openstreetmap.org/node/10926006942/history/1,preferred,osm
+Q114-P107-1,Q114,P107,https://www.openstreetmap.org/node/10926006942/history/1,,osm
+Q114-P110-1,Q114,P110,"42.5319432,0.0444207",,osm
+Q114-P111-1,Q114,P111,POINT(0.0444207 42.5319432),,osm
+Q114-P113-1,Q114,P113,name=Manatuero,,osm
+Q114-P113-2,Q114,P113,natural=cave_entrance,,osm
+,Q115,P2,Q100,,osm
+Q115-P100-1,Q115,P100,https://www.openstreetmap.org/node/10969878099,,osm
+Q115-P101-1,Q115,P101,https://www.openstreetmap.org/node/10969878099/history/1,preferred,osm
+Q115-P107-1,Q115,P107,https://www.openstreetmap.org/node/10969878099/history/1,,osm
+Q115-P110-1,Q115,P110,"34.3919311,36.0178184",,osm
+Q115-P111-1,Q115,P111,POINT(36.0178184 34.3919311),,osm
+Q115-P113-1,Q115,P113,name=Zahlan Grotto,,osm
+Q115-P113-2,Q115,P113,name:en=Zahlan Grotto,,osm
+Q115-P113-3,Q115,P113,natural=cave_entrance,,osm
+,Q116,P2,Q100,,osm
+Q116-P100-1,Q116,P100,https://www.openstreetmap.org/node/11135158274,,osm
+Q116-P101-1,Q116,P101,https://www.openstreetmap.org/node/11135158274/history/1,preferred,osm
+Q116-P107-1,Q116,P107,https://www.openstreetmap.org/node/11135158274/history/1,,osm
+Q116-P110-1,Q116,P110,"15.255954,-90.2630071",,osm
+Q116-P111-1,Q116,P111,POINT(-90.2630071 15.255954),,osm
+Q116-P113-1,Q116,P113,name=Cueva de Chicoy,,osm
+Q116-P113-2,Q116,P113,natural=cave_entrance,,osm
+,Q117,P2,Q100,,osm
+Q117-P100-1,Q117,P100,https://www.openstreetmap.org/node/1123061406,,osm
+Q117-P101-1,Q117,P101,https://www.openstreetmap.org/node/1123061406/history/1,preferred,osm
+Q117-P107-1,Q117,P107,https://www.openstreetmap.org/node/1123061406/history/1,,osm
+Q117-P110-1,Q117,P110,"-38.8963773,177.5265189",,osm
+Q117-P111-1,Q117,P111,POINT(177.5265189 -38.8963773),,osm
+Q117-P113-1,Q117,P113,LINZ:source_version=V16,,osm
+Q117-P113-2,Q117,P113,attribution=http://wiki.osm.org/wiki/Attribution#LINZ,,osm
+Q117-P113-3,Q117,P113,natural=cave_entrance,,osm
+Q117-P113-4,Q117,P113,source_ref=http://www.linz.govt.nz/topography/topo-maps/,,osm
+,Q118,P2,Q100,,osm
+Q118-P100-1,Q118,P100,https://www.openstreetmap.org/node/1123061543,,osm
+Q118-P101-1,Q118,P101,https://www.openstreetmap.org/node/1123061543/history/1,,osm
+Q118-P101-2,Q118,P101,https://www.openstreetmap.org/node/1123061543/history/2,,osm
+Q118-P101-3,Q118,P101,https://www.openstreetmap.org/node/1123061543/history/3,,osm
+Q118-P101-4,Q118,P101,https://www.openstreetmap.org/node/1123061543/history/4,,osm
+Q118-P101-5,Q118,P101,https://www.openstreetmap.org/node/1123061543/history/5,preferred,osm
+Q118-P107-1,Q118,P107,https://www.openstreetmap.org/node/1123061543/history/1,,osm
+Q118-P110-1,Q118,P110,"-41.2026465,172.1817695",,osm
+Q118-P111-1,Q118,P111,POINT(172.1817127 -41.2028566),,osm
+Q118-P111-3,Q118,P111,POINT(172.1817695 -41.2026465),,osm
+Q118-P113-1,Q118,P113,LINZ:source_version=V16,,osm
+Q118-P113-2,Q118,P113,access=yes,,osm
+Q118-P113-3,Q118,P113,attribution=http://wiki.osm.org/wiki/Attribution#LINZ,,osm
+Q118-P113-4,Q118,P113,fee=no,,osm
+Q118-P113-5,Q118,P113,name=Miners Cave,,osm
+Q118-P113-6,Q118,P113,natural=cave_entrance,,osm
+Q118-P113-7,Q118,P113,source_ref=http://www.linz.govt.nz/topography/topo-maps/,,osm
+Q118-P113-8,Q118,P113,tourism=viewpoint,,osm
+Q118-P113-9,Q118,P113,wheelchair=no,,osm
+,Q119,P2,Q100,,osm
+Q119-P100-1,Q119,P100,https://www.openstreetmap.org/node/1123061583,,osm
+Q119-P101-1,Q119,P101,https://www.openstreetmap.org/node/1123061583/history/1,preferred,osm
+Q119-P107-1,Q119,P107,https://www.openstreetmap.org/node/1123061583/history/1,,osm
+Q119-P110-1,Q119,P110,"-37.5449778,175.0161498",,osm
+Q119-P111-1,Q119,P111,POINT(175.0161498 -37.5449778),,osm
+Q119-P113-1,Q119,P113,LINZ:source_version=V16,,osm
+Q119-P113-2,Q119,P113,attribution=http://wiki.osm.org/wiki/Attribution#LINZ,,osm
+Q119-P113-3,Q119,P113,natural=cave_entrance,,osm
+Q119-P113-4,Q119,P113,source_ref=http://www.linz.govt.nz/topography/topo-maps/,,osm
+,Q120,P2,Q100,,osm
+Q120-P100-1,Q120,P100,https://www.openstreetmap.org/node/1123061603,,osm
+Q120-P101-1,Q120,P101,https://www.openstreetmap.org/node/1123061603/history/1,,osm
+Q120-P101-2,Q120,P101,https://www.openstreetmap.org/node/1123061603/history/2,,osm
+Q120-P101-3,Q120,P101,https://www.openstreetmap.org/node/1123061603/history/3,preferred,osm
+Q120-P107-1,Q120,P107,https://www.openstreetmap.org/node/1123061603/history/1,,osm
+Q120-P110-1,Q120,P110,"-41.9518936,171.4768536",,osm
+Q120-P111-1,Q120,P111,POINT(171.4768536 -41.9518936),,osm
+Q120-P113-1,Q120,P113,material=limestone,,osm
+Q120-P113-2,Q120,P113,name=Hole in the Hill,,osm
+Q120-P113-3,Q120,P113,natural=cave_entrance,,osm
+Q120-P113-4,Q120,P113,not:natural=rock,,osm
+Q120-P113-5,Q120,P113,ref:linz:place_id=2048,,osm
+Q120-P113-6,Q120,P113,source=LINZ,,osm
+Q120-P113-7,Q120,P113,wikidata=Q32222687,,osm
+,Q121,P2,Q100,,osm
+Q121-P100-1,Q121,P100,https://www.openstreetmap.org/node/1123061615,,osm
+Q121-P101-1,Q121,P101,https://www.openstreetmap.org/node/1123061615/history/1,,osm
+Q121-P101-2,Q121,P101,https://www.openstreetmap.org/node/1123061615/history/2,preferred,osm
+Q121-P107-1,Q121,P107,https://www.openstreetmap.org/node/1123061615/history/1,,osm
+Q121-P110-1,Q121,P110,"-42.0435608,171.4436588",,osm
+Q121-P111-1,Q121,P111,POINT(171.4436588 -42.0435608),,osm
+Q121-P113-1,Q121,P113,name=Ballroom Overhang,,osm
+Q121-P113-2,Q121,P113,natural=cave_entrance,,osm
+Q121-P113-3,Q121,P113,not:natural=rock,,osm
+Q121-P113-4,Q121,P113,ref:linz:place_id=282,,osm
+Q121-P113-5,Q121,P113,wikidata=Q32124933,,osm
+Q121-P113-6,Q121,P113,wikipedia=en:Ballroom Overhang,,osm
+,Q122,P2,Q100,,osm
+Q122-P100-1,Q122,P100,https://www.openstreetmap.org/node/1123061620,,osm
+Q122-P101-1,Q122,P101,https://www.openstreetmap.org/node/1123061620/history/1,preferred,osm
+Q122-P107-1,Q122,P107,https://www.openstreetmap.org/node/1123061620/history/1,,osm
+Q122-P110-1,Q122,P110,"-41.5658266,172.6776573",,osm
+Q122-P111-1,Q122,P111,POINT(172.6776573 -41.5658266),,osm
+Q122-P113-1,Q122,P113,LINZ:source_version=V16,,osm
+Q122-P113-2,Q122,P113,attribution=http://wiki.osm.org/wiki/Attribution#LINZ,,osm
+Q122-P113-3,Q122,P113,natural=cave_entrance,,osm
+Q122-P113-4,Q122,P113,source_ref=http://www.linz.govt.nz/topography/topo-maps/,,osm
+,Q123,P2,Q100,,osm
+Q123-P100-1,Q123,P100,https://www.openstreetmap.org/node/11268539252,,osm
+Q123-P101-1,Q123,P101,https://www.openstreetmap.org/node/11268539252/history/1,preferred,osm
+Q123-P107-1,Q123,P107,https://www.openstreetmap.org/node/11268539252/history/1,,osm
+Q123-P110-1,Q123,P110,"28.3807889,82.0086898",,osm
+Q123-P111-1,Q123,P111,POINT(82.0086898 28.3807889),,osm
+Q123-P113-1,Q123,P113,name=सिद्ध गुफा,,osm
+Q123-P113-2,Q123,P113,name:en=Siddha Gufa,,osm
+Q123-P113-3,Q123,P113,name:ne=सिद्ध गुफा,,osm
+Q123-P113-4,Q123,P113,natural=cave_entrance,,osm
+,Q124,P2,Q100,,osm
+Q124-P100-1,Q124,P100,https://www.openstreetmap.org/node/11298621603,,osm
+Q124-P101-1,Q124,P101,https://www.openstreetmap.org/node/11298621603/history/1,preferred,osm
+Q124-P107-1,Q124,P107,https://www.openstreetmap.org/node/11298621603/history/1,,osm
+Q124-P110-1,Q124,P110,"42.7336414,-0.2735926",,osm
+Q124-P111-1,Q124,P111,POINT(-0.2735926 42.7336414),,osm
+Q124-P113-1,Q124,P113,name=Cueva del Onso,,osm
+Q124-P113-2,Q124,P113,natural=cave_entrance,,osm
+,Q125,P2,Q100,,osm
+Q125-P100-1,Q125,P100,https://www.openstreetmap.org/node/11300105382,,osm
+Q125-P101-1,Q125,P101,https://www.openstreetmap.org/node/11300105382/history/1,preferred,osm
+Q125-P107-1,Q125,P107,https://www.openstreetmap.org/node/11300105382/history/1,,osm
+Q125-P110-1,Q125,P110,"30.7902977,77.7769496",,osm
+Q125-P111-1,Q125,P111,POINT(77.7769496 30.7902977),,osm
+Q125-P113-1,Q125,P113,alt_name=Biyar Udiyar,,osm
+Q125-P113-2,Q125,P113,ele=2310,,osm
+Q125-P113-3,Q125,P113,name=Gorcha cave,,osm
+Q125-P113-4,Q125,P113,natural=cave_entrance,,osm
+,Q126,P2,Q100,,osm
+Q126-P100-1,Q126,P100,https://www.openstreetmap.org/node/11423443988,,osm
+Q126-P101-1,Q126,P101,https://www.openstreetmap.org/node/11423443988/history/1,preferred,osm
+Q126-P107-1,Q126,P107,https://www.openstreetmap.org/node/11423443988/history/1,,osm
+Q126-P110-1,Q126,P110,"-42.131061,171.4069688",,osm
+Q126-P111-1,Q126,P111,POINT(171.4069688 -42.131061),,osm
+Q126-P113-1,Q126,P113,natural=cave_entrance,,osm
+,Q127,P2,Q100,,osm
+Q127-P100-1,Q127,P100,https://www.openstreetmap.org/node/11443521790,,osm
+Q127-P101-1,Q127,P101,https://www.openstreetmap.org/node/11443521790/history/1,preferred,osm
+Q127-P107-1,Q127,P107,https://www.openstreetmap.org/node/11443521790/history/1,,osm
+Q127-P110-1,Q127,P110,"22.966387,104.8117351",,osm
+Q127-P111-1,Q127,P111,POINT(104.8117351 22.966387),,osm
+Q127-P113-1,Q127,P113,name=曼棍洞,,osm
+Q127-P113-2,Q127,P113,natural=cave_entrance,,osm
+,Q128,P2,Q100,,osm
+Q128-P100-1,Q128,P100,https://www.openstreetmap.org/node/11478460514,,osm
+Q128-P101-1,Q128,P101,https://www.openstreetmap.org/node/11478460514/history/1,preferred,osm
+Q128-P107-1,Q128,P107,https://www.openstreetmap.org/node/11478460514/history/1,,osm
+Q128-P110-1,Q128,P110,"-11.2456762,-75.794683",,osm
+Q128-P111-1,Q128,P111,POINT(-75.794683 -11.2456762),,osm
+Q128-P113-1,Q128,P113,name=Sima de Racas Marca,,osm
+Q128-P113-2,Q128,P113,natural=cave_entrance,,osm
+,Q129,P2,Q100,,osm
+Q129-P100-1,Q129,P100,https://www.openstreetmap.org/node/11520700149,,osm
+Q129-P101-1,Q129,P101,https://www.openstreetmap.org/node/11520700149/history/1,preferred,osm
+Q129-P107-1,Q129,P107,https://www.openstreetmap.org/node/11520700149/history/1,,osm
+Q129-P110-1,Q129,P110,"16.9728752,-88.9995064",,osm
+Q129-P111-1,Q129,P111,POINT(-88.9995064 16.9728752),,osm
+Q129-P113-1,Q129,P113,fee=no,,osm
+Q129-P113-2,Q129,P113,name=Closing Jaw Cave,,osm
+Q129-P113-3,Q129,P113,natural=cave_entrance,,osm
+Q129-P113-4,Q129,P113,note=Cave and trail need to be verified,,osm
+,Q130,P2,Q100,,osm
+Q130-P100-1,Q130,P100,https://www.openstreetmap.org/node/11687476904,,osm
+Q130-P101-1,Q130,P101,https://www.openstreetmap.org/node/11687476904/history/1,preferred,osm
+Q130-P107-1,Q130,P107,https://www.openstreetmap.org/node/11687476904/history/1,,osm
+Q130-P110-1,Q130,P110,"39.5145813,3.3059456",,osm
+Q130-P111-1,Q130,P111,POINT(3.3059456 39.5145813),,osm
+Q130-P113-1,Q130,P113,name=cova de sa balma des cuartó,,osm
+Q130-P113-2,Q130,P113,natural=cave_entrance,,osm
+,Q131,P2,Q100,,osm
+Q131-P100-1,Q131,P100,https://www.openstreetmap.org/node/11737465821,,osm
+Q131-P101-1,Q131,P101,https://www.openstreetmap.org/node/11737465821/history/1,,osm
+Q131-P101-2,Q131,P101,https://www.openstreetmap.org/node/11737465821/history/2,,osm
+Q131-P101-3,Q131,P101,https://www.openstreetmap.org/node/11737465821/history/3,,osm
+Q131-P101-4,Q131,P101,https://www.openstreetmap.org/node/11737465821/history/4,,osm
+Q131-P101-5,Q131,P101,https://www.openstreetmap.org/node/11737465821/history/5,preferred,osm
+Q131-P107-1,Q131,P107,https://www.openstreetmap.org/node/11737465821/history/1,,osm
+Q131-P110-1,Q131,P110,"32.7145854,34.9741241",,osm
+Q131-P111-1,Q131,P111,POINT(34.9741241 32.7145854),,osm
+Q131-P113-1,Q131,P113,access=yes,,osm
+Q131-P113-2,Q131,P113,fee=no,,osm
+Q131-P113-3,Q131,P113,name=Oren,,osm
+Q131-P113-4,Q131,P113,name:he=מערת אורן,,osm
+Q131-P113-5,Q131,P113,natural=cave_entrance,,osm
+Q131-P113-6,Q131,P113,website=https://www.caves.co.il/מערה/מערת-אורן,,osm
+Q131-P113-7,Q131,P113,wikidata=Q26766939,,osm
+,Q132,P2,Q100,,osm
+Q132-P100-1,Q132,P100,https://www.openstreetmap.org/node/1174578048,,osm
+Q132-P101-1,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/1,,osm
+Q132-P101-2,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/2,,osm
+Q132-P101-3,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/3,,osm
+Q132-P101-4,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/4,,osm
+Q132-P101-5,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/5,,osm
+Q132-P101-6,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/6,,osm
+Q132-P101-7,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/7,,osm
+Q132-P101-8,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/8,,osm
+Q132-P101-9,Q132,P101,https://www.openstreetmap.org/node/1174578048/history/9,preferred,osm
+Q132-P107-1,Q132,P107,https://www.openstreetmap.org/node/1174578048/history/1,,osm
+Q132-P110-1,Q132,P110,"43.5933164,25.9600821",,osm
+Q132-P111-1,Q132,P111,POINT(25.9600459 43.5930896),,osm
+Q132-P111-2,Q132,P111,POINT(25.9602082 43.593263),,osm
+Q132-P111-5,Q132,P111,POINT(25.9600821 43.5933164),,osm
+Q132-P113-1,Q132,P113,name=Орлова чука,,osm
+Q132-P113-2,Q132,P113,natural=cave_entrance,,osm
+Q132-P113-3,Q132,P113,wikidata=Q12289333,,osm
+Q132-P113-4,Q132,P113,wikipedia=bg:Орлова чука,,osm
+,Q133,P2,Q100,,osm
+Q133-P100-1,Q133,P100,https://www.openstreetmap.org/node/11876346537,,osm
+Q133-P101-1,Q133,P101,https://www.openstreetmap.org/node/11876346537/history/1,preferred,osm
+Q133-P107-1,Q133,P107,https://www.openstreetmap.org/node/11876346537/history/1,,osm
+Q133-P110-1,Q133,P110,"65.8959048,14.6601841",,osm
+Q133-P111-1,Q133,P111,POINT(14.6601841 65.8959048),,osm
+Q133-P113-1,Q133,P113,name=Schaktgrottan,,osm
+Q133-P113-2,Q133,P113,natural=cave_entrance,,osm
+,Q134,P2,Q100,,osm
+Q134-P100-1,Q134,P100,https://www.openstreetmap.org/node/11876859066,,osm
+Q134-P101-1,Q134,P101,https://www.openstreetmap.org/node/11876859066/history/1,preferred,osm
+Q134-P107-1,Q134,P107,https://www.openstreetmap.org/node/11876859066/history/1,,osm
+Q134-P110-1,Q134,P110,"29.6610917,106.2955243",,osm
+Q134-P111-1,Q134,P111,POINT(106.2955243 29.6610917),,osm
+Q134-P113-1,Q134,P113,access=yes,,osm
+Q134-P113-2,Q134,P113,fee=no,,osm
+Q134-P113-3,Q134,P113,historic=archaeological_site,,osm
+Q134-P113-4,Q134,P113,name=果老寨遗址,,osm
+Q134-P113-5,Q134,P113,natural=cave_entrance,,osm
+Q134-P113-6,Q134,P113,tourism=attraction,,osm
+,Q135,P2,Q100,,osm
+Q135-P100-1,Q135,P100,https://www.openstreetmap.org/node/1192434410,,osm
+Q135-P101-1,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/1,,osm
+Q135-P101-2,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/2,,osm
+Q135-P101-3,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/3,,osm
+Q135-P101-4,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/4,,osm
+Q135-P101-5,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/5,,osm
+Q135-P101-6,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/6,,osm
+Q135-P101-7,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/7,,osm
+Q135-P101-8,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/8,,osm
+Q135-P101-9,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/9,,osm
+Q135-P101-10,Q135,P101,https://www.openstreetmap.org/node/1192434410/history/10,preferred,osm
+Q135-P107-4,Q135,P107,https://www.openstreetmap.org/node/1192434410/history/4,,osm
+Q135-P110-1,Q135,P110,"47.699993,18.8444428",,osm
+Q135-P111-1,Q135,P111,POINT(18.8437952 47.7001663),,osm
+Q135-P111-2,Q135,P111,POINT(18.8442504 47.7000006),,osm
+Q135-P111-4,Q135,P111,POINT(18.8444428 47.699993),,osm
+Q135-P113-1,Q135,P113,access=permit,,osm
+Q135-P113-2,Q135,P113,barrier=door,,osm
+Q135-P113-3,Q135,P113,cave:ref=4840-1,,osm
+Q135-P113-4,Q135,P113,depth=139.6,,osm
+Q135-P113-5,Q135,P113,ele=460,,osm
+Q135-P113-6,Q135,P113,height=206.1,,osm
+Q135-P113-7,Q135,P113,locked=yes,,osm
+Q135-P113-8,Q135,P113,name=Leány-barlang,,osm
+Q135-P113-9,Q135,P113,natural=cave_entrance,,osm
+Q135-P113-10,Q135,P113,note:en=accessible with the permission of the National Park Directorate,,osm
+Q135-P113-11,Q135,P113,note:hu=NPI hozzájárulásával látogatható,,osm
+Q135-P113-12,Q135,P113,official_name=Ariadne-barlangrendszer,,osm
+Q135-P113-13,Q135,P113,protect_class=3,,osm
+Q135-P113-14,Q135,P113,protection_object=cave,,osm
+Q135-P113-15,Q135,P113,protection_title=fokozottan védett,,osm
+Q135-P113-16,Q135,P113,protection_title:en=strictly protected,,osm
+Q135-P113-17,Q135,P113,website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4840-1,,osm
+,Q136,P2,Q100,,osm
+Q136-P100-1,Q136,P100,https://www.openstreetmap.org/node/11954189744,,osm
+Q136-P101-1,Q136,P101,https://www.openstreetmap.org/node/11954189744/history/1,preferred,osm
+Q136-P107-1,Q136,P107,https://www.openstreetmap.org/node/11954189744/history/1,,osm
+Q136-P110-1,Q136,P110,"44.399364,4.2271104",,osm
+Q136-P111-1,Q136,P111,POINT(4.2271104 44.399364),,osm
+Q136-P113-1,Q136,P113,name=arche,,osm
+Q136-P113-2,Q136,P113,natural=cave_entrance,,osm
+,Q137,P2,Q100,,osm
+Q137-P100-1,Q137,P100,https://www.openstreetmap.org/node/1201366333,,osm
+Q137-P101-1,Q137,P101,https://www.openstreetmap.org/node/1201366333/history/1,,osm
+Q137-P101-2,Q137,P101,https://www.openstreetmap.org/node/1201366333/history/2,,osm
+Q137-P101-3,Q137,P101,https://www.openstreetmap.org/node/1201366333/history/3,,osm
+Q137-P101-4,Q137,P101,https://www.openstreetmap.org/node/1201366333/history/4,preferred,osm
+Q137-P107-2,Q137,P107,https://www.openstreetmap.org/node/1201366333/history/2,,osm
+Q137-P110-1,Q137,P110,"-41.5516035,146.2481437",,osm
+Q137-P111-1,Q137,P111,POINT(146.2481515 -41.551596),,osm
+Q137-P111-2,Q137,P111,POINT(146.2481516 -41.5515961),,osm
+Q137-P111-3,Q137,P111,POINT(146.2481437 -41.5516035),,osm
+Q137-P113-1,Q137,P113,name=King Solomons Cave,,osm
+Q137-P113-2,Q137,P113,natural=cave_entrance,,osm
+,Q138,P2,Q100,,osm
+Q138-P100-1,Q138,P100,https://www.openstreetmap.org/node/12080122765,,osm
+Q138-P101-1,Q138,P101,https://www.openstreetmap.org/node/12080122765/history/1,preferred,osm
+Q138-P107-1,Q138,P107,https://www.openstreetmap.org/node/12080122765/history/1,,osm
+Q138-P110-1,Q138,P110,"40.4324719,-0.5879256",,osm
+Q138-P111-1,Q138,P111,POINT(-0.5879256 40.4324719),,osm
+Q138-P113-1,Q138,P113,name=La Cueva,,osm
+Q138-P113-2,Q138,P113,natural=cave_entrance,,osm
+,Q139,P2,Q100,,osm
+Q139-P100-1,Q139,P100,https://www.openstreetmap.org/node/12150637414,,osm
+Q139-P101-1,Q139,P101,https://www.openstreetmap.org/node/12150637414/history/1,preferred,osm
+Q139-P107-1,Q139,P107,https://www.openstreetmap.org/node/12150637414/history/1,,osm
+Q139-P110-1,Q139,P110,"32.0954841,119.2210791",,osm
+Q139-P111-1,Q139,P111,POINT(119.2210791 32.0954841),,osm
+Q139-P113-1,Q139,P113,natural=cave_entrance,,osm
+,Q140,P2,Q100,,osm
+Q140-P100-1,Q140,P100,https://www.openstreetmap.org/node/12184077155,,osm
+Q140-P101-1,Q140,P101,https://www.openstreetmap.org/node/12184077155/history/1,preferred,osm
+Q140-P107-1,Q140,P107,https://www.openstreetmap.org/node/12184077155/history/1,,osm
+Q140-P110-1,Q140,P110,"47.4458226,24.5271584",,osm
+Q140-P111-1,Q140,P111,POINT(24.5271584 47.4458226),,osm
+Q140-P113-1,Q140,P113,access=permit,,osm
+Q140-P113-2,Q140,P113,ele=950,,osm
+Q140-P113-3,Q140,P113,fee=no,,osm
+Q140-P113-4,Q140,P113,name=Peştera Tăuşoare,,osm
+Q140-P113-5,Q140,P113,natural=cave_entrance,,osm
+,Q141,P2,Q100,,osm
+Q141-P100-1,Q141,P100,https://www.openstreetmap.org/node/12497973563,,osm
+Q141-P101-1,Q141,P101,https://www.openstreetmap.org/node/12497973563/history/1,preferred,osm
+Q141-P107-1,Q141,P107,https://www.openstreetmap.org/node/12497973563/history/1,,osm
+Q141-P110-1,Q141,P110,"36.5479505,4.5382419",,osm
+Q141-P111-1,Q141,P111,POINT(4.5382419 36.5479505),,osm
+Q141-P113-1,Q141,P113,access=yes,,osm
+Q141-P113-2,Q141,P113,direction=180,,osm
+Q141-P113-3,Q141,P113,fee=yes,,osm
+Q141-P113-4,Q141,P113,name=Grotte Tizi Maghlaz,,osm
+Q141-P113-5,Q141,P113,name:ar=مغارة تيزي مغلاز,,osm
+Q141-P113-6,Q141,P113,name:fr=Grotte Tizi Maghlaz,,osm
+Q141-P113-7,Q141,P113,natural=cave_entrance,,osm
+,Q142,P2,Q100,,osm
+Q142-P100-1,Q142,P100,https://www.openstreetmap.org/node/12521313377,,osm
+Q142-P101-1,Q142,P101,https://www.openstreetmap.org/node/12521313377/history/1,preferred,osm
+Q142-P107-1,Q142,P107,https://www.openstreetmap.org/node/12521313377/history/1,,osm
+Q142-P110-1,Q142,P110,"40.6223982,24.5396825",,osm
+Q142-P111-1,Q142,P111,POINT(24.5396825 40.6223982),,osm
+Q142-P113-1,Q142,P113,natural=cave_entrance,,osm
+,Q143,P2,Q100,,osm
+Q143-P100-1,Q143,P100,https://www.openstreetmap.org/node/12595360316,,osm
+Q143-P101-1,Q143,P101,https://www.openstreetmap.org/node/12595360316/history/1,preferred,osm
+Q143-P107-1,Q143,P107,https://www.openstreetmap.org/node/12595360316/history/1,,osm
+Q143-P110-1,Q143,P110,"39.6399406,-8.7589819",,osm
+Q143-P111-1,Q143,P111,POINT(-8.7589819 39.6399406),,osm
+Q143-P113-1,Q143,P113,name=Buraco Roto,,osm
+Q143-P113-2,Q143,P113,natural=cave_entrance,,osm
+,Q144,P2,Q100,,osm
+Q144-P100-1,Q144,P100,https://www.openstreetmap.org/node/12879668276,,osm
+Q144-P101-1,Q144,P101,https://www.openstreetmap.org/node/12879668276/history/1,preferred,osm
+Q144-P107-1,Q144,P107,https://www.openstreetmap.org/node/12879668276/history/1,,osm
+Q144-P110-1,Q144,P110,"46.9699458,9.6540024",,osm
+Q144-P111-1,Q144,P111,POINT(9.6540024 46.9699458),,osm
+Q144-P113-1,Q144,P113,access=yes,,osm
+Q144-P113-2,Q144,P113,fee=no,,osm
+Q144-P113-3,Q144,P113,name=Eretsloch,,osm
+Q144-P113-4,Q144,P113,natural=cave_entrance,,osm
+Q144-P113-5,Q144,P113,website=https://www.praettigau.info/de/ausflugsziele/eretsloch-gruesch,,osm
+,Q145,P2,Q100,,osm
+Q145-P100-1,Q145,P100,https://www.openstreetmap.org/node/13014990612,,osm
+Q145-P101-1,Q145,P101,https://www.openstreetmap.org/node/13014990612/history/1,,osm
+Q145-P101-2,Q145,P101,https://www.openstreetmap.org/node/13014990612/history/2,preferred,osm
+Q145-P107-1,Q145,P107,https://www.openstreetmap.org/node/13014990612/history/1,,osm
+Q145-P110-1,Q145,P110,"-6.04147,-77.2969868",,osm
+Q145-P111-1,Q145,P111,POINT(-77.2970619 -6.041462),,osm
+Q145-P111-2,Q145,P111,POINT(-77.2969868 -6.04147),,osm
+Q145-P113-1,Q145,P113,name=Cueva del Héctor,,osm
+Q145-P113-2,Q145,P113,natural=cave_entrance,,osm
+,Q146,P2,Q100,,osm
+Q146-P100-1,Q146,P100,https://www.openstreetmap.org/node/13028255810,,osm
+Q146-P101-1,Q146,P101,https://www.openstreetmap.org/node/13028255810/history/1,,osm
+Q146-P101-2,Q146,P101,https://www.openstreetmap.org/node/13028255810/history/2,preferred,osm
+Q146-P107-1,Q146,P107,https://www.openstreetmap.org/node/13028255810/history/1,,osm
+Q146-P110-1,Q146,P110,"54.215445,-2.5104674",,osm
+Q146-P111-1,Q146,P111,POINT(-2.510461 54.2154161),,osm
+Q146-P111-2,Q146,P111,POINT(-2.5104674 54.215445),,osm
+Q146-P113-1,Q146,P113,name=Pippikin Pot,,osm
+Q146-P113-2,Q146,P113,natural=cave_entrance,,osm
+,Q147,P2,Q100,,osm
+Q147-P100-1,Q147,P100,https://www.openstreetmap.org/node/13073296633,,osm
+Q147-P101-1,Q147,P101,https://www.openstreetmap.org/node/13073296633/history/1,preferred,osm
+Q147-P107-1,Q147,P107,https://www.openstreetmap.org/node/13073296633/history/1,,osm
+Q147-P110-1,Q147,P110,"33.2753983,35.5777472",,osm
+Q147-P111-1,Q147,P111,POINT(35.5777472 33.2753983),,osm
+Q147-P113-1,Q147,P113,natural=cave_entrance,,osm
+,Q148,P2,Q100,,osm
+Q148-P100-1,Q148,P100,https://www.openstreetmap.org/node/13093008192,,osm
+Q148-P101-1,Q148,P101,https://www.openstreetmap.org/node/13093008192/history/1,preferred,osm
+Q148-P107-1,Q148,P107,https://www.openstreetmap.org/node/13093008192/history/1,,osm
+Q148-P110-1,Q148,P110,"66.7809622,14.1323737",,osm
+Q148-P111-1,Q148,P111,POINT(14.1323737 66.7809622),,osm
+Q148-P113-1,Q148,P113,natural=cave_entrance,,osm
+,Q149,P2,Q100,,osm
+Q149-P100-1,Q149,P100,https://www.openstreetmap.org/node/1312824946,,osm
+Q149-P101-1,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/1,,osm
+Q149-P101-2,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/2,,osm
+Q149-P101-3,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/3,,osm
+Q149-P101-4,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/4,,osm
+Q149-P101-5,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/5,,osm
+Q149-P101-6,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/6,,osm
+Q149-P101-7,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/7,,osm
+Q149-P101-8,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/8,,osm
+Q149-P101-9,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/9,,osm
+Q149-P101-10,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/10,,osm
+Q149-P101-11,Q149,P101,https://www.openstreetmap.org/node/1312824946/history/11,preferred,osm
+Q149-P107-1,Q149,P107,https://www.openstreetmap.org/node/1312824946/history/1,,osm
+Q149-P107-3,Q149,P107,https://www.openstreetmap.org/node/1312824946/history/3,,osm
+Q149-P110-1,Q149,P110,"44.3143024,15.4750108",,osm
+Q149-P111-1,Q149,P111,POINT(15.474718 44.3145654),,osm
+Q149-P111-8,Q149,P111,POINT(15.4750108 44.3143024),,osm
+Q149-P113-1,Q149,P113,access=yes,,osm
+Q149-P113-2,Q149,P113,ele=570,,osm
+Q149-P113-3,Q149,P113,fee=yes,,osm
+Q149-P113-4,Q149,P113,name=Manita peć,,osm
+Q149-P113-5,Q149,P113,natural=cave_entrance,,osm
+Q149-P113-6,Q149,P113,website=https://www.np-paklenica.hr/en/what-to-visit-en/manita-pec-cave-en,,osm
+,Q150,P2,Q100,,osm
+Q150-P100-1,Q150,P100,https://www.openstreetmap.org/node/13130638123,,osm
+Q150-P101-1,Q150,P101,https://www.openstreetmap.org/node/13130638123/history/1,preferred,osm
+Q150-P107-1,Q150,P107,https://www.openstreetmap.org/node/13130638123/history/1,,osm
+Q150-P110-1,Q150,P110,"39.9329131,3.9661033",,osm
+Q150-P111-1,Q150,P111,POINT(3.9661033 39.9329131),,osm
+Q150-P113-1,Q150,P113,natural=cave_entrance,,osm
+,Q151,P2,Q100,,osm
+Q151-P100-1,Q151,P100,https://www.openstreetmap.org/node/13152004017,,osm
+Q151-P101-1,Q151,P101,https://www.openstreetmap.org/node/13152004017/history/1,preferred,osm
+Q151-P107-1,Q151,P107,https://www.openstreetmap.org/node/13152004017/history/1,,osm
+Q151-P110-1,Q151,P110,"16.2980724,-89.0906785",,osm
+Q151-P111-1,Q151,P111,POINT(-89.0906785 16.2980724),,osm
+Q151-P113-1,Q151,P113,fixme=exact location unknown,,osm
+Q151-P113-2,Q151,P113,name=Actun Halen,,osm
+Q151-P113-3,Q151,P113,natural=cave_entrance,,osm
+,Q152,P2,Q100,,osm
+Q152-P100-1,Q152,P100,https://www.openstreetmap.org/node/13169167192,,osm
+Q152-P101-1,Q152,P101,https://www.openstreetmap.org/node/13169167192/history/1,preferred,osm
+Q152-P107-1,Q152,P107,https://www.openstreetmap.org/node/13169167192/history/1,,osm
+Q152-P110-1,Q152,P110,"43.4434565,-5.1317632",,osm
+Q152-P111-1,Q152,P111,POINT(-5.1317632 43.4434565),,osm
+Q152-P113-1,Q152,P113,name=Cueva Rosa,,osm
+Q152-P113-2,Q152,P113,natural=cave_entrance,,osm
+,Q153,P2,Q100,,osm
+Q153-P100-1,Q153,P100,https://www.openstreetmap.org/node/1325351976,,osm
+Q153-P101-1,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/1,,osm
+Q153-P101-2,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/2,,osm
+Q153-P101-3,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/3,,osm
+Q153-P101-4,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/4,,osm
+Q153-P101-5,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/5,,osm
+Q153-P101-6,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/6,,osm
+Q153-P101-7,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/7,,osm
+Q153-P101-8,Q153,P101,https://www.openstreetmap.org/node/1325351976/history/8,preferred,osm
+Q153-P107-1,Q153,P107,https://www.openstreetmap.org/node/1325351976/history/1,,osm
+Q153-P110-1,Q153,P110,"39.5070206,3.2995185",,osm
+Q153-P111-1,Q153,P111,POINT(3.2995205 39.5070204),,osm
+Q153-P111-3,Q153,P111,POINT(3.2995866 39.5069538),,osm
+Q153-P111-4,Q153,P111,POINT(3.2995185 39.5070206),,osm
+Q153-P113-1,Q153,P113,access=private,,osm
+Q153-P113-2,Q153,P113,ele=22,,osm
+Q153-P113-3,Q153,P113,name=Cova des Pirata,,osm
+Q153-P113-4,Q153,P113,name:ca=Cova des Pirata,,osm
+Q153-P113-5,Q153,P113,natural=cave_entrance,,osm
+Q153-P113-6,Q153,P113,wikidata=Q20639449,,osm
+,Q154,P2,Q100,,osm
+Q154-P100-1,Q154,P100,https://www.openstreetmap.org/node/13307603920,,osm
+Q154-P101-1,Q154,P101,https://www.openstreetmap.org/node/13307603920/history/1,,osm
+Q154-P101-2,Q154,P101,https://www.openstreetmap.org/node/13307603920/history/2,preferred,osm
+Q154-P107-1,Q154,P107,https://www.openstreetmap.org/node/13307603920/history/1,,osm
+Q154-P110-1,Q154,P110,"-15.1164861,-44.2412366",,osm
+Q154-P111-1,Q154,P111,POINT(-44.2412366 -15.1164861),,osm
+Q154-P113-1,Q154,P113,name=Gruta do Janelão,,osm
+Q154-P113-2,Q154,P113,natural=cave_entrance,,osm
+,Q155,P2,Q100,,osm
+Q155-P100-1,Q155,P100,https://www.openstreetmap.org/node/13324454762,,osm
+Q155-P101-1,Q155,P101,https://www.openstreetmap.org/node/13324454762/history/1,preferred,osm
+Q155-P107-1,Q155,P107,https://www.openstreetmap.org/node/13324454762/history/1,,osm
+Q155-P110-1,Q155,P110,"46.7880545,8.2894275",,osm
+Q155-P111-1,Q155,P111,POINT(8.2894275 46.7880545),,osm
+Q155-P113-1,Q155,P113,fixme=ungefähre Lage,,osm
+Q155-P113-2,Q155,P113,name=Bettenhöhle,,osm
+Q155-P113-3,Q155,P113,natural=cave_entrance,,osm
+Q155-P113-4,Q155,P113,wikidata=Q8304237,,osm
+Q155-P113-5,Q155,P113,wikipedia=de:Bettenhöhle,,osm
+,Q156,P2,Q100,,osm
+Q156-P100-1,Q156,P100,https://www.openstreetmap.org/node/13404301868,,osm
+Q156-P101-1,Q156,P101,https://www.openstreetmap.org/node/13404301868/history/1,preferred,osm
+Q156-P107-1,Q156,P107,https://www.openstreetmap.org/node/13404301868/history/1,,osm
+Q156-P110-1,Q156,P110,"40.449076,-0.4296389",,osm
+Q156-P111-1,Q156,P111,POINT(-0.4296389 40.449076),,osm
+Q156-P113-1,Q156,P113,name=Cima el Dómine,,osm
+Q156-P113-2,Q156,P113,natural=cave_entrance,,osm
+,Q157,P2,Q100,,osm
+Q157-P100-1,Q157,P100,https://www.openstreetmap.org/node/13556252331,,osm
+Q157-P101-1,Q157,P101,https://www.openstreetmap.org/node/13556252331/history/1,preferred,osm
+Q157-P107-1,Q157,P107,https://www.openstreetmap.org/node/13556252331/history/1,,osm
+Q157-P110-1,Q157,P110,"45.6925918,13.8916797",,osm
+Q157-P111-1,Q157,P111,POINT(13.8916797 45.6925918),,osm
+Q157-P113-1,Q157,P113,ele=480,,osm
+Q157-P113-2,Q157,P113,name=Bestažovca,,osm
+Q157-P113-3,Q157,P113,natural=cave_entrance,,osm
+,Q158,P2,Q100,,osm
+Q158-P100-1,Q158,P100,https://www.openstreetmap.org/node/13566719139,,osm
+Q158-P101-1,Q158,P101,https://www.openstreetmap.org/node/13566719139/history/1,preferred,osm
+Q158-P107-1,Q158,P107,https://www.openstreetmap.org/node/13566719139/history/1,,osm
+Q158-P110-1,Q158,P110,"29.0355676,107.1898891",,osm
+Q158-P111-1,Q158,P111,POINT(107.1898891 29.0355676),,osm
+Q158-P113-1,Q158,P113,natural=cave_entrance,,osm
+,Q159,P2,Q100,,osm
+Q159-P100-1,Q159,P100,https://www.openstreetmap.org/node/13581390702,,osm
+Q159-P101-1,Q159,P101,https://www.openstreetmap.org/node/13581390702/history/1,preferred,osm
+Q159-P107-1,Q159,P107,https://www.openstreetmap.org/node/13581390702/history/1,,osm
+Q159-P110-1,Q159,P110,"30.3028596,107.1867149",,osm
+Q159-P111-1,Q159,P111,POINT(107.1867149 30.3028596),,osm
+Q159-P113-1,Q159,P113,natural=cave_entrance,,osm
+,Q160,P2,Q100,,osm
+Q160-P100-1,Q160,P100,https://www.openstreetmap.org/node/13586189099,,osm
+Q160-P101-1,Q160,P101,https://www.openstreetmap.org/node/13586189099/history/1,preferred,osm
+Q160-P107-1,Q160,P107,https://www.openstreetmap.org/node/13586189099/history/1,,osm
+Q160-P110-1,Q160,P110,"24.4893667,110.9597868",,osm
+Q160-P111-1,Q160,P111,POINT(110.9597868 24.4893667),,osm
+Q160-P113-1,Q160,P113,natural=cave_entrance,,osm
+,Q161,P2,Q100,,osm
+Q161-P100-1,Q161,P100,https://www.openstreetmap.org/node/1389940709,,osm
+Q161-P101-1,Q161,P101,https://www.openstreetmap.org/node/1389940709/history/1,,osm
+Q161-P101-2,Q161,P101,https://www.openstreetmap.org/node/1389940709/history/2,preferred,osm
+Q161-P107-1,Q161,P107,https://www.openstreetmap.org/node/1389940709/history/1,,osm
+Q161-P110-1,Q161,P110,"47.8231298,13.8427464",,osm
+Q161-P111-1,Q161,P111,POINT(13.8427464 47.8231298),,osm
+Q161-P113-1,Q161,P113,name=Gasselhöhle,,osm
+Q161-P113-2,Q161,P113,natural=cave_entrance,,osm
+Q161-P113-3,Q161,P113,wikidata=Q1495345,,osm
+,Q162,P2,Q100,,osm
+Q162-P100-1,Q162,P100,https://www.openstreetmap.org/node/1488744824,,osm
+Q162-P101-1,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/1,,osm
+Q162-P101-2,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/2,,osm
+Q162-P101-3,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/3,,osm
+Q162-P101-4,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/4,,osm
+Q162-P101-5,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/5,,osm
+Q162-P101-6,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/6,,osm
+Q162-P101-7,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/7,,osm
+Q162-P101-8,Q162,P101,https://www.openstreetmap.org/node/1488744824/history/8,preferred,osm
+Q162-P107-1,Q162,P107,https://www.openstreetmap.org/node/1488744824/history/1,,osm
+Q162-P110-1,Q162,P110,"47.0801529,11.671292",,osm
+Q162-P111-1,Q162,P111,POINT(11.6712933 47.0801182),,osm
+Q162-P111-2,Q162,P111,POINT(11.6713819 47.0800504),,osm
+Q162-P111-4,Q162,P111,POINT(11.6714154 47.080068),,osm
+Q162-P111-8,Q162,P111,POINT(11.671292 47.0801529),,osm
+Q162-P113-1,Q162,P113,attraction=cave,,osm
+Q162-P113-2,Q162,P113,cave:ref:AT=2515/1,,osm
+Q162-P113-3,Q162,P113,fee=yes,,osm
+Q162-P113-4,Q162,P113,name=Spannagelhöhle,,osm
+Q162-P113-5,Q162,P113,natural=cave_entrance,,osm
+Q162-P113-6,Q162,P113,tourism=attraction,,osm
+Q162-P113-7,Q162,P113,website=https://www.spannagelhoehle.at,,osm
+Q162-P113-8,Q162,P113,wikidata=Q875718,,osm
+Q162-P113-9,Q162,P113,wikipedia=de:Spannagelhöhle,,osm
+,Q163,P2,Q100,,osm
+Q163-P100-1,Q163,P100,https://www.openstreetmap.org/node/1572294886,,osm
+Q163-P101-1,Q163,P101,https://www.openstreetmap.org/node/1572294886/history/1,,osm
+Q163-P101-2,Q163,P101,https://www.openstreetmap.org/node/1572294886/history/2,,osm
+Q163-P101-3,Q163,P101,https://www.openstreetmap.org/node/1572294886/history/3,,osm
+Q163-P101-4,Q163,P101,https://www.openstreetmap.org/node/1572294886/history/4,preferred,osm
+Q163-P107-1,Q163,P107,https://www.openstreetmap.org/node/1572294886/history/1,,osm
+Q163-P110-1,Q163,P110,"37.2325328,30.7113958",,osm
+Q163-P111-1,Q163,P111,POINT(30.7113958 37.2325328),,osm
+Q163-P113-1,Q163,P113,fee=no,,osm
+Q163-P113-2,Q163,P113,name=Kocain Mağarası,,osm
+Q163-P113-3,Q163,P113,name:de=Kocain-Höhle,,osm
+Q163-P113-4,Q163,P113,name:tk=Kocain Mağarası,,osm
+Q163-P113-5,Q163,P113,natural=cave_entrance,,osm
+Q163-P113-6,Q163,P113,tourism=attraction,,osm
+Q163-P113-7,Q163,P113,wikidata=Q30589415,,osm
+Q163-P113-8,Q163,P113,wikipedia=en:Kocain Cave,,osm
+Q163-P113-9,Q163,P113,wpt_symbol=Skull and Crossbones,,osm
+,Q164,P2,Q100,,osm
+Q164-P100-1,Q164,P100,https://www.openstreetmap.org/node/1825661457,,osm
+Q164-P101-1,Q164,P101,https://www.openstreetmap.org/node/1825661457/history/1,preferred,osm
+Q164-P107-1,Q164,P107,https://www.openstreetmap.org/node/1825661457/history/1,,osm
+Q164-P110-1,Q164,P110,"41.0320735,17.1565982",,osm
+Q164-P111-1,Q164,P111,POINT(17.1565982 41.0320735),,osm
+Q164-P113-1,Q164,P113,access=private,,osm
+Q164-P113-2,Q164,P113,name=Grotta Valentini,,osm
+Q164-P113-3,Q164,P113,natural=cave_entrance,,osm
+,Q165,P2,Q100,,osm
+Q165-P100-1,Q165,P100,https://www.openstreetmap.org/node/194177073,,osm
+Q165-P101-1,Q165,P101,https://www.openstreetmap.org/node/194177073/history/1,,osm
+Q165-P101-2,Q165,P101,https://www.openstreetmap.org/node/194177073/history/2,,osm
+Q165-P101-3,Q165,P101,https://www.openstreetmap.org/node/194177073/history/3,,osm
+Q165-P101-4,Q165,P101,https://www.openstreetmap.org/node/194177073/history/4,,osm
+Q165-P101-5,Q165,P101,https://www.openstreetmap.org/node/194177073/history/5,,osm
+Q165-P101-6,Q165,P101,https://www.openstreetmap.org/node/194177073/history/6,,osm
+Q165-P101-7,Q165,P101,https://www.openstreetmap.org/node/194177073/history/7,,osm
+Q165-P101-8,Q165,P101,https://www.openstreetmap.org/node/194177073/history/8,,osm
+Q165-P101-9,Q165,P101,https://www.openstreetmap.org/node/194177073/history/9,,osm
+Q165-P101-10,Q165,P101,https://www.openstreetmap.org/node/194177073/history/10,,osm
+Q165-P101-11,Q165,P101,https://www.openstreetmap.org/node/194177073/history/11,,osm
+Q165-P101-12,Q165,P101,https://www.openstreetmap.org/node/194177073/history/12,preferred,osm
+Q165-P107-3,Q165,P107,https://www.openstreetmap.org/node/194177073/history/3,,osm
+Q165-P110-1,Q165,P110,"51.1254699,7.9149992",,osm
+Q165-P111-1,Q165,P111,POINT(7.9144238 51.1260661),,osm
+Q165-P111-2,Q165,P111,POINT(7.9150526 51.1256635),,osm
+Q165-P111-5,Q165,P111,POINT(7.9150569 51.125241),,osm
+Q165-P111-10,Q165,P111,POINT(7.9149992 51.1254699),,osm
+Q165-P113-1,Q165,P113,alt_name=Attendorner Tropfsteinhöhle,,osm
+Q165-P113-2,Q165,P113,name=Atta-Höhle,,osm
+Q165-P113-3,Q165,P113,natural=cave_entrance,,osm
+Q165-P113-4,Q165,P113,short_name=Attahöhle,,osm
+Q165-P113-5,Q165,P113,tourism=attraction,,osm
+Q165-P113-6,Q165,P113,website=https://www.atta-hoehle.de/,,osm
+Q165-P113-7,Q165,P113,wheelchair=no,,osm
+Q165-P113-8,Q165,P113,wikidata=Q11400,,osm
+Q165-P113-9,Q165,P113,wikipedia=de:Atta-Höhle,,osm
+,Q166,P2,Q100,,osm
+Q166-P100-1,Q166,P100,https://www.openstreetmap.org/node/1961032052,,osm
+Q166-P101-1,Q166,P101,https://www.openstreetmap.org/node/1961032052/history/1,,osm
+Q166-P101-2,Q166,P101,https://www.openstreetmap.org/node/1961032052/history/2,,osm
+Q166-P101-3,Q166,P101,https://www.openstreetmap.org/node/1961032052/history/3,,osm
+Q166-P101-4,Q166,P101,https://www.openstreetmap.org/node/1961032052/history/4,,osm
+Q166-P101-5,Q166,P101,https://www.openstreetmap.org/node/1961032052/history/5,preferred,osm
+Q166-P107-2,Q166,P107,https://www.openstreetmap.org/node/1961032052/history/2,,osm
+Q166-P110-1,Q166,P110,"40.9499921,0.5110749",,osm
+Q166-P111-1,Q166,P111,POINT(0.5128491 40.9489505),,osm
+Q166-P111-4,Q166,P111,POINT(0.5110749 40.9499921),,osm
+Q166-P113-1,Q166,P113,name=Cova Meravelles,,osm
+Q166-P113-2,Q166,P113,name:ca=Cova Meravelles,,osm
+Q166-P113-3,Q166,P113,natural=cave_entrance,,osm
+,Q167,P2,Q100,,osm
+Q167-P100-1,Q167,P100,https://www.openstreetmap.org/node/2163196165,,osm
+Q167-P101-1,Q167,P101,https://www.openstreetmap.org/node/2163196165/history/1,,osm
+Q167-P101-2,Q167,P101,https://www.openstreetmap.org/node/2163196165/history/2,,osm
+Q167-P101-3,Q167,P101,https://www.openstreetmap.org/node/2163196165/history/3,preferred,osm
+Q167-P107-2,Q167,P107,https://www.openstreetmap.org/node/2163196165/history/2,,osm
+Q167-P110-1,Q167,P110,"18.4081874,-66.9809228",,osm
+Q167-P111-1,Q167,P111,POINT(-66.981154 18.4081159),,osm
+Q167-P111-3,Q167,P111,POINT(-66.9809228 18.4081874),,osm
+Q167-P113-1,Q167,P113,name=Cueva Quintín Rivera,,osm
+Q167-P113-2,Q167,P113,natural=cave_entrance,,osm
+,Q168,P2,Q100,,osm
+Q168-P100-1,Q168,P100,https://www.openstreetmap.org/node/2174721117,,osm
+Q168-P101-1,Q168,P101,https://www.openstreetmap.org/node/2174721117/history/1,preferred,osm
+Q168-P107-1,Q168,P107,https://www.openstreetmap.org/node/2174721117/history/1,,osm
+Q168-P110-1,Q168,P110,"54.1314346,56.8426495",,osm
+Q168-P111-1,Q168,P111,POINT(56.8426495 54.1314346),,osm
+Q168-P113-1,Q168,P113,natural=cave_entrance,,osm
+,Q169,P2,Q100,,osm
+Q169-P100-1,Q169,P100,https://www.openstreetmap.org/node/2264386190,,osm
+Q169-P101-1,Q169,P101,https://www.openstreetmap.org/node/2264386190/history/1,,osm
+Q169-P101-2,Q169,P101,https://www.openstreetmap.org/node/2264386190/history/2,preferred,osm
+Q169-P107-1,Q169,P107,https://www.openstreetmap.org/node/2264386190/history/1,,osm
+Q169-P110-1,Q169,P110,"-18.1143342,-65.8115243",,osm
+Q169-P111-1,Q169,P111,POINT(-65.8115243 -18.114446),,osm
+Q169-P111-2,Q169,P111,POINT(-65.8115243 -18.1143342),,osm
+Q169-P113-1,Q169,P113,access=customers,,osm
+Q169-P113-2,Q169,P113,direction=45,,osm
+Q169-P113-3,Q169,P113,fee=yes,,osm
+Q169-P113-4,Q169,P113,name=Caverna Umajalanta,,osm
+Q169-P113-5,Q169,P113,natural=cave_entrance,,osm
+Q169-P113-6,Q169,P113,tourism=attraction,,osm
+,Q170,P2,Q100,,osm
+Q170-P100-1,Q170,P100,https://www.openstreetmap.org/node/2267151473,,osm
+Q170-P101-1,Q170,P101,https://www.openstreetmap.org/node/2267151473/history/1,,osm
+Q170-P101-2,Q170,P101,https://www.openstreetmap.org/node/2267151473/history/2,,osm
+Q170-P101-3,Q170,P101,https://www.openstreetmap.org/node/2267151473/history/3,,osm
+Q170-P101-4,Q170,P101,https://www.openstreetmap.org/node/2267151473/history/4,,osm
+Q170-P101-5,Q170,P101,https://www.openstreetmap.org/node/2267151473/history/5,,osm
+Q170-P101-6,Q170,P101,https://www.openstreetmap.org/node/2267151473/history/6,preferred,osm
+Q170-P107-1,Q170,P107,https://www.openstreetmap.org/node/2267151473/history/1,,osm
+Q170-P110-1,Q170,P110,"22.5475962,-83.8430155",,osm
+Q170-P111-1,Q170,P111,POINT(-83.8430155 22.5475962),,osm
+Q170-P113-1,Q170,P113,cave:fee=10 CUC,,osm
+Q170-P113-2,Q170,P113,name=Caverna de Santo Tomás,,osm
+Q170-P113-3,Q170,P113,name:en=Cave of Santo Tomás,,osm
+Q170-P113-4,Q170,P113,name:es=Caverna de Santo Tomás,,osm
+Q170-P113-5,Q170,P113,natural=cave_entrance,,osm
+Q170-P113-6,Q170,P113,opening_hours=Mo-Su 09:00-17:00,,osm
+Q170-P113-7,Q170,P113,wikidata=Q1051870,,osm
+Q170-P113-8,Q170,P113,wikipedia=es:Caverna de Santo Tomás,,osm
+,Q171,P2,Q100,,osm
+Q171-P100-1,Q171,P100,https://www.openstreetmap.org/node/2285744211,,osm
+Q171-P101-1,Q171,P101,https://www.openstreetmap.org/node/2285744211/history/1,,osm
+Q171-P101-2,Q171,P101,https://www.openstreetmap.org/node/2285744211/history/2,,osm
+Q171-P101-3,Q171,P101,https://www.openstreetmap.org/node/2285744211/history/3,,osm
+Q171-P101-4,Q171,P101,https://www.openstreetmap.org/node/2285744211/history/4,preferred,osm
+Q171-P107-1,Q171,P107,https://www.openstreetmap.org/node/2285744211/history/1,,osm
+Q171-P110-1,Q171,P110,"-34.2734417,115.0969569",,osm
+Q171-P111-1,Q171,P111,POINT(115.0969569 -34.2734417),,osm
+Q171-P113-1,Q171,P113,addr:street=Jewel Caves Road,,osm
+Q171-P113-2,Q171,P113,name=Moondyne Cave,,osm
+Q171-P113-3,Q171,P113,natural=cave_entrance,,osm
+Q171-P113-4,Q171,P113,tourism=attraction,,osm
+Q171-P113-5,Q171,P113,wikidata=Q4164274,,osm
+Q171-P113-6,Q171,P113,wikipedia=en:Moondyne Cave,,osm
+,Q172,P2,Q100,,osm
+Q172-P100-1,Q172,P100,https://www.openstreetmap.org/node/2375460063,,osm
+Q172-P101-1,Q172,P101,https://www.openstreetmap.org/node/2375460063/history/1,,osm
+Q172-P101-2,Q172,P101,https://www.openstreetmap.org/node/2375460063/history/2,,osm
+Q172-P101-3,Q172,P101,https://www.openstreetmap.org/node/2375460063/history/3,,osm
+Q172-P101-4,Q172,P101,https://www.openstreetmap.org/node/2375460063/history/4,,osm
+Q172-P101-5,Q172,P101,https://www.openstreetmap.org/node/2375460063/history/5,,osm
+Q172-P101-6,Q172,P101,https://www.openstreetmap.org/node/2375460063/history/6,preferred,osm
+Q172-P107-1,Q172,P107,https://www.openstreetmap.org/node/2375460063/history/1,,osm
+Q172-P110-1,Q172,P110,"44.0045419,15.0384678",,osm
+Q172-P111-1,Q172,P111,POINT(15.0386381 44.0047175),,osm
+Q172-P111-5,Q172,P111,POINT(15.0384678 44.0045419),,osm
+Q172-P113-1,Q172,P113,access=customers,,osm
+Q172-P113-2,Q172,P113,charge=10 EUR,,osm
+Q172-P113-3,Q172,P113,fee=yes,,osm
+Q172-P113-4,Q172,P113,name=Strašna peć,,osm
+Q172-P113-5,Q172,P113,natural=cave_entrance,,osm
+Q172-P113-6,Q172,P113,"opening_hours=May-Sep Mo-Su 11:00-14:30,15:30-19:00",,osm
+Q172-P113-7,Q172,P113,payment:cash=yes,,osm
+Q172-P113-8,Q172,P113,tourism=attraction,,osm
+Q172-P113-9,Q172,P113,wikidata=Q16113130,,osm
+Q172-P113-10,Q172,P113,wikipedia=hr:Strašna peć,,osm
+,Q173,P2,Q100,,osm
+Q173-P100-1,Q173,P100,https://www.openstreetmap.org/node/2382055156,,osm
+Q173-P101-1,Q173,P101,https://www.openstreetmap.org/node/2382055156/history/1,,osm
+Q173-P101-2,Q173,P101,https://www.openstreetmap.org/node/2382055156/history/2,,osm
+Q173-P101-3,Q173,P101,https://www.openstreetmap.org/node/2382055156/history/3,,osm
+Q173-P101-4,Q173,P101,https://www.openstreetmap.org/node/2382055156/history/4,preferred,osm
+Q173-P107-1,Q173,P107,https://www.openstreetmap.org/node/2382055156/history/1,,osm
+Q173-P110-1,Q173,P110,"-21.1447124,-56.5915106",,osm
+Q173-P111-1,Q173,P111,POINT(-56.5915106 -21.1447124),,osm
+Q173-P113-1,Q173,P113,name=Gruta do Lago Azul,,osm
+Q173-P113-2,Q173,P113,name:en=Blue Lake Cave,,osm
+Q173-P113-3,Q173,P113,natural=cave_entrance,,osm
+Q173-P113-4,Q173,P113,tourism=attraction,,osm
+Q173-P113-5,Q173,P113,wikidata=Q22687920,,osm
+,Q174,P2,Q100,,osm
+Q174-P100-1,Q174,P100,https://www.openstreetmap.org/node/2423303117,,osm
+Q174-P101-1,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/1,,osm
+Q174-P101-2,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/2,,osm
+Q174-P101-3,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/3,,osm
+Q174-P101-4,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/4,,osm
+Q174-P101-5,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/5,,osm
+Q174-P101-6,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/6,,osm
+Q174-P101-7,Q174,P101,https://www.openstreetmap.org/node/2423303117/history/7,preferred,osm
+Q174-P107-1,Q174,P107,https://www.openstreetmap.org/node/2423303117/history/1,,osm
+Q174-P110-1,Q174,P110,"45.4425621,0.785301",,osm
+Q174-P111-1,Q174,P111,POINT(0.785301 45.4425621),,osm
+Q174-P113-1,Q174,P113,alt_name=Grotte Préhistorique du Cluzeau,,osm
+Q174-P113-2,Q174,P113,fee=yes,,osm
+Q174-P113-3,Q174,P113,heritage=2,,osm
+Q174-P113-4,Q174,P113,heritage:operator=mhs,,osm
+Q174-P113-5,Q174,P113,mhs:inscription_date=1958-12-09,,osm
+Q174-P113-6,Q174,P113,name=Grotte de Villars,,osm
+Q174-P113-7,Q174,P113,natural=cave_entrance,,osm
+Q174-P113-8,Q174,P113,ref:mhs=PA00083067,,osm
+Q174-P113-9,Q174,P113,"source:heritage=data.gouv.fr, Ministère de la Culture - 2016",,osm
+Q174-P113-10,Q174,P113,tourism=attraction,,osm
+Q174-P113-11,Q174,P113,website=https://grotte-villars.com/,,osm
+Q174-P113-12,Q174,P113,wikidata=Q177657,,osm
+Q174-P113-13,Q174,P113,wikipedia=fr:Grotte de Villars,,osm
+,Q175,P2,Q100,,osm
+Q175-P100-1,Q175,P100,https://www.openstreetmap.org/node/2483192759,,osm
+Q175-P101-1,Q175,P101,https://www.openstreetmap.org/node/2483192759/history/1,,osm
+Q175-P101-2,Q175,P101,https://www.openstreetmap.org/node/2483192759/history/2,preferred,osm
+Q175-P107-1,Q175,P107,https://www.openstreetmap.org/node/2483192759/history/1,,osm
+Q175-P110-1,Q175,P110,"48.2809519,9.5133712",,osm
+Q175-P111-1,Q175,P111,POINT(9.5132472 48.2808192),,osm
+Q175-P111-2,Q175,P111,POINT(9.5133712 48.2809519),,osm
+Q175-P113-1,Q175,P113,name=Heuscheuerle,,osm
+Q175-P113-2,Q175,P113,name:de=Heuscheuerle,,osm
+Q175-P113-3,Q175,P113,natural=cave_entrance,,osm
+,Q176,P2,Q100,,osm
+Q176-P100-1,Q176,P100,https://www.openstreetmap.org/node/2486226122,,osm
+Q176-P101-1,Q176,P101,https://www.openstreetmap.org/node/2486226122/history/1,,osm
+Q176-P101-2,Q176,P101,https://www.openstreetmap.org/node/2486226122/history/2,,osm
+Q176-P101-3,Q176,P101,https://www.openstreetmap.org/node/2486226122/history/3,,osm
+Q176-P101-4,Q176,P101,https://www.openstreetmap.org/node/2486226122/history/4,,osm
+Q176-P101-5,Q176,P101,https://www.openstreetmap.org/node/2486226122/history/5,,osm
+Q176-P101-6,Q176,P101,https://www.openstreetmap.org/node/2486226122/history/6,preferred,osm
+Q176-P107-3,Q176,P107,https://www.openstreetmap.org/node/2486226122/history/3,,osm
+Q176-P110-1,Q176,P110,"42.0528164,0.2488836",,osm
+Q176-P111-1,Q176,P111,POINT(0.2488836 42.0528164),,osm
+Q176-P113-1,Q176,P113,name=Cova Terreu,,osm
+Q176-P113-2,Q176,P113,natural=cave_entrance,,osm
+Q176-P113-3,Q176,P113,url=http://www.panoramio.com/photo/85425753,,osm
+,Q177,P2,Q100,,osm
+Q177-P100-1,Q177,P100,https://www.openstreetmap.org/node/2495014138,,osm
+Q177-P101-1,Q177,P101,https://www.openstreetmap.org/node/2495014138/history/1,preferred,osm
+Q177-P107-1,Q177,P107,https://www.openstreetmap.org/node/2495014138/history/1,,osm
+Q177-P110-1,Q177,P110,"40.4869849,117.4889914",,osm
+Q177-P111-1,Q177,P111,POINT(117.4889914 40.4869849),,osm
+Q177-P113-1,Q177,P113,name=兴隆溶洞,,osm
+Q177-P113-2,Q177,P113,natural=cave_entrance,,osm
+,Q178,P2,Q100,,osm
+Q178-P100-1,Q178,P100,https://www.openstreetmap.org/node/2509040859,,osm
+Q178-P101-1,Q178,P101,https://www.openstreetmap.org/node/2509040859/history/1,,osm
+Q178-P101-2,Q178,P101,https://www.openstreetmap.org/node/2509040859/history/2,preferred,osm
+Q178-P107-2,Q178,P107,https://www.openstreetmap.org/node/2509040859/history/2,,osm
+Q178-P110-1,Q178,P110,"25.4099998,106.1600037",,osm
+Q178-P111-1,Q178,P111,POINT(106.1600037 25.4099998),,osm
+Q178-P113-1,Q178,P113,name=Zhongdong cave,,osm
+Q178-P113-2,Q178,P113,natural=cave_entrance,,osm
+,Q179,P2,Q100,,osm
+Q179-P100-1,Q179,P100,https://www.openstreetmap.org/node/2510360072,,osm
+Q179-P101-1,Q179,P101,https://www.openstreetmap.org/node/2510360072/history/1,preferred,osm
+Q179-P107-1,Q179,P107,https://www.openstreetmap.org/node/2510360072/history/1,,osm
+Q179-P110-1,Q179,P110,"-15.5422892,46.8853815",,osm
+Q179-P111-1,Q179,P111,POINT(46.8853815 -15.5422892),,osm
+Q179-P113-1,Q179,P113,name=Anjohibe,,osm
+Q179-P113-2,Q179,P113,natural=cave_entrance,,osm
+,Q180,P2,Q100,,osm
+Q180-P100-1,Q180,P100,https://www.openstreetmap.org/node/2634652214,,osm
+Q180-P101-1,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/1,,osm
+Q180-P101-2,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/2,,osm
+Q180-P101-3,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/3,,osm
+Q180-P101-4,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/4,,osm
+Q180-P101-5,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/5,,osm
+Q180-P101-6,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/6,,osm
+Q180-P101-7,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/7,,osm
+Q180-P101-8,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/8,,osm
+Q180-P101-9,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/9,,osm
+Q180-P101-10,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/10,,osm
+Q180-P101-11,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/11,,osm
+Q180-P101-12,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/12,,osm
+Q180-P101-13,Q180,P101,https://www.openstreetmap.org/node/2634652214/history/13,preferred,osm
+Q180-P107-1,Q180,P107,https://www.openstreetmap.org/node/2634652214/history/1,,osm
+Q180-P110-1,Q180,P110,"46.553915,22.569324",,osm
+Q180-P111-1,Q180,P111,POINT(22.569324 46.553915),,osm
+Q180-P113-1,Q180,P113,SIRUTA:code=30354,,osm
+Q180-P113-2,Q180,P113,addr:city=Chișcău,,osm
+Q180-P113-3,Q180,P113,addr:postcode=417366,,osm
+Q180-P113-4,Q180,P113,charge=40 RON,,osm
+Q180-P113-5,Q180,P113,codul_entității_muzeale=7108300.0,,osm
+Q180-P113-6,Q180,P113,duration=45,,osm
+Q180-P113-7,Q180,P113,interval=60,,osm
+Q180-P113-8,Q180,P113,level=2,,osm
+Q180-P113-9,Q180,P113,museum_type=Natural Sciences - Caves,,osm
+Q180-P113-10,Q180,P113,name=Peștera Urșilor,,osm
+Q180-P113-11,Q180,P113,name:en=Bears' Cave,,osm
+Q180-P113-12,Q180,P113,name:hu=Medve-barlang,,osm
+Q180-P113-13,Q180,P113,name:it=Grotta degli Orsi,,osm
+Q180-P113-14,Q180,P113,natural=cave_entrance,,osm
+Q180-P113-15,Q180,P113,opening_hours=Tu-Su 09:00-17:00,,osm
+Q180-P113-16,Q180,P113,photography:inside=no,,osm
+Q180-P113-17,Q180,P113,"photography:note=Officially prohibited, the guide may allow personal pictures.",,osm
+Q180-P113-18,Q180,P113,source=INP,,osm
+Q180-P113-19,Q180,P113,source:link=http://date.gov.ro/dataset/ghidul-muzeelor-din-romania,,osm
+Q180-P113-20,Q180,P113,start_date=1980,,osm
+Q180-P113-21,Q180,P113,temperature=10 degrees Celsius,,osm
+Q180-P113-22,Q180,P113,tourism=attraction,,osm
+Q180-P113-23,Q180,P113,tourism_survey=20.09.2013 13:49:25,,osm
+Q180-P113-24,Q180,P113,wikidata=Q989608,,osm
+Q180-P113-25,Q180,P113,wikipedia=ro:Peștera Urșilor,,osm
+,Q181,P2,Q100,,osm
+Q181-P100-1,Q181,P100,https://www.openstreetmap.org/node/2677612603,,osm
+Q181-P101-1,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/1,,osm
+Q181-P101-2,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/2,,osm
+Q181-P101-3,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/3,,osm
+Q181-P101-4,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/4,,osm
+Q181-P101-5,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/5,,osm
+Q181-P101-6,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/6,,osm
+Q181-P101-7,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/7,,osm
+Q181-P101-8,Q181,P101,https://www.openstreetmap.org/node/2677612603/history/8,preferred,osm
+Q181-P107-1,Q181,P107,https://www.openstreetmap.org/node/2677612603/history/1,,osm
+Q181-P110-1,Q181,P110,"-27.2252582,-49.1574384",,osm
+Q181-P111-1,Q181,P111,POINT(-49.1574384 -27.2252582),,osm
+Q181-P113-1,Q181,P113,alt_name=Cavernas de Botuverá,,osm
+Q181-P113-2,Q181,P113,name=Grutas de Botuverá,,osm
+Q181-P113-3,Q181,P113,natural=cave_entrance,,osm
+Q181-P113-4,Q181,P113,opening_hours=Tu-Su 08:00-17:00,,osm
+Q181-P113-5,Q181,P113,phone=+55 47 3087 8387,,osm
+Q181-P113-6,Q181,P113,tourism=attraction,,osm
+Q181-P113-7,Q181,P113,website=http://www.botuvera.sc.gov.br/turismo-lazer/parque-das-grutas/,,osm
+,Q182,P2,Q100,,osm
+Q182-P100-1,Q182,P100,https://www.openstreetmap.org/node/2729783661,,osm
+Q182-P101-1,Q182,P101,https://www.openstreetmap.org/node/2729783661/history/1,,osm
+Q182-P101-2,Q182,P101,https://www.openstreetmap.org/node/2729783661/history/2,,osm
+Q182-P101-3,Q182,P101,https://www.openstreetmap.org/node/2729783661/history/3,,osm
+Q182-P101-4,Q182,P101,https://www.openstreetmap.org/node/2729783661/history/4,,osm
+Q182-P101-5,Q182,P101,https://www.openstreetmap.org/node/2729783661/history/5,preferred,osm
+Q182-P107-1,Q182,P107,https://www.openstreetmap.org/node/2729783661/history/1,,osm
+Q182-P110-1,Q182,P110,"45.8187313,15.678312",,osm
+Q182-P111-1,Q182,P111,POINT(15.6784045 45.8190821),,osm
+Q182-P111-4,Q182,P111,POINT(15.678312 45.8187313),,osm
+Q182-P113-1,Q182,P113,description=Show cave,,osm
+Q182-P113-2,Q182,P113,fee=yes,,osm
+Q182-P113-3,Q182,P113,name=Nova Grgosova špilja,,osm
+Q182-P113-4,Q182,P113,natural=cave_entrance,,osm
+Q182-P113-5,Q182,P113,opening_hours=Tu-Su 12:00-17:00,,osm
+,Q183,P2,Q100,,osm
+Q183-P100-1,Q183,P100,https://www.openstreetmap.org/node/274302247,,osm
+Q183-P101-1,Q183,P101,https://www.openstreetmap.org/node/274302247/history/1,,osm
+Q183-P101-2,Q183,P101,https://www.openstreetmap.org/node/274302247/history/2,preferred,osm
+Q183-P107-1,Q183,P107,https://www.openstreetmap.org/node/274302247/history/1,,osm
+Q183-P110-1,Q183,P110,"48.7750234,10.5531382",,osm
+Q183-P111-1,Q183,P111,POINT(10.5531382 48.7750234),,osm
+Q183-P113-1,Q183,P113,cave:ref=M011,,osm
+Q183-P113-2,Q183,P113,name=Kammerlochhöhle,,osm
+Q183-P113-3,Q183,P113,natural=cave_entrance,,osm
+,Q184,P2,Q100,,osm
+Q184-P100-1,Q184,P100,https://www.openstreetmap.org/node/278574320,,osm
+Q184-P101-1,Q184,P101,https://www.openstreetmap.org/node/278574320/history/1,,osm
+Q184-P101-2,Q184,P101,https://www.openstreetmap.org/node/278574320/history/2,,osm
+Q184-P101-3,Q184,P101,https://www.openstreetmap.org/node/278574320/history/3,,osm
+Q184-P101-4,Q184,P101,https://www.openstreetmap.org/node/278574320/history/4,preferred,osm
+Q184-P107-3,Q184,P107,https://www.openstreetmap.org/node/278574320/history/3,,osm
+Q184-P110-1,Q184,P110,"48.0405133,7.0207942",,osm
+Q184-P111-1,Q184,P111,POINT(7.020074 48.04098),,osm
+Q184-P111-2,Q184,P111,POINT(7.0200867 48.0409864),,osm
+Q184-P111-3,Q184,P111,POINT(7.0207942 48.0405133),,osm
+Q184-P113-1,Q184,P113,ele=1128,,osm
+Q184-P113-2,Q184,P113,name=La Grotte Dagobert,,osm
+Q184-P113-3,Q184,P113,natural=cave_entrance,,osm
+,Q185,P2,Q100,,osm
+Q185-P100-1,Q185,P100,https://www.openstreetmap.org/node/2824859401,,osm
+Q185-P101-1,Q185,P101,https://www.openstreetmap.org/node/2824859401/history/1,,osm
+Q185-P101-2,Q185,P101,https://www.openstreetmap.org/node/2824859401/history/2,preferred,osm
+Q185-P107-1,Q185,P107,https://www.openstreetmap.org/node/2824859401/history/1,,osm
+Q185-P110-1,Q185,P110,"31.7288758,-110.7684871",,osm
+Q185-P111-1,Q185,P111,POINT(-110.7684871 31.7288758),,osm
+Q185-P113-1,Q185,P113,name=Cave of the Bells,,osm
+Q185-P113-2,Q185,P113,natural=cave_entrance,,osm
+Q185-P113-3,Q185,P113,source=USGS,,osm
+Q185-P113-4,Q185,P113,wikidata=Q5054957,,osm
+Q185-P113-5,Q185,P113,wikipedia=en:Cave of the Bells,,osm
+,Q186,P2,Q100,,osm
+Q186-P100-1,Q186,P100,https://www.openstreetmap.org/node/286783901,,osm
+Q186-P101-1,Q186,P101,https://www.openstreetmap.org/node/286783901/history/1,,osm
+Q186-P101-2,Q186,P101,https://www.openstreetmap.org/node/286783901/history/2,,osm
+Q186-P101-3,Q186,P101,https://www.openstreetmap.org/node/286783901/history/3,,osm
+Q186-P101-4,Q186,P101,https://www.openstreetmap.org/node/286783901/history/4,,osm
+Q186-P101-5,Q186,P101,https://www.openstreetmap.org/node/286783901/history/5,preferred,osm
+Q186-P107-1,Q186,P107,https://www.openstreetmap.org/node/286783901/history/1,,osm
+Q186-P110-1,Q186,P110,"-11.2682671,-75.7865844",,osm
+Q186-P111-1,Q186,P111,POINT(-75.7871208 -11.267434),,osm
+Q186-P111-2,Q186,P111,POINT(-75.7865844 -11.2682671),,osm
+Q186-P113-1,Q186,P113,name=Gruta de Huagapo,,osm
+Q186-P113-2,Q186,P113,natural=cave_entrance,,osm
+Q186-P113-3,Q186,P113,wikidata=Q21733380,,osm
+Q186-P113-4,Q186,P113,wikipedia=es:Gruta de Huagapo,,osm
+,Q187,P2,Q100,,osm
+Q187-P100-1,Q187,P100,https://www.openstreetmap.org/node/2875516784,,osm
+Q187-P101-1,Q187,P101,https://www.openstreetmap.org/node/2875516784/history/1,,osm
+Q187-P101-2,Q187,P101,https://www.openstreetmap.org/node/2875516784/history/2,preferred,osm
+Q187-P107-2,Q187,P107,https://www.openstreetmap.org/node/2875516784/history/2,,osm
+Q187-P110-1,Q187,P110,"17.0492181,-89.0972559",,osm
+Q187-P111-1,Q187,P111,POINT(-89.0972559 17.0492181),,osm
+Q187-P113-1,Q187,P113,name=Actun Chapat Cave Adventure,,osm
+Q187-P113-2,Q187,P113,natural=cave_entrance,,osm
+,Q188,P2,Q100,,osm
+Q188-P100-1,Q188,P100,https://www.openstreetmap.org/node/2970889616,,osm
+Q188-P101-1,Q188,P101,https://www.openstreetmap.org/node/2970889616/history/1,preferred,osm
+Q188-P107-1,Q188,P107,https://www.openstreetmap.org/node/2970889616/history/1,,osm
+Q188-P110-1,Q188,P110,"51.3669091,7.6683407",,osm
+Q188-P111-1,Q188,P111,POINT(7.6683407 51.3669091),,osm
+Q188-P113-1,Q188,P113,natural=cave_entrance,,osm
+,Q189,P2,Q100,,osm
+Q189-P100-1,Q189,P100,https://www.openstreetmap.org/node/2972577607,,osm
+Q189-P101-1,Q189,P101,https://www.openstreetmap.org/node/2972577607/history/1,preferred,osm
+Q189-P107-1,Q189,P107,https://www.openstreetmap.org/node/2972577607/history/1,,osm
+Q189-P110-1,Q189,P110,"43.2459665,40.3985773",,osm
+Q189-P111-1,Q189,P111,POINT(40.3985773 43.2459665),,osm
+Q189-P113-1,Q189,P113,natural=cave_entrance,,osm
+,Q190,P2,Q100,,osm
+Q190-P100-1,Q190,P100,https://www.openstreetmap.org/node/298946850,,osm
+Q190-P101-1,Q190,P101,https://www.openstreetmap.org/node/298946850/history/1,,osm
+Q190-P101-2,Q190,P101,https://www.openstreetmap.org/node/298946850/history/2,,osm
+Q190-P101-3,Q190,P101,https://www.openstreetmap.org/node/298946850/history/3,,osm
+Q190-P101-4,Q190,P101,https://www.openstreetmap.org/node/298946850/history/4,,osm
+Q190-P101-5,Q190,P101,https://www.openstreetmap.org/node/298946850/history/5,,osm
+Q190-P101-6,Q190,P101,https://www.openstreetmap.org/node/298946850/history/6,preferred,osm
+Q190-P107-1,Q190,P107,https://www.openstreetmap.org/node/298946850/history/1,,osm
+Q190-P110-1,Q190,P110,"39.0054197,-114.2206413",,osm
+Q190-P111-1,Q190,P111,POINT(-114.2200942 39.0053151),,osm
+Q190-P111-3,Q190,P111,POINT(-114.2202034 39.0057351),,osm
+Q190-P111-4,Q190,P111,POINT(-114.2206718 39.0054225),,osm
+Q190-P111-6,Q190,P111,POINT(-114.2206413 39.0054197),,osm
+Q190-P113-1,Q190,P113,name=Lehman Caves,,osm
+Q190-P113-2,Q190,P113,natural=cave_entrance,,osm
+Q190-P113-3,Q190,P113,wikidata=Q25416611,,osm
+,Q191,P2,Q100,,osm
+Q191-P100-1,Q191,P100,https://www.openstreetmap.org/node/308354506,,osm
+Q191-P101-1,Q191,P101,https://www.openstreetmap.org/node/308354506/history/1,,osm
+Q191-P101-2,Q191,P101,https://www.openstreetmap.org/node/308354506/history/2,,osm
+Q191-P101-3,Q191,P101,https://www.openstreetmap.org/node/308354506/history/3,,osm
+Q191-P101-4,Q191,P101,https://www.openstreetmap.org/node/308354506/history/4,,osm
+Q191-P101-5,Q191,P101,https://www.openstreetmap.org/node/308354506/history/5,preferred,osm
+Q191-P107-2,Q191,P107,https://www.openstreetmap.org/node/308354506/history/2,,osm
+Q191-P110-1,Q191,P110,"40.2467401,9.6227793",,osm
+Q191-P111-1,Q191,P111,POINT(9.6227793 40.2467401),,osm
+Q191-P113-1,Q191,P113,access=customers,,osm
+Q191-P113-2,Q191,P113,charge=10EUR,,osm
+Q191-P113-3,Q191,P113,fee=yes,,osm
+Q191-P113-4,Q191,P113,name=Grotta del Bue marino,,osm
+Q191-P113-5,Q191,P113,natural=cave_entrance,,osm
+Q191-P113-6,Q191,P113,"note=Docking allowed to disembark people, but it's not allowed to dock the boat during the visit. There's a place for kayaks inside.
+Payment at entrance by cash only. Payment also possible at Cala Gonone harbor.",,osm
+Q191-P113-7,Q191,P113,payment:cash=yes,,osm
+Q191-P113-8,Q191,P113,tourism=attraction,,osm
+Q191-P113-9,Q191,P113,wikidata=Q1225474,,osm
+Q191-P113-10,Q191,P113,wikipedia=it:Grotte del Bue Marino,,osm
+,Q192,P2,Q100,,osm
+Q192-P100-1,Q192,P100,https://www.openstreetmap.org/node/3096058666,,osm
+Q192-P101-1,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/1,,osm
+Q192-P101-2,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/2,,osm
+Q192-P101-3,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/3,,osm
+Q192-P101-4,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/4,,osm
+Q192-P101-5,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/5,,osm
+Q192-P101-6,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/6,,osm
+Q192-P101-7,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/7,,osm
+Q192-P101-8,Q192,P101,https://www.openstreetmap.org/node/3096058666/history/8,preferred,osm
+Q192-P107-5,Q192,P107,https://www.openstreetmap.org/node/3096058666/history/5,,osm
+Q192-P110-1,Q192,P110,"35.8360367,48.1621486",,osm
+Q192-P111-1,Q192,P111,POINT(48.1616854 35.8355325),,osm
+Q192-P111-5,Q192,P111,POINT(48.1620582 35.8360631),,osm
+Q192-P111-7,Q192,P111,POINT(48.1617932 35.8355985),,osm
+Q192-P111-8,Q192,P111,POINT(48.1621486 35.8360367),,osm
+Q192-P113-1,Q192,P113,name=غار کتله خور,,osm
+Q192-P113-2,Q192,P113,name:en=Kataleh Khor Cave,,osm
+Q192-P113-3,Q192,P113,name:tr=katle khor mağara,,osm
+Q192-P113-4,Q192,P113,natural=cave_entrance,,osm
+Q192-P113-5,Q192,P113,tourism=attraction,,osm
+Q192-P113-6,Q192,P113,wikidata=Q6375049,,osm
+Q192-P113-7,Q192,P113,wikipedia=fa:غار کتله‌خور,,osm
+,Q193,P2,Q100,,osm
+Q193-P100-1,Q193,P100,https://www.openstreetmap.org/node/320120939,,osm
+Q193-P101-1,Q193,P101,https://www.openstreetmap.org/node/320120939/history/1,,osm
+Q193-P101-2,Q193,P101,https://www.openstreetmap.org/node/320120939/history/2,,osm
+Q193-P101-3,Q193,P101,https://www.openstreetmap.org/node/320120939/history/3,,osm
+Q193-P101-4,Q193,P101,https://www.openstreetmap.org/node/320120939/history/4,preferred,osm
+Q193-P107-1,Q193,P107,https://www.openstreetmap.org/node/320120939/history/1,,osm
+Q193-P110-1,Q193,P110,"40.7973795,-122.2766711",,osm
+Q193-P111-1,Q193,P111,POINT(-122.2764089 40.797376),,osm
+Q193-P111-3,Q193,P111,POINT(-122.2766711 40.7973795),,osm
+Q193-P113-1,Q193,P113,name=Lake Shasta Caverns,,osm
+Q193-P113-2,Q193,P113,natural=cave_entrance,,osm
+,Q194,P2,Q100,,osm
+Q194-P100-1,Q194,P100,https://www.openstreetmap.org/node/3269827185,,osm
+Q194-P101-1,Q194,P101,https://www.openstreetmap.org/node/3269827185/history/1,,osm
+Q194-P101-2,Q194,P101,https://www.openstreetmap.org/node/3269827185/history/2,preferred,osm
+Q194-P107-2,Q194,P107,https://www.openstreetmap.org/node/3269827185/history/2,,osm
+Q194-P110-1,Q194,P110,"18.3159809,-66.7720735",,osm
+Q194-P111-1,Q194,P111,POINT(-66.7720735 18.3159809),,osm
+Q194-P113-1,Q194,P113,name=Cueva del Arco,,osm
+Q194-P113-2,Q194,P113,natural=cave_entrance,,osm
+,Q195,P2,Q100,,osm
+Q195-P100-1,Q195,P100,https://www.openstreetmap.org/node/3292745497,,osm
+Q195-P101-1,Q195,P101,https://www.openstreetmap.org/node/3292745497/history/1,,osm
+Q195-P101-2,Q195,P101,https://www.openstreetmap.org/node/3292745497/history/2,preferred,osm
+Q195-P107-1,Q195,P107,https://www.openstreetmap.org/node/3292745497/history/1,,osm
+Q195-P110-1,Q195,P110,"-35.6250572,148.6944501",,osm
+Q195-P111-1,Q195,P111,POINT(148.6936642 -35.6249438),,osm
+Q195-P111-2,Q195,P111,POINT(148.6944501 -35.6250572),,osm
+Q195-P113-1,Q195,P113,alt_name=CP14,,osm
+Q195-P113-2,Q195,P113,name=Barbers Cave,,osm
+Q195-P113-3,Q195,P113,natural=cave_entrance,,osm
+Q195-P113-4,Q195,P113,source_ref=http://helictite.caves.org.au/pdf4/06.02.Issue.Print.pdf,,osm
+,Q196,P2,Q100,,osm
+Q196-P100-1,Q196,P100,https://www.openstreetmap.org/node/3294134845,,osm
+Q196-P101-1,Q196,P101,https://www.openstreetmap.org/node/3294134845/history/1,,osm
+Q196-P101-2,Q196,P101,https://www.openstreetmap.org/node/3294134845/history/2,,osm
+Q196-P101-3,Q196,P101,https://www.openstreetmap.org/node/3294134845/history/3,,osm
+Q196-P101-4,Q196,P101,https://www.openstreetmap.org/node/3294134845/history/4,preferred,osm
+Q196-P107-1,Q196,P107,https://www.openstreetmap.org/node/3294134845/history/1,,osm
+Q196-P110-1,Q196,P110,"20.5531829,102.6295286",,osm
+Q196-P111-1,Q196,P111,POINT(102.6295286 20.5531829),,osm
+Q196-P113-1,Q196,P113,alt_name=Tham Phatok,,osm
+Q196-P113-2,Q196,P113,charge=20000 LAK,,osm
+Q196-P113-3,Q196,P113,fee=yes,,osm
+Q196-P113-4,Q196,P113,name=Pha Tok Cave,,osm
+Q196-P113-5,Q196,P113,natural=cave_entrance,,osm
+,Q197,P2,Q100,,osm
+Q197-P100-1,Q197,P100,https://www.openstreetmap.org/node/340386100,,osm
+Q197-P101-1,Q197,P101,https://www.openstreetmap.org/node/340386100/history/1,,osm
+Q197-P101-2,Q197,P101,https://www.openstreetmap.org/node/340386100/history/2,,osm
+Q197-P101-3,Q197,P101,https://www.openstreetmap.org/node/340386100/history/3,preferred,osm
+Q197-P107-1,Q197,P107,https://www.openstreetmap.org/node/340386100/history/1,,osm
+Q197-P110-1,Q197,P110,"48.40668,9.8734",,osm
+Q197-P111-1,Q197,P111,POINT(9.8734 48.40668),,osm
+Q197-P113-1,Q197,P113,depth=70,,osm
+Q197-P113-2,Q197,P113,name=Banzenloch,,osm
+Q197-P113-3,Q197,P113,natural=cave_entrance,,osm
+Q197-P113-4,Q197,P113,wheelchair=no,,osm
+,Q198,P2,Q100,,osm
+Q198-P100-1,Q198,P100,https://www.openstreetmap.org/node/3420452460,,osm
+Q198-P101-1,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/1,,osm
+Q198-P101-2,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/2,,osm
+Q198-P101-3,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/3,,osm
+Q198-P101-4,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/4,,osm
+Q198-P101-5,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/5,,osm
+Q198-P101-6,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/6,,osm
+Q198-P101-7,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/7,,osm
+Q198-P101-8,Q198,P101,https://www.openstreetmap.org/node/3420452460/history/8,preferred,osm
+Q198-P107-1,Q198,P107,https://www.openstreetmap.org/node/3420452460/history/1,,osm
+Q198-P110-1,Q198,P110,"40.6399198,17.5020335",,osm
+Q198-P111-1,Q198,P111,POINT(17.5020521 40.6400261),,osm
+Q198-P111-3,Q198,P111,POINT(17.5017081 40.6399626),,osm
+Q198-P111-4,Q198,P111,POINT(17.5018143 40.639976),,osm
+Q198-P111-6,Q198,P111,POINT(17.5019926 40.6399221),,osm
+Q198-P111-7,Q198,P111,POINT(17.5020335 40.6399198),,osm
+Q198-P113-1,Q198,P113,fee=yes,,osm
+Q198-P113-2,Q198,P113,name=Grotte di Montevicoli,,osm
+Q198-P113-3,Q198,P113,natural=cave_entrance,,osm
+Q198-P113-4,Q198,P113,wikidata=Q3777125,,osm
+Q198-P113-5,Q198,P113,wikipedia=it:Grotte di Montevicoli,,osm
+,Q199,P2,Q100,,osm
+Q199-P100-1,Q199,P100,https://www.openstreetmap.org/node/3427512355,,osm
+Q199-P101-1,Q199,P101,https://www.openstreetmap.org/node/3427512355/history/1,,osm
+Q199-P101-2,Q199,P101,https://www.openstreetmap.org/node/3427512355/history/2,,osm
+Q199-P101-3,Q199,P101,https://www.openstreetmap.org/node/3427512355/history/3,preferred,osm
+Q199-P107-3,Q199,P107,https://www.openstreetmap.org/node/3427512355/history/3,,osm
+Q199-P110-1,Q199,P110,"42.0981425,-123.4073708",,osm
+Q199-P111-1,Q199,P111,POINT(-123.4078225 42.098064),,osm
+Q199-P111-2,Q199,P111,POINT(-123.4073635 42.0982598),,osm
+Q199-P111-3,Q199,P111,POINT(-123.4073708 42.0981425),,osm
+Q199-P113-1,Q199,P113,natural=cave_entrance,,osm
+,Q200,P2,Q100,,osm
+Q200-P100-1,Q200,P100,https://www.openstreetmap.org/node/3440813505,,osm
+Q200-P101-1,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/1,,osm
+Q200-P101-2,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/2,,osm
+Q200-P101-3,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/3,,osm
+Q200-P101-4,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/4,,osm
+Q200-P101-5,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/5,,osm
+Q200-P101-6,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/6,,osm
+Q200-P101-7,Q200,P101,https://www.openstreetmap.org/node/3440813505/history/7,preferred,osm
+Q200-P107-1,Q200,P107,https://www.openstreetmap.org/node/3440813505/history/1,,osm
+Q200-P110-1,Q200,P110,"46.1180621,18.1513457",,osm
+Q200-P111-1,Q200,P111,POINT(18.151317 46.118),,osm
+Q200-P111-2,Q200,P111,POINT(18.1513457 46.1180621),,osm
+Q200-P113-1,Q200,P113,access=permit,,osm
+Q200-P113-2,Q200,P113,alt_name=Szuadó-völgyi 3. sz. barlang,,osm
+Q200-P113-3,Q200,P113,barrier=door,,osm
+Q200-P113-4,Q200,P113,cave:ref=4120-71,,osm
+Q200-P113-5,Q200,P113,depth=58,,osm
+Q200-P113-6,Q200,P113,description=Barlangtúra leírás a honlapon.,,osm
+Q200-P113-7,Q200,P113,locked=yes,,osm
+Q200-P113-8,Q200,P113,name=Trió-barlang,,osm
+Q200-P113-9,Q200,P113,natural=cave_entrance,,osm
+Q200-P113-10,Q200,P113,note:en=accessible with the permission of the National Park Directorate,,osm
+Q200-P113-11,Q200,P113,note:hu=NPI hozzájárulásával látogatható,,osm
+Q200-P113-12,Q200,P113,protect_class=3,,osm
+Q200-P113-13,Q200,P113,protection_object=cave,,osm
+Q200-P113-14,Q200,P113,protection_title=megkülönböztetetten védett,,osm
+Q200-P113-15,Q200,P113,protection_title:en=exceptionally protected,,osm
+Q200-P113-16,Q200,P113,url=https://orfu.hu/zold-ritmusban/kalandos-barlangturak/,,osm
+Q200-P113-17,Q200,P113,website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-71,,osm
+,Q201,P2,Q100,,osm
+Q201-P100-1,Q201,P100,https://www.openstreetmap.org/node/3544073316,,osm
+Q201-P101-1,Q201,P101,https://www.openstreetmap.org/node/3544073316/history/1,,osm
+Q201-P101-2,Q201,P101,https://www.openstreetmap.org/node/3544073316/history/2,,osm
+Q201-P101-3,Q201,P101,https://www.openstreetmap.org/node/3544073316/history/3,preferred,osm
+Q201-P107-1,Q201,P107,https://www.openstreetmap.org/node/3544073316/history/1,,osm
+Q201-P110-1,Q201,P110,"-33.6414563,115.0348954",,osm
+Q201-P111-1,Q201,P111,POINT(115.0348954 -33.6414563),,osm
+Q201-P113-1,Q201,P113,access=customers,,osm
+Q201-P113-2,Q201,P113,fee=yes,,osm
+Q201-P113-3,Q201,P113,highway=steps,,osm
+Q201-P113-4,Q201,P113,name=Ngilgi Cave Entrance,,osm
+Q201-P113-5,Q201,P113,natural=cave_entrance,,osm
+Q201-P113-6,Q201,P113,subject:wikidata=Q14935882,,osm
+Q201-P113-7,Q201,P113,subject:wikipedia=en:Ngilgi Cave,,osm
+Q201-P113-8,Q201,P113,wheelchair=no,,osm
+,Q202,P2,Q100,,osm
+Q202-P100-1,Q202,P100,https://www.openstreetmap.org/node/354842709,,osm
+Q202-P101-1,Q202,P101,https://www.openstreetmap.org/node/354842709/history/1,,osm
+Q202-P101-2,Q202,P101,https://www.openstreetmap.org/node/354842709/history/2,,osm
+Q202-P101-3,Q202,P101,https://www.openstreetmap.org/node/354842709/history/3,,osm
+Q202-P101-4,Q202,P101,https://www.openstreetmap.org/node/354842709/history/4,preferred,osm
+Q202-P107-1,Q202,P107,https://www.openstreetmap.org/node/354842709/history/1,,osm
+Q202-P110-1,Q202,P110,"47.252753,15.54955",,osm
+Q202-P111-1,Q202,P111,POINT(15.54955 47.252753),,osm
+Q202-P113-1,Q202,P113,cave:ref=2833/59,,osm
+Q202-P113-2,Q202,P113,name=Katerloch,,osm
+Q202-P113-3,Q202,P113,natural=cave_entrance,,osm
+Q202-P113-4,Q202,P113,wikidata=Q1735838,,osm
+Q202-P113-5,Q202,P113,wikipedia=de:Katerloch,,osm
+,Q203,P2,Q100,,osm
+Q203-P100-1,Q203,P100,https://www.openstreetmap.org/node/3570423898,,osm
+Q203-P101-1,Q203,P101,https://www.openstreetmap.org/node/3570423898/history/1,preferred,osm
+Q203-P107-1,Q203,P107,https://www.openstreetmap.org/node/3570423898/history/1,,osm
+Q203-P110-1,Q203,P110,"-24.0302633,43.7548225",,osm
+Q203-P111-1,Q203,P111,POINT(43.7548225 -24.0302633),,osm
+Q203-P113-1,Q203,P113,name=Malaza Manga,,osm
+Q203-P113-2,Q203,P113,natural=cave_entrance,,osm
+,Q204,P2,Q100,,osm
+Q204-P100-1,Q204,P100,https://www.openstreetmap.org/node/3570423899,,osm
+Q204-P101-1,Q204,P101,https://www.openstreetmap.org/node/3570423899/history/1,preferred,osm
+Q204-P107-1,Q204,P107,https://www.openstreetmap.org/node/3570423899/history/1,,osm
+Q204-P110-1,Q204,P110,"-24.0476935,43.7531438",,osm
+Q204-P111-1,Q204,P111,POINT(43.7531438 -24.0476935),,osm
+Q204-P113-1,Q204,P113,name=Mitoho,,osm
+Q204-P113-2,Q204,P113,natural=cave_entrance,,osm
+,Q205,P2,Q100,,osm
+Q205-P100-1,Q205,P100,https://www.openstreetmap.org/node/3657259352,,osm
+Q205-P101-1,Q205,P101,https://www.openstreetmap.org/node/3657259352/history/1,,osm
+Q205-P101-2,Q205,P101,https://www.openstreetmap.org/node/3657259352/history/2,,osm
+Q205-P101-3,Q205,P101,https://www.openstreetmap.org/node/3657259352/history/3,,osm
+Q205-P101-4,Q205,P101,https://www.openstreetmap.org/node/3657259352/history/4,,osm
+Q205-P101-5,Q205,P101,https://www.openstreetmap.org/node/3657259352/history/5,,osm
+Q205-P101-6,Q205,P101,https://www.openstreetmap.org/node/3657259352/history/6,preferred,osm
+Q205-P107-1,Q205,P107,https://www.openstreetmap.org/node/3657259352/history/1,,osm
+Q205-P110-1,Q205,P110,"-34.2077549,22.089524",,osm
+Q205-P111-1,Q205,P111,POINT(22.089524 -34.2077549),,osm
+Q205-P112-1,Q205,P112,"Pinnacle Point Archaeological Site, Mossel Bay South Africa.jpg",,osm
+Q205-P113-1,Q205,P113,alt_name=Point of Human Origins,,osm
+Q205-P113-2,Q205,P113,ele=18,,osm
+Q205-P113-3,Q205,P113,fixme=Location approximate,,osm
+Q205-P113-4,Q205,P113,heritage=yes,,osm
+Q205-P113-5,Q205,P113,heritage:operator=whc,,osm
+Q205-P113-6,Q205,P113,heritage:website=https://whc.unesco.org/en/list/1723,,osm
+Q205-P113-7,Q205,P113,historic=archaeological_site,,osm
+Q205-P113-8,Q205,P113,name=Pinnacle Point,,osm
+Q205-P113-9,Q205,P113,natural=cave_entrance,,osm
+Q205-P113-10,Q205,P113,operator=Heritage Western Cape,,osm
+Q205-P113-11,Q205,P113,ref:whc=1723-002,,osm
+Q205-P113-12,Q205,P113,website=https://www.humanorigin.co.za,,osm
+Q205-P113-13,Q205,P113,whc:criteria=(iii)(iv)(v),,osm
+Q205-P113-14,Q205,P113,whc:inscription_date=2024,,osm
+Q205-P113-15,Q205,P113,wikidata=Q1814354,,osm
+Q205-P113-16,Q205,P113,wikipedia=en:Pinnacle Point,,osm
+,Q206,P2,Q100,,osm
+Q206-P100-1,Q206,P100,https://www.openstreetmap.org/node/3658668205,,osm
+Q206-P101-1,Q206,P101,https://www.openstreetmap.org/node/3658668205/history/1,,osm
+Q206-P101-2,Q206,P101,https://www.openstreetmap.org/node/3658668205/history/2,preferred,osm
+Q206-P107-1,Q206,P107,https://www.openstreetmap.org/node/3658668205/history/1,,osm
+Q206-P110-1,Q206,P110,"-31.5476174,115.6906614",,osm
+Q206-P111-1,Q206,P111,POINT(115.6906614 -31.5476174),,osm
+Q206-P113-1,Q206,P113,access=customers,,osm
+Q206-P113-2,Q206,P113,name=Yonderup Cave,,osm
+Q206-P113-3,Q206,P113,natural=cave_entrance,,osm
+Q206-P113-4,Q206,P113,tourism=attraction,,osm
+,Q207,P2,Q100,,osm
+Q207-P100-1,Q207,P100,https://www.openstreetmap.org/node/370538351,,osm
+Q207-P101-1,Q207,P101,https://www.openstreetmap.org/node/370538351/history/1,,osm
+Q207-P101-2,Q207,P101,https://www.openstreetmap.org/node/370538351/history/2,preferred,osm
+Q207-P107-2,Q207,P107,https://www.openstreetmap.org/node/370538351/history/2,,osm
+Q207-P110-1,Q207,P110,"-34.0502827,115.0249175",,osm
+Q207-P111-1,Q207,P111,POINT(115.0249175 -34.0502827),,osm
+Q207-P113-1,Q207,P113,name=Calgardup Cave,,osm
+Q207-P113-2,Q207,P113,natural=cave_entrance,,osm
+Q207-P113-3,Q207,P113,tourism=attraction,,osm
+,Q208,P2,Q100,,osm
+Q208-P100-1,Q208,P100,https://www.openstreetmap.org/node/3783268558,,osm
+Q208-P101-1,Q208,P101,https://www.openstreetmap.org/node/3783268558/history/1,,osm
+Q208-P101-2,Q208,P101,https://www.openstreetmap.org/node/3783268558/history/2,,osm
+Q208-P101-3,Q208,P101,https://www.openstreetmap.org/node/3783268558/history/3,preferred,osm
+Q208-P107-1,Q208,P107,https://www.openstreetmap.org/node/3783268558/history/1,,osm
+Q208-P110-1,Q208,P110,"50.139343,5.2028759",,osm
+Q208-P111-1,Q208,P111,POINT(5.2028759 50.139343),,osm
+Q208-P113-1,Q208,P113,access=private,,osm
+Q208-P113-2,Q208,P113,barrier=gate,,osm
+Q208-P113-3,Q208,P113,cave:ref=592-035z,,osm
+Q208-P113-4,Q208,P113,ele=267,,osm
+Q208-P113-5,Q208,P113,name=Chantoir de la Laide Fosse,,osm
+Q208-P113-6,Q208,P113,natural=cave_entrance,,osm
+Q208-P113-7,Q208,P113,source=http://carto1.wallonie.be/fiches/?ctx=karst&srv=id&value=592-035z,,osm
+,Q209,P2,Q100,,osm
+Q209-P100-1,Q209,P100,https://www.openstreetmap.org/node/3835819480,,osm
+Q209-P101-1,Q209,P101,https://www.openstreetmap.org/node/3835819480/history/1,preferred,osm
+Q209-P107-1,Q209,P107,https://www.openstreetmap.org/node/3835819480/history/1,,osm
+Q209-P110-1,Q209,P110,"33.808899,-105.201769",,osm
+Q209-P111-1,Q209,P111,POINT(-105.201769 33.808899),,osm
+Q209-P113-1,Q209,P113,name=Drill Hole,,osm
+Q209-P113-2,Q209,P113,natural=cave_entrance,,osm
+,Q210,P2,Q100,,osm
+Q210-P100-1,Q210,P100,https://www.openstreetmap.org/node/3887334792,,osm
+Q210-P101-1,Q210,P101,https://www.openstreetmap.org/node/3887334792/history/1,,osm
+Q210-P101-2,Q210,P101,https://www.openstreetmap.org/node/3887334792/history/2,,osm
+Q210-P101-3,Q210,P101,https://www.openstreetmap.org/node/3887334792/history/3,preferred,osm
+Q210-P107-3,Q210,P107,https://www.openstreetmap.org/node/3887334792/history/3,,osm
+Q210-P110-1,Q210,P110,"13.1853265,-59.5742209",,osm
+Q210-P111-1,Q210,P111,POINT(-59.5732619 13.1851626),,osm
+Q210-P111-2,Q210,P111,POINT(-59.5742209 13.1853265),,osm
+Q210-P113-1,Q210,P113,designation=Cave,,osm
+Q210-P113-2,Q210,P113,name=Harrison's Cave,,osm
+Q210-P113-3,Q210,P113,natural=cave_entrance,,osm
+,Q211,P2,Q100,,osm
+Q211-P100-1,Q211,P100,https://www.openstreetmap.org/node/3905429443,,osm
+Q211-P101-1,Q211,P101,https://www.openstreetmap.org/node/3905429443/history/1,,osm
+Q211-P101-2,Q211,P101,https://www.openstreetmap.org/node/3905429443/history/2,,osm
+Q211-P101-3,Q211,P101,https://www.openstreetmap.org/node/3905429443/history/3,,osm
+Q211-P101-4,Q211,P101,https://www.openstreetmap.org/node/3905429443/history/4,preferred,osm
+Q211-P107-1,Q211,P107,https://www.openstreetmap.org/node/3905429443/history/1,,osm
+Q211-P110-1,Q211,P110,"37.6326277,-0.8207837",,osm
+Q211-P111-1,Q211,P111,POINT(-0.8207837 37.6326277),,osm
+Q211-P113-1,Q211,P113,geological=palaeontological_site,,osm
+Q211-P113-2,Q211,P113,historic=archaeological_site,,osm
+Q211-P113-3,Q211,P113,historic:civilization=prehistoric,,osm
+Q211-P113-4,Q211,P113,historic:era=paleolithic,,osm
+Q211-P113-5,Q211,P113,historic:period=stone-age,,osm
+Q211-P113-6,Q211,P113,name=Cueva Victoria,,osm
+Q211-P113-7,Q211,P113,natural=cave_entrance,,osm
+Q211-P113-8,Q211,P113,source=PNOA,,osm
+Q211-P113-9,Q211,P113,tourism=attraction,,osm
+Q211-P113-10,Q211,P113,website=http://www.cuevavictoria.com/,,osm
+Q211-P113-11,Q211,P113,wikidata=Q5794122,,osm
+Q211-P113-12,Q211,P113,wikipedia=es:Cueva Victoria,,osm
+,Q212,P2,Q100,,osm
+Q212-P100-1,Q212,P100,https://www.openstreetmap.org/node/4018446140,,osm
+Q212-P101-1,Q212,P101,https://www.openstreetmap.org/node/4018446140/history/1,preferred,osm
+Q212-P107-1,Q212,P107,https://www.openstreetmap.org/node/4018446140/history/1,,osm
+Q212-P110-1,Q212,P110,"44.175376,8.1964061",,osm
+Q212-P111-1,Q212,P111,POINT(8.1964061 44.175376),,osm
+Q212-P113-1,Q212,P113,natural=cave_entrance,,osm
+,Q213,P2,Q100,,osm
+Q213-P100-1,Q213,P100,https://www.openstreetmap.org/node/4086768866,,osm
+Q213-P101-1,Q213,P101,https://www.openstreetmap.org/node/4086768866/history/1,,osm
+Q213-P101-2,Q213,P101,https://www.openstreetmap.org/node/4086768866/history/2,,osm
+Q213-P101-3,Q213,P101,https://www.openstreetmap.org/node/4086768866/history/3,,osm
+Q213-P101-4,Q213,P101,https://www.openstreetmap.org/node/4086768866/history/4,preferred,osm
+Q213-P107-1,Q213,P107,https://www.openstreetmap.org/node/4086768866/history/1,,osm
+Q213-P110-1,Q213,P110,"-18.1101386,-65.7753157",,osm
+Q213-P111-1,Q213,P111,POINT(-65.7749462 -18.1110377),,osm
+Q213-P111-4,Q213,P111,POINT(-65.7753157 -18.1101386),,osm
+Q213-P113-1,Q213,P113,name=Caverna ToroToro,,osm
+Q213-P113-2,Q213,P113,natural=cave_entrance,,osm
+Q213-P113-3,Q213,P113,tourism=attraction,,osm
+,Q214,P2,Q100,,osm
+Q214-P100-1,Q214,P100,https://www.openstreetmap.org/node/4100771303,,osm
+Q214-P101-1,Q214,P101,https://www.openstreetmap.org/node/4100771303/history/1,preferred,osm
+Q214-P107-1,Q214,P107,https://www.openstreetmap.org/node/4100771303/history/1,,osm
+Q214-P110-1,Q214,P110,"10.1419213,118.8685451",,osm
+Q214-P111-1,Q214,P111,POINT(118.8685451 10.1419213),,osm
+Q214-P113-1,Q214,P113,name=Elephant Cave,,osm
+Q214-P113-2,Q214,P113,natural=cave_entrance,,osm
+Q214-P113-3,Q214,P113,tourism=attraction,,osm
+,Q215,P2,Q100,,osm
+Q215-P100-1,Q215,P100,https://www.openstreetmap.org/node/4153268606,,osm
+Q215-P101-1,Q215,P101,https://www.openstreetmap.org/node/4153268606/history/1,,osm
+Q215-P101-2,Q215,P101,https://www.openstreetmap.org/node/4153268606/history/2,preferred,osm
+Q215-P107-1,Q215,P107,https://www.openstreetmap.org/node/4153268606/history/1,,osm
+Q215-P110-1,Q215,P110,"-12.3339123,-41.6047624",,osm
+Q215-P111-1,Q215,P111,POINT(-41.6047624 -12.3339123),,osm
+Q215-P113-1,Q215,P113,name=Entrada da Gruta Lapa Doce,,osm
+Q215-P113-2,Q215,P113,natural=cave_entrance,,osm
+Q215-P113-3,Q215,P113,tourism=attraction,,osm
+,Q216,P2,Q100,,osm
+Q216-P100-1,Q216,P100,https://www.openstreetmap.org/node/4153384278,,osm
+Q216-P101-1,Q216,P101,https://www.openstreetmap.org/node/4153384278/history/1,,osm
+Q216-P101-2,Q216,P101,https://www.openstreetmap.org/node/4153384278/history/2,preferred,osm
+Q216-P107-1,Q216,P107,https://www.openstreetmap.org/node/4153384278/history/1,,osm
+Q216-P110-1,Q216,P110,"-32.6221459,148.9396055",,osm
+Q216-P111-1,Q216,P111,POINT(148.9396055 -32.6221459),,osm
+Q216-P113-1,Q216,P113,access=private,,osm
+Q216-P113-2,Q216,P113,barrier=gate,,osm
+Q216-P113-3,Q216,P113,fee=yes,,osm
+Q216-P113-4,Q216,P113,name=Cathedral Cave,,osm
+Q216-P113-5,Q216,P113,natural=cave_entrance,,osm
+,Q217,P2,Q100,,osm
+Q217-P100-1,Q217,P100,https://www.openstreetmap.org/node/418784261,,osm
+Q217-P101-1,Q217,P101,https://www.openstreetmap.org/node/418784261/history/1,,osm
+Q217-P101-2,Q217,P101,https://www.openstreetmap.org/node/418784261/history/2,,osm
+Q217-P101-3,Q217,P101,https://www.openstreetmap.org/node/418784261/history/3,preferred,osm
+Q217-P107-1,Q217,P107,https://www.openstreetmap.org/node/418784261/history/1,,osm
+Q217-P110-1,Q217,P110,"43.4306677,-3.6659247",,osm
+Q217-P111-1,Q217,P111,POINT(-3.6659247 43.4306677),,osm
+Q217-P113-1,Q217,P113,geological=palaeontological_site,,osm
+Q217-P113-2,Q217,P113,historic=archaeological_site,,osm
+Q217-P113-3,Q217,P113,historic:civilization=prehistoric,,osm
+Q217-P113-4,Q217,P113,historic:era=paleolithic,,osm
+Q217-P113-5,Q217,P113,historic:period=stone-age,,osm
+Q217-P113-6,Q217,P113,name=Cueva de La Garma,,osm
+Q217-P113-7,Q217,P113,natural=cave_entrance,,osm
+Q217-P113-8,Q217,P113,website=https://turismodecantabria.com/disfrutala/que-visitar/26-cueva-de-la-garma/buscador-aWRab25hPTgmaWRNdW5pY2lwaW89Nzcm,,osm
+Q217-P113-9,Q217,P113,wikidata=Q8348804,,osm
+Q217-P113-10,Q217,P113,wikipedia=es:Complejo kárstico del monte de La Garma,,osm
+,Q218,P2,Q100,,osm
+Q218-P100-1,Q218,P100,https://www.openstreetmap.org/node/4209573222,,osm
+Q218-P101-1,Q218,P101,https://www.openstreetmap.org/node/4209573222/history/1,preferred,osm
+Q218-P107-1,Q218,P107,https://www.openstreetmap.org/node/4209573222/history/1,,osm
+Q218-P110-1,Q218,P110,"51.2604185,7.6503186",,osm
+Q218-P111-1,Q218,P111,POINT(7.6503186 51.2604185),,osm
+Q218-P113-1,Q218,P113,name=Geßhardthöhle,,osm
+Q218-P113-2,Q218,P113,natural=cave_entrance,,osm
+,Q219,P2,Q100,,osm
+Q219-P100-1,Q219,P100,https://www.openstreetmap.org/node/4285191320,,osm
+Q219-P101-1,Q219,P101,https://www.openstreetmap.org/node/4285191320/history/1,,osm
+Q219-P101-2,Q219,P101,https://www.openstreetmap.org/node/4285191320/history/2,,osm
+Q219-P101-3,Q219,P101,https://www.openstreetmap.org/node/4285191320/history/3,preferred,osm
+Q219-P107-1,Q219,P107,https://www.openstreetmap.org/node/4285191320/history/1,,osm
+Q219-P110-1,Q219,P110,"-8.5308192,120.4435024",,osm
+Q219-P111-1,Q219,P111,POINT(120.4599193 -8.5339633),,osm
+Q219-P111-3,Q219,P111,POINT(120.4435024 -8.5308192),,osm
+Q219-P113-1,Q219,P113,access=yes,,osm
+Q219-P113-2,Q219,P113,length=~50,,osm
+Q219-P113-3,Q219,P113,name=Liang Bua,,osm
+Q219-P113-4,Q219,P113,natural=cave_entrance,,osm
+Q219-P113-5,Q219,P113,wikidata=Q1822737,,osm
+Q219-P113-6,Q219,P113,wikipedia=en:Liang Bua,,osm
+,Q220,P2,Q100,,osm
+Q220-P100-1,Q220,P100,https://www.openstreetmap.org/node/4306709100,,osm
+Q220-P101-1,Q220,P101,https://www.openstreetmap.org/node/4306709100/history/1,,osm
+Q220-P101-2,Q220,P101,https://www.openstreetmap.org/node/4306709100/history/2,preferred,osm
+Q220-P107-1,Q220,P107,https://www.openstreetmap.org/node/4306709100/history/1,,osm
+Q220-P110-1,Q220,P110,"47.3109018,8.0411502",,osm
+Q220-P111-1,Q220,P111,POINT(8.0411113 47.3109144),,osm
+Q220-P111-2,Q220,P111,POINT(8.0411502 47.3109018),,osm
+Q220-P113-1,Q220,P113,direction=90,,osm
+Q220-P113-2,Q220,P113,fee=no,,osm
+Q220-P113-3,Q220,P113,name=Hügeliloch,,osm
+Q220-P113-4,Q220,P113,natural=cave_entrance,,osm
+,Q221,P2,Q100,,osm
+Q221-P100-1,Q221,P100,https://www.openstreetmap.org/node/4358968290,,osm
+Q221-P101-1,Q221,P101,https://www.openstreetmap.org/node/4358968290/history/1,,osm
+Q221-P101-2,Q221,P101,https://www.openstreetmap.org/node/4358968290/history/2,,osm
+Q221-P101-3,Q221,P101,https://www.openstreetmap.org/node/4358968290/history/3,,osm
+Q221-P101-4,Q221,P101,https://www.openstreetmap.org/node/4358968290/history/4,preferred,osm
+Q221-P107-1,Q221,P107,https://www.openstreetmap.org/node/4358968290/history/1,,osm
+Q221-P110-1,Q221,P110,"23.0820677,57.3543586",,osm
+Q221-P111-1,Q221,P111,POINT(57.3543586 23.0820677),,osm
+Q221-P113-1,Q221,P113,int_name=Al Hoota Cave,,osm
+Q221-P113-2,Q221,P113,name=كهف الهوتة,,osm
+Q221-P113-3,Q221,P113,name:ar=كهف الهوتة,,osm
+Q221-P113-4,Q221,P113,name:en=Al Hoota Cave,,osm
+Q221-P113-5,Q221,P113,natural=cave_entrance,,osm
+Q221-P113-6,Q221,P113,wikidata=Q2636101,,osm
+Q221-P113-7,Q221,P113,wikipedia=en:Al Hoota Cave,,osm
+,Q222,P2,Q100,,osm
+Q222-P100-1,Q222,P100,https://www.openstreetmap.org/node/4376800615,,osm
+Q222-P101-1,Q222,P101,https://www.openstreetmap.org/node/4376800615/history/1,preferred,osm
+Q222-P107-1,Q222,P107,https://www.openstreetmap.org/node/4376800615/history/1,,osm
+Q222-P110-1,Q222,P110,"-8.0286285,110.6382419",,osm
+Q222-P111-1,Q222,P111,POINT(110.6382419 -8.0286285),,osm
+Q222-P113-1,Q222,P113,name=Goa Jomblang,,osm
+Q222-P113-2,Q222,P113,natural=cave_entrance,,osm
+,Q223,P2,Q100,,osm
+Q223-P100-1,Q223,P100,https://www.openstreetmap.org/node/4388840122,,osm
+Q223-P101-1,Q223,P101,https://www.openstreetmap.org/node/4388840122/history/1,,osm
+Q223-P101-2,Q223,P101,https://www.openstreetmap.org/node/4388840122/history/2,,osm
+Q223-P101-3,Q223,P101,https://www.openstreetmap.org/node/4388840122/history/3,preferred,osm
+Q223-P107-1,Q223,P107,https://www.openstreetmap.org/node/4388840122/history/1,,osm
+Q223-P110-1,Q223,P110,"46.0181626,11.5809973",,osm
+Q223-P111-1,Q223,P111,POINT(11.5809973 46.0181626),,osm
+Q223-P113-1,Q223,P113,name=Grotta della Bigonda,,osm
+Q223-P113-2,Q223,P113,natural=cave_entrance,,osm
+Q223-P113-3,Q223,P113,wikidata=Q3777045,,osm
+Q223-P113-4,Q223,P113,wikipedia=it:Grotta della Bigonda,,osm
+,Q224,P2,Q100,,osm
+Q224-P100-1,Q224,P100,https://www.openstreetmap.org/node/440011392,,osm
+Q224-P101-1,Q224,P101,https://www.openstreetmap.org/node/440011392/history/1,,osm
+Q224-P101-2,Q224,P101,https://www.openstreetmap.org/node/440011392/history/2,preferred,osm
+Q224-P107-2,Q224,P107,https://www.openstreetmap.org/node/440011392/history/2,,osm
+Q224-P110-1,Q224,P110,"-19.754733,63.3868419",,osm
+Q224-P111-1,Q224,P111,POINT(63.3866555 -19.7547564),,osm
+Q224-P111-2,Q224,P111,POINT(63.3868419 -19.754733),,osm
+Q224-P113-1,Q224,P113,name=Caverne Patate,,osm
+Q224-P113-2,Q224,P113,natural=cave_entrance,,osm
+Q224-P113-3,Q224,P113,tourism=attraction,,osm
+,Q225,P2,Q100,,osm
+Q225-P100-1,Q225,P100,https://www.openstreetmap.org/node/4480576512,,osm
+Q225-P101-1,Q225,P101,https://www.openstreetmap.org/node/4480576512/history/1,,osm
+Q225-P101-2,Q225,P101,https://www.openstreetmap.org/node/4480576512/history/2,preferred,osm
+Q225-P107-1,Q225,P107,https://www.openstreetmap.org/node/4480576512/history/1,,osm
+Q225-P110-1,Q225,P110,"-41.9358976,171.4796209",,osm
+Q225-P111-1,Q225,P111,POINT(171.4796209 -41.9358976),,osm
+Q225-P113-1,Q225,P113,access=permissive,,osm
+Q225-P113-2,Q225,P113,fee=yes,,osm
+Q225-P113-3,Q225,P113,name=Metro Cave,,osm
+Q225-P113-4,Q225,P113,natural=cave_entrance,,osm
+Q225-P113-5,Q225,P113,wikidata=Q15253265,,osm
+,Q226,P2,Q100,,osm
+Q226-P100-1,Q226,P100,https://www.openstreetmap.org/node/4503846516,,osm
+Q226-P101-1,Q226,P101,https://www.openstreetmap.org/node/4503846516/history/1,,osm
+Q226-P101-2,Q226,P101,https://www.openstreetmap.org/node/4503846516/history/2,preferred,osm
+Q226-P107-1,Q226,P107,https://www.openstreetmap.org/node/4503846516/history/1,,osm
+Q226-P110-1,Q226,P110,"29.2289158,107.9033277",,osm
+Q226-P111-1,Q226,P111,POINT(107.9033277 29.2289158),,osm
+Q226-P113-1,Q226,P113,heritage=1,,osm
+Q226-P113-2,Q226,P113,heritage:operator=whc,,osm
+Q226-P113-3,Q226,P113,name=芙蓉洞,,osm
+Q226-P113-4,Q226,P113,name:en=Furong Cave,,osm
+Q226-P113-5,Q226,P113,name:ru=Фужун,,osm
+Q226-P113-6,Q226,P113,natural=cave_entrance,,osm
+Q226-P113-7,Q226,P113,wikidata=Q5509697,,osm
+Q226-P113-8,Q226,P113,wikipedia=zh:芙蓉洞,,osm
+,Q227,P2,Q100,,osm
+Q227-P100-1,Q227,P100,https://www.openstreetmap.org/node/4523782074,,osm
+Q227-P101-1,Q227,P101,https://www.openstreetmap.org/node/4523782074/history/1,,osm
+Q227-P101-2,Q227,P101,https://www.openstreetmap.org/node/4523782074/history/2,,osm
+Q227-P101-3,Q227,P101,https://www.openstreetmap.org/node/4523782074/history/3,,osm
+Q227-P101-4,Q227,P101,https://www.openstreetmap.org/node/4523782074/history/4,preferred,osm
+Q227-P107-1,Q227,P107,https://www.openstreetmap.org/node/4523782074/history/1,,osm
+Q227-P110-1,Q227,P110,"15.102175,78.1116692",,osm
+Q227-P111-1,Q227,P111,POINT(78.1116692 15.102175),,osm
+Q227-P113-1,Q227,P113,name=Belum Caves,,osm
+Q227-P113-2,Q227,P113,natural=cave_entrance,,osm
+Q227-P113-3,Q227,P113,wikidata=Q723862,,osm
+Q227-P113-4,Q227,P113,wikipedia=en:Belum Caves,,osm
+,Q228,P2,Q100,,osm
+Q228-P100-1,Q228,P100,https://www.openstreetmap.org/node/4557134896,,osm
+Q228-P101-1,Q228,P101,https://www.openstreetmap.org/node/4557134896/history/1,,osm
+Q228-P101-2,Q228,P101,https://www.openstreetmap.org/node/4557134896/history/2,preferred,osm
+Q228-P107-1,Q228,P107,https://www.openstreetmap.org/node/4557134896/history/1,,osm
+Q228-P110-1,Q228,P110,"43.3997795,12.9614999",,osm
+Q228-P111-1,Q228,P111,POINT(12.9614769 43.3994558),,osm
+Q228-P111-2,Q228,P111,POINT(12.9614999 43.3997795),,osm
+Q228-P113-1,Q228,P113,ele=383,,osm
+Q228-P113-2,Q228,P113,name=Grotta Grande del Vento,,osm
+Q228-P113-3,Q228,P113,natural=cave_entrance,,osm
+,Q229,P2,Q100,,osm
+Q229-P100-1,Q229,P100,https://www.openstreetmap.org/node/4705261283,,osm
+Q229-P101-1,Q229,P101,https://www.openstreetmap.org/node/4705261283/history/1,preferred,osm
+Q229-P107-1,Q229,P107,https://www.openstreetmap.org/node/4705261283/history/1,,osm
+Q229-P110-1,Q229,P110,"22.3820247,-83.9740735",,osm
+Q229-P111-1,Q229,P111,POINT(-83.9740735 22.3820247),,osm
+Q229-P113-1,Q229,P113,fee=no,,osm
+Q229-P113-2,Q229,P113,name=Dos Anas,,osm
+Q229-P113-3,Q229,P113,natural=cave_entrance,,osm
+Q229-P113-4,Q229,P113,phone=+12027491273,,osm
+,Q230,P2,Q100,,osm
+Q230-P100-1,Q230,P100,https://www.openstreetmap.org/node/475710521,,osm
+Q230-P101-1,Q230,P101,https://www.openstreetmap.org/node/475710521/history/1,,osm
+Q230-P101-2,Q230,P101,https://www.openstreetmap.org/node/475710521/history/2,,osm
+Q230-P101-3,Q230,P101,https://www.openstreetmap.org/node/475710521/history/3,,osm
+Q230-P101-4,Q230,P101,https://www.openstreetmap.org/node/475710521/history/4,,osm
+Q230-P101-5,Q230,P101,https://www.openstreetmap.org/node/475710521/history/5,preferred,osm
+Q230-P107-1,Q230,P107,https://www.openstreetmap.org/node/475710521/history/1,,osm
+Q230-P110-1,Q230,P110,"52.2471229,-9.4443544",,osm
+Q230-P111-1,Q230,P111,POINT(-9.4444068 52.247221),,osm
+Q230-P111-3,Q230,P111,POINT(-9.4443544 52.2471229),,osm
+Q230-P113-1,Q230,P113,access=customers,,osm
+Q230-P113-2,Q230,P113,fee=yes,,osm
+Q230-P113-3,Q230,P113,internet_access=wlan,,osm
+Q230-P113-4,Q230,P113,internet_access:fee=no,,osm
+Q230-P113-5,Q230,P113,internet_access:ssid=cave,,osm
+Q230-P113-6,Q230,P113,name=Crag Cave,,osm
+Q230-P113-7,Q230,P113,natural=cave_entrance,,osm
+Q230-P113-8,Q230,P113,tourism=attraction,,osm
+Q230-P113-9,Q230,P113,website=https://www.cragcave.com/,,osm
+Q230-P113-10,Q230,P113,wikidata=Q1138482,,osm
+,Q231,P2,Q100,,osm
+Q231-P100-1,Q231,P100,https://www.openstreetmap.org/node/4771754221,,osm
+Q231-P101-1,Q231,P101,https://www.openstreetmap.org/node/4771754221/history/1,,osm
+Q231-P101-2,Q231,P101,https://www.openstreetmap.org/node/4771754221/history/2,preferred,osm
+Q231-P107-1,Q231,P107,https://www.openstreetmap.org/node/4771754221/history/1,,osm
+Q231-P110-1,Q231,P110,"-38.2645727,175.073152",,osm
+Q231-P111-1,Q231,P111,POINT(175.073152 -38.2645727),,osm
+Q231-P113-1,Q231,P113,name=Gardner's Gut,,osm
+Q231-P113-2,Q231,P113,natural=cave_entrance,,osm
+Q231-P113-3,Q231,P113,wikidata=Q5522564,,osm
+,Q232,P2,Q100,,osm
+Q232-P100-1,Q232,P100,https://www.openstreetmap.org/node/4848050737,,osm
+Q232-P101-1,Q232,P101,https://www.openstreetmap.org/node/4848050737/history/1,,osm
+Q232-P101-2,Q232,P101,https://www.openstreetmap.org/node/4848050737/history/2,,osm
+Q232-P101-3,Q232,P101,https://www.openstreetmap.org/node/4848050737/history/3,preferred,osm
+Q232-P107-2,Q232,P107,https://www.openstreetmap.org/node/4848050737/history/2,,osm
+Q232-P110-1,Q232,P110,"21.3871821,-98.9818697",,osm
+Q232-P111-1,Q232,P111,POINT(-98.9818697 21.3871821),,osm
+Q232-P113-1,Q232,P113,name=Cueva del Salitre,,osm
+Q232-P113-2,Q232,P113,natural=cave_entrance,,osm
+Q232-P113-3,Q232,P113,tourism=attraction,,osm
+,Q233,P2,Q100,,osm
+Q233-P100-1,Q233,P100,https://www.openstreetmap.org/node/4874702122,,osm
+Q233-P101-1,Q233,P101,https://www.openstreetmap.org/node/4874702122/history/1,,osm
+Q233-P101-2,Q233,P101,https://www.openstreetmap.org/node/4874702122/history/2,,osm
+Q233-P101-3,Q233,P101,https://www.openstreetmap.org/node/4874702122/history/3,,osm
+Q233-P101-4,Q233,P101,https://www.openstreetmap.org/node/4874702122/history/4,preferred,osm
+Q233-P107-1,Q233,P107,https://www.openstreetmap.org/node/4874702122/history/1,,osm
+Q233-P110-1,Q233,P110,"40.5442916,39.4028933",,osm
+Q233-P111-1,Q233,P111,POINT(39.4028933 40.5442916),,osm
+Q233-P113-1,Q233,P113,fee=yes,,osm
+Q233-P113-2,Q233,P113,name=Karaca Mağarası,,osm
+Q233-P113-3,Q233,P113,name:en=Karaca Cave,,osm
+Q233-P113-4,Q233,P113,name:es=Cueva de Karaca,,osm
+Q233-P113-5,Q233,P113,natural=cave_entrance,,osm
+Q233-P113-6,Q233,P113,"note=Toplam uzunluğu 256 metre, girişe göre en derin noktası ise -15.5 metre olan Karaca Mağarası, az eğimli giriş dışında bütünüyle yatay bir mağaradır. Karaca mağarası birbirine bağlı 5 salondan meydana gelmiştir.",,osm
+Q233-P113-7,Q233,P113,payment:cash=yes,,osm
+Q233-P113-8,Q233,P113,payment:credit_cards=yes,,osm
+Q233-P113-9,Q233,P113,wikidata=Q4810702,,osm
+Q233-P113-10,Q233,P113,wikipedia=tr:Karaca Mağarası,,osm
+,Q234,P2,Q100,,osm
+Q234-P100-1,Q234,P100,https://www.openstreetmap.org/node/4917192240,,osm
+Q234-P101-1,Q234,P101,https://www.openstreetmap.org/node/4917192240/history/1,,osm
+Q234-P101-2,Q234,P101,https://www.openstreetmap.org/node/4917192240/history/2,preferred,osm
+Q234-P107-1,Q234,P107,https://www.openstreetmap.org/node/4917192240/history/1,,osm
+Q234-P110-1,Q234,P110,"39.3086933,-9.2768932",,osm
+Q234-P111-1,Q234,P111,POINT(-9.2779502 39.3045976),,osm
+Q234-P111-2,Q234,P111,POINT(-9.2768932 39.3086933),,osm
+Q234-P113-1,Q234,P113,historic=archaeological_site,,osm
+Q234-P113-2,Q234,P113,name=Gruta dos Bolhos - Gruta Casal da Lebre,,osm
+Q234-P113-3,Q234,P113,natural=cave_entrance,,osm
+Q234-P113-4,Q234,P113,note=Precise location needs confirmation,,osm
+,Q235,P2,Q100,,osm
+Q235-P100-1,Q235,P100,https://www.openstreetmap.org/node/4935677369,,osm
+Q235-P101-1,Q235,P101,https://www.openstreetmap.org/node/4935677369/history/1,,osm
+Q235-P101-2,Q235,P101,https://www.openstreetmap.org/node/4935677369/history/2,,osm
+Q235-P101-3,Q235,P101,https://www.openstreetmap.org/node/4935677369/history/3,,osm
+Q235-P101-4,Q235,P101,https://www.openstreetmap.org/node/4935677369/history/4,preferred,osm
+Q235-P107-1,Q235,P107,https://www.openstreetmap.org/node/4935677369/history/1,,osm
+Q235-P110-1,Q235,P110,"44.1388691,10.2222107",,osm
+Q235-P111-1,Q235,P111,POINT(10.2222107 44.1388691),,osm
+Q235-P113-1,Q235,P113,cave:ref:IT:FST=TO0425,,osm
+Q235-P113-2,Q235,P113,name=Buca della goccia,,osm
+Q235-P113-3,Q235,P113,natural=cave_entrance,,osm
+Q235-P113-4,Q235,P113,source=Catasto Grotte - Federazione Speleologica Toscana,,osm
+Q235-P113-5,Q235,P113,source:url=https://www.speleotoscana.it/scheda-catastale/?id=425,,osm
+,Q236,P2,Q100,,osm
+Q236-P100-1,Q236,P100,https://www.openstreetmap.org/node/495996579,,osm
+Q236-P101-1,Q236,P101,https://www.openstreetmap.org/node/495996579/history/1,,osm
+Q236-P101-2,Q236,P101,https://www.openstreetmap.org/node/495996579/history/2,,osm
+Q236-P101-3,Q236,P101,https://www.openstreetmap.org/node/495996579/history/3,,osm
+Q236-P101-4,Q236,P101,https://www.openstreetmap.org/node/495996579/history/4,,osm
+Q236-P101-5,Q236,P101,https://www.openstreetmap.org/node/495996579/history/5,,osm
+Q236-P101-6,Q236,P101,https://www.openstreetmap.org/node/495996579/history/6,preferred,osm
+Q236-P107-2,Q236,P107,https://www.openstreetmap.org/node/495996579/history/2,,osm
+Q236-P110-1,Q236,P110,"-45.2945045,167.7264435",,osm
+Q236-P111-1,Q236,P111,POINT(167.7265126 -45.2945177),,osm
+Q236-P111-2,Q236,P111,POINT(167.7264435 -45.2945045),,osm
+Q236-P113-1,Q236,P113,alt_name=Te Anau Glowworm Caves,,osm
+Q236-P113-2,Q236,P113,name=Te Ana-au Glow-Worm Caves,,osm
+Q236-P113-3,Q236,P113,name:en=Te Ana-au Glow-Worm Caves,,osm
+Q236-P113-4,Q236,P113,name:mi=Te Ana-au Glow-Worm,,osm
+Q236-P113-5,Q236,P113,natural=cave_entrance,,osm
+Q236-P113-6,Q236,P113,ref:linz:place_id=42187,,osm
+Q236-P113-7,Q236,P113,tourism=attraction,,osm
+Q236-P113-8,Q236,P113,wikidata=Q1436725,,osm
+,Q237,P2,Q100,,osm
+Q237-P100-1,Q237,P100,https://www.openstreetmap.org/node/496887249,,osm
+Q237-P101-1,Q237,P101,https://www.openstreetmap.org/node/496887249/history/1,,osm
+Q237-P101-2,Q237,P101,https://www.openstreetmap.org/node/496887249/history/2,preferred,osm
+Q237-P107-1,Q237,P107,https://www.openstreetmap.org/node/496887249/history/1,,osm
+Q237-P110-1,Q237,P110,"47.5352604,7.8033875",,osm
+Q237-P111-1,Q237,P111,POINT(7.8034329 47.5352861),,osm
+Q237-P111-2,Q237,P111,POINT(7.8033875 47.5352604),,osm
+Q237-P113-1,Q237,P113,name=Bierkeller Theophil Roniger,,osm
+Q237-P113-2,Q237,P113,natural=cave_entrance,,osm
+,Q238,P2,Q100,,osm
+Q238-P100-1,Q238,P100,https://www.openstreetmap.org/node/4998330664,,osm
+Q238-P101-1,Q238,P101,https://www.openstreetmap.org/node/4998330664/history/1,preferred,osm
+Q238-P107-1,Q238,P107,https://www.openstreetmap.org/node/4998330664/history/1,,osm
+Q238-P110-1,Q238,P110,"64.9114435,14.0560412",,osm
+Q238-P111-1,Q238,P111,POINT(14.0560412 64.9114435),,osm
+Q238-P113-1,Q238,P113,name=Bjurälvsgrottan,,osm
+Q238-P113-2,Q238,P113,natural=cave_entrance,,osm
+,Q239,P2,Q100,,osm
+Q239-P100-1,Q239,P100,https://www.openstreetmap.org/node/503858812,,osm
+Q239-P101-1,Q239,P101,https://www.openstreetmap.org/node/503858812/history/1,,osm
+Q239-P101-2,Q239,P101,https://www.openstreetmap.org/node/503858812/history/2,,osm
+Q239-P101-3,Q239,P101,https://www.openstreetmap.org/node/503858812/history/3,,osm
+Q239-P101-4,Q239,P101,https://www.openstreetmap.org/node/503858812/history/4,,osm
+Q239-P101-5,Q239,P101,https://www.openstreetmap.org/node/503858812/history/5,,osm
+Q239-P101-6,Q239,P101,https://www.openstreetmap.org/node/503858812/history/6,,osm
+Q239-P101-7,Q239,P101,https://www.openstreetmap.org/node/503858812/history/7,,osm
+Q239-P101-8,Q239,P101,https://www.openstreetmap.org/node/503858812/history/8,,osm
+Q239-P101-9,Q239,P101,https://www.openstreetmap.org/node/503858812/history/9,,osm
+Q239-P101-10,Q239,P101,https://www.openstreetmap.org/node/503858812/history/10,,osm
+Q239-P101-11,Q239,P101,https://www.openstreetmap.org/node/503858812/history/11,preferred,osm
+Q239-P107-2,Q239,P107,https://www.openstreetmap.org/node/503858812/history/2,,osm
+Q239-P110-1,Q239,P110,"-33.3922844,22.2143761",,osm
+Q239-P111-1,Q239,P111,POINT(22.2141779 -33.3930111),,osm
+Q239-P111-3,Q239,P111,POINT(22.2146599 -33.3926907),,osm
+Q239-P111-6,Q239,P111,POINT(22.2143761 -33.3922844),,osm
+Q239-P113-1,Q239,P113,access=permissive,,osm
+Q239-P113-2,Q239,P113,email=reservations@cangocaves.co.za,,osm
+Q239-P113-3,Q239,P113,fee=yes,,osm
+Q239-P113-4,Q239,P113,name=Cango Caves,,osm
+Q239-P113-5,Q239,P113,name:af=Kangogrotte,,osm
+Q239-P113-6,Q239,P113,name:en=Cango Caves,,osm
+Q239-P113-7,Q239,P113,natural=cave_entrance,,osm
+Q239-P113-8,Q239,P113,phone=+27 44 272 7410; +27 82 303 0029,,osm
+Q239-P113-9,Q239,P113,tourism=attraction,,osm
+Q239-P113-10,Q239,P113,website=https://www.cango-caves.co.za/,,osm
+Q239-P113-11,Q239,P113,wheelchair=no,,osm
+Q239-P113-12,Q239,P113,wikidata=Q1033211,,osm
+Q239-P113-13,Q239,P113,wikipedia=en:Cango Caves,,osm
+,Q240,P2,Q100,,osm
+Q240-P100-1,Q240,P100,https://www.openstreetmap.org/node/5048285229,,osm
+Q240-P101-1,Q240,P101,https://www.openstreetmap.org/node/5048285229/history/1,,osm
+Q240-P101-2,Q240,P101,https://www.openstreetmap.org/node/5048285229/history/2,preferred,osm
+Q240-P107-2,Q240,P107,https://www.openstreetmap.org/node/5048285229/history/2,,osm
+Q240-P110-1,Q240,P110,"29.3439573,110.4341797",,osm
+Q240-P111-1,Q240,P111,POINT(110.4341797 29.3439573),,osm
+Q240-P113-1,Q240,P113,name:en=Cave,,osm
+Q240-P113-2,Q240,P113,natural=cave_entrance,,osm
+Q240-P113-3,Q240,P113,tourism=attraction,,osm
+,Q241,P2,Q100,,osm
+Q241-P100-1,Q241,P100,https://www.openstreetmap.org/node/5058896537,,osm
+Q241-P101-1,Q241,P101,https://www.openstreetmap.org/node/5058896537/history/1,,osm
+Q241-P101-2,Q241,P101,https://www.openstreetmap.org/node/5058896537/history/2,preferred,osm
+Q241-P107-2,Q241,P107,https://www.openstreetmap.org/node/5058896537/history/2,,osm
+Q241-P110-1,Q241,P110,"29.9735391,109.5487943",,osm
+Q241-P111-1,Q241,P111,POINT(109.5492664 29.9731859),,osm
+Q241-P111-2,Q241,P111,POINT(109.5487943 29.9735391),,osm
+Q241-P113-1,Q241,P113,natural=cave_entrance,,osm
+,Q242,P2,Q100,,osm
+Q242-P100-1,Q242,P100,https://www.openstreetmap.org/node/5097880046,,osm
+Q242-P101-1,Q242,P101,https://www.openstreetmap.org/node/5097880046/history/1,,osm
+Q242-P101-2,Q242,P101,https://www.openstreetmap.org/node/5097880046/history/2,preferred,osm
+Q242-P107-1,Q242,P107,https://www.openstreetmap.org/node/5097880046/history/1,,osm
+Q242-P110-1,Q242,P110,"37.9596996,22.1398203",,osm
+Q242-P111-1,Q242,P111,POINT(22.1398203 37.9596996),,osm
+Q242-P113-1,Q242,P113,name=Σπήλαιο Λιμνών,,osm
+Q242-P113-2,Q242,P113,natural=cave_entrance,,osm
+Q242-P113-3,Q242,P113,wikidata=Q16328676,,osm
+Q242-P113-4,Q242,P113,wikipedia=en:Cave of the Lakes,,osm
+,Q243,P2,Q100,,osm
+Q243-P100-1,Q243,P100,https://www.openstreetmap.org/node/516610283,,osm
+Q243-P101-1,Q243,P101,https://www.openstreetmap.org/node/516610283/history/1,,osm
+Q243-P101-2,Q243,P101,https://www.openstreetmap.org/node/516610283/history/2,preferred,osm
+Q243-P107-1,Q243,P107,https://www.openstreetmap.org/node/516610283/history/1,,osm
+Q243-P110-1,Q243,P110,"30.6804948,-9.3447545",,osm
+Q243-P111-1,Q243,P111,POINT(-9.3447545 30.6804948),,osm
+Q243-P113-1,Q243,P113,name=Wintindouine وينتيمدوين,,osm
+Q243-P113-2,Q243,P113,name:ar=وينتيمدوين,,osm
+Q243-P113-3,Q243,P113,name:fr=Wintindouine,,osm
+Q243-P113-4,Q243,P113,natural=cave_entrance,,osm
+,Q244,P2,Q100,,osm
+Q244-P100-1,Q244,P100,https://www.openstreetmap.org/node/5204252292,,osm
+Q244-P101-1,Q244,P101,https://www.openstreetmap.org/node/5204252292/history/1,preferred,osm
+Q244-P107-1,Q244,P107,https://www.openstreetmap.org/node/5204252292/history/1,,osm
+Q244-P110-1,Q244,P110,"45.6783125,0.4996774",,osm
+Q244-P111-1,Q244,P111,POINT(0.4996774 45.6783125),,osm
+Q244-P113-1,Q244,P113,name=Grotte de Lavaud,,osm
+Q244-P113-2,Q244,P113,natural=cave_entrance,,osm
+,Q245,P2,Q100,,osm
+Q245-P100-1,Q245,P100,https://www.openstreetmap.org/node/5228393368,,osm
+Q245-P101-1,Q245,P101,https://www.openstreetmap.org/node/5228393368/history/1,preferred,osm
+Q245-P107-1,Q245,P107,https://www.openstreetmap.org/node/5228393368/history/1,,osm
+Q245-P110-1,Q245,P110,"25.3444333,108.0493462",,osm
+Q245-P111-1,Q245,P111,POINT(108.0493462 25.3444333),,osm
+Q245-P113-1,Q245,P113,natural=cave_entrance,,osm
+,Q246,P2,Q100,,osm
+Q246-P100-1,Q246,P100,https://www.openstreetmap.org/node/5382854703,,osm
+Q246-P101-1,Q246,P101,https://www.openstreetmap.org/node/5382854703/history/1,,osm
+Q246-P101-2,Q246,P101,https://www.openstreetmap.org/node/5382854703/history/2,,osm
+Q246-P101-3,Q246,P101,https://www.openstreetmap.org/node/5382854703/history/3,preferred,osm
+Q246-P107-1,Q246,P107,https://www.openstreetmap.org/node/5382854703/history/1,,osm
+Q246-P110-1,Q246,P110,"33.9433317,35.6468495",,osm
+Q246-P111-1,Q246,P111,POINT(35.6468495 33.9433317),,osm
+Q246-P113-1,Q246,P113,name=Upper Grotto,,osm
+Q246-P113-2,Q246,P113,name:en=Upper cave,,osm
+Q246-P113-3,Q246,P113,natural=cave_entrance,,osm
+,Q247,P2,Q100,,osm
+Q247-P100-1,Q247,P100,https://www.openstreetmap.org/node/5438822822,,osm
+Q247-P101-1,Q247,P101,https://www.openstreetmap.org/node/5438822822/history/1,preferred,osm
+Q247-P107-1,Q247,P107,https://www.openstreetmap.org/node/5438822822/history/1,,osm
+Q247-P110-1,Q247,P110,"38.6082608,113.7401953",,osm
+Q247-P111-1,Q247,P111,POINT(113.7401953 38.6082608),,osm
+Q247-P113-1,Q247,P113,natural=cave_entrance,,osm
+,Q248,P2,Q100,,osm
+Q248-P100-1,Q248,P100,https://www.openstreetmap.org/node/5459800715,,osm
+Q248-P101-1,Q248,P101,https://www.openstreetmap.org/node/5459800715/history/1,preferred,osm
+Q248-P107-1,Q248,P107,https://www.openstreetmap.org/node/5459800715/history/1,,osm
+Q248-P110-1,Q248,P110,"50.1113014,5.1966213",,osm
+Q248-P111-1,Q248,P111,POINT(5.1966213 50.1113014),,osm
+Q248-P113-1,Q248,P113,access=private,,osm
+Q248-P113-2,Q248,P113,barrier=gate,,osm
+Q248-P113-3,Q248,P113,cave:length=2115,,osm
+Q248-P113-4,Q248,P113,cave:ref=592-070a,,osm
+Q248-P113-5,Q248,P113,name=Grotte du Père Noël,,osm
+Q248-P113-6,Q248,P113,natural=cave_entrance,,osm
+,Q249,P2,Q100,,osm
+Q249-P100-1,Q249,P100,https://www.openstreetmap.org/node/5501815824,,osm
+Q249-P101-1,Q249,P101,https://www.openstreetmap.org/node/5501815824/history/1,preferred,osm
+Q249-P107-1,Q249,P107,https://www.openstreetmap.org/node/5501815824/history/1,,osm
+Q249-P110-1,Q249,P110,"26.8126987,105.1181655",,osm
+Q249-P111-1,Q249,P111,POINT(105.1181655 26.8126987),,osm
+Q249-P113-1,Q249,P113,natural=cave_entrance,,osm
+,Q250,P2,Q100,,osm
+Q250-P100-1,Q250,P100,https://www.openstreetmap.org/node/5503469510,,osm
+Q250-P101-1,Q250,P101,https://www.openstreetmap.org/node/5503469510/history/1,,osm
+Q250-P101-2,Q250,P101,https://www.openstreetmap.org/node/5503469510/history/2,,osm
+Q250-P101-3,Q250,P101,https://www.openstreetmap.org/node/5503469510/history/3,,osm
+Q250-P101-4,Q250,P101,https://www.openstreetmap.org/node/5503469510/history/4,,osm
+Q250-P101-5,Q250,P101,https://www.openstreetmap.org/node/5503469510/history/5,,osm
+Q250-P101-6,Q250,P101,https://www.openstreetmap.org/node/5503469510/history/6,preferred,osm
+Q250-P107-1,Q250,P107,https://www.openstreetmap.org/node/5503469510/history/1,,osm
+Q250-P110-1,Q250,P110,"39.7926183,2.9683618",,osm
+Q250-P111-1,Q250,P111,POINT(2.9683618 39.7926183),,osm
+Q250-P113-1,Q250,P113,access=yes,,osm
+Q250-P113-2,Q250,P113,barrier=door,,osm
+Q250-P113-3,Q250,P113,"charge=17 € Adult, 9 € child (4-12 years)",,osm
+Q250-P113-4,Q250,P113,fee=yes,,osm
+Q250-P113-5,Q250,P113,name=Coves de Campanet,,osm
+Q250-P113-6,Q250,P113,name:ca=Coves de Campanet,,osm
+Q250-P113-7,Q250,P113,natural=cave_entrance,,osm
+Q250-P113-8,Q250,P113,payment:cash=yes,,osm
+Q250-P113-9,Q250,P113,payment:credit_cards=yes,,osm
+Q250-P113-10,Q250,P113,website=https://covesdecampanet.com/,,osm
+Q250-P113-11,Q250,P113,wikidata=Q508889,,osm
+Q250-P113-12,Q250,P113,wikipedia=ca:Coves de Campanet,,osm
+,Q251,P2,Q100,,osm
+Q251-P100-1,Q251,P100,https://www.openstreetmap.org/node/554858725,,osm
+Q251-P101-1,Q251,P101,https://www.openstreetmap.org/node/554858725/history/1,,osm
+Q251-P101-2,Q251,P101,https://www.openstreetmap.org/node/554858725/history/2,preferred,osm
+Q251-P107-1,Q251,P107,https://www.openstreetmap.org/node/554858725/history/1,,osm
+Q251-P110-1,Q251,P110,"54.2210687,-2.516764",,osm
+Q251-P111-1,Q251,P111,POINT(-2.516764 54.2210687),,osm
+Q251-P113-1,Q251,P113,access=permit,,osm
+Q251-P113-2,Q251,P113,fee=no,,osm
+Q251-P113-3,Q251,P113,name=Lancaster Hole,,osm
+Q251-P113-4,Q251,P113,natural=cave_entrance,,osm
+Q251-P113-5,Q251,P113,source=survey,,osm
+,Q252,P2,Q100,,osm
+Q252-P100-1,Q252,P100,https://www.openstreetmap.org/node/556748045,,osm
+Q252-P101-1,Q252,P101,https://www.openstreetmap.org/node/556748045/history/1,,osm
+Q252-P101-2,Q252,P101,https://www.openstreetmap.org/node/556748045/history/2,,osm
+Q252-P101-3,Q252,P101,https://www.openstreetmap.org/node/556748045/history/3,,osm
+Q252-P101-4,Q252,P101,https://www.openstreetmap.org/node/556748045/history/4,,osm
+Q252-P101-5,Q252,P101,https://www.openstreetmap.org/node/556748045/history/5,,osm
+Q252-P101-6,Q252,P101,https://www.openstreetmap.org/node/556748045/history/6,,osm
+Q252-P101-7,Q252,P101,https://www.openstreetmap.org/node/556748045/history/7,,osm
+Q252-P101-8,Q252,P101,https://www.openstreetmap.org/node/556748045/history/8,,osm
+Q252-P101-9,Q252,P101,https://www.openstreetmap.org/node/556748045/history/9,,osm
+Q252-P101-10,Q252,P101,https://www.openstreetmap.org/node/556748045/history/10,preferred,osm
+Q252-P107-1,Q252,P107,https://www.openstreetmap.org/node/556748045/history/1,,osm
+Q252-P110-1,Q252,P110,"49.7793379,11.2826077",,osm
+Q252-P111-1,Q252,P111,POINT(11.2824115 49.7793454),,osm
+Q252-P111-2,Q252,P111,POINT(11.2827796 49.77931),,osm
+Q252-P111-4,Q252,P111,POINT(11.2826077 49.7793379),,osm
+Q252-P113-1,Q252,P113,access=no,,osm
+Q252-P113-2,Q252,P113,cave:ref=D 109,,osm
+Q252-P113-3,Q252,P113,name=Zoolithenhöhle,,osm
+Q252-P113-4,Q252,P113,natural=cave_entrance,,osm
+Q252-P113-5,Q252,P113,protect_class=7,,osm
+Q252-P113-6,Q252,P113,protection_title=Naturdenkmal,,osm
+Q252-P113-7,Q252,P113,ref=042,,osm
+Q252-P113-8,Q252,P113,ref:DE-BY=ND-04462,,osm
+Q252-P113-9,Q252,P113,short_protection_title=ND,,osm
+Q252-P113-10,Q252,P113,website=https://www.fhkf.de/hoehlen/zoolithenhoehle/,,osm
+Q252-P113-11,Q252,P113,wheelchair=no,,osm
+Q252-P113-12,Q252,P113,wikidata=Q15062161,,osm
+Q252-P113-13,Q252,P113,wikipedia=de:Zoolithenhöhle,,osm
+,Q253,P2,Q100,,osm
+Q253-P100-1,Q253,P100,https://www.openstreetmap.org/node/558629070,,osm
+Q253-P101-1,Q253,P101,https://www.openstreetmap.org/node/558629070/history/1,,osm
+Q253-P101-2,Q253,P101,https://www.openstreetmap.org/node/558629070/history/2,,osm
+Q253-P101-3,Q253,P101,https://www.openstreetmap.org/node/558629070/history/3,,osm
+Q253-P101-4,Q253,P101,https://www.openstreetmap.org/node/558629070/history/4,,osm
+Q253-P101-5,Q253,P101,https://www.openstreetmap.org/node/558629070/history/5,preferred,osm
+Q253-P107-3,Q253,P107,https://www.openstreetmap.org/node/558629070/history/3,,osm
+Q253-P110-1,Q253,P110,"43.3975847,-4.5329511",,osm
+Q253-P111-1,Q253,P111,POINT(-4.5329511 43.3975847),,osm
+Q253-P113-1,Q253,P113,fee=yes,,osm
+Q253-P113-2,Q253,P113,geological=palaeontological_site,,osm
+Q253-P113-3,Q253,P113,historic=archaeological_site,,osm
+Q253-P113-4,Q253,P113,name=Cueva el Pindal,,osm
+Q253-P113-5,Q253,P113,natural=cave_entrance,,osm
+Q253-P113-6,Q253,P113,tourism=attraction,,osm
+Q253-P113-7,Q253,P113,wikidata=Q555011,,osm
+Q253-P113-8,Q253,P113,wikipedia=es:Cueva del Pindal,,osm
+,Q254,P2,Q100,,osm
+Q254-P100-1,Q254,P100,https://www.openstreetmap.org/node/5677995348,,osm
+Q254-P101-1,Q254,P101,https://www.openstreetmap.org/node/5677995348/history/1,preferred,osm
+Q254-P107-1,Q254,P107,https://www.openstreetmap.org/node/5677995348/history/1,,osm
+Q254-P110-1,Q254,P110,"51.7201694,85.6504065",,osm
+Q254-P111-1,Q254,P111,POINT(85.6504065 51.7201694),,osm
+Q254-P113-1,Q254,P113,name=Кек-Таш,,osm
+Q254-P113-2,Q254,P113,natural=cave_entrance,,osm
+,Q255,P2,Q100,,osm
+Q255-P100-1,Q255,P100,https://www.openstreetmap.org/node/5894264165,,osm
+Q255-P101-1,Q255,P101,https://www.openstreetmap.org/node/5894264165/history/1,,osm
+Q255-P101-2,Q255,P101,https://www.openstreetmap.org/node/5894264165/history/2,preferred,osm
+Q255-P107-1,Q255,P107,https://www.openstreetmap.org/node/5894264165/history/1,,osm
+Q255-P110-1,Q255,P110,"35.8422337,52.0020858",,osm
+Q255-P111-1,Q255,P111,POINT(52.0020858 35.8422337),,osm
+Q255-P113-1,Q255,P113,name=غار گل زرد,,osm
+Q255-P113-2,Q255,P113,natural=cave_entrance,,osm
+Q255-P113-3,Q255,P113,wikipedia=fa:غار گل زرد,,osm
+,Q256,P2,Q100,,osm
+Q256-P100-1,Q256,P100,https://www.openstreetmap.org/node/5905508413,,osm
+Q256-P101-1,Q256,P101,https://www.openstreetmap.org/node/5905508413/history/1,preferred,osm
+Q256-P107-1,Q256,P107,https://www.openstreetmap.org/node/5905508413/history/1,,osm
+Q256-P110-1,Q256,P110,"10.7813207,-85.356571",,osm
+Q256-P111-1,Q256,P111,POINT(-85.356571 10.7813207),,osm
+Q256-P113-1,Q256,P113,natural=cave_entrance,,osm
+,Q257,P2,Q100,,osm
+Q257-P100-1,Q257,P100,https://www.openstreetmap.org/node/5909253343,,osm
+Q257-P101-1,Q257,P101,https://www.openstreetmap.org/node/5909253343/history/1,preferred,osm
+Q257-P107-1,Q257,P107,https://www.openstreetmap.org/node/5909253343/history/1,,osm
+Q257-P110-1,Q257,P110,"-0.6793421,100.7794899",,osm
+Q257-P111-1,Q257,P111,POINT(100.7794899 -0.6793421),,osm
+Q257-P113-1,Q257,P113,access=permit,,osm
+Q257-P113-2,Q257,P113,fee=yes,,osm
+Q257-P113-3,Q257,P113,name=Lubang Tambang Mbah Soero,,osm
+Q257-P113-4,Q257,P113,natural=cave_entrance,,osm
+,Q258,P2,Q100,,osm
+Q258-P100-1,Q258,P100,https://www.openstreetmap.org/node/5949505815,,osm
+Q258-P101-1,Q258,P101,https://www.openstreetmap.org/node/5949505815/history/1,preferred,osm
+Q258-P107-1,Q258,P107,https://www.openstreetmap.org/node/5949505815/history/1,,osm
+Q258-P110-1,Q258,P110,"43.4104324,-4.8061199",,osm
+Q258-P111-1,Q258,P111,POINT(-4.8061199 43.4104324),,osm
+Q258-P113-1,Q258,P113,access=yes,,osm
+Q258-P113-2,Q258,P113,fee=no,,osm
+Q258-P113-3,Q258,P113,name=La Vallina,,osm
+Q258-P113-4,Q258,P113,natural=cave_entrance,,osm
+,Q259,P2,Q100,,osm
+Q259-P100-1,Q259,P100,https://www.openstreetmap.org/node/6050984397,,osm
+Q259-P101-1,Q259,P101,https://www.openstreetmap.org/node/6050984397/history/1,,osm
+Q259-P101-2,Q259,P101,https://www.openstreetmap.org/node/6050984397/history/2,preferred,osm
+Q259-P107-2,Q259,P107,https://www.openstreetmap.org/node/6050984397/history/2,,osm
+Q259-P110-1,Q259,P110,"20.188353,-87.550564",,osm
+Q259-P111-1,Q259,P111,POINT(-87.550564 20.188353),,osm
+Q259-P113-1,Q259,P113,name:en=Cenote Monkey Dust,,osm
+Q259-P113-2,Q259,P113,natural=cave_entrance,,osm
+Q259-P113-3,Q259,P113,tourism=attraction,,osm
+,Q260,P2,Q100,,osm
+Q260-P100-1,Q260,P100,https://www.openstreetmap.org/node/6176987555,,osm
+Q260-P101-1,Q260,P101,https://www.openstreetmap.org/node/6176987555/history/1,preferred,osm
+Q260-P107-1,Q260,P107,https://www.openstreetmap.org/node/6176987555/history/1,,osm
+Q260-P110-1,Q260,P110,"-12.3320551,-41.5967163",,osm
+Q260-P111-1,Q260,P111,POINT(-41.5967163 -12.3320551),,osm
+Q260-P113-1,Q260,P113,name=Gruta da Fumaça,,osm
+Q260-P113-2,Q260,P113,natural=cave_entrance,,osm
+,Q261,P2,Q100,,osm
+Q261-P100-1,Q261,P100,https://www.openstreetmap.org/node/644792344,,osm
+Q261-P101-1,Q261,P101,https://www.openstreetmap.org/node/644792344/history/1,,osm
+Q261-P101-2,Q261,P101,https://www.openstreetmap.org/node/644792344/history/2,,osm
+Q261-P101-3,Q261,P101,https://www.openstreetmap.org/node/644792344/history/3,,osm
+Q261-P101-4,Q261,P101,https://www.openstreetmap.org/node/644792344/history/4,,osm
+Q261-P101-5,Q261,P101,https://www.openstreetmap.org/node/644792344/history/5,,osm
+Q261-P101-6,Q261,P101,https://www.openstreetmap.org/node/644792344/history/6,,osm
+Q261-P101-7,Q261,P101,https://www.openstreetmap.org/node/644792344/history/7,,osm
+Q261-P101-8,Q261,P101,https://www.openstreetmap.org/node/644792344/history/8,,osm
+Q261-P101-9,Q261,P101,https://www.openstreetmap.org/node/644792344/history/9,,osm
+Q261-P101-10,Q261,P101,https://www.openstreetmap.org/node/644792344/history/10,,osm
+Q261-P101-11,Q261,P101,https://www.openstreetmap.org/node/644792344/history/11,,osm
+Q261-P101-12,Q261,P101,https://www.openstreetmap.org/node/644792344/history/12,,osm
+Q261-P101-13,Q261,P101,https://www.openstreetmap.org/node/644792344/history/13,,osm
+Q261-P101-14,Q261,P101,https://www.openstreetmap.org/node/644792344/history/14,,osm
+Q261-P101-15,Q261,P101,https://www.openstreetmap.org/node/644792344/history/15,preferred,osm
+Q261-P107-1,Q261,P107,https://www.openstreetmap.org/node/644792344/history/1,,osm
+Q261-P110-1,Q261,P110,"50.6877814,8.2063777",,osm
+Q261-P111-1,Q261,P111,POINT(8.2060145 50.6877208),,osm
+Q261-P111-4,Q261,P111,POINT(8.2063777 50.6877814),,osm
+Q261-P113-1,Q261,P113,access=customers,,osm
+Q261-P113-2,Q261,P113,addr:city=Breitscheid,,osm
+Q261-P113-3,Q261,P113,addr:postcode=35767,,osm
+Q261-P113-4,Q261,P113,barrier=door,,osm
+Q261-P113-5,Q261,P113,charge=11 EUR,,osm
+Q261-P113-6,Q261,P113,fee=yes,,osm
+Q261-P113-7,Q261,P113,internet_access=wlan,,osm
+Q261-P113-8,Q261,P113,internet_access:description=4 MBit pro Nutzer,,osm
+Q261-P113-9,Q261,P113,internet_access:fee=no,,osm
+Q261-P113-10,Q261,P113,internet_access:ssid=Hessen-WLAN Breitscheid,,osm
+Q261-P113-11,Q261,P113,name=Herbstlabyrinth-Adventhöhle-System,,osm
+Q261-P113-12,Q261,P113,natural=cave_entrance,,osm
+Q261-P113-13,Q261,P113,"opening_hours=Sa-Su, PH 11:00-18:00",,osm
+Q261-P113-14,Q261,P113,payment:account_cards=yes,,osm
+Q261-P113-15,Q261,P113,payment:app=yes,,osm
+Q261-P113-16,Q261,P113,payment:apple_pay=yes,,osm
+Q261-P113-17,Q261,P113,payment:cash=yes,,osm
+Q261-P113-18,Q261,P113,payment:contactless=yes,,osm
+Q261-P113-19,Q261,P113,payment:credit_cards=yes,,osm
+Q261-P113-20,Q261,P113,payment:debit_cards=yes,,osm
+Q261-P113-21,Q261,P113,payment:girocard=yes,,osm
+Q261-P113-22,Q261,P113,payment:google_pay=yes,,osm
+Q261-P113-23,Q261,P113,payment:maestro=yes,,osm
+Q261-P113-24,Q261,P113,payment:mastercard=yes,,osm
+Q261-P113-25,Q261,P113,payment:mastercard_contactless=yes,,osm
+Q261-P113-26,Q261,P113,payment:prepaid_ticket=yes,,osm
+Q261-P113-27,Q261,P113,payment:v_pay=yes,,osm
+Q261-P113-28,Q261,P113,payment:visa=yes,,osm
+Q261-P113-29,Q261,P113,payment:visa_debit=yes,,osm
+Q261-P113-30,Q261,P113,phone=+492777913321,,osm
+Q261-P113-31,Q261,P113,start_date=2009,,osm
+Q261-P113-32,Q261,P113,tourism=attraction,,osm
+Q261-P113-33,Q261,P113,website=https://schauhöhle-breitscheid.de/,,osm
+Q261-P113-34,Q261,P113,website:booking=https://www.proticket.de/veranstalter/gemeinde-breitscheid,,osm
+Q261-P113-35,Q261,P113,wikidata=Q1609531,,osm
+Q261-P113-36,Q261,P113,wikipedia=de:Herbstlabyrinth-Adventhöhle-System,,osm
+,Q262,P2,Q100,,osm
+Q262-P100-1,Q262,P100,https://www.openstreetmap.org/node/6632690571,,osm
+Q262-P101-1,Q262,P101,https://www.openstreetmap.org/node/6632690571/history/1,preferred,osm
+Q262-P107-1,Q262,P107,https://www.openstreetmap.org/node/6632690571/history/1,,osm
+Q262-P110-1,Q262,P110,"-19.7530598,63.3705474",,osm
+Q262-P111-1,Q262,P111,POINT(63.3705474 -19.7530598),,osm
+Q262-P113-1,Q262,P113,name=La Grande Caverne,,osm
+Q262-P113-2,Q262,P113,natural=cave_entrance,,osm
+Q262-P113-3,Q262,P113,tourism=attraction,,osm
+,Q263,P2,Q100,,osm
+Q263-P100-1,Q263,P100,https://www.openstreetmap.org/node/6640740634,,osm
+Q263-P101-1,Q263,P101,https://www.openstreetmap.org/node/6640740634/history/1,,osm
+Q263-P101-2,Q263,P101,https://www.openstreetmap.org/node/6640740634/history/2,,osm
+Q263-P101-3,Q263,P101,https://www.openstreetmap.org/node/6640740634/history/3,preferred,osm
+Q263-P107-1,Q263,P107,https://www.openstreetmap.org/node/6640740634/history/1,,osm
+Q263-P110-1,Q263,P110,"46.4575424,12.013573",,osm
+Q263-P111-1,Q263,P111,POINT(12.013486 46.4575523),,osm
+Q263-P111-3,Q263,P111,POINT(12.013573 46.4575424),,osm
+Q263-P113-1,Q263,P113,name=Miniere del Fursil /Ru,,osm
+Q263-P113-2,Q263,P113,natural=cave_entrance,,osm
+,Q264,P2,Q100,,osm
+Q264-P100-1,Q264,P100,https://www.openstreetmap.org/node/686817231,,osm
+Q264-P101-1,Q264,P101,https://www.openstreetmap.org/node/686817231/history/1,,osm
+Q264-P101-2,Q264,P101,https://www.openstreetmap.org/node/686817231/history/2,,osm
+Q264-P101-3,Q264,P101,https://www.openstreetmap.org/node/686817231/history/3,,osm
+Q264-P101-4,Q264,P101,https://www.openstreetmap.org/node/686817231/history/4,,osm
+Q264-P101-5,Q264,P101,https://www.openstreetmap.org/node/686817231/history/5,,osm
+Q264-P101-6,Q264,P101,https://www.openstreetmap.org/node/686817231/history/6,,osm
+Q264-P101-7,Q264,P101,https://www.openstreetmap.org/node/686817231/history/7,preferred,osm
+Q264-P107-1,Q264,P107,https://www.openstreetmap.org/node/686817231/history/1,,osm
+Q264-P110-1,Q264,P110,"43.709593,3.5525836",,osm
+Q264-P111-1,Q264,P111,POINT(3.5524686 43.7097013),,osm
+Q264-P111-3,Q264,P111,POINT(3.5526714 43.7096515),,osm
+Q264-P111-6,Q264,P111,POINT(3.5525836 43.709593),,osm
+Q264-P113-1,Q264,P113,access=customers,,osm
+Q264-P113-2,Q264,P113,barrier=gate,,osm
+Q264-P113-3,Q264,P113,fee=yes,,osm
+Q264-P113-4,Q264,P113,material=metal,,osm
+Q264-P113-5,Q264,P113,name=Grotte de Clamouse,,osm
+Q264-P113-6,Q264,P113,natural=cave_entrance,,osm
+Q264-P113-7,Q264,P113,phone=+33 4 67 57 71 05,,osm
+Q264-P113-8,Q264,P113,source=cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010,,osm
+Q264-P113-9,Q264,P113,tourism=attraction,,osm
+Q264-P113-10,Q264,P113,website=https://www.clamouse.com/,,osm
+Q264-P113-11,Q264,P113,wheelchair=no,,osm
+Q264-P113-12,Q264,P113,wikidata=Q2975544,,osm
+,Q265,P2,Q100,,osm
+Q265-P100-1,Q265,P100,https://www.openstreetmap.org/node/6957595702,,osm
+Q265-P101-1,Q265,P101,https://www.openstreetmap.org/node/6957595702/history/1,,osm
+Q265-P101-2,Q265,P101,https://www.openstreetmap.org/node/6957595702/history/2,,osm
+Q265-P101-3,Q265,P101,https://www.openstreetmap.org/node/6957595702/history/3,preferred,osm
+Q265-P107-1,Q265,P107,https://www.openstreetmap.org/node/6957595702/history/1,,osm
+Q265-P110-1,Q265,P110,"54.1656583,-2.4413268",,osm
+Q265-P111-1,Q265,P111,POINT(-2.4400793 54.1666102),,osm
+Q265-P111-3,Q265,P111,POINT(-2.4413268 54.1656583),,osm
+Q265-P113-1,Q265,P113,name=White Scar Cave,,osm
+Q265-P113-2,Q265,P113,natural=cave_entrance,,osm
+,Q266,P2,Q100,,osm
+Q266-P100-1,Q266,P100,https://www.openstreetmap.org/node/696792182,,osm
+Q266-P101-1,Q266,P101,https://www.openstreetmap.org/node/696792182/history/1,,osm
+Q266-P101-2,Q266,P101,https://www.openstreetmap.org/node/696792182/history/2,,osm
+Q266-P101-3,Q266,P101,https://www.openstreetmap.org/node/696792182/history/3,,osm
+Q266-P101-4,Q266,P101,https://www.openstreetmap.org/node/696792182/history/4,,osm
+Q266-P101-5,Q266,P101,https://www.openstreetmap.org/node/696792182/history/5,,osm
+Q266-P101-6,Q266,P101,https://www.openstreetmap.org/node/696792182/history/6,,osm
+Q266-P101-7,Q266,P101,https://www.openstreetmap.org/node/696792182/history/7,,osm
+Q266-P101-8,Q266,P101,https://www.openstreetmap.org/node/696792182/history/8,,osm
+Q266-P101-9,Q266,P101,https://www.openstreetmap.org/node/696792182/history/9,preferred,osm
+Q266-P107-1,Q266,P107,https://www.openstreetmap.org/node/696792182/history/1,,osm
+Q266-P110-1,Q266,P110,"36.5892266,-118.826153",,osm
+Q266-P111-1,Q266,P111,POINT(-118.8266665 36.5881671),,osm
+Q266-P111-2,Q266,P111,POINT(-118.8267309 36.5880637),,osm
+Q266-P111-3,Q266,P111,POINT(-118.8261414 36.5890974),,osm
+Q266-P111-5,Q266,P111,POINT(-118.826141 36.5890974),,osm
+Q266-P111-7,Q266,P111,POINT(-118.8261966 36.5892068),,osm
+Q266-P111-8,Q266,P111,POINT(-118.826141 36.5890974),,osm
+Q266-P111-9,Q266,P111,POINT(-118.826153 36.5892266),,osm
+Q266-P113-1,Q266,P113,access=customers,,osm
+Q266-P113-2,Q266,P113,fee=yes,,osm
+Q266-P113-3,Q266,P113,name=Crystal Cave,,osm
+Q266-P113-4,Q266,P113,natural=cave_entrance,,osm
+Q266-P113-5,Q266,P113,reservation=required,,osm
+Q266-P113-6,Q266,P113,tourism=attraction,,osm
+Q266-P113-7,Q266,P113,website=https://www.nps.gov/seki/planyourvisit/crystal-cave.htm,,osm
+Q266-P113-8,Q266,P113,wikidata=Q5191154,,osm
+,Q267,P2,Q100,,osm
+Q267-P100-1,Q267,P100,https://www.openstreetmap.org/node/6975770077,,osm
+Q267-P101-1,Q267,P101,https://www.openstreetmap.org/node/6975770077/history/1,,osm
+Q267-P101-2,Q267,P101,https://www.openstreetmap.org/node/6975770077/history/2,preferred,osm
+Q267-P107-2,Q267,P107,https://www.openstreetmap.org/node/6975770077/history/2,,osm
+Q267-P110-1,Q267,P110,"24.9029348,104.0879847",,osm
+Q267-P111-1,Q267,P111,POINT(104.0879847 24.9029348),,osm
+Q267-P113-1,Q267,P113,natural=cave_entrance,,osm
+,Q268,P2,Q100,,osm
+Q268-P100-1,Q268,P100,https://www.openstreetmap.org/node/6986158611,,osm
+Q268-P101-1,Q268,P101,https://www.openstreetmap.org/node/6986158611/history/1,preferred,osm
+Q268-P107-1,Q268,P107,https://www.openstreetmap.org/node/6986158611/history/1,,osm
+Q268-P110-1,Q268,P110,"-13.7350757,-46.3585846",,osm
+Q268-P111-1,Q268,P111,POINT(-46.3585846 -13.7350757),,osm
+Q268-P113-1,Q268,P113,access=yes,,osm
+Q268-P113-2,Q268,P113,fee=no,,osm
+Q268-P113-3,Q268,P113,name=Terra Ronca,,osm
+Q268-P113-4,Q268,P113,natural=cave_entrance,,osm
+,Q269,P2,Q100,,osm
+Q269-P100-1,Q269,P100,https://www.openstreetmap.org/node/6989696617,,osm
+Q269-P101-1,Q269,P101,https://www.openstreetmap.org/node/6989696617/history/1,preferred,osm
+Q269-P107-1,Q269,P107,https://www.openstreetmap.org/node/6989696617/history/1,,osm
+Q269-P110-1,Q269,P110,"27.7013404,105.5113649",,osm
+Q269-P111-1,Q269,P111,POINT(105.5113649 27.7013404),,osm
+Q269-P113-1,Q269,P113,natural=cave_entrance,,osm
+,Q270,P2,Q100,,osm
+Q270-P100-1,Q270,P100,https://www.openstreetmap.org/node/7008567688,,osm
+Q270-P101-1,Q270,P101,https://www.openstreetmap.org/node/7008567688/history/1,,osm
+Q270-P101-2,Q270,P101,https://www.openstreetmap.org/node/7008567688/history/2,,osm
+Q270-P101-3,Q270,P101,https://www.openstreetmap.org/node/7008567688/history/3,,osm
+Q270-P101-4,Q270,P101,https://www.openstreetmap.org/node/7008567688/history/4,,osm
+Q270-P101-5,Q270,P101,https://www.openstreetmap.org/node/7008567688/history/5,preferred,osm
+Q270-P107-1,Q270,P107,https://www.openstreetmap.org/node/7008567688/history/1,,osm
+Q270-P110-1,Q270,P110,"44.2568399,15.5373289",,osm
+Q270-P111-1,Q270,P111,POINT(15.5373289 44.2568399),,osm
+Q270-P113-1,Q270,P113,access=customers,,osm
+Q270-P113-2,Q270,P113,ele=29,,osm
+Q270-P113-3,Q270,P113,email=marijan@zara-adventure.hr,,osm
+Q270-P113-4,Q270,P113,name=Špilja Modrič,,osm
+Q270-P113-5,Q270,P113,name:de=Höhle Modrič,,osm
+Q270-P113-6,Q270,P113,name:en=Modrič Cave,,osm
+Q270-P113-7,Q270,P113,name:fr=Grotte Modrič,,osm
+Q270-P113-8,Q270,P113,name:hr=Špilja Modrič,,osm
+Q270-P113-9,Q270,P113,name:it=Grotta Modrič,,osm
+Q270-P113-10,Q270,P113,natural=cave_entrance,,osm
+Q270-P113-11,Q270,P113,operator=Zara Adventure Agency,,osm
+Q270-P113-12,Q270,P113,phone=+38 598348437,,osm
+Q270-P113-13,Q270,P113,reservation=required,,osm
+Q270-P113-14,Q270,P113,tourism=attraction,,osm
+Q270-P113-15,Q270,P113,url=https://natura-jadera.com/prirodne-vrijednosti/spomenici-prirode/spilja-modric/,,osm
+Q270-P113-16,Q270,P113,website=https://modric-cave.com,,osm
+Q270-P113-17,Q270,P113,wikidata=Q113980107,,osm
+,Q271,P2,Q100,,osm
+Q271-P100-1,Q271,P100,https://www.openstreetmap.org/node/7016608685,,osm
+Q271-P101-1,Q271,P101,https://www.openstreetmap.org/node/7016608685/history/1,,osm
+Q271-P101-2,Q271,P101,https://www.openstreetmap.org/node/7016608685/history/2,,osm
+Q271-P101-3,Q271,P101,https://www.openstreetmap.org/node/7016608685/history/3,preferred,osm
+Q271-P107-2,Q271,P107,https://www.openstreetmap.org/node/7016608685/history/2,,osm
+Q271-P110-1,Q271,P110,"35.8735972,45.1694993",,osm
+Q271-P111-1,Q271,P111,POINT(45.1694993 35.8735972),,osm
+Q271-P113-1,Q271,P113,name=كهف سركلو,,osm
+Q271-P113-2,Q271,P113,name:ar=كهف سركلو,,osm
+Q271-P113-3,Q271,P113,name:en=Bahayi's Pilgrim cave,,osm
+Q271-P113-4,Q271,P113,natural=cave_entrance,,osm
+,Q272,P2,Q100,,osm
+Q272-P100-1,Q272,P100,https://www.openstreetmap.org/node/707254947,,osm
+Q272-P101-1,Q272,P101,https://www.openstreetmap.org/node/707254947/history/1,,osm
+Q272-P101-2,Q272,P101,https://www.openstreetmap.org/node/707254947/history/2,,osm
+Q272-P101-3,Q272,P101,https://www.openstreetmap.org/node/707254947/history/3,,osm
+Q272-P101-4,Q272,P101,https://www.openstreetmap.org/node/707254947/history/4,,osm
+Q272-P101-5,Q272,P101,https://www.openstreetmap.org/node/707254947/history/5,,osm
+Q272-P101-6,Q272,P101,https://www.openstreetmap.org/node/707254947/history/6,,osm
+Q272-P101-7,Q272,P101,https://www.openstreetmap.org/node/707254947/history/7,,osm
+Q272-P101-8,Q272,P101,https://www.openstreetmap.org/node/707254947/history/8,,osm
+Q272-P101-9,Q272,P101,https://www.openstreetmap.org/node/707254947/history/9,,osm
+Q272-P101-10,Q272,P101,https://www.openstreetmap.org/node/707254947/history/10,,osm
+Q272-P101-11,Q272,P101,https://www.openstreetmap.org/node/707254947/history/11,,osm
+Q272-P101-12,Q272,P101,https://www.openstreetmap.org/node/707254947/history/12,preferred,osm
+Q272-P107-1,Q272,P107,https://www.openstreetmap.org/node/707254947/history/1,,osm
+Q272-P110-1,Q272,P110,"46.1366843,18.1165307",,osm
+Q272-P111-1,Q272,P111,POINT(18.1161673 46.1368518),,osm
+Q272-P111-2,Q272,P111,POINT(18.1165307 46.1366843),,osm
+Q272-P113-1,Q272,P113,access=customers,,osm
+Q272-P113-2,Q272,P113,barrier=door,,osm
+Q272-P113-3,Q272,P113,cave:ref=4120-1,,osm
+Q272-P113-4,Q272,P113,depth=10,,osm
+Q272-P113-5,Q272,P113,fee=yes,,osm
+Q272-P113-6,Q272,P113,height=48.7,,osm
+Q272-P113-7,Q272,P113,locked=yes,,osm
+Q272-P113-8,Q272,P113,name=Abaligeti-cseppkőbarlang,,osm
+Q272-P113-9,Q272,P113,natural=cave_entrance,,osm
+Q272-P113-10,Q272,P113,note:en=accessible with the permission of the National Park Directorate,,osm
+Q272-P113-11,Q272,P113,note:hu=NPI hozzájárulásával látogatható,,osm
+Q272-P113-12,Q272,P113,official_name=Abeligeti-barlang,,osm
+Q272-P113-13,Q272,P113,"opening_hours=""Cave tours start every hour between 9 and 17.00""",,osm
+Q272-P113-14,Q272,P113,protect_class=3,,osm
+Q272-P113-15,Q272,P113,protection_object=cave,,osm
+Q272-P113-16,Q272,P113,protection_title=fokozottan védett,,osm
+Q272-P113-17,Q272,P113,protection_title:en=strictly protected,,osm
+Q272-P113-18,Q272,P113,website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-1,,osm
+Q272-P113-19,Q272,P113,wikidata=Q305277,,osm
+Q272-P113-20,Q272,P113,wikipedia=hu:Abaligeti-barlang,,osm
+,Q273,P2,Q100,,osm
+Q273-P100-1,Q273,P100,https://www.openstreetmap.org/node/715290197,,osm
+Q273-P101-1,Q273,P101,https://www.openstreetmap.org/node/715290197/history/1,,osm
+Q273-P101-2,Q273,P101,https://www.openstreetmap.org/node/715290197/history/2,,osm
+Q273-P101-3,Q273,P101,https://www.openstreetmap.org/node/715290197/history/3,,osm
+Q273-P101-4,Q273,P101,https://www.openstreetmap.org/node/715290197/history/4,,osm
+Q273-P101-5,Q273,P101,https://www.openstreetmap.org/node/715290197/history/5,,osm
+Q273-P101-6,Q273,P101,https://www.openstreetmap.org/node/715290197/history/6,,osm
+Q273-P101-7,Q273,P101,https://www.openstreetmap.org/node/715290197/history/7,,osm
+Q273-P101-8,Q273,P101,https://www.openstreetmap.org/node/715290197/history/8,,osm
+Q273-P101-9,Q273,P101,https://www.openstreetmap.org/node/715290197/history/9,,osm
+Q273-P101-10,Q273,P101,https://www.openstreetmap.org/node/715290197/history/10,,osm
+Q273-P101-11,Q273,P101,https://www.openstreetmap.org/node/715290197/history/11,,osm
+Q273-P101-12,Q273,P101,https://www.openstreetmap.org/node/715290197/history/12,,osm
+Q273-P101-13,Q273,P101,https://www.openstreetmap.org/node/715290197/history/13,,osm
+Q273-P101-14,Q273,P101,https://www.openstreetmap.org/node/715290197/history/14,,osm
+Q273-P101-15,Q273,P101,https://www.openstreetmap.org/node/715290197/history/15,,osm
+Q273-P101-16,Q273,P101,https://www.openstreetmap.org/node/715290197/history/16,,osm
+Q273-P101-17,Q273,P101,https://www.openstreetmap.org/node/715290197/history/17,,osm
+Q273-P101-18,Q273,P101,https://www.openstreetmap.org/node/715290197/history/18,,osm
+Q273-P101-19,Q273,P101,https://www.openstreetmap.org/node/715290197/history/19,,osm
+Q273-P101-20,Q273,P101,https://www.openstreetmap.org/node/715290197/history/20,,osm
+Q273-P101-21,Q273,P101,https://www.openstreetmap.org/node/715290197/history/21,,osm
+Q273-P101-22,Q273,P101,https://www.openstreetmap.org/node/715290197/history/22,,osm
+Q273-P101-23,Q273,P101,https://www.openstreetmap.org/node/715290197/history/23,,osm
+Q273-P101-24,Q273,P101,https://www.openstreetmap.org/node/715290197/history/24,,osm
+Q273-P101-25,Q273,P101,https://www.openstreetmap.org/node/715290197/history/25,,osm
+Q273-P101-26,Q273,P101,https://www.openstreetmap.org/node/715290197/history/26,,osm
+Q273-P101-27,Q273,P101,https://www.openstreetmap.org/node/715290197/history/27,preferred,osm
+Q273-P107-4,Q273,P107,https://www.openstreetmap.org/node/715290197/history/4,,osm
+Q273-P110-1,Q273,P110,"36.5391555,32.1097885",,osm
+Q273-P111-1,Q273,P111,POINT(32.1094379 36.5401572),,osm
+Q273-P111-3,Q273,P111,POINT(32.1098067 36.5401453),,osm
+Q273-P111-4,Q273,P111,POINT(32.1094204 36.5399967),,osm
+Q273-P111-5,Q273,P111,POINT(32.1107494 36.5391555),,osm
+Q273-P111-6,Q273,P111,POINT(32.1097885 36.5391555),,osm
+Q273-P113-1,Q273,P113,access=yes,,osm
+Q273-P113-2,Q273,P113,alt_name=Gavurini Mağarası,,osm
+Q273-P113-3,Q273,P113,fee=yes,,osm
+Q273-P113-4,Q273,P113,name=Dim Mağarası,,osm
+Q273-P113-5,Q273,P113,name:de=Dim Höhle,,osm
+Q273-P113-6,Q273,P113,name:en=Dim Cave,,osm
+Q273-P113-7,Q273,P113,name:ru=Пещера Дим,,osm
+Q273-P113-8,Q273,P113,natural=cave_entrance,,osm
+Q273-P113-9,Q273,P113,payment:cards=yes,,osm
+Q273-P113-10,Q273,P113,payment:coins=yes,,osm
+Q273-P113-11,Q273,P113,tourism=attraction,,osm
+Q273-P113-12,Q273,P113,wikidata=Q769148,,osm
+Q273-P113-13,Q273,P113,wikipedia=tr:Dim Mağarası,,osm
+,Q274,P2,Q100,,osm
+Q274-P100-1,Q274,P100,https://www.openstreetmap.org/node/7161046616,,osm
+Q274-P101-1,Q274,P101,https://www.openstreetmap.org/node/7161046616/history/1,,osm
+Q274-P101-2,Q274,P101,https://www.openstreetmap.org/node/7161046616/history/2,,osm
+Q274-P101-3,Q274,P101,https://www.openstreetmap.org/node/7161046616/history/3,,osm
+Q274-P101-4,Q274,P101,https://www.openstreetmap.org/node/7161046616/history/4,preferred,osm
+Q274-P107-1,Q274,P107,https://www.openstreetmap.org/node/7161046616/history/1,,osm
+Q274-P110-1,Q274,P110,"8.3379285,98.7455986",,osm
+Q274-P111-1,Q274,P111,POINT(98.7455986 8.3379285),,osm
+Q274-P113-1,Q274,P113,name=Tham Klang,,osm
+Q274-P113-2,Q274,P113,name:en=Klang cave,,osm
+Q274-P113-3,Q274,P113,natural=cave_entrance,,osm
+Q274-P113-4,Q274,P113,tourism=attraction,,osm
+Q274-P113-5,Q274,P113,wikidata=Q136768099,,osm
+,Q275,P2,Q100,,osm
+Q275-P100-1,Q275,P100,https://www.openstreetmap.org/node/7192265387,,osm
+Q275-P101-1,Q275,P101,https://www.openstreetmap.org/node/7192265387/history/1,preferred,osm
+Q275-P107-1,Q275,P107,https://www.openstreetmap.org/node/7192265387/history/1,,osm
+Q275-P110-1,Q275,P110,"36.9355612,21.7460175",,osm
+Q275-P111-1,Q275,P111,POINT(21.7460175 36.9355612),,osm
+Q275-P113-1,Q275,P113,natural=cave_entrance,,osm
+,Q276,P2,Q100,,osm
+Q276-P100-1,Q276,P100,https://www.openstreetmap.org/node/7206231475,,osm
+Q276-P101-1,Q276,P101,https://www.openstreetmap.org/node/7206231475/history/1,preferred,osm
+Q276-P107-1,Q276,P107,https://www.openstreetmap.org/node/7206231475/history/1,,osm
+Q276-P110-1,Q276,P110,"37.1053695,-7.7745216",,osm
+Q276-P111-1,Q276,P111,POINT(-7.7745216 37.1053695),,osm
+Q276-P113-1,Q276,P113,natural=cave_entrance,,osm
+,Q277,P2,Q100,,osm
+Q277-P100-1,Q277,P100,https://www.openstreetmap.org/node/7315412515,,osm
+Q277-P101-1,Q277,P101,https://www.openstreetmap.org/node/7315412515/history/1,,osm
+Q277-P101-2,Q277,P101,https://www.openstreetmap.org/node/7315412515/history/2,preferred,osm
+Q277-P107-1,Q277,P107,https://www.openstreetmap.org/node/7315412515/history/1,,osm
+Q277-P110-1,Q277,P110,"46.7800121,8.288769",,osm
+Q277-P111-1,Q277,P111,POINT(8.288769 46.7800121),,osm
+Q277-P113-1,Q277,P113,name=Schrattenhöhle,,osm
+Q277-P113-2,Q277,P113,natural=cave_entrance,,osm
+Q277-P113-3,Q277,P113,wikidata=Q15059884,,osm
+,Q278,P2,Q100,,osm
+Q278-P100-1,Q278,P100,https://www.openstreetmap.org/node/7318685910,,osm
+Q278-P101-1,Q278,P101,https://www.openstreetmap.org/node/7318685910/history/1,,osm
+Q278-P101-2,Q278,P101,https://www.openstreetmap.org/node/7318685910/history/2,,osm
+Q278-P101-3,Q278,P101,https://www.openstreetmap.org/node/7318685910/history/3,,osm
+Q278-P101-4,Q278,P101,https://www.openstreetmap.org/node/7318685910/history/4,preferred,osm
+Q278-P107-1,Q278,P107,https://www.openstreetmap.org/node/7318685910/history/1,,osm
+Q278-P110-1,Q278,P110,"-10.1602599,-40.8607258",,osm
+Q278-P111-1,Q278,P111,POINT(-40.8597012 -10.1625251),,osm
+Q278-P111-4,Q278,P111,POINT(-40.8607258 -10.1602599),,osm
+Q278-P113-1,Q278,P113,name=Toca da Boa Vista,,osm
+Q278-P113-2,Q278,P113,natural=cave_entrance,,osm
+Q278-P113-3,Q278,P113,wikidata=Q624844,,osm
+Q278-P113-4,Q278,P113,wikipedia=pt:Toca da Boa Vista,,osm
+,Q279,P2,Q100,,osm
+Q279-P100-1,Q279,P100,https://www.openstreetmap.org/node/7327265062,,osm
+Q279-P101-1,Q279,P101,https://www.openstreetmap.org/node/7327265062/history/1,preferred,osm
+Q279-P107-1,Q279,P107,https://www.openstreetmap.org/node/7327265062/history/1,,osm
+Q279-P110-1,Q279,P110,"35.279795,33.4357183",,osm
+Q279-P111-1,Q279,P111,POINT(33.4357183 35.279795),,osm
+Q279-P113-1,Q279,P113,"description=hole, warm air coming out, very deep",,osm
+Q279-P113-2,Q279,P113,natural=cave_entrance,,osm
+,Q280,P2,Q100,,osm
+Q280-P100-1,Q280,P100,https://www.openstreetmap.org/node/7412451779,,osm
+Q280-P101-1,Q280,P101,https://www.openstreetmap.org/node/7412451779/history/1,,osm
+Q280-P101-2,Q280,P101,https://www.openstreetmap.org/node/7412451779/history/2,,osm
+Q280-P101-3,Q280,P101,https://www.openstreetmap.org/node/7412451779/history/3,preferred,osm
+Q280-P107-2,Q280,P107,https://www.openstreetmap.org/node/7412451779/history/2,,osm
+Q280-P110-1,Q280,P110,"42.9869025,-4.3730693",,osm
+Q280-P111-1,Q280,P111,POINT(-4.3731377 42.9867975),,osm
+Q280-P111-2,Q280,P111,POINT(-4.3730693 42.9869025),,osm
+Q280-P113-1,Q280,P113,name=Cueva del Cobre,,osm
+Q280-P113-2,Q280,P113,natural=cave_entrance,,osm
+Q280-P113-3,Q280,P113,wikidata=Q5794252,,osm
+Q280-P113-4,Q280,P113,wikipedia=es:Cueva del Cobre,,osm
+,Q281,P2,Q100,,osm
+Q281-P100-1,Q281,P100,https://www.openstreetmap.org/node/7415334685,,osm
+Q281-P101-1,Q281,P101,https://www.openstreetmap.org/node/7415334685/history/1,,osm
+Q281-P101-2,Q281,P101,https://www.openstreetmap.org/node/7415334685/history/2,,osm
+Q281-P101-3,Q281,P101,https://www.openstreetmap.org/node/7415334685/history/3,,osm
+Q281-P101-4,Q281,P101,https://www.openstreetmap.org/node/7415334685/history/4,preferred,osm
+Q281-P107-2,Q281,P107,https://www.openstreetmap.org/node/7415334685/history/2,,osm
+Q281-P110-1,Q281,P110,"49.6740184,10.9989178",,osm
+Q281-P111-1,Q281,P111,POINT(10.9988749 49.6740132),,osm
+Q281-P111-3,Q281,P111,POINT(10.9989178 49.6740184),,osm
+Q281-P113-1,Q281,P113,name=Blaubeerhöhle,,osm
+Q281-P113-2,Q281,P113,natural=cave_entrance,,osm
+,Q282,P2,Q100,,osm
+Q282-P100-1,Q282,P100,https://www.openstreetmap.org/node/745919883,,osm
+Q282-P101-1,Q282,P101,https://www.openstreetmap.org/node/745919883/history/1,,osm
+Q282-P101-2,Q282,P101,https://www.openstreetmap.org/node/745919883/history/2,,osm
+Q282-P101-3,Q282,P101,https://www.openstreetmap.org/node/745919883/history/3,,osm
+Q282-P101-4,Q282,P101,https://www.openstreetmap.org/node/745919883/history/4,,osm
+Q282-P101-5,Q282,P101,https://www.openstreetmap.org/node/745919883/history/5,,osm
+Q282-P101-6,Q282,P101,https://www.openstreetmap.org/node/745919883/history/6,,osm
+Q282-P101-7,Q282,P101,https://www.openstreetmap.org/node/745919883/history/7,preferred,osm
+Q282-P107-1,Q282,P107,https://www.openstreetmap.org/node/745919883/history/1,,osm
+Q282-P110-1,Q282,P110,"46.6846706,7.7823068",,osm
+Q282-P111-1,Q282,P111,POINT(7.7817965 46.6843915),,osm
+Q282-P111-3,Q282,P111,POINT(7.7823068 46.6846706),,osm
+Q282-P113-1,Q282,P113,addr:city=Sundlauenen,,osm
+Q282-P113-2,Q282,P113,addr:country=CH,,osm
+Q282-P113-3,Q282,P113,addr:postcode=3800,,osm
+Q282-P113-4,Q282,P113,contact:phone=+41 33 841 16 43,,osm
+Q282-P113-5,Q282,P113,contact:website=https://www.beatushoehlen.swiss/,,osm
+Q282-P113-6,Q282,P113,name=St.Beatus-Höhlen,,osm
+Q282-P113-7,Q282,P113,natural=cave_entrance,,osm
+Q282-P113-8,Q282,P113,opening_hours=Mar-Oct Mo-Su 09:30-17:00,,osm
+Q282-P113-9,Q282,P113,wheelchair=no,,osm
+Q282-P113-10,Q282,P113,wikidata=Q664463,,osm
+Q282-P113-11,Q282,P113,wikipedia=de:St. Beatus-Höhlen,,osm
+,Q283,P2,Q100,,osm
+Q283-P100-1,Q283,P100,https://www.openstreetmap.org/node/7713740998,,osm
+Q283-P101-1,Q283,P101,https://www.openstreetmap.org/node/7713740998/history/1,preferred,osm
+Q283-P107-1,Q283,P107,https://www.openstreetmap.org/node/7713740998/history/1,,osm
+Q283-P110-1,Q283,P110,"-5.9268353,-77.351782",,osm
+Q283-P111-1,Q283,P111,POINT(-77.351782 -5.9268353),,osm
+Q283-P113-1,Q283,P113,name=Cueva de Palestina,,osm
+Q283-P113-2,Q283,P113,natural=cave_entrance,,osm
+,Q284,P2,Q100,,osm
+Q284-P100-1,Q284,P100,https://www.openstreetmap.org/node/7713840588,,osm
+Q284-P101-1,Q284,P101,https://www.openstreetmap.org/node/7713840588/history/1,preferred,osm
+Q284-P107-1,Q284,P107,https://www.openstreetmap.org/node/7713840588/history/1,,osm
+Q284-P110-1,Q284,P110,"-5.7532406,-77.525792",,osm
+Q284-P111-1,Q284,P111,POINT(-77.525792 -5.7532406),,osm
+Q284-P113-1,Q284,P113,name=Cueva del Diamante,,osm
+Q284-P113-2,Q284,P113,natural=cave_entrance,,osm
+,Q285,P2,Q100,,osm
+Q285-P100-1,Q285,P100,https://www.openstreetmap.org/node/7713923814,,osm
+Q285-P101-1,Q285,P101,https://www.openstreetmap.org/node/7713923814/history/1,preferred,osm
+Q285-P107-1,Q285,P107,https://www.openstreetmap.org/node/7713923814/history/1,,osm
+Q285-P110-1,Q285,P110,"-5.9713033,-77.3168539",,osm
+Q285-P111-1,Q285,P111,POINT(-77.3168539 -5.9713033),,osm
+Q285-P113-1,Q285,P113,name=Cueva del Viento,,osm
+Q285-P113-2,Q285,P113,natural=cave_entrance,,osm
+,Q286,P2,Q100,,osm
+Q286-P100-1,Q286,P100,https://www.openstreetmap.org/node/7743122549,,osm
+Q286-P101-1,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/1,,osm
+Q286-P101-2,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/2,,osm
+Q286-P101-3,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/3,,osm
+Q286-P101-4,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/4,,osm
+Q286-P101-5,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/5,,osm
+Q286-P101-6,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/6,,osm
+Q286-P101-7,Q286,P101,https://www.openstreetmap.org/node/7743122549/history/7,preferred,osm
+Q286-P107-1,Q286,P107,https://www.openstreetmap.org/node/7743122549/history/1,,osm
+Q286-P110-1,Q286,P110,"-38.2681577,175.0783694",,osm
+Q286-P111-1,Q286,P111,POINT(175.0782455 -38.2681318),,osm
+Q286-P111-4,Q286,P111,POINT(175.0783694 -38.2681577),,osm
+Q286-P113-1,Q286,P113,name=Ruakurī Cave,,osm
+Q286-P113-2,Q286,P113,name:en=Ruakurī Cave,,osm
+Q286-P113-3,Q286,P113,name:mi=Ruakurī,,osm
+Q286-P113-4,Q286,P113,natural=cave_entrance,,osm
+Q286-P113-5,Q286,P113,ref:linz:place_id=39026,,osm
+Q286-P113-6,Q286,P113,source=LINZ,,osm
+Q286-P113-7,Q286,P113,source:name:mi=AW Reed,,osm
+Q286-P113-8,Q286,P113,wikidata=Q25183325,,osm
+,Q287,P2,Q100,,osm
+Q287-P100-1,Q287,P100,https://www.openstreetmap.org/node/7746558018,,osm
+Q287-P101-1,Q287,P101,https://www.openstreetmap.org/node/7746558018/history/1,,osm
+Q287-P101-2,Q287,P101,https://www.openstreetmap.org/node/7746558018/history/2,,osm
+Q287-P101-3,Q287,P101,https://www.openstreetmap.org/node/7746558018/history/3,,osm
+Q287-P101-4,Q287,P101,https://www.openstreetmap.org/node/7746558018/history/4,,osm
+Q287-P101-5,Q287,P101,https://www.openstreetmap.org/node/7746558018/history/5,preferred,osm
+Q287-P107-1,Q287,P107,https://www.openstreetmap.org/node/7746558018/history/1,,osm
+Q287-P110-1,Q287,P110,"45.0241883,21.7748101",,osm
+Q287-P111-1,Q287,P111,POINT(21.7749764 45.0240455),,osm
+Q287-P111-2,Q287,P111,POINT(21.7748101 45.0241883),,osm
+Q287-P113-1,Q287,P113,name=Peștera Lenuța,,osm
+Q287-P113-2,Q287,P113,natural=cave_entrance,,osm
+,Q288,P2,Q100,,osm
+Q288-P100-1,Q288,P100,https://www.openstreetmap.org/node/776040430,,osm
+Q288-P101-1,Q288,P101,https://www.openstreetmap.org/node/776040430/history/1,,osm
+Q288-P101-2,Q288,P101,https://www.openstreetmap.org/node/776040430/history/2,preferred,osm
+Q288-P107-1,Q288,P107,https://www.openstreetmap.org/node/776040430/history/1,,osm
+Q288-P110-1,Q288,P110,"37.2842938,-122.1598999",,osm
+Q288-P111-1,Q288,P111,POINT(-122.1598132 37.2841065),,osm
+Q288-P111-2,Q288,P111,POINT(-122.1598999 37.2842938),,osm
+Q288-P113-1,Q288,P113,name=Bodhidharma Cave,,osm
+Q288-P113-2,Q288,P113,natural=cave_entrance,,osm
+,Q289,P2,Q100,,osm
+Q289-P100-1,Q289,P100,https://www.openstreetmap.org/node/7807817048,,osm
+Q289-P101-1,Q289,P101,https://www.openstreetmap.org/node/7807817048/history/1,preferred,osm
+Q289-P107-1,Q289,P107,https://www.openstreetmap.org/node/7807817048/history/1,,osm
+Q289-P110-1,Q289,P110,"-5.701484,-77.9012966",,osm
+Q289-P111-1,Q289,P111,POINT(-77.9012966 -5.701484),,osm
+Q289-P113-1,Q289,P113,name=Cueva del Rio Shatuca,,osm
+Q289-P113-2,Q289,P113,natural=cave_entrance,,osm
+,Q290,P2,Q100,,osm
+Q290-P100-1,Q290,P100,https://www.openstreetmap.org/node/7885338123,,osm
+Q290-P101-1,Q290,P101,https://www.openstreetmap.org/node/7885338123/history/1,,osm
+Q290-P101-2,Q290,P101,https://www.openstreetmap.org/node/7885338123/history/2,,osm
+Q290-P101-3,Q290,P101,https://www.openstreetmap.org/node/7885338123/history/3,preferred,osm
+Q290-P107-1,Q290,P107,https://www.openstreetmap.org/node/7885338123/history/1,,osm
+Q290-P110-1,Q290,P110,"33.5068345,-105.493465",,osm
+Q290-P111-1,Q290,P111,POINT(-105.4934658 33.5068345),,osm
+Q290-P111-2,Q290,P111,POINT(-105.493465 33.5068345),,osm
+Q290-P113-1,Q290,P113,access=permit,,osm
+Q290-P113-2,Q290,P113,name=Fort Stanton Cave,,osm
+Q290-P113-3,Q290,P113,natural=cave_entrance,,osm
+Q290-P113-4,Q290,P113,note=National Natural Landmark in the Fort Stanton - Snowy River Cave National Conservation Area managed by the U.S. Bureau of Land Management,,osm
+Q290-P113-5,Q290,P113,operator=BLM,,osm
+,Q291,P2,Q100,,osm
+Q291-P100-1,Q291,P100,https://www.openstreetmap.org/node/8177727382,,osm
+Q291-P101-1,Q291,P101,https://www.openstreetmap.org/node/8177727382/history/1,preferred,osm
+Q291-P107-1,Q291,P107,https://www.openstreetmap.org/node/8177727382/history/1,,osm
+Q291-P110-1,Q291,P110,"36.7942258,-115.5693588",,osm
+Q291-P111-1,Q291,P111,POINT(-115.5693588 36.7942258),,osm
+Q291-P113-1,Q291,P113,name=Pintwater Cave,,osm
+Q291-P113-2,Q291,P113,natural=cave_entrance,,osm
+,Q292,P2,Q100,,osm
+Q292-P100-1,Q292,P100,https://www.openstreetmap.org/node/8349784316,,osm
+Q292-P101-1,Q292,P101,https://www.openstreetmap.org/node/8349784316/history/1,preferred,osm
+Q292-P107-1,Q292,P107,https://www.openstreetmap.org/node/8349784316/history/1,,osm
+Q292-P110-1,Q292,P110,"37.7095038,-92.0659263",,osm
+Q292-P111-1,Q292,P111,POINT(-92.0659263 37.7095038),,osm
+Q292-P113-1,Q292,P113,name=Miller Cave,,osm
+Q292-P113-2,Q292,P113,natural=cave_entrance,,osm
+,Q293,P2,Q100,,osm
+Q293-P100-1,Q293,P100,https://www.openstreetmap.org/node/8354378120,,osm
+Q293-P101-1,Q293,P101,https://www.openstreetmap.org/node/8354378120/history/1,preferred,osm
+Q293-P107-1,Q293,P107,https://www.openstreetmap.org/node/8354378120/history/1,,osm
+Q293-P110-1,Q293,P110,"33.3300128,105.0050229",,osm
+Q293-P111-1,Q293,P111,POINT(105.0050229 33.3300128),,osm
+Q293-P113-1,Q293,P113,name=万象洞,,osm
+Q293-P113-2,Q293,P113,name:en=Wanxiang Cave,,osm
+Q293-P113-3,Q293,P113,natural=cave_entrance,,osm
+,Q294,P2,Q100,,osm
+Q294-P100-1,Q294,P100,https://www.openstreetmap.org/node/8358838507,,osm
+Q294-P101-1,Q294,P101,https://www.openstreetmap.org/node/8358838507/history/1,preferred,osm
+Q294-P107-1,Q294,P107,https://www.openstreetmap.org/node/8358838507/history/1,,osm
+Q294-P110-1,Q294,P110,"1.2813451,29.840818",,osm
+Q294-P111-1,Q294,P111,POINT(29.840818 1.2813451),,osm
+Q294-P113-1,Q294,P113,ele=1200,,osm
+Q294-P113-2,Q294,P113,name=Matupi,,osm
+Q294-P113-3,Q294,P113,natural=cave_entrance,,osm
+,Q295,P2,Q100,,osm
+Q295-P100-1,Q295,P100,https://www.openstreetmap.org/node/8422630011,,osm
+Q295-P101-1,Q295,P101,https://www.openstreetmap.org/node/8422630011/history/1,,osm
+Q295-P101-2,Q295,P101,https://www.openstreetmap.org/node/8422630011/history/2,,osm
+Q295-P101-3,Q295,P101,https://www.openstreetmap.org/node/8422630011/history/3,,osm
+Q295-P101-4,Q295,P101,https://www.openstreetmap.org/node/8422630011/history/4,preferred,osm
+Q295-P107-1,Q295,P107,https://www.openstreetmap.org/node/8422630011/history/1,,osm
+Q295-P110-1,Q295,P110,"38.1665995,13.1603094",,osm
+Q295-P111-1,Q295,P111,POINT(13.1595933 38.1663401),,osm
+Q295-P111-3,Q295,P111,POINT(13.1603094 38.1665995),,osm
+Q295-P113-1,Q295,P113,access=permit,,osm
+Q295-P113-2,Q295,P113,ele=23 slm,,osm
+Q295-P113-3,Q295,P113,fee=no,,osm
+Q295-P113-4,Q295,P113,name=Grotta di Carburangeli,,osm
+Q295-P113-5,Q295,P113,natural=cave_entrance,,osm
+Q295-P113-6,Q295,P113,wikidata=Q33323877,,osm
+Q295-P113-7,Q295,P113,wikipedia=it:Riserva naturale integrale Grotta di Carburangeli,,osm
+,Q296,P2,Q100,,osm
+Q296-P100-1,Q296,P100,https://www.openstreetmap.org/node/8755803759,,osm
+Q296-P101-1,Q296,P101,https://www.openstreetmap.org/node/8755803759/history/1,,osm
+Q296-P101-2,Q296,P101,https://www.openstreetmap.org/node/8755803759/history/2,,osm
+Q296-P101-3,Q296,P101,https://www.openstreetmap.org/node/8755803759/history/3,preferred,osm
+Q296-P107-1,Q296,P107,https://www.openstreetmap.org/node/8755803759/history/1,,osm
+Q296-P110-1,Q296,P110,"39.2895186,8.4894513",,osm
+Q296-P111-1,Q296,P111,POINT(8.4894458 39.2895666),,osm
+Q296-P111-2,Q296,P111,POINT(8.4894513 39.2895186),,osm
+Q296-P113-1,Q296,P113,name=Grotta Santa Barbara,,osm
+Q296-P113-2,Q296,P113,natural=cave_entrance,,osm
+,Q297,P2,Q100,,osm
+Q297-P100-1,Q297,P100,https://www.openstreetmap.org/node/8944365518,,osm
+Q297-P101-1,Q297,P101,https://www.openstreetmap.org/node/8944365518/history/1,,osm
+Q297-P101-2,Q297,P101,https://www.openstreetmap.org/node/8944365518/history/2,,osm
+Q297-P101-3,Q297,P101,https://www.openstreetmap.org/node/8944365518/history/3,,osm
+Q297-P101-4,Q297,P101,https://www.openstreetmap.org/node/8944365518/history/4,preferred,osm
+Q297-P107-2,Q297,P107,https://www.openstreetmap.org/node/8944365518/history/2,,osm
+Q297-P110-1,Q297,P110,"31.0732882,109.9335114",,osm
+Q297-P111-1,Q297,P111,POINT(109.9333595 31.0732683),,osm
+Q297-P111-3,Q297,P111,POINT(109.9327228 31.0732629),,osm
+Q297-P111-4,Q297,P111,POINT(109.9335114 31.0732882),,osm
+Q297-P113-1,Q297,P113,natural=cave_entrance,,osm
+,Q298,P2,Q100,,osm
+Q298-P100-1,Q298,P100,https://www.openstreetmap.org/node/8972797679,,osm
+Q298-P101-1,Q298,P101,https://www.openstreetmap.org/node/8972797679/history/1,,osm
+Q298-P101-2,Q298,P101,https://www.openstreetmap.org/node/8972797679/history/2,,osm
+Q298-P101-3,Q298,P101,https://www.openstreetmap.org/node/8972797679/history/3,preferred,osm
+Q298-P107-1,Q298,P107,https://www.openstreetmap.org/node/8972797679/history/1,,osm
+Q298-P110-1,Q298,P110,"17.4393057,-99.1594371",,osm
+Q298-P111-1,Q298,P111,POINT(-99.1594371 17.4393057),,osm
+Q298-P113-1,Q298,P113,access=guided,,osm
+Q298-P113-2,Q298,P113,"description=Visita sólo permitida con guía, puede contratarse en el pueblo de Colotlipa.",,osm
+Q298-P113-3,Q298,P113,name=Grutas de Juxtlahuaca,,osm
+Q298-P113-4,Q298,P113,natural=cave_entrance,,osm
+Q298-P113-5,Q298,P113,wikidata=Q974552,,osm
+Q298-P113-6,Q298,P113,wikipedia=es:Grutas de Juxtlahuaca,,osm
+,Q299,P2,Q100,,osm
+Q299-P100-1,Q299,P100,https://www.openstreetmap.org/node/9006583904,,osm
+Q299-P101-1,Q299,P101,https://www.openstreetmap.org/node/9006583904/history/1,preferred,osm
+Q299-P107-1,Q299,P107,https://www.openstreetmap.org/node/9006583904/history/1,,osm
+Q299-P110-1,Q299,P110,"30.7495951,109.4691145",,osm
+Q299-P111-1,Q299,P111,POINT(109.4691145 30.7495951),,osm
+Q299-P113-1,Q299,P113,natural=cave_entrance,,osm
+,Q300,P2,Q100,,osm
+Q300-P100-1,Q300,P100,https://www.openstreetmap.org/node/9007272454,,osm
+Q300-P101-1,Q300,P101,https://www.openstreetmap.org/node/9007272454/history/1,,osm
+Q300-P101-2,Q300,P101,https://www.openstreetmap.org/node/9007272454/history/2,,osm
+Q300-P101-3,Q300,P101,https://www.openstreetmap.org/node/9007272454/history/3,preferred,osm
+Q300-P107-1,Q300,P107,https://www.openstreetmap.org/node/9007272454/history/1,,osm
+Q300-P110-1,Q300,P110,"46.5316481,22.5943521",,osm
+Q300-P111-1,Q300,P111,POINT(22.5943521 46.5316481),,osm
+Q300-P113-1,Q300,P113,name=Peștera Măgura,,osm
+Q300-P113-2,Q300,P113,natural=cave_entrance,,osm
+Q300-P113-3,Q300,P113,source=note,,osm
+,Q301,P2,Q100,,osm
+Q301-P100-1,Q301,P100,https://www.openstreetmap.org/node/903676829,,osm
+Q301-P101-1,Q301,P101,https://www.openstreetmap.org/node/903676829/history/1,,osm
+Q301-P101-2,Q301,P101,https://www.openstreetmap.org/node/903676829/history/2,,osm
+Q301-P101-3,Q301,P101,https://www.openstreetmap.org/node/903676829/history/3,,osm
+Q301-P101-4,Q301,P101,https://www.openstreetmap.org/node/903676829/history/4,preferred,osm
+Q301-P107-1,Q301,P107,https://www.openstreetmap.org/node/903676829/history/1,,osm
+Q301-P110-1,Q301,P110,"-24.5338246,-48.7022212",,osm
+Q301-P111-1,Q301,P111,POINT(-48.7022212 -24.5338246),,osm
+Q301-P113-1,Q301,P113,name=Caverna Santana,,osm
+Q301-P113-2,Q301,P113,natural=cave_entrance,,osm
+Q301-P113-3,Q301,P113,tourism=attraction,,osm
+Q301-P113-4,Q301,P113,wikidata=Q5055052,,osm
+Q301-P113-5,Q301,P113,wikipedia=pt:Caverna Santana,,osm
+,Q302,P2,Q100,,osm
+Q302-P100-1,Q302,P100,https://www.openstreetmap.org/node/9054470052,,osm
+Q302-P101-1,Q302,P101,https://www.openstreetmap.org/node/9054470052/history/1,,osm
+Q302-P101-2,Q302,P101,https://www.openstreetmap.org/node/9054470052/history/2,,osm
+Q302-P101-3,Q302,P101,https://www.openstreetmap.org/node/9054470052/history/3,,osm
+Q302-P101-4,Q302,P101,https://www.openstreetmap.org/node/9054470052/history/4,preferred,osm
+Q302-P107-1,Q302,P107,https://www.openstreetmap.org/node/9054470052/history/1,,osm
+Q302-P110-1,Q302,P110,"44.8792914,22.6099634",,osm
+Q302-P111-1,Q302,P111,POINT(22.6099634 44.8792914),,osm
+Q302-P113-1,Q302,P113,name=PESTERA CURECEA,,osm
+Q302-P113-2,Q302,P113,natural=cave_entrance,,osm
+,Q303,P2,Q100,,osm
+Q303-P100-1,Q303,P100,https://www.openstreetmap.org/node/9098145258,,osm
+Q303-P101-1,Q303,P101,https://www.openstreetmap.org/node/9098145258/history/1,preferred,osm
+Q303-P107-1,Q303,P107,https://www.openstreetmap.org/node/9098145258/history/1,,osm
+Q303-P110-1,Q303,P110,"25.0690681,103.3804266",,osm
+Q303-P111-1,Q303,P111,POINT(103.3804266 25.0690681),,osm
+Q303-P113-1,Q303,P113,natural=cave_entrance,,osm
+,Q304,P2,Q100,,osm
+Q304-P100-1,Q304,P100,https://www.openstreetmap.org/node/9186866184,,osm
+Q304-P101-1,Q304,P101,https://www.openstreetmap.org/node/9186866184/history/1,preferred,osm
+Q304-P107-1,Q304,P107,https://www.openstreetmap.org/node/9186866184/history/1,,osm
+Q304-P110-1,Q304,P110,"38.3801461,67.2396794",,osm
+Q304-P111-1,Q304,P111,POINT(67.2396794 38.3801461),,osm
+Q304-P113-1,Q304,P113,"description=Длина, м: 470
+Амплитуда, м: 35
+Категория сложности:
+Тип маршрута:
+Генезис: Карстовый
+Вмещающие породы: Карбонатные, Известняк
+Геологический возраст вмещающих пород: J Юра",,osm
+Q304-P113-2,Q304,P113,name=пещера Вьюнок,,osm
+Q304-P113-3,Q304,P113,name:ru=пещера Вьюнок,,osm
+Q304-P113-4,Q304,P113,natural=cave_entrance,,osm
+Q304-P113-5,Q304,P113,source=https://speleoatlas.ru/caves/vyunok-12442/,,osm
+,Q305,P2,Q100,,osm
+Q305-P100-1,Q305,P100,https://www.openstreetmap.org/node/923447187,,osm
+Q305-P101-1,Q305,P101,https://www.openstreetmap.org/node/923447187/history/1,,osm
+Q305-P101-2,Q305,P101,https://www.openstreetmap.org/node/923447187/history/2,,osm
+Q305-P101-3,Q305,P101,https://www.openstreetmap.org/node/923447187/history/3,,osm
+Q305-P101-4,Q305,P101,https://www.openstreetmap.org/node/923447187/history/4,,osm
+Q305-P101-5,Q305,P101,https://www.openstreetmap.org/node/923447187/history/5,preferred,osm
+Q305-P107-1,Q305,P107,https://www.openstreetmap.org/node/923447187/history/1,,osm
+Q305-P110-1,Q305,P110,"47.3778454,10.1503983",,osm
+Q305-P111-1,Q305,P111,POINT(10.1503913 47.3778352),,osm
+Q305-P111-4,Q305,P111,POINT(10.1503983 47.3778454),,osm
+Q305-P113-1,Q305,P113,depth=96,,osm
+Q305-P113-2,Q305,P113,ele=1438,,osm
+Q305-P113-3,Q305,P113,name=Hölloch,,osm
+Q305-P113-4,Q305,P113,natural=cave_entrance,,osm
+Q305-P113-5,Q305,P113,wikidata=Q1485840,,osm
+Q305-P113-6,Q305,P113,wikipedia=de:Hölloch (Deutschland),,osm
+,Q306,P2,Q100,,osm
+Q306-P100-1,Q306,P100,https://www.openstreetmap.org/node/9247925660,,osm
+Q306-P101-1,Q306,P101,https://www.openstreetmap.org/node/9247925660/history/1,,osm
+Q306-P101-2,Q306,P101,https://www.openstreetmap.org/node/9247925660/history/2,preferred,osm
+Q306-P107-1,Q306,P107,https://www.openstreetmap.org/node/9247925660/history/1,,osm
+Q306-P110-1,Q306,P110,"34.1969106,118.3383901",,osm
+Q306-P111-1,Q306,P111,POINT(118.3387577 34.1969296),,osm
+Q306-P111-2,Q306,P111,POINT(118.3383901 34.1969106),,osm
+Q306-P113-1,Q306,P113,name=藏兵洞（西洞口）,,osm
+Q306-P113-2,Q306,P113,natural=cave_entrance,,osm
+,Q307,P2,Q100,,osm
+Q307-P100-1,Q307,P100,https://www.openstreetmap.org/node/9249065418,,osm
+Q307-P101-1,Q307,P101,https://www.openstreetmap.org/node/9249065418/history/1,,osm
+Q307-P101-2,Q307,P101,https://www.openstreetmap.org/node/9249065418/history/2,,osm
+Q307-P101-3,Q307,P101,https://www.openstreetmap.org/node/9249065418/history/3,preferred,osm
+Q307-P107-1,Q307,P107,https://www.openstreetmap.org/node/9249065418/history/1,,osm
+Q307-P110-1,Q307,P110,"41.4468862,31.9640002",,osm
+Q307-P111-1,Q307,P111,POINT(31.9640002 41.4468862),,osm
+Q307-P113-1,Q307,P113,name=Sofular Cave,,osm
+Q307-P113-2,Q307,P113,natural=cave_entrance,,osm
+Q307-P113-3,Q307,P113,wikidata=Q24915648,,osm
+Q307-P113-4,Q307,P113,wikipedia=en:Sofular Cave,,osm
+,Q308,P2,Q100,,osm
+Q308-P100-1,Q308,P100,https://www.openstreetmap.org/node/942519597,,osm
+Q308-P101-1,Q308,P101,https://www.openstreetmap.org/node/942519597/history/1,,osm
+Q308-P101-2,Q308,P101,https://www.openstreetmap.org/node/942519597/history/2,,osm
+Q308-P101-3,Q308,P101,https://www.openstreetmap.org/node/942519597/history/3,preferred,osm
+Q308-P107-1,Q308,P107,https://www.openstreetmap.org/node/942519597/history/1,,osm
+Q308-P110-1,Q308,P110,"28.6230973,31.2864247",,osm
+Q308-P111-1,Q308,P111,POINT(31.2864247 28.6230973),,osm
+Q308-P113-1,Q308,P113,name=Sannur Cave,,osm
+Q308-P113-2,Q308,P113,natural=cave_entrance,,osm
+Q308-P113-3,Q308,P113,wikidata=Q4116382,,osm
+Q308-P113-4,Q308,P113,wikipedia=ar:محمية كهف وادي سنور,,osm
+,Q309,P2,Q100,,osm
+Q309-P100-1,Q309,P100,https://www.openstreetmap.org/node/9693174633,,osm
+Q309-P101-1,Q309,P101,https://www.openstreetmap.org/node/9693174633/history/1,preferred,osm
+Q309-P107-1,Q309,P107,https://www.openstreetmap.org/node/9693174633/history/1,,osm
+Q309-P110-1,Q309,P110,"16.6467663,-89.076747",,osm
+Q309-P111-1,Q309,P111,POINT(-89.076747 16.6467663),,osm
+Q309-P113-1,Q309,P113,name=Kabal Cave,,osm
+Q309-P113-2,Q309,P113,natural=cave_entrance,,osm
+,Q310,P2,Q100,,osm
+Q310-P100-1,Q310,P100,https://www.openstreetmap.org/node/9753722102,,osm
+Q310-P101-1,Q310,P101,https://www.openstreetmap.org/node/9753722102/history/1,,osm
+Q310-P101-2,Q310,P101,https://www.openstreetmap.org/node/9753722102/history/2,,osm
+Q310-P101-3,Q310,P101,https://www.openstreetmap.org/node/9753722102/history/3,,osm
+Q310-P101-4,Q310,P101,https://www.openstreetmap.org/node/9753722102/history/4,preferred,osm
+Q310-P107-1,Q310,P107,https://www.openstreetmap.org/node/9753722102/history/1,,osm
+Q310-P110-1,Q310,P110,"12.5876973,54.3544798",,osm
+Q310-P111-1,Q310,P111,POINT(54.3548662 12.5877133),,osm
+Q310-P111-3,Q310,P111,POINT(54.3544798 12.5876973),,osm
+Q310-P113-1,Q310,P113,access=yes,,osm
+Q310-P113-2,Q310,P113,fee=no,,osm
+Q310-P113-3,Q310,P113,historic=archaeological_site,,osm
+Q310-P113-4,Q310,P113,name=Hoq Cave,,osm
+Q310-P113-5,Q310,P113,name:ar=كهف الحق,,osm
+Q310-P113-6,Q310,P113,name:en=Hoq Cave,,osm
+Q310-P113-7,Q310,P113,name:es=Cueva de Hoq,,osm
+Q310-P113-8,Q310,P113,name:fr=Grotte de Hoq,,osm
+Q310-P113-9,Q310,P113,name:it=Grotta di Hoq,,osm
+Q310-P113-10,Q310,P113,natural=cave_entrance,,osm
+Q310-P113-11,Q310,P113,tourism=attraction,,osm
+Q310-P113-12,Q310,P113,wikidata=Q107288451,,osm
+Q310-P113-13,Q310,P113,wikipedia=es:Cueva de Hoq,,osm
+,Q311,P2,Q100,,osm
+Q311-P100-1,Q311,P100,https://www.openstreetmap.org/node/977664869,,osm
+Q311-P101-1,Q311,P101,https://www.openstreetmap.org/node/977664869/history/1,preferred,osm
+Q311-P107-1,Q311,P107,https://www.openstreetmap.org/node/977664869/history/1,,osm
+Q311-P110-1,Q311,P110,"47.7076733,12.0166049",,osm
+Q311-P111-1,Q311,P111,POINT(12.0166049 47.7076733),,osm
+Q311-P113-1,Q311,P113,ele=1440,,osm
+Q311-P113-2,Q311,P113,name=Unteres Wetterloch,,osm
+Q311-P113-3,Q311,P113,natural=cave_entrance,,osm
+Q311-P113-4,Q311,P113,source=survey,,osm
+,Q312,P2,Q100,,osm
+Q312-P100-1,Q312,P100,https://www.openstreetmap.org/node/9801979591,,osm
+Q312-P101-1,Q312,P101,https://www.openstreetmap.org/node/9801979591/history/1,,osm
+Q312-P101-2,Q312,P101,https://www.openstreetmap.org/node/9801979591/history/2,preferred,osm
+Q312-P107-1,Q312,P107,https://www.openstreetmap.org/node/9801979591/history/1,,osm
+Q312-P110-1,Q312,P110,"37.8537611,66.7344844",,osm
+Q312-P111-1,Q312,P111,POINT(66.7356568 37.8520171),,osm
+Q312-P111-2,Q312,P111,POINT(66.7344844 37.8537611),,osm
+Q312-P113-1,Q312,P113,access=permit,,osm
+Q312-P113-2,Q312,P113,ele=1260,,osm
+Q312-P113-3,Q312,P113,fixme=is fixed,,osm
+Q312-P113-4,Q312,P113,name=Zarautsay Cave,,osm
+Q312-P113-5,Q312,P113,natural=cave_entrance,,osm
+Q312-P113-6,Q312,P113,source=survey,,osm
+,Q313,P2,Q100,,osm
+Q313-P100-1,Q313,P100,https://www.openstreetmap.org/node/981440188,,osm
+Q313-P101-1,Q313,P101,https://www.openstreetmap.org/node/981440188/history/1,,osm
+Q313-P101-2,Q313,P101,https://www.openstreetmap.org/node/981440188/history/2,,osm
+Q313-P101-3,Q313,P101,https://www.openstreetmap.org/node/981440188/history/3,,osm
+Q313-P101-4,Q313,P101,https://www.openstreetmap.org/node/981440188/history/4,,osm
+Q313-P101-5,Q313,P101,https://www.openstreetmap.org/node/981440188/history/5,,osm
+Q313-P101-6,Q313,P101,https://www.openstreetmap.org/node/981440188/history/6,,osm
+Q313-P101-7,Q313,P101,https://www.openstreetmap.org/node/981440188/history/7,,osm
+Q313-P101-8,Q313,P101,https://www.openstreetmap.org/node/981440188/history/8,,osm
+Q313-P101-9,Q313,P101,https://www.openstreetmap.org/node/981440188/history/9,,osm
+Q313-P101-10,Q313,P101,https://www.openstreetmap.org/node/981440188/history/10,,osm
+Q313-P101-11,Q313,P101,https://www.openstreetmap.org/node/981440188/history/11,,osm
+Q313-P101-12,Q313,P101,https://www.openstreetmap.org/node/981440188/history/12,,osm
+Q313-P101-13,Q313,P101,https://www.openstreetmap.org/node/981440188/history/13,,osm
+Q313-P101-14,Q313,P101,https://www.openstreetmap.org/node/981440188/history/14,,osm
+Q313-P101-15,Q313,P101,https://www.openstreetmap.org/node/981440188/history/15,,osm
+Q313-P101-16,Q313,P101,https://www.openstreetmap.org/node/981440188/history/16,,osm
+Q313-P101-17,Q313,P101,https://www.openstreetmap.org/node/981440188/history/17,,osm
+Q313-P101-18,Q313,P101,https://www.openstreetmap.org/node/981440188/history/18,,osm
+Q313-P101-19,Q313,P101,https://www.openstreetmap.org/node/981440188/history/19,,osm
+Q313-P101-20,Q313,P101,https://www.openstreetmap.org/node/981440188/history/20,,osm
+Q313-P101-21,Q313,P101,https://www.openstreetmap.org/node/981440188/history/21,,osm
+Q313-P101-22,Q313,P101,https://www.openstreetmap.org/node/981440188/history/22,preferred,osm
+Q313-P107-2,Q313,P107,https://www.openstreetmap.org/node/981440188/history/2,,osm
+Q313-P110-1,Q313,P110,"48.4716938,20.4953758",,osm
+Q313-P111-1,Q313,P111,POINT(20.4950597 48.4714802),,osm
+Q313-P111-2,Q313,P111,POINT(20.4950597 48.4714803),,osm
+Q313-P111-4,Q313,P111,POINT(20.4954433 48.4716066),,osm
+Q313-P111-7,Q313,P111,POINT(20.4954368 48.471624),,osm
+Q313-P111-21,Q313,P111,POINT(20.4954489 48.471632),,osm
+Q313-P111-22,Q313,P111,POINT(20.4953758 48.4716938),,osm
+Q313-P113-1,Q313,P113,access=customers,,osm
+Q313-P113-2,Q313,P113,barrier=door,,osm
+Q313-P113-3,Q313,P113,cave:ref=5430-1,,osm
+Q313-P113-4,Q313,P113,depth=102.5,,osm
+Q313-P113-5,Q313,P113,fee=yes,,osm
+Q313-P113-6,Q313,P113,height=139.15,,osm
+Q313-P113-7,Q313,P113,heritage=1,,osm
+Q313-P113-8,Q313,P113,heritage:operator=whc,,osm
+Q313-P113-9,Q313,P113,locked=yes,,osm
+Q313-P113-10,Q313,P113,name=Baradla-barlang bejárat,,osm
+Q313-P113-11,Q313,P113,natural=cave_entrance,,osm
+Q313-P113-12,Q313,P113,note:en=accessible with the permission of the National Park Directorate,,osm
+Q313-P113-13,Q313,P113,note:hu=NPI hozzájárulásával látogatható,,osm
+Q313-P113-14,Q313,P113,protect_class=3,,osm
+Q313-P113-15,Q313,P113,protection_object=cave,,osm
+Q313-P113-16,Q313,P113,protection_title=fokozottan védett,,osm
+Q313-P113-17,Q313,P113,protection_title:en=strictly protected,,osm
+Q313-P113-18,Q313,P113,ref:whc=725,,osm
+Q313-P113-19,Q313,P113,website=https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=5430-1,,osm
+Q313-P113-20,Q313,P113,wikidata=Q631356,,osm
+Q313-P113-21,Q313,P113,wikipedia=hu:Baradla-barlang bejárat,,osm
+,Q314,P2,Q100,,osm
+Q314-P100-1,Q314,P100,https://www.openstreetmap.org/node/9858176658,,osm
+Q314-P101-1,Q314,P101,https://www.openstreetmap.org/node/9858176658/history/1,,osm
+Q314-P101-2,Q314,P101,https://www.openstreetmap.org/node/9858176658/history/2,,osm
+Q314-P101-3,Q314,P101,https://www.openstreetmap.org/node/9858176658/history/3,preferred,osm
+Q314-P107-1,Q314,P107,https://www.openstreetmap.org/node/9858176658/history/1,,osm
+Q314-P110-1,Q314,P110,"42.0874057,-111.5187995",,osm
+Q314-P111-1,Q314,P111,POINT(-111.5187995 42.0874057),,osm
+Q314-P113-1,Q314,P113,access=permit,,osm
+Q314-P113-2,Q314,P113,"description=A large limestone cave through which guided tours are offered. Lighting, walkways, and many stairs have been installed in the cave.",,osm
+Q314-P113-3,Q314,P113,fee=yes,,osm
+Q314-P113-4,Q314,P113,name=Minnetonka Cave,,osm
+Q314-P113-5,Q314,P113,natural=cave_entrance,,osm
+,Q315,P2,Q100,,osm
+Q315-P100-1,Q315,P100,https://www.openstreetmap.org/node/9887908804,,osm
+Q315-P101-1,Q315,P101,https://www.openstreetmap.org/node/9887908804/history/1,preferred,osm
+Q315-P107-1,Q315,P107,https://www.openstreetmap.org/node/9887908804/history/1,,osm
+Q315-P110-1,Q315,P110,"31.7201832,110.4587437",,osm
+Q315-P111-1,Q315,P111,POINT(110.4587437 31.7201832),,osm
+Q315-P113-1,Q315,P113,name=野人洞,,osm
+Q315-P113-2,Q315,P113,name:en=Wild Men Cave,,osm
+Q315-P113-3,Q315,P113,natural=cave_entrance,,osm
+,Q316,P2,Q100,,osm
+Q316-P100-1,Q316,P100,https://www.openstreetmap.org/node/9908902505,,osm
+Q316-P101-1,Q316,P101,https://www.openstreetmap.org/node/9908902505/history/1,,osm
+Q316-P101-2,Q316,P101,https://www.openstreetmap.org/node/9908902505/history/2,preferred,osm
+Q316-P107-1,Q316,P107,https://www.openstreetmap.org/node/9908902505/history/1,,osm
+Q316-P110-1,Q316,P110,"29.3769162,107.7337823",,osm
+Q316-P111-1,Q316,P111,POINT(107.7337823 29.3769162),,osm
+Q316-P113-1,Q316,P113,access=customers,,osm
+Q316-P113-2,Q316,P113,fee=yes,,osm
+Q316-P113-3,Q316,P113,name=虎穴探险,,osm
+Q316-P113-4,Q316,P113,natural=cave_entrance,,osm
+,Q317,P2,Q100,,osm
+Q317-P100-1,Q317,P100,https://www.openstreetmap.org/node/9913438479,,osm
+Q317-P101-1,Q317,P101,https://www.openstreetmap.org/node/9913438479/history/1,,osm
+Q317-P101-2,Q317,P101,https://www.openstreetmap.org/node/9913438479/history/2,preferred,osm
+Q317-P107-1,Q317,P107,https://www.openstreetmap.org/node/9913438479/history/1,,osm
+Q317-P110-1,Q317,P110,"37.7181564,-80.4362982",,osm
+Q317-P111-1,Q317,P111,POINT(-80.4362982 37.7181564),,osm
+Q317-P113-1,Q317,P113,name=Organ Cave,,osm
+Q317-P113-2,Q317,P113,natural=cave_entrance,,osm
+Q317-P113-3,Q317,P113,tourism=attraction,,osm
+Q317-P113-4,Q317,P113,wikidata=Q7101750,,osm
+,Q318,P2,Q100,,osm
+Q318-P100-1,Q318,P100,https://www.openstreetmap.org/node/992092588,,osm
+Q318-P101-1,Q318,P101,https://www.openstreetmap.org/node/992092588/history/1,preferred,osm
+Q318-P107-1,Q318,P107,https://www.openstreetmap.org/node/992092588/history/1,,osm
+Q318-P110-1,Q318,P110,"38.06904,-120.4660397",,osm
+Q318-P111-1,Q318,P111,POINT(-120.4660397 38.06904),,osm
+Q318-P113-1,Q318,P113,name=Moaning Cave,,osm
+Q318-P113-2,Q318,P113,natural=cave_entrance,,osm
+,Q319,P2,Q100,,osm
+Q319-P100-1,Q319,P100,https://www.openstreetmap.org/node/9927050233,,osm
+Q319-P101-1,Q319,P101,https://www.openstreetmap.org/node/9927050233/history/1,preferred,osm
+Q319-P107-1,Q319,P107,https://www.openstreetmap.org/node/9927050233/history/1,,osm
+Q319-P110-1,Q319,P110,"39.6949844,115.6497648",,osm
+Q319-P111-1,Q319,P111,POINT(115.6497648 39.6949844),,osm
+Q319-P113-1,Q319,P113,name=泄水洞,,osm
+Q319-P113-2,Q319,P113,natural=cave_entrance,,osm
+,Q320,P2,Q100,,osm
+Q320-P100-1,Q320,P100,https://www.openstreetmap.org/node/9958994170,,osm
+Q320-P101-1,Q320,P101,https://www.openstreetmap.org/node/9958994170/history/1,preferred,osm
+Q320-P107-1,Q320,P107,https://www.openstreetmap.org/node/9958994170/history/1,,osm
+Q320-P110-1,Q320,P110,"46.1470523,11.0482688",,osm
+Q320-P111-1,Q320,P111,POINT(11.0482688 46.1470523),,osm
+Q320-P113-1,Q320,P113,name=Grotta Cesare Battisti,,osm
+Q320-P113-2,Q320,P113,natural=cave_entrance,,osm
 ,P100,P9,Q100,,
 ,P101,P9,Q100,,
 ,P104,P5,https://www.openstreetmap.org/changeset/$1,,

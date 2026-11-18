@@ -1,0 +1,316 @@
+# Q233: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q233.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4874702122)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4874702122)"@de ;
+    dcterms:identifier "Q233" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q233 ;
+    dcterms:title "Karaca Mağarası"@de,
+        "Karaca Mağarası"@en ;
+    schema:about oss:Q233 ;
+    dcat:distribution ossdist:Q233-html,
+        ossdist:Q233-json,
+        ossdist:Q233-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q233.html> .
+
+ossdist:Q233-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q233, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q233.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q233-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q233, as archived from the Wikibase API"@en ;
+    dcat:byteSize "22407"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q233.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q233-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q233, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q233.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q233
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4874702122)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4874702122)"@de ;
+    schema:name "Karaca Mağarası"@de,
+        "Karaca Mağarası"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "19"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q233-F363A08F-F84A-5B42-89DA-8A2D5D091828 ;
+    geo:hasGeometry osss:Q233-F363A08F-F84A-5B42-89DA-8A2D5D091828 ;
+    rdfs:label "Karaca Mağarası"@de,
+        "Karaca Mağarası"@en ;
+    skos:prefLabel "Karaca Mağarası"@de,
+        "Karaca Mağarası"@en ;
+    ossp:P2 osss:Q233-D68AF501-2452-507C-ACBA-E0AB4F06F01E ;
+    ossp:P100 osss:Q233-D7230D99-61C7-57D4-8BA5-CEED1C907415 ;
+    ossp:P101 osss:Q233-6FADE3A8-4E91-56D8-9481-DA5E62E58DE3,
+        osss:Q233-45F16328-A1BC-5498-8ABF-3470343BCA48,
+        osss:Q233-AA0D0FFA-0C4E-57D2-8F09-D56B3BD17AD2,
+        osss:Q233-DB3E3B61-1112-59BD-9E86-2BF7655F17CE ;
+    ossp:P107 osss:Q233-ED224DA7-59E9-5934-9C22-52F549715591 ;
+    ossp:P110 osss:Q233-B17576C2-6306-5A76-B03C-311B2CBACC37 ;
+    ossp:P111 osss:Q233-F363A08F-F84A-5B42-89DA-8A2D5D091828 ;
+    ossp:P113 osss:Q233-2E7EB148-C2C0-5F2D-AFE3-705E93B4C411,
+        osss:Q233-4DEAB208-9EB2-53B2-8D7E-918AB256A142,
+        osss:Q233-5F830E3E-9E57-5860-9B94-254E7CF059BC,
+        osss:Q233-7C53A486-8DD9-5B39-A69B-EBA48AC5F5B9,
+        osss:Q233-3753AFE0-270B-5FBB-83DE-D7222245353D,
+        osss:Q233-17636B62-8A51-5027-A645-A087ED549998,
+        osss:Q233-90554A0E-13D8-57C1-A331-102F308D5262,
+        osss:Q233-ACFEF607-8E74-5871-ABDA-4EA69807CE20,
+        osss:Q233-E70B3563-447D-58CB-B2CB-C821A6FCF37E,
+        osss:Q233-EA4FFC05-FF53-5844-86F8-AD1B0C9C3D11 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4874702122> ;
+    osst:P101 <https://www.openstreetmap.org/node/4874702122/history/4> ;
+    osst:P107 <https://www.openstreetmap.org/node/4874702122/history/1> ;
+    osst:P110 "Point(39.4028933 40.5442916)"^^geo:wktLiteral ;
+    osst:P111 "POINT(39.4028933 40.5442916)" ;
+    osst:P113 "fee=yes",
+        "name:en=Karaca Cave",
+        "name:es=Cueva de Karaca",
+        "name=Karaca Mağarası",
+        "natural=cave_entrance",
+        "note=Toplam uzunluğu 256 metre, girişe göre en derin noktası ise -15.5 metre olan Karaca Mağarası, az eğimli giriş dışında bütünüyle yatay bir mağaradır. Karaca mağarası birbirine bağlı 5 salondan meydana gelmiştir.",
+        "payment:cash=yes",
+        "payment:credit_cards=yes",
+        "wikidata=Q4810702",
+        "wikipedia=tr:Karaca Mağarası" .
+
+osss:Q233-2E7EB148-C2C0-5F2D-AFE3-705E93B4C411
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "name:es=Cueva de Karaca" .
+
+osss:Q233-4DEAB208-9EB2-53B2-8D7E-918AB256A142
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "wikipedia=tr:Karaca Mağarası" .
+
+osss:Q233-5F830E3E-9E57-5860-9B94-254E7CF059BC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "name=Karaca Mağarası" .
+
+osss:Q233-6FADE3A8-4E91-56D8-9481-DA5E62E58DE3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2023-07-02T12:30:00Z" ;
+    osspq:P104 "138021705" ;
+    osspq:P105 "tg4567" ;
+    osspq:P106 "12500589" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4874702122/history/3> .
+
+osss:Q233-7C53A486-8DD9-5B39-A69B-EBA48AC5F5B9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "name:en=Karaca Cave" .
+
+osss:Q233-45F16328-A1BC-5498-8ABF-3470343BCA48
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-05-24T18:55:56Z" ;
+    osspq:P104 "48954588" ;
+    osspq:P105 "katpatuka" ;
+    osspq:P106 "17497" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4874702122/history/1> .
+
+osss:Q233-3753AFE0-270B-5FBB-83DE-D7222245353D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q233-17636B62-8A51-5027-A645-A087ED549998
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "note=Toplam uzunluğu 256 metre, girişe göre en derin noktası ise -15.5 metre olan Karaca Mağarası, az eğimli giriş dışında bütünüyle yatay bir mağaradır. Karaca mağarası birbirine bağlı 5 salondan meydana gelmiştir." .
+
+osss:Q233-90554A0E-13D8-57C1-A331-102F308D5262
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "payment:credit_cards=yes" .
+
+osss:Q233-AA0D0FFA-0C4E-57D2-8F09-D56B3BD17AD2
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2017-10-11T10:49:58Z" ;
+    osspq:P104 "52820263" ;
+    osspq:P105 "Nesim" ;
+    osspq:P106 "1386706" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4874702122/history/2> .
+
+osss:Q233-ACFEF607-8E74-5871-ABDA-4EA69807CE20
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "payment:cash=yes" .
+
+osss:Q233-B17576C2-6306-5A76-B03C-311B2CBACC37
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P110 "Point(39.4028933 40.5442916)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:47d9b7b57c47a4bf5e7a8a522620a248 .
+
+osss:Q233-D68AF501-2452-507C-ACBA-E0AB4F06F01E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q233-D7230D99-61C7-57D4-8BA5-CEED1C907415
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4874702122> .
+
+osss:Q233-DB3E3B61-1112-59BD-9E86-2BF7655F17CE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2023-08-08T06:11:59Z" ;
+    osspq:P104 "139595280" ;
+    osspq:P105 "d3mοl3k" ;
+    osspq:P106 "14536542" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/4874702122/history/4> .
+
+osss:Q233-E70B3563-447D-58CB-B2CB-C821A6FCF37E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "wikidata=Q4810702" .
+
+osss:Q233-EA4FFC05-FF53-5844-86F8-AD1B0C9C3D11
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:0d348254de5c9c72e847e97255faef779524f906 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q233-ED224DA7-59E9-5934-9C22-52F549715591
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4874702122/history/1> .
+
+osss:Q233-F363A08F-F84A-5B42-89DA-8A2D5D091828
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(39.4028933 40.5442916)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:187b0d789984d1f2cab58a9ba5d99564d457a30f ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-05-24T18:55:56Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(39.4028933 40.5442916)" .
+
+ossref:0d348254de5c9c72e847e97255faef779524f906
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4874702122/history/4> .
+
+ossref:187b0d789984d1f2cab58a9ba5d99564d457a30f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4874702122/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:47d9b7b57c47a4bf5e7a8a522620a248
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.5442916"^^xsd:double ;
+    wikibase:geoLongitude "39.4028933"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

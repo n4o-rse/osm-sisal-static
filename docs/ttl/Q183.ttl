@@ -1,0 +1,219 @@
+# Q183: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q183.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 274302247)"@en,
+        "Höhenmarke (OpenStreetMap-Node 274302247)"@de ;
+    dcterms:identifier "Q183" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q183 ;
+    dcterms:title "Kammerlochhöhle"@de,
+        "Kammerlochhöhle"@en ;
+    schema:about oss:Q183 ;
+    dcat:distribution ossdist:Q183-html,
+        ossdist:Q183-json,
+        ossdist:Q183-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q183.html> .
+
+ossdist:Q183-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q183, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q183.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q183-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q183, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11804"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q183.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q183-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q183, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q183.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q183
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 274302247)"@en,
+        "Höhenmarke (OpenStreetMap-Node 274302247)"@de ;
+    schema:name "Kammerlochhöhle"@de,
+        "Kammerlochhöhle"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q183-6E47BF01-A3D8-5262-A6CC-0C4FCA184DC9 ;
+    geo:hasGeometry osss:Q183-6E47BF01-A3D8-5262-A6CC-0C4FCA184DC9 ;
+    rdfs:label "Kammerlochhöhle"@de,
+        "Kammerlochhöhle"@en ;
+    skos:prefLabel "Kammerlochhöhle"@de,
+        "Kammerlochhöhle"@en ;
+    ossp:P2 osss:Q183-DE1865E7-68EF-5812-BA00-317AB9F6A2FC ;
+    ossp:P100 osss:Q183-B46D2FA0-EF4F-5F93-8262-1869B5DA8700 ;
+    ossp:P101 osss:Q183-66DC11D7-747A-5160-9CBA-66D7D5944B81,
+        osss:Q183-721AA20F-2CCF-53DE-9BA4-EA3802BB1A07 ;
+    ossp:P107 osss:Q183-230FBB03-9EC6-5ADB-A735-8A445123C6DF ;
+    ossp:P110 osss:Q183-7AF2FA0E-D100-54DB-AFC5-0B4BB15A554C ;
+    ossp:P111 osss:Q183-6E47BF01-A3D8-5262-A6CC-0C4FCA184DC9 ;
+    ossp:P113 osss:Q183-1D5B7957-DEEB-5AFC-B615-CA610BBBB127,
+        osss:Q183-67B21C1B-71FD-551B-8242-DC30F09BA9DE,
+        osss:Q183-79AD3429-E0BF-52F3-A7DB-4FDE11A8959B ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/274302247> ;
+    osst:P101 <https://www.openstreetmap.org/node/274302247/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/274302247/history/1> ;
+    osst:P110 "Point(10.5531382 48.7750234)"^^geo:wktLiteral ;
+    osst:P111 "POINT(10.5531382 48.7750234)" ;
+    osst:P113 "cave:ref=M011",
+        "name=Kammerlochhöhle",
+        "natural=cave_entrance" .
+
+osss:Q183-1D5B7957-DEEB-5AFC-B615-CA610BBBB127
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c9901c4b5ac132f049bb0512f3fcb9c7a20c9a40 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q183-6E47BF01-A3D8-5262-A6CC-0C4FCA184DC9
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(10.5531382 48.7750234)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:36b34b94f39afd0013df6f757b68c8ffd492828c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-06-28T19:21:29Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(10.5531382 48.7750234)" .
+
+osss:Q183-7AF2FA0E-D100-54DB-AFC5-0B4BB15A554C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c9901c4b5ac132f049bb0512f3fcb9c7a20c9a40 ;
+    ossps:P110 "Point(10.5531382 48.7750234)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:fa63aad3972ee33df1998024625ea297 .
+
+osss:Q183-66DC11D7-747A-5160-9CBA-66D7D5944B81
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2008-06-28T19:21:29Z" ;
+    osspq:P104 "324223" ;
+    osspq:P105 "tiba" ;
+    osspq:P106 "8285" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/274302247/history/1> .
+
+osss:Q183-67B21C1B-71FD-551B-8242-DC30F09BA9DE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c9901c4b5ac132f049bb0512f3fcb9c7a20c9a40 ;
+    ossps:P113 "name=Kammerlochhöhle" .
+
+osss:Q183-79AD3429-E0BF-52F3-A7DB-4FDE11A8959B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c9901c4b5ac132f049bb0512f3fcb9c7a20c9a40 ;
+    ossps:P113 "cave:ref=M011" .
+
+osss:Q183-230FBB03-9EC6-5ADB-A735-8A445123C6DF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/274302247/history/1> .
+
+osss:Q183-721AA20F-2CCF-53DE-9BA4-EA3802BB1A07
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2011-06-10T17:58:54Z" ;
+    osspq:P104 "8399427" ;
+    osspq:P105 "fischhonig" ;
+    osspq:P106 "41113" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/274302247/history/2> .
+
+osss:Q183-B46D2FA0-EF4F-5F93-8262-1869B5DA8700
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/274302247> .
+
+osss:Q183-DE1865E7-68EF-5812-BA00-317AB9F6A2FC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:36b34b94f39afd0013df6f757b68c8ffd492828c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/274302247/history/1> .
+
+ossref:c9901c4b5ac132f049bb0512f3fcb9c7a20c9a40
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/274302247/history/2> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:fa63aad3972ee33df1998024625ea297
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "48.7750234"^^xsd:double ;
+    wikibase:geoLongitude "10.5531382"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

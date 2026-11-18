@@ -1,0 +1,228 @@
+# Q316: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q316.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 9908902505)"@en,
+        "Höhenmarke (OpenStreetMap-Node 9908902505)"@de ;
+    dcterms:identifier "Q316" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q316 ;
+    dcterms:title "虎穴探险"@de,
+        "虎穴探险"@en ;
+    schema:about oss:Q316 ;
+    dcat:distribution ossdist:Q316-html,
+        ossdist:Q316-json,
+        ossdist:Q316-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q316.html> .
+
+ossdist:Q316-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q316, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q316.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q316-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q316, as archived from the Wikibase API"@en ;
+    dcat:byteSize "12695"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q316.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q316-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q316, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q316.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q316
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 9908902505)"@en,
+        "Höhenmarke (OpenStreetMap-Node 9908902505)"@de ;
+    schema:name "虎穴探险"@de,
+        "虎穴探险"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q316-39CD57D1-8DBB-584C-A41B-993641294F43 ;
+    geo:hasGeometry osss:Q316-39CD57D1-8DBB-584C-A41B-993641294F43 ;
+    rdfs:label "虎穴探险"@de,
+        "虎穴探险"@en ;
+    skos:prefLabel "虎穴探险"@de,
+        "虎穴探险"@en ;
+    ossp:P2 osss:Q316-30E77410-E4F2-5A64-B366-D1D3AD67E4D9 ;
+    ossp:P100 osss:Q316-E63DA1AF-C604-5300-A15C-F0D4556BBEE5 ;
+    ossp:P101 osss:Q316-4FAED150-B7D3-5577-97A9-46E70FC20096,
+        osss:Q316-F087B7B8-C50F-530A-9A91-E226FDBBF5C0 ;
+    ossp:P107 osss:Q316-C9CE94B3-8899-598E-9777-97A59608D6F2 ;
+    ossp:P110 osss:Q316-CFD295DA-B45D-5D05-A9D3-397B9DC9CA81 ;
+    ossp:P111 osss:Q316-39CD57D1-8DBB-584C-A41B-993641294F43 ;
+    ossp:P113 osss:Q316-5C2F447B-BDE1-5A33-9D26-C9758FDCF382,
+        osss:Q316-7F12C5E9-88C5-5083-BD71-EB1ECCA0E008,
+        osss:Q316-8EBBF80E-7650-5103-B29D-957EE2DAB353,
+        osss:Q316-DCA1D31D-5170-5344-9DCB-6B8FC2843BCC ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/9908902505> ;
+    osst:P101 <https://www.openstreetmap.org/node/9908902505/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/9908902505/history/1> ;
+    osst:P110 "Point(107.7337823 29.3769162)"^^geo:wktLiteral ;
+    osst:P111 "POINT(107.7337823 29.3769162)" ;
+    osst:P113 "access=customers",
+        "fee=yes",
+        "name=虎穴探险",
+        "natural=cave_entrance" .
+
+osss:Q316-4FAED150-B7D3-5577-97A9-46E70FC20096
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-07-25T07:18:34Z" ;
+    osspq:P104 "124036576" ;
+    osspq:P105 "floverow" ;
+    osspq:P106 "541675" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/9908902505/history/1> .
+
+osss:Q316-5C2F447B-BDE1-5A33-9D26-C9758FDCF382
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d05d639c370ee87a79af4571bf2c4b8444f2f0d7 ;
+    ossps:P113 "access=customers" .
+
+osss:Q316-7F12C5E9-88C5-5083-BD71-EB1ECCA0E008
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d05d639c370ee87a79af4571bf2c4b8444f2f0d7 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q316-8EBBF80E-7650-5103-B29D-957EE2DAB353
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d05d639c370ee87a79af4571bf2c4b8444f2f0d7 ;
+    ossps:P113 "name=虎穴探险" .
+
+osss:Q316-30E77410-E4F2-5A64-B366-D1D3AD67E4D9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q316-39CD57D1-8DBB-584C-A41B-993641294F43
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(107.7337823 29.3769162)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:32c6aa55508e7543eb0e42ef057d1443dc124073 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-07-25T07:18:34Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(107.7337823 29.3769162)" .
+
+osss:Q316-C9CE94B3-8899-598E-9777-97A59608D6F2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/9908902505/history/1> .
+
+osss:Q316-CFD295DA-B45D-5D05-A9D3-397B9DC9CA81
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d05d639c370ee87a79af4571bf2c4b8444f2f0d7 ;
+    ossps:P110 "Point(107.7337823 29.3769162)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:40ef67bd3c67ba7b5559ac5dc423c92e .
+
+osss:Q316-DCA1D31D-5170-5344-9DCB-6B8FC2843BCC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d05d639c370ee87a79af4571bf2c4b8444f2f0d7 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q316-E63DA1AF-C604-5300-A15C-F0D4556BBEE5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/9908902505> .
+
+osss:Q316-F087B7B8-C50F-530A-9A91-E226FDBBF5C0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-08-03T23:27:48Z" ;
+    osspq:P104 "124456228" ;
+    osspq:P105 "floverow" ;
+    osspq:P106 "541675" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/9908902505/history/2> .
+
+ossref:32c6aa55508e7543eb0e42ef057d1443dc124073
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/9908902505/history/1> .
+
+ossref:d05d639c370ee87a79af4571bf2c4b8444f2f0d7
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/9908902505/history/2> .
+
+ossv:40ef67bd3c67ba7b5559ac5dc423c92e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "29.3769162"^^xsd:double ;
+    wikibase:geoLongitude "107.7337823"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

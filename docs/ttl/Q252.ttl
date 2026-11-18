@@ -1,0 +1,483 @@
+# Q252: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q252.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 556748045)"@en,
+        "Höhenmarke (OpenStreetMap-Node 556748045)"@de ;
+    dcterms:identifier "Q252" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q252 ;
+    dcterms:title "Zoolithenhöhle"@de,
+        "Zoolithenhöhle"@en ;
+    schema:about oss:Q252 ;
+    dcat:distribution ossdist:Q252-html,
+        ossdist:Q252-json,
+        ossdist:Q252-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q252.html> .
+
+ossdist:Q252-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q252, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q252.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q252-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q252, as archived from the Wikibase API"@en ;
+    dcat:byteSize "40591"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q252.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q252-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q252, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q252.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q252
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 556748045)"@en,
+        "Höhenmarke (OpenStreetMap-Node 556748045)"@de ;
+    schema:name "Zoolithenhöhle"@de,
+        "Zoolithenhöhle"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "30"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q252-597C9E59-2FE8-579D-81E4-C088B138A82C ;
+    geo:hasGeometry osss:Q252-3B68838F-684E-531F-A214-A017D1CB67C8,
+        osss:Q252-597C9E59-2FE8-579D-81E4-C088B138A82C,
+        osss:Q252-AA9DC76F-3FCE-516C-B005-3A2DB435D2D5 ;
+    rdfs:label "Zoolithenhöhle"@de,
+        "Zoolithenhöhle"@en ;
+    skos:prefLabel "Zoolithenhöhle"@de,
+        "Zoolithenhöhle"@en ;
+    ossp:P2 osss:Q252-B4E78A96-570D-53D6-9B0D-DACB0AAE7AEC ;
+    ossp:P100 osss:Q252-6F7774A0-F31C-5FD3-8DFD-6FE97D9CE53B ;
+    ossp:P101 osss:Q252-0FF39D17-B258-5F79-8FF2-395827CF5A3B,
+        osss:Q252-4DD4DC14-2AB7-5533-81D1-DB65A86F64E6,
+        osss:Q252-76CC8177-BA56-5F08-BB77-38C19773EDE3,
+        osss:Q252-79E37A01-E24D-5A73-A841-803F7FDF4D84,
+        osss:Q252-353B1986-772D-5FBF-8671-0CC63A1DB269,
+        osss:Q252-565C6E99-C739-5882-9B39-C9D81463E0BE,
+        osss:Q252-673FE14F-A721-5EC7-832D-96194A669D44,
+        osss:Q252-73631BC2-D9A2-5459-84FE-2165E163C957,
+        osss:Q252-C5FF2AF0-5F7E-57AC-BA92-D594C5044BCB,
+        osss:Q252-E0592748-E1DD-580D-B9DC-5772F0853B12 ;
+    ossp:P107 osss:Q252-1FEAAC95-3617-5A46-BB8C-6F7DEE9CDBA4 ;
+    ossp:P110 osss:Q252-F16AEF84-A51D-5822-B977-0920B997F23E ;
+    ossp:P111 osss:Q252-3B68838F-684E-531F-A214-A017D1CB67C8,
+        osss:Q252-597C9E59-2FE8-579D-81E4-C088B138A82C,
+        osss:Q252-AA9DC76F-3FCE-516C-B005-3A2DB435D2D5 ;
+    ossp:P113 osss:Q252-08CCBE93-3CEA-5D8C-8F96-9478ADD2128B,
+        osss:Q252-44B027FC-3CB4-5973-963F-DF130E945FAA,
+        osss:Q252-474F0D7C-1CD2-5EB9-9A2E-3CAB08898596,
+        osss:Q252-722AFC6B-72C2-547C-B614-A08EFCCA02FC,
+        osss:Q252-735AA50A-3010-57BB-8895-ADA0949E29F4,
+        osss:Q252-9328760B-6C9A-55CF-9DA2-02F0899C2C07,
+        osss:Q252-A56E8DEE-0D84-5D06-A065-80C7CBB2469E,
+        osss:Q252-B6EADF53-439E-5AE7-9193-F429C0D3FBB6,
+        osss:Q252-BA7D3E4D-0977-53EC-BD2C-FF3A078F75D1,
+        osss:Q252-BB37AA36-E7E1-518C-95DA-CF1D342D33AC,
+        osss:Q252-BB1917EE-EF5E-522B-84B5-6645C47457B8,
+        osss:Q252-F2C23095-E961-526D-9DBD-E0134A62782C,
+        osss:Q252-F722E446-9878-5824-802C-0AF4A6D79AFF ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/556748045> ;
+    osst:P101 <https://www.openstreetmap.org/node/556748045/history/10> ;
+    osst:P107 <https://www.openstreetmap.org/node/556748045/history/1> ;
+    osst:P110 "Point(11.2826077 49.7793379)"^^geo:wktLiteral ;
+    osst:P111 "POINT(11.2824115 49.7793454)",
+        "POINT(11.2826077 49.7793379)",
+        "POINT(11.2827796 49.77931)" ;
+    osst:P113 "access=no",
+        "cave:ref=D 109",
+        "name=Zoolithenhöhle",
+        "natural=cave_entrance",
+        "protect_class=7",
+        "protection_title=Naturdenkmal",
+        "ref:DE-BY=ND-04462",
+        "ref=042",
+        "short_protection_title=ND",
+        "website=https://www.fhkf.de/hoehlen/zoolithenhoehle/",
+        "wheelchair=no",
+        "wikidata=Q15062161",
+        "wikipedia=de:Zoolithenhöhle" .
+
+osss:Q252-0FF39D17-B258-5F79-8FF2-395827CF5A3B
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2014-05-08T19:09:49Z" ;
+    osspq:P104 "22216215" ;
+    osspq:P105 "wheelmap_visitor" ;
+    osspq:P106 "290680" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/3> .
+
+osss:Q252-1FEAAC95-3617-5A46-BB8C-6F7DEE9CDBA4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/556748045/history/1> .
+
+osss:Q252-3B68838F-684E-531F-A214-A017D1CB67C8
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.2827796 49.77931)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:341aea6148cd8e2d7f628b2d8daebcaf44d11237 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2013-08-25T12:56:40Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(11.2827796 49.77931)" .
+
+osss:Q252-4DD4DC14-2AB7-5533-81D1-DB65A86F64E6
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2023-01-21T13:10:48Z" ;
+    osspq:P104 "131540743" ;
+    osspq:P105 "Stephan van Helden" ;
+    osspq:P106 "2970883" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/8> .
+
+osss:Q252-6F7774A0-F31C-5FD3-8DFD-6FE97D9CE53B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/556748045> .
+
+osss:Q252-08CCBE93-3CEA-5D8C-8F96-9478ADD2128B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "short_protection_title=ND" .
+
+osss:Q252-44B027FC-3CB4-5973-963F-DF130E945FAA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "name=Zoolithenhöhle" .
+
+osss:Q252-76CC8177-BA56-5F08-BB77-38C19773EDE3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-11-05T16:38:44Z" ;
+    osspq:P104 "3041834" ;
+    osspq:P105 "fischhonig" ;
+    osspq:P106 "41113" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/1> .
+
+osss:Q252-79E37A01-E24D-5A73-A841-803F7FDF4D84
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2026-09-16T13:23:01Z" ;
+    osspq:P104 "189111876" ;
+    osspq:P105 "Rentware Paul" ;
+    osspq:P106 "12406841" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/10> .
+
+osss:Q252-353B1986-772D-5FBF-8671-0CC63A1DB269
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2016-05-25T06:51:12Z" ;
+    osspq:P104 "39549813" ;
+    osspq:P105 "CaveFinder" ;
+    osspq:P106 "2824699" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/5> .
+
+osss:Q252-474F0D7C-1CD2-5EB9-9A2E-3CAB08898596
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "wheelchair=no" .
+
+osss:Q252-565C6E99-C739-5882-9B39-C9D81463E0BE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2019-12-22T09:03:51Z" ;
+    osspq:P104 "78729066" ;
+    osspq:P105 "HeinerSchaefer" ;
+    osspq:P106 "239076" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/7> .
+
+osss:Q252-597C9E59-2FE8-579D-81E4-C088B138A82C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.2826077 49.7793379)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:76b8088b2d41f46ea33d95859c1688911bbb6935 ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2014-08-09T22:13:55Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(11.2826077 49.7793379)" .
+
+osss:Q252-673FE14F-A721-5EC7-832D-96194A669D44
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2019-12-02T20:39:55Z" ;
+    osspq:P104 "77841676" ;
+    osspq:P105 "kjon" ;
+    osspq:P106 "44217" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/6> .
+
+osss:Q252-722AFC6B-72C2-547C-B614-A08EFCCA02FC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "protect_class=7" .
+
+osss:Q252-735AA50A-3010-57BB-8895-ADA0949E29F4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "cave:ref=D 109" .
+
+osss:Q252-73631BC2-D9A2-5459-84FE-2165E163C957
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2013-08-25T12:56:40Z" ;
+    osspq:P104 "17498942" ;
+    osspq:P105 "fischhonig" ;
+    osspq:P106 "41113" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/2> .
+
+osss:Q252-9328760B-6C9A-55CF-9DA2-02F0899C2C07
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "website=https://www.fhkf.de/hoehlen/zoolithenhoehle/" .
+
+osss:Q252-A56E8DEE-0D84-5D06-A065-80C7CBB2469E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "wikidata=Q15062161" .
+
+osss:Q252-AA9DC76F-3FCE-516C-B005-3A2DB435D2D5
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.2824115 49.7793454)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:93c71aa86d76a3486bb4f3fa5c184370c7aec7ea ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-11-05T16:38:44Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(11.2824115 49.7793454)" .
+
+osss:Q252-B4E78A96-570D-53D6-9B0D-DACB0AAE7AEC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q252-B6EADF53-439E-5AE7-9193-F429C0D3FBB6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "protection_title=Naturdenkmal" .
+
+osss:Q252-BA7D3E4D-0977-53EC-BD2C-FF3A078F75D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "access=no" .
+
+osss:Q252-BB37AA36-E7E1-518C-95DA-CF1D342D33AC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "wikipedia=de:Zoolithenhöhle" .
+
+osss:Q252-BB1917EE-EF5E-522B-84B5-6645C47457B8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q252-C5FF2AF0-5F7E-57AC-BA92-D594C5044BCB
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2014-08-09T22:13:55Z" ;
+    osspq:P104 "24643635" ;
+    osspq:P105 "davpb" ;
+    osspq:P106 "276673" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/4> .
+
+osss:Q252-E0592748-E1DD-580D-B9DC-5772F0853B12
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2023-02-26T00:37:12Z" ;
+    osspq:P104 "133026534" ;
+    osspq:P105 "ivanbranco" ;
+    osspq:P106 "11220113" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/556748045/history/9> .
+
+osss:Q252-F2C23095-E961-526D-9DBD-E0134A62782C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "ref=042" .
+
+osss:Q252-F16AEF84-A51D-5822-B977-0920B997F23E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P110 "Point(11.2826077 49.7793379)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:cc6f7032a270f69dfbb8003813a45c3b .
+
+osss:Q252-F722E446-9878-5824-802C-0AF4A6D79AFF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ff7772e97048593589dce71f23a408a91e3fcd7a ;
+    ossps:P113 "ref:DE-BY=ND-04462" .
+
+ossref:76b8088b2d41f46ea33d95859c1688911bbb6935
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/556748045/history/4> .
+
+ossref:93c71aa86d76a3486bb4f3fa5c184370c7aec7ea
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/556748045/history/1> .
+
+ossref:341aea6148cd8e2d7f628b2d8daebcaf44d11237
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/556748045/history/2> .
+
+ossref:ff7772e97048593589dce71f23a408a91e3fcd7a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/556748045/history/10> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:cc6f7032a270f69dfbb8003813a45c3b
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "49.7793379"^^xsd:double ;
+    wikibase:geoLongitude "11.2826077"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

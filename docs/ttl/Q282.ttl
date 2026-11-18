@@ -1,0 +1,395 @@
+# Q282: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q282.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 745919883)"@en,
+        "Höhenmarke (OpenStreetMap-Node 745919883)"@de ;
+    dcterms:identifier "Q282" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q282 ;
+    dcterms:title "St.Beatus-Höhlen"@de,
+        "St.Beatus-Höhlen"@en ;
+    schema:about oss:Q282 ;
+    dcat:distribution ossdist:Q282-html,
+        ossdist:Q282-json,
+        ossdist:Q282-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q282.html> .
+
+ossdist:Q282-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q282, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q282.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q282-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q282, as archived from the Wikibase API"@en ;
+    dcat:byteSize "30964"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q282.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q282-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q282, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q282.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q282
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 745919883)"@en,
+        "Höhenmarke (OpenStreetMap-Node 745919883)"@de ;
+    schema:name "St.Beatus-Höhlen"@de,
+        "St.Beatus-Höhlen"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "24"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q282-A78CF08B-93E2-55A6-A84C-FA82B5A76A48 ;
+    geo:hasGeometry osss:Q282-A78CF08B-93E2-55A6-A84C-FA82B5A76A48,
+        osss:Q282-AFD338CF-9A3E-500E-A2F9-FACFF0FBA53D ;
+    rdfs:label "St.Beatus-Höhlen"@de,
+        "St.Beatus-Höhlen"@en ;
+    skos:prefLabel "St.Beatus-Höhlen"@de,
+        "St.Beatus-Höhlen"@en ;
+    ossp:P2 osss:Q282-739D6AF3-56ED-5675-9712-C4F3A1395690 ;
+    ossp:P100 osss:Q282-0D681B0F-D4E0-529D-BD82-1E0A5937BA21 ;
+    ossp:P101 osss:Q282-1F095DB0-68C1-5894-80F3-E0EFDA28FC36,
+        osss:Q282-42CFC739-A306-5253-AF89-9B7D1B3C32E9,
+        osss:Q282-72C696F4-9DB1-57EA-B8E6-4C8BBE3CA91F,
+        osss:Q282-D5EF452D-8F01-51EC-A194-AC34EBB8F9E3,
+        osss:Q282-EDE3E778-4C65-58B8-88DE-73EFAFF5341D,
+        osss:Q282-F7BB52B0-A045-573C-8195-BD01A56B7771,
+        osss:Q282-FCE6CDDB-2826-53E7-9327-BC4920793710 ;
+    ossp:P107 osss:Q282-43C26917-BF5A-5BBC-9C99-F72E1809AE0A ;
+    ossp:P110 osss:Q282-3FE18F9E-F3DD-5952-B823-3E97C253B105 ;
+    ossp:P111 osss:Q282-A78CF08B-93E2-55A6-A84C-FA82B5A76A48,
+        osss:Q282-AFD338CF-9A3E-500E-A2F9-FACFF0FBA53D ;
+    ossp:P113 osss:Q282-3BFF64A2-A674-556A-A34D-A03FFF918D42,
+        osss:Q282-3CC76B5D-9B9D-501D-BAF4-220209D14893,
+        osss:Q282-5B66D1B3-23E5-514B-972B-9AF9F47964EB,
+        osss:Q282-5E7D476B-1AD2-5D98-B4D6-3E69AE122A55,
+        osss:Q282-8E268987-7DEB-5EF6-93F9-09C683CA979B,
+        osss:Q282-77E59547-9FC1-5A0D-AB9D-3D27725B96CB,
+        osss:Q282-85E377FF-1545-5B02-81AF-7C1B12862CFC,
+        osss:Q282-248CDCF2-9EE4-5F07-9A9E-9DE24074E908,
+        osss:Q282-A3B98BE6-1B43-5484-8D49-22C1CC7B2D02,
+        osss:Q282-BB30E6B9-120F-5943-A856-8812C0714529,
+        osss:Q282-F197BD48-11A5-5C93-9F48-BCB13B6FC85B ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/745919883> ;
+    osst:P101 <https://www.openstreetmap.org/node/745919883/history/7> ;
+    osst:P107 <https://www.openstreetmap.org/node/745919883/history/1> ;
+    osst:P110 "Point(7.7823068 46.6846706)"^^geo:wktLiteral ;
+    osst:P111 "POINT(7.7817965 46.6843915)",
+        "POINT(7.7823068 46.6846706)" ;
+    osst:P113 "addr:city=Sundlauenen",
+        "addr:country=CH",
+        "addr:postcode=3800",
+        "contact:phone=+41 33 841 16 43",
+        "contact:website=https://www.beatushoehlen.swiss/",
+        "name=St.Beatus-Höhlen",
+        "natural=cave_entrance",
+        "opening_hours=Mar-Oct Mo-Su 09:30-17:00",
+        "wheelchair=no",
+        "wikidata=Q664463",
+        "wikipedia=de:St. Beatus-Höhlen" .
+
+osss:Q282-0D681B0F-D4E0-529D-BD82-1E0A5937BA21
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/745919883> .
+
+osss:Q282-1F095DB0-68C1-5894-80F3-E0EFDA28FC36
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2025-07-06T06:46:05Z" ;
+    osspq:P104 "168547948" ;
+    osspq:P105 "Fjellrev" ;
+    osspq:P106 "674625" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/7> .
+
+osss:Q282-3BFF64A2-A674-556A-A34D-A03FFF918D42
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "wikidata=Q664463" .
+
+osss:Q282-3CC76B5D-9B9D-501D-BAF4-220209D14893
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "wikipedia=de:St. Beatus-Höhlen" .
+
+osss:Q282-3FE18F9E-F3DD-5952-B823-3E97C253B105
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P110 "Point(7.7823068 46.6846706)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:da0be4dc404b53647f3d65f247b4308f .
+
+osss:Q282-5B66D1B3-23E5-514B-972B-9AF9F47964EB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "addr:city=Sundlauenen" .
+
+osss:Q282-5E7D476B-1AD2-5D98-B4D6-3E69AE122A55
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "opening_hours=Mar-Oct Mo-Su 09:30-17:00" .
+
+osss:Q282-8E268987-7DEB-5EF6-93F9-09C683CA979B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q282-42CFC739-A306-5253-AF89-9B7D1B3C32E9
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-05-22T20:37:43Z" ;
+    osspq:P104 "4777928" ;
+    osspq:P105 "HB9DTX" ;
+    osspq:P106 "103273" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/1> .
+
+osss:Q282-43C26917-BF5A-5BBC-9C99-F72E1809AE0A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/745919883/history/1> .
+
+osss:Q282-72C696F4-9DB1-57EA-B8E6-4C8BBE3CA91F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2012-05-04T17:31:02Z" ;
+    osspq:P104 "11495336" ;
+    osspq:P105 "wheelmap_visitor" ;
+    osspq:P106 "290680" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/2> .
+
+osss:Q282-77E59547-9FC1-5A0D-AB9D-3D27725B96CB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "wheelchair=no" .
+
+osss:Q282-85E377FF-1545-5B02-81AF-7C1B12862CFC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "name=St.Beatus-Höhlen" .
+
+osss:Q282-248CDCF2-9EE4-5F07-9A9E-9DE24074E908
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "contact:phone=+41 33 841 16 43" .
+
+osss:Q282-739D6AF3-56ED-5675-9712-C4F3A1395690
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q282-A3B98BE6-1B43-5484-8D49-22C1CC7B2D02
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "contact:website=https://www.beatushoehlen.swiss/" .
+
+osss:Q282-A78CF08B-93E2-55A6-A84C-FA82B5A76A48
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.7823068 46.6846706)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c8b4190a3cde63afe04c0de012ef665bfd750813 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2014-04-21T20:17:58Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(7.7823068 46.6846706)" .
+
+osss:Q282-AFD338CF-9A3E-500E-A2F9-FACFF0FBA53D
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.7817965 46.6843915)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:06449441d2645e79b7fdecf64db3a959219fb621 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-05-22T20:37:43Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(7.7817965 46.6843915)" .
+
+osss:Q282-BB30E6B9-120F-5943-A856-8812C0714529
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "addr:postcode=3800" .
+
+osss:Q282-D5EF452D-8F01-51EC-A194-AC34EBB8F9E3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2015-01-19T20:24:10Z" ;
+    osspq:P104 "28262381" ;
+    osspq:P105 "x_fma_x" ;
+    osspq:P106 "131561" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/4> .
+
+osss:Q282-EDE3E778-4C65-58B8-88DE-73EFAFF5341D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2014-04-21T20:17:58Z" ;
+    osspq:P104 "21848322" ;
+    osspq:P105 "mocoohay" ;
+    osspq:P106 "126246" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/3> .
+
+osss:Q282-F7BB52B0-A045-573C-8195-BD01A56B7771
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2015-11-26T16:48:05Z" ;
+    osspq:P104 "35595206" ;
+    osspq:P105 "whellmut" ;
+    osspq:P106 "513434" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/5> .
+
+osss:Q282-F197BD48-11A5-5C93-9F48-BCB13B6FC85B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa ;
+    ossps:P113 "addr:country=CH" .
+
+osss:Q282-FCE6CDDB-2826-53E7-9327-BC4920793710
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2021-07-27T20:48:33Z" ;
+    osspq:P104 "108708601" ;
+    osspq:P105 "romanh" ;
+    osspq:P106 "151069" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/745919883/history/6> .
+
+ossref:7a4c76569774dfec81f6e9fe2c48f887dc306faa
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/745919883/history/7> .
+
+ossref:06449441d2645e79b7fdecf64db3a959219fb621
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/745919883/history/1> .
+
+ossref:c8b4190a3cde63afe04c0de012ef665bfd750813
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/745919883/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:da0be4dc404b53647f3d65f247b4308f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "46.6846706"^^xsd:double ;
+    wikibase:geoLongitude "7.7823068"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

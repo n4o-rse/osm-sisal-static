@@ -1,0 +1,198 @@
+# Q214: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q214.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4100771303)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4100771303)"@de ;
+    dcterms:identifier "Q214" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q214 ;
+    dcterms:title "Elephant Cave"@de,
+        "Elephant Cave"@en ;
+    schema:about oss:Q214 ;
+    dcat:distribution ossdist:Q214-html,
+        ossdist:Q214-json,
+        ossdist:Q214-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q214.html> .
+
+ossdist:Q214-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q214, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q214.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q214-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q214, as archived from the Wikibase API"@en ;
+    dcat:byteSize "9761"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q214.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q214-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q214, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q214.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q214
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4100771303)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4100771303)"@de ;
+    schema:name "Elephant Cave"@de,
+        "Elephant Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "9"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q214-3E54B531-A3C5-5CC3-98F9-297DE37CE26B ;
+    geo:hasGeometry osss:Q214-3E54B531-A3C5-5CC3-98F9-297DE37CE26B ;
+    rdfs:label "Elephant Cave"@de,
+        "Elephant Cave"@en ;
+    skos:prefLabel "Elephant Cave"@de,
+        "Elephant Cave"@en ;
+    ossp:P2 osss:Q214-880347D7-6E84-5049-9B33-11BF77DECEF5 ;
+    ossp:P100 osss:Q214-BCD866D2-D269-5631-93AD-CFD8DD714ED5 ;
+    ossp:P101 osss:Q214-97DA8B52-7AF0-52E8-B20F-9AB825C86CE1 ;
+    ossp:P107 osss:Q214-D49F92A3-DD56-5F5F-B8E8-568AA2865864 ;
+    ossp:P110 osss:Q214-91EBC8CA-F0D8-5A08-8722-27D9F6639915 ;
+    ossp:P111 osss:Q214-3E54B531-A3C5-5CC3-98F9-297DE37CE26B ;
+    ossp:P113 osss:Q214-53D3A386-32E4-5DAE-9E5F-119BACD0CB1D,
+        osss:Q214-A6BE0C1D-F777-567E-8751-CBFD8DDC3FC5,
+        osss:Q214-D2752DBA-50CB-5D5D-8500-461AE79513E6 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4100771303> ;
+    osst:P101 <https://www.openstreetmap.org/node/4100771303/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/4100771303/history/1> ;
+    osst:P110 "Point(118.8685451 10.1419213)"^^geo:wktLiteral ;
+    osst:P111 "POINT(118.8685451 10.1419213)" ;
+    osst:P113 "name=Elephant Cave",
+        "natural=cave_entrance",
+        "tourism=attraction" .
+
+osss:Q214-3E54B531-A3C5-5CC3-98F9-297DE37CE26B
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(118.8685451 10.1419213)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:492e9d6a829fa27419bcfc5939ed823c4a4feb75 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-04-05T22:27:00Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(118.8685451 10.1419213)" .
+
+osss:Q214-53D3A386-32E4-5DAE-9E5F-119BACD0CB1D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:492e9d6a829fa27419bcfc5939ed823c4a4feb75 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q214-91EBC8CA-F0D8-5A08-8722-27D9F6639915
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:492e9d6a829fa27419bcfc5939ed823c4a4feb75 ;
+    ossps:P110 "Point(118.8685451 10.1419213)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:be3ed9d87fd29eb081c572da6dfe182e .
+
+osss:Q214-97DA8B52-7AF0-52E8-B20F-9AB825C86CE1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-04-05T22:27:00Z" ;
+    osspq:P104 "38333719" ;
+    osspq:P105 "peregrination" ;
+    osspq:P106 "486343" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4100771303/history/1> .
+
+osss:Q214-880347D7-6E84-5049-9B33-11BF77DECEF5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q214-A6BE0C1D-F777-567E-8751-CBFD8DDC3FC5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:492e9d6a829fa27419bcfc5939ed823c4a4feb75 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q214-BCD866D2-D269-5631-93AD-CFD8DD714ED5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4100771303> .
+
+osss:Q214-D49F92A3-DD56-5F5F-B8E8-568AA2865864
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4100771303/history/1> .
+
+osss:Q214-D2752DBA-50CB-5D5D-8500-461AE79513E6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:492e9d6a829fa27419bcfc5939ed823c4a4feb75 ;
+    ossps:P113 "name=Elephant Cave" .
+
+ossref:492e9d6a829fa27419bcfc5939ed823c4a4feb75
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4100771303/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:be3ed9d87fd29eb081c572da6dfe182e
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "10.1419213"^^xsd:double ;
+    wikibase:geoLongitude "118.8685451"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

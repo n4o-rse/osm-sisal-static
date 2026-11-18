@@ -1,0 +1,234 @@
+# Q141: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q141.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 12497973563)"@en,
+        "Höhenmarke (OpenStreetMap-Node 12497973563)"@de ;
+    dcterms:identifier "Q141" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q141 ;
+    dcterms:title "Grotte Tizi Maghlaz"@de,
+        "Grotte Tizi Maghlaz"@en ;
+    schema:about oss:Q141 ;
+    dcat:distribution ossdist:Q141-html,
+        ossdist:Q141-json,
+        ossdist:Q141-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q141.html> .
+
+ossdist:Q141-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q141, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q141.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q141-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q141, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13341"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q141.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q141-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q141, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q141.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q141
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 12497973563)"@en,
+        "Höhenmarke (OpenStreetMap-Node 12497973563)"@de ;
+    schema:name "Grotte Tizi Maghlaz"@de,
+        "Grotte Tizi Maghlaz"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q141-2D89C332-B600-5894-9FA6-BB2C00A1AC69 ;
+    geo:hasGeometry osss:Q141-2D89C332-B600-5894-9FA6-BB2C00A1AC69 ;
+    rdfs:label "Grotte Tizi Maghlaz"@de,
+        "Grotte Tizi Maghlaz"@en ;
+    skos:prefLabel "Grotte Tizi Maghlaz"@de,
+        "Grotte Tizi Maghlaz"@en ;
+    ossp:P2 osss:Q141-52367908-3FA0-59EA-A18E-B49B8E8AC301 ;
+    ossp:P100 osss:Q141-8912A7EC-D60C-5143-A731-05F214EAD8B6 ;
+    ossp:P101 osss:Q141-C83FD630-8120-58F7-AF86-0CB571F28B34 ;
+    ossp:P107 osss:Q141-EEC884FD-DF87-597F-AC0A-71CB5E42731E ;
+    ossp:P110 osss:Q141-96A5FB49-EBEF-53D9-943A-C2A8AD5D4075 ;
+    ossp:P111 osss:Q141-2D89C332-B600-5894-9FA6-BB2C00A1AC69 ;
+    ossp:P113 osss:Q141-0BAA540C-6A1F-5885-84B4-407876D26C54,
+        osss:Q141-05FF7019-DAC9-5901-A50A-B6058FAE72C8,
+        osss:Q141-22A8F873-996C-56C3-B608-DFDAFBB485A7,
+        osss:Q141-B657666B-22E3-5A08-88BC-8EEA94889CFC,
+        osss:Q141-BC385051-2A93-5D88-91E4-0E7880E14309,
+        osss:Q141-C4D52A74-F44B-5AA6-91EC-5820CB3AF114,
+        osss:Q141-CB98AF17-128E-5E50-96C5-1F894274CF09 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/12497973563> ;
+    osst:P101 <https://www.openstreetmap.org/node/12497973563/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/12497973563/history/1> ;
+    osst:P110 "Point(4.5382419 36.5479505)"^^geo:wktLiteral ;
+    osst:P111 "POINT(4.5382419 36.5479505)" ;
+    osst:P113 "access=yes",
+        "direction=180",
+        "fee=yes",
+        "name:ar=مغارة تيزي مغلاز",
+        "name:fr=Grotte Tizi Maghlaz",
+        "name=Grotte Tizi Maghlaz",
+        "natural=cave_entrance" .
+
+osss:Q141-0BAA540C-6A1F-5885-84B4-407876D26C54
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "fee=yes" .
+
+osss:Q141-2D89C332-B600-5894-9FA6-BB2C00A1AC69
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(4.5382419 36.5479505)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2025-01-13T12:57:18Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(4.5382419 36.5479505)" .
+
+osss:Q141-05FF7019-DAC9-5901-A50A-B6058FAE72C8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "direction=180" .
+
+osss:Q141-22A8F873-996C-56C3-B608-DFDAFBB485A7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "access=yes" .
+
+osss:Q141-96A5FB49-EBEF-53D9-943A-C2A8AD5D4075
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P110 "Point(4.5382419 36.5479505)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:a4e635c4d32c79701be3f5147cbf30a9 .
+
+osss:Q141-8912A7EC-D60C-5143-A731-05F214EAD8B6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/12497973563> .
+
+osss:Q141-52367908-3FA0-59EA-A18E-B49B8E8AC301
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q141-B657666B-22E3-5A08-88BC-8EEA94889CFC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "name:fr=Grotte Tizi Maghlaz" .
+
+osss:Q141-BC385051-2A93-5D88-91E4-0E7880E14309
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q141-C4D52A74-F44B-5AA6-91EC-5820CB3AF114
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "name:ar=مغارة تيزي مغلاز" .
+
+osss:Q141-C83FD630-8120-58F7-AF86-0CB571F28B34
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2025-01-13T12:57:18Z" ;
+    osspq:P104 "161308755" ;
+    osspq:P105 "hendasa" ;
+    osspq:P106 "417347" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/12497973563/history/1> .
+
+osss:Q141-CB98AF17-128E-5E50-96C5-1F894274CF09
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c ;
+    ossps:P113 "name=Grotte Tizi Maghlaz" .
+
+osss:Q141-EEC884FD-DF87-597F-AC0A-71CB5E42731E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/12497973563/history/1> .
+
+ossref:798e2d6e6e602a04682e9d377be5d6f2d51c3f2c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/12497973563/history/1> .
+
+ossv:a4e635c4d32c79701be3f5147cbf30a9
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "36.5479505"^^xsd:double ;
+    wikibase:geoLongitude "4.5382419"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

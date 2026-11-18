@@ -1,0 +1,216 @@
+# Q144: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q144.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 12879668276)"@en,
+        "Höhenmarke (OpenStreetMap-Node 12879668276)"@de ;
+    dcterms:identifier "Q144" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q144 ;
+    dcterms:title "Eretsloch"@de,
+        "Eretsloch"@en ;
+    schema:about oss:Q144 ;
+    dcat:distribution ossdist:Q144-html,
+        ossdist:Q144-json,
+        ossdist:Q144-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q144.html> .
+
+ossdist:Q144-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q144, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q144.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q144-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q144, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11561"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q144.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q144-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q144, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q144.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q144
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 12879668276)"@en,
+        "Höhenmarke (OpenStreetMap-Node 12879668276)"@de ;
+    schema:name "Eretsloch"@de,
+        "Eretsloch"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q144-C2FA32FA-2AB3-5141-919F-423370163D78 ;
+    geo:hasGeometry osss:Q144-C2FA32FA-2AB3-5141-919F-423370163D78 ;
+    rdfs:label "Eretsloch"@de,
+        "Eretsloch"@en ;
+    skos:prefLabel "Eretsloch"@de,
+        "Eretsloch"@en ;
+    ossp:P2 osss:Q144-9AAE879F-4CBC-5209-8BB6-90F691FEDF40 ;
+    ossp:P100 osss:Q144-C6EBD5EC-10BD-5865-9A47-555A5C0C27BC ;
+    ossp:P101 osss:Q144-38ABBCE4-FB70-5932-AD1D-DED539FBAA60 ;
+    ossp:P107 osss:Q144-E43300A3-39B7-5429-BCB9-F1C7A4E8E1AD ;
+    ossp:P110 osss:Q144-1B52EC47-23E0-5386-9E77-C52F029EF530 ;
+    ossp:P111 osss:Q144-C2FA32FA-2AB3-5141-919F-423370163D78 ;
+    ossp:P113 osss:Q144-3E40B078-34F2-5D35-BFDC-2A3E205B816B,
+        osss:Q144-9A077E6F-0E40-5905-A7F8-B065BDAB3436,
+        osss:Q144-009FE9B6-1D69-5C66-8061-0F6CDF735A0A,
+        osss:Q144-753FCEAF-8A1F-5B61-AE55-60A7B470859A,
+        osss:Q144-FA0F06D8-483B-55ED-B112-97DBEE064391 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/12879668276> ;
+    osst:P101 <https://www.openstreetmap.org/node/12879668276/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/12879668276/history/1> ;
+    osst:P110 "Point(9.6540024 46.9699458)"^^geo:wktLiteral ;
+    osst:P111 "POINT(9.6540024 46.9699458)" ;
+    osst:P113 "access=yes",
+        "fee=no",
+        "name=Eretsloch",
+        "natural=cave_entrance",
+        "website=https://www.praettigau.info/de/ausflugsziele/eretsloch-gruesch" .
+
+osss:Q144-1B52EC47-23E0-5386-9E77-C52F029EF530
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    ossps:P110 "Point(9.6540024 46.9699458)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:014c246f760f5f0f0f110e7b1c76b769 .
+
+osss:Q144-3E40B078-34F2-5D35-BFDC-2A3E205B816B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    ossps:P113 "fee=no" .
+
+osss:Q144-9A077E6F-0E40-5905-A7F8-B065BDAB3436
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    ossps:P113 "name=Eretsloch" .
+
+osss:Q144-9AAE879F-4CBC-5209-8BB6-90F691FEDF40
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q144-009FE9B6-1D69-5C66-8061-0F6CDF735A0A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    ossps:P113 "website=https://www.praettigau.info/de/ausflugsziele/eretsloch-gruesch" .
+
+osss:Q144-38ABBCE4-FB70-5932-AD1D-DED539FBAA60
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2025-06-01T21:24:27Z" ;
+    osspq:P104 "167068363" ;
+    osspq:P105 "Heloks" ;
+    osspq:P106 "11582591" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/12879668276/history/1> .
+
+osss:Q144-753FCEAF-8A1F-5B61-AE55-60A7B470859A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    ossps:P113 "access=yes" .
+
+osss:Q144-C2FA32FA-2AB3-5141-919F-423370163D78
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(9.6540024 46.9699458)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2025-06-01T21:24:27Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(9.6540024 46.9699458)" .
+
+osss:Q144-C6EBD5EC-10BD-5865-9A47-555A5C0C27BC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/12879668276> .
+
+osss:Q144-E43300A3-39B7-5429-BCB9-F1C7A4E8E1AD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/12879668276/history/1> .
+
+osss:Q144-FA0F06D8-483B-55ED-B112-97DBEE064391
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:589266b66a54a2b4a5f541cb604cc56d6f544e5b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/12879668276/history/1> .
+
+ossv:014c246f760f5f0f0f110e7b1c76b769
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "46.9699458"^^xsd:double ;
+    wikibase:geoLongitude "9.6540024"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

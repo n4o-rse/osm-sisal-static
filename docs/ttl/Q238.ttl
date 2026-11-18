@@ -1,0 +1,189 @@
+# Q238: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q238.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4998330664)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4998330664)"@de ;
+    dcterms:identifier "Q238" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q238 ;
+    dcterms:title "Bjurälvsgrottan"@de,
+        "Bjurälvsgrottan"@en ;
+    schema:about oss:Q238 ;
+    dcat:distribution ossdist:Q238-html,
+        ossdist:Q238-json,
+        ossdist:Q238-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q238.html> .
+
+ossdist:Q238-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q238, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q238.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q238-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q238, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8875"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q238.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q238-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q238, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q238.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q238
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4998330664)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4998330664)"@de ;
+    schema:name "Bjurälvsgrottan"@de,
+        "Bjurälvsgrottan"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q238-3811C96E-1FBC-583C-84CB-374E352F7CFA ;
+    geo:hasGeometry osss:Q238-3811C96E-1FBC-583C-84CB-374E352F7CFA ;
+    rdfs:label "Bjurälvsgrottan"@de,
+        "Bjurälvsgrottan"@en ;
+    skos:prefLabel "Bjurälvsgrottan"@de,
+        "Bjurälvsgrottan"@en ;
+    ossp:P2 osss:Q238-771DE213-993A-5E43-BEAD-991584F3787C ;
+    ossp:P100 osss:Q238-18808576-5913-5F45-9497-E690C4505B59 ;
+    ossp:P101 osss:Q238-7B8C1CAC-4BBD-5BEF-914E-11DBE5481FBB ;
+    ossp:P107 osss:Q238-FFED7F79-3EE6-55B1-AF15-7F1780BB33AD ;
+    ossp:P110 osss:Q238-80338B3B-C9EE-5B94-8741-3F1F774E31F0 ;
+    ossp:P111 osss:Q238-3811C96E-1FBC-583C-84CB-374E352F7CFA ;
+    ossp:P113 osss:Q238-14B3357C-BFCD-5FE8-912F-1A4AE614BD9F,
+        osss:Q238-56DD42B2-5738-5D1E-99EA-1AE40240EB26 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4998330664> ;
+    osst:P101 <https://www.openstreetmap.org/node/4998330664/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/4998330664/history/1> ;
+    osst:P110 "Point(14.0560412 64.9114435)"^^geo:wktLiteral ;
+    osst:P111 "POINT(14.0560412 64.9114435)" ;
+    osst:P113 "name=Bjurälvsgrottan",
+        "natural=cave_entrance" .
+
+osss:Q238-7B8C1CAC-4BBD-5BEF-914E-11DBE5481FBB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-07-27T19:28:37Z" ;
+    osspq:P104 "50629500" ;
+    osspq:P105 "AndreasE" ;
+    osspq:P106 "111689" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4998330664/history/1> .
+
+osss:Q238-14B3357C-BFCD-5FE8-912F-1A4AE614BD9F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2e856bd1e5d4ea5daf518a958b1cb613cd335f6b ;
+    ossps:P113 "name=Bjurälvsgrottan" .
+
+osss:Q238-56DD42B2-5738-5D1E-99EA-1AE40240EB26
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2e856bd1e5d4ea5daf518a958b1cb613cd335f6b ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q238-771DE213-993A-5E43-BEAD-991584F3787C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q238-3811C96E-1FBC-583C-84CB-374E352F7CFA
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(14.0560412 64.9114435)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:2e856bd1e5d4ea5daf518a958b1cb613cd335f6b ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-07-27T19:28:37Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(14.0560412 64.9114435)" .
+
+osss:Q238-80338B3B-C9EE-5B94-8741-3F1F774E31F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:2e856bd1e5d4ea5daf518a958b1cb613cd335f6b ;
+    ossps:P110 "Point(14.0560412 64.9114435)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:af5b3583133f41c69cd0922280285b50 .
+
+osss:Q238-18808576-5913-5F45-9497-E690C4505B59
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4998330664> .
+
+osss:Q238-FFED7F79-3EE6-55B1-AF15-7F1780BB33AD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4998330664/history/1> .
+
+ossref:2e856bd1e5d4ea5daf518a958b1cb613cd335f6b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4998330664/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:af5b3583133f41c69cd0922280285b50
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "64.9114435"^^xsd:double ;
+    wikibase:geoLongitude "14.0560412"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

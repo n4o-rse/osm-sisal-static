@@ -1,0 +1,315 @@
+# Q253: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q253.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 558629070)"@en,
+        "Höhenmarke (OpenStreetMap-Node 558629070)"@de ;
+    dcterms:identifier "Q253" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q253 ;
+    dcterms:title "Cueva el Pindal"@de,
+        "Cueva el Pindal"@en ;
+    schema:about oss:Q253 ;
+    dcat:distribution ossdist:Q253-html,
+        ossdist:Q253-json,
+        ossdist:Q253-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q253.html> .
+
+ossdist:Q253-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q253, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q253.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q253-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q253, as archived from the Wikibase API"@en ;
+    dcat:byteSize "22454"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q253.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q253-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q253, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q253.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q253
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 558629070)"@en,
+        "Höhenmarke (OpenStreetMap-Node 558629070)"@de ;
+    schema:name "Cueva el Pindal"@de,
+        "Cueva el Pindal"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "18"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q253-5A1DA221-D110-5148-9B6F-4788197254D3 ;
+    geo:hasGeometry osss:Q253-5A1DA221-D110-5148-9B6F-4788197254D3 ;
+    rdfs:label "Cueva el Pindal"@de,
+        "Cueva el Pindal"@en ;
+    skos:prefLabel "Cueva el Pindal"@de,
+        "Cueva el Pindal"@en ;
+    ossp:P2 osss:Q253-1B9FE483-3064-59B6-A01C-2D30D006C696 ;
+    ossp:P100 osss:Q253-2AFD87DA-4E45-55E5-B783-DACBD02E2277 ;
+    ossp:P101 osss:Q253-6A23559C-9968-5045-B0B4-3AA7D46A74D6,
+        osss:Q253-40B07F06-FB99-5BF5-8F50-4A213E5FE9E7,
+        osss:Q253-071DF8ED-A817-5EB6-9ADD-D57E26593DF6,
+        osss:Q253-1727B83C-E0E1-57E4-8885-822D0BBD9FD5,
+        osss:Q253-E915001F-A1AE-5BB0-B25C-02E75EC27FC6 ;
+    ossp:P107 osss:Q253-F9C0ABCB-C47D-5856-8494-68125A429918 ;
+    ossp:P110 osss:Q253-3BF7DD26-0305-52B1-84B4-BDB1E330D862 ;
+    ossp:P111 osss:Q253-5A1DA221-D110-5148-9B6F-4788197254D3 ;
+    ossp:P113 osss:Q253-3A6D9476-1AF5-50EA-B361-EF2C01F4F441,
+        osss:Q253-5F1EB7B1-6837-5B90-8F89-8E3196E6B97E,
+        osss:Q253-042D81B8-0B2E-544D-A802-A3D164B5B387,
+        osss:Q253-56786EDF-88C0-5562-B5EA-3745B8FBC854,
+        osss:Q253-89348C84-1221-5CD6-B1FF-58EDE1525B47,
+        osss:Q253-A922EABC-1B03-5CAA-9A85-8003B430A5C2,
+        osss:Q253-ADF3B9B0-0119-594C-A2A7-85CB00482F58,
+        osss:Q253-DFE093A7-1B83-5744-B856-374DA5CB6E67 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/558629070> ;
+    osst:P101 <https://www.openstreetmap.org/node/558629070/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/558629070/history/3> ;
+    osst:P110 "Point(-4.5329511 43.3975847)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-4.5329511 43.3975847)" ;
+    osst:P113 "fee=yes",
+        "geological=palaeontological_site",
+        "historic=archaeological_site",
+        "name=Cueva el Pindal",
+        "natural=cave_entrance",
+        "tourism=attraction",
+        "wikidata=Q555011",
+        "wikipedia=es:Cueva del Pindal" .
+
+osss:Q253-1B9FE483-3064-59B6-A01C-2D30D006C696
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q253-2AFD87DA-4E45-55E5-B783-DACBD02E2277
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/558629070> .
+
+osss:Q253-3A6D9476-1AF5-50EA-B361-EF2C01F4F441
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "wikipedia=es:Cueva del Pindal" .
+
+osss:Q253-3BF7DD26-0305-52B1-84B4-BDB1E330D862
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P110 "Point(-4.5329511 43.3975847)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:a8a0a9ac367eb357c09aa366e82ed21a .
+
+osss:Q253-5A1DA221-D110-5148-9B6F-4788197254D3
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.5329511 43.3975847)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:125092406e22706e94a9642df3c662e733561ccf ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-11-06T22:48:14Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-4.5329511 43.3975847)" .
+
+osss:Q253-5F1EB7B1-6837-5B90-8F89-8E3196E6B97E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "wikidata=Q555011" .
+
+osss:Q253-6A23559C-9968-5045-B0B4-3AA7D46A74D6
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2013-01-14T18:31:11Z" ;
+    osspq:P104 "14651656" ;
+    osspq:P105 "Jesús Gómez" ;
+    osspq:P106 "6389" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/558629070/history/2> .
+
+osss:Q253-40B07F06-FB99-5BF5-8F50-4A213E5FE9E7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2017-09-24T23:49:33Z" ;
+    osspq:P104 "52341394" ;
+    osspq:P105 "nyuriks" ;
+    osspq:P106 "339581" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/558629070/history/5> .
+
+osss:Q253-042D81B8-0B2E-544D-A802-A3D164B5B387
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "geological=palaeontological_site" .
+
+osss:Q253-071DF8ED-A817-5EB6-9ADD-D57E26593DF6
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2017-09-19T12:44:25Z" ;
+    osspq:P104 "52177433" ;
+    osspq:P105 "bermiego" ;
+    osspq:P106 "3699758" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/558629070/history/4> .
+
+osss:Q253-1727B83C-E0E1-57E4-8885-822D0BBD9FD5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-11-06T22:48:14Z" ;
+    osspq:P104 "3052442" ;
+    osspq:P105 "Mot" ;
+    osspq:P106 "79583" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/558629070/history/1> .
+
+osss:Q253-56786EDF-88C0-5562-B5EA-3745B8FBC854
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q253-89348C84-1221-5CD6-B1FF-58EDE1525B47
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "name=Cueva el Pindal" .
+
+osss:Q253-A922EABC-1B03-5CAA-9A85-8003B430A5C2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q253-ADF3B9B0-0119-594C-A2A7-85CB00482F58
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "historic=archaeological_site" .
+
+osss:Q253-DFE093A7-1B83-5744-B856-374DA5CB6E67
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q253-E915001F-A1AE-5BB0-B25C-02E75EC27FC6
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2016-09-01T00:00:34Z" ;
+    osspq:P104 "41838612" ;
+    osspq:P105 "Xuacu" ;
+    osspq:P106 "7045" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/558629070/history/3> .
+
+osss:Q253-F9C0ABCB-C47D-5856-8494-68125A429918
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/558629070/history/3> .
+
+ossref:5d6c6e891b959bbaf150711f24a8aee308049ca3
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/558629070/history/5> .
+
+ossref:125092406e22706e94a9642df3c662e733561ccf
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/558629070/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:a8a0a9ac367eb357c09aa366e82ed21a
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "43.3975847"^^xsd:double ;
+    wikibase:geoLongitude "-4.5329511"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

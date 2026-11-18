@@ -1,0 +1,189 @@
+# Q179: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q179.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2510360072)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2510360072)"@de ;
+    dcterms:identifier "Q179" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q179 ;
+    dcterms:title "Anjohibe"@de,
+        "Anjohibe"@en ;
+    schema:about oss:Q179 ;
+    dcat:distribution ossdist:Q179-html,
+        ossdist:Q179-json,
+        ossdist:Q179-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q179.html> .
+
+ossdist:Q179-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q179, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q179.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q179-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q179, as archived from the Wikibase API"@en ;
+    dcat:byteSize "8850"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q179.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q179-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q179, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q179.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q179
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2510360072)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2510360072)"@de ;
+    schema:name "Anjohibe"@de,
+        "Anjohibe"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "8"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q179-15588701-F691-5525-A66C-048C83F5A928 ;
+    geo:hasGeometry osss:Q179-15588701-F691-5525-A66C-048C83F5A928 ;
+    rdfs:label "Anjohibe"@de,
+        "Anjohibe"@en ;
+    skos:prefLabel "Anjohibe"@de,
+        "Anjohibe"@en ;
+    ossp:P2 osss:Q179-A0ECEFEA-41B3-51D6-B267-23808871888A ;
+    ossp:P100 osss:Q179-DD28CD53-C6A1-5BFF-9A23-AB37D7512A58 ;
+    ossp:P101 osss:Q179-7F2FF77B-F8BE-5705-865B-3A94500E2356 ;
+    ossp:P107 osss:Q179-F96F5128-260E-5028-BB96-BAA47B3C78D1 ;
+    ossp:P110 osss:Q179-218E972C-B811-5953-AE2D-2F67E88F95C8 ;
+    ossp:P111 osss:Q179-15588701-F691-5525-A66C-048C83F5A928 ;
+    ossp:P113 osss:Q179-84977AE6-FD0C-590A-980B-3517D7D473D2,
+        osss:Q179-A2F1775A-4F04-5D7E-8B7F-7A81965A293B ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2510360072> ;
+    osst:P101 <https://www.openstreetmap.org/node/2510360072/history/1> ;
+    osst:P107 <https://www.openstreetmap.org/node/2510360072/history/1> ;
+    osst:P110 "Point(46.8853815 -15.5422892)"^^geo:wktLiteral ;
+    osst:P111 "POINT(46.8853815 -15.5422892)" ;
+    osst:P113 "name=Anjohibe",
+        "natural=cave_entrance" .
+
+osss:Q179-7F2FF77B-F8BE-5705-865B-3A94500E2356
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-10-27T14:04:06Z" ;
+    osspq:P104 "18566364" ;
+    osspq:P105 "Eric S" ;
+    osspq:P106 "45284" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2510360072/history/1> .
+
+osss:Q179-218E972C-B811-5953-AE2D-2F67E88F95C8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:36c7f3da089e75208e77b5a736b81ceac53abdce ;
+    ossps:P110 "Point(46.8853815 -15.5422892)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:0c3b307b9319af3b6500bd4bd97252e9 .
+
+osss:Q179-84977AE6-FD0C-590A-980B-3517D7D473D2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:36c7f3da089e75208e77b5a736b81ceac53abdce ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q179-15588701-F691-5525-A66C-048C83F5A928
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(46.8853815 -15.5422892)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:36c7f3da089e75208e77b5a736b81ceac53abdce ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-10-27T14:04:06Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(46.8853815 -15.5422892)" .
+
+osss:Q179-A0ECEFEA-41B3-51D6-B267-23808871888A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q179-A2F1775A-4F04-5D7E-8B7F-7A81965A293B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:36c7f3da089e75208e77b5a736b81ceac53abdce ;
+    ossps:P113 "name=Anjohibe" .
+
+osss:Q179-DD28CD53-C6A1-5BFF-9A23-AB37D7512A58
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2510360072> .
+
+osss:Q179-F96F5128-260E-5028-BB96-BAA47B3C78D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2510360072/history/1> .
+
+ossref:36c7f3da089e75208e77b5a736b81ceac53abdce
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2510360072/history/1> .
+
+ossv:0c3b307b9319af3b6500bd4bd97252e9
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-15.5422892"^^xsd:double ;
+    wikibase:geoLongitude "46.8853815"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

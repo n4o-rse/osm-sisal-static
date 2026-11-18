@@ -1,0 +1,289 @@
+# Q166: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q166.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 1961032052)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1961032052)"@de ;
+    dcterms:identifier "Q166" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q166 ;
+    dcterms:title "Cova Meravelles"@de,
+        "Cova Meravelles"@en ;
+    schema:about oss:Q166 ;
+    dcat:distribution ossdist:Q166-html,
+        ossdist:Q166-json,
+        ossdist:Q166-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q166.html> .
+
+ossdist:Q166-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q166, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q166.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q166-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q166, as archived from the Wikibase API"@en ;
+    dcat:byteSize "19701"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q166.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q166-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q166, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q166.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q166
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 1961032052)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1961032052)"@de ;
+    schema:name "Cova Meravelles"@de,
+        "Cova Meravelles"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "14"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q166-A95A1E28-AE24-5A9E-8915-5223336EA233 ;
+    geo:hasGeometry osss:Q166-1FBB42A0-B56D-5DE0-94AB-088844560782,
+        osss:Q166-A95A1E28-AE24-5A9E-8915-5223336EA233 ;
+    rdfs:label "Cova Meravelles"@de,
+        "Cova Meravelles"@en ;
+    skos:prefLabel "Cova Meravelles"@de,
+        "Cova Meravelles"@en ;
+    ossp:P2 osss:Q166-FC429A4C-E6C5-5689-BC44-83898C4C6F9C ;
+    ossp:P100 osss:Q166-98ED8470-6123-5D2A-839F-BE06C9F7AC58 ;
+    ossp:P101 osss:Q166-32523B94-44FF-5776-B0F0-5F01EE039681,
+        osss:Q166-9604428B-AA2E-51FB-8436-3B3CE4DF860C,
+        osss:Q166-D0BCBAE1-CB9C-533A-8C72-B052112DEACA,
+        osss:Q166-D507D061-146F-572D-85C8-A3C0CEA6A611,
+        osss:Q166-EF6A26A0-7982-54ED-A136-6D4BE33D9E6C ;
+    ossp:P107 osss:Q166-05E130D2-B1F6-5542-AA5C-2DE300E40CC4 ;
+    ossp:P110 osss:Q166-68DDB7A5-7987-5B0A-8B0D-363F8A563D8F ;
+    ossp:P111 osss:Q166-1FBB42A0-B56D-5DE0-94AB-088844560782,
+        osss:Q166-A95A1E28-AE24-5A9E-8915-5223336EA233 ;
+    ossp:P113 osss:Q166-66C4568D-7721-59B8-A780-239744D4615B,
+        osss:Q166-377D30FA-AB5E-5481-BEE8-AD72337C38F4,
+        osss:Q166-A0B658B5-EEB5-5FF7-BFE9-5B27860A4DBD ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/1961032052> ;
+    osst:P101 <https://www.openstreetmap.org/node/1961032052/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/1961032052/history/2> ;
+    osst:P110 "Point(0.5110749 40.9499921)"^^geo:wktLiteral ;
+    osst:P111 "POINT(0.5110749 40.9499921)",
+        "POINT(0.5128491 40.9489505)" ;
+    osst:P113 "name:ca=Cova Meravelles",
+        "name=Cova Meravelles",
+        "natural=cave_entrance" .
+
+osss:Q166-1FBB42A0-B56D-5DE0-94AB-088844560782
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(0.5128491 40.9489505)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:bdc779fec669d173d362aa4e58045c4078e6f9bf ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2012-10-12T17:50:51Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(0.5128491 40.9489505)" .
+
+osss:Q166-05E130D2-B1F6-5542-AA5C-2DE300E40CC4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/1961032052/history/2> .
+
+osss:Q166-66C4568D-7721-59B8-A780-239744D4615B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:285b2e4c16cfcd27ddc0fb6e697f012d29ff9ae1 ;
+    ossps:P113 "name=Cova Meravelles" .
+
+osss:Q166-68DDB7A5-7987-5B0A-8B0D-363F8A563D8F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:285b2e4c16cfcd27ddc0fb6e697f012d29ff9ae1 ;
+    ossps:P110 "Point(0.5110749 40.9499921)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:75e7f96bc1bd2300c4dcbb3ce13f55e2 .
+
+osss:Q166-98ED8470-6123-5D2A-839F-BE06C9F7AC58
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/1961032052> .
+
+osss:Q166-377D30FA-AB5E-5481-BEE8-AD72337C38F4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:285b2e4c16cfcd27ddc0fb6e697f012d29ff9ae1 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q166-32523B94-44FF-5776-B0F0-5F01EE039681
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2022-11-26T02:36:44Z" ;
+    osspq:P104 "129387823" ;
+    osspq:P105 "jmaspons" ;
+    osspq:P106 "11725140" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/1961032052/history/5> .
+
+osss:Q166-9604428B-AA2E-51FB-8436-3B3CE4DF860C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2018-10-17T16:36:43Z" ;
+    osspq:P104 "63617384" ;
+    osspq:P105 "user_1897806" ;
+    osspq:P106 "1897806" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/1961032052/history/4> .
+
+osss:Q166-A0B658B5-EEB5-5FF7-BFE9-5B27860A4DBD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:285b2e4c16cfcd27ddc0fb6e697f012d29ff9ae1 ;
+    ossps:P113 "name:ca=Cova Meravelles" .
+
+osss:Q166-A95A1E28-AE24-5A9E-8915-5223336EA233
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(0.5110749 40.9499921)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:20eb3e3dd249d4b47b8a6105bd922e2ebd91718a ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2018-10-17T16:36:43Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(0.5110749 40.9499921)" .
+
+osss:Q166-D0BCBAE1-CB9C-533A-8C72-B052112DEACA
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2016-08-07T17:36:48Z" ;
+    osspq:P104 "41308779" ;
+    osspq:P105 "KonfrareAlbert" ;
+    osspq:P106 "523522" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1961032052/history/3> .
+
+osss:Q166-D507D061-146F-572D-85C8-A3C0CEA6A611
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2012-10-12T17:50:51Z" ;
+    osspq:P104 "13470040" ;
+    osspq:P105 "fin-fastfox" ;
+    osspq:P106 "637319" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1961032052/history/1> .
+
+osss:Q166-EF6A26A0-7982-54ED-A136-6D4BE33D9E6C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2015-09-16T18:54:29Z" ;
+    osspq:P104 "34068747" ;
+    osspq:P105 "jmmontamat" ;
+    osspq:P106 "1899601" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/1961032052/history/2> .
+
+osss:Q166-FC429A4C-E6C5-5689-BC44-83898C4C6F9C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:20eb3e3dd249d4b47b8a6105bd922e2ebd91718a
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1961032052/history/4> .
+
+ossref:285b2e4c16cfcd27ddc0fb6e697f012d29ff9ae1
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1961032052/history/5> .
+
+ossref:bdc779fec669d173d362aa4e58045c4078e6f9bf
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1961032052/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:75e7f96bc1bd2300c4dcbb3ce13f55e2
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "40.9499921"^^xsd:double ;
+    wikibase:geoLongitude "0.5110749"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

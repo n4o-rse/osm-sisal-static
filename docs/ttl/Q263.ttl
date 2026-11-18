@@ -1,0 +1,242 @@
+# Q263: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q263.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 6640740634)"@en,
+        "Höhenmarke (OpenStreetMap-Node 6640740634)"@de ;
+    dcterms:identifier "Q263" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q263 ;
+    dcterms:title "Miniere del Fursil /Ru"@de,
+        "Miniere del Fursil /Ru"@en ;
+    schema:about oss:Q263 ;
+    dcat:distribution ossdist:Q263-html,
+        ossdist:Q263-json,
+        ossdist:Q263-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q263.html> .
+
+ossdist:Q263-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q263, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q263.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q263-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q263, as archived from the Wikibase API"@en ;
+    dcat:byteSize "14714"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q263.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q263-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q263, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q263.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q263
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 6640740634)"@en,
+        "Höhenmarke (OpenStreetMap-Node 6640740634)"@de ;
+    schema:name "Miniere del Fursil /Ru"@de,
+        "Miniere del Fursil /Ru"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q263-5166FC79-948C-5E9C-BB8B-2DC5B7177A93 ;
+    geo:hasGeometry osss:Q263-931CBB76-247E-524E-AA44-04244587903F,
+        osss:Q263-5166FC79-948C-5E9C-BB8B-2DC5B7177A93 ;
+    rdfs:label "Miniere del Fursil /Ru"@de,
+        "Miniere del Fursil /Ru"@en ;
+    skos:prefLabel "Miniere del Fursil /Ru"@de,
+        "Miniere del Fursil /Ru"@en ;
+    ossp:P2 osss:Q263-7DD0CDF3-FF3D-547F-AB5D-C9A175270EA8 ;
+    ossp:P100 osss:Q263-F9D42320-B3AB-5D2F-9B1B-2FBCFD321529 ;
+    ossp:P101 osss:Q263-3B16DF52-0B83-5003-AF85-D958BE7ABEC0,
+        osss:Q263-BAB78363-4F0F-5FA0-881A-9C55F615FE92,
+        osss:Q263-F0DC155F-4E68-5CB4-8881-E2BA8FAB68EE ;
+    ossp:P107 osss:Q263-2CBA9516-B790-56F5-B864-CEE28ABBAEB9 ;
+    ossp:P110 osss:Q263-E50D566F-4409-5F30-AAF7-0FECB07A667D ;
+    ossp:P111 osss:Q263-931CBB76-247E-524E-AA44-04244587903F,
+        osss:Q263-5166FC79-948C-5E9C-BB8B-2DC5B7177A93 ;
+    ossp:P113 osss:Q263-06CAE789-E916-5324-A230-C3A837A4291A,
+        osss:Q263-FCC769EC-DE8F-568E-A542-380E96FFB650 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/6640740634> ;
+    osst:P101 <https://www.openstreetmap.org/node/6640740634/history/3> ;
+    osst:P107 <https://www.openstreetmap.org/node/6640740634/history/1> ;
+    osst:P110 "Point(12.013573 46.4575424)"^^geo:wktLiteral ;
+    osst:P111 "POINT(12.013486 46.4575523)",
+        "POINT(12.013573 46.4575424)" ;
+    osst:P113 "name=Miniere del Fursil /Ru",
+        "natural=cave_entrance" .
+
+osss:Q263-2CBA9516-B790-56F5-B864-CEE28ABBAEB9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/6640740634/history/1> .
+
+osss:Q263-3B16DF52-0B83-5003-AF85-D958BE7ABEC0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-07-27T12:12:15Z" ;
+    osspq:P104 "108688854" ;
+    osspq:P105 "ColleSantaLuciaDolomiti" ;
+    osspq:P106 "2593404" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/6640740634/history/3> .
+
+osss:Q263-06CAE789-E916-5324-A230-C3A837A4291A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c4e6126fd8fc0ecc41bb16d5492cf9d239bb7424 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q263-7DD0CDF3-FF3D-547F-AB5D-C9A175270EA8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q263-931CBB76-247E-524E-AA44-04244587903F
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(12.013486 46.4575523)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:7aaac93ceaf631812f8d49296474405284acff14 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2019-07-23T14:06:38Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(12.013486 46.4575523)" .
+
+osss:Q263-5166FC79-948C-5E9C-BB8B-2DC5B7177A93
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(12.013573 46.4575424)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c4e6126fd8fc0ecc41bb16d5492cf9d239bb7424 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2021-07-27T12:12:15Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(12.013573 46.4575424)" .
+
+osss:Q263-BAB78363-4F0F-5FA0-881A-9C55F615FE92
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2019-07-23T14:06:38Z" ;
+    osspq:P104 "72560871" ;
+    osspq:P105 "ColleSantaLuciaDolomiti" ;
+    osspq:P106 "2593404" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/6640740634/history/1> .
+
+osss:Q263-E50D566F-4409-5F30-AAF7-0FECB07A667D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c4e6126fd8fc0ecc41bb16d5492cf9d239bb7424 ;
+    ossps:P110 "Point(12.013573 46.4575424)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:7b1ec4d5b34881ecae8e7462024b42cc .
+
+osss:Q263-F0DC155F-4E68-5CB4-8881-E2BA8FAB68EE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2020-02-09T18:36:55Z" ;
+    osspq:P104 "80760393" ;
+    osspq:P105 "cesadariz" ;
+    osspq:P106 "2593380" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/6640740634/history/2> .
+
+osss:Q263-F9D42320-B3AB-5D2F-9B1B-2FBCFD321529
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/6640740634> .
+
+osss:Q263-FCC769EC-DE8F-568E-A542-380E96FFB650
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c4e6126fd8fc0ecc41bb16d5492cf9d239bb7424 ;
+    ossps:P113 "name=Miniere del Fursil /Ru" .
+
+ossref:7aaac93ceaf631812f8d49296474405284acff14
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/6640740634/history/1> .
+
+ossref:c4e6126fd8fc0ecc41bb16d5492cf9d239bb7424
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/6640740634/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:7b1ec4d5b34881ecae8e7462024b42cc
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "46.4575424"^^xsd:double ;
+    wikibase:geoLongitude "12.013573"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

@@ -1,0 +1,255 @@
+# Q210: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q210.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3887334792)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3887334792)"@de ;
+    dcterms:identifier "Q210" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q210 ;
+    dcterms:title "Harrison's Cave"@de,
+        "Harrison's Cave"@en ;
+    schema:about oss:Q210 ;
+    dcat:distribution ossdist:Q210-html,
+        ossdist:Q210-json,
+        ossdist:Q210-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q210.html> .
+
+ossdist:Q210-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q210, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q210.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q210-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q210, as archived from the Wikibase API"@en ;
+    dcat:byteSize "15555"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q210.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q210-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q210, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q210.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q210
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3887334792)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3887334792)"@de ;
+    schema:name "Harrison's Cave"@de,
+        "Harrison's Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "12"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q210-42E8B608-803B-5E68-9578-DC3830A2CC70 ;
+    geo:hasGeometry osss:Q210-24EBF649-5980-5D27-8942-A1B874A574EE,
+        osss:Q210-42E8B608-803B-5E68-9578-DC3830A2CC70 ;
+    rdfs:label "Harrison's Cave"@de,
+        "Harrison's Cave"@en ;
+    skos:prefLabel "Harrison's Cave"@de,
+        "Harrison's Cave"@en ;
+    ossp:P2 osss:Q210-34542EF7-9395-5374-8B17-5258359BF4C4 ;
+    ossp:P100 osss:Q210-9CBDFEB9-2DE7-52D2-A253-1F0924C19018 ;
+    ossp:P101 osss:Q210-07F969C6-3D96-55CD-A03B-1363A999367F,
+        osss:Q210-B2FB8E01-179F-5B55-BB9D-CD43C0324F9D,
+        osss:Q210-C7011536-6334-5EB7-A3FC-2195D0967120 ;
+    ossp:P107 osss:Q210-D75682F2-3947-5683-9BD0-B855B2AFD676 ;
+    ossp:P110 osss:Q210-5EBD3E1C-5E99-5C4A-83BB-99CC067D2FD4 ;
+    ossp:P111 osss:Q210-24EBF649-5980-5D27-8942-A1B874A574EE,
+        osss:Q210-42E8B608-803B-5E68-9578-DC3830A2CC70 ;
+    ossp:P113 osss:Q210-8CFBCB0D-1DF5-5497-A502-AF8FE8550733,
+        osss:Q210-84D47105-D55D-56A9-9989-05F11F19B67E,
+        osss:Q210-A243EF8D-E380-5B9A-BCED-BAC7C9B816AB ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3887334792> ;
+    osst:P101 <https://www.openstreetmap.org/node/3887334792/history/3> ;
+    osst:P107 <https://www.openstreetmap.org/node/3887334792/history/3> ;
+    osst:P110 "Point(-59.5742209 13.1853265)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-59.5732619 13.1851626)",
+        "POINT(-59.5742209 13.1853265)" ;
+    osst:P113 "designation=Cave",
+        "name=Harrison's Cave",
+        "natural=cave_entrance" .
+
+osss:Q210-5EBD3E1C-5E99-5C4A-83BB-99CC067D2FD4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c74a8353261a50c6b15c64aac14677f74bd6fa41 ;
+    ossps:P110 "Point(-59.5742209 13.1853265)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:b63e4e53bcf7604e5b12a95129684ea4 .
+
+osss:Q210-07F969C6-3D96-55CD-A03B-1363A999367F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2019-07-17T14:06:18Z" ;
+    osspq:P104 "72350977" ;
+    osspq:P105 "FarSide" ;
+    osspq:P106 "433966" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3887334792/history/2> .
+
+osss:Q210-8CFBCB0D-1DF5-5497-A502-AF8FE8550733
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c74a8353261a50c6b15c64aac14677f74bd6fa41 ;
+    ossps:P113 "designation=Cave" .
+
+osss:Q210-9CBDFEB9-2DE7-52D2-A253-1F0924C19018
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3887334792> .
+
+osss:Q210-24EBF649-5980-5D27-8942-A1B874A574EE
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-59.5732619 13.1851626)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:e5cb09690adf4e5b24362e6abeb82e85292bc7e9 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-12-11T09:27:07Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-59.5732619 13.1851626)" .
+
+osss:Q210-42E8B608-803B-5E68-9578-DC3830A2CC70
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-59.5742209 13.1853265)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:6ff0da60105053a210c4f8de792b6d045305e914 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2019-07-17T14:06:18Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(-59.5742209 13.1853265)" .
+
+osss:Q210-84D47105-D55D-56A9-9989-05F11F19B67E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c74a8353261a50c6b15c64aac14677f74bd6fa41 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q210-34542EF7-9395-5374-8B17-5258359BF4C4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q210-A243EF8D-E380-5B9A-BCED-BAC7C9B816AB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c74a8353261a50c6b15c64aac14677f74bd6fa41 ;
+    ossps:P113 "name=Harrison's Cave" .
+
+osss:Q210-B2FB8E01-179F-5B55-BB9D-CD43C0324F9D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2019-11-03T19:53:30Z" ;
+    osspq:P104 "76561130" ;
+    osspq:P105 "davidmguest" ;
+    osspq:P106 "4221879" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3887334792/history/3> .
+
+osss:Q210-C7011536-6334-5EB7-A3FC-2195D0967120
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-12-11T09:27:07Z" ;
+    osspq:P104 "35880712" ;
+    osspq:P105 "PaulColly" ;
+    osspq:P106 "3448873" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3887334792/history/1> .
+
+osss:Q210-D75682F2-3947-5683-9BD0-B855B2AFD676
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3887334792/history/3> .
+
+ossref:6ff0da60105053a210c4f8de792b6d045305e914
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3887334792/history/2> .
+
+ossref:c74a8353261a50c6b15c64aac14677f74bd6fa41
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3887334792/history/3> .
+
+ossref:e5cb09690adf4e5b24362e6abeb82e85292bc7e9
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3887334792/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b63e4e53bcf7604e5b12a95129684ea4
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "13.1853265"^^xsd:double ;
+    wikibase:geoLongitude "-59.5742209"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

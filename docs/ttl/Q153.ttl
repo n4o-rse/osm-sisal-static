@@ -1,0 +1,386 @@
+# Q153: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q153.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 1325351976)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1325351976)"@de ;
+    dcterms:identifier "Q153" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q153 ;
+    dcterms:title "Cova des Pirata"@de,
+        "Cova des Pirata"@en ;
+    schema:about oss:Q153 ;
+    dcat:distribution ossdist:Q153-html,
+        ossdist:Q153-json,
+        ossdist:Q153-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q153.html> .
+
+ossdist:Q153-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q153, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q153.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q153-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q153, as archived from the Wikibase API"@en ;
+    dcat:byteSize "30191"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q153.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q153-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q153, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q153.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q153
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 1325351976)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1325351976)"@de ;
+    schema:name "Cova des Pirata"@de,
+        "Cova des Pirata"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "21"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q153-524872BB-FC02-5DF2-B7F8-E7371C1C8819 ;
+    geo:hasGeometry osss:Q153-9B633E55-757D-5E4E-B93C-8E9011EE66E8,
+        osss:Q153-524872BB-FC02-5DF2-B7F8-E7371C1C8819,
+        osss:Q153-B4F3305E-A5B3-5469-BCA0-1D1CB6A485EA ;
+    rdfs:label "Cova des Pirata"@de,
+        "Cova des Pirata"@en ;
+    skos:prefLabel "Cova des Pirata"@de,
+        "Cova des Pirata"@en ;
+    ossp:P2 osss:Q153-4D1F6D52-A5F0-524C-9278-433343453576 ;
+    ossp:P100 osss:Q153-52EE31E0-930A-5003-B0B3-AF9557796E99 ;
+    ossp:P101 osss:Q153-3B3EEB7E-C455-54B4-9672-19CD69A5A2C1,
+        osss:Q153-3CCC857A-47E3-592A-A964-E6622DBE5B1A,
+        osss:Q153-4A9B5A6B-EC75-5794-8A50-D976A073B108,
+        osss:Q153-11D6BBEA-EC73-568C-A910-6D68C18AE6A4,
+        osss:Q153-674D10D3-03BD-5A68-A9BC-1E1427ED2537,
+        osss:Q153-703C225E-3797-5D70-9F64-0FBAE62947C3,
+        osss:Q153-B281F195-1B94-5F4A-8C26-12E7CA316A0A,
+        osss:Q153-CB5A35E2-2CCC-5AB2-83E2-00DF26F5425E ;
+    ossp:P107 osss:Q153-1D14EE33-3AC7-56B8-90DA-C4D7DECD409B ;
+    ossp:P110 osss:Q153-8A3D54C6-72B7-537F-AC0F-940AC7B97B36 ;
+    ossp:P111 osss:Q153-9B633E55-757D-5E4E-B93C-8E9011EE66E8,
+        osss:Q153-524872BB-FC02-5DF2-B7F8-E7371C1C8819,
+        osss:Q153-B4F3305E-A5B3-5469-BCA0-1D1CB6A485EA ;
+    ossp:P113 osss:Q153-5A1D0AF3-4B6C-5CF8-BD6D-E262DF9AFD0C,
+        osss:Q153-27FAFB5E-BE83-539C-BEBB-8C95F1B2E0DB,
+        osss:Q153-30336AA2-05B5-5F86-8E74-1DD317DC8E0B,
+        osss:Q153-C1C947DF-63B3-54BB-A96F-12E4A1D2C009,
+        osss:Q153-F49E43F3-9558-5BD8-B51F-1B8A951C1658,
+        osss:Q153-FB326983-8336-53C5-BC4E-F161E48171C0 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/1325351976> ;
+    osst:P101 <https://www.openstreetmap.org/node/1325351976/history/8> ;
+    osst:P107 <https://www.openstreetmap.org/node/1325351976/history/1> ;
+    osst:P110 "Point(3.2995185 39.5070206)"^^geo:wktLiteral ;
+    osst:P111 "POINT(3.2995185 39.5070206)",
+        "POINT(3.2995205 39.5070204)",
+        "POINT(3.2995866 39.5069538)" ;
+    osst:P113 "access=private",
+        "ele=22",
+        "name:ca=Cova des Pirata",
+        "name=Cova des Pirata",
+        "natural=cave_entrance",
+        "wikidata=Q20639449" .
+
+osss:Q153-1D14EE33-3AC7-56B8-90DA-C4D7DECD409B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/1325351976/history/1> .
+
+osss:Q153-3B3EEB7E-C455-54B4-9672-19CD69A5A2C1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2023-09-17T13:43:25Z" ;
+    osspq:P104 "141382596" ;
+    osspq:P105 "tg4567" ;
+    osspq:P106 "12500589" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/8> .
+
+osss:Q153-3CCC857A-47E3-592A-A964-E6622DBE5B1A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-10-19T08:21:07Z" ;
+    osspq:P104 "63670485" ;
+    osspq:P105 "Jesús Gómez" ;
+    osspq:P106 "6389" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/2> .
+
+osss:Q153-4A9B5A6B-EC75-5794-8A50-D976A073B108
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2019-10-27T21:16:08Z" ;
+    osspq:P104 "76276648" ;
+    osspq:P105 "pedrojuan01" ;
+    osspq:P106 "1948725" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/5> .
+
+osss:Q153-4D1F6D52-A5F0-524C-9278-433343453576
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q153-5A1D0AF3-4B6C-5CF8-BD6D-E262DF9AFD0C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P113 "name:ca=Cova des Pirata" .
+
+osss:Q153-8A3D54C6-72B7-537F-AC0F-940AC7B97B36
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P110 "Point(3.2995185 39.5070206)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:be089727f80da094e15ba8a46600a104 .
+
+osss:Q153-9B633E55-757D-5E4E-B93C-8E9011EE66E8
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(3.2995866 39.5069538)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:9cd9a5ca0167cdf2084d0fa5ebe7072227504872 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2019-03-18T20:32:47Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(3.2995866 39.5069538)" .
+
+osss:Q153-11D6BBEA-EC73-568C-A910-6D68C18AE6A4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2019-03-18T20:32:47Z" ;
+    osspq:P104 "68272160" ;
+    osspq:P105 "gatorade" ;
+    osspq:P106 "252666" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/3> .
+
+osss:Q153-27FAFB5E-BE83-539C-BEBB-8C95F1B2E0DB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q153-52EE31E0-930A-5003-B0B3-AF9557796E99
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/1325351976> .
+
+osss:Q153-674D10D3-03BD-5A68-A9BC-1E1427ED2537
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2011-06-14T17:10:19Z" ;
+    osspq:P104 "8439500" ;
+    osspq:P105 "matmai" ;
+    osspq:P106 "17099" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/1> .
+
+osss:Q153-703C225E-3797-5D70-9F64-0FBAE62947C3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2021-10-18T20:05:15Z" ;
+    osspq:P104 "112668629" ;
+    osspq:P105 "raneina" ;
+    osspq:P106 "13956063" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/6> .
+
+osss:Q153-30336AA2-05B5-5F86-8E74-1DD317DC8E0B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P113 "ele=22" .
+
+osss:Q153-524872BB-FC02-5DF2-B7F8-E7371C1C8819
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(3.2995185 39.5070206)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:0c7ba3cff73c4a7c3b0dfe93cbf9801a1db7d905 ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2019-03-19T18:48:11Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(3.2995185 39.5070206)" .
+
+osss:Q153-B4F3305E-A5B3-5469-BCA0-1D1CB6A485EA
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(3.2995205 39.5070204)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:cf2e1b5a78b10d6636e78812cccb9a24f2613db8 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2011-06-14T17:10:19Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(3.2995205 39.5070204)" .
+
+osss:Q153-B281F195-1B94-5F4A-8C26-12E7CA316A0A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2021-12-08T22:00:22Z" ;
+    osspq:P104 "114718266" ;
+    osspq:P105 "jmaspons" ;
+    osspq:P106 "11725140" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/7> .
+
+osss:Q153-C1C947DF-63B3-54BB-A96F-12E4A1D2C009
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P113 "access=private" .
+
+osss:Q153-CB5A35E2-2CCC-5AB2-83E2-00DF26F5425E
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2019-03-19T18:48:11Z" ;
+    osspq:P104 "68306652" ;
+    osspq:P105 "gatorade" ;
+    osspq:P106 "252666" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/1325351976/history/4> .
+
+osss:Q153-F49E43F3-9558-5BD8-B51F-1B8A951C1658
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P113 "wikidata=Q20639449" .
+
+osss:Q153-FB326983-8336-53C5-BC4E-F161E48171C0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4 ;
+    ossps:P113 "name=Cova des Pirata" .
+
+ossref:0c7ba3cff73c4a7c3b0dfe93cbf9801a1db7d905
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1325351976/history/4> .
+
+ossref:9cd9a5ca0167cdf2084d0fa5ebe7072227504872
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1325351976/history/3> .
+
+ossref:ab4965ca8998f77f4b3e02a9be58a727857f67f4
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1325351976/history/8> .
+
+ossref:cf2e1b5a78b10d6636e78812cccb9a24f2613db8
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1325351976/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:be089727f80da094e15ba8a46600a104
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "39.5070206"^^xsd:double ;
+    wikibase:geoLongitude "3.2995185"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

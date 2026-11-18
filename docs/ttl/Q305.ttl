@@ -1,0 +1,316 @@
+# Q305: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q305.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 923447187)"@en,
+        "Höhenmarke (OpenStreetMap-Node 923447187)"@de ;
+    dcterms:identifier "Q305" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q305 ;
+    dcterms:title "Hölloch"@de,
+        "Hölloch"@en ;
+    schema:about oss:Q305 ;
+    dcat:distribution ossdist:Q305-html,
+        ossdist:Q305-json,
+        ossdist:Q305-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q305.html> .
+
+ossdist:Q305-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q305, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q305.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q305-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q305, as archived from the Wikibase API"@en ;
+    dcat:byteSize "22306"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q305.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q305-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q305, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q305.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q305
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 923447187)"@en,
+        "Höhenmarke (OpenStreetMap-Node 923447187)"@de ;
+    schema:name "Hölloch"@de,
+        "Hölloch"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "17"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q305-C57DB735-7181-50B5-9670-5D42FE578838 ;
+    geo:hasGeometry osss:Q305-9A098881-8C85-5B03-8788-2950CA409373,
+        osss:Q305-C57DB735-7181-50B5-9670-5D42FE578838 ;
+    rdfs:label "Hölloch"@de,
+        "Hölloch"@en ;
+    skos:prefLabel "Hölloch"@de,
+        "Hölloch"@en ;
+    ossp:P2 osss:Q305-4AEA714B-C766-5EAF-A2AA-778E8653EF50 ;
+    ossp:P100 osss:Q305-DC838463-FAE2-59BB-B9AB-0B43FFFC597A ;
+    ossp:P101 osss:Q305-4CB1CC83-29B8-504F-8AC9-9A096CD2170A,
+        osss:Q305-20D032B1-F208-5FBE-902F-65AFC9329E26,
+        osss:Q305-21DF58BC-E1FE-5280-A139-CB2C7E65DFE6,
+        osss:Q305-590DE80C-0BF2-507E-9CEB-40F982122AB1,
+        osss:Q305-6254EE9D-4F66-5A15-865B-C23C2F02A27C ;
+    ossp:P107 osss:Q305-119D94BD-F883-572E-B63C-B79F9614A352 ;
+    ossp:P110 osss:Q305-87668511-9C38-59DB-9A37-E8F8A8412D10 ;
+    ossp:P111 osss:Q305-9A098881-8C85-5B03-8788-2950CA409373,
+        osss:Q305-C57DB735-7181-50B5-9670-5D42FE578838 ;
+    ossp:P113 osss:Q305-6A82932D-B51E-5DD5-BFD2-BD6E4C74A2D9,
+        osss:Q305-55EC261E-28CA-521D-8E2D-1DF05A22E54B,
+        osss:Q305-241DB653-5E7B-56A4-887B-2D2618BF589A,
+        osss:Q305-281591DE-3CF4-5457-9CCA-233250F0BDC1,
+        osss:Q305-466692BC-F8E8-5F9E-9C6E-01EAAA5B89E9,
+        osss:Q305-BC3C8CA6-D912-5DDC-8024-2F43F4CCBF29 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/923447187> ;
+    osst:P101 <https://www.openstreetmap.org/node/923447187/history/5> ;
+    osst:P107 <https://www.openstreetmap.org/node/923447187/history/1> ;
+    osst:P110 "Point(10.1503983 47.3778454)"^^geo:wktLiteral ;
+    osst:P111 "POINT(10.1503913 47.3778352)",
+        "POINT(10.1503983 47.3778454)" ;
+    osst:P113 "depth=96",
+        "ele=1438",
+        "name=Hölloch",
+        "natural=cave_entrance",
+        "wikidata=Q1485840",
+        "wikipedia=de:Hölloch (Deutschland)" .
+
+osss:Q305-4AEA714B-C766-5EAF-A2AA-778E8653EF50
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q305-4CB1CC83-29B8-504F-8AC9-9A096CD2170A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2017-03-18T23:34:50Z" ;
+    osspq:P104 "46968434" ;
+    osspq:P105 "whb" ;
+    osspq:P106 "202726" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/923447187/history/2> .
+
+osss:Q305-6A82932D-B51E-5DD5-BFD2-BD6E4C74A2D9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P113 "name=Hölloch" .
+
+osss:Q305-9A098881-8C85-5B03-8788-2950CA409373
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(10.1503913 47.3778352)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:8b2fbf94fbc62928a68e681aca78b3bccb624d6e ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-09-23T21:49:53Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(10.1503913 47.3778352)" .
+
+osss:Q305-20D032B1-F208-5FBE-902F-65AFC9329E26
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2023-08-15T20:23:38Z" ;
+    osspq:P104 "139933536" ;
+    osspq:P105 "lukie80" ;
+    osspq:P106 "5531318" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/923447187/history/4> .
+
+osss:Q305-21DF58BC-E1FE-5280-A139-CB2C7E65DFE6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2024-12-09T17:30:03Z" ;
+    osspq:P104 "160100836" ;
+    osspq:P105 "Harald Hetzner" ;
+    osspq:P106 "9177796" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/923447187/history/5> .
+
+osss:Q305-55EC261E-28CA-521D-8E2D-1DF05A22E54B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P113 "ele=1438" .
+
+osss:Q305-119D94BD-F883-572E-B63C-B79F9614A352
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/923447187/history/1> .
+
+osss:Q305-241DB653-5E7B-56A4-887B-2D2618BF589A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P113 "wikidata=Q1485840" .
+
+osss:Q305-590DE80C-0BF2-507E-9CEB-40F982122AB1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-09-23T21:49:53Z" ;
+    osspq:P104 "5858293" ;
+    osspq:P105 "klappschlauch" ;
+    osspq:P106 "29716" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/923447187/history/1> .
+
+osss:Q305-6254EE9D-4F66-5A15-865B-C23C2F02A27C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2017-09-25T01:25:17Z" ;
+    osspq:P104 "52342202" ;
+    osspq:P105 "nyuriks" ;
+    osspq:P106 "339581" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/923447187/history/3> .
+
+osss:Q305-281591DE-3CF4-5457-9CCA-233250F0BDC1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q305-466692BC-F8E8-5F9E-9C6E-01EAAA5B89E9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P113 "depth=96" .
+
+osss:Q305-87668511-9C38-59DB-9A37-E8F8A8412D10
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P110 "Point(10.1503983 47.3778454)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:2cedb024e6ce5089ae79cc0b194925f4 .
+
+osss:Q305-BC3C8CA6-D912-5DDC-8024-2F43F4CCBF29
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0 ;
+    ossps:P113 "wikipedia=de:Hölloch (Deutschland)" .
+
+osss:Q305-C57DB735-7181-50B5-9670-5D42FE578838
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(10.1503983 47.3778454)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:0bcd3c8f81257a8d58d6970362200847d56dd0a0 ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2023-08-15T20:23:38Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(10.1503983 47.3778454)" .
+
+osss:Q305-DC838463-FAE2-59BB-B9AB-0B43FFFC597A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/923447187> .
+
+ossref:0bcd3c8f81257a8d58d6970362200847d56dd0a0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/923447187/history/4> .
+
+ossref:5e19c6523d5743c78d208a33d9d0f6ffa6c8ebe0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/923447187/history/5> .
+
+ossref:8b2fbf94fbc62928a68e681aca78b3bccb624d6e
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/923447187/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:2cedb024e6ce5089ae79cc0b194925f4
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "47.3778454"^^xsd:double ;
+    wikibase:geoLongitude "10.1503983"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

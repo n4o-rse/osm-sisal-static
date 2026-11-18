@@ -1,0 +1,219 @@
+# Q207: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q207.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 370538351)"@en,
+        "Höhenmarke (OpenStreetMap-Node 370538351)"@de ;
+    dcterms:identifier "Q207" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q207 ;
+    dcterms:title "Calgardup Cave"@de,
+        "Calgardup Cave"@en ;
+    schema:about oss:Q207 ;
+    dcat:distribution ossdist:Q207-html,
+        ossdist:Q207-json,
+        ossdist:Q207-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q207.html> .
+
+ossdist:Q207-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q207, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q207.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q207-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q207, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11808"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q207.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q207-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q207, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q207.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q207
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 370538351)"@en,
+        "Höhenmarke (OpenStreetMap-Node 370538351)"@de ;
+    schema:name "Calgardup Cave"@de,
+        "Calgardup Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q207-94BFF4DC-59AE-5362-8B85-4D50707AF027 ;
+    geo:hasGeometry osss:Q207-94BFF4DC-59AE-5362-8B85-4D50707AF027 ;
+    rdfs:label "Calgardup Cave"@de,
+        "Calgardup Cave"@en ;
+    skos:prefLabel "Calgardup Cave"@de,
+        "Calgardup Cave"@en ;
+    ossp:P2 osss:Q207-91F372F9-D59A-5890-9042-42931612F3F1 ;
+    ossp:P100 osss:Q207-9F51F2D0-C20F-5290-91CD-38296D4EE031 ;
+    ossp:P101 osss:Q207-36EFA806-A830-5B0B-B0B4-E12D87686C86,
+        osss:Q207-96698A92-D400-584B-BE24-F3D7733F53C1 ;
+    ossp:P107 osss:Q207-7834C472-8BC1-5990-AECB-855E8667DA52 ;
+    ossp:P110 osss:Q207-39436859-FDAF-525C-8AC2-4C4F526CB144 ;
+    ossp:P111 osss:Q207-94BFF4DC-59AE-5362-8B85-4D50707AF027 ;
+    ossp:P113 osss:Q207-365B7425-93E1-5040-B9DD-5692467E7FB5,
+        osss:Q207-828CD3B9-17DF-5CD4-93CB-08DDAB3E241E,
+        osss:Q207-D5D4A1AD-511E-53D5-930B-44F6D344E56C ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/370538351> ;
+    osst:P101 <https://www.openstreetmap.org/node/370538351/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/370538351/history/2> ;
+    osst:P110 "Point(115.0249175 -34.0502827)"^^geo:wktLiteral ;
+    osst:P111 "POINT(115.0249175 -34.0502827)" ;
+    osst:P113 "name=Calgardup Cave",
+        "natural=cave_entrance",
+        "tourism=attraction" .
+
+osss:Q207-9F51F2D0-C20F-5290-91CD-38296D4EE031
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/370538351> .
+
+osss:Q207-36EFA806-A830-5B0B-B0B4-E12D87686C86
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2013-04-29T14:41:26Z" ;
+    osspq:P104 "15909156" ;
+    osspq:P105 "Mauls" ;
+    osspq:P106 "24119" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/370538351/history/2> .
+
+osss:Q207-91F372F9-D59A-5890-9042-42931612F3F1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q207-94BFF4DC-59AE-5362-8B85-4D50707AF027
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(115.0249175 -34.0502827)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:2db49a1269eafcbae71418ed06769fa9ab82a349 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-04-07T11:27:26Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(115.0249175 -34.0502827)" .
+
+osss:Q207-365B7425-93E1-5040-B9DD-5692467E7FB5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:96aee889f74a4fcdb32c4e6a161ab76be0866aae ;
+    ossps:P113 "name=Calgardup Cave" .
+
+osss:Q207-828CD3B9-17DF-5CD4-93CB-08DDAB3E241E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:96aee889f74a4fcdb32c4e6a161ab76be0866aae ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q207-7834C472-8BC1-5990-AECB-855E8667DA52
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/370538351/history/2> .
+
+osss:Q207-96698A92-D400-584B-BE24-F3D7733F53C1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-04-07T11:27:26Z" ;
+    osspq:P104 "291036" ;
+    osspq:P105 "user_7568" ;
+    osspq:P106 "7568" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/370538351/history/1> .
+
+osss:Q207-39436859-FDAF-525C-8AC2-4C4F526CB144
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:96aee889f74a4fcdb32c4e6a161ab76be0866aae ;
+    ossps:P110 "Point(115.0249175 -34.0502827)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:9ebe8f7b87eb5a6730f5288a9b555f4a .
+
+osss:Q207-D5D4A1AD-511E-53D5-930B-44F6D344E56C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:96aee889f74a4fcdb32c4e6a161ab76be0866aae ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:2db49a1269eafcbae71418ed06769fa9ab82a349
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/370538351/history/1> .
+
+ossref:96aee889f74a4fcdb32c4e6a161ab76be0866aae
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/370538351/history/2> .
+
+ossv:9ebe8f7b87eb5a6730f5288a9b555f4a
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-34.0502827"^^xsd:double ;
+    wikibase:geoLongitude "115.0249175"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

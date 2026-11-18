@@ -1,0 +1,219 @@
+# Q231: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q231.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4771754221)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4771754221)"@de ;
+    dcterms:identifier "Q231" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q231 ;
+    dcterms:title "Gardner's Gut"@de,
+        "Gardner's Gut"@en ;
+    schema:about oss:Q231 ;
+    dcat:distribution ossdist:Q231-html,
+        ossdist:Q231-json,
+        ossdist:Q231-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q231.html> .
+
+ossdist:Q231-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q231, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q231.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q231-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q231, as archived from the Wikibase API"@en ;
+    dcat:byteSize "11820"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q231.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q231-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q231, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q231.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q231
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4771754221)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4771754221)"@de ;
+    schema:name "Gardner's Gut"@de,
+        "Gardner's Gut"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "10"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q231-7B5C73B1-794B-53A4-8CD5-77D56D8CCB96 ;
+    geo:hasGeometry osss:Q231-7B5C73B1-794B-53A4-8CD5-77D56D8CCB96 ;
+    rdfs:label "Gardner's Gut"@de,
+        "Gardner's Gut"@en ;
+    skos:prefLabel "Gardner's Gut"@de,
+        "Gardner's Gut"@en ;
+    ossp:P2 osss:Q231-EC2D972A-FC5D-5E62-87C6-4EDCBAFD0E41 ;
+    ossp:P100 osss:Q231-4B11DCC5-F298-52AE-B1E0-DC24AB6AD5A8 ;
+    ossp:P101 osss:Q231-7D3FA509-D076-55EB-AF11-8AF640638288,
+        osss:Q231-08ACE9BB-3162-5AAC-BA57-1E90C4F38289 ;
+    ossp:P107 osss:Q231-2B28AC5A-DD11-53D9-9FFF-FF5BE844ABD6 ;
+    ossp:P110 osss:Q231-5BC50D28-BB7B-5465-ABE5-82A2BD353B3E ;
+    ossp:P111 osss:Q231-7B5C73B1-794B-53A4-8CD5-77D56D8CCB96 ;
+    ossp:P113 osss:Q231-2C93FA4B-F927-5183-B8C2-BEC369DA6EBD,
+        osss:Q231-7890C893-45FB-5315-AAC3-6D285FCA509A,
+        osss:Q231-A1BA4B64-3D65-56B0-A789-1F1359F6897B ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4771754221> ;
+    osst:P101 <https://www.openstreetmap.org/node/4771754221/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/4771754221/history/1> ;
+    osst:P110 "Point(175.073152 -38.2645727)"^^geo:wktLiteral ;
+    osst:P111 "POINT(175.073152 -38.2645727)" ;
+    osst:P113 "name=Gardner's Gut",
+        "natural=cave_entrance",
+        "wikidata=Q5522564" .
+
+osss:Q231-2B28AC5A-DD11-53D9-9FFF-FF5BE844ABD6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4771754221/history/1> .
+
+osss:Q231-2C93FA4B-F927-5183-B8C2-BEC369DA6EBD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d912006b5909ffc4fdef1613770e4cc313780270 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q231-4B11DCC5-F298-52AE-B1E0-DC24AB6AD5A8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4771754221> .
+
+osss:Q231-5BC50D28-BB7B-5465-ABE5-82A2BD353B3E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d912006b5909ffc4fdef1613770e4cc313780270 ;
+    ossps:P110 "Point(175.073152 -38.2645727)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:b2330d3c6ecd0fe13277b0a808ca1d61 .
+
+osss:Q231-7B5C73B1-794B-53A4-8CD5-77D56D8CCB96
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(175.073152 -38.2645727)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:fb852ebb87e9ec6cae00e49e429eeced15a6b41c ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-04-02T20:44:04Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(175.073152 -38.2645727)" .
+
+osss:Q231-7D3FA509-D076-55EB-AF11-8AF640638288
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-09-27T03:51:18Z" ;
+    osspq:P104 "62963870" ;
+    osspq:P105 "lcmortensen" ;
+    osspq:P106 "341519" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4771754221/history/2> .
+
+osss:Q231-08ACE9BB-3162-5AAC-BA57-1E90C4F38289
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2017-04-02T20:44:04Z" ;
+    osspq:P104 "47393007" ;
+    osspq:P105 "mrsid" ;
+    osspq:P106 "657280" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4771754221/history/1> .
+
+osss:Q231-7890C893-45FB-5315-AAC3-6D285FCA509A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d912006b5909ffc4fdef1613770e4cc313780270 ;
+    ossps:P113 "name=Gardner's Gut" .
+
+osss:Q231-A1BA4B64-3D65-56B0-A789-1F1359F6897B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d912006b5909ffc4fdef1613770e4cc313780270 ;
+    ossps:P113 "wikidata=Q5522564" .
+
+osss:Q231-EC2D972A-FC5D-5E62-87C6-4EDCBAFD0E41
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:d912006b5909ffc4fdef1613770e4cc313780270
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4771754221/history/2> .
+
+ossref:fb852ebb87e9ec6cae00e49e429eeced15a6b41c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4771754221/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b2330d3c6ecd0fe13277b0a808ca1d61
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-38.2645727"^^xsd:double ;
+    wikibase:geoLongitude "175.073152"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

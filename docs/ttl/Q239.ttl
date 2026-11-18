@@ -1,0 +1,500 @@
+# Q239: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q239.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 503858812)"@en,
+        "Höhenmarke (OpenStreetMap-Node 503858812)"@de ;
+    dcterms:identifier "Q239" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q239 ;
+    dcterms:title "Cango Caves"@de,
+        "Cango Caves"@en ;
+    schema:about oss:Q239 ;
+    dcat:distribution ossdist:Q239-html,
+        ossdist:Q239-json,
+        ossdist:Q239-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q239.html> .
+
+ossdist:Q239-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q239, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q239.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q239-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q239, as archived from the Wikibase API"@en ;
+    dcat:byteSize "42637"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q239.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q239-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q239, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q239.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q239
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 503858812)"@en,
+        "Höhenmarke (OpenStreetMap-Node 503858812)"@de ;
+    schema:name "Cango Caves"@de,
+        "Cango Caves"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "31"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q239-280FCD15-499B-52C2-A9C6-DAF2FF852D5D ;
+    geo:hasGeometry osss:Q239-280FCD15-499B-52C2-A9C6-DAF2FF852D5D,
+        osss:Q239-DD2EEAB1-E22B-5581-B7D4-03B596B9CFD2,
+        osss:Q239-F08DDC44-6632-51F8-A727-7CA18675A9A2 ;
+    rdfs:label "Cango Caves"@de,
+        "Cango Caves"@en ;
+    skos:prefLabel "Cango Caves"@de,
+        "Cango Caves"@en ;
+    ossp:P2 osss:Q239-914C6871-7EE5-5094-9482-E38E0EE7F351 ;
+    ossp:P100 osss:Q239-E58F8EC7-3E73-5C28-8DFF-B871FFACC2CF ;
+    ossp:P101 osss:Q239-8A7EAE90-A4B9-53B6-BEFA-9942B443BB23,
+        osss:Q239-8E5F9570-5FE3-5AC0-86BC-CAC5C72A2082,
+        osss:Q239-62C9EB17-2F51-5998-A0BE-5EF25BD042D8,
+        osss:Q239-081C6050-5A8C-5E44-9498-BA2C83663DE5,
+        osss:Q239-752D4200-ED91-5325-BDEA-0AC478C3BAD0,
+        osss:Q239-934E98D8-3A7A-54D5-98C0-F817F37B24A5,
+        osss:Q239-937BBDD1-E9E5-56D0-8586-89D9AE0AEB21,
+        osss:Q239-00273072-A40B-5DAF-B717-D719912A8ACF,
+        osss:Q239-A5DD5304-6F15-5F08-87F1-5BC6A481671D,
+        osss:Q239-EA83B2CC-7B07-5DC6-96D4-D8FD97AF58AC,
+        osss:Q239-FA8D5EE8-1C8A-591D-B510-08A78E20F0ED ;
+    ossp:P107 osss:Q239-F41559E8-93B9-5FD7-8355-CE91C54DBA46 ;
+    ossp:P110 osss:Q239-AD319FDC-764A-56F2-8453-B2E4CD4F669D ;
+    ossp:P111 osss:Q239-280FCD15-499B-52C2-A9C6-DAF2FF852D5D,
+        osss:Q239-DD2EEAB1-E22B-5581-B7D4-03B596B9CFD2,
+        osss:Q239-F08DDC44-6632-51F8-A727-7CA18675A9A2 ;
+    ossp:P113 osss:Q239-03D2D76D-9063-5735-BE2F-08CE4B26E6F4,
+        osss:Q239-5ACE3BE5-6931-5750-91B6-D7A80C318760,
+        osss:Q239-9E244381-B427-5A00-9F70-28B684F756CD,
+        osss:Q239-28A81F8C-2637-5A82-B728-F33C3A728205,
+        osss:Q239-29C8F60F-7480-52A2-BEA2-14DB242F5068,
+        osss:Q239-B6426AF8-F0E5-5361-BE94-42A29596523B,
+        osss:Q239-CC0E241B-E88E-5845-8EE4-6F64EE09641A,
+        osss:Q239-D96EE8CD-1A30-5D8E-ADF9-95D99C38C6C5,
+        osss:Q239-D691B0C0-04CA-50C8-8E6A-2F42DAE93085,
+        osss:Q239-DBCAC659-4747-57FD-BFFE-6C7E9144752E,
+        osss:Q239-E575E3F9-89A3-5C6D-A21E-F7C65ABC379D,
+        osss:Q239-EF39A2C4-8257-5C3C-89F1-96D51825FB35,
+        osss:Q239-FC2F663E-AAE6-502A-9236-494EC0C6F544 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/503858812> ;
+    osst:P101 <https://www.openstreetmap.org/node/503858812/history/11> ;
+    osst:P107 <https://www.openstreetmap.org/node/503858812/history/2> ;
+    osst:P110 "Point(22.2143761 -33.3922844)"^^geo:wktLiteral ;
+    osst:P111 "POINT(22.2141779 -33.3930111)",
+        "POINT(22.2143761 -33.3922844)",
+        "POINT(22.2146599 -33.3926907)" ;
+    osst:P113 "access=permissive",
+        "email=reservations@cangocaves.co.za",
+        "fee=yes",
+        "name:af=Kangogrotte",
+        "name:en=Cango Caves",
+        "name=Cango Caves",
+        "natural=cave_entrance",
+        "phone=+27 44 272 7410; +27 82 303 0029",
+        "tourism=attraction",
+        "website=https://www.cango-caves.co.za/",
+        "wheelchair=no",
+        "wikidata=Q1033211",
+        "wikipedia=en:Cango Caves" .
+
+osss:Q239-03D2D76D-9063-5735-BE2F-08CE4B26E6F4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q239-5ACE3BE5-6931-5750-91B6-D7A80C318760
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "email=reservations@cangocaves.co.za" .
+
+osss:Q239-8A7EAE90-A4B9-53B6-BEFA-9942B443BB23
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2014-11-11T22:08:16Z" ;
+    osspq:P104 "26723647" ;
+    osspq:P105 "Firefishy" ;
+    osspq:P106 "3560" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/5> .
+
+osss:Q239-8E5F9570-5FE3-5AC0-86BC-CAC5C72A2082
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2009-09-21T07:53:03Z" ;
+    osspq:P104 "2554461" ;
+    osspq:P105 "IanMcShane" ;
+    osspq:P106 "85710" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/2> .
+
+osss:Q239-9E244381-B427-5A00-9F70-28B684F756CD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "access=permissive" .
+
+osss:Q239-28A81F8C-2637-5A82-B728-F33C3A728205
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "name=Cango Caves" .
+
+osss:Q239-29C8F60F-7480-52A2-BEA2-14DB242F5068
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "website=https://www.cango-caves.co.za/" .
+
+osss:Q239-62C9EB17-2F51-5998-A0BE-5EF25BD042D8
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2014-04-19T19:44:42Z" ;
+    osspq:P104 "21804593" ;
+    osspq:P105 "Firefishy" ;
+    osspq:P106 "3560" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/4> .
+
+osss:Q239-081C6050-5A8C-5E44-9498-BA2C83663DE5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2012-09-12T00:00:50Z" ;
+    osspq:P104 "13076898" ;
+    osspq:P105 "Firefishy" ;
+    osspq:P106 "3560" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/3> .
+
+osss:Q239-280FCD15-499B-52C2-A9C6-DAF2FF852D5D
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(22.2143761 -33.3922844)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:aa24a97c4ca9faad2c5f52965f8e1c361d1df591 ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2015-02-01T22:46:25Z" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P111 "POINT(22.2143761 -33.3922844)" .
+
+osss:Q239-752D4200-ED91-5325-BDEA-0AC478C3BAD0
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2024-03-21T08:11:43Z" ;
+    osspq:P104 "148947863" ;
+    osspq:P105 "tg4567" ;
+    osspq:P106 "12500589" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/10> .
+
+osss:Q239-914C6871-7EE5-5094-9482-E38E0EE7F351
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q239-934E98D8-3A7A-54D5-98C0-F817F37B24A5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2015-02-01T22:46:25Z" ;
+    osspq:P104 "28557681" ;
+    osspq:P105 "Kelerei" ;
+    osspq:P106 "233136" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/6> .
+
+osss:Q239-937BBDD1-E9E5-56D0-8586-89D9AE0AEB21
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2017-05-03T08:29:45Z" ;
+    osspq:P104 "48358131" ;
+    osspq:P105 "fidcastro" ;
+    osspq:P106 "5189065" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/8> .
+
+osss:Q239-00273072-A40B-5DAF-B717-D719912A8ACF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2017-09-10T05:44:30Z" ;
+    osspq:P104 "51897701" ;
+    osspq:P105 "nyuriks" ;
+    osspq:P106 "339581" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/9> .
+
+osss:Q239-A5DD5304-6F15-5F08-87F1-5BC6A481671D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+11"^^xsd:decimal ;
+    osspq:P103 "2026-01-02T16:36:50Z" ;
+    osspq:P104 "176751574" ;
+    osspq:P105 "confusedbuffalo" ;
+    osspq:P106 "242345" ;
+    osspqv:P102 ossv:63f6a2c5bd58360efaaf56114afbf952 ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/11> .
+
+osss:Q239-AD319FDC-764A-56F2-8453-B2E4CD4F669D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P110 "Point(22.2143761 -33.3922844)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:836b695907794ca02a4b66eb5849d227 .
+
+osss:Q239-B6426AF8-F0E5-5361-BE94-42A29596523B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "wikidata=Q1033211" .
+
+osss:Q239-CC0E241B-E88E-5845-8EE4-6F64EE09641A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "name:af=Kangogrotte" .
+
+osss:Q239-D96EE8CD-1A30-5D8E-ADF9-95D99C38C6C5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "name:en=Cango Caves" .
+
+osss:Q239-D691B0C0-04CA-50C8-8E6A-2F42DAE93085
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q239-DBCAC659-4747-57FD-BFFE-6C7E9144752E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "wikipedia=en:Cango Caves" .
+
+osss:Q239-DD2EEAB1-E22B-5581-B7D4-03B596B9CFD2
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(22.2141779 -33.3930111)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:eface59b0199fa58eb898b3f8aefbddd75397a9e ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-09-21T07:23:46Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(22.2141779 -33.3930111)" .
+
+osss:Q239-E58F8EC7-3E73-5C28-8DFF-B871FFACC2CF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/503858812> .
+
+osss:Q239-E575E3F9-89A3-5C6D-A21E-F7C65ABC379D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "wheelchair=no" .
+
+osss:Q239-EA83B2CC-7B07-5DC6-96D4-D8FD97AF58AC
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-09-21T07:23:46Z" ;
+    osspq:P104 "2554295" ;
+    osspq:P105 "IanMcShane" ;
+    osspq:P106 "85710" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/1> .
+
+osss:Q239-EF39A2C4-8257-5C3C-89F1-96D51825FB35
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "phone=+27 44 272 7410; +27 82 303 0029" .
+
+osss:Q239-F08DDC44-6632-51F8-A727-7CA18675A9A2
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(22.2146599 -33.3926907)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:98e3b068d34963e5a40430da0dc2b691f55827a4 ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2012-09-12T00:00:50Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(22.2146599 -33.3926907)" .
+
+osss:Q239-F41559E8-93B9-5FD7-8355-CE91C54DBA46
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/503858812/history/2> .
+
+osss:Q239-FA8D5EE8-1C8A-591D-B510-08A78E20F0ED
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2017-02-08T10:06:16Z" ;
+    osspq:P104 "45911361" ;
+    osspq:P105 "holgerd" ;
+    osspq:P106 "77804" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/503858812/history/7> .
+
+osss:Q239-FC2F663E-AAE6-502A-9236-494EC0C6F544
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:28b66934e7f005dfb5d85b740953f00145cb25c7 ;
+    ossps:P113 "tourism=attraction" .
+
+ossref:28b66934e7f005dfb5d85b740953f00145cb25c7
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/503858812/history/11> .
+
+ossref:98e3b068d34963e5a40430da0dc2b691f55827a4
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/503858812/history/3> .
+
+ossref:aa24a97c4ca9faad2c5f52965f8e1c361d1df591
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/503858812/history/6> .
+
+ossref:eface59b0199fa58eb898b3f8aefbddd75397a9e
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/503858812/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63f6a2c5bd58360efaaf56114afbf952
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+11"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:836b695907794ca02a4b66eb5849d227
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-33.3922844"^^xsd:double ;
+    wikibase:geoLongitude "22.2143761"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

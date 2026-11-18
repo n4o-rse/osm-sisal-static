@@ -1,0 +1,369 @@
+# Q172: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q172.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 2375460063)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2375460063)"@de ;
+    dcterms:identifier "Q172" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q172 ;
+    dcterms:title "Strašna peć"@de,
+        "Strašna peć"@en ;
+    schema:about oss:Q172 ;
+    dcat:distribution ossdist:Q172-html,
+        ossdist:Q172-json,
+        ossdist:Q172-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q172.html> .
+
+ossdist:Q172-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q172, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q172.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q172-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q172, as archived from the Wikibase API"@en ;
+    dcat:byteSize "27992"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q172.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q172-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q172, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q172.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q172
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 2375460063)"@en,
+        "Höhenmarke (OpenStreetMap-Node 2375460063)"@de ;
+    schema:name "Strašna peć"@de,
+        "Strašna peć"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "22"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q172-65A1F1A5-7168-5C8B-B124-D8721B545593 ;
+    geo:hasGeometry osss:Q172-6D2F07B6-9FCC-5573-AC75-F2522DC5BFD7,
+        osss:Q172-65A1F1A5-7168-5C8B-B124-D8721B545593 ;
+    rdfs:label "Strašna peć"@de,
+        "Strašna peć"@en ;
+    skos:prefLabel "Strašna peć"@de,
+        "Strašna peć"@en ;
+    ossp:P2 osss:Q172-FF9DCDAD-9A55-5EBD-BB35-7F0A0C106E6B ;
+    ossp:P100 osss:Q172-2ADF3CBB-E0A7-5A05-8FA3-D1EB40587A37 ;
+    ossp:P101 osss:Q172-99C9021A-92C9-5FA6-80B7-E291D0A8730F,
+        osss:Q172-105BB86E-C631-5CDB-B817-6289DCEEADC1,
+        osss:Q172-398BD4CA-838A-5EE2-861A-E392F6EF6BCC,
+        osss:Q172-BDD991BF-C671-59D2-BDCC-F8EBA820835D,
+        osss:Q172-CBA606FC-F426-5B96-AC99-F4DC44A21E8C,
+        osss:Q172-CE1DB5BE-0C75-5AC2-A84C-B6F8E17A21B1 ;
+    ossp:P107 osss:Q172-18077D02-6D8D-5F7D-87D2-F5E4DEC9E13A ;
+    ossp:P110 osss:Q172-D67F3758-DD8F-5968-B071-3DC408A26AB9 ;
+    ossp:P111 osss:Q172-6D2F07B6-9FCC-5573-AC75-F2522DC5BFD7,
+        osss:Q172-65A1F1A5-7168-5C8B-B124-D8721B545593 ;
+    ossp:P113 osss:Q172-03EA9A5D-EB30-5F52-BFC0-D27F7FDF2CE3,
+        osss:Q172-90F2179A-5167-5787-BA75-7C89E1DAC7C2,
+        osss:Q172-849CEB2A-7972-5797-8B60-D78B661F3058,
+        osss:Q172-927E6633-611D-5E56-A2FD-0C71350F7295,
+        osss:Q172-2814F9AE-27CE-5ADC-BA26-D29DABFB4A22,
+        osss:Q172-12317A5A-684D-50DC-8B91-5A9C85299940,
+        osss:Q172-185737C5-AB5A-5A31-866D-394E590495A9,
+        osss:Q172-A90DF4A5-6E9C-53B4-91AF-5E41A555353E,
+        osss:Q172-C5A1AC6C-E007-5A7E-BF3E-ECAC2BC7A9E0,
+        osss:Q172-D5DCD048-FB83-5075-B99F-C8F8C49BA277 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/2375460063> ;
+    osst:P101 <https://www.openstreetmap.org/node/2375460063/history/6> ;
+    osst:P107 <https://www.openstreetmap.org/node/2375460063/history/1> ;
+    osst:P110 "Point(15.0384678 44.0045419)"^^geo:wktLiteral ;
+    osst:P111 "POINT(15.0384678 44.0045419)",
+        "POINT(15.0386381 44.0047175)" ;
+    osst:P113 "access=customers",
+        "charge=10 EUR",
+        "fee=yes",
+        "name=Strašna peć",
+        "natural=cave_entrance",
+        "opening_hours=May-Sep Mo-Su 11:00-14:30,15:30-19:00",
+        "payment:cash=yes",
+        "tourism=attraction",
+        "wikidata=Q16113130",
+        "wikipedia=hr:Strašna peć" .
+
+osss:Q172-2ADF3CBB-E0A7-5A05-8FA3-D1EB40587A37
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/2375460063> .
+
+osss:Q172-03EA9A5D-EB30-5F52-BFC0-D27F7FDF2CE3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "charge=10 EUR" .
+
+osss:Q172-6D2F07B6-9FCC-5573-AC75-F2522DC5BFD7
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(15.0386381 44.0047175)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:784f9cd50232ac79f31ea9ec6ab9053c9bb87238 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-07-05T20:13:09Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(15.0386381 44.0047175)" .
+
+osss:Q172-65A1F1A5-7168-5C8B-B124-D8721B545593
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(15.0384678 44.0045419)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:13e442b4af9a960bf713aaa58660f7a171644349 ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2025-09-21T15:04:25Z" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P111 "POINT(15.0384678 44.0045419)" .
+
+osss:Q172-90F2179A-5167-5787-BA75-7C89E1DAC7C2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "payment:cash=yes" .
+
+osss:Q172-99C9021A-92C9-5FA6-80B7-E291D0A8730F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2025-09-21T15:04:25Z" ;
+    osspq:P104 "172251099" ;
+    osspq:P105 "Harald Hetzner" ;
+    osspq:P106 "9177796" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/2375460063/history/5> .
+
+osss:Q172-105BB86E-C631-5CDB-B817-6289DCEEADC1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2020-03-25T22:51:48Z" ;
+    osspq:P104 "82631428" ;
+    osspq:P105 "Janjko" ;
+    osspq:P106 "244754" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2375460063/history/3> .
+
+osss:Q172-398BD4CA-838A-5EE2-861A-E392F6EF6BCC
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2023-08-04T11:06:38Z" ;
+    osspq:P104 "139436388" ;
+    osspq:P105 "user_495146" ;
+    osspq:P106 "495146" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/2375460063/history/4> .
+
+osss:Q172-849CEB2A-7972-5797-8B60-D78B661F3058
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "opening_hours=May-Sep Mo-Su 11:00-14:30,15:30-19:00" .
+
+osss:Q172-927E6633-611D-5E56-A2FD-0C71350F7295
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q172-2814F9AE-27CE-5ADC-BA26-D29DABFB4A22
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "access=customers" .
+
+osss:Q172-12317A5A-684D-50DC-8B91-5A9C85299940
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "wikidata=Q16113130" .
+
+osss:Q172-18077D02-6D8D-5F7D-87D2-F5E4DEC9E13A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/2375460063/history/1> .
+
+osss:Q172-185737C5-AB5A-5A31-866D-394E590495A9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q172-A90DF4A5-6E9C-53B4-91AF-5E41A555353E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q172-BDD991BF-C671-59D2-BDCC-F8EBA820835D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2013-07-05T20:13:09Z" ;
+    osspq:P104 "16841021" ;
+    osspq:P105 "Girolamo" ;
+    osspq:P106 "908743" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/2375460063/history/1> .
+
+osss:Q172-C5A1AC6C-E007-5A7E-BF3E-ECAC2BC7A9E0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "name=Strašna peć" .
+
+osss:Q172-CBA606FC-F426-5B96-AC99-F4DC44A21E8C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2026-09-15T11:20:18Z" ;
+    osspq:P104 "189055394" ;
+    osspq:P105 "Senihtu" ;
+    osspq:P106 "18511019" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/2375460063/history/6> .
+
+osss:Q172-CE1DB5BE-0C75-5AC2-A84C-B6F8E17A21B1
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-07-03T13:31:14Z" ;
+    osspq:P104 "60380005" ;
+    osspq:P105 "Petr Fukátko" ;
+    osspq:P106 "958845" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/2375460063/history/2> .
+
+osss:Q172-D5DCD048-FB83-5075-B99F-C8F8C49BA277
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P113 "wikipedia=hr:Strašna peć" .
+
+osss:Q172-D67F3758-DD8F-5968-B071-3DC408A26AB9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:f0beb18a40c70bdf80affd1e62740bda163eee71 ;
+    ossps:P110 "Point(15.0384678 44.0045419)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:9395707a776ea5e5113ea9587da53ea5 .
+
+osss:Q172-FF9DCDAD-9A55-5EBD-BB35-7F0A0C106E6B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+ossref:13e442b4af9a960bf713aaa58660f7a171644349
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2375460063/history/5> .
+
+ossref:784f9cd50232ac79f31ea9ec6ab9053c9bb87238
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2375460063/history/1> .
+
+ossref:f0beb18a40c70bdf80affd1e62740bda163eee71
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/2375460063/history/6> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9395707a776ea5e5113ea9587da53ea5
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "44.0045419"^^xsd:double ;
+    wikibase:geoLongitude "15.0384678"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

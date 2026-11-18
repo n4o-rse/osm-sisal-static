@@ -1,0 +1,234 @@
+# Q104: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q104.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 10135300285)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10135300285)"@de ;
+    dcterms:identifier "Q104" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q104 ;
+    dcterms:title "Whiterock Cave (Midnight Entrance)"@de,
+        "Whiterock Cave (Midnight Entrance)"@en ;
+    schema:about oss:Q104 ;
+    dcat:distribution ossdist:Q104-html,
+        ossdist:Q104-json,
+        ossdist:Q104-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q104.html> .
+
+ossdist:Q104-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q104, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q104.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q104-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q104, as archived from the Wikibase API"@en ;
+    dcat:byteSize "13605"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q104.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q104-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q104, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q104.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q104
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 10135300285)"@en,
+        "Höhenmarke (OpenStreetMap-Node 10135300285)"@de ;
+    schema:name "Whiterock Cave (Midnight Entrance)"@de,
+        "Whiterock Cave (Midnight Entrance)"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q104-B671F23B-72A1-5EB7-A777-94CE0E1661CC ;
+    geo:hasGeometry osss:Q104-54487646-ABAD-51AD-8829-B031256E4CE1,
+        osss:Q104-B671F23B-72A1-5EB7-A777-94CE0E1661CC ;
+    rdfs:label "Whiterock Cave (Midnight Entrance)"@de,
+        "Whiterock Cave (Midnight Entrance)"@en ;
+    skos:prefLabel "Whiterock Cave (Midnight Entrance)"@de,
+        "Whiterock Cave (Midnight Entrance)"@en ;
+    ossp:P2 osss:Q104-C16F1D9D-E2AF-5272-9A42-A1DA8078FCE4 ;
+    ossp:P100 osss:Q104-84851980-FBA2-562F-9F5B-ABBC099028FC ;
+    ossp:P101 osss:Q104-360F9666-E21F-5DBC-87E6-D21050040B70,
+        osss:Q104-B446CBBA-938C-5149-9F37-EB916ABCA14D ;
+    ossp:P107 osss:Q104-2716C810-7B65-545F-9DC2-67F49CFE0F66 ;
+    ossp:P110 osss:Q104-D3764DF0-4B90-5EE6-B580-A3353508FABB ;
+    ossp:P111 osss:Q104-54487646-ABAD-51AD-8829-B031256E4CE1,
+        osss:Q104-B671F23B-72A1-5EB7-A777-94CE0E1661CC ;
+    ossp:P113 osss:Q104-79D9CA7E-55A9-591C-BB20-145959FDB16E,
+        osss:Q104-467A3962-A2C9-5728-A15B-46865C0404F6,
+        osss:Q104-F1189D62-D0FB-5E1F-921E-7ED80AADCCA1 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/10135300285> ;
+    osst:P101 <https://www.openstreetmap.org/node/10135300285/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/10135300285/history/1> ;
+    osst:P110 "Point(114.8719954 4.1221328)"^^geo:wktLiteral ;
+    osst:P111 "POINT(114.8719954 4.1221328)",
+        "POINT(114.8773384 4.1252308)" ;
+    osst:P113 "description=Middle level entrance to Whiterock Cave system",
+        "name=Whiterock Cave (Midnight Entrance)",
+        "natural=cave_entrance" .
+
+osss:Q104-79D9CA7E-55A9-591C-BB20-145959FDB16E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b6895731d5daf4b7bff806b2940132b917b9a2a2 ;
+    ossps:P113 "name=Whiterock Cave (Midnight Entrance)" .
+
+osss:Q104-360F9666-E21F-5DBC-87E6-D21050040B70
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T11:46:44Z" ;
+    osspq:P104 "128171642" ;
+    osspq:P105 "mataharimau" ;
+    osspq:P106 "17227421" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/10135300285/history/1> .
+
+osss:Q104-467A3962-A2C9-5728-A15B-46865C0404F6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b6895731d5daf4b7bff806b2940132b917b9a2a2 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q104-2716C810-7B65-545F-9DC2-67F49CFE0F66
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/10135300285/history/1> .
+
+osss:Q104-54487646-ABAD-51AD-8829-B031256E4CE1
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(114.8773384 4.1252308)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:3100c82fa0f35e51ce29f75ab79ce084c49993d0 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T11:46:44Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(114.8773384 4.1252308)" .
+
+osss:Q104-84851980-FBA2-562F-9F5B-ABBC099028FC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/10135300285> .
+
+osss:Q104-B446CBBA-938C-5149-9F37-EB916ABCA14D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T15:42:57Z" ;
+    osspq:P104 "128181038" ;
+    osspq:P105 "mataharimau" ;
+    osspq:P106 "17227421" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/10135300285/history/2> .
+
+osss:Q104-B671F23B-72A1-5EB7-A777-94CE0E1661CC
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(114.8719954 4.1221328)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:b6895731d5daf4b7bff806b2940132b917b9a2a2 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2022-10-28T15:42:57Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(114.8719954 4.1221328)" .
+
+osss:Q104-C16F1D9D-E2AF-5272-9A42-A1DA8078FCE4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q104-D3764DF0-4B90-5EE6-B580-A3353508FABB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b6895731d5daf4b7bff806b2940132b917b9a2a2 ;
+    ossps:P110 "Point(114.8719954 4.1221328)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:809279212006530a1a253328967b5ad1 .
+
+osss:Q104-F1189D62-D0FB-5E1F-921E-7ED80AADCCA1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:b6895731d5daf4b7bff806b2940132b917b9a2a2 ;
+    ossps:P113 "description=Middle level entrance to Whiterock Cave system" .
+
+ossref:3100c82fa0f35e51ce29f75ab79ce084c49993d0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10135300285/history/1> .
+
+ossref:b6895731d5daf4b7bff806b2940132b917b9a2a2
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/10135300285/history/2> .
+
+ossv:809279212006530a1a253328967b5ad1
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "4.1221328"^^xsd:double ;
+    wikibase:geoLongitude "114.8719954"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

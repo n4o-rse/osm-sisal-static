@@ -1,0 +1,264 @@
+# Q280: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q280.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 7412451779)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7412451779)"@de ;
+    dcterms:identifier "Q280" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q280 ;
+    dcterms:title "Cueva del Cobre"@de,
+        "Cueva del Cobre"@en ;
+    schema:about oss:Q280 ;
+    dcat:distribution ossdist:Q280-html,
+        ossdist:Q280-json,
+        ossdist:Q280-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q280.html> .
+
+ossdist:Q280-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q280, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q280.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q280-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q280, as archived from the Wikibase API"@en ;
+    dcat:byteSize "16468"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q280.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q280-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q280, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q280.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q280
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 7412451779)"@en,
+        "Höhenmarke (OpenStreetMap-Node 7412451779)"@de ;
+    schema:name "Cueva del Cobre"@de,
+        "Cueva del Cobre"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "13"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q280-27A152D1-5E22-5D9A-BFDB-53326583E297 ;
+    geo:hasGeometry osss:Q280-27A152D1-5E22-5D9A-BFDB-53326583E297,
+        osss:Q280-CA672C5B-7486-57BB-B04F-1EF69E72FF0A ;
+    rdfs:label "Cueva del Cobre"@de,
+        "Cueva del Cobre"@en ;
+    skos:prefLabel "Cueva del Cobre"@de,
+        "Cueva del Cobre"@en ;
+    ossp:P2 osss:Q280-704EC753-DF74-5CDF-8E46-218C22B7F421 ;
+    ossp:P100 osss:Q280-9ED98476-E5BB-5AD7-BAA6-CAD364D67951 ;
+    ossp:P101 osss:Q280-000E87EA-5E17-535F-8A81-741E77FB9680,
+        osss:Q280-99A23FE4-CD40-574D-89EE-EBD997163508,
+        osss:Q280-3214D5F7-BE2A-51EC-A9C0-007436A24F14 ;
+    ossp:P107 osss:Q280-0C38CA00-237A-595C-8117-D012F5DC2892 ;
+    ossp:P110 osss:Q280-6022DF2E-4B56-59A1-8152-88CE10DCEC41 ;
+    ossp:P111 osss:Q280-27A152D1-5E22-5D9A-BFDB-53326583E297,
+        osss:Q280-CA672C5B-7486-57BB-B04F-1EF69E72FF0A ;
+    ossp:P113 osss:Q280-1C9B9AAF-7DDA-5A23-AA67-30C3A702FA70,
+        osss:Q280-17BA2902-67EB-54AE-90FC-402401BB4B8B,
+        osss:Q280-2304EC79-A7EF-542E-B6C6-B7011A1C4646,
+        osss:Q280-F2D3AFE1-606F-5AF8-A271-6D20AF666F87 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/7412451779> ;
+    osst:P101 <https://www.openstreetmap.org/node/7412451779/history/3> ;
+    osst:P107 <https://www.openstreetmap.org/node/7412451779/history/2> ;
+    osst:P110 "Point(-4.3730693 42.9869025)"^^geo:wktLiteral ;
+    osst:P111 "POINT(-4.3730693 42.9869025)",
+        "POINT(-4.3731377 42.9867975)" ;
+    osst:P113 "name=Cueva del Cobre",
+        "natural=cave_entrance",
+        "wikidata=Q5794252",
+        "wikipedia=es:Cueva del Cobre" .
+
+osss:Q280-0C38CA00-237A-595C-8117-D012F5DC2892
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/7412451779/history/2> .
+
+osss:Q280-000E87EA-5E17-535F-8A81-741E77FB9680
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2023-07-01T12:01:52Z" ;
+    osspq:P104 "137989792" ;
+    osspq:P105 "Hugoren Martinako" ;
+    osspq:P106 "3392826" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7412451779/history/3> .
+
+osss:Q280-1C9B9AAF-7DDA-5A23-AA67-30C3A702FA70
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195 ;
+    ossps:P113 "wikidata=Q5794252" .
+
+osss:Q280-9ED98476-E5BB-5AD7-BAA6-CAD364D67951
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/7412451779> .
+
+osss:Q280-17BA2902-67EB-54AE-90FC-402401BB4B8B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195 ;
+    ossps:P113 "wikipedia=es:Cueva del Cobre" .
+
+osss:Q280-27A152D1-5E22-5D9A-BFDB-53326583E297
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.3730693 42.9869025)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:5c937058c8f159f8a954329eb887e7f15fb0d404 ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-06-20T17:45:59Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(-4.3730693 42.9869025)" .
+
+osss:Q280-99A23FE4-CD40-574D-89EE-EBD997163508
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-04-16T20:27:24Z" ;
+    osspq:P104 "83666926" ;
+    osspq:P105 "davidbgr" ;
+    osspq:P106 "843156" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/7412451779/history/1> .
+
+osss:Q280-704EC753-DF74-5CDF-8E46-218C22B7F421
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q280-2304EC79-A7EF-542E-B6C6-B7011A1C4646
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195 ;
+    ossps:P113 "name=Cueva del Cobre" .
+
+osss:Q280-3214D5F7-BE2A-51EC-A9C0-007436A24F14
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2021-06-20T17:45:59Z" ;
+    osspq:P104 "106675526" ;
+    osspq:P105 "Hugoren Martinako" ;
+    osspq:P106 "3392826" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/7412451779/history/2> .
+
+osss:Q280-6022DF2E-4B56-59A1-8152-88CE10DCEC41
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195 ;
+    ossps:P110 "Point(-4.3730693 42.9869025)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:889e186ffa42e0ee93c0574e7ed28c30 .
+
+osss:Q280-CA672C5B-7486-57BB-B04F-1EF69E72FF0A
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(-4.3731377 42.9867975)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:2611d51b7ffc6148fa20c60177dfd1df2fa1c55f ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2020-04-16T20:27:24Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(-4.3731377 42.9867975)" .
+
+osss:Q280-F2D3AFE1-606F-5AF8-A271-6D20AF666F87
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195 ;
+    ossps:P113 "natural=cave_entrance" .
+
+ossref:5c937058c8f159f8a954329eb887e7f15fb0d404
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7412451779/history/2> .
+
+ossref:2611d51b7ffc6148fa20c60177dfd1df2fa1c55f
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7412451779/history/1> .
+
+ossref:e5c6736c7d4965080b09fc38df7f80dc12da2195
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/7412451779/history/3> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:889e186ffa42e0ee93c0574e7ed28c30
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "42.9869025"^^xsd:double ;
+    wikibase:geoLongitude "-4.3730693"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

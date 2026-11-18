@@ -1,0 +1,228 @@
+# Q206: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q206.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3658668205)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3658668205)"@de ;
+    dcterms:identifier "Q206" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q206 ;
+    dcterms:title "Yonderup Cave"@de,
+        "Yonderup Cave"@en ;
+    schema:about oss:Q206 ;
+    dcat:distribution ossdist:Q206-html,
+        ossdist:Q206-json,
+        ossdist:Q206-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q206.html> .
+
+ossdist:Q206-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q206, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q206.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q206-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q206, as archived from the Wikibase API"@en ;
+    dcat:byteSize "12708"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q206.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q206-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q206, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q206.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q206
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3658668205)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3658668205)"@de ;
+    schema:name "Yonderup Cave"@de,
+        "Yonderup Cave"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "11"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q206-6DADAAC8-54DB-5454-A122-D655E93D7958 ;
+    geo:hasGeometry osss:Q206-6DADAAC8-54DB-5454-A122-D655E93D7958 ;
+    rdfs:label "Yonderup Cave"@de,
+        "Yonderup Cave"@en ;
+    skos:prefLabel "Yonderup Cave"@de,
+        "Yonderup Cave"@en ;
+    ossp:P2 osss:Q206-84C51BD8-24B5-5224-AC70-57E5384A75D1 ;
+    ossp:P100 osss:Q206-EB250731-F504-58E7-9CA7-62D161E263FE ;
+    ossp:P101 osss:Q206-7613ED1A-E33D-5F77-B46F-25204DD9754B,
+        osss:Q206-C6EA16BB-B21E-55E5-8F75-BA08BF9DDF1E ;
+    ossp:P107 osss:Q206-EBFDCB54-4A5D-5EE5-AD26-BE08771727A9 ;
+    ossp:P110 osss:Q206-D9C2513C-CC1B-5DAF-AFFD-10EBED280D06 ;
+    ossp:P111 osss:Q206-6DADAAC8-54DB-5454-A122-D655E93D7958 ;
+    ossp:P113 osss:Q206-2DD8E3E0-8C0C-589F-A091-A6CEA4EDEF38,
+        osss:Q206-26F19EA0-7EA8-5EE8-8D8F-37492E0C45C9,
+        osss:Q206-367F4C3F-E0C3-5DE2-9B10-5E100DD31589,
+        osss:Q206-A42CB29C-2EF4-58AE-A7DE-B791A1DB86F7 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3658668205> ;
+    osst:P101 <https://www.openstreetmap.org/node/3658668205/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/3658668205/history/1> ;
+    osst:P110 "Point(115.6906614 -31.5476174)"^^geo:wktLiteral ;
+    osst:P111 "POINT(115.6906614 -31.5476174)" ;
+    osst:P113 "access=customers",
+        "name=Yonderup Cave",
+        "natural=cave_entrance",
+        "tourism=attraction" .
+
+osss:Q206-2DD8E3E0-8C0C-589F-A091-A6CEA4EDEF38
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1489c072f2bf3726efcf9601f01a4b7a44debcb7 ;
+    ossps:P113 "name=Yonderup Cave" .
+
+osss:Q206-6DADAAC8-54DB-5454-A122-D655E93D7958
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(115.6906614 -31.5476174)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:40748d92c5f1cf7daa4a57f5d7e06e62aaa77c73 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-07-20T09:37:26Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(115.6906614 -31.5476174)" .
+
+osss:Q206-26F19EA0-7EA8-5EE8-8D8F-37492E0C45C9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1489c072f2bf3726efcf9601f01a4b7a44debcb7 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q206-84C51BD8-24B5-5224-AC70-57E5384A75D1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q206-367F4C3F-E0C3-5DE2-9B10-5E100DD31589
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1489c072f2bf3726efcf9601f01a4b7a44debcb7 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q206-7613ED1A-E33D-5F77-B46F-25204DD9754B
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-07-20T09:37:26Z" ;
+    osspq:P104 "32749552" ;
+    osspq:P105 "OSMNZ" ;
+    osspq:P106 "663232" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3658668205/history/1> .
+
+osss:Q206-A42CB29C-2EF4-58AE-A7DE-B791A1DB86F7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1489c072f2bf3726efcf9601f01a4b7a44debcb7 ;
+    ossps:P113 "access=customers" .
+
+osss:Q206-C6EA16BB-B21E-55E5-8F75-BA08BF9DDF1E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2018-07-12T03:22:14Z" ;
+    osspq:P104 "60632368" ;
+    osspq:P105 "steerage250" ;
+    osspq:P106 "65357" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3658668205/history/2> .
+
+osss:Q206-D9C2513C-CC1B-5DAF-AFFD-10EBED280D06
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:1489c072f2bf3726efcf9601f01a4b7a44debcb7 ;
+    ossps:P110 "Point(115.6906614 -31.5476174)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:f627171703cd9402881e0a4195a4c317 .
+
+osss:Q206-EB250731-F504-58E7-9CA7-62D161E263FE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3658668205> .
+
+osss:Q206-EBFDCB54-4A5D-5EE5-AD26-BE08771727A9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3658668205/history/1> .
+
+ossref:1489c072f2bf3726efcf9601f01a4b7a44debcb7
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3658668205/history/2> .
+
+ossref:40748d92c5f1cf7daa4a57f5d7e06e62aaa77c73
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3658668205/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f627171703cd9402881e0a4195a4c317
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-31.5476174"^^xsd:double ;
+    wikibase:geoLongitude "115.6906614"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

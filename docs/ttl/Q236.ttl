@@ -1,0 +1,351 @@
+# Q236: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q236.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 495996579)"@en,
+        "Höhenmarke (OpenStreetMap-Node 495996579)"@de ;
+    dcterms:identifier "Q236" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q236 ;
+    dcterms:title "Te Ana-au Glow-Worm Caves"@de,
+        "Te Ana-au Glow-Worm Caves"@en ;
+    schema:about oss:Q236 ;
+    dcat:distribution ossdist:Q236-html,
+        ossdist:Q236-json,
+        ossdist:Q236-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q236.html> .
+
+ossdist:Q236-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q236, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q236.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q236-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q236, as archived from the Wikibase API"@en ;
+    dcat:byteSize "26267"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q236.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q236-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q236, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q236.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q236
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 495996579)"@en,
+        "Höhenmarke (OpenStreetMap-Node 495996579)"@de ;
+    schema:name "Te Ana-au Glow-Worm Caves"@de,
+        "Te Ana-au Glow-Worm Caves"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "20"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q236-F9F5F7FC-5E8C-5DB5-96BB-0A30DECD2293 ;
+    geo:hasGeometry osss:Q236-82ED20C4-272C-57AF-B199-8C33D4E90E8E,
+        osss:Q236-F9F5F7FC-5E8C-5DB5-96BB-0A30DECD2293 ;
+    rdfs:label "Te Ana-au Glow-Worm Caves"@de,
+        "Te Ana-au Glow-Worm Caves"@en ;
+    skos:prefLabel "Te Ana-au Glow-Worm Caves"@de,
+        "Te Ana-au Glow-Worm Caves"@en ;
+    ossp:P2 osss:Q236-D467D2F9-B3AD-5253-81DA-8C4BB9CAC32A ;
+    ossp:P100 osss:Q236-DAD65524-F827-5913-8F1F-40D939B72C98 ;
+    ossp:P101 osss:Q236-4DB3C2A3-DA75-5CA0-A46F-3F9357CA535E,
+        osss:Q236-4F4ADCC4-2E3B-5115-BA5D-0AD879D80547,
+        osss:Q236-5BF76EB9-3F30-5BFA-B6F7-AABDFA93139D,
+        osss:Q236-3915B9F3-985F-5819-A99C-7FE51908A3A0,
+        osss:Q236-BFAA9B2A-3E3E-555A-9153-BA909A4865EC,
+        osss:Q236-D51A2689-D2FA-5D22-AD31-0B9FE15BBE63 ;
+    ossp:P107 osss:Q236-1435D1D1-4DB2-5768-AEC2-85E9C3B9934B ;
+    ossp:P110 osss:Q236-94A97A3B-1787-5BF8-BA6C-F881BFB5ADDE ;
+    ossp:P111 osss:Q236-82ED20C4-272C-57AF-B199-8C33D4E90E8E,
+        osss:Q236-F9F5F7FC-5E8C-5DB5-96BB-0A30DECD2293 ;
+    ossp:P113 osss:Q236-1E210D4D-4245-5B58-8F1F-C61BE754536C,
+        osss:Q236-9B1723B7-BB03-5258-B9A5-FFDA2DFEF462,
+        osss:Q236-71EBB514-D420-5813-BBA2-083119C09C5F,
+        osss:Q236-619CD014-79C9-5003-801E-73F3043AA2C1,
+        osss:Q236-80327E92-3A68-5C0A-A905-2A54AFD9C6D9,
+        osss:Q236-B03271AA-5AE6-572B-B9B8-7B8C397477F3,
+        osss:Q236-BFC43407-3037-521C-B82D-B45CB513C628,
+        osss:Q236-F9517561-0818-5339-A227-4A769A4C4EDF ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/495996579> ;
+    osst:P101 <https://www.openstreetmap.org/node/495996579/history/6> ;
+    osst:P107 <https://www.openstreetmap.org/node/495996579/history/2> ;
+    osst:P110 "Point(167.7264435 -45.2945045)"^^geo:wktLiteral ;
+    osst:P111 "POINT(167.7264435 -45.2945045)",
+        "POINT(167.7265126 -45.2945177)" ;
+    osst:P113 "alt_name=Te Anau Glowworm Caves",
+        "name:en=Te Ana-au Glow-Worm Caves",
+        "name:mi=Te Ana-au Glow-Worm",
+        "name=Te Ana-au Glow-Worm Caves",
+        "natural=cave_entrance",
+        "ref:linz:place_id=42187",
+        "tourism=attraction",
+        "wikidata=Q1436725" .
+
+osss:Q236-1E210D4D-4245-5B58-8F1F-C61BE754536C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q236-4DB3C2A3-DA75-5CA0-A46F-3F9357CA535E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2026-05-26T15:36:31Z" ;
+    osspq:P104 "183215251" ;
+    osspq:P105 "❤️‍🔥" ;
+    osspq:P106 "10140394" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/495996579/history/6> .
+
+osss:Q236-4F4ADCC4-2E3B-5115-BA5D-0AD879D80547
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2018-09-27T05:10:15Z" ;
+    osspq:P104 "62965079" ;
+    osspq:P105 "lcmortensen" ;
+    osspq:P106 "341519" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/495996579/history/3> .
+
+osss:Q236-5BF76EB9-3F30-5BFA-B6F7-AABDFA93139D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2023-01-06T06:19:33Z" ;
+    osspq:P104 "130933624" ;
+    osspq:P105 "❤️‍🔥_import" ;
+    osspq:P106 "8389777" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/495996579/history/5> .
+
+osss:Q236-9B1723B7-BB03-5258-B9A5-FFDA2DFEF462
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q236-71EBB514-D420-5813-BBA2-083119C09C5F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "name:mi=Te Ana-au Glow-Worm" .
+
+osss:Q236-82ED20C4-272C-57AF-B199-8C33D4E90E8E
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(167.7265126 -45.2945177)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:94bc3c1f6c3622148ea38dfa7d1168641616416b ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-09-14T09:59:28Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(167.7265126 -45.2945177)" .
+
+osss:Q236-94A97A3B-1787-5BF8-BA6C-F881BFB5ADDE
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P110 "Point(167.7264435 -45.2945045)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:c7cfd0dc821233a0f5f41a313cff7705 .
+
+osss:Q236-619CD014-79C9-5003-801E-73F3043AA2C1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "name:en=Te Ana-au Glow-Worm Caves" .
+
+osss:Q236-1435D1D1-4DB2-5768-AEC2-85E9C3B9934B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/495996579/history/2> .
+
+osss:Q236-3915B9F3-985F-5819-A99C-7FE51908A3A0
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2019-01-21T14:24:40Z" ;
+    osspq:P104 "66506751" ;
+    osspq:P105 "weltanschauer" ;
+    osspq:P106 "9088499" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/495996579/history/4> .
+
+osss:Q236-80327E92-3A68-5C0A-A905-2A54AFD9C6D9
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "alt_name=Te Anau Glowworm Caves" .
+
+osss:Q236-B03271AA-5AE6-572B-B9B8-7B8C397477F3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "wikidata=Q1436725" .
+
+osss:Q236-BFAA9B2A-3E3E-555A-9153-BA909A4865EC
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2009-09-14T09:59:28Z" ;
+    osspq:P104 "2479331" ;
+    osspq:P105 "HaaseD" ;
+    osspq:P106 "24882" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/495996579/history/1> .
+
+osss:Q236-BFC43407-3037-521C-B82D-B45CB513C628
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "ref:linz:place_id=42187" .
+
+osss:Q236-D51A2689-D2FA-5D22-AD31-0B9FE15BBE63
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2017-02-14T02:38:26Z" ;
+    osspq:P104 "46066870" ;
+    osspq:P105 "NyanSten" ;
+    osspq:P106 "255936" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/495996579/history/2> .
+
+osss:Q236-D467D2F9-B3AD-5253-81DA-8C4BB9CAC32A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q236-DAD65524-F827-5913-8F1F-40D939B72C98
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/495996579> .
+
+osss:Q236-F9F5F7FC-5E8C-5DB5-96BB-0A30DECD2293
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(167.7264435 -45.2945045)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:6fd7c53926876091556885bbee5d6210b624bfcb ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2017-02-14T02:38:26Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(167.7264435 -45.2945045)" .
+
+osss:Q236-F9517561-0818-5339-A227-4A769A4C4EDF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004 ;
+    ossps:P113 "name=Te Ana-au Glow-Worm Caves" .
+
+ossref:6fd7c53926876091556885bbee5d6210b624bfcb
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/495996579/history/2> .
+
+ossref:94bc3c1f6c3622148ea38dfa7d1168641616416b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/495996579/history/1> .
+
+ossref:d539b508f976c8b86b39d2dc94c60e3ee6b4c004
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/495996579/history/6> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c7cfd0dc821233a0f5f41a313cff7705
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-45.2945045"^^xsd:double ;
+    wikibase:geoLongitude "167.7264435"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

@@ -1,0 +1,264 @@
+# Q226: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q226.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 4503846516)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4503846516)"@de ;
+    dcterms:identifier "Q226" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q226 ;
+    dcterms:title "芙蓉洞"@de,
+        "芙蓉洞"@en ;
+    schema:about oss:Q226 ;
+    dcat:distribution ossdist:Q226-html,
+        ossdist:Q226-json,
+        ossdist:Q226-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q226.html> .
+
+ossdist:Q226-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q226, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q226.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q226-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q226, as archived from the Wikibase API"@en ;
+    dcat:byteSize "16260"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q226.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q226-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q226, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q226.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q226
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 4503846516)"@en,
+        "Höhenmarke (OpenStreetMap-Node 4503846516)"@de ;
+    schema:name "芙蓉洞"@de,
+        "芙蓉洞"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "15"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q226-C696DB6E-DD3E-53E6-ADCD-0FE67C483C5C ;
+    geo:hasGeometry osss:Q226-C696DB6E-DD3E-53E6-ADCD-0FE67C483C5C ;
+    rdfs:label "芙蓉洞"@de,
+        "芙蓉洞"@en ;
+    skos:prefLabel "芙蓉洞"@de,
+        "芙蓉洞"@en ;
+    ossp:P2 osss:Q226-1DB263E6-6A4A-51F7-8B6D-973CD17B80BC ;
+    ossp:P100 osss:Q226-64D66323-BF1F-5001-AD65-26FF82CB066D ;
+    ossp:P101 osss:Q226-6F5DFEA4-BDFC-51CC-89E1-13AC5A04CA87,
+        osss:Q226-FC39EAE2-3FA0-5653-B690-255363E90D98 ;
+    ossp:P107 osss:Q226-787680FF-C74B-5D99-AF5D-8A345572B325 ;
+    ossp:P110 osss:Q226-999170CE-909A-54BA-88E1-F3C1C2EDE4B3 ;
+    ossp:P111 osss:Q226-C696DB6E-DD3E-53E6-ADCD-0FE67C483C5C ;
+    ossp:P113 osss:Q226-6E323422-F4FD-5E4F-B11E-4148A8563CB0,
+        osss:Q226-9AB87DEB-3C0E-5E66-A68F-F82FC53EF351,
+        osss:Q226-76C6AB21-38E3-509C-9E76-2AA19884F5F1,
+        osss:Q226-2212AB7C-A419-5D91-8A85-57F300890D0B,
+        osss:Q226-5998D921-8D78-5518-8FC6-8D460A2637A2,
+        osss:Q226-97050875-EB5A-537B-B6C9-F039C7D9CA6E,
+        osss:Q226-B0FE32D4-DB78-5A5E-98A9-614616E7E62A,
+        osss:Q226-F627B9E4-D587-503F-9746-B2D77DD8E4E4 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/4503846516> ;
+    osst:P101 <https://www.openstreetmap.org/node/4503846516/history/2> ;
+    osst:P107 <https://www.openstreetmap.org/node/4503846516/history/1> ;
+    osst:P110 "Point(107.9033277 29.2289158)"^^geo:wktLiteral ;
+    osst:P111 "POINT(107.9033277 29.2289158)" ;
+    osst:P113 "heritage:operator=whc",
+        "heritage=1",
+        "name:en=Furong Cave",
+        "name:ru=Фужун",
+        "name=芙蓉洞",
+        "natural=cave_entrance",
+        "wikidata=Q5509697",
+        "wikipedia=zh:芙蓉洞" .
+
+osss:Q226-1DB263E6-6A4A-51F7-8B6D-973CD17B80BC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q226-6E323422-F4FD-5E4F-B11E-4148A8563CB0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "heritage=1" .
+
+osss:Q226-6F5DFEA4-BDFC-51CC-89E1-13AC5A04CA87
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2026-09-29T15:49:17Z" ;
+    osspq:P104 "189735410" ;
+    osspq:P105 "yuebing_hermit497" ;
+    osspq:P106 "24389651" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/4503846516/history/2> .
+
+osss:Q226-9AB87DEB-3C0E-5E66-A68F-F82FC53EF351
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "name:ru=Фужун" .
+
+osss:Q226-64D66323-BF1F-5001-AD65-26FF82CB066D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/4503846516> .
+
+osss:Q226-76C6AB21-38E3-509C-9E76-2AA19884F5F1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "name=芙蓉洞" .
+
+osss:Q226-2212AB7C-A419-5D91-8A85-57F300890D0B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "wikipedia=zh:芙蓉洞" .
+
+osss:Q226-5998D921-8D78-5518-8FC6-8D460A2637A2
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "heritage:operator=whc" .
+
+osss:Q226-787680FF-C74B-5D99-AF5D-8A345572B325
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/4503846516/history/1> .
+
+osss:Q226-999170CE-909A-54BA-88E1-F3C1C2EDE4B3
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P110 "Point(107.9033277 29.2289158)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:f3ba699953f35d015bbb11da3f712143 .
+
+osss:Q226-97050875-EB5A-537B-B6C9-F039C7D9CA6E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "wikidata=Q5509697" .
+
+osss:Q226-B0FE32D4-DB78-5A5E-98A9-614616E7E62A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "name:en=Furong Cave" .
+
+osss:Q226-C696DB6E-DD3E-53E6-ADCD-0FE67C483C5C
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(107.9033277 29.2289158)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:d02779f663169cf775fad2b172aaf3edbb1f2227 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-11-16T08:08:16Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(107.9033277 29.2289158)" .
+
+osss:Q226-F627B9E4-D587-503F-9746-B2D77DD8E4E4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q226-FC39EAE2-3FA0-5653-B690-255363E90D98
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2016-11-16T08:08:16Z" ;
+    osspq:P104 "43691665" ;
+    osspq:P105 "katpatuka" ;
+    osspq:P106 "17497" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/4503846516/history/1> .
+
+ossref:c67633df992ed2f714ed0cd3d62fc0bc3c76f421
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4503846516/history/2> .
+
+ossref:d02779f663169cf775fad2b172aaf3edbb1f2227
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/4503846516/history/1> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:f3ba699953f35d015bbb11da3f712143
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "29.2289158"^^xsd:double ;
+    wikibase:geoLongitude "107.9033277"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

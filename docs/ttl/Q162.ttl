@@ -1,0 +1,428 @@
+# Q162: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q162.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 1488744824)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1488744824)"@de ;
+    dcterms:identifier "Q162" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q162 ;
+    dcterms:title "Spannagelhöhle"@de,
+        "Spannagelhöhle"@en ;
+    schema:about oss:Q162 ;
+    dcat:distribution ossdist:Q162-html,
+        ossdist:Q162-json,
+        ossdist:Q162-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q162.html> .
+
+ossdist:Q162-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q162, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q162.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q162-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q162, as archived from the Wikibase API"@en ;
+    dcat:byteSize "34531"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q162.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q162-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q162, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q162.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q162
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 1488744824)"@en,
+        "Höhenmarke (OpenStreetMap-Node 1488744824)"@de ;
+    schema:name "Spannagelhöhle"@de,
+        "Spannagelhöhle"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "25"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q162-F5C59A84-FF21-5777-AC75-2B3F32AF0935 ;
+    geo:hasGeometry osss:Q162-63018D01-7E30-559C-83A4-8A2AD828D601,
+        osss:Q162-B5BC1A0C-59EA-56C2-8473-23D26C80AA2F,
+        osss:Q162-DE8C14B1-E613-5A48-8162-0207F9F08C60,
+        osss:Q162-F5C59A84-FF21-5777-AC75-2B3F32AF0935 ;
+    rdfs:label "Spannagelhöhle"@de,
+        "Spannagelhöhle"@en ;
+    skos:prefLabel "Spannagelhöhle"@de,
+        "Spannagelhöhle"@en ;
+    ossp:P2 osss:Q162-A5AA4938-2685-5FDA-AB9C-E542EDB77BCD ;
+    ossp:P100 osss:Q162-C73D4B86-0F72-5BD3-B8E5-9C233F3B2D82 ;
+    ossp:P101 osss:Q162-17FB1ED7-2BC4-515F-B5D6-E3BDCDEC4E5F,
+        osss:Q162-46E5A4D2-8FD7-5A1F-9C43-7B86EBFEEA46,
+        osss:Q162-66BAC4EB-7E29-5FD0-84F7-FAFDE9BD2055,
+        osss:Q162-93EE7FF6-974E-5158-A623-A974CA2AE561,
+        osss:Q162-604CAB1A-1DE0-5578-A736-CC3E0EE03795,
+        osss:Q162-884CA8E2-0814-5545-A65A-CCD840388843,
+        osss:Q162-E151FC71-EE73-5A4C-8728-EB66CB3444B5,
+        osss:Q162-E63347E6-734D-5702-9A1E-0A53BC2D64F3 ;
+    ossp:P107 osss:Q162-A1F2BE42-814F-5ECB-88DA-80F3FCCD80BF ;
+    ossp:P110 osss:Q162-7BE22C10-228C-5D4F-BB16-A8C292D80802 ;
+    ossp:P111 osss:Q162-63018D01-7E30-559C-83A4-8A2AD828D601,
+        osss:Q162-B5BC1A0C-59EA-56C2-8473-23D26C80AA2F,
+        osss:Q162-DE8C14B1-E613-5A48-8162-0207F9F08C60,
+        osss:Q162-F5C59A84-FF21-5777-AC75-2B3F32AF0935 ;
+    ossp:P113 osss:Q162-5F49A6C9-8B30-503D-96DE-B25A34EE1774,
+        osss:Q162-9DED967D-F8E2-592A-A0D9-7398B6C5B298,
+        osss:Q162-78DA28D6-BE7D-5C6F-9875-BCB211CDC59E,
+        osss:Q162-86D2D02D-F681-5C0A-AACC-58234E9DB4B1,
+        osss:Q162-912DE271-F55D-5F1E-BE67-48C630DF86F0,
+        osss:Q162-917D3341-8500-592F-B0B4-CB49BA96C3CC,
+        osss:Q162-2740BFD9-8CD8-56E9-939A-F45439022C4A,
+        osss:Q162-C0593CF7-93C2-59C7-B957-035C7AED899F,
+        osss:Q162-D47DD4AD-4DB0-54A6-9D8F-FA8013F10EAD ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/1488744824> ;
+    osst:P101 <https://www.openstreetmap.org/node/1488744824/history/8> ;
+    osst:P107 <https://www.openstreetmap.org/node/1488744824/history/1> ;
+    osst:P110 "Point(11.671292 47.0801529)"^^geo:wktLiteral ;
+    osst:P111 "POINT(11.671292 47.0801529)",
+        "POINT(11.6712933 47.0801182)",
+        "POINT(11.6713819 47.0800504)",
+        "POINT(11.6714154 47.080068)" ;
+    osst:P113 "attraction=cave",
+        "cave:ref:AT=2515/1",
+        "fee=yes",
+        "name=Spannagelhöhle",
+        "natural=cave_entrance",
+        "tourism=attraction",
+        "website=https://www.spannagelhoehle.at",
+        "wikidata=Q875718",
+        "wikipedia=de:Spannagelhöhle" .
+
+osss:Q162-5F49A6C9-8B30-503D-96DE-B25A34EE1774
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q162-7BE22C10-228C-5D4F-BB16-A8C292D80802
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P110 "Point(11.671292 47.0801529)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:ca4b01f9cc47f780424c63fbf213f09f .
+
+osss:Q162-9DED967D-F8E2-592A-A0D9-7398B6C5B298
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "attraction=cave" .
+
+osss:Q162-17FB1ED7-2BC4-515F-B5D6-E3BDCDEC4E5F
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2017-09-25T01:28:27Z" ;
+    osspq:P104 "52342233" ;
+    osspq:P105 "nyuriks" ;
+    osspq:P106 "339581" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/5> .
+
+osss:Q162-46E5A4D2-8FD7-5A1F-9C43-7B86EBFEEA46
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2026-08-06T21:07:02Z" ;
+    osspq:P104 "187056917" ;
+    osspq:P105 "Hungerburg" ;
+    osspq:P106 "1885585" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/8> .
+
+osss:Q162-66BAC4EB-7E29-5FD0-84F7-FAFDE9BD2055
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2024-08-05T19:42:12Z" ;
+    osspq:P104 "154866214" ;
+    osspq:P105 "TommiG" ;
+    osspq:P106 "6096256" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/7> .
+
+osss:Q162-78DA28D6-BE7D-5C6F-9875-BCB211CDC59E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "wikipedia=de:Spannagelhöhle" .
+
+osss:Q162-86D2D02D-F681-5C0A-AACC-58234E9DB4B1
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "name=Spannagelhöhle" .
+
+osss:Q162-93EE7FF6-974E-5158-A623-A974CA2AE561
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2011-11-01T17:08:15Z" ;
+    osspq:P104 "9714421" ;
+    osspq:P105 "kay_D" ;
+    osspq:P106 "57158" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/1> .
+
+osss:Q162-604CAB1A-1DE0-5578-A736-CC3E0EE03795
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2012-07-21T10:10:45Z" ;
+    osspq:P104 "12405597" ;
+    osspq:P105 "gcklaus" ;
+    osspq:P106 "309214" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/2> .
+
+osss:Q162-884CA8E2-0814-5545-A65A-CCD840388843
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2014-11-25T13:55:00Z" ;
+    osspq:P104 "27021682" ;
+    osspq:P105 "gosausee" ;
+    osspq:P106 "110450" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/3> .
+
+osss:Q162-912DE271-F55D-5F1E-BE67-48C630DF86F0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "website=https://www.spannagelhoehle.at" .
+
+osss:Q162-917D3341-8500-592F-B0B4-CB49BA96C3CC
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q162-2740BFD9-8CD8-56E9-939A-F45439022C4A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "wikidata=Q875718" .
+
+osss:Q162-63018D01-7E30-559C-83A4-8A2AD828D601
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.6713819 47.0800504)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:087d656068ad14a8eb2d5eb636f05ca37552769c ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2012-07-21T10:10:45Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(11.6713819 47.0800504)" .
+
+osss:Q162-A1F2BE42-814F-5ECB-88DA-80F3FCCD80BF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/1488744824/history/1> .
+
+osss:Q162-A5AA4938-2685-5FDA-AB9C-E542EDB77BCD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q162-B5BC1A0C-59EA-56C2-8473-23D26C80AA2F
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.6712933 47.0801182)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:a5d9593c3eb44b8588fc8037b85ce3e923f1baac ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2011-11-01T17:08:15Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(11.6712933 47.0801182)" .
+
+osss:Q162-C73D4B86-0F72-5BD3-B8E5-9C233F3B2D82
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/1488744824> .
+
+osss:Q162-C0593CF7-93C2-59C7-B957-035C7AED899F
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "cave:ref:AT=2515/1" .
+
+osss:Q162-D47DD4AD-4DB0-54A6-9D8F-FA8013F10EAD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q162-DE8C14B1-E613-5A48-8162-0207F9F08C60
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.6714154 47.080068)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:6d1632865de0dc6b3313cc5052ae93dd877f4bcd ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2016-01-08T10:14:24Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(11.6714154 47.080068)" .
+
+osss:Q162-E151FC71-EE73-5A4C-8728-EB66CB3444B5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2022-09-06T18:56:34Z" ;
+    osspq:P104 "125871798" ;
+    osspq:P105 "makiwolf" ;
+    osspq:P106 "11497792" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/6> .
+
+osss:Q162-E63347E6-734D-5702-9A1E-0A53BC2D64F3
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2016-01-08T10:14:24Z" ;
+    osspq:P104 "36441511" ;
+    osspq:P105 "dachefte" ;
+    osspq:P106 "133419" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/1488744824/history/4> .
+
+osss:Q162-F5C59A84-FF21-5777-AC75-2B3F32AF0935
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(11.671292 47.0801529)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:dccdae654c659905a6fbeb17593d26a38b170061 ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2026-08-06T21:07:02Z" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P111 "POINT(11.671292 47.0801529)" .
+
+ossref:6d1632865de0dc6b3313cc5052ae93dd877f4bcd
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1488744824/history/4> .
+
+ossref:087d656068ad14a8eb2d5eb636f05ca37552769c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1488744824/history/2> .
+
+ossref:a5d9593c3eb44b8588fc8037b85ce3e923f1baac
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1488744824/history/1> .
+
+ossref:dccdae654c659905a6fbeb17593d26a38b170061
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/1488744824/history/8> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ca4b01f9cc47f780424c63fbf213f09f
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "47.0801529"^^xsd:double ;
+    wikibase:geoLongitude "11.671292"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .

@@ -1,0 +1,413 @@
+# Q205: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q205.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 3657259352)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3657259352)"@de ;
+    dcterms:identifier "Q205" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q205 ;
+    dcterms:title "Pinnacle Point"@de,
+        "Pinnacle Point"@en ;
+    schema:about oss:Q205 ;
+    dcat:distribution ossdist:Q205-html,
+        ossdist:Q205-json,
+        ossdist:Q205-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q205.html> .
+
+ossdist:Q205-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q205, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q205.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q205-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q205, as archived from the Wikibase API"@en ;
+    dcat:byteSize "32689"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q205.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q205-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q205, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q205.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q205
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 3657259352)"@en,
+        "Höhenmarke (OpenStreetMap-Node 3657259352)"@de ;
+    schema:name "Pinnacle Point"@de,
+        "Pinnacle Point"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "28"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q205-F21E4267-439B-52E3-890B-830CB40DD4C4 ;
+    geo:hasGeometry osss:Q205-F21E4267-439B-52E3-890B-830CB40DD4C4 ;
+    rdfs:label "Pinnacle Point"@de,
+        "Pinnacle Point"@en ;
+    skos:prefLabel "Pinnacle Point"@de,
+        "Pinnacle Point"@en ;
+    ossp:P2 osss:Q205-9E60D7E7-D763-5DA3-8EBE-8D533A32D1AB ;
+    ossp:P100 osss:Q205-668C2C12-579A-535B-A07C-9E75E7410421 ;
+    ossp:P101 osss:Q205-2AC0292D-0E49-51C1-8446-DBE2FD5F5E36,
+        osss:Q205-7AA1F14A-988F-5F21-ABFA-E94419A16444,
+        osss:Q205-007E0EED-8156-5DEC-87BA-DC66F274A86B,
+        osss:Q205-7E272041-53EA-5135-A0A2-398BEFE1FE82,
+        osss:Q205-22265056-6006-5C5E-B2C8-5183FDB9E1E7,
+        osss:Q205-A86E0E5C-2C68-5887-BFD7-DF5A747C09D8 ;
+    ossp:P107 osss:Q205-FC10E6BA-D454-567F-B8B0-5FA661AC3325 ;
+    ossp:P110 osss:Q205-E57A41D2-403D-52CF-8F39-77CBD1E08167 ;
+    ossp:P111 osss:Q205-F21E4267-439B-52E3-890B-830CB40DD4C4 ;
+    ossp:P112 osss:Q205-191AA1E4-36A9-5A2D-8F29-0687FF4EDD45 ;
+    ossp:P113 osss:Q205-0A4563D0-CB2F-5512-9378-00171FA0A54B,
+        osss:Q205-0D40EF59-60EF-52C6-A697-000C44C34912,
+        osss:Q205-1BE3C99D-12FA-576D-8F51-3BCC8AA9A303,
+        osss:Q205-7AA78FD8-EF23-523B-8FAE-503C6961146E,
+        osss:Q205-64AFF68A-C7B4-5CED-8E19-81A37772D011,
+        osss:Q205-1446BA09-80B0-562A-8B30-F74E94A6BAC6,
+        osss:Q205-03100D9D-5A69-5C6B-9443-5AEAFEDB1EBA,
+        osss:Q205-9029FD73-07A5-5EB3-BCB6-3F4C9A57C242,
+        osss:Q205-57492B9D-1C43-5A9A-AC92-7D1BD5AF54C4,
+        osss:Q205-91972FB3-5D4D-546D-8648-9FDE4F94EC4A,
+        osss:Q205-695006D4-2D3C-51DB-8273-632353AA03AD,
+        osss:Q205-BABB1164-C9AA-5880-B127-E8908E473469,
+        osss:Q205-C736F677-80AF-550A-AF7C-ECB715B4503D,
+        osss:Q205-C98330D0-3292-5E4E-AA4A-E5E63A63004D,
+        osss:Q205-D029AA42-794F-5525-ACF9-57F588D5253C,
+        osss:Q205-D637B9FC-BBF6-5A20-A8CD-9E8E11E89081 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/3657259352> ;
+    osst:P101 <https://www.openstreetmap.org/node/3657259352/history/6> ;
+    osst:P107 <https://www.openstreetmap.org/node/3657259352/history/1> ;
+    osst:P110 "Point(22.089524 -34.2077549)"^^geo:wktLiteral ;
+    osst:P111 "POINT(22.089524 -34.2077549)" ;
+    osst:P112 <http://commons.wikimedia.org/wiki/Special:FilePath/Pinnacle%20Point%20Archaeological%20Site%2C%20Mossel%20Bay%20South%20Africa.jpg> ;
+    osst:P113 "alt_name=Point of Human Origins",
+        "ele=18",
+        "fixme=Location approximate",
+        "heritage:operator=whc",
+        "heritage:website=https://whc.unesco.org/en/list/1723",
+        "heritage=yes",
+        "historic=archaeological_site",
+        "name=Pinnacle Point",
+        "natural=cave_entrance",
+        "operator=Heritage Western Cape",
+        "ref:whc=1723-002",
+        "website=https://www.humanorigin.co.za",
+        "whc:criteria=(iii)(iv)(v)",
+        "whc:inscription_date=2024",
+        "wikidata=Q1814354",
+        "wikipedia=en:Pinnacle Point" .
+
+osss:Q205-0A4563D0-CB2F-5512-9378-00171FA0A54B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "ele=18" .
+
+osss:Q205-0D40EF59-60EF-52C6-A697-000C44C34912
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "fixme=Location approximate" .
+
+osss:Q205-1BE3C99D-12FA-576D-8F51-3BCC8AA9A303
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "name=Pinnacle Point" .
+
+osss:Q205-2AC0292D-0E49-51C1-8446-DBE2FD5F5E36
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2016-01-17T09:48:58Z" ;
+    osspq:P104 "36630043" ;
+    osspq:P105 "Aleks-Berlin" ;
+    osspq:P106 "85218" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3657259352/history/3> .
+
+osss:Q205-7AA1F14A-988F-5F21-ABFA-E94419A16444
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-07-19T03:54:35Z" ;
+    osspq:P104 "32726524" ;
+    osspq:P105 "HubMiner" ;
+    osspq:P106 "238419" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/3657259352/history/1> .
+
+osss:Q205-7AA78FD8-EF23-523B-8FAE-503C6961146E
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "whc:criteria=(iii)(iv)(v)" .
+
+osss:Q205-007E0EED-8156-5DEC-87BA-DC66F274A86B
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2017-09-10T05:44:36Z" ;
+    osspq:P104 "51897701" ;
+    osspq:P105 "nyuriks" ;
+    osspq:P106 "339581" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/3657259352/history/4> .
+
+osss:Q205-7E272041-53EA-5135-A0A2-398BEFE1FE82
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2020-11-16T08:42:58Z" ;
+    osspq:P104 "94189154" ;
+    osspq:P105 "Trubalu" ;
+    osspq:P106 "3336523" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/3657259352/history/5> .
+
+osss:Q205-9E60D7E7-D763-5DA3-8EBE-8D533A32D1AB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q205-64AFF68A-C7B4-5CED-8E19-81A37772D011
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "heritage:operator=whc" .
+
+osss:Q205-191AA1E4-36A9-5A2D-8F29-0687FF4EDD45
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P112 <http://commons.wikimedia.org/wiki/Special:FilePath/Pinnacle%20Point%20Archaeological%20Site%2C%20Mossel%20Bay%20South%20Africa.jpg> .
+
+osss:Q205-668C2C12-579A-535B-A07C-9E75E7410421
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/3657259352> .
+
+osss:Q205-1446BA09-80B0-562A-8B30-F74E94A6BAC6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q205-03100D9D-5A69-5C6B-9443-5AEAFEDB1EBA
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "operator=Heritage Western Cape" .
+
+osss:Q205-9029FD73-07A5-5EB3-BCB6-3F4C9A57C242
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "wikidata=Q1814354" .
+
+osss:Q205-57492B9D-1C43-5A9A-AC92-7D1BD5AF54C4
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "ref:whc=1723-002" .
+
+osss:Q205-91972FB3-5D4D-546D-8648-9FDE4F94EC4A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "whc:inscription_date=2024" .
+
+osss:Q205-695006D4-2D3C-51DB-8273-632353AA03AD
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "website=https://www.humanorigin.co.za" .
+
+osss:Q205-22265056-6006-5C5E-B2C8-5183FDB9E1E7
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2015-07-19T03:57:03Z" ;
+    osspq:P104 "32726536" ;
+    osspq:P105 "HubMiner" ;
+    osspq:P106 "238419" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/3657259352/history/2> .
+
+osss:Q205-A86E0E5C-2C68-5887-BFD7-DF5A747C09D8
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2026-10-12T12:52:23Z" ;
+    osspq:P104 "190400537" ;
+    osspq:P105 "Ornits" ;
+    osspq:P106 "24450071" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/3657259352/history/6> .
+
+osss:Q205-BABB1164-C9AA-5880-B127-E8908E473469
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "heritage:website=https://whc.unesco.org/en/list/1723" .
+
+osss:Q205-C736F677-80AF-550A-AF7C-ECB715B4503D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "heritage=yes" .
+
+osss:Q205-C98330D0-3292-5E4E-AA4A-E5E63A63004D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "historic=archaeological_site" .
+
+osss:Q205-D029AA42-794F-5525-ACF9-57F588D5253C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "alt_name=Point of Human Origins" .
+
+osss:Q205-D637B9FC-BBF6-5A20-A8CD-9E8E11E89081
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P113 "wikipedia=en:Pinnacle Point" .
+
+osss:Q205-E57A41D2-403D-52CF-8F39-77CBD1E08167
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0 ;
+    ossps:P110 "Point(22.089524 -34.2077549)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:5f7aa548f507496923aa67af604b79b7 .
+
+osss:Q205-F21E4267-439B-52E3-890B-830CB40DD4C4
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(22.089524 -34.2077549)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:b0293771f968d3b43d21df4a07bb272bee87d61e ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2015-07-19T03:54:35Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(22.089524 -34.2077549)" .
+
+osss:Q205-FC10E6BA-D454-567F-B8B0-5FA661AC3325
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/3657259352/history/1> .
+
+ossref:8faa12c68ff414ffafa464690142f4e6e66b8ba0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3657259352/history/6> .
+
+ossref:b0293771f968d3b43d21df4a07bb272bee87d61e
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/3657259352/history/1> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:5f7aa548f507496923aa67af604b79b7
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "-34.2077549"^^xsd:double ;
+    wikibase:geoLongitude "22.089524"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

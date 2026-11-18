@@ -1,0 +1,810 @@
+# Q273: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q273.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 715290197)"@en,
+        "Höhenmarke (OpenStreetMap-Node 715290197)"@de ;
+    dcterms:identifier "Q273" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q273 ;
+    dcterms:title "Dim Mağarası"@de,
+        "Dim Mağarası"@en ;
+    schema:about oss:Q273 ;
+    dcat:distribution ossdist:Q273-html,
+        ossdist:Q273-json,
+        ossdist:Q273-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q273.html> .
+
+ossdist:Q273-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q273, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q273.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q273-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q273, as archived from the Wikibase API"@en ;
+    dcat:byteSize "79104"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q273.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q273-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q273, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q273.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q273
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 715290197)"@en,
+        "Höhenmarke (OpenStreetMap-Node 715290197)"@de ;
+    schema:name "Dim Mağarası"@de,
+        "Dim Mağarası"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "49"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q273-F758D77D-435F-56EC-A6A2-7B783E606825 ;
+    geo:hasGeometry osss:Q273-1F301A31-B6B5-5D86-B3A4-13C12B68169B,
+        osss:Q273-9A3785C7-8643-5C0F-AD20-7F2C400FDCC1,
+        osss:Q273-67F8A6B6-F977-5642-B15E-B5B79F066BA1,
+        osss:Q273-E6F80B5D-DB60-5928-8C37-02BA5D289EB6,
+        osss:Q273-F758D77D-435F-56EC-A6A2-7B783E606825 ;
+    rdfs:label "Dim Mağarası"@de,
+        "Dim Mağarası"@en ;
+    skos:prefLabel "Dim Mağarası"@de,
+        "Dim Mağarası"@en ;
+    ossp:P2 osss:Q273-8C9B8C00-B8E1-5F8A-B4CE-AA63812512BB ;
+    ossp:P100 osss:Q273-4670BAD0-B54E-5454-A4D2-EDBB1D636E69 ;
+    ossp:P101 osss:Q273-2A8A76E2-D80F-5C36-8CB5-681CC5EA55DF,
+        osss:Q273-03AD89FC-F5C0-5352-82EE-BF118B2FE407,
+        osss:Q273-3D52B1FB-0CD7-5848-8D09-20E4477E1088,
+        osss:Q273-5D901FDF-7A6F-5C11-B61B-1487E9DEE997,
+        osss:Q273-5D7677C5-0D20-5DF1-9C86-29333DD51470,
+        osss:Q273-5E40EC80-0952-59A7-8D96-BD86806650F4,
+        osss:Q273-8EFA0872-3479-5DAD-8847-9341D7A1469D,
+        osss:Q273-41A54EF7-A70D-53D4-AAC0-69F9FA2EFE51,
+        osss:Q273-61A1B671-1456-50A6-8348-10BD266B9122,
+        osss:Q273-73AB5746-34DE-5138-BA8A-8632310DFA53,
+        osss:Q273-77EFB90F-22D9-5C63-B1EF-2D3F55E147F5,
+        osss:Q273-642F87B0-8F04-5CB5-A3C4-8B9A8B2649EA,
+        osss:Q273-2744A93E-98CE-5BD7-9360-EF73BED28D2D,
+        osss:Q273-3114F6DC-78CA-53A6-A963-5EC5132B3B70,
+        osss:Q273-856585F5-72E1-54DB-8757-7DD1EFA620EF,
+        osss:Q273-939215D1-4139-5255-A00B-C84747F8A2FE,
+        osss:Q273-05920437-6AEF-5577-99D4-2E25B2B884B7,
+        osss:Q273-A35CBF8B-5660-5111-9DEB-A797672A7E48,
+        osss:Q273-B11DF379-C6AA-5DAD-8F5A-13E202AE0788,
+        osss:Q273-C28A6A7F-4C4C-50EE-84CD-C122D6ED7C26,
+        osss:Q273-C52BA2F9-AEBF-51EC-A5CC-D1CBE7C88D74,
+        osss:Q273-C354B8FA-D84D-50BC-BFB9-0C1FD762F3BA,
+        osss:Q273-D8FDCDDF-1C76-507D-9E8C-6DF2961557C7,
+        osss:Q273-D33E3248-8E08-54BD-9542-5D256341A488,
+        osss:Q273-E13AF909-79DE-553C-A309-CE1BDB20F950,
+        osss:Q273-F328316A-0329-56E5-B3EA-A04915F82207,
+        osss:Q273-FA31E86F-F6F1-5A99-AB30-D6E22F2414E5 ;
+    ossp:P107 osss:Q273-3168B648-4EAF-5C5C-80BD-FF9371982A6C ;
+    ossp:P110 osss:Q273-25F55897-3189-58BE-93F5-A62B821B6100 ;
+    ossp:P111 osss:Q273-1F301A31-B6B5-5D86-B3A4-13C12B68169B,
+        osss:Q273-9A3785C7-8643-5C0F-AD20-7F2C400FDCC1,
+        osss:Q273-67F8A6B6-F977-5642-B15E-B5B79F066BA1,
+        osss:Q273-E6F80B5D-DB60-5928-8C37-02BA5D289EB6,
+        osss:Q273-F758D77D-435F-56EC-A6A2-7B783E606825 ;
+    ossp:P113 osss:Q273-0AEAD7B3-289D-5E91-ABEB-1448C318C217,
+        osss:Q273-4FA7A5F9-50AE-5378-9286-32FB05F05682,
+        osss:Q273-6E4CFA35-81CC-508B-A2E3-D91BE0973BE0,
+        osss:Q273-9E1984A9-DF7D-5A8A-BD23-2F5194228E8B,
+        osss:Q273-15F42EE2-DA0D-5A3F-8A15-FDC2F9DFFC74,
+        osss:Q273-95E7D5E3-ABE6-57B9-B9C5-868C8FC83F11,
+        osss:Q273-913B78D3-FE43-5844-98EC-EB3F7797DA15,
+        osss:Q273-7593F6C1-C74C-5128-B8A8-CF0E0D2EF171,
+        osss:Q273-BCE7E5BC-438D-5276-8E72-B97D55EF86F5,
+        osss:Q273-C269A493-7AF2-5DFB-9DA1-CA0C79B5D882,
+        osss:Q273-F236E59C-6E70-5D52-8421-6DDCA39CBB35,
+        osss:Q273-F26530F6-6A72-51FE-8B15-33646DEEBD33,
+        osss:Q273-FD791381-0D81-5BB3-BEA5-5AF0AC1E01A6 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/715290197> ;
+    osst:P101 <https://www.openstreetmap.org/node/715290197/history/27> ;
+    osst:P107 <https://www.openstreetmap.org/node/715290197/history/4> ;
+    osst:P110 "Point(32.1097885 36.5391555)"^^geo:wktLiteral ;
+    osst:P111 "POINT(32.1094204 36.5399967)",
+        "POINT(32.1094379 36.5401572)",
+        "POINT(32.1097885 36.5391555)",
+        "POINT(32.1098067 36.5401453)",
+        "POINT(32.1107494 36.5391555)" ;
+    osst:P113 "access=yes",
+        "alt_name=Gavurini Mağarası",
+        "fee=yes",
+        "name:de=Dim Höhle",
+        "name:en=Dim Cave",
+        "name:ru=Пещера Дим",
+        "name=Dim Mağarası",
+        "natural=cave_entrance",
+        "payment:cards=yes",
+        "payment:coins=yes",
+        "tourism=attraction",
+        "wikidata=Q769148",
+        "wikipedia=tr:Dim Mağarası" .
+
+osss:Q273-0AEAD7B3-289D-5E91-ABEB-1448C318C217
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "alt_name=Gavurini Mağarası" .
+
+osss:Q273-1F301A31-B6B5-5D86-B3A4-13C12B68169B
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(32.1094204 36.5399967)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:c5ad8af5178b2d3832945a0dc02299e4ef13063e ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2011-03-07T20:19:24Z" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P111 "POINT(32.1094204 36.5399967)" .
+
+osss:Q273-2A8A76E2-D80F-5C36-8CB5-681CC5EA55DF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+19"^^xsd:decimal ;
+    osspq:P103 "2023-07-25T22:46:29Z" ;
+    osspq:P104 "139010979" ;
+    osspq:P105 "craxgard" ;
+    osspq:P106 "5714515" ;
+    osspqv:P102 ossv:b5151b6a83b6649e931deb2909f96f70 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/19> .
+
+osss:Q273-03AD89FC-F5C0-5352-82EE-BF118B2FE407
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+27"^^xsd:decimal ;
+    osspq:P103 "2025-10-22T13:36:53Z" ;
+    osspq:P104 "173628397" ;
+    osspq:P105 "Pan Perníček" ;
+    osspq:P106 "9641379" ;
+    osspqv:P102 ossv:57849afb978e48f027ab454e8d0ebe66 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/27> .
+
+osss:Q273-3D52B1FB-0CD7-5848-8D09-20E4477E1088
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+23"^^xsd:decimal ;
+    osspq:P103 "2023-08-22T03:54:56Z" ;
+    osspq:P104 "140207753" ;
+    osspq:P105 "NorthCrab" ;
+    osspq:P106 "15215305" ;
+    osspqv:P102 ossv:97193060f13c33f676a0e6ee21d8c104 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/23> .
+
+osss:Q273-4FA7A5F9-50AE-5378-9286-32FB05F05682
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "access=yes" .
+
+osss:Q273-5D901FDF-7A6F-5C11-B61B-1487E9DEE997
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2010-05-01T14:16:12Z" ;
+    osspq:P104 "4575402" ;
+    osspq:P105 "FiSaja" ;
+    osspq:P106 "228823" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/2> .
+
+osss:Q273-5D7677C5-0D20-5DF1-9C86-29333DD51470
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2017-04-11T16:43:05Z" ;
+    osspq:P104 "47663191" ;
+    osspq:P105 "turankaya74" ;
+    osspq:P106 "1845527" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/7> .
+
+osss:Q273-5E40EC80-0952-59A7-8D96-BD86806650F4
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+11"^^xsd:decimal ;
+    osspq:P103 "2019-07-18T10:06:11Z" ;
+    osspq:P104 "72382117" ;
+    osspq:P105 "Soft-light" ;
+    osspq:P106 "9345453" ;
+    osspqv:P102 ossv:63f6a2c5bd58360efaaf56114afbf952 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/11> .
+
+osss:Q273-6E4CFA35-81CC-508B-A2E3-D91BE0973BE0
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "wikidata=Q769148" .
+
+osss:Q273-8C9B8C00-B8E1-5F8A-B4CE-AA63812512BB
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q273-8EFA0872-3479-5DAD-8847-9341D7A1469D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+24"^^xsd:decimal ;
+    osspq:P103 "2024-04-09T10:16:01Z" ;
+    osspq:P104 "149769539" ;
+    osspq:P105 "avinet_ua" ;
+    osspq:P106 "1538111" ;
+    osspqv:P102 ossv:8b66579995c74ca02eb8880a598276ff ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/24> .
+
+osss:Q273-9A3785C7-8643-5C0F-AD20-7F2C400FDCC1
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(32.1107494 36.5391555)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:041f4258cd15654535e4bf3a7a9df9aa07dceb39 ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2011-04-04T15:56:22Z" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P111 "POINT(32.1107494 36.5391555)" .
+
+osss:Q273-9E1984A9-DF7D-5A8A-BD23-2F5194228E8B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q273-15F42EE2-DA0D-5A3F-8A15-FDC2F9DFFC74
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "name:de=Dim Höhle" .
+
+osss:Q273-25F55897-3189-58BE-93F5-A62B821B6100
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P110 "Point(32.1097885 36.5391555)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:53180f7a120ead49c649f480d39152ca .
+
+osss:Q273-41A54EF7-A70D-53D4-AAC0-69F9FA2EFE51
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+13"^^xsd:decimal ;
+    osspq:P103 "2023-07-02T12:29:59Z" ;
+    osspq:P104 "138021705" ;
+    osspq:P105 "tg4567" ;
+    osspq:P106 "12500589" ;
+    osspqv:P102 ossv:6d2190f7063132ea68f5418b57ca7521 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/13> .
+
+osss:Q273-61A1B671-1456-50A6-8348-10BD266B9122
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-05-01T12:28:35Z" ;
+    osspq:P104 "4574327" ;
+    osspq:P105 "FiSaja" ;
+    osspq:P106 "228823" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/1> .
+
+osss:Q273-67F8A6B6-F977-5642-B15E-B5B79F066BA1
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(32.1094379 36.5401572)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:1632d9246b0c548a8b1590589239ed8dcc3f59b0 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2010-05-01T12:28:35Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(32.1094379 36.5401572)" .
+
+osss:Q273-73AB5746-34DE-5138-BA8A-8632310DFA53
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+12"^^xsd:decimal ;
+    osspq:P103 "2020-06-14T18:15:13Z" ;
+    osspq:P104 "86631744" ;
+    osspq:P105 "katpatuka" ;
+    osspq:P106 "17497" ;
+    osspqv:P102 ossv:273d314d307f834d9b3ee29183ae71c0 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/12> .
+
+osss:Q273-77EFB90F-22D9-5C63-B1EF-2D3F55E147F5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+20"^^xsd:decimal ;
+    osspq:P103 "2023-08-20T19:23:06Z" ;
+    osspq:P104 "140148515" ;
+    osspq:P105 "LithT7edon2876ChOissa" ;
+    osspq:P106 "20047281" ;
+    osspqv:P102 ossv:aedf18a0e29659d6aa9ebe948f4b14a6 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/20> .
+
+osss:Q273-95E7D5E3-ABE6-57B9-B9C5-868C8FC83F11
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "payment:cards=yes" .
+
+osss:Q273-642F87B0-8F04-5CB5-A3C4-8B9A8B2649EA
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+22"^^xsd:decimal ;
+    osspq:P103 "2023-08-21T19:39:47Z" ;
+    osspq:P104 "140198183" ;
+    osspq:P105 "Ast1roida1815" ;
+    osspq:P106 "20048570" ;
+    osspqv:P102 ossv:ad912ce55cd3697f59028cf7aeb17d80 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/22> .
+
+osss:Q273-913B78D3-FE43-5844-98EC-EB3F7797DA15
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "fee=yes" .
+
+osss:Q273-2744A93E-98CE-5BD7-9360-EF73BED28D2D
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+21"^^xsd:decimal ;
+    osspq:P103 "2023-08-21T05:45:19Z" ;
+    osspq:P104 "140162089" ;
+    osspq:P105 "NorthCrab" ;
+    osspq:P106 "15215305" ;
+    osspqv:P102 ossv:63c40d7a4a6eb8b8297f5dab5e7789c1 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/21> .
+
+osss:Q273-3114F6DC-78CA-53A6-A963-5EC5132B3B70
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2013-05-11T14:34:43Z" ;
+    osspq:P104 "16080839" ;
+    osspq:P105 "katpatuka" ;
+    osspq:P106 "17497" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/6> .
+
+osss:Q273-3168B648-4EAF-5C5C-80BD-FF9371982A6C
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/715290197/history/4> .
+
+osss:Q273-4670BAD0-B54E-5454-A4D2-EDBB1D636E69
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/715290197> .
+
+osss:Q273-7593F6C1-C74C-5128-B8A8-CF0E0D2EF171
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "name:en=Dim Cave" .
+
+osss:Q273-856585F5-72E1-54DB-8757-7DD1EFA620EF
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2010-05-04T05:58:23Z" ;
+    osspq:P104 "4601358" ;
+    osspq:P105 "FiSaja" ;
+    osspq:P106 "228823" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/3> .
+
+osss:Q273-939215D1-4139-5255-A00B-C84747F8A2FE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+14"^^xsd:decimal ;
+    osspq:P103 "2023-07-25T01:06:17Z" ;
+    osspq:P104 "138963767" ;
+    osspq:P105 "SdfN5h5063" ;
+    osspq:P106 "19889284" ;
+    osspqv:P102 ossv:e427e7ff9082b5fba9d7ef3b8794a3f6 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/14> .
+
+osss:Q273-05920437-6AEF-5577-99D4-2E25B2B884B7
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+15"^^xsd:decimal ;
+    osspq:P103 "2023-07-25T06:39:34Z" ;
+    osspq:P104 "138971021" ;
+    osspq:P105 "SomeoneElse_Revert" ;
+    osspq:P106 "1778799" ;
+    osspqv:P102 ossv:64ee47d27a9e9f6c2c3a9fcb92283a5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/15> .
+
+osss:Q273-A35CBF8B-5660-5111-9DEB-A797672A7E48
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+26"^^xsd:decimal ;
+    osspq:P103 "2025-06-20T08:11:06Z" ;
+    osspq:P104 "167857792" ;
+    osspq:P105 "Timmy_Tesseract" ;
+    osspq:P106 "5653955" ;
+    osspqv:P102 ossv:1940a19f273c5e5241f0b0bc56361143 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/26> .
+
+osss:Q273-B11DF379-C6AA-5DAD-8F5A-13E202AE0788
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2017-09-10T05:42:45Z" ;
+    osspq:P104 "51897681" ;
+    osspq:P105 "nyuriks" ;
+    osspq:P106 "339581" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/8> .
+
+osss:Q273-BCE7E5BC-438D-5276-8E72-B97D55EF86F5
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "wikipedia=tr:Dim Mağarası" .
+
+osss:Q273-C28A6A7F-4C4C-50EE-84CD-C122D6ED7C26
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2011-03-07T20:19:24Z" ;
+    osspq:P104 "7488284" ;
+    osspq:P105 "Claudius Henrichs" ;
+    osspq:P106 "18069" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/4> .
+
+osss:Q273-C52BA2F9-AEBF-51EC-A5CC-D1CBE7C88D74
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2018-09-19T07:46:27Z" ;
+    osspq:P104 "62720223" ;
+    osspq:P105 "Petr Fukátko" ;
+    osspq:P106 "958845" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/9> .
+
+osss:Q273-C269A493-7AF2-5DFB-9DA1-CA0C79B5D882
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "name=Dim Mağarası" .
+
+osss:Q273-C354B8FA-D84D-50BC-BFB9-0C1FD762F3BA
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+16"^^xsd:decimal ;
+    osspq:P103 "2023-07-25T16:51:45Z" ;
+    osspq:P104 "138999018" ;
+    osspq:P105 "CrnatNo1NO8Harrowingnes" ;
+    osspq:P106 "19922490" ;
+    osspqv:P102 ossv:1222a6e893a777cb0bd726afbebd2aff ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/16> .
+
+osss:Q273-D8FDCDDF-1C76-507D-9E8C-6DF2961557C7
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2011-04-04T15:56:22Z" ;
+    osspq:P104 "7766304" ;
+    osspq:P105 "Claudius Henrichs" ;
+    osspq:P106 "18069" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/5> .
+
+osss:Q273-D33E3248-8E08-54BD-9542-5D256341A488
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2019-03-31T20:51:12Z" ;
+    osspq:P104 "68735375" ;
+    osspq:P105 "Yngvarr_Che" ;
+    osspq:P106 "4553620" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/10> .
+
+osss:Q273-E6F80B5D-DB60-5928-8C37-02BA5D289EB6
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(32.1098067 36.5401453)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:900ff47963b36e3ba0320ffe0647f15bdb27411c ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2010-05-04T05:58:23Z" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P111 "POINT(32.1098067 36.5401453)" .
+
+osss:Q273-E13AF909-79DE-553C-A309-CE1BDB20F950
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+17"^^xsd:decimal ;
+    osspq:P103 "2023-07-25T17:20:49Z" ;
+    osspq:P104 "139000332" ;
+    osspq:P105 "jeslop" ;
+    osspq:P106 "275212" ;
+    osspqv:P102 ossv:c72e3b9f3ab1dd1f31657602e5095c0f ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/17> .
+
+osss:Q273-F236E59C-6E70-5D52-8421-6DDCA39CBB35
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q273-F758D77D-435F-56EC-A6A2-7B783E606825
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(32.1097885 36.5391555)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:33fd56b82d4c881860dd47dbbe91d01bc8955b66 ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2013-05-11T14:34:43Z" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P111 "POINT(32.1097885 36.5391555)" .
+
+osss:Q273-F26530F6-6A72-51FE-8B15-33646DEEBD33
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "name:ru=Пещера Дим" .
+
+osss:Q273-F328316A-0329-56E5-B3EA-A04915F82207
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+18"^^xsd:decimal ;
+    osspq:P103 "2023-07-25T21:41:25Z" ;
+    osspq:P104 "139009659" ;
+    osspq:P105 "Tuwr_PretObulation1538" ;
+    osspq:P106 "19922526" ;
+    osspqv:P102 ossv:0293b78197a71f0692ec6fa9ce0db7d1 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/18> .
+
+osss:Q273-FA31E86F-F6F1-5A99-AB30-D6E22F2414E5
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+25"^^xsd:decimal ;
+    osspq:P103 "2024-04-09T12:03:11Z" ;
+    osspq:P104 "149774377" ;
+    osspq:P105 "SomeoneElse_Revert" ;
+    osspq:P106 "1778799" ;
+    osspqv:P102 ossv:2870163d15e0ffcfee869ff2bdd90e38 ;
+    ossps:P101 <https://www.openstreetmap.org/node/715290197/history/25> .
+
+osss:Q273-FD791381-0D81-5BB3-BEA5-5AF0AC1E01A6
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5 ;
+    ossps:P113 "payment:coins=yes" .
+
+ossref:4e6364e4ae21bb08b23711052c1f11231a2489d5
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/715290197/history/27> .
+
+ossref:33fd56b82d4c881860dd47dbbe91d01bc8955b66
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/715290197/history/6> .
+
+ossref:041f4258cd15654535e4bf3a7a9df9aa07dceb39
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/715290197/history/5> .
+
+ossref:900ff47963b36e3ba0320ffe0647f15bdb27411c
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/715290197/history/3> .
+
+ossref:1632d9246b0c548a8b1590589239ed8dcc3f59b0
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/715290197/history/1> .
+
+ossref:c5ad8af5178b2d3832945a0dc02299e4ef13063e
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/715290197/history/4> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:6d2190f7063132ea68f5418b57ca7521
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+13"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:8b66579995c74ca02eb8880a598276ff
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+24"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63c40d7a4a6eb8b8297f5dab5e7789c1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+21"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63f6a2c5bd58360efaaf56114afbf952
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+11"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:64ee47d27a9e9f6c2c3a9fcb92283a5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+15"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:273d314d307f834d9b3ee29183ae71c0
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+12"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0293b78197a71f0692ec6fa9ce0db7d1
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+18"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:1222a6e893a777cb0bd726afbebd2aff
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+16"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:1940a19f273c5e5241f0b0bc56361143
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+26"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:53180f7a120ead49c649f480d39152ca
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "36.5391555"^^xsd:double ;
+    wikibase:geoLongitude "32.1097885"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:57849afb978e48f027ab454e8d0ebe66
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+27"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:2870163d15e0ffcfee869ff2bdd90e38
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+25"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:97193060f13c33f676a0e6ee21d8c104
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+23"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:ad912ce55cd3697f59028cf7aeb17d80
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+22"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:aedf18a0e29659d6aa9ebe948f4b14a6
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+20"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:b5151b6a83b6649e931deb2909f96f70
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+19"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c72e3b9f3ab1dd1f31657602e5095c0f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+17"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:e427e7ff9082b5fba9d7ef3b8794a3f6
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+14"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .

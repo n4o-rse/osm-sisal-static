@@ -1,0 +1,500 @@
+# Q165: the part of the RDF export of OSM caves of SISAL sites (static Wikibase) that describes this entity
+# Generated with wikibase-static; data as of unknown
+# Licence: ODbL 1.0, © OpenStreetMap contributors
+# The prefixes oss:, osst:, ossp: and so on are this site's own and are not Wikidata's wd:, wdt:, p:. Only oss:<ID> opens a page (entity/<ID>, which forwards to <ID>.html); statement, reference, value and property-path IRIs are identifiers and do not resolve.
+
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix oss: <https://n4o-rse.github.io/osm-sisal-static/entity/> .
+@prefix osscat: <https://n4o-rse.github.io/osm-sisal-static/catalog/> .
+@prefix ossdata: <https://n4o-rse.github.io/osm-sisal-static/ttl/> .
+@prefix ossdist: <https://n4o-rse.github.io/osm-sisal-static/distribution/> .
+@prefix ossno: <https://n4o-rse.github.io/osm-sisal-static/prop/novalue/> .
+@prefix ossp: <https://n4o-rse.github.io/osm-sisal-static/prop/> .
+@prefix osspq: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/> .
+@prefix osspqv: <https://n4o-rse.github.io/osm-sisal-static/prop/qualifier/value/> .
+@prefix osspr: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/> .
+@prefix ossprv: <https://n4o-rse.github.io/osm-sisal-static/prop/reference/value/> .
+@prefix ossps: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/> .
+@prefix osspsv: <https://n4o-rse.github.io/osm-sisal-static/prop/statement/value/> .
+@prefix ossref: <https://n4o-rse.github.io/osm-sisal-static/reference/> .
+@prefix osss: <https://n4o-rse.github.io/osm-sisal-static/entity/statement/> .
+@prefix osst: <https://n4o-rse.github.io/osm-sisal-static/prop/direct/> .
+@prefix ossv: <https://n4o-rse.github.io/osm-sisal-static/value/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://n4o-rse.github.io/osm-sisal-static/ttl/Q165.ttl#dataset>
+    a schema:Dataset,
+        dcat:Dataset ;
+    cc:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:description "Benchmark (OpenStreetMap node 194177073)"@en,
+        "Höhenmarke (OpenStreetMap-Node 194177073)"@de ;
+    dcterms:identifier "Q165" ;
+    dcterms:isPartOf osscat:items ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:subject oss:Q165 ;
+    dcterms:title "Atta-Höhle"@de,
+        "Atta-Höhle"@en ;
+    schema:about oss:Q165 ;
+    dcat:distribution ossdist:Q165-html,
+        ossdist:Q165-json,
+        ossdist:Q165-ttl ;
+    dcat:landingPage <https://n4o-rse.github.io/osm-sisal-static/Q165.html> .
+
+ossdist:Q165-html
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q165, page"@en ;
+    dcat:accessURL <https://n4o-rse.github.io/osm-sisal-static/Q165.html> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/html> .
+
+ossdist:Q165-json
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q165, as archived from the Wikibase API"@en ;
+    dcat:byteSize "42809"^^xsd:nonNegativeInteger ;
+    dcat:downloadURL <https://n4o-rse.github.io/osm-sisal-static/json/Q165.json> ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/json> .
+
+ossdist:Q165-ttl
+    a dcat:Distribution ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dcterms:license <https://opendatacommons.org/licenses/odbl/1-0/> ;
+    dcterms:title "Q165, RDF in the Wikibase data model"@en ;
+    dcat:downloadURL ossdata:Q165.ttl ;
+    dcat:mediaType <https://www.iana.org/assignments/media-types/text/turtle> .
+
+oss:Q165
+    a wikibase:Item,
+        geo:Feature ;
+    schema:description "Benchmark (OpenStreetMap node 194177073)"@en,
+        "Höhenmarke (OpenStreetMap-Node 194177073)"@de ;
+    schema:name "Atta-Höhle"@de,
+        "Atta-Höhle"@en ;
+    wikibase:identifiers "0"^^xsd:integer ;
+    wikibase:statements "29"^^xsd:integer ;
+    geo:hasDefaultGeometry osss:Q165-46CE7CA1-7FA2-5979-97FB-691A98291F39 ;
+    geo:hasGeometry osss:Q165-46CE7CA1-7FA2-5979-97FB-691A98291F39,
+        osss:Q165-1467ECF3-2C0D-571C-A8AB-3D798A4DE4BA,
+        osss:Q165-48474558-D677-50E2-B2F7-7DE5F37F334E,
+        osss:Q165-EDCD364B-0E6F-5B2F-B125-E668DBF9FC30 ;
+    rdfs:label "Atta-Höhle"@de,
+        "Atta-Höhle"@en ;
+    skos:prefLabel "Atta-Höhle"@de,
+        "Atta-Höhle"@en ;
+    ossp:P2 osss:Q165-2F1D0BF4-3D0B-504F-A9A6-ADD38682E817 ;
+    ossp:P100 osss:Q165-AB7B06D6-8629-50BA-85E0-E9F6A1F11F5D ;
+    ossp:P101 osss:Q165-5D5F2745-906F-5EF3-8BDA-B29C713DE86A,
+        osss:Q165-143A99D0-A558-536B-A2D8-DFE4410DA6AD,
+        osss:Q165-226DFA60-73EE-534E-9BA2-893E4AE35724,
+        osss:Q165-313CEACA-B1E7-583E-91AE-2E3FB059CF7C,
+        osss:Q165-0329FCE5-B819-555C-BFD8-8C39A688548B,
+        osss:Q165-65295AD0-042D-5648-9EEC-64C9AC4F4504,
+        osss:Q165-191499BD-17E6-51FA-A4BB-2834C85D1E52,
+        osss:Q165-A092492E-C7FB-5871-A75F-84AA9E475157,
+        osss:Q165-B70CDC1D-9E22-5610-841F-75E3A63FAEEE,
+        osss:Q165-C086128D-D89F-5FFD-92C8-96BBDE4FD870,
+        osss:Q165-F76B2C99-1CC5-5630-83DE-EEFD233AC542,
+        osss:Q165-F112C43F-38C0-5C92-8ADF-A823217880E8 ;
+    ossp:P107 osss:Q165-498A1047-1702-5DAB-A70C-2E2A79BB2F51 ;
+    ossp:P110 osss:Q165-0B54A6AD-5D26-50D4-BB06-838F5348A19D ;
+    ossp:P111 osss:Q165-46CE7CA1-7FA2-5979-97FB-691A98291F39,
+        osss:Q165-1467ECF3-2C0D-571C-A8AB-3D798A4DE4BA,
+        osss:Q165-48474558-D677-50E2-B2F7-7DE5F37F334E,
+        osss:Q165-EDCD364B-0E6F-5B2F-B125-E668DBF9FC30 ;
+    ossp:P113 osss:Q165-05E69395-74CA-5728-A808-6CFB7486A411,
+        osss:Q165-9DEBA0AC-47E6-5A5C-BA65-332D356CEF2A,
+        osss:Q165-9E7BB61E-0617-59D8-AB76-4B6236F30EEF,
+        osss:Q165-239E2BDF-5F83-5AA8-91A5-3FF81146EACF,
+        osss:Q165-5840A909-17A3-5335-88BB-FECE779DA93B,
+        osss:Q165-A26CEB4C-9BFA-5C40-9146-2FE0C2126274,
+        osss:Q165-B5444DEC-EABB-5E0E-ACAF-81EA95C2645B,
+        osss:Q165-BB253CEC-142A-5D60-8809-0BC7B807F148,
+        osss:Q165-C52EA645-B262-51D0-9C08-7560BF220BD7 ;
+    osst:P2 oss:Q100 ;
+    osst:P100 <https://www.openstreetmap.org/node/194177073> ;
+    osst:P101 <https://www.openstreetmap.org/node/194177073/history/12> ;
+    osst:P107 <https://www.openstreetmap.org/node/194177073/history/3> ;
+    osst:P110 "Point(7.9149992 51.1254699)"^^geo:wktLiteral ;
+    osst:P111 "POINT(7.9144238 51.1260661)",
+        "POINT(7.9149992 51.1254699)",
+        "POINT(7.9150526 51.1256635)",
+        "POINT(7.9150569 51.125241)" ;
+    osst:P113 "alt_name=Attendorner Tropfsteinhöhle",
+        "name=Atta-Höhle",
+        "natural=cave_entrance",
+        "short_name=Attahöhle",
+        "tourism=attraction",
+        "website=https://www.atta-hoehle.de/",
+        "wheelchair=no",
+        "wikidata=Q11400",
+        "wikipedia=de:Atta-Höhle" .
+
+osss:Q165-0B54A6AD-5D26-50D4-BB06-838F5348A19D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P110 "Point(7.9149992 51.1254699)"^^geo:wktLiteral ;
+    osspsv:P110 ossv:48595ddba78fba9dfa8804c4cccc2a78 .
+
+osss:Q165-2F1D0BF4-3D0B-504F-A9A6-ADD38682E817
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P2 oss:Q100 .
+
+osss:Q165-5D5F2745-906F-5EF3-8BDA-B29C713DE86A
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+3"^^xsd:decimal ;
+    osspq:P103 "2012-03-01T15:03:55Z" ;
+    osspq:P104 "10838788" ;
+    osspq:P105 "MasiMaster" ;
+    osspq:P106 "525234" ;
+    osspqv:P102 ossv:0bbe1280560b495eac2a68b29e4b1c4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/3> .
+
+osss:Q165-05E69395-74CA-5728-A808-6CFB7486A411
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "name=Atta-Höhle" .
+
+osss:Q165-9DEBA0AC-47E6-5A5C-BA65-332D356CEF2A
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "tourism=attraction" .
+
+osss:Q165-9E7BB61E-0617-59D8-AB76-4B6236F30EEF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "alt_name=Attendorner Tropfsteinhöhle" .
+
+osss:Q165-46CE7CA1-7FA2-5979-97FB-691A98291F39
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.9149992 51.1254699)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:25b7df924126dca4aff7d2abf0c45b2a022c7231 ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2016-12-24T14:09:39Z" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P111 "POINT(7.9149992 51.1254699)" .
+
+osss:Q165-143A99D0-A558-536B-A2D8-DFE4410DA6AD
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+7"^^xsd:decimal ;
+    osspq:P103 "2016-04-12T20:12:03Z" ;
+    osspq:P104 "38509646" ;
+    osspq:P105 "HolgerJeromin" ;
+    osspq:P106 "67862" ;
+    osspqv:P102 ossv:187a57b7a4159b90f1b51b12225fda5f ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/7> .
+
+osss:Q165-226DFA60-73EE-534E-9BA2-893E4AE35724
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+10"^^xsd:decimal ;
+    osspq:P103 "2016-12-24T14:09:39Z" ;
+    osspq:P104 "44645504" ;
+    osspq:P105 "Thoschi" ;
+    osspq:P106 "324868" ;
+    osspqv:P102 ossv:08c6ec7603fef9d88b86557630fead4e ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/10> .
+
+osss:Q165-239E2BDF-5F83-5AA8-91A5-3FF81146EACF
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "natural=cave_entrance" .
+
+osss:Q165-313CEACA-B1E7-583E-91AE-2E3FB059CF7C
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2013-11-15T14:53:55Z" ;
+    osspq:P104 "18916234" ;
+    osspq:P105 "garminuser" ;
+    osspq:P106 "192699" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/5> .
+
+osss:Q165-0329FCE5-B819-555C-BFD8-8C39A688548B
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+11"^^xsd:decimal ;
+    osspq:P103 "2023-09-11T10:32:41Z" ;
+    osspq:P104 "141101487" ;
+    osspq:P105 "wheelmap_visitor" ;
+    osspq:P106 "290680" ;
+    osspqv:P102 ossv:63f6a2c5bd58360efaaf56114afbf952 ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/11> .
+
+osss:Q165-498A1047-1702-5DAB-A70C-2E2A79BB2F51
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P109 "sisal" ;
+    ossps:P107 <https://www.openstreetmap.org/node/194177073/history/3> .
+
+osss:Q165-1467ECF3-2C0D-571C-A8AB-3D798A4DE4BA
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.9150569 51.125241)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:89f9d662b84e0e08b3723da559ee84f574407770 ;
+    osspq:P102 "+5"^^xsd:decimal ;
+    osspq:P103 "2013-11-15T14:53:55Z" ;
+    osspqv:P102 ossv:30e603cac620241526fa9f81268ba25c ;
+    ossps:P111 "POINT(7.9150569 51.125241)" .
+
+osss:Q165-5840A909-17A3-5335-88BB-FECE779DA93B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "wikipedia=de:Atta-Höhle" .
+
+osss:Q165-65295AD0-042D-5648-9EEC-64C9AC4F4504
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:PreferredRank ;
+    osspq:P102 "+12"^^xsd:decimal ;
+    osspq:P103 "2023-11-10T12:03:17Z" ;
+    osspq:P104 "143860247" ;
+    osspq:P105 "b-jazz-bot" ;
+    osspq:P106 "9451067" ;
+    osspqv:P102 ossv:273d314d307f834d9b3ee29183ae71c0 ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/12> .
+
+osss:Q165-191499BD-17E6-51FA-A4BB-2834C85D1E52
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+9"^^xsd:decimal ;
+    osspq:P103 "2016-07-10T14:59:20Z" ;
+    osspq:P104 "40631995" ;
+    osspq:P105 "Sammelmuetze" ;
+    osspq:P106 "325416" ;
+    osspqv:P102 ossv:0fcaa891e5e94500c686c63fa72a9d72 ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/9> .
+
+osss:Q165-48474558-D677-50E2-B2F7-7DE5F37F334E
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.9150526 51.1256635)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:516fe57a96d1791f55b3fec35b2bb84b930cfc1b ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2008-08-21T19:26:26Z" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P111 "POINT(7.9150526 51.1256635)" .
+
+osss:Q165-A26CEB4C-9BFA-5C40-9146-2FE0C2126274
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "website=https://www.atta-hoehle.de/" .
+
+osss:Q165-A092492E-C7FB-5871-A75F-84AA9E475157
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+6"^^xsd:decimal ;
+    osspq:P103 "2014-08-03T17:31:19Z" ;
+    osspq:P104 "24520619" ;
+    osspq:P105 "Mond00" ;
+    osspq:P106 "861006" ;
+    osspqv:P102 ossv:4a452dffd06b2507ab2eb1eddf5c4e2f ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/6> .
+
+osss:Q165-AB7B06D6-8629-50BA-85E0-E9F6A1F11F5D
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    ossps:P100 <https://www.openstreetmap.org/node/194177073> .
+
+osss:Q165-B70CDC1D-9E22-5610-841F-75E3A63FAEEE
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2007-12-28T17:07:43Z" ;
+    osspq:P104 "452012" ;
+    osspq:P105 "cantece" ;
+    osspq:P106 "15908" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/1> .
+
+osss:Q165-B5444DEC-EABB-5E0E-ACAF-81EA95C2645B
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "wikidata=Q11400" .
+
+osss:Q165-BB253CEC-142A-5D60-8809-0BC7B807F148
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "short_name=Attahöhle" .
+
+osss:Q165-C52EA645-B262-51D0-9C08-7560BF220BD7
+    a wikibase:BestRank,
+        wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasDerivedFrom ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77 ;
+    ossps:P113 "wheelchair=no" .
+
+osss:Q165-C086128D-D89F-5FFD-92C8-96BBDE4FD870
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+8"^^xsd:decimal ;
+    osspq:P103 "2016-07-10T12:54:51Z" ;
+    osspq:P104 "40629993" ;
+    osspq:P105 "Sammelmuetze" ;
+    osspq:P106 "325416" ;
+    osspqv:P102 ossv:3b42a0a3f7b7a6e4e6c51b88effdd574 ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/8> .
+
+osss:Q165-EDCD364B-0E6F-5B2F-B125-E668DBF9FC30
+    a wikibase:BestRank,
+        wikibase:Statement,
+        geo:Geometry ;
+    wikibase:rank wikibase:NormalRank ;
+    geo:asWKT "POINT(7.9144238 51.1260661)"^^geo:wktLiteral ;
+    prov:wasDerivedFrom ossref:87eeda4bdf28f4560bee665ef885cd329f9ed426 ;
+    osspq:P102 "+1"^^xsd:decimal ;
+    osspq:P103 "2007-12-28T17:07:43Z" ;
+    osspqv:P102 ossv:aa2e7afcc4dbda508bf34d1e83609f7e ;
+    ossps:P111 "POINT(7.9144238 51.1260661)" .
+
+osss:Q165-F76B2C99-1CC5-5630-83DE-EEFD233AC542
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+4"^^xsd:decimal ;
+    osspq:P103 "2013-07-23T10:30:06Z" ;
+    osspq:P104 "17058747" ;
+    osspq:P105 "wheelmap_android" ;
+    osspq:P106 "524500" ;
+    osspqv:P102 ossv:9eb0a11f783b50f51f04a9fc2aca89fb ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/4> .
+
+osss:Q165-F112C43F-38C0-5C92-8ADF-A823217880E8
+    a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    osspq:P102 "+2"^^xsd:decimal ;
+    osspq:P103 "2008-08-21T19:26:26Z" ;
+    osspq:P104 "357464" ;
+    osspq:P105 "ATM" ;
+    osspq:P106 "40805" ;
+    osspqv:P102 ossv:c295f8f927aa4b01b5401a2788a068ea ;
+    ossps:P101 <https://www.openstreetmap.org/node/194177073/history/2> .
+
+ossref:7ec4b978a1221e83f7caf6a0e29cef2322bf5c77
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/194177073/history/12> .
+
+ossref:25b7df924126dca4aff7d2abf0c45b2a022c7231
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/194177073/history/10> .
+
+ossref:87eeda4bdf28f4560bee665ef885cd329f9ed426
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/194177073/history/1> .
+
+ossref:89f9d662b84e0e08b3723da559ee84f574407770
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/194177073/history/5> .
+
+ossref:516fe57a96d1791f55b3fec35b2bb84b930cfc1b
+    a wikibase:Reference ;
+    osspr:P6 <https://www.openstreetmap.org/node/194177073/history/2> .
+
+ossv:0bbe1280560b495eac2a68b29e4b1c4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+3"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:0fcaa891e5e94500c686c63fa72a9d72
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+9"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:3b42a0a3f7b7a6e4e6c51b88effdd574
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+8"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:4a452dffd06b2507ab2eb1eddf5c4e2f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+6"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:08c6ec7603fef9d88b86557630fead4e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+10"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:9eb0a11f783b50f51f04a9fc2aca89fb
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+4"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:30e603cac620241526fa9f81268ba25c
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+5"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:63f6a2c5bd58360efaaf56114afbf952
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+11"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:187a57b7a4159b90f1b51b12225fda5f
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+7"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:273d314d307f834d9b3ee29183ae71c0
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+12"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:48595ddba78fba9dfa8804c4cccc2a78
+    a wikibase:GlobecoordinateValue ;
+    wikibase:geoGlobe <http://www.wikidata.org/entity/Q2> ;
+    wikibase:geoLatitude "51.1254699"^^xsd:double ;
+    wikibase:geoLongitude "7.9149992"^^xsd:double ;
+    wikibase:geoPrecision "1e-06"^^xsd:double .
+
+ossv:aa2e7afcc4dbda508bf34d1e83609f7e
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+1"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
+
+ossv:c295f8f927aa4b01b5401a2788a068ea
+    a wikibase:QuantityValue ;
+    wikibase:quantityAmount "+2"^^xsd:decimal ;
+    wikibase:quantityUnit <http://www.wikidata.org/entity/Q199> .
