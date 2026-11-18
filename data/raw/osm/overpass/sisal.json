@@ -1,0 +1,3908 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-18T10:01:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 194177073,
+  "lat": 51.1254699,
+  "lon": 7.9149992,
+  "timestamp": "2023-11-10T12:03:17Z",
+  "version": 12,
+  "changeset": 143860247,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "tags": {
+    "alt_name": "Attendorner Tropfsteinhöhle",
+    "name": "Atta-Höhle",
+    "natural": "cave_entrance",
+    "short_name": "Attahöhle",
+    "tourism": "attraction",
+    "website": "https://www.atta-hoehle.de/",
+    "wheelchair": "no",
+    "wikidata": "Q11400",
+    "wikipedia": "de:Atta-Höhle"
+  }
+},
+{
+  "type": "node",
+  "id": 274302247,
+  "lat": 48.7750234,
+  "lon": 10.5531382,
+  "timestamp": "2011-06-10T17:58:54Z",
+  "version": 2,
+  "changeset": 8399427,
+  "user": "fischhonig",
+  "uid": 41113,
+  "tags": {
+    "cave:ref": "M011",
+    "name": "Kammerlochhöhle",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 278574320,
+  "lat": 48.0405133,
+  "lon": 7.0207942,
+  "timestamp": "2016-08-30T20:55:58Z",
+  "version": 4,
+  "changeset": 41812734,
+  "user": "UnLieuUnInstant",
+  "uid": 2114531,
+  "tags": {
+    "ele": "1128",
+    "name": "La Grotte Dagobert",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 286783901,
+  "lat": -11.2682671,
+  "lon": -75.7865844,
+  "timestamp": "2023-11-24T08:12:30Z",
+  "version": 5,
+  "changeset": 144397186,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "name": "Gruta de Huagapo",
+    "natural": "cave_entrance",
+    "wikidata": "Q21733380",
+    "wikimedia_commons": "Category:Gruta de Huagapo",
+    "wikipedia": "es:Gruta de Huagapo"
+  }
+},
+{
+  "type": "node",
+  "id": 298946850,
+  "lat": 39.0054197,
+  "lon": -114.2206413,
+  "timestamp": "2026-09-08T20:38:58Z",
+  "version": 6,
+  "changeset": 188742991,
+  "user": "tjasz",
+  "uid": 19139722,
+  "tags": {
+    "name": "Lehman Caves",
+    "natural": "cave_entrance",
+    "wikidata": "Q25416611"
+  }
+},
+{
+  "type": "node",
+  "id": 308354506,
+  "lat": 40.2467401,
+  "lon": 9.6227793,
+  "timestamp": "2026-07-13T13:51:25Z",
+  "version": 5,
+  "changeset": 185655649,
+  "user": "Joël B",
+  "uid": 73249,
+  "tags": {
+    "access": "customers",
+    "charge": "10EUR",
+    "fee": "yes",
+    "name": "Grotta del Bue marino",
+    "natural": "cave_entrance",
+    "note": "Docking allowed to disembark people, but it's not allowed to dock the boat during the visit. There's a place for kayaks inside.\nPayment at entrance by cash only. Payment also possible at Cala Gonone harbor.",
+    "payment:cash": "yes",
+    "tourism": "attraction",
+    "wikidata": "Q1225474",
+    "wikipedia": "it:Grotte del Bue Marino"
+  }
+},
+{
+  "type": "node",
+  "id": 320120939,
+  "lat": 40.7973795,
+  "lon": -122.2766711,
+  "timestamp": "2025-06-18T00:52:36Z",
+  "version": 4,
+  "changeset": 167760530,
+  "user": "JessAk71",
+  "uid": 381909,
+  "tags": {
+    "name": "Lake Shasta Caverns",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 340386100,
+  "lat": 48.4066800,
+  "lon": 9.8734000,
+  "timestamp": "2010-10-23T14:08:01Z",
+  "version": 3,
+  "changeset": 6143175,
+  "user": "wheelmap_visitor",
+  "uid": 290680,
+  "tags": {
+    "depth": "70",
+    "name": "Banzenloch",
+    "natural": "cave_entrance",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 354842709,
+  "lat": 47.2527530,
+  "lon": 15.5495500,
+  "timestamp": "2021-02-21T13:58:19Z",
+  "version": 4,
+  "changeset": 99681344,
+  "user": "makiwolf",
+  "uid": 11497792,
+  "tags": {
+    "cave:ref": "2833/59",
+    "name": "Katerloch",
+    "natural": "cave_entrance",
+    "wikidata": "Q1735838",
+    "wikimedia_commons": "Category:Katerloch",
+    "wikipedia": "de:Katerloch"
+  }
+},
+{
+  "type": "node",
+  "id": 370538351,
+  "lat": -34.0502827,
+  "lon": 115.0249175,
+  "timestamp": "2013-04-29T14:41:26Z",
+  "version": 2,
+  "changeset": 15909156,
+  "user": "Mauls",
+  "uid": 24119,
+  "tags": {
+    "name": "Calgardup Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 418784261,
+  "lat": 43.4306677,
+  "lon": -3.6659247,
+  "timestamp": "2017-09-24T23:37:56Z",
+  "version": 3,
+  "changeset": 52341278,
+  "user": "nyuriks",
+  "uid": 339581,
+  "tags": {
+    "geological": "palaeontological_site",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:era": "paleolithic",
+    "historic:period": "stone-age",
+    "name": "Cueva de La Garma",
+    "natural": "cave_entrance",
+    "website": "https://turismodecantabria.com/disfrutala/que-visitar/26-cueva-de-la-garma/buscador-aWRab25hPTgmaWRNdW5pY2lwaW89Nzcm",
+    "wikidata": "Q8348804",
+    "wikipedia": "es:Complejo kárstico del monte de La Garma"
+  }
+},
+{
+  "type": "node",
+  "id": 440011392,
+  "lat": -19.7547330,
+  "lon": 63.3868419,
+  "timestamp": "2019-06-15T12:43:06Z",
+  "version": 2,
+  "changeset": 71279045,
+  "user": "kartonage",
+  "uid": 1497225,
+  "tags": {
+    "name": "Caverne Patate",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 475710521,
+  "lat": 52.2471229,
+  "lon": -9.4443544,
+  "timestamp": "2026-01-15T23:33:01Z",
+  "version": 5,
+  "changeset": 177278393,
+  "user": "Brían",
+  "uid": 21918366,
+  "tags": {
+    "access": "customers",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "cave",
+    "name": "Crag Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "website": "https://www.cragcave.com/",
+    "wikidata": "Q1138482"
+  }
+},
+{
+  "type": "node",
+  "id": 495996579,
+  "lat": -45.2945045,
+  "lon": 167.7264435,
+  "timestamp": "2026-05-26T15:36:31Z",
+  "version": 6,
+  "changeset": 183215251,
+  "user": "❤️‍🔥",
+  "uid": 10140394,
+  "tags": {
+    "alt_name": "Te Anau Glowworm Caves",
+    "name": "Te Ana-au Glow-Worm Caves",
+    "name:en": "Te Ana-au Glow-Worm Caves",
+    "name:mi": "Te Ana-au Glow-Worm",
+    "natural": "cave_entrance",
+    "ref:linz:place_id": "42187",
+    "tourism": "attraction",
+    "wikidata": "Q1436725"
+  }
+},
+{
+  "type": "node",
+  "id": 496887249,
+  "lat": 47.5352604,
+  "lon": 7.8033875,
+  "timestamp": "2010-04-18T14:10:19Z",
+  "version": 2,
+  "changeset": 4458262,
+  "user": "woessmich",
+  "uid": 86889,
+  "tags": {
+    "name": "Bierkeller Theophil Roniger",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 503858812,
+  "lat": -33.3922844,
+  "lon": 22.2143761,
+  "timestamp": "2026-01-02T16:36:50Z",
+  "version": 11,
+  "changeset": 176751574,
+  "user": "confusedbuffalo",
+  "uid": 242345,
+  "tags": {
+    "access": "permissive",
+    "email": "reservations@cangocaves.co.za",
+    "fee": "yes",
+    "name": "Cango Caves",
+    "name:af": "Kangogrotte",
+    "name:en": "Cango Caves",
+    "natural": "cave_entrance",
+    "phone": "+27 44 272 7410; +27 82 303 0029",
+    "tourism": "attraction",
+    "website": "https://www.cango-caves.co.za/",
+    "wheelchair": "no",
+    "wikidata": "Q1033211",
+    "wikimedia_commons": "Category:Cango Caves",
+    "wikipedia": "en:Cango Caves"
+  }
+},
+{
+  "type": "node",
+  "id": 516610283,
+  "lat": 30.6804948,
+  "lon": -9.3447545,
+  "timestamp": "2020-07-11T22:57:37Z",
+  "version": 2,
+  "changeset": 87865497,
+  "user": "MustafaQasim",
+  "uid": 9535554,
+  "tags": {
+    "name": "Wintindouine وينتيمدوين",
+    "name:ar": "وينتيمدوين",
+    "name:fr": "Wintindouine",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 554858725,
+  "lat": 54.2210687,
+  "lon": -2.5167640,
+  "timestamp": "2022-02-21T17:56:50Z",
+  "version": 2,
+  "changeset": 117693612,
+  "user": "skifans",
+  "uid": 2800603,
+  "tags": {
+    "access": "permit",
+    "fee": "no",
+    "name": "Lancaster Hole",
+    "natural": "cave_entrance",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 556748045,
+  "lat": 49.7793379,
+  "lon": 11.2826077,
+  "timestamp": "2026-09-16T13:23:01Z",
+  "version": 10,
+  "changeset": 189111876,
+  "user": "Rentware Paul",
+  "uid": 12406841,
+  "tags": {
+    "access": "no",
+    "cave:ref": "D 109",
+    "name": "Zoolithenhöhle",
+    "natural": "cave_entrance",
+    "protect_class": "7",
+    "protection_title": "Naturdenkmal",
+    "ref": "042",
+    "ref:DE-BY": "ND-04462",
+    "short_protection_title": "ND",
+    "website": "https://www.fhkf.de/hoehlen/zoolithenhoehle/",
+    "wheelchair": "no",
+    "wikidata": "Q15062161",
+    "wikimedia_commons": "Category:Zoolithenhöhle",
+    "wikipedia": "de:Zoolithenhöhle"
+  }
+},
+{
+  "type": "node",
+  "id": 558629070,
+  "lat": 43.3975847,
+  "lon": -4.5329511,
+  "timestamp": "2017-09-24T23:49:33Z",
+  "version": 5,
+  "changeset": 52341394,
+  "user": "nyuriks",
+  "uid": 339581,
+  "tags": {
+    "fee": "yes",
+    "geological": "palaeontological_site",
+    "historic": "archaeological_site",
+    "name": "Cueva el Pindal",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q555011",
+    "wikipedia": "es:Cueva del Pindal"
+  }
+},
+{
+  "type": "node",
+  "id": 644792344,
+  "lat": 50.6877814,
+  "lon": 8.2063777,
+  "timestamp": "2026-11-16T07:18:00Z",
+  "version": 15,
+  "changeset": 192016323,
+  "user": "ML03de",
+  "uid": 24767376,
+  "tags": {
+    "access": "customers",
+    "addr:city": "Breitscheid",
+    "addr:postcode": "35767",
+    "barrier": "door",
+    "charge": "11 EUR",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "internet_access:description": "4 MBit pro Nutzer",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Hessen-WLAN Breitscheid",
+    "name": "Herbstlabyrinth-Adventhöhle-System",
+    "natural": "cave_entrance",
+    "opening_hours": "Sa-Su, PH 11:00-18:00",
+    "payment:account_cards": "yes",
+    "payment:app": "yes",
+    "payment:apple_pay": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:girocard": "yes",
+    "payment:google_pay": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:mastercard_contactless": "yes",
+    "payment:prepaid_ticket": "yes",
+    "payment:v_pay": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+492777913321",
+    "start_date": "2009",
+    "tourism": "attraction",
+    "website": "https://schauhöhle-breitscheid.de/",
+    "website:booking": "https://www.proticket.de/veranstalter/gemeinde-breitscheid",
+    "wikidata": "Q1609531",
+    "wikipedia": "de:Herbstlabyrinth-Adventhöhle-System"
+  }
+},
+{
+  "type": "node",
+  "id": 686817231,
+  "lat": 43.7095930,
+  "lon": 3.5525836,
+  "timestamp": "2026-08-17T08:43:52Z",
+  "version": 7,
+  "changeset": 187574193,
+  "user": "RobOrRoss",
+  "uid": 3538969,
+  "tags": {
+    "access": "customers",
+    "barrier": "gate",
+    "fee": "yes",
+    "material": "metal",
+    "name": "Grotte de Clamouse",
+    "natural": "cave_entrance",
+    "phone": "+33 4 67 57 71 05",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+    "tourism": "attraction",
+    "website": "https://www.clamouse.com/",
+    "wheelchair": "no",
+    "wikidata": "Q2975544"
+  }
+},
+{
+  "type": "node",
+  "id": 696792182,
+  "lat": 36.5892266,
+  "lon": -118.8261530,
+  "timestamp": "2023-08-18T17:56:20Z",
+  "version": 9,
+  "changeset": 140068496,
+  "user": "Fresno map",
+  "uid": 18864067,
+  "tags": {
+    "access": "customers",
+    "fee": "yes",
+    "name": "Crystal Cave",
+    "natural": "cave_entrance",
+    "reservation": "required",
+    "tourism": "attraction",
+    "website": "https://www.nps.gov/seki/planyourvisit/crystal-cave.htm",
+    "wikidata": "Q5191154"
+  }
+},
+{
+  "type": "node",
+  "id": 707254947,
+  "lat": 46.1366843,
+  "lon": 18.1165307,
+  "timestamp": "2025-09-14T18:36:12Z",
+  "version": 12,
+  "changeset": 171930238,
+  "user": "itineris",
+  "uid": 622084,
+  "tags": {
+    "access": "customers",
+    "barrier": "door",
+    "cave:ref": "4120-1",
+    "depth": "10",
+    "fee": "yes",
+    "height": "48.7",
+    "locked": "yes",
+    "name": "Abaligeti-cseppkőbarlang",
+    "natural": "cave_entrance",
+    "note:en": "accessible with the permission of the National Park Directorate",
+    "note:hu": "NPI hozzájárulásával látogatható",
+    "official_name": "Abeligeti-barlang",
+    "opening_hours": "\"Cave tours start every hour between 9 and 17.00\"",
+    "protect_class": "3",
+    "protection_object": "cave",
+    "protection_title": "fokozottan védett",
+    "protection_title:en": "strictly protected",
+    "website": "https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-1",
+    "wikidata": "Q305277",
+    "wikipedia": "hu:Abaligeti-barlang"
+  }
+},
+{
+  "type": "node",
+  "id": 715290197,
+  "lat": 36.5391555,
+  "lon": 32.1097885,
+  "timestamp": "2025-10-22T13:36:53Z",
+  "version": 27,
+  "changeset": 173628397,
+  "user": "Pan Perníček",
+  "uid": 9641379,
+  "tags": {
+    "access": "yes",
+    "alt_name": "Gavurini Mağarası",
+    "fee": "yes",
+    "name": "Dim Mağarası",
+    "name:de": "Dim Höhle",
+    "name:en": "Dim Cave",
+    "name:ru": "Пещера Дим",
+    "natural": "cave_entrance",
+    "payment:cards": "yes",
+    "payment:coins": "yes",
+    "tourism": "attraction",
+    "wikidata": "Q769148",
+    "wikimedia_commons": "Category:Dim Cave",
+    "wikipedia": "tr:Dim Mağarası"
+  }
+},
+{
+  "type": "node",
+  "id": 745919883,
+  "lat": 46.6846706,
+  "lon": 7.7823068,
+  "timestamp": "2025-07-06T06:46:05Z",
+  "version": 7,
+  "changeset": 168547948,
+  "user": "Fjellrev",
+  "uid": 674625,
+  "tags": {
+    "addr:city": "Sundlauenen",
+    "addr:country": "CH",
+    "addr:postcode": "3800",
+    "contact:phone": "+41 33 841 16 43",
+    "contact:website": "https://www.beatushoehlen.swiss/",
+    "name": "St.Beatus-Höhlen",
+    "natural": "cave_entrance",
+    "opening_hours": "Mar-Oct Mo-Su 09:30-17:00",
+    "wheelchair": "no",
+    "wikidata": "Q664463",
+    "wikipedia": "de:St. Beatus-Höhlen"
+  }
+},
+{
+  "type": "node",
+  "id": 776040430,
+  "lat": 37.2842938,
+  "lon": -122.1598999,
+  "timestamp": "2026-04-08T23:16:20Z",
+  "version": 2,
+  "changeset": 181072688,
+  "user": "Jonathan MC",
+  "uid": 4834104,
+  "tags": {
+    "name": "Bodhidharma Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 903676829,
+  "lat": -24.5338246,
+  "lon": -48.7022212,
+  "timestamp": "2025-03-03T13:25:30Z",
+  "version": 4,
+  "changeset": 163161281,
+  "user": "miroslavuzice87",
+  "uid": 4611642,
+  "tags": {
+    "name": "Caverna Santana",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q5055052",
+    "wikipedia": "pt:Caverna Santana"
+  }
+},
+{
+  "type": "node",
+  "id": 923447187,
+  "lat": 47.3778454,
+  "lon": 10.1503983,
+  "timestamp": "2024-12-09T17:30:03Z",
+  "version": 5,
+  "changeset": 160100836,
+  "user": "Harald Hetzner",
+  "uid": 9177796,
+  "tags": {
+    "depth": "96",
+    "ele": "1438",
+    "name": "Hölloch",
+    "natural": "cave_entrance",
+    "wikidata": "Q1485840",
+    "wikipedia": "de:Hölloch (Deutschland)"
+  }
+},
+{
+  "type": "node",
+  "id": 942519597,
+  "lat": 28.6230973,
+  "lon": 31.2864247,
+  "timestamp": "2024-04-09T11:19:43Z",
+  "version": 3,
+  "changeset": 149772712,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "name": "Sannur Cave",
+    "natural": "cave_entrance",
+    "wikidata": "Q4116382",
+    "wikipedia": "ar:محمية كهف وادي سنور"
+  }
+},
+{
+  "type": "node",
+  "id": 977664869,
+  "lat": 47.7076733,
+  "lon": 12.0166049,
+  "timestamp": "2010-11-05T18:29:58Z",
+  "version": 1,
+  "changeset": 6297170,
+  "user": "Andreas Binder",
+  "uid": 268988,
+  "tags": {
+    "ele": "1440",
+    "name": "Unteres Wetterloch",
+    "natural": "cave_entrance",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 981440188,
+  "lat": 48.4716938,
+  "lon": 20.4953758,
+  "timestamp": "2026-04-01T06:57:36Z",
+  "version": 22,
+  "changeset": 180704180,
+  "user": "itineris",
+  "uid": 622084,
+  "tags": {
+    "access": "customers",
+    "barrier": "door",
+    "cave:ref": "5430-1",
+    "depth": "102.5",
+    "fee": "yes",
+    "height": "139.15",
+    "heritage": "1",
+    "heritage:operator": "whc",
+    "locked": "yes",
+    "name": "Baradla-barlang bejárat",
+    "natural": "cave_entrance",
+    "note:en": "accessible with the permission of the National Park Directorate",
+    "note:hu": "NPI hozzájárulásával látogatható",
+    "protect_class": "3",
+    "protection_object": "cave",
+    "protection_title": "fokozottan védett",
+    "protection_title:en": "strictly protected",
+    "ref:whc": "725",
+    "website": "https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=5430-1",
+    "wikidata": "Q631356",
+    "wikipedia": "hu:Baradla-barlang bejárat"
+  }
+},
+{
+  "type": "node",
+  "id": 992092588,
+  "lat": 38.0690400,
+  "lon": -120.4660397,
+  "timestamp": "2010-11-17T00:40:23Z",
+  "version": 1,
+  "changeset": 6389729,
+  "user": "Alexander Avtanski",
+  "uid": 79401,
+  "tags": {
+    "name": "Moaning Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 1017924795,
+  "lat": 47.2796888,
+  "lon": 13.0846577,
+  "timestamp": "2016-04-23T09:31:55Z",
+  "version": 4,
+  "changeset": 38809060,
+  "user": "Schermy",
+  "uid": 381316,
+  "tags": {
+    "cave:ref": "2595/2",
+    "name": "Entrische Kirche",
+    "natural": "cave_entrance",
+    "wikidata": "Q1345167",
+    "wikipedia": "de:Entrische Kirche"
+  }
+},
+{
+  "type": "node",
+  "id": 1074302540,
+  "lat": -35.7235272,
+  "lon": 148.4870203,
+  "timestamp": "2019-03-20T01:03:37Z",
+  "version": 2,
+  "changeset": 68316105,
+  "user": "aharvey",
+  "uid": 237525,
+  "tags": {
+    "access": "customers",
+    "barrier": "gate",
+    "fee": "yes",
+    "lit": "yes",
+    "name": "Jersey Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 1123061406,
+  "lat": -38.8963773,
+  "lon": 177.5265189,
+  "timestamp": "2011-01-27T04:59:59Z",
+  "version": 1,
+  "changeset": 7100312,
+  "user": "LINZ Data Upload",
+  "uid": 252775,
+  "tags": {
+    "LINZ:source_version": "V16",
+    "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+    "natural": "cave_entrance",
+    "source_ref": "http://www.linz.govt.nz/topography/topo-maps/"
+  }
+},
+{
+  "type": "node",
+  "id": 1123061543,
+  "lat": -41.2026465,
+  "lon": 172.1817695,
+  "timestamp": "2016-11-30T09:19:39Z",
+  "version": 5,
+  "changeset": 44054904,
+  "user": "pavlina88",
+  "uid": 3666419,
+  "tags": {
+    "LINZ:source_version": "V16",
+    "access": "yes",
+    "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+    "fee": "no",
+    "name": "Miners Cave",
+    "natural": "cave_entrance",
+    "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1123061583,
+  "lat": -37.5449778,
+  "lon": 175.0161498,
+  "timestamp": "2011-01-27T05:00:10Z",
+  "version": 1,
+  "changeset": 7100312,
+  "user": "LINZ Data Upload",
+  "uid": 252775,
+  "tags": {
+    "LINZ:source_version": "V16",
+    "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+    "natural": "cave_entrance",
+    "source_ref": "http://www.linz.govt.nz/topography/topo-maps/"
+  }
+},
+{
+  "type": "node",
+  "id": 1123061603,
+  "lat": -41.9518936,
+  "lon": 171.4768536,
+  "timestamp": "2024-03-03T03:44:29Z",
+  "version": 3,
+  "changeset": 148152684,
+  "user": "❤️‍🔥_import",
+  "uid": 8389777,
+  "tags": {
+    "material": "limestone",
+    "name": "Hole in the Hill",
+    "natural": "cave_entrance",
+    "not:natural": "rock",
+    "ref:linz:place_id": "2048",
+    "source": "LINZ",
+    "wikidata": "Q32222687"
+  }
+},
+{
+  "type": "node",
+  "id": 1123061615,
+  "lat": -42.0435608,
+  "lon": 171.4436588,
+  "timestamp": "2024-03-03T03:44:29Z",
+  "version": 2,
+  "changeset": 148152684,
+  "user": "❤️‍🔥_import",
+  "uid": 8389777,
+  "tags": {
+    "name": "Ballroom Overhang",
+    "natural": "cave_entrance",
+    "not:natural": "rock",
+    "ref:linz:place_id": "282",
+    "wikidata": "Q32124933",
+    "wikipedia": "en:Ballroom Overhang"
+  }
+},
+{
+  "type": "node",
+  "id": 1123061620,
+  "lat": -41.5658266,
+  "lon": 172.6776573,
+  "timestamp": "2011-01-27T05:00:12Z",
+  "version": 1,
+  "changeset": 7100312,
+  "user": "LINZ Data Upload",
+  "uid": 252775,
+  "tags": {
+    "LINZ:source_version": "V16",
+    "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+    "natural": "cave_entrance",
+    "source_ref": "http://www.linz.govt.nz/topography/topo-maps/"
+  }
+},
+{
+  "type": "node",
+  "id": 1174578048,
+  "lat": 43.5933164,
+  "lon": 25.9600821,
+  "timestamp": "2025-11-08T13:21:18Z",
+  "version": 9,
+  "changeset": 174376051,
+  "user": "SomeoneElse_Revert",
+  "uid": 1778799,
+  "tags": {
+    "name": "Орлова чука",
+    "natural": "cave_entrance",
+    "wikidata": "Q12289333",
+    "wikipedia": "bg:Орлова чука"
+  }
+},
+{
+  "type": "node",
+  "id": 1192434410,
+  "lat": 47.6999930,
+  "lon": 18.8444428,
+  "timestamp": "2025-09-14T18:36:12Z",
+  "version": 10,
+  "changeset": 171930238,
+  "user": "itineris",
+  "uid": 622084,
+  "tags": {
+    "access": "permit",
+    "barrier": "door",
+    "cave:ref": "4840-1",
+    "depth": "139.6",
+    "ele": "460",
+    "height": "206.1",
+    "locked": "yes",
+    "name": "Leány-barlang",
+    "natural": "cave_entrance",
+    "note:en": "accessible with the permission of the National Park Directorate",
+    "note:hu": "NPI hozzájárulásával látogatható",
+    "official_name": "Ariadne-barlangrendszer",
+    "protect_class": "3",
+    "protection_object": "cave",
+    "protection_title": "fokozottan védett",
+    "protection_title:en": "strictly protected",
+    "website": "https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4840-1"
+  }
+},
+{
+  "type": "node",
+  "id": 1201366333,
+  "lat": -41.5516035,
+  "lon": 146.2481437,
+  "timestamp": "2026-04-14T12:41:03Z",
+  "version": 4,
+  "changeset": 181320971,
+  "user": "Pan Perníček",
+  "uid": 9641379,
+  "tags": {
+    "name": "King Solomons Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 1312824946,
+  "lat": 44.3143024,
+  "lon": 15.4750108,
+  "timestamp": "2026-09-26T20:16:47Z",
+  "version": 11,
+  "changeset": 189604484,
+  "user": "zstadler",
+  "uid": 3127,
+  "tags": {
+    "access": "yes",
+    "ele": "570",
+    "fee": "yes",
+    "name": "Manita peć",
+    "natural": "cave_entrance",
+    "website": "https://www.np-paklenica.hr/en/what-to-visit-en/manita-pec-cave-en"
+  }
+},
+{
+  "type": "node",
+  "id": 1325351976,
+  "lat": 39.5070206,
+  "lon": 3.2995185,
+  "timestamp": "2023-09-17T13:43:25Z",
+  "version": 8,
+  "changeset": 141382596,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "access": "private",
+    "ele": "22",
+    "name": "Cova des Pirata",
+    "name:ca": "Cova des Pirata",
+    "natural": "cave_entrance",
+    "wikidata": "Q20639449",
+    "wikimedia_commons": "Category:Cova des Pirata"
+  }
+},
+{
+  "type": "node",
+  "id": 1389940709,
+  "lat": 47.8231298,
+  "lon": 13.8427464,
+  "timestamp": "2019-12-25T04:28:54Z",
+  "version": 2,
+  "changeset": 78836134,
+  "user": "camelCaseNick",
+  "uid": 9563645,
+  "tags": {
+    "name": "Gasselhöhle",
+    "natural": "cave_entrance",
+    "wikidata": "Q1495345"
+  }
+},
+{
+  "type": "node",
+  "id": 1488744824,
+  "lat": 47.0801529,
+  "lon": 11.6712920,
+  "timestamp": "2026-08-06T21:07:02Z",
+  "version": 8,
+  "changeset": 187056917,
+  "user": "Hungerburg",
+  "uid": 1885585,
+  "tags": {
+    "attraction": "cave",
+    "cave:ref:AT": "2515/1",
+    "fee": "yes",
+    "name": "Spannagelhöhle",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "website": "https://www.spannagelhoehle.at",
+    "wikidata": "Q875718",
+    "wikimedia_commons": "Category:Spannagelhöhle",
+    "wikipedia": "de:Spannagelhöhle"
+  }
+},
+{
+  "type": "node",
+  "id": 1572294886,
+  "lat": 37.2325328,
+  "lon": 30.7113958,
+  "timestamp": "2025-01-31T17:29:16Z",
+  "version": 4,
+  "changeset": 161985473,
+  "user": "Candid Dauth",
+  "uid": 41897,
+  "tags": {
+    "fee": "no",
+    "name": "Kocain Mağarası",
+    "name:de": "Kocain-Höhle",
+    "name:tk": "Kocain Mağarası",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q30589415",
+    "wikimedia_commons": "Category:Kocain Cave",
+    "wikipedia": "en:Kocain Cave",
+    "wpt_symbol": "Skull and Crossbones"
+  }
+},
+{
+  "type": "node",
+  "id": 1825661457,
+  "lat": 41.0320735,
+  "lon": 17.1565982,
+  "timestamp": "2012-07-14T19:30:12Z",
+  "version": 1,
+  "changeset": 12220843,
+  "user": "jeawrong",
+  "uid": 179966,
+  "tags": {
+    "access": "private",
+    "name": "Grotta Valentini",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 1961032052,
+  "lat": 40.9499921,
+  "lon": 0.5110749,
+  "timestamp": "2022-11-26T02:36:44Z",
+  "version": 5,
+  "changeset": 129387823,
+  "user": "jmaspons",
+  "uid": 11725140,
+  "tags": {
+    "name": "Cova Meravelles",
+    "name:ca": "Cova Meravelles",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2163196165,
+  "lat": 18.4081874,
+  "lon": -66.9809228,
+  "timestamp": "2026-04-07T00:30:31Z",
+  "version": 3,
+  "changeset": 180973611,
+  "user": "jensen2112",
+  "uid": 2351267,
+  "tags": {
+    "name": "Cueva Quintín Rivera",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2174721117,
+  "lat": 54.1314346,
+  "lon": 56.8426495,
+  "timestamp": "2013-02-26T07:30:21Z",
+  "version": 1,
+  "changeset": 15169962,
+  "user": "pfg21",
+  "uid": 717210,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2264386190,
+  "lat": -18.1143342,
+  "lon": -65.8115243,
+  "timestamp": "2019-05-07T03:17:59Z",
+  "version": 2,
+  "changeset": 69957433,
+  "user": "5m4u9",
+  "uid": 72264,
+  "tags": {
+    "access": "customers",
+    "direction": "45",
+    "fee": "yes",
+    "name": "Caverna Umajalanta",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 2267151473,
+  "lat": 22.5475962,
+  "lon": -83.8430155,
+  "timestamp": "2025-01-25T17:45:41Z",
+  "version": 6,
+  "changeset": 161755500,
+  "user": "Acimut",
+  "uid": 17237320,
+  "tags": {
+    "cave:fee": "10 CUC",
+    "name": "Caverna de Santo Tomás",
+    "name:en": "Cave of Santo Tomás",
+    "name:es": "Caverna de Santo Tomás",
+    "natural": "cave_entrance",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "wikidata": "Q1051870",
+    "wikipedia": "es:Caverna de Santo Tomás"
+  }
+},
+{
+  "type": "node",
+  "id": 2285744211,
+  "lat": -34.2734417,
+  "lon": 115.0969569,
+  "timestamp": "2026-09-12T02:26:55Z",
+  "version": 4,
+  "changeset": 188896971,
+  "user": "joelkoen_bot",
+  "uid": 24386392,
+  "tags": {
+    "addr:street": "Jewel Caves Road",
+    "name": "Moondyne Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q4164274",
+    "wikipedia": "en:Moondyne Cave"
+  }
+},
+{
+  "type": "node",
+  "id": 2375460063,
+  "lat": 44.0045419,
+  "lon": 15.0384678,
+  "timestamp": "2026-09-15T11:20:18Z",
+  "version": 6,
+  "changeset": 189055394,
+  "user": "Senihtu",
+  "uid": 18511019,
+  "tags": {
+    "access": "customers",
+    "charge": "10 EUR",
+    "fee": "yes",
+    "name": "Strašna peć",
+    "natural": "cave_entrance",
+    "opening_hours": "May-Sep Mo-Su 11:00-14:30,15:30-19:00",
+    "payment:cash": "yes",
+    "tourism": "attraction",
+    "wikidata": "Q16113130",
+    "wikipedia": "hr:Strašna peć"
+  }
+},
+{
+  "type": "node",
+  "id": 2382055156,
+  "lat": -21.1447124,
+  "lon": -56.5915106,
+  "timestamp": "2020-09-12T01:20:28Z",
+  "version": 4,
+  "changeset": 90781619,
+  "user": "pizzaiolo",
+  "uid": 1772368,
+  "tags": {
+    "name": "Gruta do Lago Azul",
+    "name:en": "Blue Lake Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q22687920"
+  }
+},
+{
+  "type": "node",
+  "id": 2423303117,
+  "lat": 45.4425621,
+  "lon": 0.7853010,
+  "timestamp": "2026-05-16T06:47:27Z",
+  "version": 7,
+  "changeset": 182727679,
+  "user": "b-jazz-bot",
+  "uid": 9451067,
+  "tags": {
+    "alt_name": "Grotte Préhistorique du Cluzeau",
+    "fee": "yes",
+    "heritage": "2",
+    "heritage:operator": "mhs",
+    "mhs:inscription_date": "1958-12-09",
+    "name": "Grotte de Villars",
+    "natural": "cave_entrance",
+    "ref:mhs": "PA00083067",
+    "source:heritage": "data.gouv.fr, Ministère de la Culture - 2016",
+    "tourism": "attraction",
+    "website": "https://grotte-villars.com/",
+    "wikidata": "Q177657",
+    "wikipedia": "fr:Grotte de Villars"
+  }
+},
+{
+  "type": "node",
+  "id": 2483192759,
+  "lat": 48.2809519,
+  "lon": 9.5133712,
+  "timestamp": "2021-08-22T11:47:23Z",
+  "version": 2,
+  "changeset": 110057921,
+  "user": "seichter",
+  "uid": 66497,
+  "tags": {
+    "name": "Heuscheuerle",
+    "name:de": "Heuscheuerle",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2486226122,
+  "lat": 42.0528164,
+  "lon": 0.2488836,
+  "timestamp": "2014-11-07T14:24:51Z",
+  "version": 6,
+  "changeset": 26615726,
+  "user": "Gil d'Asprer",
+  "uid": 1006658,
+  "tags": {
+    "name": "Cova Terreu",
+    "natural": "cave_entrance",
+    "url": "http://www.panoramio.com/photo/85425753"
+  }
+},
+{
+  "type": "node",
+  "id": 2495014138,
+  "lat": 40.4869849,
+  "lon": 117.4889914,
+  "timestamp": "2013-10-13T14:16:49Z",
+  "version": 1,
+  "changeset": 18333259,
+  "user": "katpatuka",
+  "uid": 17497,
+  "tags": {
+    "name": "兴隆溶洞",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2509040859,
+  "lat": 25.4099998,
+  "lon": 106.1600037,
+  "timestamp": "2017-11-12T20:11:30Z",
+  "version": 2,
+  "changeset": 53722656,
+  "user": "ff5722",
+  "uid": 3450290,
+  "tags": {
+    "name": "Zhongdong cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2510360072,
+  "lat": -15.5422892,
+  "lon": 46.8853815,
+  "timestamp": "2013-10-27T14:04:06Z",
+  "version": 1,
+  "changeset": 18566364,
+  "user": "Eric S",
+  "uid": 45284,
+  "tags": {
+    "name": "Anjohibe",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2634652214,
+  "lat": 46.5539150,
+  "lon": 22.5693240,
+  "timestamp": "2026-11-02T18:24:11Z",
+  "version": 13,
+  "changeset": 191382280,
+  "user": "Tommizanot",
+  "uid": 23396370,
+  "tags": {
+    "SIRUTA:code": "30354",
+    "addr:city": "Chișcău",
+    "addr:postcode": "417366",
+    "charge": "40 RON",
+    "codul_entității_muzeale": "7108300.0",
+    "duration": "45",
+    "interval": "60",
+    "level": "2",
+    "museum_type": "Natural Sciences - Caves",
+    "name": "Peștera Urșilor",
+    "name:en": "Bears' Cave",
+    "name:hu": "Medve-barlang",
+    "name:it": "Grotta degli Orsi",
+    "natural": "cave_entrance",
+    "opening_hours": "Tu-Su 09:00-17:00",
+    "photography:inside": "no",
+    "photography:note": "Officially prohibited, the guide may allow personal pictures.",
+    "source": "INP",
+    "source:link": "http://date.gov.ro/dataset/ghidul-muzeelor-din-romania",
+    "start_date": "1980",
+    "temperature": "10 degrees Celsius",
+    "tourism": "attraction",
+    "tourism_survey": "20.09.2013 13:49:25",
+    "wikidata": "Q989608",
+    "wikipedia": "ro:Peștera Urșilor"
+  }
+},
+{
+  "type": "node",
+  "id": 2677612603,
+  "lat": -27.2252582,
+  "lon": -49.1574384,
+  "timestamp": "2017-06-18T19:36:30Z",
+  "version": 8,
+  "changeset": 49642450,
+  "user": "adrianojbr",
+  "uid": 2339960,
+  "tags": {
+    "alt_name": "Cavernas de Botuverá",
+    "name": "Grutas de Botuverá",
+    "natural": "cave_entrance",
+    "opening_hours": "Tu-Su 08:00-17:00",
+    "phone": "+55 47 3087 8387",
+    "tourism": "attraction",
+    "website": "http://www.botuvera.sc.gov.br/turismo-lazer/parque-das-grutas/"
+  }
+},
+{
+  "type": "node",
+  "id": 2729783661,
+  "lat": 45.8187313,
+  "lon": 15.6783120,
+  "timestamp": "2019-11-16T10:55:49Z",
+  "version": 5,
+  "changeset": 77161292,
+  "user": "nbuzjak",
+  "uid": 534497,
+  "tags": {
+    "description": "Show cave",
+    "fee": "yes",
+    "name": "Nova Grgosova špilja",
+    "natural": "cave_entrance",
+    "opening_hours": "Tu-Su 12:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2824859401,
+  "lat": 31.7288758,
+  "lon": -110.7684871,
+  "timestamp": "2017-09-02T23:21:40Z",
+  "version": 2,
+  "changeset": 51682115,
+  "user": "AJ Riley",
+  "uid": 157922,
+  "tags": {
+    "name": "Cave of the Bells",
+    "natural": "cave_entrance",
+    "source": "USGS",
+    "wikidata": "Q5054957",
+    "wikipedia": "en:Cave of the Bells"
+  }
+},
+{
+  "type": "node",
+  "id": 2875516784,
+  "lat": 17.0492181,
+  "lon": -89.0972559,
+  "timestamp": "2018-10-20T02:45:12Z",
+  "version": 2,
+  "changeset": 63694717,
+  "user": "CharliePlett",
+  "uid": 4751364,
+  "tags": {
+    "name": "Actun Chapat Cave Adventure",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2970889616,
+  "lat": 51.3669091,
+  "lon": 7.6683407,
+  "timestamp": "2014-07-19T23:43:34Z",
+  "version": 1,
+  "changeset": 24246221,
+  "user": "nailuj",
+  "uid": 77405,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2972577607,
+  "lat": 43.2459665,
+  "lon": 40.3985773,
+  "timestamp": "2014-07-21T06:38:03Z",
+  "version": 1,
+  "changeset": 24266497,
+  "user": "Oksion",
+  "uid": 60769,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3096058666,
+  "lat": 35.8360367,
+  "lon": 48.1621486,
+  "timestamp": "2018-09-19T08:39:39Z",
+  "version": 8,
+  "changeset": 62721815,
+  "user": "kiaraSh-Q",
+  "uid": 2693232,
+  "tags": {
+    "name": "غار کتله خور",
+    "name:en": "Kataleh Khor Cave",
+    "name:tr": "katle khor mağara",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q6375049",
+    "wikipedia": "fa:غار کتله‌خور"
+  }
+},
+{
+  "type": "node",
+  "id": 3269827185,
+  "lat": 18.3159809,
+  "lon": -66.7720735,
+  "timestamp": "2024-04-24T18:38:16Z",
+  "version": 2,
+  "changeset": 150462423,
+  "user": "jmoliver",
+  "uid": 50971,
+  "tags": {
+    "name": "Cueva del Arco",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3292745497,
+  "lat": -35.6250572,
+  "lon": 148.6944501,
+  "timestamp": "2018-04-26T06:41:18Z",
+  "version": 2,
+  "changeset": 58432059,
+  "user": "breno-au",
+  "uid": 859676,
+  "tags": {
+    "alt_name": "CP14",
+    "name": "Barbers Cave",
+    "natural": "cave_entrance",
+    "source_ref": "http://helictite.caves.org.au/pdf4/06.02.Issue.Print.pdf"
+  }
+},
+{
+  "type": "node",
+  "id": 3294134845,
+  "lat": 20.5531829,
+  "lon": 102.6295286,
+  "timestamp": "2026-01-13T07:17:40Z",
+  "version": 4,
+  "changeset": 177166107,
+  "user": "Gina Banyard",
+  "uid": 7553380,
+  "tags": {
+    "alt_name": "Tham Phatok",
+    "charge": "20000 LAK",
+    "fee": "yes",
+    "name": "Pha Tok Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3420452460,
+  "lat": 40.6399198,
+  "lon": 17.5020335,
+  "timestamp": "2017-03-06T07:26:11Z",
+  "version": 8,
+  "changeset": 46615121,
+  "user": "agnostico",
+  "uid": 3084054,
+  "tags": {
+    "fee": "yes",
+    "name": "Grotte di Montevicoli",
+    "natural": "cave_entrance",
+    "wikidata": "Q3777125",
+    "wikipedia": "it:Grotte di Montevicoli"
+  }
+},
+{
+  "type": "node",
+  "id": 3427512355,
+  "lat": 42.0981425,
+  "lon": -123.4073708,
+  "timestamp": "2018-03-08T07:21:57Z",
+  "version": 3,
+  "changeset": 56990048,
+  "user": "Werewombat",
+  "uid": 1213011,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3440813505,
+  "lat": 46.1180621,
+  "lon": 18.1513457,
+  "timestamp": "2025-09-14T18:36:12Z",
+  "version": 7,
+  "changeset": 171930238,
+  "user": "itineris",
+  "uid": 622084,
+  "tags": {
+    "access": "permit",
+    "alt_name": "Szuadó-völgyi 3. sz. barlang",
+    "barrier": "door",
+    "cave:ref": "4120-71",
+    "depth": "58",
+    "description": "Barlangtúra leírás a honlapon.",
+    "locked": "yes",
+    "name": "Trió-barlang",
+    "natural": "cave_entrance",
+    "note:en": "accessible with the permission of the National Park Directorate",
+    "note:hu": "NPI hozzájárulásával látogatható",
+    "protect_class": "3",
+    "protection_object": "cave",
+    "protection_title": "megkülönböztetetten védett",
+    "protection_title:en": "exceptionally protected",
+    "url": "https://orfu.hu/zold-ritmusban/kalandos-barlangturak/",
+    "website": "https://termeszetvedelem.hu/talalati-oldal/?type=orszagos-barlangnyilvantartas&id=4120-71"
+  }
+},
+{
+  "type": "node",
+  "id": 3544073316,
+  "lat": -33.6414563,
+  "lon": 115.0348954,
+  "timestamp": "2023-09-09T03:39:32Z",
+  "version": 3,
+  "changeset": 141008571,
+  "user": "sb9576",
+  "uid": 943785,
+  "tags": {
+    "access": "customers",
+    "fee": "yes",
+    "highway": "steps",
+    "name": "Ngilgi Cave Entrance",
+    "natural": "cave_entrance",
+    "subject:wikidata": "Q14935882",
+    "subject:wikipedia": "en:Ngilgi Cave",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3570423898,
+  "lat": -24.0302633,
+  "lon": 43.7548225,
+  "timestamp": "2015-06-03T23:31:37Z",
+  "version": 1,
+  "changeset": 31705406,
+  "user": "Conormap",
+  "uid": 2354,
+  "tags": {
+    "name": "Malaza Manga",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3570423899,
+  "lat": -24.0476935,
+  "lon": 43.7531438,
+  "timestamp": "2015-06-03T23:31:37Z",
+  "version": 1,
+  "changeset": 31705406,
+  "user": "Conormap",
+  "uid": 2354,
+  "tags": {
+    "name": "Mitoho",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3657259352,
+  "lat": -34.2077549,
+  "lon": 22.0895240,
+  "timestamp": "2026-10-12T12:52:23Z",
+  "version": 6,
+  "changeset": 190400537,
+  "user": "Ornits",
+  "uid": 24450071,
+  "tags": {
+    "alt_name": "Point of Human Origins",
+    "ele": "18",
+    "fixme": "Location approximate",
+    "heritage": "yes",
+    "heritage:operator": "whc",
+    "heritage:website": "https://whc.unesco.org/en/list/1723",
+    "historic": "archaeological_site",
+    "name": "Pinnacle Point",
+    "natural": "cave_entrance",
+    "operator": "Heritage Western Cape",
+    "ref:whc": "1723-002",
+    "website": "https://www.humanorigin.co.za",
+    "whc:criteria": "(iii)(iv)(v)",
+    "whc:inscription_date": "2024",
+    "wikidata": "Q1814354",
+    "wikimedia_commons": "File:Pinnacle_Point_Archaeological_Site,_Mossel_Bay_South_Africa.jpg",
+    "wikipedia": "en:Pinnacle Point"
+  }
+},
+{
+  "type": "node",
+  "id": 3658668205,
+  "lat": -31.5476174,
+  "lon": 115.6906614,
+  "timestamp": "2018-07-12T03:22:14Z",
+  "version": 2,
+  "changeset": 60632368,
+  "user": "steerage250",
+  "uid": 65357,
+  "tags": {
+    "access": "customers",
+    "name": "Yonderup Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 3783268558,
+  "lat": 50.1393430,
+  "lon": 5.2028759,
+  "timestamp": "2018-02-13T07:07:44Z",
+  "version": 3,
+  "changeset": 56314970,
+  "user": "Jean-Louis Stanus",
+  "uid": 116840,
+  "tags": {
+    "access": "private",
+    "barrier": "gate",
+    "cave:ref": "592-035z",
+    "ele": "267",
+    "name": "Chantoir de la Laide Fosse",
+    "natural": "cave_entrance",
+    "source": "http://carto1.wallonie.be/fiches/?ctx=karst&srv=id&value=592-035z"
+  }
+},
+{
+  "type": "node",
+  "id": 3835819480,
+  "lat": 33.8088990,
+  "lon": -105.2017690,
+  "timestamp": "2015-11-14T14:45:23Z",
+  "version": 1,
+  "changeset": 35305407,
+  "user": "zsolt d",
+  "uid": 2077889,
+  "tags": {
+    "name": "Drill Hole",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3887334792,
+  "lat": 13.1853265,
+  "lon": -59.5742209,
+  "timestamp": "2019-11-03T19:53:30Z",
+  "version": 3,
+  "changeset": 76561130,
+  "user": "davidmguest",
+  "uid": 4221879,
+  "tags": {
+    "designation": "Cave",
+    "name": "Harrison's Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 3905429443,
+  "lat": 37.6326277,
+  "lon": -0.8207837,
+  "timestamp": "2023-09-27T17:23:21Z",
+  "version": 4,
+  "changeset": 141830776,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "geological": "palaeontological_site",
+    "historic": "archaeological_site",
+    "historic:civilization": "prehistoric",
+    "historic:era": "paleolithic",
+    "historic:period": "stone-age",
+    "name": "Cueva Victoria",
+    "natural": "cave_entrance",
+    "source": "PNOA",
+    "tourism": "attraction",
+    "website": "http://www.cuevavictoria.com/",
+    "wikidata": "Q5794122",
+    "wikimedia_commons": "Category:Cueva Victoria",
+    "wikipedia": "es:Cueva Victoria"
+  }
+},
+{
+  "type": "node",
+  "id": 4018446140,
+  "lat": 44.1753760,
+  "lon": 8.1964061,
+  "timestamp": "2016-02-21T20:14:49Z",
+  "version": 1,
+  "changeset": 37354179,
+  "user": "Ale_Zena_IT",
+  "uid": 22290,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4086768866,
+  "lat": -18.1101386,
+  "lon": -65.7753157,
+  "timestamp": "2019-05-06T23:54:30Z",
+  "version": 4,
+  "changeset": 69954526,
+  "user": "5m4u9",
+  "uid": 72264,
+  "tags": {
+    "name": "Caverna ToroToro",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4100771303,
+  "lat": 10.1419213,
+  "lon": 118.8685451,
+  "timestamp": "2016-04-05T22:27:00Z",
+  "version": 1,
+  "changeset": 38333719,
+  "user": "peregrination",
+  "uid": 486343,
+  "tags": {
+    "name": "Elephant Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4153268606,
+  "lat": -12.3339123,
+  "lon": -41.6047624,
+  "timestamp": "2026-09-10T15:47:03Z",
+  "version": 2,
+  "changeset": 188832287,
+  "user": "Lucas Marques",
+  "uid": 1208664,
+  "tags": {
+    "name": "Entrada da Gruta Lapa Doce",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4153384278,
+  "lat": -32.6221459,
+  "lon": 148.9396055,
+  "timestamp": "2019-08-30T13:54:30Z",
+  "version": 2,
+  "changeset": 73924632,
+  "user": "mrpulley",
+  "uid": 67896,
+  "tags": {
+    "access": "private",
+    "barrier": "gate",
+    "fee": "yes",
+    "name": "Cathedral Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4209573222,
+  "lat": 51.2604185,
+  "lon": 7.6503186,
+  "timestamp": "2016-05-26T18:48:03Z",
+  "version": 1,
+  "changeset": 39587942,
+  "user": "Thoschi",
+  "uid": 324868,
+  "tags": {
+    "name": "Geßhardthöhle",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4285191320,
+  "lat": -8.5308192,
+  "lon": 120.4435024,
+  "timestamp": "2021-01-14T13:26:16Z",
+  "version": 3,
+  "changeset": 97497973,
+  "user": "BTH",
+  "uid": 481447,
+  "tags": {
+    "access": "yes",
+    "length": "~50",
+    "name": "Liang Bua",
+    "natural": "cave_entrance",
+    "wikidata": "Q1822737",
+    "wikipedia": "en:Liang Bua"
+  }
+},
+{
+  "type": "node",
+  "id": 4306709100,
+  "lat": 47.3109018,
+  "lon": 8.0411502,
+  "timestamp": "2024-10-05T18:08:32Z",
+  "version": 2,
+  "changeset": 157512594,
+  "user": "Mike Lehmann",
+  "uid": 127903,
+  "tags": {
+    "direction": "90",
+    "fee": "no",
+    "name": "Hügeliloch",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4358968290,
+  "lat": 23.0820677,
+  "lon": 57.3543586,
+  "timestamp": "2025-12-30T07:28:14Z",
+  "version": 4,
+  "changeset": 176613413,
+  "user": "CRCulver",
+  "uid": 340741,
+  "tags": {
+    "int_name": "Al Hoota Cave",
+    "name": "كهف الهوتة",
+    "name:ar": "كهف الهوتة",
+    "name:en": "Al Hoota Cave",
+    "natural": "cave_entrance",
+    "wikidata": "Q2636101",
+    "wikimedia_commons": "Category:Al-Hootah Cave, Al-Hamra'",
+    "wikipedia": "en:Al Hoota Cave"
+  }
+},
+{
+  "type": "node",
+  "id": 4376800615,
+  "lat": -8.0286285,
+  "lon": 110.6382419,
+  "timestamp": "2016-08-31T06:07:16Z",
+  "version": 1,
+  "changeset": 41818789,
+  "user": "MiMoHo",
+  "uid": 4115745,
+  "tags": {
+    "name": "Goa Jomblang",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4388840122,
+  "lat": 46.0181626,
+  "lon": 11.5809973,
+  "timestamp": "2017-03-12T14:07:05Z",
+  "version": 3,
+  "changeset": 46785750,
+  "user": "sbiribizio",
+  "uid": 354284,
+  "tags": {
+    "name": "Grotta della Bigonda",
+    "natural": "cave_entrance",
+    "wikidata": "Q3777045",
+    "wikipedia": "it:Grotta della Bigonda"
+  }
+},
+{
+  "type": "node",
+  "id": 4480576512,
+  "lat": -41.9358976,
+  "lon": 171.4796209,
+  "timestamp": "2020-12-07T00:10:26Z",
+  "version": 2,
+  "changeset": 95385074,
+  "user": "pizzaiolo",
+  "uid": 1772368,
+  "tags": {
+    "access": "permissive",
+    "fee": "yes",
+    "name": "Metro Cave",
+    "natural": "cave_entrance",
+    "wikidata": "Q15253265"
+  }
+},
+{
+  "type": "node",
+  "id": 4503846516,
+  "lat": 29.2289158,
+  "lon": 107.9033277,
+  "timestamp": "2026-09-29T15:49:17Z",
+  "version": 2,
+  "changeset": 189735410,
+  "user": "yuebing_hermit497",
+  "uid": 24389651,
+  "tags": {
+    "heritage": "1",
+    "heritage:operator": "whc",
+    "name": "芙蓉洞",
+    "name:en": "Furong Cave",
+    "name:ru": "Фужун",
+    "natural": "cave_entrance",
+    "wikidata": "Q5509697",
+    "wikipedia": "zh:芙蓉洞"
+  }
+},
+{
+  "type": "node",
+  "id": 4523782074,
+  "lat": 15.1021750,
+  "lon": 78.1116692,
+  "timestamp": "2023-12-19T15:22:58Z",
+  "version": 4,
+  "changeset": 145296414,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "name": "Belum Caves",
+    "natural": "cave_entrance",
+    "wikidata": "Q723862",
+    "wikimedia_commons": "Category:Belum Caves",
+    "wikipedia": "en:Belum Caves"
+  }
+},
+{
+  "type": "node",
+  "id": 4557134896,
+  "lat": 43.3997795,
+  "lon": 12.9614999,
+  "timestamp": "2024-05-01T15:55:27Z",
+  "version": 2,
+  "changeset": 150757415,
+  "user": "Claudio Tam",
+  "uid": 15807345,
+  "tags": {
+    "ele": "383",
+    "name": "Grotta Grande del Vento",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 4705261283,
+  "lat": 22.3820247,
+  "lon": -83.9740735,
+  "timestamp": "2017-02-25T14:45:31Z",
+  "version": 1,
+  "changeset": 46394623,
+  "user": "Juan Carlos Ocaña",
+  "uid": 4809266,
+  "tags": {
+    "fee": "no",
+    "name": "Dos Anas",
+    "natural": "cave_entrance",
+    "phone": "+12027491273"
+  }
+},
+{
+  "type": "node",
+  "id": 4771754221,
+  "lat": -38.2645727,
+  "lon": 175.0731520,
+  "timestamp": "2018-09-27T03:51:18Z",
+  "version": 2,
+  "changeset": 62963870,
+  "user": "lcmortensen",
+  "uid": 341519,
+  "tags": {
+    "name": "Gardner's Gut",
+    "natural": "cave_entrance",
+    "wikidata": "Q5522564"
+  }
+},
+{
+  "type": "node",
+  "id": 4848050737,
+  "lat": 21.3871821,
+  "lon": -98.9818697,
+  "timestamp": "2019-02-04T21:47:24Z",
+  "version": 3,
+  "changeset": 66916103,
+  "user": "Krubo",
+  "uid": 9034584,
+  "tags": {
+    "name": "Cueva del Salitre",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4874702122,
+  "lat": 40.5442916,
+  "lon": 39.4028933,
+  "timestamp": "2023-08-08T06:11:59Z",
+  "version": 4,
+  "changeset": 139595280,
+  "user": "d3mοl3k",
+  "uid": 14536542,
+  "tags": {
+    "fee": "yes",
+    "name": "Karaca Mağarası",
+    "name:en": "Karaca Cave",
+    "name:es": "Cueva de Karaca",
+    "natural": "cave_entrance",
+    "note": "Toplam uzunluğu 256 metre, girişe göre en derin noktası ise -15.5 metre olan Karaca Mağarası, az eğimli giriş dışında bütünüyle yatay bir mağaradır. Karaca mağarası birbirine bağlı 5 salondan meydana gelmiştir.",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "wikidata": "Q4810702",
+    "wikimedia_commons": "Category:Karaca Cave",
+    "wikipedia": "tr:Karaca Mağarası"
+  }
+},
+{
+  "type": "node",
+  "id": 4917192240,
+  "lat": 39.3086933,
+  "lon": -9.2768932,
+  "timestamp": "2022-07-03T10:43:44Z",
+  "version": 2,
+  "changeset": 123146393,
+  "user": "Sérgio Pinheiro",
+  "uid": 11433045,
+  "tags": {
+    "historic": "archaeological_site",
+    "name": "Gruta dos Bolhos - Gruta Casal da Lebre",
+    "natural": "cave_entrance",
+    "note": "Precise location needs confirmation"
+  }
+},
+{
+  "type": "node",
+  "id": 4935677369,
+  "lat": 44.1388691,
+  "lon": 10.2222107,
+  "timestamp": "2025-11-03T13:20:27Z",
+  "version": 4,
+  "changeset": 174147506,
+  "user": "simo_explorer",
+  "uid": 18469761,
+  "tags": {
+    "cave:ref:IT:FST": "TO0425",
+    "name": "Buca della goccia",
+    "natural": "cave_entrance",
+    "source": "Catasto Grotte - Federazione Speleologica Toscana",
+    "source:url": "https://www.speleotoscana.it/scheda-catastale/?id=425"
+  }
+},
+{
+  "type": "node",
+  "id": 4998330664,
+  "lat": 64.9114435,
+  "lon": 14.0560412,
+  "timestamp": "2017-07-27T19:28:37Z",
+  "version": 1,
+  "changeset": 50629500,
+  "user": "AndreasE",
+  "uid": 111689,
+  "tags": {
+    "name": "Bjurälvsgrottan",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5048285229,
+  "lat": 29.3439573,
+  "lon": 110.4341797,
+  "timestamp": "2020-08-12T14:10:07Z",
+  "version": 2,
+  "changeset": 89309233,
+  "user": "Hervé TUC",
+  "uid": 922338,
+  "tags": {
+    "name:en": "Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5058896537,
+  "lat": 29.9735391,
+  "lon": 109.5487943,
+  "timestamp": "2020-11-16T14:07:25Z",
+  "version": 2,
+  "changeset": 94207101,
+  "user": "ff5722",
+  "uid": 3450290,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5097880046,
+  "lat": 37.9596996,
+  "lon": 22.1398203,
+  "timestamp": "2023-09-06T17:18:35Z",
+  "version": 2,
+  "changeset": 140904736,
+  "user": "servilius_ahala",
+  "uid": 944876,
+  "tags": {
+    "name": "Σπήλαιο Λιμνών",
+    "natural": "cave_entrance",
+    "wikidata": "Q16328676",
+    "wikipedia": "en:Cave of the Lakes"
+  }
+},
+{
+  "type": "node",
+  "id": 5204252292,
+  "lat": 45.6783125,
+  "lon": 0.4996774,
+  "timestamp": "2017-11-01T14:09:57Z",
+  "version": 1,
+  "changeset": 53425253,
+  "user": "devot",
+  "uid": 2889303,
+  "tags": {
+    "name": "Grotte de Lavaud",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5228393368,
+  "lat": 25.3444333,
+  "lon": 108.0493462,
+  "timestamp": "2017-11-14T15:09:31Z",
+  "version": 1,
+  "changeset": 53774034,
+  "user": "ff5722",
+  "uid": 3450290,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5382854703,
+  "lat": 33.9433317,
+  "lon": 35.6468495,
+  "timestamp": "2019-04-04T18:30:11Z",
+  "version": 3,
+  "changeset": 68894685,
+  "user": "jabal2017",
+  "uid": 6757071,
+  "tags": {
+    "name": "Upper Grotto",
+    "name:en": "Upper cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5438822822,
+  "lat": 38.6082608,
+  "lon": 113.7401953,
+  "timestamp": "2018-02-27T02:51:49Z",
+  "version": 1,
+  "changeset": 56707352,
+  "user": "Esperanza36",
+  "uid": 83557,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5459800715,
+  "lat": 50.1113014,
+  "lon": 5.1966213,
+  "timestamp": "2018-03-06T17:47:03Z",
+  "version": 1,
+  "changeset": 56942707,
+  "user": "Jean-Louis Stanus",
+  "uid": 116840,
+  "tags": {
+    "access": "private",
+    "barrier": "gate",
+    "cave:length": "2115",
+    "cave:ref": "592-070a",
+    "name": "Grotte du Père Noël",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5501815824,
+  "lat": 26.8126987,
+  "lon": 105.1181655,
+  "timestamp": "2018-03-24T17:09:04Z",
+  "version": 1,
+  "changeset": 57491256,
+  "user": "katpatuka",
+  "uid": 17497,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5503469510,
+  "lat": 39.7926183,
+  "lon": 2.9683618,
+  "timestamp": "2026-08-10T08:09:48Z",
+  "version": 6,
+  "changeset": 187216432,
+  "user": "OSWM",
+  "uid": 6384281,
+  "tags": {
+    "access": "yes",
+    "barrier": "door",
+    "charge": "17 € Adult, 9 € child (4-12 years)",
+    "fee": "yes",
+    "name": "Coves de Campanet",
+    "name:ca": "Coves de Campanet",
+    "natural": "cave_entrance",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "website": "https://covesdecampanet.com/",
+    "wikidata": "Q508889",
+    "wikipedia": "ca:Coves de Campanet"
+  }
+},
+{
+  "type": "node",
+  "id": 5677995348,
+  "lat": 51.7201694,
+  "lon": 85.6504065,
+  "timestamp": "2018-06-09T14:53:47Z",
+  "version": 1,
+  "changeset": 59692771,
+  "user": "Moreorless",
+  "uid": 289224,
+  "tags": {
+    "name": "Кек-Таш",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5894264165,
+  "lat": 35.8422337,
+  "lon": 52.0020858,
+  "timestamp": "2019-08-08T04:47:39Z",
+  "version": 2,
+  "changeset": 73135417,
+  "user": "Reza Babri",
+  "uid": 4845403,
+  "tags": {
+    "name": "غار گل زرد",
+    "natural": "cave_entrance",
+    "wikipedia": "fa:غار گل زرد"
+  }
+},
+{
+  "type": "node",
+  "id": 5905508413,
+  "lat": 10.7813207,
+  "lon": -85.3565710,
+  "timestamp": "2018-09-14T02:40:12Z",
+  "version": 1,
+  "changeset": 62569988,
+  "user": "stewe79",
+  "uid": 395487,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5909253343,
+  "lat": -0.6793421,
+  "lon": 100.7794899,
+  "timestamp": "2018-09-16T06:35:47Z",
+  "version": 1,
+  "changeset": 62627613,
+  "user": "tukangsampat",
+  "uid": 165040,
+  "tags": {
+    "access": "permit",
+    "fee": "yes",
+    "name": "Lubang Tambang Mbah Soero",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 5949505815,
+  "lat": 43.4104324,
+  "lon": -4.8061199,
+  "timestamp": "2018-10-02T18:59:31Z",
+  "version": 1,
+  "changeset": 63134550,
+  "user": "Egas Moniz",
+  "uid": 3432157,
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "La Vallina",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6050984397,
+  "lat": 20.1883530,
+  "lon": -87.5505640,
+  "timestamp": "2025-12-07T01:27:28Z",
+  "version": 2,
+  "changeset": 175606792,
+  "user": "Kestas",
+  "uid": 96673,
+  "tags": {
+    "name:en": "Cenote Monkey Dust",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6176987555,
+  "lat": -12.3320551,
+  "lon": -41.5967163,
+  "timestamp": "2019-01-01T17:58:46Z",
+  "version": 1,
+  "changeset": 65938667,
+  "user": "Turbodent",
+  "uid": 2526304,
+  "tags": {
+    "name": "Gruta da Fumaça",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6632690571,
+  "lat": -19.7530598,
+  "lon": 63.3705474,
+  "timestamp": "2019-07-20T05:11:17Z",
+  "version": 1,
+  "changeset": 72451555,
+  "user": "kartonage",
+  "uid": 1497225,
+  "tags": {
+    "name": "La Grande Caverne",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6640740634,
+  "lat": 46.4575424,
+  "lon": 12.0135730,
+  "timestamp": "2021-07-27T12:12:15Z",
+  "version": 3,
+  "changeset": 108688854,
+  "user": "ColleSantaLuciaDolomiti",
+  "uid": 2593404,
+  "tags": {
+    "name": "Miniere del Fursil /Ru",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6957595702,
+  "lat": 54.1656583,
+  "lon": -2.4413268,
+  "timestamp": "2024-10-05T19:34:16Z",
+  "version": 3,
+  "changeset": 157515220,
+  "user": "gurglypipe",
+  "uid": 161022,
+  "tags": {
+    "name": "White Scar Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6975770077,
+  "lat": 24.9029348,
+  "lon": 104.0879847,
+  "timestamp": "2019-11-14T12:41:35Z",
+  "version": 2,
+  "changeset": 77073059,
+  "user": "katpatuka",
+  "uid": 17497,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6986158611,
+  "lat": -13.7350757,
+  "lon": -46.3585846,
+  "timestamp": "2019-11-18T03:22:33Z",
+  "version": 1,
+  "changeset": 77205162,
+  "user": "Vitor Choi",
+  "uid": 3293164,
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "Terra Ronca",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 6989696617,
+  "lat": 27.7013404,
+  "lon": 105.5113649,
+  "timestamp": "2019-11-19T12:30:04Z",
+  "version": 1,
+  "changeset": 77274475,
+  "user": "ff5722",
+  "uid": 3450290,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7008567688,
+  "lat": 44.2568399,
+  "lon": 15.5373289,
+  "timestamp": "2026-05-15T18:43:19Z",
+  "version": 5,
+  "changeset": 182713670,
+  "user": "Elijahh",
+  "uid": 19541528,
+  "tags": {
+    "access": "customers",
+    "ele": "29",
+    "email": "marijan@zara-adventure.hr",
+    "name": "Špilja Modrič",
+    "name:de": "Höhle Modrič",
+    "name:en": "Modrič Cave",
+    "name:fr": "Grotte Modrič",
+    "name:hr": "Špilja Modrič",
+    "name:it": "Grotta Modrič",
+    "natural": "cave_entrance",
+    "operator": "Zara Adventure Agency",
+    "phone": "+38 598348437",
+    "reservation": "required",
+    "tourism": "attraction",
+    "url": "https://natura-jadera.com/prirodne-vrijednosti/spomenici-prirode/spilja-modric/",
+    "website": "https://modric-cave.com",
+    "wikidata": "Q113980107"
+  }
+},
+{
+  "type": "node",
+  "id": 7016608685,
+  "lat": 35.8735972,
+  "lon": 45.1694993,
+  "timestamp": "2023-01-30T19:08:02Z",
+  "version": 3,
+  "changeset": 131893506,
+  "user": "LockOnGuy",
+  "uid": 15559282,
+  "tags": {
+    "name": "كهف سركلو",
+    "name:ar": "كهف سركلو",
+    "name:en": "Bahayi's Pilgrim cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7161046616,
+  "lat": 8.3379285,
+  "lon": 98.7455986,
+  "timestamp": "2025-11-12T15:21:16Z",
+  "version": 4,
+  "changeset": 174564900,
+  "user": "DerFussi",
+  "uid": 37252,
+  "tags": {
+    "name": "Tham Klang",
+    "name:en": "Klang cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q136768099"
+  }
+},
+{
+  "type": "node",
+  "id": 7192265387,
+  "lat": 36.9355612,
+  "lon": 21.7460175,
+  "timestamp": "2020-02-07T01:51:36Z",
+  "version": 1,
+  "changeset": 80666060,
+  "user": "Δημήτρης Μπαλτουμάς",
+  "uid": 8817635,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7206231475,
+  "lat": 37.1053695,
+  "lon": -7.7745216,
+  "timestamp": "2020-02-12T14:51:44Z",
+  "version": 1,
+  "changeset": 80911376,
+  "user": "Terramoto",
+  "uid": 1912536,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7315412515,
+  "lat": 46.7800121,
+  "lon": 8.2887690,
+  "timestamp": "2020-07-03T17:22:18Z",
+  "version": 2,
+  "changeset": 87513095,
+  "user": "Hannes Röst",
+  "uid": 289221,
+  "tags": {
+    "name": "Schrattenhöhle",
+    "natural": "cave_entrance",
+    "wikidata": "Q15059884"
+  }
+},
+{
+  "type": "node",
+  "id": 7318685910,
+  "lat": -10.1602599,
+  "lon": -40.8607258,
+  "timestamp": "2026-09-10T12:51:45Z",
+  "version": 4,
+  "changeset": 188823085,
+  "user": "Qualhano",
+  "uid": 1718868,
+  "tags": {
+    "name": "Toca da Boa Vista",
+    "natural": "cave_entrance",
+    "wikidata": "Q624844",
+    "wikipedia": "pt:Toca da Boa Vista"
+  }
+},
+{
+  "type": "node",
+  "id": 7327265062,
+  "lat": 35.2797950,
+  "lon": 33.4357183,
+  "timestamp": "2020-03-25T04:39:22Z",
+  "version": 1,
+  "changeset": 82597079,
+  "user": "thumbsup",
+  "uid": 6508691,
+  "tags": {
+    "description": "hole, warm air coming out, very deep",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7412451779,
+  "lat": 42.9869025,
+  "lon": -4.3730693,
+  "timestamp": "2023-07-01T12:01:52Z",
+  "version": 3,
+  "changeset": 137989792,
+  "user": "Hugoren Martinako",
+  "uid": 3392826,
+  "tags": {
+    "name": "Cueva del Cobre",
+    "natural": "cave_entrance",
+    "wikidata": "Q5794252",
+    "wikipedia": "es:Cueva del Cobre"
+  }
+},
+{
+  "type": "node",
+  "id": 7415334685,
+  "lat": 49.6740184,
+  "lon": 10.9989178,
+  "timestamp": "2021-02-09T19:43:54Z",
+  "version": 4,
+  "changeset": 98997231,
+  "user": "Grinbert 🙂",
+  "uid": 11337276,
+  "tags": {
+    "name": "Blaubeerhöhle",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7713740998,
+  "lat": -5.9268353,
+  "lon": -77.3517820,
+  "timestamp": "2020-07-14T12:22:50Z",
+  "version": 1,
+  "changeset": 87977742,
+  "user": "devot",
+  "uid": 2889303,
+  "tags": {
+    "name": "Cueva de Palestina",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7713840588,
+  "lat": -5.7532406,
+  "lon": -77.5257920,
+  "timestamp": "2020-07-14T13:10:33Z",
+  "version": 1,
+  "changeset": 87979974,
+  "user": "devot",
+  "uid": 2889303,
+  "tags": {
+    "name": "Cueva del Diamante",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7713923814,
+  "lat": -5.9713033,
+  "lon": -77.3168539,
+  "timestamp": "2020-07-14T13:50:07Z",
+  "version": 1,
+  "changeset": 87981797,
+  "user": "devot",
+  "uid": 2889303,
+  "tags": {
+    "name": "Cueva del Viento",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7743122549,
+  "lat": -38.2681577,
+  "lon": 175.0783694,
+  "timestamp": "2026-05-27T11:50:20Z",
+  "version": 7,
+  "changeset": 183251943,
+  "user": "❤️‍🔥",
+  "uid": 10140394,
+  "tags": {
+    "name": "Ruakurī Cave",
+    "name:en": "Ruakurī Cave",
+    "name:mi": "Ruakurī",
+    "natural": "cave_entrance",
+    "ref:linz:place_id": "39026",
+    "source": "LINZ",
+    "source:name:mi": "AW Reed",
+    "wikidata": "Q25183325"
+  }
+},
+{
+  "type": "node",
+  "id": 7746558018,
+  "lat": 45.0241883,
+  "lon": 21.7748101,
+  "timestamp": "2025-11-08T13:17:26Z",
+  "version": 5,
+  "changeset": 174375844,
+  "user": "SomeoneElse_Revert",
+  "uid": 1778799,
+  "tags": {
+    "name": "Peștera Lenuța",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7807817048,
+  "lat": -5.7014840,
+  "lon": -77.9012966,
+  "timestamp": "2020-08-12T21:09:37Z",
+  "version": 1,
+  "changeset": 89322572,
+  "user": "devot",
+  "uid": 2889303,
+  "tags": {
+    "name": "Cueva del Rio Shatuca",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 7885338123,
+  "lat": 33.5068345,
+  "lon": -105.4934650,
+  "timestamp": "2024-10-02T02:39:20Z",
+  "version": 3,
+  "changeset": 157362038,
+  "user": "Kovirii",
+  "uid": 6836690,
+  "tags": {
+    "access": "permit",
+    "name": "Fort Stanton Cave",
+    "natural": "cave_entrance",
+    "note": "National Natural Landmark in the Fort Stanton - Snowy River Cave National Conservation Area managed by the U.S. Bureau of Land Management",
+    "operator": "BLM"
+  }
+},
+{
+  "type": "node",
+  "id": 8177727382,
+  "lat": 36.7942258,
+  "lon": -115.5693588,
+  "timestamp": "2020-11-30T00:05:39Z",
+  "version": 1,
+  "changeset": 95005800,
+  "user": "lizzyd710",
+  "uid": 11896050,
+  "tags": {
+    "name": "Pintwater Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8349784316,
+  "lat": 37.7095038,
+  "lon": -92.0659263,
+  "timestamp": "2021-01-22T16:59:31Z",
+  "version": 1,
+  "changeset": 97987812,
+  "user": "Moldy_Rats",
+  "uid": 10764284,
+  "tags": {
+    "name": "Miller Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8354378120,
+  "lat": 33.3300128,
+  "lon": 105.0050229,
+  "timestamp": "2021-01-23T11:16:08Z",
+  "version": 1,
+  "changeset": 98015550,
+  "user": "ff5722",
+  "uid": 3450290,
+  "tags": {
+    "name": "万象洞",
+    "name:en": "Wanxiang Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8358838507,
+  "lat": 1.2813451,
+  "lon": 29.8408180,
+  "timestamp": "2021-01-24T22:23:40Z",
+  "version": 1,
+  "changeset": 98077152,
+  "user": "Männedorf",
+  "uid": 105050,
+  "tags": {
+    "ele": "1200",
+    "name": "Matupi",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8422630011,
+  "lat": 38.1665995,
+  "lon": 13.1603094,
+  "timestamp": "2025-02-06T17:42:01Z",
+  "version": 4,
+  "changeset": 162217335,
+  "user": "kdkeller",
+  "uid": 43207,
+  "tags": {
+    "access": "permit",
+    "ele": "23 slm",
+    "fee": "no",
+    "name": "Grotta di Carburangeli",
+    "natural": "cave_entrance",
+    "wikidata": "Q33323877",
+    "wikipedia": "it:Riserva naturale integrale Grotta di Carburangeli"
+  }
+},
+{
+  "type": "node",
+  "id": 8755803759,
+  "lat": 39.2895186,
+  "lon": 8.4894513,
+  "timestamp": "2022-08-14T21:04:41Z",
+  "version": 3,
+  "changeset": 124903614,
+  "user": "dafadllyn",
+  "uid": 7494825,
+  "tags": {
+    "name": "Grotta Santa Barbara",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8944365518,
+  "lat": 31.0732882,
+  "lon": 109.9335114,
+  "timestamp": "2025-09-19T15:50:07Z",
+  "version": 4,
+  "changeset": 172170295,
+  "user": "rheins",
+  "uid": 2996489,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 8972797679,
+  "lat": 17.4393057,
+  "lon": -99.1594371,
+  "timestamp": "2023-12-04T18:04:21Z",
+  "version": 3,
+  "changeset": 144764941,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "access": "guided",
+    "description": "Visita sólo permitida con guía, puede contratarse en el pueblo de Colotlipa.",
+    "name": "Grutas de Juxtlahuaca",
+    "natural": "cave_entrance",
+    "wikidata": "Q974552",
+    "wikimedia_commons": "Category:Juxtlahuaca",
+    "wikipedia": "es:Grutas de Juxtlahuaca"
+  }
+},
+{
+  "type": "node",
+  "id": 9006583904,
+  "lat": 30.7495951,
+  "lon": 109.4691145,
+  "timestamp": "2021-08-14T12:53:14Z",
+  "version": 1,
+  "changeset": 109669323,
+  "user": "rheins",
+  "uid": 2996489,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9007272454,
+  "lat": 46.5316481,
+  "lon": 22.5943521,
+  "timestamp": "2025-11-08T13:16:44Z",
+  "version": 3,
+  "changeset": 174375844,
+  "user": "SomeoneElse_Revert",
+  "uid": 1778799,
+  "tags": {
+    "name": "Peștera Măgura",
+    "natural": "cave_entrance",
+    "source": "note"
+  }
+},
+{
+  "type": "node",
+  "id": 9054470052,
+  "lat": 44.8792914,
+  "lon": 22.6099634,
+  "timestamp": "2025-11-08T13:24:27Z",
+  "version": 4,
+  "changeset": 174376209,
+  "user": "SomeoneElse_Revert",
+  "uid": 1778799,
+  "tags": {
+    "name": "PESTERA CURECEA",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9098145258,
+  "lat": 25.0690681,
+  "lon": 103.3804266,
+  "timestamp": "2021-09-16T14:46:43Z",
+  "version": 1,
+  "changeset": 111295495,
+  "user": "rheins",
+  "uid": 2996489,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9186866184,
+  "lat": 38.3801461,
+  "lon": 67.2396794,
+  "timestamp": "2021-10-20T11:11:09Z",
+  "version": 1,
+  "changeset": 112739128,
+  "user": "Aka_Bob",
+  "uid": 415497,
+  "tags": {
+    "description": "Длина, м: 470\nАмплитуда, м: 35\nКатегория сложности:\nТип маршрута:\nГенезис: Карстовый\nВмещающие породы: Карбонатные, Известняк\nГеологический возраст вмещающих пород: J Юра",
+    "name": "пещера Вьюнок",
+    "name:ru": "пещера Вьюнок",
+    "natural": "cave_entrance",
+    "source": "https://speleoatlas.ru/caves/vyunok-12442/"
+  }
+},
+{
+  "type": "node",
+  "id": 9247925660,
+  "lat": 34.1969106,
+  "lon": 118.3383901,
+  "timestamp": "2021-11-13T15:43:04Z",
+  "version": 2,
+  "changeset": 113735112,
+  "user": "马陵秋月",
+  "uid": 9073438,
+  "tags": {
+    "name": "藏兵洞（西洞口）",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9249065418,
+  "lat": 41.4468862,
+  "lon": 31.9640002,
+  "timestamp": "2024-02-09T09:10:56Z",
+  "version": 3,
+  "changeset": 147247562,
+  "user": "tg4567",
+  "uid": 12500589,
+  "tags": {
+    "name": "Sofular Cave",
+    "natural": "cave_entrance",
+    "wikidata": "Q24915648",
+    "wikipedia": "en:Sofular Cave"
+  }
+},
+{
+  "type": "node",
+  "id": 9693174633,
+  "lat": 16.6467663,
+  "lon": -89.0767470,
+  "timestamp": "2022-04-25T18:30:07Z",
+  "version": 1,
+  "changeset": 120178853,
+  "user": "CharliePlett",
+  "uid": 4751364,
+  "tags": {
+    "name": "Kabal Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9753722102,
+  "lat": 12.5876973,
+  "lon": 54.3544798,
+  "timestamp": "2025-11-16T22:26:26Z",
+  "version": 4,
+  "changeset": 174748315,
+  "user": "VerneJules",
+  "uid": 22306302,
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "historic": "archaeological_site",
+    "name": "Hoq Cave",
+    "name:ar": "كهف الحق",
+    "name:en": "Hoq Cave",
+    "name:es": "Cueva de Hoq",
+    "name:fr": "Grotte de Hoq",
+    "name:it": "Grotta di Hoq",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q107288451",
+    "wikipedia": "es:Cueva de Hoq"
+  }
+},
+{
+  "type": "node",
+  "id": 9801979591,
+  "lat": 37.8537611,
+  "lon": 66.7344844,
+  "timestamp": "2022-10-30T15:06:29Z",
+  "version": 2,
+  "changeset": 128250851,
+  "user": "i_d_",
+  "uid": 461308,
+  "tags": {
+    "access": "permit",
+    "ele": "1260",
+    "fixme": "is fixed",
+    "name": "Zarautsay Cave",
+    "natural": "cave_entrance",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 9858176658,
+  "lat": 42.0874057,
+  "lon": -111.5187995,
+  "timestamp": "2026-01-15T14:26:08Z",
+  "version": 3,
+  "changeset": 177261424,
+  "user": "Xvtn",
+  "uid": 14249378,
+  "tags": {
+    "access": "permit",
+    "description": "A large limestone cave through which guided tours are offered. Lighting, walkways, and many stairs have been installed in the cave.",
+    "fee": "yes",
+    "name": "Minnetonka Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9887908804,
+  "lat": 31.7201832,
+  "lon": 110.4587437,
+  "timestamp": "2022-07-14T17:52:00Z",
+  "version": 1,
+  "changeset": 123619839,
+  "user": "rheins",
+  "uid": 2996489,
+  "tags": {
+    "name": "野人洞",
+    "name:en": "Wild Men Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9908902505,
+  "lat": 29.3769162,
+  "lon": 107.7337823,
+  "timestamp": "2022-08-03T23:27:48Z",
+  "version": 2,
+  "changeset": 124456228,
+  "user": "floverow",
+  "uid": 541675,
+  "tags": {
+    "access": "customers",
+    "fee": "yes",
+    "name": "虎穴探险",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9913438479,
+  "lat": 37.7181564,
+  "lon": -80.4362982,
+  "timestamp": "2022-11-30T12:10:34Z",
+  "version": 2,
+  "changeset": 129559289,
+  "user": "IknowJoseph",
+  "uid": 30587,
+  "tags": {
+    "name": "Organ Cave",
+    "natural": "cave_entrance",
+    "tourism": "attraction",
+    "wikidata": "Q7101750"
+  }
+},
+{
+  "type": "node",
+  "id": 9927050233,
+  "lat": 39.6949844,
+  "lon": 115.6497648,
+  "timestamp": "2022-08-02T12:59:37Z",
+  "version": 1,
+  "changeset": 124391427,
+  "user": "hikerake",
+  "uid": 16028222,
+  "tags": {
+    "name": "泄水洞",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 9958994170,
+  "lat": 46.1470523,
+  "lon": 11.0482688,
+  "timestamp": "2022-08-17T10:48:53Z",
+  "version": 1,
+  "changeset": 125011647,
+  "user": "GiuliaL",
+  "uid": 14961796,
+  "tags": {
+    "name": "Grotta Cesare Battisti",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10084842668,
+  "lat": 4.0649870,
+  "lon": 114.8313868,
+  "timestamp": "2022-10-28T11:46:44Z",
+  "version": 2,
+  "changeset": 128171642,
+  "user": "mataharimau",
+  "uid": 17227421,
+  "tags": {
+    "description": "Main exit for underground Clearwater River",
+    "name": "Clearwater Resurgence",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10110882090,
+  "lat": 34.8230554,
+  "lon": -86.0695630,
+  "timestamp": "2022-11-17T21:22:02Z",
+  "version": 2,
+  "changeset": 129060450,
+  "user": "seetag",
+  "uid": 7104482,
+  "tags": {
+    "access": "permit",
+    "fee": "no",
+    "name": "Tumbling Rock Cave",
+    "natural": "cave_entrance",
+    "website": "https://www.saveyourcaves.org/preserve?rowid=tumbling-rock-cave-preserve"
+  }
+},
+{
+  "type": "node",
+  "id": 10135300283,
+  "lat": 4.0980925,
+  "lon": 114.8538637,
+  "timestamp": "2022-10-28T15:42:57Z",
+  "version": 2,
+  "changeset": 128181038,
+  "user": "mataharimau",
+  "uid": 17227421,
+  "tags": {
+    "name": "Gua Metrik",
+    "name:en": "Metric Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10135300285,
+  "lat": 4.1221328,
+  "lon": 114.8719954,
+  "timestamp": "2022-10-28T15:42:57Z",
+  "version": 2,
+  "changeset": 128181038,
+  "user": "mataharimau",
+  "uid": 17227421,
+  "tags": {
+    "description": "Middle level entrance to Whiterock Cave system",
+    "name": "Whiterock Cave (Midnight Entrance)",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10135316701,
+  "lat": 4.0193263,
+  "lon": 114.8081589,
+  "timestamp": "2026-03-21T10:24:21Z",
+  "version": 2,
+  "changeset": 180198493,
+  "user": "FajrAl",
+  "uid": 2649988,
+  "tags": {
+    "name": "Fruit Bat Cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10302261247,
+  "lat": -17.4309075,
+  "lon": 125.0004888,
+  "timestamp": "2023-01-03T11:31:39Z",
+  "version": 1,
+  "changeset": 130822262,
+  "user": "steve91",
+  "uid": 637652,
+  "tags": {
+    "alt_name": "Tangalma Cave",
+    "name": "Carpenter's Gap 1",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10676966439,
+  "lat": 30.6083068,
+  "lon": -9.4794747,
+  "timestamp": "2023-04-04T10:36:07Z",
+  "version": 2,
+  "changeset": 134489389,
+  "user": "sempreingiro666",
+  "uid": 17974649,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10768872262,
+  "lat": 35.7269317,
+  "lon": 9.6847701,
+  "timestamp": "2023-03-28T14:26:06Z",
+  "version": 1,
+  "changeset": 134223247,
+  "user": "Petr Jenč",
+  "uid": 15169703,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10773895664,
+  "lat": -46.0184811,
+  "lon": 167.7405524,
+  "timestamp": "2023-03-30T18:12:23Z",
+  "version": 2,
+  "changeset": 134315492,
+  "user": "DunbarLoop",
+  "uid": 2032374,
+  "tags": {
+    "access": "yes",
+    "alt_name": "Clifden Caves",
+    "fee": "no",
+    "name": "Clifden Caves - Lower Entrance",
+    "natural": "cave_entrance",
+    "operator": "Department of Conservation",
+    "tourism": "attraction",
+    "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/clifden-area/?tab-id=Caving",
+    "wikidata": "Q5132503",
+    "wikipedia": "en:Clifden Limestone Caves"
+  }
+},
+{
+  "type": "node",
+  "id": 10903529963,
+  "lat": 42.9476210,
+  "lon": -5.1187640,
+  "timestamp": "2023-05-16T21:25:38Z",
+  "version": 1,
+  "changeset": 136186820,
+  "user": "miguelslmn",
+  "uid": 10224423,
+  "tags": {
+    "name": "Cueva de la Cabrera",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10905682924,
+  "lat": 44.0937497,
+  "lon": 10.1825080,
+  "timestamp": "2026-04-02T15:00:10Z",
+  "version": 5,
+  "changeset": 180772816,
+  "user": "simo_explorer",
+  "uid": 18469761,
+  "tags": {
+    "alt_name": "Buca sopra a Forno",
+    "cave:ref:IT:FST": "TO0272",
+    "name": "Buca della Renella",
+    "natural": "cave_entrance",
+    "plaque": "yes",
+    "source": "Catasto Grotte - Federazione Speleologica Toscana",
+    "source:url": "https://www.speleotoscana.it/scheda-catastale/?id=272"
+  }
+},
+{
+  "type": "node",
+  "id": 10926006942,
+  "lat": 42.5319432,
+  "lon": 0.0444207,
+  "timestamp": "2023-05-25T09:22:46Z",
+  "version": 1,
+  "changeset": 136534647,
+  "user": "Brice64",
+  "uid": 846358,
+  "tags": {
+    "name": "Manatuero",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 10969878099,
+  "lat": 34.3919311,
+  "lon": 36.0178184,
+  "timestamp": "2023-06-11T22:24:17Z",
+  "version": 1,
+  "changeset": 137221480,
+  "user": "jabal2017",
+  "uid": 6757071,
+  "tags": {
+    "name": "Zahlan Grotto",
+    "name:en": "Zahlan Grotto",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11135158274,
+  "lat": 15.2559540,
+  "lon": -90.2630071,
+  "timestamp": "2023-08-21T23:30:53Z",
+  "version": 1,
+  "changeset": 140203800,
+  "user": "pcabrerap",
+  "uid": 11902975,
+  "tags": {
+    "name": "Cueva de Chicoy",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11268539252,
+  "lat": 28.3807889,
+  "lon": 82.0086898,
+  "timestamp": "2023-10-17T05:56:32Z",
+  "version": 1,
+  "changeset": 142694751,
+  "user": "Gaurav Parajuli",
+  "uid": 8316170,
+  "tags": {
+    "name": "सिद्ध गुफा",
+    "name:en": "Siddha Gufa",
+    "name:ne": "सिद्ध गुफा",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11298621603,
+  "lat": 42.7336414,
+  "lon": -0.2735926,
+  "timestamp": "2023-10-29T20:06:14Z",
+  "version": 1,
+  "changeset": 143329489,
+  "user": "ansuta",
+  "uid": 3188422,
+  "tags": {
+    "name": "Cueva del Onso",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11300105382,
+  "lat": 30.7902977,
+  "lon": 77.7769496,
+  "timestamp": "2023-10-30T14:39:37Z",
+  "version": 1,
+  "changeset": 143369936,
+  "user": "Amit Tiwary",
+  "uid": 10215063,
+  "tags": {
+    "alt_name": "Biyar Udiyar",
+    "ele": "2310",
+    "name": "Gorcha cave",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11423443988,
+  "lat": -42.1310610,
+  "lon": 171.4069688,
+  "timestamp": "2023-12-16T20:19:43Z",
+  "version": 1,
+  "changeset": 145196282,
+  "user": "Luen Warneke",
+  "uid": 8780315,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11443521790,
+  "lat": 22.9663870,
+  "lon": 104.8117351,
+  "timestamp": "2023-12-22T14:34:11Z",
+  "version": 1,
+  "changeset": 145409123,
+  "user": "Swangsily",
+  "uid": 20663487,
+  "tags": {
+    "name": "曼棍洞",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11478460514,
+  "lat": -11.2456762,
+  "lon": -75.7946830,
+  "timestamp": "2024-01-02T10:00:49Z",
+  "version": 1,
+  "changeset": 145791007,
+  "user": "devot",
+  "uid": 2889303,
+  "tags": {
+    "name": "Sima de Racas Marca",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11520700149,
+  "lat": 16.9728752,
+  "lon": -88.9995064,
+  "timestamp": "2024-01-16T03:20:17Z",
+  "version": 1,
+  "changeset": 146305275,
+  "user": "CharliePlett",
+  "uid": 4751364,
+  "tags": {
+    "fee": "no",
+    "name": "Closing Jaw Cave",
+    "natural": "cave_entrance",
+    "note": "Cave and trail need to be verified"
+  }
+},
+{
+  "type": "node",
+  "id": 11687476904,
+  "lat": 39.5145813,
+  "lon": 3.3059456,
+  "timestamp": "2024-03-03T10:31:18Z",
+  "version": 1,
+  "changeset": 148159947,
+  "user": "RAMÓN ESPELEO",
+  "uid": 21021623,
+  "tags": {
+    "name": "cova de sa balma des cuartó",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11737465821,
+  "lat": 32.7145854,
+  "lon": 34.9741241,
+  "timestamp": "2026-09-22T18:57:11Z",
+  "version": 5,
+  "changeset": 189415866,
+  "user": "hatul",
+  "uid": 686490,
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "Oren",
+    "name:he": "מערת אורן",
+    "natural": "cave_entrance",
+    "website": "https://www.caves.co.il/מערה/מערת-אורן",
+    "wikidata": "Q26766939"
+  }
+},
+{
+  "type": "node",
+  "id": 11876346537,
+  "lat": 65.8959048,
+  "lon": 14.6601841,
+  "timestamp": "2024-05-03T12:05:57Z",
+  "version": 1,
+  "changeset": 150834083,
+  "user": "Sörbäckens FVO",
+  "uid": 12466827,
+  "tags": {
+    "name": "Schaktgrottan",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 11876859066,
+  "lat": 29.6610917,
+  "lon": 106.2955243,
+  "timestamp": "2024-05-03T16:18:16Z",
+  "version": 1,
+  "changeset": 150845786,
+  "user": "AntEntro",
+  "uid": 3497015,
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "historic": "archaeological_site",
+    "name": "果老寨遗址",
+    "natural": "cave_entrance",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 11954189744,
+  "lat": 44.3993640,
+  "lon": 4.2271104,
+  "timestamp": "2024-06-03T17:12:45Z",
+  "version": 1,
+  "changeset": 152209557,
+  "user": "aetius",
+  "uid": 3304613,
+  "tags": {
+    "name": "arche",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12080122765,
+  "lat": 40.4324719,
+  "lon": -0.5879256,
+  "timestamp": "2024-07-29T12:58:39Z",
+  "version": 1,
+  "changeset": 154561979,
+  "user": "Jordi MF",
+  "uid": 8278438,
+  "tags": {
+    "name": "La Cueva",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12150637414,
+  "lat": 32.0954841,
+  "lon": 119.2210791,
+  "timestamp": "2024-09-01T23:43:48Z",
+  "version": 1,
+  "changeset": 156074863,
+  "user": "scdhin",
+  "uid": 12900351,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12184077155,
+  "lat": 47.4458226,
+  "lon": 24.5271584,
+  "timestamp": "2024-09-18T13:13:07Z",
+  "version": 1,
+  "changeset": 156773161,
+  "user": "Speleos",
+  "uid": 6236067,
+  "tags": {
+    "access": "permit",
+    "ele": "950",
+    "fee": "no",
+    "name": "Peştera Tăuşoare",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12497973563,
+  "lat": 36.5479505,
+  "lon": 4.5382419,
+  "timestamp": "2025-01-13T12:57:18Z",
+  "version": 1,
+  "changeset": 161308755,
+  "user": "hendasa",
+  "uid": 417347,
+  "tags": {
+    "access": "yes",
+    "direction": "180",
+    "fee": "yes",
+    "name": "Grotte Tizi Maghlaz",
+    "name:ar": "مغارة تيزي مغلاز",
+    "name:fr": "Grotte Tizi Maghlaz",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12521313377,
+  "lat": 40.6223982,
+  "lon": 24.5396825,
+  "timestamp": "2025-01-21T20:35:46Z",
+  "version": 1,
+  "changeset": 161614644,
+  "user": "waldviertlerkartograph",
+  "uid": 915498,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12595360316,
+  "lat": 39.6399406,
+  "lon": -8.7589819,
+  "timestamp": "2025-02-17T10:24:48Z",
+  "version": 1,
+  "changeset": 162605106,
+  "user": "Cláudio Tereso",
+  "uid": 3071179,
+  "tags": {
+    "name": "Buraco Roto",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 12879668276,
+  "lat": 46.9699458,
+  "lon": 9.6540024,
+  "timestamp": "2025-06-01T21:24:27Z",
+  "version": 1,
+  "changeset": 167068363,
+  "user": "Heloks",
+  "uid": 11582591,
+  "tags": {
+    "access": "yes",
+    "fee": "no",
+    "name": "Eretsloch",
+    "natural": "cave_entrance",
+    "website": "https://www.praettigau.info/de/ausflugsziele/eretsloch-gruesch"
+  }
+},
+{
+  "type": "node",
+  "id": 13014990612,
+  "lat": -6.0414700,
+  "lon": -77.2969868,
+  "timestamp": "2025-07-21T07:54:27Z",
+  "version": 2,
+  "changeset": 169228248,
+  "user": "BTH",
+  "uid": 481447,
+  "tags": {
+    "name": "Cueva del Héctor",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13028255810,
+  "lat": 54.2154450,
+  "lon": -2.5104674,
+  "timestamp": "2025-11-19T01:15:35Z",
+  "version": 2,
+  "changeset": 174839281,
+  "user": "gurglypipe",
+  "uid": 161022,
+  "tags": {
+    "name": "Pippikin Pot",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13073296633,
+  "lat": 33.2753983,
+  "lon": 35.5777472,
+  "timestamp": "2025-08-15T22:04:53Z",
+  "version": 1,
+  "changeset": 170501024,
+  "user": "Ilanride22",
+  "uid": 2376044,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13093008192,
+  "lat": 66.7809622,
+  "lon": 14.1323737,
+  "timestamp": "2025-08-23T19:52:41Z",
+  "version": 1,
+  "changeset": 170897640,
+  "user": "aizelauna",
+  "uid": 125394,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13130638123,
+  "lat": 39.9329131,
+  "lon": 3.9661033,
+  "timestamp": "2025-09-09T09:58:36Z",
+  "version": 1,
+  "changeset": 171676650,
+  "user": "sanchi",
+  "uid": 170106,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13152004017,
+  "lat": 16.2980724,
+  "lon": -89.0906785,
+  "timestamp": "2025-09-18T01:50:00Z",
+  "version": 1,
+  "changeset": 172090491,
+  "user": "CharliePlett",
+  "uid": 4751364,
+  "tags": {
+    "fixme": "exact location unknown",
+    "name": "Actun Halen",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13169167192,
+  "lat": 43.4434565,
+  "lon": -5.1317632,
+  "timestamp": "2025-09-25T09:35:14Z",
+  "version": 1,
+  "changeset": 172430482,
+  "user": "Hugoren Martinako",
+  "uid": 3392826,
+  "tags": {
+    "name": "Cueva Rosa",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13307603920,
+  "lat": -15.1164861,
+  "lon": -44.2412366,
+  "timestamp": "2025-12-24T02:10:08Z",
+  "version": 2,
+  "changeset": 176333169,
+  "user": "ElementoGEO",
+  "uid": 1204081,
+  "tags": {
+    "name": "Gruta do Janelão",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13324454762,
+  "lat": 46.7880545,
+  "lon": 8.2894275,
+  "timestamp": "2025-11-22T15:44:26Z",
+  "version": 1,
+  "changeset": 174993957,
+  "user": "GeoAndi",
+  "uid": 16771983,
+  "tags": {
+    "fixme": "ungefähre Lage",
+    "name": "Bettenhöhle",
+    "natural": "cave_entrance",
+    "wikidata": "Q8304237",
+    "wikipedia": "de:Bettenhöhle"
+  }
+},
+{
+  "type": "node",
+  "id": 13404301868,
+  "lat": 40.4490760,
+  "lon": -0.4296389,
+  "timestamp": "2025-12-25T13:17:10Z",
+  "version": 1,
+  "changeset": 176394335,
+  "user": "Jordi MF",
+  "uid": 8278438,
+  "tags": {
+    "name": "Cima el Dómine",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13556252331,
+  "lat": 45.6925918,
+  "lon": 13.8916797,
+  "timestamp": "2026-02-13T16:39:57Z",
+  "version": 1,
+  "changeset": 178513221,
+  "user": "Paolo Zgn",
+  "uid": 7550190,
+  "tags": {
+    "ele": "480",
+    "name": "Bestažovca",
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13566719139,
+  "lat": 29.0355676,
+  "lon": 107.1898891,
+  "timestamp": "2026-02-15T14:39:25Z",
+  "version": 1,
+  "changeset": 178584924,
+  "user": "yangch10664",
+  "uid": 16651671,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13581390702,
+  "lat": 30.3028596,
+  "lon": 107.1867149,
+  "timestamp": "2026-02-19T16:32:12Z",
+  "version": 1,
+  "changeset": 178781128,
+  "user": "OverflowCat",
+  "uid": 12002686,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 13586189099,
+  "lat": 24.4893667,
+  "lon": 110.9597868,
+  "timestamp": "2026-02-21T05:36:09Z",
+  "version": 1,
+  "changeset": 178844224,
+  "user": "coloursofdiscovery",
+  "uid": 449630,
+  "tags": {
+    "natural": "cave_entrance"
+  }
+}
+
+  ]
+}
